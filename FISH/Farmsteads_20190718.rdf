@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147503">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">A farmstead where mostly detached buildings have developed around one side of an open cattle yard.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147378"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Loose Courtyard (One Sided)</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147503</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/159167">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building for the drying of corn after harvesting, with a slatted drying floor set above a kiln.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/159167</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Corn Drying Kiln</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147391"/>
+    <skos:altLabel xml:lang="en">Grain Drying Kiln</skos:altLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147415">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:scopeNote xml:lang="en">A tower for the airtight storage of freshly cut grass and its conversion into silage.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147415</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Silage Tower</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147426">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147392"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147426</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159263"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Farmhouse</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The main dwelling house of a farm, it can be either detatched from or attached to the working buildings. The house can either share the main elevation with the working buildings or may face in a different direction, commonly into a garden area.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147363"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147395"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159262"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147454">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">A building in which hops are dried and stored. Known as an Oasthouse or Oast in south east England.</skos:scopeNote>
+    <skos:altLabel xml:lang="en">Oast House</skos:altLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147454</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147391"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Hop Kiln</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Grain Drying Kiln</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147467">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147394"/>
+    <skos:prefLabel xml:lang="en">Cattle Housing</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147467</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147434"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147401"/>
+    <skos:scopeNote xml:lang="en">A structure providing secure housing for cattle. Use more specific type where known.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147388"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147412"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147393"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147497">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147497</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A building for the winter housing of yearling sheep, which can resemble a field barn or shelter shed.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Hogg House</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147433"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573">
+    <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147462"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:title xml:lang="en">Farmsteads Thesaurus</dcterms:title>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:description xml:lang="en">Thesaurus for indexing different types of farmsteads, related buildings, areas and layouts. This thesaurus does not contain any additional terminology than that held in Monument Type.</dcterms:description>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-18</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147369">
+    <skos:altLabel xml:lang="en">Fold Yard</skos:altLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147369</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A yard for cattle that has access to working buildings, usually cow houses, shelter sheds and barns.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Cattle Yard</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147542">
+    <skos:scopeNote xml:lang="en">A farmstead with multiple yards which are grouped together and regularly arranged (other than the defined E, F, H, T or Z plans). The yards may relate to one or more buildings or ranges which may be of either loose courtyard or regular courtyard form.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Regular Courtyard Multi Yard</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147542</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147405">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147405</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">Mass produced iron framed shed usually clad in metal sheeting.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Portal Framed Shed</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147427"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147461">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged as an E-shaped plan around two cattle yards. Cattle housing and stabling typically extend as three ranges from the longer main range which includes a barn or mixing house.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147461</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard E Plan</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/159168">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <skos:scopeNote xml:lang="en">Distinct from farmsteads, they either have no defined plan type or they fall into the categories of the smallest plan types. They are usually situated within areas of enclosure of common land and associated with areas of mining or quarrying.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/159168</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Smallholding</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147360">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147389"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147360</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A barn usually containing a single, central threshing floor and bays for storing the threshed corn.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Threshing Barn</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147385">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147385</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">An outlying farm or estate, usually belonging to a medieval religious order or feudal lord. Specifically related to core buildings and structures associated with monastic land holding. Use specific term where known.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Grange</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147443">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147443</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:prefLabel xml:lang="en">Goose House</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A structure providing secure housing for geese.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147425"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147377">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147377</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">A farmstead where the house and working buildings are attached and in-line. Can include Bastles, Longhouses and Laithe houses.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Linear Plan</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147509">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard T Plan</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147509</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged as two ranges at right angles to each other.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147433">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147498"/>
+    <skos:scopeNote xml:lang="en">Housing for sheep, in the form of a shelter shed with low eaves (very difficult to identify, but usually detached from the main farmyard and facing a detached series of yards).</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147433</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147394"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:prefLabel xml:lang="en">Sheep House</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Sheep Cote</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Bercerie</skos:altLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147497"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147456">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147409"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147499"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147395"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147389"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147427"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147370"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147380"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147415"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147363"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147396"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147371"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147392"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147414"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147397"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147398"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147423"/>
+    <skos:scopeNote xml:lang="en">A building used for an agricultural and/or subsistence purpose. Use more specific type where known.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147374"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147391"/>
+    <skos:prefLabel xml:lang="en">Agricultural Building</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147462"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147496"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147384"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147420"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147456</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147400">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147400</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Outfarm</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">A complex of buildings set within the fields away from the main farmstead, usually including a barn for corn and/or hay and cattle housing set around a yard.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147463">
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147376"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147402"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147463</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Plan Types</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147430"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147458"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147377"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147502"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/159263">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+    <skos:altLabel xml:lang="en">House Over Byre</skos:altLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Byre House</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147363"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/159263</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Bastle House</skos:altLabel>
+    <skos:altLabel xml:lang="en">Bastel House</skos:altLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Bastle (Non Defensive)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Byre Dwelling</skos:altLabel>
+    <skos:scopeNote xml:lang="en">A stone building with external access to the domestic accommodation via a permanent stair. The ground floor is normally used as a byre in rural contexts, but in an urban setting it may be intended for one of a number of other non domestic uses.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147367">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147367</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147427"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Waggon Shed</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Cart Shed</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A building used for housing and protecting from the weather carts, waggons and farm implements, often open-fronted.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147358">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147358</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A barn in which a central space is separated from side aisles by posts and braces.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Aisled Barn</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147381">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147381</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">An iron framed, open fronted building for the shelter of hay or corn. They typically date from the late 19th to the mid 20th centuries.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Dutch Barn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147398">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:scopeNote xml:lang="en">A building, usually part of another building and located close to the cattle yard, where grain, cake and roots for animals would be prepared for animal feed.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147398</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Mixing House</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147378">
+    <skos:scopeNote xml:lang="en">A farmstead where mostly detached buildings have developed around one or more sides of an open cattle yard.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147378</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147503"/>
+    <skos:prefLabel xml:lang="en">Loose Courtyard Plan</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147506"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147504"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147458"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147391">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159167"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A furnace or oven for burning, baking or drying. Use specific type where known.</skos:scopeNote>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147454"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:prefLabel xml:lang="en">Kiln</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147391</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147455">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The homestead of a farm consisting of a farmhouse and working farm buildings, with yards, other working areas and usually a garden to the house.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147455</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Farmstead</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147382"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147421"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147385"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147500"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147400"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147361">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147361</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A threshing barn which also houses farm animals and sometimes used to store grain, house carts and other functions.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <skos:prefLabel xml:lang="en">Combination Barn</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147423">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Well House</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147423</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">A building over a well housing machinery for raising the water.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147500">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Manorial Farm</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147500</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A medieval high status farmstead, acting as the centre of the estate, directly controlled by the lord and used for the benefit of his household and dependents.</skos:scopeNote>
+    <skos:altLabel xml:lang="en">Demesne Farm</skos:altLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147458">
+    <skos:prefLabel xml:lang="en">Courtyard Plan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147378"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147458</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">A farmstead where the working buildings are arranged around a yard.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147421">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147421</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Vaccary</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A monastic cattle farm with associated buildings, paddocks and pastures. A stock farm for cattle. Most vaccaries are of 12th or 13th century origin, and were built for ecclesiastical or lay lords. They are concentrated in the Pennines.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147462">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:prefLabel xml:lang="en">Agricultural Complexes And Buildings</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147462</dcterms:identifier>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147409">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147409</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">Room, usually part of another building and located close to the cattle yard, for storing and preparing roots and other animal feed.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Root And Fodder Store</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147466">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147466</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147425"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147433"/>
+    <skos:scopeNote xml:lang="en">A structure providing shelter for animals. Use more specific type where known.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147468"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147498"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147471"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Animal Housing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147459">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged as two linked ranges to create an L-shape. They can comprise a barn and an attached shelter shed to a cattle yard or an interlinked cattle housing and fodder range.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Regular Courtyard L Plan</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147459</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147419">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147419</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Toft</skos:prefLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The footprint of a house, sometimes raised or marked by earthworks where the house has been removed.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147471">
+    <skos:prefLabel xml:lang="en">Stabling</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147416"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">A structure providing secure housing for horses.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147471</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/159262">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147420"/>
+    <skos:prefLabel xml:lang="en">Bastle (Defensive)</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147363"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+    <skos:scopeNote xml:lang="en">A stone building with thick outer walls and small infrequent windows whose entrance and any internal stairs are capable of defence. Many contain stone vaulted ground floor ceilings although in some instances substantial timbers have been used.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/159262</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147379">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147510"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147460"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147459"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard Plan</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147542"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147507"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">A farmstead where the working buildings are carefully planned as linked ranges and are focused around one or more working yards. They often result from a single phase of building.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147379</dcterms:identifier>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147551"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147458"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147509"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147508"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147461"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147551">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged around all four sides of the yard.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Regular Courtyard Full Plan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147551</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147418">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147418</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Staddle Barn</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A threshing barn, usually timber framed which is raised on staddle stones.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147393">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Linhay</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A two storied and open fronted structure comprising a cattle or cart shelter on the ground floor with a hayloft above. Most common in South West England.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147393</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147392">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A linear range of one construction comprising a farmhouse with attached (but not internally linked) to its working buildings, usually with a large door to the barn for corn or hay and smaller doors to the cowhouse and/or stable.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147392</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Laithe House</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147359">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147381"/>
+    <skos:prefLabel xml:lang="en">Barn</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147359</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147398"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147358"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147382"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147362"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147360"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147418"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building for the storage and processing of grain crops and for housing straw, farm equipment and occasionally livestock and their fodder. Use more specific type where known.</skos:scopeNote>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147386"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147361"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147434">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147434</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="en">Byre</skos:altLabel>
+    <skos:scopeNote xml:lang="en">A building in which cattle are housed, normally tethered in stalls.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Cow House</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Calf House</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Hovel</skos:altLabel>
+    <skos:altLabel xml:lang="en">Shippon</skos:altLabel>
+    <skos:altLabel xml:lang="en">Cattle Shed</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147548">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147548</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:altLabel xml:lang="en">Fold Yard</skos:altLabel>
+    <skos:prefLabel xml:lang="en">Sheep Yard</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <skos:scopeNote xml:lang="en">A yard for sheep that typically projects from the farmstead.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147425">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Poultry Housing</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147394"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147441"/>
+    <skos:scopeNote xml:lang="en">Structures providing secure housing for poultry. Use more specific type where known.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Fowl House</skos:altLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147443"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147406"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147425</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147395">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+    <skos:altLabel xml:lang="en">Long House</skos:altLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147395</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Longhouse</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building that housed humans and cattle under one roof, with a shared entrance providing access to the cattle housing (usually downslope) and the dwelling area.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147371">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Cider House</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building, or part of a building, for the milling and pressing of cider apples to produce cider (or pears for perry) and for storing the drink in barrels.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:altLabel xml:lang="en">Ciderhouse</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147371</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147505">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147505</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A farmstead where mostly detached buildings have developed around three sides of an open cattle yard.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147378"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Loose Courtyard (Three Sided)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147420">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Tower House</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159262"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Peel Tower</skos:altLabel>
+    <skos:scopeNote xml:lang="en">A fortified tower house of between two and four storeys, mostly 14th - 16th century in date and concentrated in the northern border counties.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Pele Tower</skos:altLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147420</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147396">
+    <skos:scopeNote xml:lang="en">A low ceilinged building for the malting of barley before brewing, specifically for the germination of the crop on malting floors and then drying in a kiln.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147396</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Maltings</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147389">
+    <skos:altLabel xml:lang="en">Wheel House</skos:altLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147389</dcterms:identifier>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147360"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Horse Engine House</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:scopeNote xml:lang="en">A round or polygonal building containing a horse engine used for powering threshing, and other, machinery; typically found projecting from barns.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147496">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Boiling House</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building, or part of a building for the boiling and preparation of animal feed, usually attached to pigsties.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147496</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147502">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A farmstead where the farmhouse and working buildings are attached and in-line. They can comprise the extension of linear farmsteads.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147502</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <skos:prefLabel xml:lang="en">L Plan (House Attached)</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147507">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147507</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard F Plan</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged as an F-shaped plan around one or two cattle yards. Cattle housing and stabling typically extend as two ranges from the longer main range which includes a barn or mixing house.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147499">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147499</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A house for farm workers and their families.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:prefLabel xml:lang="en">Workers House</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147441">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:altLabel xml:lang="en">Chicken House</skos:altLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147441</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147425"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Hen Cote</skos:altLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Hen House</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">A structure providing secure housing for Hens.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147372">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147372</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Covered Yard</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A covered yard for the shelter of cattle that is attached to a building, first used on planned and model farms of the 1850s to 1870s. It became increasingly common from the 1880s to roof over former open yards with timber or metal-framed superstructures.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147416">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:prefLabel xml:lang="en">Stable</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147471"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147416</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">A building, or part of a building, for housing horses or working oxen, storing and maintaining their tackle and sometimes housing farm workers.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147460">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147460</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged around three sides of a yard which is open to one side.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard U Plan</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147410">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:altLabel xml:lang="en">Shielding</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <skos:scopeNote xml:lang="en">Summer pasture for cattle or sheep with associated temporary huts for domestic or agricultural use.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Shieling</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147410</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Sheiling</skos:altLabel>
+    <skos:altLabel xml:lang="en">Shealing</skos:altLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Shiel</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147394">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147468"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147394</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Loose Box</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147433"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147425"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">A separate compartment, with its own door, for fattening cattle and sometimes housing bulls.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147406">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147425"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Poultiggery</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A building combining a pigsty at ground level with a poultry house in a loft over.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147468"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147406</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147388">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A small roofed shelter for cattle without tethering point or stalls, but with a small yard attached. Mostly found in North East England.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Hemmel</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147388</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147376">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147376</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Dispersed Plan</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">A farmstead where the buildings and yards are loosely arranged, with no focal yard. Use more specific type where known.</skos:scopeNote>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147511"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147513"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147512"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147506">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147506</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A farmstead where mostly detached buildings have developed around four sides of an open cattle yard.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147378"/>
+    <skos:prefLabel xml:lang="en">Loose Courtyard (Four Sided)</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147547">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:prefLabel xml:lang="en">Horse Yard</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <skos:altLabel xml:lang="en">Fold Yard</skos:altLabel>
+    <skos:scopeNote xml:lang="en">A yard for horses that is attached to a stable range.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147547</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147373">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">An enclosed piece of land adjoining a house.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Croft</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147373</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147370">
+    <skos:prefLabel xml:lang="en">Chaff House</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147370</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">An area within a building (usually the barn or stable) for storing husks from the grain crop (chaff) for animal feed after it has been threshed and winnowed in the barn.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147401">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147401</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">A building, or part of a building, for housing draught oxen.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Ox House</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147498">
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147433"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147498</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Rams Pen</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:scopeNote xml:lang="en">Cubicles for housing rams, resembling pigsties with their own yard but slightly larger.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147546">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147548"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147547"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147546</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147417"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147369"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147372"/>
+    <skos:prefLabel xml:lang="en">Yard</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An area enabling general movement and access to the farmhouse and working buildings and for livestock, the storage of harvested crops, timber and other products.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147374">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Dairy</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A detached building, or more often a room within the farmhouse used for the cool storage of milk and making it into butter and/or cheese.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147374</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147384">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147384</dcterms:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">A building, or first-floor room in a building, for the dry and secure storage of  grain after it has been threshed and winnowed</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Granary</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147464">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147382"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <skos:prefLabel xml:lang="en">Agricultural Complex</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147373"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147410"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147400"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159168"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147462"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147464</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147504">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147504</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Loose Courtyard (Two Sided)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">A farmstead where mostly detached buildings have developed around two sides of an open cattle yard.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147378"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147417">
+    <skos:altLabel xml:lang="en">Rick Yard</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Stack Yard</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147546"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A farmyard or enclosure for the seasonal storage of stacks of hay, corn, peas etc.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147417</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147380">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Dovecote</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147380</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A building or part of a building used to house doves and pigeons, usually placed at a height above the ground, with openings and provision inside for roosting and breeding.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147382">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147464"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147455"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Field Barn</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147382</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">An isolated barn, cow house or shelter shed with a hayloft. Typically found in areas where farmsteads and fields were sited at a long distance from each other.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147430">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147430</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Row Plan</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:scopeNote xml:lang="en">A farmstead where the main range of working buildings are attached in-line and form a long row often facing a series of yards.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147404">
+    <skos:prefLabel xml:lang="en">Pigsty</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147468"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:altLabel xml:lang="en">Piggery</skos:altLabel>
+    <skos:scopeNote xml:lang="en">An enclosure for pigs that includes a covered pen and yard.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147404</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147386">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Hay Barn</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147386</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">An open-fronted building for the dry and well-ventilated storage of hay.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147468">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Pig Housing</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147394"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147404"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147468</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147406"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147466"/>
+    <skos:scopeNote xml:lang="en">A structure providing secure housing for pigs. Use more specific type where known.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147427">
+    <skos:prefLabel xml:lang="en">Shed</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A slight structure, or a modern wide span farm building, built for shelter or storage or for use as a workshop, either attached as a lean-to to a permanent building or separate. Use more specific type where known.</skos:scopeNote>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147427</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147412"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147367"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147510">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:scopeNote xml:lang="en">An uncommon form of a regular courtyard farmstead where the buildings are arranged in a Z-shaped form.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147510</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard Z Plan</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147362">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147362</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:scopeNote xml:lang="en">A multi-purpose, two-storey barn, built on a hillside with entrances at both levels to a first floor threshing barn and ground floor animal housing.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147359"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Bank Barn</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147397">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147397</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Mill</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:scopeNote xml:lang="en">A factory used for processing raw materials, such as corn to flour.</skos:scopeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147363">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147363</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159262"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/159263"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Bastle</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A stone building with stone flagged domestic accommodation above non-domestic ground floor accommodation, typically a byre. The domestic accommodation is accessible via an external ladder or stair, the non-domestic ground floor having a separate entrance.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147426"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147414">
+    <skos:prefLabel xml:lang="en">Silage Clamp</skos:prefLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147414</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147456"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">An airtight container for the storage of freshly cut grass and its conversion into silage.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147402">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147402</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">A farmstead, often of linear plan, where the working buildings are placed opposite and parallel to the house and attached working buildings with a relatively narrow space between.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Parallel Plan</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147463"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147512">
+    <skos:scopeNote xml:lang="en">A dispersed farmstead where buildings are arranged around scattered yards which can be loose or regular in their form.</skos:scopeNote>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147376"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Dispersed Multi Yard Plan</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147512</dcterms:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147508">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:prefLabel xml:lang="en">Regular Courtyard H Plan</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147508</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147379"/>
+    <skos:scopeNote xml:lang="en">Regular courtyard farmsteads where the buildings are arranged as an H-shaped plan, commonly with cattle housing to two or more cattle yards.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147412">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147467"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">An open fronted building facing onto a yard used for the sheltering of cattle.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147427"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147412</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Shelter Shed</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147511">
+    <skos:scopeNote xml:lang="en">A dispersed farmstead where buildings and yards (regular or loose courtyard in their form) are sited alongside a routeway</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Dispersed Driftway Plan</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147511</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147376"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/heritagedata/schemes/573/concepts/147513">
+    <skos:scopeNote xml:lang="en">A dispersed farmstead where the farm buildings and farmhouse are loosely grouped together within the boundary of the farmstead.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:07:02</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/573/concepts/147513</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/573"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/573/concepts/147376"/>
+    <skos:prefLabel xml:lang="en">Dispersed Cluster Plan</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </rdf:Description>
+</rdf:RDF>

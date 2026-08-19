@@ -1,0 +1,46 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://purl.org/dc/terms/> .
+
+<http://purl.org/heritagedata/schemes/10/concepts/68921> rdf:type ns0:Concept ;
+                                                         ns1:license <http://reference.data.gov.uk/id/open-government-licence> ;
+                                                         ns1:attributionURL <http://www.rcahmw.gov.uk> ;
+                                                         ns1:attributionName "RCAHMW"@en ;
+                                                         ns0:inScheme <http://purl.org/heritagedata/schemes/10> ;
+                                                         ns0:prefLabel "DOMESTIG"@cy ,
+                                                                       "DOMESTIC"@en ;
+                                                         ns0:narrower <http://purl.org/heritagedata/schemes/10/concepts/68923> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68925> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/508266> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/507611> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/500901> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/70815> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/91867> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68602> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/71409> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/507204> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68603> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68969> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/71741> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68795> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68970> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/136830> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68972> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68973> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/71676> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/93129> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68975> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/87921> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/71443> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68977> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68995> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/71425> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68807> ,
+                                                                      <http://purl.org/heritagedata/schemes/10/concepts/68996> ;
+                                                         ns0:scopeNote "This is the top term for the class. See DOMESTIC Class List for narrow terms."@en ;
+                                                         ns2:publisher <http://www.rcahmw.gov.uk> ;
+                                                         ns2:created "03/07/2006"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                         ns2:identifier "http://purl.org/heritagedata/schemes/10/concepts/68921" ;
+                                                         ns2:issued "2017-01-31T15:48:43"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+                                                         ns0:exactMatch <http://inspire.ec.europa.eu/codelist/NationalMonumentsRecordDesignationValue/domestic> .

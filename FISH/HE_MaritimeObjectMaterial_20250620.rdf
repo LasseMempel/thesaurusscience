@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#">
+
+  <skos:ConceptScheme rdf:about="http://purl.org/heritagedata/schemes/73">
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-06-20</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73</dc:identifier>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:title xml:lang="en">Historic England Maritime Object Material</dc:title>
+    <dc:description xml:lang="en">Originally used for recording the construction materials of maritime vessels and, where appropriate, their cargoes. Now generally used for recording the material of an object</dc:description>
+    <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/151858">
+    <skos:altLabel xml:lang="en">Glass Fibre</skos:altLabel>
+    <skos:altLabel xml:lang="en">Fiberglass</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/151858</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Fibreglass</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75361"/>
+    <skos:scopeNote xml:lang="en">A material made from extremely fine fibres of glass and is used as a reinforcing agent for many polymer products.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166986">
+    <skos:altLabel xml:lang="en">Cornelian</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166986</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Carnelian</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A brownishred mineral commonly used as a semiprecious gemstone. A variety of the silica mineral chalcedony coloured by impurities of iron oxide.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166989">
+    <skos:altLabel xml:lang="en">Utahlite</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166989</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Variscite</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A brownishred mineral commonly used as a semiprecious gemstone. A variety of the silica mineral chalcedony coloured by impurities of iron oxide.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/159154">
+    <skos:altLabel xml:lang="en">Aluminum</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/159154</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Aluminium</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A white ductile metal used, for example, in alloys, for instruments, and in aircraft construction.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75335">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75343">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75343</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Brass</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Easily formed metal alloy composed of copper and zinc.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75344">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75344</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Bronze</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Hard, corrosive alloy of copper and tin.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75351">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75351</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Copper Alloy</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An alloy where the predominant component metal is copper.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75390">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75390</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Pewter</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An alloy which is composed predominantly of tin (c.8599 percent).</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75404">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75404</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Steel</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A strong, durable alloy of iron and carbon.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/99959">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/99959</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Quartzite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Medium grained, hard, white/grey coloured stone consisting of quartz and often silica, produced by the metamorphosis of sandstone</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/143005">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/143005</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Lead Alloy</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Metal alloy with lead as the principal component.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75335</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Alloy</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/143865"/>
+    <skos:scopeNote xml:lang="en">A metallic substance made by combining two or more elements at least one of which is a metal. Use more specific terms where known.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75380">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75350">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75350</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Copper</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Metal used primarily for roofing and ornamental purposes, being lighter and stronger than lead.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75362">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75362</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Gold</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A malleable, ductile ferromagnetic metal widely used for structural and decorative purposes.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75369">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75369</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Iron</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A malleable, ductile ferromagnetic metal widely used for structural and decorative purposes.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75374">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75374</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Lead</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Metal used primarily for roof coverings and window fittings. It is easy to work, can be worked cold and does not rust which makes it suitable for holding or repelling water.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75401">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75401</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A precious metal of lustrous white colour with great malleability and ductility.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75410">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75410</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Tin</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A soft, lustrous lowmelting crystalline metallic element that is malleable and ductile at ordinary temperatures and that is used as a protective coating, in tinfoil, and in soft solders and alloys.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/143865"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/143960">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/143960</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Zinc</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Bluewhite metal, obtained from ore, and used commercially for roofing, galvanizing iron, or in alloys. Also used in the 19th century as sheathing for ship's hulls.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/159154"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171269">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171269</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Slag</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Waste material or dross separated from metals during smelting or refining.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75380</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Metal</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Class of elements and alloys that are characteristically lustrous,ductile, fusible and malleable. These are extracted from ore minerals originally existing in nature and processed before becoming a recognisable metal.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75337">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75337</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Amber</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A semiprecious, fossilised resin usually used for ornamentation and jewellery.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75381">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75337"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75345"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75346">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75346</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Chert</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard silica rich rock, black or brown coloured, commonly found in nodular form.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75348">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75348</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Clay</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A fine grained earth which becomes more plastic when water is added and can be moulded and dried to make bricks, tile, pottery, etc.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75349">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75349</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Concrete</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Composed of sand, stones or other aggregate and cement mixed with water which sets in a hard mass. The material is usually associated with modern building but was developed by Romans where cement was obtained from quicklime.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75357">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75357</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Enamel</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A coloured, glasslike substance (opaque or partially opaque) that is fused to the surface of metal or glass or pottery for decorative or protective purposes.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75358">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75358</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Faience</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A glasslike compound first made in ancient Egypt. It involves coating a core material of powdered quartz with a vitreous alkaline glaze. Also the name given to a tinglazed earthenware.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75359">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75359</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Flint</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Hard, durable, dark grey stone, the purest native form of silica, which can either be used decoratively or as a main material. Predominantly found in East Anglia and the South East.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75361"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75372">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75372</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Jet</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard, black form of lignite that takes a brilliant polish. It is used in jewellery and for ornamentation.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75386">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75386</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Obsidian</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A form of volcanic glass with similar properties to FLINT and often used in the manufacture of sharpedged tools.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75394"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75395"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/142972">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/142972</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Graphite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Crystalline allotropic form of carbon used in pencils, as a lubricant etc.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/146408">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/146408</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Alabaster</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Alabaster is a name applied to varieties of two distinct minerals: gypsum and calcite. The finer kinds of alabaster are employed as an ornamental stone, especially for internal decoration as it's softness allows it to be carved into elaborate forms.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/163222">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/163222</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Coal</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Use for objects made from coal or for stray finds of coal where the association with a wreck site is not proven and thus cannot be stated as either cargo or bunkers.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166988">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166988</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Plaster</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A building material used for coating walls and ceilings. Plaster can refer to gypsum plaster (also known as plaster of Paris), lime plaster, or cement plaster.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/166989"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166992">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166992</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Garnet</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A silicate mineral used since the Bronze Age as gemstones and abrasives. Found in many colours including red, orange, yellow, green, purple, brown, blue, black, pink and colourless.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166993">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166993</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Emerald</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A green coloured gemstone. A variety of the mineral beryl coloured green by trace amounts of chromium and sometimes vanadium.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170820">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170820</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Sapphire</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A blue coloured gem variety of the mineral corunndum, made up of aluminium oxide.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75381</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Mineral</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Natural inorganic substance possessing a definite chemical composition in a crystalline form.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75338">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75342"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75368">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75368</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Horn</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Horn is a hollow, bonelike projection consisting mainly of keratin, found on certain animals (sheep, cows, goats etc.)</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75376">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75376</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Leather</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Animal skin that has been hardened or treated by a tanning process.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75399">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75399</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Shell</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Hard, protective covering made largely of calcium salts secreted by soft bodied invertebrate animals.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75411"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170897">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170897</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Wool</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Animal fibre that consists of protein held together by lipids obtained from sheep.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75338</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Animal</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Material derived or formed from the corporeal parts of a member of the animal kingdom.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75385">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/142974">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/142974</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Ceramic</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard material formed by firing clay. For pottery, use POTTERY.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/144479"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/151858"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/169900">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/169900</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Rubber</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Elastic polymeric substance made from the latex of a tropical plant or synthetically.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/169986">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/169986</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Bakelite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An early plastic formed from a condensation reaction of phenol with formaldehyde which was developed by Leo Baekeland in 1907.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170108">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170108</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Paper</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A thin, flexible material made from the pulp of wood or other fibrous matter which is then pressed and dried to form sheets.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170109">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170109</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Charcoal</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The black, lightweight and porous residue of partly burnt wood.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/170838"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171263"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75385</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Object Material</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Materials used in the manufacture of objects.</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75339">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75342"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75339</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Antler</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A form of bone, which grows on the heads of members of the deer family and is shed annually. Antler can be used by man for a variety of purposes.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75342">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75339"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75342</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Bone</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75345">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171262">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75345"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171262</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Mortar</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A mixture of lime or more recently cement with sand and water used for bonding stones or bricks.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75345</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Cement</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Originally obtained by burning limestone to produce quicklime. Now a fine grey powder made from a mixture of limestone and clay used with water and sand to make mortar or with water, sand and aggregate to make concrete.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75353">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75394"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75353</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Earthenware</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A claybased ceramic fired at low kiln temperatures (c.8001200 degrees). Essentially, earthenwares are porous and require glazing for most applications. This term has been used interchangeably with TERRACOTTA and with POTTERY</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75394">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75353"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75408">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75394"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75408</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Terracotta</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Hard, unglazed, brown, versatile earthenware which can be used as a tile or moulded into statuary.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171210">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75394"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171210</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Porcelain</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Hard semitranslucent ceramic material made out of kaolin, quartz and feldspar which is biscuit fired at around 1000 degrees Celsius and glaze fired at around 1300 degrees Celsius.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75394</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Pottery</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A ceramic made from clay and fired in a kiln or oven. This term has been used interchangeably with EARTHENWARE and with TERRACOTTA</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75361">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75361</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Glass</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/151858"/>
+    <skos:scopeNote xml:lang="en">Transparent, hard substance made by fusing sodasilica which solidifies from a molten state.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75363">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75363</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Granite</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A hard, coarse grained, durable igneous rock. Can be used decoratively or as a main material. Found throughout the country.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75405">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75363"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75364">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75364</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Greenstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Geologist's term for any dark coloured, slightly metamorphosed igneous rock. Index with specific stone type where given.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75371"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75373">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75373</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Lava</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard, igneous rock formed from the cooling of molten volcanic magma.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75377">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75377</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Limestone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Sedimentary rock consisting mainly of calcium carbonate. Varying in grain size, colour and hardness, quarried and used throughout the country.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75379">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75379</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Marble</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Collective name for, in a true geological sense, a metamorphosed limestone, eg. Carrara marble, and, in the British sense any decorative stone that will take a polish, eg. Purbeck marble. In the latter's case index with specific stone type where given</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75396">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75396</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Sandstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Geologically sandstone consists of particles of quartz naturally cemented together by either silica, calcium or iron. It is this geological composition that accounts for the varying colours and grain sizes found in the many building sandstones.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75398">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75398</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Shale</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Soft, very fine grained, dark coloured, sedimentary rock which splits easily.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75403">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75403</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Slate</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Collective term for a hard, fine grained, dark coloured metamorphic rock, which splits easily; hence its common use as a roofing and flooring material, and a functional description for any rectangular, sheet, roofing material.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/142973">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/142973</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Dolerite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Coarse basaltic rock.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/143453">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/143453</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Schist</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Medium to coarse grained metamorphic rock, colour being determined by its dominant mineral. Often used for floor and wall claddin</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/146351"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/160192"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/164110"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/166986"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170068">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170068</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Amphibolite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A coarse grained metamorphic rock that is composed maily of green, brown or black amphibole minerals and plagioclase feldspar. Amphiboles are usually members of the hornblende group.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170069">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170069</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Siltstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A sedimentary rock primarily composed of silt sized particles.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170070">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170070</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Mudstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A sedimantary rock composed of fine grained clay particles. Flaky mudstone is called shale.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170837">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170837</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Argillite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A finegrained sedimentary rock composed mainly of indurated clay particles which is not as fissile as shale.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170892">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170892</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Soapstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A talcshist and type of metamorphic rock commonly used for carved stone objects. Also known as Steatite.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170893">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170893</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Andesite</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An extrusive igneous, volcanic rock, of intermediate composition, with aphanitic to porphyritic texture. In a general sense, it is the intermediate type between basalt and dacite.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171257"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171268">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171268</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Gritstone (Sandstone)</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Carboniferous sandstone varying in grain size from coarse to fine and in colour from white, yellow, pink to brown. When only Gritstone is mentioned, unless otherwise specified, assume it to be Gritstone (Sandstone), as this is the more common usage.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75405</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Stone</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Rock of definite form and size, usually artificially shaped.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75370">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75411"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75370</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Ivory</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A hard, white, finegrained substance forming the main part of the tusks of elephants, walruses, hippos and narwhals.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75411">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75370"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75338"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75411</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Tooth</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A hard, bonelike material obtained from animal teeth.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75371">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75371</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Jadeite</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/146351"/>
+    <skos:scopeNote xml:lang="en">A hard, translucent variety of jade which is rarer than the other varieties of nephrite as a result considered to be the best and very desirable.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75384">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75384</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Oak</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A native hardwood of the Beech family with hard and durable characteristics which traditionally made it appropriate for structural work.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75414">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75384"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/140448">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/140448</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Fir</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The wood of the evergreen coniferous tree characterized by single needlelike leaves and errect cones.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/141284">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/141284</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Elm</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard, durable wood obtained from trees of the genus Ulmus.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/141340">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/141340</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Pine</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A straightgrained, durable and often resinous timber obtained from trees of the genus Pinus.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/141973">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/141973</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Spruce</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A light, soft, moderatelystrong wood obtained from trees of the genus Picea.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/141974">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/141974</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Tamarac</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">North American wood, the name being applied either to the American Larch; or to the Black or Ridgepole Pine of inland areas; and the Scrub Pine of maritime regions.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/144473">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/144473</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Beech</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A deciduous tree in the family Fagaceae, native to temperate Europe, Asia, and North America.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/147357">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/147357</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Birch</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The timber from genus Betula, found in Europe and North America, particularly in northern regions.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/152383">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/152383</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Teak</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A strong durable wood originating in India and southeast Asia.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/160444">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/160444</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Ebony</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Dark and dense hardwood timber which may be sourced from various species of true ebony from southern Asia and Africa, but the name may also be given to dark hardwoods from elsewhere, e.g. the Americas.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/164107">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/164107</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Hazel</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A commonly coppiced wood from the genus Corylus.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/164394">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/164394</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Larch</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A deciduous conifer native to Britain and Europe supplying durable and waterproof timber suitable for shipbuilding features such as masts.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170819">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170819</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Ash</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A native, broadleaf tree of the Fraxinus species, native to Europe.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171271">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171271</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Alder</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Wood from trees of the genus Alnus in the birch family Betulaceae.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171264"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75414</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Wood</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A hard, compact, unprocessed, fibrous cellulose substance. The roots, trunks and branches of trees and shrubs consist of this tissue.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/75395">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75381"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/146359">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75395"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/146359</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Onyx</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Onyx is a cryptocrystalline form of quartz. It is a semiprecious stone that is usually cut as a cabochon, or into beads, and is also used for intaglios and cameos.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/166991">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75395"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/166991</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Amethyst</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A purple or violet variety of quartz often used in jewelry. Amethyst is a semiprecious stone which owes its violet colour to irridation, iron impurities, and the presence of  trace elements, which result in complex crystal lattice substitutions.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/75395</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Quartz</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Hard, transparent, often coloured mineral. Can be found on its own as crystals and veins but also as a major constituent of rocks such as granite. Often used decoratively.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171264">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75414"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171270">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171264"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171270</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Flax</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The fibrous stalks of the plant, Linum usitatissimum, which can be processed and used to manufacture linen.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171263"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171264</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Plant</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any material derived from a tree, shrub or herb of cellulose form, normally subsisting in soil and producing its food through photosynthesis.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/143865">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75380"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/143865</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Antimony</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75335"/>
+    <skos:scopeNote xml:lang="en">A metallic element often used in alloys and historically used in pottery and glassmaking, paints, enamelling, and in cosmetics and medicine. Often derived from its sulphite ore, stibnite.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/144479">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/144480">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/144479"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/144480</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Felt</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Fabric of fibrous materials consolidated by heat and mechanical action so that the fibres are matted together.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/144479</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Textile</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A woven or bonded fabric or cloth.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/146351">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/146351</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Jade</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75371"/>
+    <skos:scopeNote xml:lang="en">An ornamental green stone of the mineral nephrite.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/160192">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170818">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/160192"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170818</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Totternhoe Clunch</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A relatively hard type of chalk that is sufficiently strong for use as a building stone. Quarried at Totternhoe, Bedfordshire.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/160192</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Chalk</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Soft, white, porous sedimentary rock, a form of limestone composed of the mineral calcite.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/164110">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/164111">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/164110"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/164111</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Hertfordshire Puddingstone</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A conglomerate rock comprising well rounded flint pebbles in a very hard matrix of fine pale coloured sand, bound together by hard natural silica cement. The pebbles are usually coloured ochre or red and have black rims.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/164110</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Puddingstone</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Conglomerate consisting of rounded flint pebbles held together in a natural silica and sand cement.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170838">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171272">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/170838"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171272</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Plastic</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Any of large class of polymers based on synthetic resins or modified natural polymers which may be moulded, extruded or cast while soft or liquid, which then set rigidly or slightly elastic in form.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170838</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Hydrocarbon</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An organic chemical compound composed exclusively of hydrogen and carbon atoms.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/170896">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171257"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/170896</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Picrite</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A type of basalt rich in the mineral olivine.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171257">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/170896"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75405"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171257</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Basalt</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A dark finegrained volcanic rock that sometimes displays a columnar structure, typically composed largely of plagioclase with pyroxene and olivine.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/73/concepts/171263">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/75385"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/73/concepts/171264"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/73"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/73/concepts/171263</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-20T15:12:56</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Vegetal</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Pertaining to or deriving from a botanical living organism. Use narrower concepts where possible.</skos:scopeNote>
+  </skos:Concept>
+
+</rdf:RDF>

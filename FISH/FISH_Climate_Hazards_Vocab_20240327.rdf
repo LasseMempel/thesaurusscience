@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:cc="http://creativecommons.org/ns#">
+	<skos:ConceptScheme rdf:about="http://purl.org/heritagedata/schemes/38076">
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-03-27</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076</dc:identifier>
+		<dc:title xml:lang="en">FISH Climate Hazards Vocabulary</dc:title>
+		<dc:description xml:lang="en">This vocabulary of climate change hazards, the potential negative climate events that may cause damage or loss, builds on the Climatic Impact-Drivers defined by the Intergovernmental Panel on Climate Change creating a list of climate hazards for heritage.</dc:description>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7000"/>
+	</skos:ConceptScheme>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10100">
+		<skos:altLabel xml:lang="en">Increasing temperature</skos:altLabel>
+		<skos:altLabel xml:lang="en">Decreasing temperature</skos:altLabel>
+		<skos:altLabel xml:lang="en">Changing temperature</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10100</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Average temperature patterns</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing diurnal and seasonal temperature patterns.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10101">
+		<skos:altLabel xml:lang="en">Increasing humidity</skos:altLabel>
+		<skos:altLabel xml:lang="en">Decreasing humidity</skos:altLabel>
+		<skos:altLabel xml:lang="en">Changing humidity</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2050"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10101</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Average humidity patterns</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing diurnal and seasonal humidity patterns, including sustained high and low humidity events.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10102">
+		<skos:altLabel xml:lang="en">Salt crystallisation cycles</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10102</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Salt crystallization cycles</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Crystallization and dissolution of salts caused by wetting and drying cycles, temperature, and humidity fluctuations.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10103">
+		<skos:altLabel xml:lang="en">Biological colonization</skos:altLabel>
+		<skos:altLabel xml:lang="en">Biological colonisation</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2070"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5030"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6030"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6040"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6050"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10103</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Biological growth</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Change in typical biological growth patterns, such as changing levels of organisms, and mould, fungi, algae, and lichen growth. Does not include changing species distribution.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10104">
+		<skos:altLabel xml:lang="en">Invasive species</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6040"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6050"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10104</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Species distribution</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Expansion and contraction of typical species distribution patterns, includes invasive species.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20100">
+		<skos:altLabel xml:lang="en">Average rainfall</skos:altLabel>
+		<skos:altLabel xml:lang="en">Average rainfall patterns</skos:altLabel>
+		<skos:altLabel xml:lang="en">Decreasing rainfall</skos:altLabel>
+		<skos:altLabel xml:lang="en">Increasing rainfall</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20100</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Average precipitation patterns</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing diurnal and seasonal patterns of precipitation. Does not include high precipitation events.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20200">
+		<skos:altLabel xml:lang="en">River flooding</skos:altLabel>
+		<skos:altLabel xml:lang="en">Riverine flooding</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20200</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Fluvial flood</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Rising levels of water in rivers, streams or creeks.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20300">
+		<skos:altLabel xml:lang="en">Extreme rainfall</skos:altLabel>
+		<skos:altLabel xml:lang="en">Heavy rainfall</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2030"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20300</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Heavy precipitation event</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic events of heavy precipitation.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20301">
+		<skos:altLabel xml:lang="en">Surface water flooding</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2030"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20301</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Pluvial flood</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Localised flooding of low-lying areas due to heavy precipitation. Independent of nearby bodies of water.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20401">
+		<skos:altLabel xml:lang="en">Ground instability</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2040"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/204011">
+				<skos:altLabel xml:lang="en">Settling</skos:altLabel>
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20401"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/204011</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Subsidence</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Collapse or lowering of the ground due to soil shrinkage.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/204012">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20401"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/204012</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Soil heave</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Lifting of the ground due to the swelling of the soil.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20401</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Shrink-swell</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Volume changes in the soil as a result of changes in moisture content.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20800">
+		<skos:altLabel xml:lang="en">Forest fire</skos:altLabel>
+		<skos:altLabel xml:lang="en">Wildfire</skos:altLabel>
+		<skos:altLabel xml:lang="en">Bush fire</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2080"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20800</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Uncontrolled fire</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">A large unplanned fire, often spreading quickly.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20801">
+		<skos:altLabel xml:lang="en">Fire season</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2080"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20801</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Fire weather</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Diurnal and seasonal periods when fires are likely to start and spread.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30100">
+		<skos:altLabel xml:lang="en">Sea-level rise</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30100</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Sea level rise</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Rising mean sea surface height. Caused by melting ice sheets and glaciers and the expansion of seawater as it warms.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30101">
+		<skos:altLabel xml:lang="en">Storm flood</skos:altLabel>
+		<skos:altLabel xml:lang="en">Tidal surge</skos:altLabel>
+		<skos:altLabel xml:lang="en">Storm tide</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30101</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Storm surge</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Rise of sea level due to high storm winds.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30102">
+		<skos:altLabel xml:lang="en">Salt-water inundation</skos:altLabel>
+		<skos:altLabel xml:lang="en">Saltwater inundation</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30102</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Saltwater incursion</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Movement of saline waters into freshwater zones</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30301">
+		<skos:altLabel xml:lang="en">Coastal instability</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30301</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal landslide</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Rapid loss or movement of coastlines.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40100">
+		<skos:altLabel xml:lang="en">Increasing wind speed</skos:altLabel>
+		<skos:altLabel xml:lang="en">Decreasing wind speed</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40100</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Average wind speed</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing patterns in average wind speed.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40101">
+		<skos:altLabel xml:lang="en">Changing prevailing winds</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40101</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Average wind transportation patterns</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing patterns in average wind movement, such as changing directions of prevailing winds.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40200">
+		<skos:altLabel xml:lang="en">Wind gusts</skos:altLabel>
+		<skos:altLabel xml:lang="en">High winds</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40200</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Extreme wind speed</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Wind speed above typical levels.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40201">
+		<skos:altLabel xml:lang="en">Hail storm</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40201</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Hail</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Pellets of solid precipitation.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40300">
+		<skos:altLabel xml:lang="en">Hurricane</skos:altLabel>
+		<skos:altLabel xml:lang="en">Typhoon</skos:altLabel>
+		<skos:altLabel xml:lang="en">Cyclone</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40300</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Tropical cyclone</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Low-pressure systems forming over oceans characterised by high winds, heavy precipitation, and storm surge.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/103000">
+		<skos:altLabel xml:lang="en">Cold snap</skos:altLabel>
+		<skos:altLabel xml:lang="en">Cold spell</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10300"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/103000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Cold wave</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">A rapid fall in temperature.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/204001">
+		<skos:altLabel xml:lang="en">Rockslide</skos:altLabel>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20400"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/204001</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Rockfall</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Rockslide or fall due to geological mass movement.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/1010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10100"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10104"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/1010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Mean air temperture</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Mean surface air temperature and its diurnal and seasonal cycles.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/1000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1040"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/1000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Heat and Cold</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with air temperature.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/1020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10200">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10200</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Rapid humidity fluctuations</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Rapid changes in relative humidity levels, can be due to diurnal cycles or fast-moving weather systems.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10201"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/1020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Extreme heat</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic high air temperature events potentially exacerbated by humidity.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/1030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10300"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/1030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Cold spell</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic cold air temperature events potentially exacerbated by wind.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/1040">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10400">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10400</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Freeze-thaw cycles</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Diurnal or seasonal changes of freeze-thaw cycles.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10401">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10401</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Freeze-thaw events</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Freeze-thaw events.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10402"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/1040</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Frost</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Freeze and thaw events near the land surface and their seasonality.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20100"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20102"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Mean precipitation</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Mean precipitation and its diurnal and seasonal cycles.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2040"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2050"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2060"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2070"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2080"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Wet and Dry</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with precipitation or lack thereof.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20200"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">River flood</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic high water levels in streams and rivers driven by basin runoff and the expected seasonal cycle of flooding.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20300"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20301"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Heavy precipitation and pluvial flood</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic high rates of precipitation and resulting localized flooding of streams and flat lands.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2040">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20400"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20401"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2040</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Landslide (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Ground and atmospheric conditions that lead to geological mass movements, including landslide, mudslide and rockfall.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2050">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20102"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20500">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2050"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20500</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Desertification</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Long-term land degradation in which one of the three (biological productivity, ecological integrity or value to humans) is reduced or lost.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20501">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2050"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20501</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Desiccation</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Extreme drying of hygroscopic materials.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2050</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Aridity</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Mean conditions of precipitation and evapotranspiration compared to potential atmospheric and surface water demand, resulting in low mean surface water, low soil moisture and/or low relative humidity.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2060">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20601"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2060</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Hydrological drought</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic combination of runoff deficit and evaporative demand that affects surface water or groundwater availability.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2070">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20601"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2070</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Agricultural and ecological drought</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic combination of soil moisture supply deficit and atmospheric demand requirements that challenge the vegetation's ability to meet its water needs for transpiration and growth. Note:'agricultural' versus 'ecological' term depends on affected biome.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/2080">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20800"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20801"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/2080</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Fire weather (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Weather conditions conducive to triggering and sustaining wildfires, usually based on a set of indicators and combinations of indicators including temperature, soil moisture, humidity and wind. Fire weather does not include the presence or absence of fuel load. Note: distinct from wildfire occurrence and area burned.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/3010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30100"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30102"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/3010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Relative sea level</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">The local mean sea surface height relative to the local solid surface.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/3000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/3000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated primarily with the land and sea interface.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/3020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30200"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/3020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal flood</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Flooding driven by episodic high coastal water levels that result from a combination of relative sea level rise, tides, storm surge and wave setup.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/3030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30300"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30301"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/3030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal erosion (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Long term or episodic change in shoreline position caused by relative sea level rise, nearshore currents, waves and storm surge.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/4010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40100"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40101"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40102">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4010"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40102</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Wind-driven rain</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Rain and wind occurring together, giving rain a horizontal velocity.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/4010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Mean wind speed</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Mean wind speeds and transport patterns and their diurnal and seasonal cycles,</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/4000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4040"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/4000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Wind</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with atmospheric circulation and storms</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/4020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20300"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30200"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40200"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40201"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40202">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40202</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Thunderstorm</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">A storm with thunder and lightning. Sometimes causes hail, heavy rain, and high winds.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40203">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40203</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Tornado</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">A rotating column of air, connecting a cloud to the surface of the Earth.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40204">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40204</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Derecho</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">A group of thunderstorms causing long-lived straight-lined wind storms.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40205">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40205</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Extratropical cyclone</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Low-pressure systems occuring in middle latitutdes, capable of causing extreme precipitation, storm surges, extreme winds, sea level and wave build up.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40206"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/4020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Severe wind storm</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic severe storms including extratropical cyclones, thunderstorms, wind gusts, derechos and tornados.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/4030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40300"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/4030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Tropical cyclone (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Strong, rotating storm originating over tropical oceans with high winds, rainfall and storm surges.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/4040">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40400">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40400</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Sand storm</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Strong winds causing the transportation of sand and soil.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40401">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40401</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Dust storm</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Strong winds causing the transportation of dust and soil.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/4040</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Sand and dust storm</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Storms causing the tranpsort of soil and fine dust particles.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20101"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20200"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30100"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/30300"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50100">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50100</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Glacial melt</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Melting, shrinking, and calving of glaciers.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50101">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50101</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Extreme melt event</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Rapid melting of ice or snowpack.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50102"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50104"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Snow, glacier and ice sheet</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Snowpack seasonality and characteristics of glaciers and ice sheets including calving events and meltwater.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5050"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5060"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Snow and Ice</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with many aspects of the cryosphere which are regions with snow and ice.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10402"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50200">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50200</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Permafrost thaw</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Melting of the permafrost due to increasing global temperatures.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Permafrost</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Permanently frozen deep soil layers, their ice characteristics, and the characteristics of seasonally frozen soils above.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50104"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50300">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5030"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50300</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Ice extent</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Changing patterns of ice formations, often leading to previously frozen areas becoming ice-free.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Lake, river and sea ice</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">The characteristics and seasonality of ice formations on the ocean and freshwater bodies of water.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5040">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20200"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20301"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50400">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50400</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Heavy snowfall</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Higher than average snowfall events.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50401">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50401</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Freezing rain</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Rain that freezes upon contact with cold surfaces.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50402">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50402</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Ice storm</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Storm characterized by freezing rain.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50403">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50403</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Rain-on-snow</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Rainfall on existing snowpack.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5040</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Heavy snowfall and ice storm</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">High snowfall and ice storm events including freezing rain and rain-on-snow conditions.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5050">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50500">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5050"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50500</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Hail</skos:prefLabel>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5050</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Hail (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Storms producing solid hailstones.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/5060">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50600">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5060"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50600</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Avalanche</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Mass movement of snow, ice and rocks, often in mountainous areas.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/5060</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Snow avalanche</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Cryospheric mass movements and the conditions of collapsing snowpack.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10104"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/40206"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50103"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/60100">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/60100</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Ocean currents</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">The continuous patterns of seawater movement.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Mean ocean temperatures</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Mean temperature profile of ocean through the seasons, including heat content at different depths and associated stratification.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6040"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6050"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Open Ocean</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with ocean thermal structure and chemistry.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10104"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/60200">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6020"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/60200</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Marine heatwaves</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Episodes of extreme high ocean temperatures.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Marine heatwaves (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic extreme ocena temperatures.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/50102"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Ocean acidity</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Profile of ocean water pH levels and accompanying concentrations of carbonate and bicarbonate ions.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6040">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10104"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/60400">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6040"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/60400</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Ocean salinity</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Amount of salt dissolved in sea water.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6040</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Ocean salinity (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Profile of ocean salinity and assoicated seasonal stratification. Note: distinct from salinization of freshwater resources.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/6050">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10104"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/60500">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6050"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/60500</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Low oxygen events</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Episodes of extreme low oxygen levels in the ocean.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/60501">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6050"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/60501</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Dissolved Oxygen</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Fluctuations in concentration of dissolved oxygen in seawater.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/6050</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Dissolved Oxygen (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Profile of ocean water-dissolved oxygen and episodic low oxygen events.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/7010">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7000"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/70100">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7010"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/70100</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Air pollution weather</skos:prefLabel>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/7010</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Air pollution weather (CID type)</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Atmospheric conditions that increase the likelihood of high particulate matter or ozone concentrations or chemical processes generating air pollutants. Note: distinct from aerosol emissions or air pollution concentrations themselves.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/7000">
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7010"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7020"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/7000</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Climatic Impact-Drivers associated with atmospheric chemistry and radiation.</skos:scopeNote>
+		<skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/7020">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/7020</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Atmospheric CO2 at surface</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Concentration of atmospheric carbon dioxide (CO2) at the surface. Note: distinct from overall radiative effect of CO2 as greenhouse gas.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/7030">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/7000"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10103"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/7030</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Radiation at surface</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Balanace of net shortwave, longwave and ultraviolet radiation at the Earth's surface and their diurnal and seasonal patterns.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10201">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1020"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/102000">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/10201"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/102000</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Heat wave</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">An extended period of high temperatures.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10201</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">High temperature events</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">High temperature events, including heat waves.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10300">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1030"/>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/103000"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10300</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Low temperature events</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Low temperature events. Includes the effects of wind-chill, does not include snow and ice conditions.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/10402">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/1040"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/10402</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Frost heave</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Lifting of the soil due to swelling caused by the pressure of ice moving towards the surface of the ground.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20101">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20101</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Groundwater flooding</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Flooding caused by sustained high water table levels.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20102">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2050"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2060"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20102</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Water table</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Fluctuation in water table levels.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20400">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2040"/>
+		<skos:narrower>
+			<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/204000">
+				<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/20400"/>
+				<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+				<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/204000</dc:identifier>
+				<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+				<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+				<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+				<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+				<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+				<skos:prefLabel xml:lang="en">Mudslide</skos:prefLabel>
+				<skos:scopeNote xml:lang="en">Mass movement of fine or liquified debris.</skos:scopeNote>
+			</skos:Concept>
+		</skos:narrower>
+		<skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/204001"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20400</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Landslide</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">A geological mass movement of soil, debris, mud or rocks</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/20601">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2060"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/2070"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/20601</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Drought</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">A period of drier-than-normal conditions for the area and season.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30200">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30200</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal flooding</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Episodic flooding of coastal areas. Connected to rising sea levels, storm surges, wave action, and high tides.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/30300">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/3030"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/30300</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Coastal erosion</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Long term or episodic changes of shorelines. Caused by storms, rising sea levels, wave action, tides, wind-driven rain, ocean currents, and ice.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/40206">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/4020"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/40206</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Wave action</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Wave movement and the related changes in connected forces (for example, buoyancy or hydrostatic force).</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50102">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50102</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Acidification</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing levels of water pH.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50103">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/6010"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50103</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Water temperature</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Changing water temperatures.</skos:scopeNote>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://purl.org/heritagedata/schemes/38076/concepts/50104">
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5010"/>
+		<skos:broader rdf:resource="http://purl.org/heritagedata/schemes/38076/concepts/5030"/>
+		<skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/38076"/>
+		<dc:identifier>http://purl.org/heritagedata/schemes/38076/concepts/50104</dc:identifier>
+		<dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T16:28:01</dc:issued>
+		<cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+		<cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+		<cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+		<dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+		<skos:prefLabel xml:lang="en">Shoreline erosion</skos:prefLabel>
+		<skos:scopeNote xml:lang="en">Destabilisation of shorelines.</skos:scopeNote>
+	</skos:Concept>
+</rdf:RDF>

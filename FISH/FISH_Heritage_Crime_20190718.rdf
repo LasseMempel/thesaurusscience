@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159360">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159360</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Assault (Custodian)</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="http://purl.org/heritagedata/schemes/596">
+        <dcterms:title xml:lang="en">Heritage Crime Thesaurus</dcterms:title>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:description xml:lang="en">Thesaurus for indexing types of crime and incidents against heritage assets (e.g. graffiti, theft, unauthorized diving).</dcterms:description>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596</dcterms:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-18</dcterms:issued>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A crime of violence against the custodian of a heritage site. Double index with the type and severity of the assault if known).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152680">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152680</dcterms:identifier>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152679">
+        <skos:prefLabel xml:lang="en">Environmental Crime</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152682"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:scopeNote xml:lang="en">Illegal acts which directly harm the environment.</skos:scopeNote>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152680"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152679</dcterms:identifier>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152681"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+      </skos:Concept>
+    </skos:broader>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163253">
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159123"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152680"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152658"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152706"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152694"/>
+        <skos:prefLabel xml:lang="en">Anti Social Behavior (Environmental)</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152681"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152704"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152705"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152682"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152701"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152709"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152692"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152700"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152707"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152684"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163253</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152683"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163250"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152693"/>
+      </skos:Concept>
+    </skos:broader>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The illegal deposit of any waste onto land that is not  licensed to accept waste.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Fly Tipping</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163231">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163231</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The illegal removal of bronze external fittings or artefacts from heritage assets.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Bronze Theft</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152655">
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163231"/>
+        <skos:prefLabel xml:lang="en">Metal Theft</skos:prefLabel>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152652"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:scopeNote xml:lang="en">The illegal removal of structural metal fittings, such as a lead roof or cast iron drainpipes, from heritage assets.</skos:scopeNote>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152655</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163233"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163234"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163232"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163236"/>
+      </skos:Concept>
+    </skos:broader>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152696">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Airgun Misuse</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152695">
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163255"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152696"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Firearm Misuse</skos:prefLabel>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163254"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152695</dcterms:identifier>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:scopeNote xml:lang="en">The improper use of a firearm in a public place and/or the use of a firearm to threaten or inflict violence or harm.</skos:scopeNote>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+      </skos:Concept>
+    </skos:broader>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The improper use of a airgun in a public place and/or the use of a firearm to threaten or inflict violence or harm.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152696</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152689">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Begging</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152689</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Panhandling</skos:altLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152660">
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159351"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152715"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152695"/>
+        <skos:prefLabel xml:lang="en">Nuisance Behaviour</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152692"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152690"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152660</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159394"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152700"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152689"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159123"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152693"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152697"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152677"/>
+        <skos:scopeNote xml:lang="en">Behaviour that is either irritating, irksome and/or harmful or offensive to the public for which there is a legal remedy.</skos:scopeNote>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152716"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152678"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152694"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:scopeNote xml:lang="en">The act of attempting to secure material benefits from others in a public place.</skos:scopeNote>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163252">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163252</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">Anti Social Behavior (Nuisance)</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152695"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152716"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152690"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152677"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152697"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159351"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152715"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163250"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152678"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152689"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159355">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Urban Exploration</skos:prefLabel>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152691">
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152691</dcterms:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159355"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159375"/>
+        <skos:prefLabel xml:lang="en">Unauthorized Access</skos:prefLabel>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:scopeNote xml:lang="en">The act of causing damage to a standing heritage asset by climbing upon its structure.</skos:scopeNote>
+      </skos:Concept>
+    </skos:broader>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">The exploration of the normally unseen or off-limits parts of heritage sites without the permission of the owner.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159355</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152652">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152652</dcterms:identifier>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152655"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Theft</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152651">
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:prefLabel xml:lang="en">Removal Of Objects</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159392"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152652"/>
+        <skos:scopeNote xml:lang="en">The illegal removal of cultural objects from a heritage asset.</skos:scopeNote>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159378"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152651</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152701"/>
+      </skos:Concept>
+    </skos:broader>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">The illegal taking of another person's property without that person's freely-given consent. Theft covers the illegal removal of artefacts from archaeological sites and the removal of lead and other architectural fittings from standing heritage assets.</skos:scopeNote>
+    <skos:related>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159381">
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159381</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:prefLabel xml:lang="en">Equipped To Commit Crime</skos:prefLabel>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152641"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152650"/>
+        <skos:scopeNote xml:lang="en">Being apprehended in a public place whilst in possession of the equipment required to commit a particular type of crime.</skos:scopeNote>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152652"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152653">
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152653</dcterms:identifier>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:prefLabel xml:lang="en">Architectural Theft</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The illegal removal of architectural features from heritage assets.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152652"/>
+      </skos:Concept>
+    </skos:narrower>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152654">
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152654</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:prefLabel xml:lang="en">Cultural Theft</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152652"/>
+        <skos:scopeNote xml:lang="en">The illegal removal of fittings and internal furnishings from heritage assets.</skos:scopeNote>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152665">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">A crime of violence against a volunteer at a heritage site. Double index with the type and severity of the assault if known).</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152662">
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152662</dcterms:identifier>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159364"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152664"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159361"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:scopeNote xml:lang="en">A crime of violence against another person. Use more specific type where known.</skos:scopeNote>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152665"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159362"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159363"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:prefLabel xml:lang="en">Assault</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Assault (Volunteer)</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152665</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159375">
+    <skos:scopeNote xml:lang="en">The act of diving a wreck site that has been designated, under either the Protection of Wrecks Act 1973 or the Protection of Military Remains Act 1986, without a license.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:related>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159392">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:altLabel xml:lang="en">Wrecking</skos:altLabel>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159392</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">Unauthorized Salvaging</skos:prefLabel>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152651"/>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159375"/>
+        <skos:scopeNote xml:lang="en">The act of removing cultural artefacts from a wreck site that has been designated, under either the Protection of Wrecks Act 1973 or the Protection of Military Remains Act 1986, without a license.</skos:scopeNote>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+      </skos:Concept>
+    </skos:related>
+    <skos:prefLabel xml:lang="en">Unauthorized Diving</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159375</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152691"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159373">
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159372">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152704"/>
+        <skos:prefLabel xml:lang="en">Badger Disturbance</skos:prefLabel>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159372</dcterms:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159373"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:scopeNote xml:lang="en">The act disturbing a Badger sett without a licence.</skos:scopeNote>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+      </skos:Concept>
+    </skos:broader>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152685">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159373"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152709"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152701"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:prefLabel xml:lang="en">Natural Environment</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Illegal actions that impact directly upon the natural environment.</skos:scopeNote>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152704"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152707"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152685</dcterms:identifier>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152705"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152706"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+      </skos:Concept>
+    </skos:broader>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159394">
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159373"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159394</dcterms:identifier>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152705"/>
+        <skos:scopeNote xml:lang="en">Any sport that has been deemed illegal due to it either involving abuse against people or animals or becuase the sport is violent and/or dangerous in nature.</skos:scopeNote>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:prefLabel xml:lang="en">Illegal Sports</skos:prefLabel>
+      </skos:Concept>
+    </skos:broader>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159373</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">An illegal blood sport in which badgers are forced to fight a sucession of dogs.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Badger Baiting</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152716">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152716</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">Disorderly and noisy behaviour.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Rowdiness</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152705">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <skos:scopeNote xml:lang="en">The illegal or unlicensed shooting of animals with firearms or bow weapons.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159394"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <skos:prefLabel xml:lang="en">Wildlife Shooting</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152705</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152684">
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152656">
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152684"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152683"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152658"/>
+        <skos:scopeNote xml:lang="en">The anti-social use of a vehicle and nuisance caused by behaviour associated with vehicle usage.</skos:scopeNote>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+        <skos:prefLabel xml:lang="en">Inappropriate Use Of Vehicles</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152656</dcterms:identifier>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152671"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+      </skos:Concept>
+    </skos:broader>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">The act of disposing of a vehicle in a place where it is illegal to leave it.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152684</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <skos:prefLabel xml:lang="en">Abandoned Vehicle</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159369">
+    <skos:prefLabel xml:lang="en">Voyeurism</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The act of obtaining sexual stimulation from the covert observation of the sexual organs or actions of others.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159369</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152663">
+        <skos:prefLabel xml:lang="en">Public Sex Environment</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152667"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159364"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152663</dcterms:identifier>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159397"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152669"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159369"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:scopeNote xml:lang="en">Sexual acts that take place in public or semi-public places.</skos:scopeNote>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152666"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159371"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+      </skos:Concept>
+    </skos:broader>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:altLabel xml:lang="en">Peeping Tom</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159396">
+    <skos:scopeNote xml:lang="en">The littering of sites with items used for and relating to the taking of illegal drugs such as syringes, cigarette rolling papers, crack pipes etc.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159396</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152681">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Littering</skos:prefLabel>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152681</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159397"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:scopeNote xml:lang="en">The action of throwing or dropping litter onto the ground rather than disposing of it properly.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152679"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159396"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+      </skos:Concept>
+    </skos:broader>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Drug Paraphanalia</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159364">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159364</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Rape</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:scopeNote xml:lang="en">The intentional touching of another in a sexual manner where the perpetrator does not believe that the other party consents to their actions. Created by section 3 of the Sexual Offences Act 2003.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Sexual Assault</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152666">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">Groups of people who meet to perform group sex. Such activity can occur amongst people of all sexual orientations and genders. Group sex may take place in public for example, at nude beaches, secluded heritage assets or outdoor events or nightclubs.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152666</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Sex Groups</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Dogging</skos:altLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152682">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Fly Posting</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152679"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159397">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:scopeNote xml:lang="en">The littering of sites with items used for and relating to sexual acts, such as condoms and/or the advertisment of sexual services, such as calling cards etc.</skos:scopeNote>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159397</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152681"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152682"/>
+        <skos:prefLabel xml:lang="en">Sexual Paraphanalia</skos:prefLabel>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+      </skos:Concept>
+    </skos:related>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152682</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">The illegal placing of posters or flyers on private property without the consent of the property owner.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152668">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152668</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Prostitution</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The act of prostituting a person or oneself for sexual activity in return for payment.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152667">
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152668"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152667</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">The provision of sex services by sex workers who are paid to engage in sexually explicit behavior with clients; for example prostitutes or escorts.</skos:scopeNote>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159368"/>
+        <skos:prefLabel xml:lang="en">Sex Working</skos:prefLabel>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152686">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">Any works that take place to a heritage asset that have not been authorized. Use more specific type where known.</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159398">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Breach Of Condition</skos:prefLabel>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159398</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:scopeNote xml:lang="en">The act of breaching the conditions set when scheduled monument consent/listed building consent was granted.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152688">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Unlicensed Excavation</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The act of causing damage to and/or the destruction of archaeological deposits at a heritage assest by means of unauthorized excavation work.</skos:scopeNote>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152688</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Unauthorized Acts</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152686</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159400">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">False Certificate On Application For Consent</skos:prefLabel>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159400</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159401">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <skos:prefLabel xml:lang="en">Non Compliance With Enforcement Notice</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159401</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152687">
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159378"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152687</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">The use of a metal detector at a heritage asset. Use more specific type where known.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <skos:prefLabel xml:lang="en">Unauthorized Metal Detecting</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159376"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159377"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159402">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:prefLabel xml:lang="en">Contravention Of Discontinuance Of Use</skos:prefLabel>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159402</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159399">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:scopeNote xml:lang="en">The act of continuing on site works to either a scheduled monument or a listed building after notice has been given to cease all on site works.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159399</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">Contravention Of Stop Notice</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152640">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152686"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152670"/>
+        <skos:prefLabel xml:lang="en">Damage</skos:prefLabel>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152650"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152651"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152641"/>
+        <skos:scopeNote xml:lang="en">Activities that can result in physical damage to a heritage asset.</skos:scopeNote>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152656"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152640</dcterms:identifier>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+      </skos:Concept>
+    </skos:broader>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152683">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <skos:prefLabel xml:lang="en">Illegal Parking</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152683</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The act of leaving a vehicle in a place where parking prohibited or at a time when parking is restricted.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152656"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159376">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Metal Detecting (Removal Of Artefacts)</skos:altLabel>
+    <skos:altLabel xml:lang="en">Artefact Theft</skos:altLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Removal Of Artefacts</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159376</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">The use of a metal detector at a heritage asset which has resulted in the location and removal of artefacts without consent.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152687"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159362">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Grievous Bodily Harm</skos:altLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159362</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Serious Assault</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The unlawful infliction of bodily harm upon another person.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152678">
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152661">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:prefLabel xml:lang="en">Substance Misuse</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152677"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152661</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152678"/>
+        <skos:scopeNote xml:lang="en">The improper use of legal and/or illegal substances with the intention to achieve intoxicating effects.</skos:scopeNote>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The improper use of legal and/or illegal drugs with the intention to achieve intoxicating effects.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152678</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152690">
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:scopeNote xml:lang="en">The illegal distribution and sale of substances which are subject to drug prohibition laws.</skos:scopeNote>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:prefLabel xml:lang="en">Drug Dealing</skos:prefLabel>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152690</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152678"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+      </skos:Concept>
+    </skos:related>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:prefLabel xml:lang="en">Drug Misuse</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159374">
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163250">
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:prefLabel xml:lang="en">Anti Social Behavior</skos:prefLabel>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163250</dcterms:identifier>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163251"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152656"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159374</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152710">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Intimidation</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159359"/>
+        <skos:scopeNote xml:lang="en">The action of causing a person to fear injury or harm.</skos:scopeNote>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <skos:altLabel xml:lang="en">Threatening Behaviour</skos:altLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159358"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:altLabel xml:lang="en">Harrassment</skos:altLabel>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152710</dcterms:identifier>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163251"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152691"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152679"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159122">
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159122</dcterms:identifier>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:scopeNote xml:lang="en">The act of trading in cultural property which has been stolen, illegally excavated or illegally imported.</skos:scopeNote>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159374"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:prefLabel xml:lang="en">Illegal Artefact Dealing</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Crime</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159381"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152661"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159378">
+    <skos:prefLabel xml:lang="en">Nighthawking</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152687"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152651"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159378</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The illicit use of metal detectors on archaeological sites, or sites of archaeological significance. An activity usually undertaken at night with the intention of stealing artifacts from the ground which are then often sold for personal profit.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159368">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Kerb Crawling</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159368</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The practice of driving slowly by the side of a road with the intention of either harassing or soliciting prostitutes for sex.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152667"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152709">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The act of illegally removing the eggs of protected species of birds from their nests.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152709</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Bird Egg Removal</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152675">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152675</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Off Road Motorcycle Use</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152658">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152658</dcterms:identifier>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152674"/>
+        <skos:scopeNote xml:lang="en">The illicit driving of a vehicle over natural terrain or archaeologically sensitive areas where such activity is not permitted.</skos:scopeNote>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152676"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+        <skos:prefLabel xml:lang="en">Off Roading</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152675"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152656"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:scopeNote xml:lang="en">The illicit riding of a motorcycle over natural terrain or archaeologically sensitive areas where such activity is not permitted.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159351">
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:scopeNote xml:lang="en">The practice of alternative religous activities.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159351</dcterms:identifier>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Ritual Activity</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159123">
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Public Defecation</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159123</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <skos:related>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152692">
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159123"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+        <skos:scopeNote xml:lang="en">The passing of urine from the body in a public place.</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">Public Urination</skos:prefLabel>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152692</dcterms:identifier>
+      </skos:Concept>
+    </skos:related>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The passing of solid waste from the body in a public place.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159377">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159377</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Metal Detecting (Non Removal Of Artefacts)</skos:altLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Non Removal Of Artefacts</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The use of a metal detector at a heritage asset which had yet to result in the location and removal of artefacts without consent.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152687"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152701">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Flora Removal</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152651"/>
+    <skos:altLabel xml:lang="en">Plant Removal</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The deliberate and illegal removal of plants and flowers from a site; this can include unauthorized turf removal and the removal of plant life from wall caps.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152701</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152671">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:altLabel xml:lang="en">Motorbike Noise</skos:altLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152671</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Car Noise</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152656"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152694">
+        <skos:scopeNote xml:lang="en">A loud, harsh, disturbing, disagreeable or intrusive sound.</skos:scopeNote>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152694</dcterms:identifier>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Noise</skos:prefLabel>
+        <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152671"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="en">Vehicle Noise</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Sound energy emanating from motor vehicles which is is constituted chiefly of engine, tire, aerodynamic and braking elements.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152704">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152704</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152702">
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <skos:scopeNote xml:lang="en">To intentionally or recklessly disturb a bat in its roost or deliberately disturb a group of bats without a licence.</skos:scopeNote>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152704"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <skos:prefLabel xml:lang="en">Bat Disturbance</skos:prefLabel>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152702</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">Wildlife Disturbance</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159372"/>
+    <skos:scopeNote xml:lang="en">The act of causing damage to, or the destruction of, the nests or homes of animals.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152697">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152697</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Firework Misuse</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <skos:scopeNote xml:lang="en">The irresponsible use of a firework and/or the use of fireworks as weapons ro harass and injure other individuals.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152700">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152700</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">A party "free" from the restrictions of the legal club scene where the people present create and enforce the rules. As a result drugs may be readily available and noise levels may be illegally high.</skos:scopeNote>
+    <skos:altLabel xml:lang="en">Unlicensed Party</skos:altLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Unlicensed Rave</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152677">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152661"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">The use of alcoholic beverages to achieve intoxication.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Alcohol Misuse</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152698">
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+        <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <skos:scopeNote xml:lang="en">The consumption of alcohol in public places.</skos:scopeNote>
+        <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152698</dcterms:identifier>
+        <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152677"/>
+        <skos:prefLabel xml:lang="en">Street Drinking</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152677</dcterms:identifier>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152670">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152670</dcterms:identifier>
+    <skos:altLabel xml:lang="en">Arson</skos:altLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Fire Setting</skos:prefLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:altLabel xml:lang="en">Fireraising</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The deliberate, malicious starting of fires.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152706">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152706</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:scopeNote xml:lang="en">The illegal or unlicensed use of a device, such as a snare, foothold, cage trap or funnel trap etc, to remotely catch an animal.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Wildlife Trapping</skos:prefLabel>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163234">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Iron Theft</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163234</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152655"/>
+    <skos:altLabel xml:lang="en">Ferrous Theft</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The illegal removal of iron external fittings or artefacts from heritage assets.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163233">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152655"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163233</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:scopeNote xml:lang="en">The illegal removal of copper external fittings or artefacts from heritage assets.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Copper Theft</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159371">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159371</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Bestiality</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152641">
+    <skos:prefLabel xml:lang="en">Criminal Damage</skos:prefLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152641</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The willful damage of a heritage asset.</skos:scopeNote>
+    <skos:altLabel xml:lang="en">Vandalism</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159381"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159358">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159358</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The action of causing a person to fear injury or harm by using verbal abuse.</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">Verbal Intimidation</skos:prefLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152710"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152650">
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:related rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/159381"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Graffiti</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152640"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152650</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">Casual scribbles or pictographs on walls, stones or other surfaces. In more recent times applied to humorous, satiric or obscene writings or drawings executed anonymously in public places.</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163254">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The improper use of a shotgun to threaten or inflict violence or harm.</skos:scopeNote>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163254</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Shotgun Misuse</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152695"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163236">
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163236</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Lead Theft</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The illegal removal of lead external fittings or artefacts from heritage assets.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152655"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152676">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152676</dcterms:identifier>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152658"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:scopeNote xml:lang="en">The illicit riding of a bicycle over natural terrain or archaeologically sensitive areas where such activity is not permitted.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Off Road Bicycle Use</skos:prefLabel>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152693">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:scopeNote xml:lang="en">Domestic animals that have either been left to roam uncontrolled by their owners or are allowed to cause distress to other members of the public whilst with their owner.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Uncontrolled Animals</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152693</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159361">
+    <skos:prefLabel xml:lang="en">Minor Assault</skos:prefLabel>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159361</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:scopeNote xml:lang="en">The unlawful threat of violence or touching of another persion with intent to inflict bodily harm.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163232">
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163232</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Brass Theft</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152655"/>
+    <skos:scopeNote xml:lang="en">The illegal removal of brass external fittings or artefacts from heritage assets.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152674">
+    <skos:scopeNote xml:lang="en">The illicit driving of a car over natural terrain or archaeologically sensitive areas where such activity is not permitted.</skos:scopeNote>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152674</dcterms:identifier>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152658"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:prefLabel xml:lang="en">Off Road Car Use</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159363">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">A crime of violence against another person that results in the death of the person being assaulted.</skos:scopeNote>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Fatal Assault</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159363</dcterms:identifier>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163255">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152695"/>
+    <skos:prefLabel xml:lang="en">Rifle Misuse</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The improper use of a rifle to threaten or inflict violence or harm.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163255</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152669">
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">Unseemly behaviour involving the public exposure of one's body in an indecent manner.</skos:scopeNote>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152663"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152669</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Indecent Exposure</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <skos:altLabel xml:lang="en">Flashing</skos:altLabel>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/159359">
+    <skos:prefLabel xml:lang="en">Physical Intimidation</skos:prefLabel>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <skos:scopeNote xml:lang="en">The action of causing a person to fear injury or harm by threatening them with physical violence.</skos:scopeNote>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/159359</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152710"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/163251">
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/163251</dcterms:identifier>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <skos:prefLabel xml:lang="en">Anti Social Behavior (Personal)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152710"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163250"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152715">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152715</dcterms:identifier>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:scopeNote xml:lang="en">The playing of games in a location where they are not permitted.</skos:scopeNote>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152660"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163252"/>
+    <skos:prefLabel xml:lang="en">Unauthorized Game Playing</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152664">
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152662"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <skos:prefLabel xml:lang="en">Assault (Visitor)</skos:prefLabel>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152664</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">A crime of violence against a visitor to a heritage site. Double index with the type and severity of the assault if known).</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/596/concepts/152707">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/152685"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <cc:attributionURL rdf:resource="http://www.historicengland.org.uk"/>
+    <dcterms:publisher rdf:resource="http://www.historicengland.org.uk"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0"/>
+    <skos:prefLabel xml:lang="en">Wildlife Poisoning</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/596/concepts/163253"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-07-18T10:37:37</dcterms:issued>
+    <dcterms:identifier>http://purl.org/heritagedata/schemes/596/concepts/152707</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">The illegal or unlicensed poisoning of animals or birds.</skos:scopeNote>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/596"/>
+  </skos:Concept>
+</rdf:RDF>
