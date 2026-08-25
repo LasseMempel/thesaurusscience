@@ -1,3 +1,7 @@
+DAI
+- zwei Vokabulare, eins mit Dariah Mappings, eins neuer
+- skos:exactMatches auf sich selbst beim moderneren
+
 Wortnetz Kultur Mappings zu GND, Wikidata, FISH und Getty AAT!
 - exact, close ,related, broad und narrow Matches
 
@@ -5,6 +9,7 @@ Dariah Vocabs
 - interne Mappings? Mappings zu backbone Thesaurus?
 
 Fish Vocabs: Keine Mappings
+- downgeloaded/extrahiert
 
 Archäologisches Museum Hamburg - etliche Vokabulare
 - Mappings zu Wortnetz Kultur
@@ -31,6 +36,8 @@ Cocoda
 
 Ariadne Mappings:
 - http://legacy.ariadne-infrastructure.eu/resources-2/aat/mappings-to-aat/
+- aus CSV extrahiert
+- DAI mappings invertiert :-D 
 
 
 

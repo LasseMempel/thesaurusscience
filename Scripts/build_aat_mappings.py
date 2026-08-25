@@ -285,15 +285,34 @@ def load_fish_graph(fish_dir):
         raise RuntimeError("rdflib is required — pip install rdflib")
 
     g = rdflib.Graph()
-    files = list(fish_dir.glob("*.rdf")) + list(fish_dir.glob("*.xml")) + list(fish_dir.glob("*.owl"))
+    files = (
+        list(fish_dir.glob("*.rdf")) 
+        + list(fish_dir.glob("*.xml")) 
+        + list(fish_dir.glob("*.owl"))
+        + list(fish_dir.glob("*.ttl"))
+    )
+    
+    # Also load orphaned concepts from subdirectory
+    orphaned_dir = fish_dir / "orphanedConcepts"
+    if orphaned_dir.exists():
+        orphaned_files = list(orphaned_dir.glob("*.ttl"))
+        files.extend(orphaned_files)
+    
     if not files:
-        print(f"[WARN][FISH] no .rdf/.xml/.owl files found in {fish_dir}")
+        print(f"[WARN][FISH] no .rdf/.xml/.owl/.ttl files found in {fish_dir}")
         return g
 
     for f in files:
         try:
-            g.parse(str(f), format="xml")
-            print(f"[FISH] loaded {f.name}")
+            # Use turtle format for .ttl files, xml for others
+            parse_format = "turtle" if f.suffix.lower() == ".ttl" else "xml"
+            g.parse(str(f), format=parse_format)
+            
+            # Special message for orphaned concepts
+            if "orphanedConcepts" in str(f):
+                print(f"[FISH] loaded {f.relative_to(fish_dir)} (orphaned concept)")
+            else:
+                print(f"[FISH] loaded {f.name}")
         except Exception as e:  # noqa: BLE001 — surfacing parse errors as warnings, not fatal
             print(f"[WARN][FISH] failed to parse {f.name}: {e}")
 
