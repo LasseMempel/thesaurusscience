@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:cc="http://creativecommons.org/ns#">
+
+  <skos:ConceptScheme rdf:about="http://purl.org/heritagedata/schemes/547">
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-19</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547</dc:identifier>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:title xml:lang="en">FISH Resource Description Thesaurus</dc:title>
+    <dc:description xml:lang="en">Terminology for the description of archive type and format, now updated by FISH (e.g. excavation report, newspaper article, video clip). Originally developed by English Heritage and the National Trust.</dc:description>
+    <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139047"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139037">
+    <skos:altLabel xml:lang="en">Technical Illustration</skos:altLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138735">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138735</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Plan</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Used for orthographic drawings in the horizontal plane, generally from above generally depicts localised areas.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138746">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138746</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Scale Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A scaled drawing based on measurements taken from life.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138747">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138747</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Floorplan</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Plan showing a horizontal section, size and arrangement of rooms within a building, may include location of doors, windows and other features.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138748">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138748</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Overlay</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A drawing, generally on a transparent sheet, which can be placed on top of another image to combine information from both.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138749">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138749</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Topographical Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A drawing used to convey information about the arrangement and size of features in a defined location under study.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138797">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138797</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Aerial Photograph Transcription</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">The process of transcribing the features on an aerial photograph onto a map or plan.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138798"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138800">
+        <skos:altLabel xml:lang="en">Harris Matrix</skos:altLabel>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138800</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Stratigraphic Matrix</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A schematic diagram showing the relationships of the composition and strata of layers identified during excavation or intervention.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138807">
+        <skos:altLabel xml:lang="en">Antiquity Model</skos:altLabel>
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138807</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Measured Survey Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A drawing which depicts to scale a feature within the landscape. For drawings of selected features of a site use SCALE DRAWING..</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138740"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139037</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Technical Drawing</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A broad class of drawing that is produced following precise conventions of scale and projection. [AAT]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138762">
+    <skos:altLabel xml:lang="en">Pamphlet</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138762</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Leaflet</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A short published document, often a single sheet, describing a particular place, feature or service to assist visitors and users.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139052">
+    <skos:altLabel xml:lang="en">Visitors Diary</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139052</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Visitors Book</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A book in which visitors to a property, monument or exhibition record their thoughts and impressions on their experience.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139008">
+    <skos:altLabel xml:lang="en">Press Cutting</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138759"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139008</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Newspaper Article</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A written extract taken from a published newspaper.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167910">
+    <skos:altLabel xml:lang="en">Offprint</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167910</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Off Print</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">-</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139033">
+    <skos:altLabel xml:lang="en">Laser Disc</skos:altLabel>
+    <skos:altLabel xml:lang="en">Optical Disk</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139033</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Optical Disc</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Data storage device in disc form that uses lasers to write and access data; can store data in analog or digital form. [AAT]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138808">
+    <skos:altLabel xml:lang="en">Digital Versatile Disk</skos:altLabel>
+    <skos:altLabel xml:lang="en">Digital Video Disk</skos:altLabel>
+    <skos:altLabel xml:lang="en">DVD</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138808</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Digital Versatile Disc</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A disc capable of holding more data than a conventional CD or CD-Rom. Commonly used as storage medium for film and interactive products.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/164074">
+    <skos:altLabel xml:lang="en">C14 Dating Report</skos:altLabel>
+    <skos:altLabel xml:lang="en">Carbon 14 Dating Report</skos:altLabel>
+    <skos:altLabel xml:lang="en">Carbon Dating Report</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/164072"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/164074</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Radiocarbon Dating Report</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A report that primarily details the results of attempts to assign a date to orgainic material by measuring the amount of carbon 14 it contains.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/164073">
+    <skos:altLabel xml:lang="en">Tree Ring Dating Report</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/164072"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/164073</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Dendrochronology Report</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A report that primarily details the results of attempts to assign a date to wooden structures or objects by the comparative study of the growth rings in trees and aged wood.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138810">
+    <skos:altLabel xml:lang="en">Compact Disk</skos:altLabel>
+    <skos:altLabel xml:lang="en">CD</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138810</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Compact Disc</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Optical discs on which programs, data, or music are digitally encoded for a laser beam to scan, decode and transmit to a playback system, computer monitor or television set. [AAT]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138811">
+    <skos:altLabel xml:lang="en">Floppy Disk</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138811</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Floppy Disc</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Thin round flexible disc with magnetic surfaces for storing and retrieving data. [AAT]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138773">
+    <skos:altLabel xml:lang="en">Digital Report</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138774">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138774</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Historic Landscape Survey Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report depicting the results generated from an intensive survey of a large area of land including field recording, measured site surveys and land history.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138775">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138775</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Excavation Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of an archaeological excavation.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138776">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138776</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Deskbased Survey Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report on the archaeology of an area, based primarily on existing records and resources.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138777">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138777</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Field Survey Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of a field survey. Usually restricted to a survey of a small or specific area or site.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138778">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138778</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Watching Brief Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report written as a result of archaeological monitoring during development work.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139571">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139571</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Brief</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An outline of the circumstances to be addressed, with an indication of the scope of work which will be required (English term)</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139572">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139572</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Outline</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An outline of the circumstances to be addressed, with an indication of the scope of work which will be required (Scottish term)</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139573">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139573</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Specification</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A schedule of work in sufficient detail for it to be quantifiable, implemented and monitored.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139574">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139574</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Design</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A schedule of work set out in sufficient detail for it to be quantifiable, implemented and monitored. Can include contractual details relevant to the commissioning body. A project design may be a research proposal independent of the planning framework</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139575">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139575</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Geophysical Survey Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report that primarily details the results of a survey that was conducted using remote sensing techniques such as resistivity and magnetometry.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167880">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167880</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Evaluation Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of an archaeological evaluation</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167881">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167881</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Post Excavation Assessment Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report which represents an initial synthesis of the data collected from an excavation ahead of the production of a full publication/post excavation full analysis report.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167882">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167882</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Building Recording Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of a study of the fabric of a standing building.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167883">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167883</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Fieldwalking Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of an archaeological event were the ground surface has been studied and any visible archaeological material collected.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167913">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167913</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Heritage Statement</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the archaeological and architectural potential of a site or locality.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167914">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167914</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Interim Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing the results of archaeological fieldwork that has been produced in advance of a full synthesis of the collected data.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170845">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170845</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Geotechnical Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report detailing subsurface investigations conducted to assist with the technical rather than archaeological aspects of a proposed development or extraction scheme.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170846">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170846</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Conservation Area Appraisal Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report providing an objective analysis of the elements which together define the special architectural or historic interest of a specific area.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/170847"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170848">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170848</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Post Excavation Full Analysis Report</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A report which represents the final assessment and analysis of an archaeological intervention.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170984">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170984</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Written Scheme Of Investigation</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A specification that sets out the scope of fieldwork and post-excavation methods required to understand the extent, character and significance of any archaeological remains within a planning application area. A WSI is generally produced in response to a project brief issued by the Local Authority Archaeological Officer.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138773</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Report</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A full written presentation of the details of a particular event or investigative technique, often including illustrations and appendices.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/171105">
+    <skos:altLabel xml:lang="en">Unpublished Document</skos:altLabel>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/171105</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Document</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A paper or set of papers with written or printed information, especially of an official type.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138703">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138716">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138716</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Planning Archive</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Documents relating to the administration of planning applications.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138717">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138717</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Archive</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Organised and documented collection of the records made during the course of a project.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138718">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138718</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Finds Collection</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Collection of artefacts recovered during archaeological investigation of a site.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138719">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138719</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Album</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A collection of items presented in a protective folder.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138720"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138703</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Collection</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A resource comprising of a group of items the parts of which may be separately described and navigated. [DC]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139046">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138704"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138705"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138706"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138707"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138708"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138710">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138710</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Verbal Communication</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Factual information conveyed orally to a recipient.  Where this has been transcribed, use an appropriate term from the TEXT hierarchy.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139046</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Resource Type</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">-</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138704">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138721">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138704"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138721</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Database File</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Data suitable for processing using database management software.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138722">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138704"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138722</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Cad Data</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Data suitable for processing using computer aided design (CAD) packages.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138723">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138704"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138723</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Geospatial Data</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Machine readable files suitable for use in a geographic information system (GIS).</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138704</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Dataset</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Information encoded in a defined structure (for example, lists, tables, and databases), intended to be useful for direct machine processing. [DC] For manual data use index, gazetteer etc.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138705">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138724"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138727"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138732"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138705</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Image</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A visual representation of a physical object, place or person. [DC] Use a more specific term where appropriate.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138706">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138750">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138706"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138750</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Teachers Pack</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Materials selected and organised to be of use to teachers for use in education.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138751">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138706"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138751</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Webpage</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A file of computer information stored on a computer connected to the internet coded so that it can be accessed over the internet using browser software.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138706</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Interactive Resource</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A resource which requires interaction from the user to be understood, executed, or experienced.  [DC]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138707">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138752">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138707"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138752</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Online Database</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A database stored on a computer linked to the internet, which can be queried and browsed by remote users using the internet.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138707</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Service</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A service is a system that provides one or more functions of value to the end-user.  Examples include: a photocopying service, a banking service, an authentication service, inter-library loans, a Z39.50 or Web server. [DC]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138708">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138788">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138708"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138788</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Oral History Recording</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Recorded interview intended to preserve the recollections of persons whose experiences or memories are representative of historical life.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139051">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138708"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139051</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Radio Programme</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Recording of a complete broadcast radio programme.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138708</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Sound</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A sound is a resource whose content is primarily intended to be rendered as audio. [DC] For example recorded speech, sounds or music.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138709">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139046"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138754">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138754</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Correspondence</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Written communication, generally in the form of letters.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138765"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138768"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138771">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138771</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Notebook</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Book used to record information or impressions in the field, often as a preparation for more formal reporting at a later date.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138779"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138785">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138785</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Manuscript</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An unpublished document.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139038">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139038</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Oral History Transcript</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Written copy of recorded interviews collected to illustrate history from personal experiences.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139052"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139576"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/171105"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138709</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Text</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A resource whose content is primarily words for reading. For example - books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. [DC]</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138712">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139047"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138713"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138808"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138810"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138811"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138813">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138813</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Computer File</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Data stored in a format that is meant to be manipulated and read in one or more software systems.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139033"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138712</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Machine Readable Storage Medium</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Storage medium for information (text, images, files etc) in an encoded digital format.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139047">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138714"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139047</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Resource Format And Material</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">-</skos:scopeNote>
+    <skos:topConceptOf rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138713">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138712"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138812">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138713"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138812</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Audio Tape</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Magnetic tape used to record sound. Includes both cassette and reel tapes.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138830">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138713"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138830</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Video Tape</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A magnetic tape used to record moving images and sound. Use for both cassette and reel tapes.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138713</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Magnetic Storage Medium</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The storage of material (text, images, files etc) in an electromagnetic format.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138714">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139047"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138831">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138714"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138831</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Film Reel</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Positive image on continuous film strip suitable for projection of moving images.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138714</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Visual Medium</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Any material that records, holds and communicates information in a primarily visual manner.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138715">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139047"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138814">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138814</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Tracing Paper</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A translucent paper, which when laid over an existing image, permits the image to be seen and/or traced.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138815">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138815</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Drafting Film</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A heavy grade, water proof plastic film used for the preparation of technical drawings.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138816">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138816</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Paper</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A thin opaque, slightly absorbent material, generally made from processing of plant or other fibres, for use as a medium for writing, drawing and printing.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139039">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139039</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Waterproof Paper</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Paper made for writing or drawing underwater.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167916">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167916</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Photocopy</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic reproduction of written or printed material produced by using toner particles under heat and pressure to fuse a copy onto blank paper.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167917">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167917</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Fax</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">-</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167918">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167918</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Print Out</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A hard copy of digital data that has been printed onto paper.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170843">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170843</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Card</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A material stronger than paper, generally made from wood pulp.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170844">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138715"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170844</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Newsprint</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A cheap and relatively rough paper on which newspapers are printed.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138715</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Hardcopy</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Item in a format suitable for normal reading or viewing, without a computer or other device.  For digital files or disks use MACHINE READABLE STORAGE MEDIUM or specific terms.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138720">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138703"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138770">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138720"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138770</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Gazetteer</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Structured list of information about items of interest to a research project, for example monuments of a particular type.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138720</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Catalogue</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Structured descriptions of an archive or collection used to assist retrieval and management, or presentation to the public.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138724">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138705"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138725">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138724"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138725</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Video Clip</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An extract from a longer video film, used as an illustration.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139050">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138724"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139050</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Television Programme</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Recording of a complete broadcast television programme, for instance a documentary. For extracts such as items from news broadcasts use VIDEO CLIP.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138724</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Moving Image</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Broad term for all types of animated or live action images.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138727">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138705"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138728"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138729">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138727"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138729</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Rectified Photograph</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photograph usually of a standing structure that has been manipulated to allow the creation of a measured drawing of the facade or elevation.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138727</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Photograph</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An image created by controlled exposure of light sensitive film.  Usually a static image in time and space.  For digital photographs double index with an appropriate term under MACHINE READABLE STORAGE MEDIUM.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138728">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138727"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138790">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138728"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138790</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Oblique Aerial Photograph</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An aerial photograph taken at an angle other than 90 degrees to a feature in the landscape.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138791">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138728"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138791</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Vertical Aerial Photograph</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An aerial photograph taken from directly above a feature in the landscape, suitable for mapping or survey purposes. For photographs taken from the air at an angle to the subject use OBLIQUE AERIAL PHOTOGRAPH.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138728</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Aerial Photograph</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A photograph taken from the air.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138732">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138705"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138733">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138732"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138733</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Chart</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A depiction of land, coastal or sea areas intended to aid navigation, usually using latitude and longitude co-ordinates.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138734">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138732"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138734</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Sketch Map</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A map generally produced manually to indicate main features of an area quickly, for example to assist location of a particular place.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138732</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Map</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A pictoral depiction of an area of landscape.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138736">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138705"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138737">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138737</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Picture Postcard</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Card printed with an image, often a photograph on one side, and space for a short message and a postal address on the other.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138738">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138738</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Illustration</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An image used to convey information, often as part of a larger publication or exhibition.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138740"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138741">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138741</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Sketch</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A drawing, often made in the field as the basis for later work, or to quickly convey important information.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138744">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138744</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Painting</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">An image created manually using paint or pigments, to record, illustrate or convey impressions.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139014"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138736</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Picture</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">General term for images used to represent a particular place or item, or convey information.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138739">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138740"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138739</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Sketch Plan</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A plan of a feature or small area generally done in the field to quickly record the main features.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138740">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138739"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138795">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138740"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138795</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Reconstruction Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A representation of a monument or landscape based on historical or archaeological information.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138796">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138740"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138796</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Artefact Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A drawn representation of an archaeological 'find' or other cultural object.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138740</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Drawing</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A manually produced image for illustration or record purposes.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138742">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139014"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138742</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Engraving</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">An image produced by creating marks on a hard material from which a print is then taken.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139014">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138742"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139015">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139014"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139015</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Woodcut</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A relief process in which the design is cut into and printed from the plank side of a wood block [AAT].</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138736"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139014</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Mechanical Print</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Reproduced image derived by mechanical printing from an image engraved or carved on a suitable surface.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138756">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138757">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138757</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Book</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A written or printed work consisting of pages glued or sewn together along one side and bound in covers.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138758">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138758</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Monograph</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Publication on a specific topic, or limited scope of subject matter. Complete in itself, though may form part of a series.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138759"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138762"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138763">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138763</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Newsletter</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Short publication used to disseminate information about a particular project or organisation, issued on a regular basis.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138764"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139012">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139012</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Volume</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A bound written work.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139043">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139043</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Series</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A written work issued in parts, with the intention of creating a completed sequence.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/167910"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/167915">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/167915</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Guide Book</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A book containing information about a place that has been produced for the use of visitors or tourists.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138756</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Publication</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">General term for documents that have been produced in large numbers for public sale or distribution.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138759">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139008"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138759</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Article</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A written work for publication, being one of several found in a serial, monograph or magazine.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138764">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138756"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/171103">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138764"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/171103</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Journal</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A publication that contains scholarly articles and is published regularly. Journals are often written by experts in a specific field and are peer reviewed before publication.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138764</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Serial</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A written work issued at regular intervals, numbered consecutively with no intended or planned end point.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138765">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138767">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138765"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138767</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Excavation Diary</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A diary used to record the events and activities during an excavation.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138765</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Diary</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A chronological journal, generally showing appointments, or recording memories and impressions of a days events over a period of time.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138768">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138769">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138768"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138769</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Card Index</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Cards, often printed with forms, for the recording and sorting of information in a structured manner.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138768</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Index</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A structured set of data taken from a larger work to assist in location of particular subject matter.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138779">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138780">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138779"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138780</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Context Sheet</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A form used to record the details of a feature identified by archaeological investigation, generally including location, depth, colour, texture, inclusions and stratigraphic relationship to other contexts.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138781">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138779"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138781</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Field Recording Form</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A form to record the details of a monument or site found during the course of a field survey or visit.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138782">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138779"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138782</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Project Recording Form</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A form that records the details of a project, for example, an excavation index form.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138779</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Record Form</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A paper form used to record specific information in a systematic way.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138798">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139037"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139018">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138798"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139018</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Section Drawing</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Drawing of the vertical face of an excavated feature or features depicting the vertical extent and stratigraphic relationship between identified layers or deposits.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139019">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138798"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139019</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Context Plan</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Scale drawing showing the horizontal extent, height and arrangement of an excavated layer or feature on an archaeological site.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138798</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Excavation Drawing</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A schematic depiction of the results of an archaeological excavation.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138817">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138714"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138818">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138818</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Infrared Film</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Photographic film responsive to infrared radiation. Used to record temperature variations in the subject, indicative of hidden archaeological or architectural features.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138819">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138819</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Glass Plate</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A sheet of glass coated in a light sensitive substance on which a photgraphic image can be developed.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138820">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138820</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Colour Print</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic print of a polychrome image (composed of colours other than, but not exclusive of, black, white or grey tones).</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138821">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138821</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Black And White Print</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic print of a mononchrome image (composed of grey, black and white tones).</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138822">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138822</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Colour Slide</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic slide of a colour (polychromatic) image.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138823">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138823</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Black And White Slide</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic slide of a black and white (monochromatic) image.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138824">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138824</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Colour Transparency</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A positive colour image on film which can be projected onto a screen when light is shone through it.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138825">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138825</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Black And White Transparency</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A positive black and white image on film which can be projected onto a screen when light is shone through it.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138826">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138826</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Colour Negative</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic frame of developed colour film which can be used to print a photographic image.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138827">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138827</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Black And White Negative</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A photographic frame of developed black and white film from which a positive print can be produced.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/141680"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138817</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Photographic Medium</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The class or material that a photograph is produced upon. [AAT] Use a specific term or terms as appropriate.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138828">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/141680"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138828</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Microfiche</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A flexible, transparent sheet of film bearing a number of reduced images.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/141680">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138828"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/138829">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/141680"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/138829</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Microfilm</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A film strip or roll containing reduced images.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138817"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/141680</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Microform</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A medium containing microphotographic images, usually reproduced on film, requiring magnification to render them readable.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139576">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138709"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139577"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139578"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139576</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Official Designation Notification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">This term is appropriate to official notifications of a monument or area whether they are statutory or purely advisory. Where possible the specific document type should be indexed for example Scheduled Monument Notification.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139577">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139576"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139580">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139577"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139580</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Scheduled Monument Notification</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">Any notification, update or amendment relating to the scheduling of a monument. Usually includes description and a map showing the limit of the scheduling. It confers a statutory status and receipt is an acknowledgement of the scheduling.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139583">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139577"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139583</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">List Of Buildings</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A list of buildings of special architectural or historic interest. This list confers a statutory level of protection status to the buildings contained within it and usually includes a description of each building.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139577</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Statutory Designation Notification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">This class of documents confers statutory designation on the monuments listed within them. It usually is restricted to legally defined national or local notifications of designation.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139578">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139576"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139581">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139578"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139581</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Battlefields Register</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A list of English battlefields maintained by English Heritage. Inclusion in the document does not confer any statutory status. It lists and records the details of battlefields to preserve their nature and survival.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:narrower>
+      <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/139582">
+        <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/139578"/>
+        <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+        <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139582</dc:identifier>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+        <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+        <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+        <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+        <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+        <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+        <skos:prefLabel xml:lang="en">Register Of Parks And Gardens</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">A register which including sites retaining any evidence of pre-1750 layouts; significant evidence of pre-1820 layouts; good examples of the best gardens from 1820 to 1880; are good examples of the best gardens laid out after 1880 but before 1970.</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/139578</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Advisory Designation Notification</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">The contents of these documents do not confer any statutory designation on the monuments listed, they are purely advisory notifications for use within preserving the historic environment.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/164072">
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/170847"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/164073"/>
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/164074"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/164072</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Scientific Dating Report</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A report that primarily details the results of attempts to assign a date to materials or deposits using scientific methods such as Palaeomagnetism, Dendrochronology or Radiocarbon Dating.</skos:scopeNote>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://purl.org/heritagedata/schemes/547/concepts/170847">
+    <skos:narrower rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/164072"/>
+    <skos:broader rdf:resource="http://purl.org/heritagedata/schemes/547/concepts/138773"/>
+    <skos:inScheme rdf:resource="http://purl.org/heritagedata/schemes/547"/>
+    <dc:identifier>http://purl.org/heritagedata/schemes/547/concepts/170847</dc:identifier>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-19T12:28:53</dc:issued>
+    <cc:license rdf:resource="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+    <cc:attributionURL rdf:resource="https://historicengland.org.uk/"/>
+    <cc:attributionName xml:lang="en">Historic England</cc:attributionName>
+    <dc:publisher rdf:resource="https://historicengland.org.uk/"/>
+    <dc:spatial rdf:resource="http://vocab.getty.edu/tgn/7002445"/>
+    <dc:spatial rdf:resource="http://dbpedia.org/resource/England"/>
+    <skos:prefLabel xml:lang="en">Archaeological Science Report</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">A report detailing the results of the application of scientific techniques to the analysis of archaeological materials.</skos:scopeNote>
+  </skos:Concept>
+
+</rdf:RDF>
