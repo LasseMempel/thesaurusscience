@@ -1,0 +1,865 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145110> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Architectural Survey"@en ;
+    skos:scopeNote "Recording and analysis of built structures utilising close observation as well as manual or electronic survey equipment such as GPS and REDM (Reflectorless Electromagnetic Distance Measurement). Includes research, fieldwork and a report."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145111> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/145126>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/145150> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Auger Survey"@en ;
+    skos:scopeNote "Transect or area-based arrangements of drilled auger-holes used to describe deposits and collect samples."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145112> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/145126>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/145150> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Borehole Survey"@en ;
+    skos:scopeNote "Type of survey involving the drilling of deep and narrow shafts in the ground used to describe deposits, understand stratigraphy and collect cores amples."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145113> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Bosing Survey"@en ;
+    skos:scopeNote "A subsurface detection method performed by striking the ground with a heavy wooden mallet or a lead-filled container on a long handle."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145114> a skos:Concept ;
+    skos:altLabel "Grid Excavation"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Box Trenching"@en ;
+    skos:scopeNote "A system of excavation, developed by Mortimer Wheeler, whereby a site was uncovered by means of a grid of square trenches with baulks between them to aid the recording of the stratification of all four sides of each trench."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145118> a skos:Concept ;
+    skos:altLabel "Building Elevation Survey"@en,
+        "Building Plan Survey"@en,
+        "Building Recording"@en,
+        "Cross Sectional Building Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Building Survey"@en ;
+    skos:scopeNote "A descriptive survey involving the systematic measurement and recording of the dimensions or features of a building. Where the survey is accompanied by systematic investigation and analysis, use Architectural Survey."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145120> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145107> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Conventional Aerial Photography"@en ;
+    skos:scopeNote "Capturing visible spectrum photographs or images of monument features or character using still or motion cameras from an aircraft or other airborne vehicle or apparatus. Covers both digital and film-based cameras."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145122> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145126> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Dendrochronological Survey"@en ;
+    skos:scopeNote "The extraction of wood samples for dating analysis. Tree ring dating is the science of dating cultural and environmental events in the past by comparative study of the growth rings in trees and aged wood."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145123> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Desk Based Assessment"@en ;
+    skos:scopeNote "A programme of assessment of the known or potential archaeological resource within a specified area or site on land, inter-tidal zone or underwater by the consultation and collation of existing written, graphic, photographic and electronic data."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145124> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Dowsing Survey"@en ;
+    skos:scopeNote "The supposed detection of subsurface features by employing a twig, copper rod, pendulum, or other instrument. Discontinuous movements in these instruments are believed by some to record the existence of buried features."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145125> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Environmental Impact Assessment"@en ;
+    skos:scopeNote "An information gathering exercise to facilitate an understanding of the potential environmental impact of a development proposal; includes the collation of specialist reports from a variety of disciplines."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145130> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Field Observation (Monitoring)"@en ;
+    skos:scopeNote "Periodic visits being made to a site by an archaeologist to record archaeological deposits and recover finds that have come to light since the previous visit. An archaeological presence is not maintained during groundwork as it is with a watching brief."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145132> a skos:Concept ;
+    skos:altLabel "Fieldwalking"@en,
+        "Surface Collection"@en,
+        "Topsoil Artefact Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/152410> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Systematic Fieldwalking Survey"@en ;
+    skos:scopeNote "The systematic study of ground surfaces and collection of visible archaeological material. Fieldwalking can be carried out as line-walking, grid collection and transect or quadrant sampling. Any material recovered is logged and stored by sample unit."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145135> a skos:Concept ;
+    skos:altLabel "Ground Penetrating Radar"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Ground Penetrating Radar Survey"@en ;
+    skos:scopeNote "A technique that measures the amount of time it takes pulses of  electromagnetic energy sent into the ground, from a transmitter, to reflect back from the interfaces between layers and other subsurface features in order to produce a subsurface profile."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145139> a skos:Concept ;
+    skos:altLabel "Infra Red Aerial Photography"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145149> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Infrared Aerial Photography"@en ;
+    skos:scopeNote "Aerial photography using infrared sensitive film or sensors to reveal soil and vegetation characteristics not apparent in photographs derived from conventional aerial photography."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145140> a skos:Concept ;
+    skos:altLabel "Infra Red Line Scan Aerial Photography"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145149> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Infrared Line Scan Aerial Photography"@en ;
+    skos:scopeNote "A specific type of Infrared photography that uses an airborne scanning infrared sensor to record differential spectrums of features both extant and buried."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145141> a skos:Concept ;
+    skos:altLabel "Infra Red Thermography Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145149> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Infrared Thermography Survey"@en ;
+    skos:scopeNote "An investigative method using an infrared camera to detect temperature differences in the ground. The thermal camera does not record the actual temperature of the object in question. Instead the camera records the infrared radiation emitted by the object."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145143> a skos:Concept ;
+    skos:altLabel "Geophysical Magnetic Susceptibility"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Magnetic Susceptibility Survey"@en ;
+    skos:scopeNote "The extraction of samples from selected features on a site to identify a characteristic magnetic response from sediments derived from the features in order to predict the response that similar features would produce. Also used to prospect for sites."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145144> a skos:Concept ;
+    skos:altLabel "Geophysical Magnetometer"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Magnetometry Survey"@en ;
+    skos:scopeNote "Survey using a magnetometer, a device capable of detecting variations in magnetic susceptibility between topsoils, subsoils and rocks, can also be used in a maritime context to detect variations in the magnetic field of seabed sediments."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145145> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Management Survey"@en ;
+    skos:scopeNote "A field and desk based assessment of heritage asset condition and vulnerability so that informed decisions can be made regarding how best to manage the resource."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145146> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Measured Survey"@en ;
+    skos:scopeNote "A dimensional check on a building or site giving detailed measurements."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145151> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Open Area Excavation"@en ;
+    skos:scopeNote "Controlled investigation, recording and removal of archaeological deposits according to the principles of strategraphic excavation. The size of an open area can range from holes to examine pile foundations to extensive trenches of 100 square meters."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145152> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145133> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Phosphate Survey"@en ;
+    skos:scopeNote "The systematic collection of samples from a defined study area analysed for phosphate content. Elevated concentrations of phosphate are a generalised signature of human activity."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145153> a skos:Concept ;
+    skos:altLabel "Photogrammetry"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145154> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Photogrammetric Survey"@en ;
+    skos:scopeNote "The measurement of a surface, either in elevation or plan, determined from measurements derived from two or more photographic images taken from different positions; this allows three dimensional viewing of the surface to be mapped."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145155> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145154> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Rectified Photographic Survey"@en ;
+    skos:scopeNote "Systematic recording of building facades that produces a seamless mosaic of digital images by identifying control points and defining limits to each image. The rectified mosaic can then be introduced into a CAD environment."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145157> a skos:Concept ;
+    skos:altLabel "Salvage Excavation"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Rescue Excavation"@en ;
+    skos:scopeNote "Controlled investigation, recording and removal of archaeological deposits under threat of destruction from building development. A pre PPG 16 activity, usually under strict time constraints."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145158> a skos:Concept ;
+    skos:altLabel "Earth Resistance Survey"@en,
+        "Electrical Survey"@en,
+        "Geophysical Resistivity"@en,
+        "Resistivity Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Earth Resistance (Resistivity) Survey"@en ;
+    skos:scopeNote "Examination, recording and plotting of variations in the electrical resistivity of soils in order to locate and define buried features."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145160> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Salvage Recording"@en ;
+    skos:scopeNote "The monitoring of the excavation of a hole made by a non-archaeologically trained person. Any archaeological evidence that comes to light is recorded by the archaeologist during the course of the work although he/she cannot suspend the groundwork."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145162> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145156> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Satellite Imaging"@en ;
+    skos:scopeNote "The capture of imagery using an orbiting satellite. The type of imagery is very varied including visible light photography, infrared and multi spectral photography as well as imagery derived from radar and lidar data."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145164> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145127> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Monolith Sampling"@en ;
+    skos:scopeNote "Removal of a sample from a vertical section generally using a U sectioned tin to extract an intact column of the observed stratigraphy. Used in the study of pollen, diatoms etc."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145167> a skos:Concept ;
+    skos:altLabel "Strip And Record"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Strip Map And Sample"@en ;
+    skos:scopeNote "An excavation technique that involves the machine stripping the topsoil/subsoil from the area to be excavated, plotting observed features onto a site plan and then partially or fully excavating those features."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145172> a skos:Concept ;
+    skos:altLabel "Sondage"@en,
+        "Test Pit Survey"@en,
+        "Test Pits"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145128> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Test Pit"@en ;
+    skos:scopeNote "Systematically positioned hole, or holes, utilised in all studies that aim to sample the nature of the topsoil and subsurface deposits."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145173> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145126> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Timber Sampling"@en ;
+    skos:scopeNote "The extraction of a limited quantity of wood for scientific analysis."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145174> a skos:Concept ;
+    skos:altLabel "Contour Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Topographic Survey"@en ;
+    skos:scopeNote "The controlled measurement of natural and artificial landscape features to produce a measured plan or a 3D data set reading as a plan. Features are depicted by either hachures, symbols or contour lines."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145175> a skos:Concept ;
+    skos:altLabel "Sample Trenches"@en,
+        "Targeted Trenches"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145128> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Trial Trench"@en ;
+    skos:scopeNote "Archaeologically excavated trench, either hand of machine dug, as part of a sampling programme to evaluate the presence/absence, nature, preservation, age and extent of any buried archaeological features."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145176> a skos:Concept ;
+    skos:altLabel "Fieldwalking"@en,
+        "Surface Collection"@en,
+        "Topsoil Artefact Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/152410> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Unsystematic Fieldwalking Survey"@en ;
+    skos:scopeNote "The unsystematic study of ground surfaces and collection of visible archaeological material."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145177> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Watching Brief"@en ;
+    skos:scopeNote "A formal programme of observation and investigation conducted during any operation carried out for non-archaeological reasons that may damage archaeological deposits. This will be within a specified area or site on land, inter-tidal zone or underwater."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146334> a skos:Concept ;
+    skos:altLabel "Bottom Classification Sonar"@en,
+        "Side Looking Sonar Survey"@en,
+        "Side Scanning Sonar Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Side Scan Sonar Survey"@en ;
+    skos:scopeNote "Underwater investigation of the seabed, using side-looking sonar device that emits fan shaped acoustic pulses down toward the seafloor. The intensity of the acoustic reflections from the sea floor are recorded as an image of the seabed."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146337> a skos:Concept ;
+    skos:altLabel "Seismograph Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Seismic Survey"@en ;
+    skos:scopeNote "An acoustic method which involves the creation of a shock wave through the ground. By recording the time interval between the initial shock and the reflected or refracted shock waves it is possible to define subsurface deposits."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146339> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Microgravity Survey"@en ;
+    skos:scopeNote "A sensing technique that consists of measuring minute variations in the gravitational pull of the Earth in order to detect gravity anomalies arising from voids and cavities within the earth."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146340> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Antiquarian Observation"@en ;
+    skos:scopeNote "Observations made by antiquarians (Those who studied sites and landscapes prior to archaeology and architectural history becoming established disciplines in the 19th century) and reported through publication or from unpublished manuscripts."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146341> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geomorphological Survey"@en ;
+    skos:scopeNote "Field survey undertaken to investigate land formation processes often carried out in association with, or in the vicinity of, an archaeological site, or as part of a wider landscape project."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146344> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145150> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Casual Observation"@en ;
+    skos:scopeNote "The unplanned observation of archaeological features or the recovery of artefacts of interest, for example either random finds by members of the public or the unplanned observation of archaeological features during the course of unmonitored developments."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146345> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Photographic Recording"@en ;
+    skos:scopeNote "The taking of photographs during informal site visits, which may be undertaken by amateur archaeologists or architectural students. More formal, detailed surveys should be termed Photographic Survey."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146346> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Field Visit"@en ;
+    skos:scopeNote "Observations made by an archaeologist or architectural historian as the result of a field visit to a site or monument."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146347> a skos:Concept ;
+    skos:altLabel "Electrical Resistivity Imaging Survey"@en,
+        "Resistivity Profile"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Electrical Resistivity Tomography"@en ;
+    skos:scopeNote "A geophysical technique for imaging subsurface structures in cross section from electrical measurements made at the surface, or by electrodes in one or more boreholes."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146353> a skos:Concept ;
+    skos:altLabel "Subsoil Test Pit"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147259> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geotechnical Test Pit"@en ;
+    skos:scopeNote "Test pits dug by geotechnical engineers or engineering geologists to obtain information on the physical properties of soil, sediments and bedrock around a site to design earthworks and foundations for proposed structures."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147244> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Analytical Earthwork Survey"@en ;
+    skos:scopeNote "The accurate survey and analytical depiction of earthworks and their relative chronological relationships by means of hachures and related symbols."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147266> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Single Beam Echo Sounder Survey"@en ;
+    skos:scopeNote "An underwater technique that records bathymetric (depth) data by generating point depths in a line directly beneath the transducer mounted on a vessel as it progresses along the acquisition line."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147268> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Bathymetric Survey"@en ;
+    skos:scopeNote "A maritime investigation that records depth data which can be used to map submerged topography utilising echo sounders which emit a short acoustic pulse. Depth is calculated by measuring the time taken for the pulse to be reflected back to the transducer."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147305> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Research Excavation"@en ;
+    skos:scopeNote "Controlled investigation, recording and removal of archaeological deposits in targeted areas in order to answer specific questions relating to a particular archaeological site or landscape. Usually undertaken by university departments or amateur groups."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147306> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Hedgerow Survey"@en ;
+    skos:scopeNote "The assessment of the age of a hedge based on its nature, condition and the number and type of woody plant species present. Most surveys make use of Hooper's hypothesis which states that for every 27m a new woody species invades a hedge every 100 years."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147310> a skos:Concept ;
+    skos:altLabel "Grab Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Grab Sampling"@en ;
+    skos:scopeNote "A maritime technique which involves the simple process of bringing up surface sediments from the seafloor for analysis usually using mechanical apparatus. As the process recovers a mixture of sediments it cannot be used to characterise stratigraphy."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147311> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145156> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Underwater Remote Operated Vehicle Survey"@en ;
+    skos:scopeNote "A technique utilised in maritime recording; a remote operated vehicle (ROV) is a tethered underwater robot. ROVs have been used to locate and inspect a number of historic shipwrecks in depths beyond the reach of human divers."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147312> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145121> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Gravity Core"@en ;
+    skos:scopeNote "A maritime coring technique which penetrates the ground due to the force of gravity. Since the speed of penetration is the same as the sampling speed, it barely disrupts the sedimentary layers. A cable attached to the ship is used to recover the core."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147313> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145121> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Vibro Core"@en ;
+    skos:scopeNote "A maritime coring technique which uses vibration to facilitate ground penetration. With the force of gravity, and sometimes a piston, it can penetrate much deeper layers although the vibration provokes a slight mixing of the sediments."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147317> a skos:Concept ;
+    skos:altLabel "Visual Inspection"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Field Observation (Visual Assessment)"@en ;
+    skos:scopeNote "A site visit to ascertain the nature and extent of the site and its surrounding environs by means of a visual inspection from which a written and/or photographic record is made."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147319> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Multi Beam Echo Sounder Survey"@en ;
+    skos:scopeNote "An underwater technique used to create 3D terrain models and to record objects on the seabed through the comparative analysis of reflections from high frequency sound waves emitted in multiple beams allowing large swathes of the seabed to be surveyed."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147321> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Acoustic Ground Discriminating System"@en ;
+    skos:scopeNote "An extra processing unit which can be used in conjunction with single beam echo sounders to determine the roughness and hardness of the seafloor. Mainly used for marine biology, but has been used in archaeology."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147322> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Walkover Survey"@en ;
+    skos:scopeNote "A planned programme of investigation conducted within a defined area aimed at identifying and surveying previously unrecorded sites and checking the condition of known sites."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147323> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Electromagnetic Survey"@en ;
+    skos:scopeNote "Technique using electromagnetic fields to map subsurface electrical conductivity anomalies. Can be used as a high-sensitivity metal detector."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147325> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Historic Area Assessment"@en ;
+    skos:scopeNote "An overview of the historical and architectural development, character and heritage assets of a settlement or area.  An HAA may result in the creation, at varying levels of intensity, of individual site-based records informed by area context."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147326> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Thematic Survey"@en ;
+    skos:scopeNote "The investigation of heritage assets along thematic lines, usually to inform the production of a thematic study. Such studies bring specialist insights to bear on the particular area of study, but may not address other aspects of the site's significance."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/160152> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Conservation Area Appraisal"@en ;
+    skos:scopeNote "An objective analysis of the elements which together define the special architectural or historic interest of a specific area."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/163243> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145128> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Underwater Evaluation"@en ;
+    skos:scopeNote "A limited programme of intrusive fieldwork which determines the presence or absence of archaeological features, structures, deposits, artefacts or ecofacts within a specified underwater area."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/163244> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Underwater Excavation"@en ;
+    skos:scopeNote "Controlled intrusive fieldwork which examines, records and interprets archaeological deposits, features and structures and, as appropriate, retrieves artefacts and ecofact remains within a specified underwater area."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/163245> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Underwater Survey"@en ;
+    skos:scopeNote "The non intrusive processes by which information is collected about the location, distribution and organisation of past human activities that are now submerged by water. The approaches can be either extensive or intensive depending on the objectives."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/167599> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145133> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "X Ray Fluorescence Survey"@en ;
+    skos:scopeNote "The systematic use of portable X-Ray Fluorescence equipment to retrieve information on the different chemical elements present in the soil."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/168103> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Post Excavation Assessment"@en ;
+    skos:scopeNote "An initial synthesis of the data collected from an excavation."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/168104> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145127> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Archaeomagnetic Sampling"@en ;
+    skos:scopeNote "Removal of samples from insitu deposits for dating analysis by studying the remnant magnetism contained within the deposit."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170645> a skos:Concept ;
+    skos:altLabel "Burial Ground Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Graveyard Survey"@en ;
+    skos:scopeNote "The systematic survey and recording of graveyards and burial spaces recording the position of individual grave markers and the detail of any inscriptions."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170647> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Condition Survey"@en ;
+    skos:scopeNote "Programmes of investigation which assess and record the condition of heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170648> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Documentary Research"@en ;
+    skos:scopeNote "Programmes of research or investigation involving the examination of primary documentary material to inform the understanding of heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170649> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Building Fabric Analysis"@en ;
+    skos:scopeNote "The recording and analysis of the fabric of a structure or bnuilding"@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170650> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Heritage Assessment"@en ;
+    skos:scopeNote "Programmes of research or investigation which seek to identify the significance of a heritage asset, often to inform proposals for change"@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170651> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Historic Urban Characterisation"@en ;
+    skos:scopeNote "A holistic approach to urban character, using GIS to map areas of urban character and historical development, as a tool for managing future change in ways that are appropriate and sustainable."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170653> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Diver Inspection"@en ;
+    skos:scopeNote "An assessment of a known wreck or underwater archaeological site through diving."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170654> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Field Survey"@en ;
+    skos:scopeNote "The collection of information relating to the location, distribution and organisation of past human activities involving field or site-based investigation of a certain geographic area."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170659> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170656> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Descriptive Buildings Record (Level 2)"@en ;
+    skos:scopeNote "Visual and descriptive record of a building, usually interior and exterior. Equivalent to Historic England Level 2."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170660> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170656> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Analytical Buildings Record (Level 3)"@en ;
+    skos:scopeNote "Visual, descriptive and analytical record of a building, usually interior and exterior. Equivalent to Historic England Level 3."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170661> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170656> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Comprehensive Analytical Buildings Record (Level 4)"@en ;
+    skos:scopeNote "Visual and descriptive record of a building, drawing on the full range of sources and including consideration of significance. Equivalent to Historic England Level 4."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170663> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Buildings Appraisal"@en ;
+    skos:scopeNote "A preliminary assessment of a building or structure, often carried out as pre-application work, including an archive assessment, a general description of the structure, photographs and an annotated ground plan."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170664> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Basic Building Survey (Level 1)"@en ;
+    skos:scopeNote "A written description of the structure including archive assessment supported by drawn and photographic evidence including a ground plan."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170665> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Enhanced Building Survey (Level 2)"@en ;
+    skos:scopeNote "A written, drawn and photographic record, including a ground plan and elevations to produce an adequate record of the structure."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170666> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Detailed Building Survey (Level 3)"@en ;
+    skos:scopeNote "A descriptive account of the building supported by detailed archive research, annotated measured plans and elevations and a detailed photographic record."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170667> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Comprehensive Building Survey (Level 4)"@en ;
+    skos:scopeNote "A comprehensive written report drawing together the evidence from the recording programme, archive research and consideration of the historical and landscape context supported by measured plans and elevations and a thorough photographic survey."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170668> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170656> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Visual Buildings Record (Level 1)"@en ;
+    skos:scopeNote "Visual record of a building, usually exterior only. Equivalent to Historic England Level 1."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170807> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145156> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Terrain Mapping From Aerial Photography"@en ;
+    skos:scopeNote "Use of images from an aircraft to create a 3D model of the ground surface. This includes use of conventional aircraft or remote controlled aircraft (drones)."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170808> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Landscape Survey"@en ;
+    skos:scopeNote "An overview using multiple techniques to determine the archaeological & historical & development, character & heritage assets of a landscape or defined area. This may result in the creation, at varying levels of intensity, of individual site-based records."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170809> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Airborne Laser Scanning Interpretation"@en ;
+    skos:scopeNote "The interpretation of information on airborne laser scanning (lidar) usually  resulting in records of archaeological sites and landscapes. For mapping projects use 'aerial investigation and mapping'."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170811> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Aerial Investigation And Mapping"@en ;
+    skos:scopeNote "The interpretation of information on aerial photographs &/or airborne laser scanning (lidar) resulting in the production of maps & records of archaeological sites & landscapes. Many sources of aerial images may be consulted for a single analytical survey."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170849> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Arborglyph Survey"@en ;
+    skos:scopeNote "Survey to locate identify and record carvings into the bark of trees."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170898> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Automated Object Detection"@en ;
+    skos:scopeNote "A range of semi-automated techniques using computer vision and machine learning to recognise potential archaeological features from airborne laser scanning (LiDAR) and satellite products."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/171100> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147297> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Salvage"@en ;
+    skos:scopeNote "The recovery of items, including cargo, structural components and fixtures and fittings from the wreck of a vessel or crash site of an aircraft."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/171382> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145129> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Antiquarian Excavation"@en ;
+    skos:scopeNote "Late post medieval unscientific excavations the goal of which was the collection of artifacts, curiosities and treasures usually for private display."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/171383> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geoarchaeological Investigation"@en ;
+    skos:scopeNote "Geoarchaeological field surveys are aimed primarily at gathering data with which to understand human-landscape relations with the aim of constructing integrated sequences and models of human landscape systems through time."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/171401> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Data Assessment"@en ;
+    skos:scopeNote "An assessment of data collected during surveys and/or investigations."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145147> a skos:Concept ;
+    skos:altLabel "Metal Detectors"@en,
+        "Systematic Metal Detector Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Metal Detecting Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145148> ;
+    skos:scopeNote "Structured & carefully executed scanning of the ground surface with a metal detecting device in order to recover surface scatters of metal objects & plot them spatially within the study area as part of an archaeological survey or metal detecting rally."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145148> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/145150> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Metal Detecting Use"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145147> ;
+    skos:scopeNote "The hobby of using a metal detector to hunt for buried coins or artefacts; alternatively the use of a metal detector to locate metal artefacts on an archaeological excavation that otherwise would go unnoticed."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145168> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Sub Bottom Profiling Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/147324> ;
+    skos:scopeNote "Used to identify and measure various sediment layers that exist below the seabed. A sound source emits a signal vertically downwards and a receiver monitors the return signal that has been reflected off the seafloor and sub seabed sediment layers."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/146342> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Laser Scanning Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145142> ;
+    skos:scopeNote "The recording of a surface, or surfaces, using scanning technologies, to create a 3D model of the target structure/object."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147242> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Historic Landscape Characterisation"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/147243> ;
+    skos:scopeNote "An holistic approach to landscape, using GIS, which maps diversity of landscape character as a means to managing future change in ways that are appropriate and sustainable."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147243> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Historic Seascape Characterisation"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/147242> ;
+    skos:scopeNote "A map-based understanding of coastal and marine historic character; its GIS and linked texts extend Historic Landscape Characterisation principles to give a common framework of baseline information for the sustainable management of change from land to sea"@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147259> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145150> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geotechnical Survey"@en ;
+    skos:scopeNote "Any subsurface investigation conducted to assist with the technical rather than archaeological aspects of a proposed development or extraction scheme."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147324> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "3D Seismic Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145168> ;
+    skos:scopeNote "A maritime technique similar in theory to sub bottom profilers, however for 3D seismic surveys the receiver array is more complex involving multiple receivers so that a volume of sediment is studied rather than a single 2D line."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147552> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Aerial Photograph Interpretation"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145107> ;
+    skos:scopeNote "The interpretation of information on aerial photographs usually resulting in the production of maps and records of archaeological sites and landscapes. Many aerial photographs may be consulted for a single analytical survey."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170111> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147299> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Airborne Laser Scanning Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/145142> ;
+    skos:scopeNote "The interpretation of visualisations derived from Airborne Laser Scanning, or LiDAR, data usually resulting in the identification of archaeological features and landscapes."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145108> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145156> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Aerial Reconnaissance"@en ;
+    skos:scopeNote "Airborne survey to discover, record and monitor archaeological sites and other heritage assets. Sites will usually be recorded by aerial photography."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145121> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145127> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Core Sampling"@en ;
+    skos:scopeNote "The retrieval of samples for laboratory analysis from buried features that have been sampled using boring equipment."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145133> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145126> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geochemical Survey"@en ;
+    skos:scopeNote "The taking of samples at regular intervals from the surface of a study area in order to retrieve information on the different chemical elements present."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145142> a skos:Concept ;
+    skos:altLabel "Airborne Laser Scanning"@en,
+        "Airborne Lidar Survey"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145108> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Airborne Laser Scanning (Lidar) Survey"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/146342>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/170111> ;
+    skos:scopeNote "Light detection and ranging is a type of aircraft based remote sensing which records reflected laser pulses. The data can be used to produce very accurate digital elevation models. For ground-based work use LASER SCANNING SURVEY."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145154> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Photographic Survey"@en ;
+    skos:scopeNote "Detailed survey using photographic images to record archaeological and architectural sites or features of interest. Record photography is an important aspect of recording such features before they are destroyed."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/152410> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Fieldwalking Survey"@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170657> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Buildings Recording And Investigation"@en ;
+    skos:scopeNote "Includes the processes for investigating and recording historic buildings. Differences in terminology may apply to the recording of buildings due to the approach taken. As such, concepts in this hierarchy may be country specific."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145107> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145108> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Aerial Photography"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/agl_et/concepts/147552> ;
+    skos:scopeNote "The taking of photographs from above using photographic equipment mounted on, or used from an aircraft or other airborne vehicle."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145127> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145126> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Environmental Sampling"@en ;
+    skos:scopeNote "Removal of samples from deposits, including archaeological contexts to recover information about past environments and economies, retrieve material for scientific dating and for the investigation of the deposits themselves e.g. formation processes."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145128> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Evaluation"@en ;
+    skos:scopeNote "A limited programme of intrusive fieldwork which determines the presence or absence of archaeological features, structures, deposits, artefacts or ecofacts within a specified area or site on land or within the inter-tidal zone."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145149> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145107> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Multi Spectral Aerial Photography"@en ;
+    skos:scopeNote "Recording using specialist equipment that allows discrete wavelengths in the visible spectrum and beyond to be recorded. The combination of different spectral bands allows features to be identified that would not be visible to the naked eye."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145156> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147298> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Remote Sensing"@en ;
+    skos:scopeNote "Survey using photographic or other recording equipment mounted on or used from either an aircraft or other airborne vehicle or a maritime vessel/submersible craft."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170652> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147298> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Observation"@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170656> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170657> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Buildings Investigation (England)"@en ;
+    skos:scopeNote "The process of investigating and recording historic buildings for the purposes of historical understanding."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145150> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147297> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Non Archaeological Intervention"@en ;
+    skos:scopeNote "Any activities, that have a physical impact upon the archaeological resource where the purpose is not primarily archaeological research."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147265> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145134> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Sonar Survey"@en ;
+    skos:scopeNote "Active sonar systems are based on the behaviour of sound waves in water; acoustic energy is transmitted and the time for the returning echo is measured to allow submerged seabed features to be mapped. Use specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147297> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Intrusive Event"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/agl_et> .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147298> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Non Intrusive Event"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/agl_et> .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/170662> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/170657> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Buildings Investigation (Scotland)"@en ;
+    skos:scopeNote "The process of investigating and recording historic buildings for the purposes of historical understanding."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145126> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147297> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Environmental Intervention"@en ;
+    skos:scopeNote "Intervention into the archaeological resource intended to gather information about past ecologies and economies, formation processes, and to retrieve material for scientific dating purposes."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145129> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Excavation"@en ;
+    skos:scopeNote "Controlled intrusive fieldwork which examines, records and interprets archaeological deposits, features and structures and, as appropriate, retrieves artefacts and ecofact remains within a specified area or site on land or within the inter-tidal zone."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145109> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147297> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Archaeological Intervention"@en ;
+    skos:scopeNote "Any activity, undertaken by professional archaeologists or experienced amateurs, that has a physical impact, actual or potential, upon the archaeological resource, substituting the physical resource with recorded information."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145134> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/145131> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Geophysical Survey"@en ;
+    skos:scopeNote "Ground-based or marine subsurface mapping of archaeological features using different sensing technologies. Most commonly applied are magnetometers, electrical resistance meters, ground penetrating radar, side scan sonar, and electromagnetic conductivity."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/147299> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147298> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Assessment And Analysis"@en ;
+    skos:scopeNote "Programmes of research that seek to identify the archaeological and/or architectural significance of a site or landscape."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et/concepts/145131> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/agl_et/concepts/147298> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/agl_et> ;
+    skos:prefLabel "Survey"@en ;
+    skos:scopeNote "The non intrusive processes by which information is collected about the location, distribution and organisation of past human activities. The approaches can be either extensive or intensive depending the objectivies that need to be addressed."@en .
+
+<http://purl.org/heritagedata/schemes/agl_et> a skos:ConceptScheme ;
+    ns1:attributionName "Historic England"@en ;
+    ns1:attributionURL <https://historicengland.org.uk/> ;
+    ns1:license <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
+    dct:description "Terminology used for recording archaeological and architectural investigative, data collection exercises; from intrusive interventions to non damaging surveys."@en ;
+    dct:publisher <https://historicengland.org.uk/> ;
+    dct:spatial <http://dbpedia.org/resource/England>,
+        <http://vocab.getty.edu/tgn/7002445> ;
+    dct:title "FISH Event Types Thesaurus"@en ;
+    skos:hasTopConcept <http://purl.org/heritagedata/schemes/agl_et/concepts/147297>,
+        <http://purl.org/heritagedata/schemes/agl_et/concepts/147298> .
+

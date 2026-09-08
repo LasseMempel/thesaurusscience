@@ -42,3 +42,4 @@ Ariadne Mappings:
 
 
 Finto.fi Weitere englische Konzepte mit Mappings...
+Pactols?!

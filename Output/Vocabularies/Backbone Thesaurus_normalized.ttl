@@ -1,0 +1,299 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000001> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/_e04cc3e7> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <http://www.eionet.europa.eu/gemet/concept/1320>,
+        <http://www.eionet.europa.eu/gemet/concept/1874>,
+        <http://www.eionet.europa.eu/gemet/concept/1899> ;
+    skos:prefLabel "Aktivitäten"@de,
+        "activities"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Typen intentioneller Aktionen, die in der Erhaltung, Herstellung, Modifikation oder Zerstörung einer Entität (Lebewesen; konzeptionelle/materielle Objekte; Gruppen; soziale, intellektuelle, physische Phänomene usw.) resultieren."@de,
+        "This term classifies intentional actions that result in the preservation, creation, production, modification or destruction of an entity (living beings, conceptual/material objects, groups, social, intellectual, physical etc. phenomena)."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000002> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/_e140fe64> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:prefLabel "Natürliche Prozesse"@de,
+        "natural processes"@en ;
+    skos:scopeNote "Diese Term beinhaltet Typen von Veränderungen von Sachverhalten, Dingen und Entitäten, die eine natürliche Ursache haben (z. B. Erdbeben, Fluten)."@de,
+        "This term classifies changes in states of affairs, things and entities that result from natural phenomena (e.g. earthquakes, floods)."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000003> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/_06103ab8>,
+        <http://w3id.org/lob/concept/2281> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <http://www.eionet.europa.eu/gemet/concept/11791>,
+        <http://www.eionet.europa.eu/gemet/concept/11792>,
+        <http://www.eionet.europa.eu/gemet/concept/11793>,
+        <http://www.eionet.europa.eu/gemet/concept/14619>,
+        <http://www.eionet.europa.eu/gemet/concept/2643>,
+        <http://www.eionet.europa.eu/gemet/concept/4493>,
+        <http://www.eionet.europa.eu/gemet/concept/4519>,
+        <http://www.eionet.europa.eu/gemet/concept/4523>,
+        <http://www.eionet.europa.eu/gemet/concept/4839>,
+        <http://www.eionet.europa.eu/gemet/concept/5184>,
+        <http://www.eionet.europa.eu/gemet/concept/52>,
+        <http://www.eionet.europa.eu/gemet/concept/5756>,
+        <http://www.eionet.europa.eu/gemet/concept/5912>,
+        <http://www.eionet.europa.eu/gemet/concept/5978>,
+        <http://www.eionet.europa.eu/gemet/concept/6918>,
+        <http://www.eionet.europa.eu/gemet/concept/7401> ;
+    skos:prefLabel "Materialien"@de,
+        "materials"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Typen physischer Substanzen, die Komponenten materieller Objekte sind oder zu dessen Herstellung genutzt werden, deren individuelle Substanz in Bezug auf die Funktion der Objekte (z. B. Gold, Wasser, Ziegel usw.) jedoch keine Rolle spielt. Die Facette kann Rohmaterialien, bearbeitete oder unbearbeitete Materialien, sowie modifizierte und zu Objekten inkorporierte Materialien beinhalten. Ihr Hauptmerkmal ist, dass sie nicht individualisiert werden können, d. h. sie bilden keine unabhängigen \"Einheiten\" mit klaren und deutlichen Grenzen oder Rollen in Bezug auf andere Einheiten der gleichen oder anderen Art."@de,
+        "This term classifies physical substances that  are constituents of material objects or are used in their construction, but whose individual substance is not a factor in the objects’ function (e.g. gold, water, bricks, etc.) The term may include pure raw materials, processed or unprocessed, and also materials that have been modelled and are incorporated into objects. Their main attribute is that they cannot be individualized, that is, they cannot be distinct \"units\" with clear and distinct boundaries or roles in respect to other units of the same or different kind."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000004> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/_1c0fa2d2> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:prefLabel "Materielle Objekte"@de,
+        "material things"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Typen von Objekten mit physischer Substanz, die eine vollkommene Einheit bilden, mit einer relativ stabilen Form und identifizierbaren Grenzen in wenigstens einer Dimension. Diese Einheiten können einen natürlichen oder anthropogenen Ursprung haben, können eine einfache oder komplexe Zusammensetzung aufweisen oder aus mehreren Teilen bestehen. In letzterem Fall können die Teile entweder verschieden und unabhängig von der Einheit sein von dem sie Teil sind (z. B. Höhle in einem Berg) oder müssen in Bezug auf die Gesamtheit des Objektes definiert werden (z. B. Schach - Schachfigur)."@de,
+        "This term classifies things with physical substance that constitute complete units and have a relatively stable form with identifiable boundaries in at least one dimension. Such units can be natural or man-made (with regard to origin), simple or complex (with regard to composition) or consist of parts. In this latter case it is possible that the parts are either distinct and independent from the unit of which they are a part (e.g. a cave on a mountain) or that they have to be defined with reference to the sum of the parts (e.g. chess-chessmen)."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/0000049> a skos:Concept ;
+    skos:exactMatch <http://w3id.org/lob/concept/2270> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:prefLabel "geometric extents"@en ;
+    skos:scopeNote """This term classifies kinds of designations and definitions of spatial extents based on either geometric expressions or spatial properties of observable features -like mountains, lakes, buildings, cities, etc. -and social constructs -referring to the spatial extent of of territories that fall within the jurisdiction of some geopolitical or other administrative unit.
+
+NOTE: The terms listed as Geometric extents can be coordinated with the suitable type of phenomenal place, in the sense of CRMgeo, classified accordingly under Physical Features, Built Environment or Geopolitical Units."""@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000005> a skos:Concept ;
+    skos:exactMatch <https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/30> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:prefLabel "Epochentypen"@de,
+        "types of epochs"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Typen von kulturellen, sozialen, intellektuellen Phänomenen, die untereinander konsistent sind und somit verständliche Einheiten bilden. Diese Typen von Phänomenen sind räumlich und zeitlich begrenzt und ihre Konsistenz beruht auf dem Auftreten wenigstens eines qualitativen Elements, welches sie zu einer Einheit verbindet. Die räumliche und zeitliche Beschränkung ist ein formales Merkmal der Facette \"Epochentypen\". Dies bedeutet, dass die Facette \"Epochentypen\" keinerlei Referenz zu spezifischen Realisierungen dieser Arten von Phänomenen besitzt. Folglich schließt diese Facette keine Zeiträume wie die Renaissance oder die römische Periode, oder die Periode der Balkankriege usw. ein, sondern umfasst die Arten ihrer Kategorisierungen, d. h. die abstrakten Konzepte aufgrund derer es möglich ist, die kulturelle, soziale und intellektuelle Phänomene zu verstehen."@de,
+        "This term classifies cultural, social, intellectual phenomena consistent with each other thus creating intelligible unities. These phenomena are spatially and temporally limited and their consistency relies on the appearance of at least one qualitative element that links them in a unity. The spatial and temporal restriction is a formal feature of the facet “types of epochs”. That means that this term has no reference to specific realizations of these types of phenomena. Consequently, this term does not include time periods such as the Renaissance or the Roman period, or the period of the Balkan wars etc., but their categorization, i.e. the abstract concepts by virtue of which it is possible to conceive the cultural, social and intellectual phenomena as coherent."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000006> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/de/concepts/_588a9c73.html> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32999>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/5829>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/5859>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/5863> ;
+    skos:prefLabel "Konzeptionelle Objekte"@de,
+        "conceptual objects"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Objektklassen, deren Essenz unabhängig von ihrem Trägerobjekt sind. Sie sind Produkte menschlicher Aktivität, die mit Hilfe technischer oder elektronischer Geräte (Digitalfotos, geometrische Messgeräte usw.) oder ohne solche (Konzepte, Gedanken, Ideen) entstehen. Ihre materielle Ausführung bestimmt nicht ihre Identität. Konzeptionelle Objekte können auf mehr als einem bestimmten Träger gleichzeitig bestehen (Papier, elektronische Signale, Fotos, menschliche Erinnerung usw.), ohne dass sich ihr Inhalt oder ihre Identität verändern. Im Gegenteil, bewirkt jede Veränderung des konzeptionellen Objektes (Entfernung von Teilen des Objektes, Überarbeitung eines Konzeptes usw.) eine Veränderung in der Definition seiner Identität. Konzeptionelle Objekte existieren so lange sie auf wenigstens einem Träger (inkl. menschlicher Erinnerung) nachgewiesen werden können. Ihre Existenz endet wenn der letzte Träger und die letzte Erinnerung daran verloren sind."@de,
+        "This term classifies objects whose essence remains the same regardless of the carrier. They are products of the human activity supported by the use of technical or electronic devices (digital photos, geometric measurements etc.) or without it (concepts, thoughts). The fact that they are materially produced does not determine their identity. Conceptual objects have the ability to exist on more than one particular carrier at the same time (paper, electronic signals, photos, human memories etc.), without the latter changing or altering their identity. On the contrary, any alteration of the conceptual object itself (removal of a part, revision etc.) changes the definition of its identity. Conceptual objects exist as long as they can be found on at least one carrier (human memory included). Their existence ends when the last carrier and the last memory are lost."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000007> a skos:Concept ;
+    skos:exactMatch <https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/26> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/2253> ;
+    skos:prefLabel "Gruppen und Vereinigungen"@de,
+        "groups and collectivities"@en ;
+    skos:scopeNote "Unter diesem Term werden Beziehungen jeglicher Art klassifiziert (ökonomisch, religiös, athletisch, politisch, national usw.), welche aus gemeinsamen Handlungen mindestens zweier Individuen entstehen. Diese Beziehungen sollten auf der Annahme gemeinsamer Glaubensgrundsätze, Traditionen, Objektive und/oder Handlungen wie auch organisatorischer Merkmale beruhen."@de,
+        "This term classifies relations of whatever character (economic, religious, athletic, political, national etc.) that arise from the joint actions of at least two people. These relations should be based on the adoption of common beliefs, traditions, objectives and/or actions as well as showing organizational features."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000008> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/de/concepts/_9a41616f.html>,
+        <http://w3id.org/lob/concept/3417> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/5829> ;
+    skos:prefLabel "Rollen"@de,
+        "roles"@en ;
+    skos:scopeNote "Dieser Term umfasst Typen von Haltungen und/oder sozialen Verhaltensweisen, die von einer Person erwartet werden und aus der Beziehung dieses Individuums zu anderen Personen und sozialen Gruppen resultieren oder durch diese erworben werden."@de,
+        "This term classifies attitudes and/or social behaviors that are expected of a person and which result from or are acquired through the relation of that person with other individuals or social groups."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/Concept/000009> a skos:Concept ;
+    skos:exactMatch <http://thesauri.dainst.org/de/concepts/_8cb35559.html>,
+        <https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/32> ;
+    skos:inScheme <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> ;
+    skos:narrowMatch <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32210>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32213>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32214>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32224>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32232>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32242>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32246>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32248>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32250>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32254>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32256>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32265>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32266>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32269>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32271>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32277>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32295>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32298>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32305>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32307>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32309>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32311>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32329>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32335>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32346>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32348>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32354>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32361>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32376>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32383>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32385>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32387>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32388>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32391>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32395>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32405>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32406>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32413>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32436>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32441>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32443>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32445>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32446>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32448>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32451>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32455>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32466>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32468>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32471>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32488>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32489>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32493>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32494>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32497>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32498>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32505>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32506>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32510>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32523>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32530>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32532>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32538>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32541>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32544>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32545>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32555>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32556>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32567>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32573>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32574>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32577>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32586>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32593>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32602>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32604>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32611>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32616>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32649>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32654>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32661>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32675>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32691>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32692>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32699>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32703>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32706>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32708>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32713>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32716>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32726>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32730>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32733>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32734>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32739>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32743>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32749>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32752>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32753>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32773>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32785>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32792>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32794>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32796>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32802>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32806>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32815>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32817>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32819>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32827>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32829>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32834>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32838>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32853>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32856>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32859>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32881>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32883>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32884>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32885>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32887>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32907>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32909>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32916>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32925>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32927>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32928>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32932>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32934>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32954>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32967>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32978>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32983>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32984>,
+        <https://isl.ics.forth.gr/parthenos_vocabularies/Concept/32988> ;
+    skos:prefLabel "Geopolitische Einheiten"@de,
+        "geopolitical units"@en ;
+    skos:scopeNote "Dieser Term beinhaltet Typen von administrativen Einheiten, die von staatlichen oder anderen souveränen/unabhängigen oder politischen Körperschaften innerhalb der Grenzen ihrer Jurisdiktion genutzt werden. Wesentliche Eigenschaften dieser Einheiten sind u. a. ihre geographische Ausdehnung, ihre chronologische Ausdehnung, ihre Regierungsgremien und der Grad ihrer Autonomie, die ihnen in Bezug auf die Verwaltung ihrer Ressourcen zugesprochen sind."@de,
+        "This term classifies administrative divisions used by a state or other sovereign or political structure within the boundaries of its jurisdiction. Intrinsic features of these units include, among others, the extent of the area over which they are applied/exercised, the chronological extent during which they are in force, their governing bodies and the degree of autonomy they are granted in relation to managing and exploiting of their resources."@en ;
+    skos:topConceptOf <https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> .
+
+<https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus> a skos:ConceptScheme ;
+    dct:creator "BBT maintenance WG"@en,
+        "Blandine Nouvel"@en,
+        "Bruno Almeida"@en,
+        "Camilla Colombi"@en,
+        "Chryssoula Bekiari"@en,
+        "Eleni Tsouloucha"@en,
+        "Evelyne Sinigaglia"@en,
+        "George Bruseker"@en,
+        "Georgia Papadopoulou"@en,
+        "Gerasimos Chrysovitsanos"@en,
+        "Helen Goulis"@en,
+        "Helen Katsiadaki"@en,
+        "Hella Hollander"@en,
+        "Iraklitos Souyioultzoglou"@en,
+        "Lena Vitt"@en,
+        "Lida Charami"@en,
+        "Makis Chrisovitsanos"@en,
+        "Maria Daskalaki"@en,
+        "Martin Doerr"@en,
+        "Patricia Kalafata"@en,
+        "Vanessa Hannesschläger"@en,
+        "Wolfgang Schmidle"@en,
+        "Yorgos Tzedopoulos"@en ;
+    dct:description "The BBT is the research outcome of work undertaken by the DARIAH Thesaurus Maintenance WG in an effort to design and establish a coherent overarching thesaurus for the humanities, under which specialist thesauri and structured vocabularies used across scholarly communities can be aligned and form a thesaurus federation.  It aims at enabling cross-disciplinary resource discovery while ensuring compatibility with thesauri that cover highly specific scientific domains and areas of knowledge in development.  The BBT was created and funded by the DARIAH GR Developing a Greek Research Infrastructure for the Humanities project (2013-2015). Currently it receives funding by the APOLLONIS Greek Infrastructure for Humanities, Arts and Language Research and Innovation project (2017-2020)."@en ;
+    dct:subject "activities"@en,
+        "conceptual objects"@en,
+        "geopolitical units"@en,
+        "humanities"@en,
+        "materials"@en,
+        "processes"@en,
+        "roles"@en ;
+    dct:title "Backbone Thesaurus"@en ;
+    skos:hasTopConcept <https://vocabs.dariah.eu/bbt/Concept/000001>,
+        <https://vocabs.dariah.eu/bbt/Concept/000002>,
+        <https://vocabs.dariah.eu/bbt/Concept/000003>,
+        <https://vocabs.dariah.eu/bbt/Concept/000004>,
+        <https://vocabs.dariah.eu/bbt/Concept/0000049>,
+        <https://vocabs.dariah.eu/bbt/Concept/000005>,
+        <https://vocabs.dariah.eu/bbt/Concept/000006>,
+        <https://vocabs.dariah.eu/bbt/Concept/000007>,
+        <https://vocabs.dariah.eu/bbt/Concept/000008>,
+        <https://vocabs.dariah.eu/bbt/Concept/000009> .
+

@@ -1,0 +1,2086 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/102712> a skos:Concept ;
+    skos:altLabel "Galvanised Steel"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98213> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Galvanized Steel"@en ;
+    skos:scopeNote "Steel coated in zinc, giving good protection against weathering."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/102713> a skos:Concept ;
+    skos:altLabel "Galvanised Iron"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97992> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Galvanized Iron"@en ;
+    skos:scopeNote "Iron coated in zinc, giving good protection against weathering."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/126913> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Seaweed"@en ;
+    skos:scopeNote "Multicellular marine alga, which grows on the seashore, in salt marshes, in brackish water or submerged in the ocean."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/139757> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98219> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Combed Wheat Reed"@en ;
+    skos:scopeNote "A form of thatching straw composed of stems that have been combed mechanically to remove grain and extraneous waste material without crushing the stem."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/140228> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tuff"@en ;
+    skos:scopeNote "A light porous cellular rock, consisting of consolidated volcanic ash ejected from vents during a volcanic eruption."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/140229> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Marl"@en ;
+    skos:scopeNote "A mixed earthy substance consisting principally of clay mixed with calcium carbonate and sand in very variable proportions."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/140458> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Double Roman Tile"@en ;
+    skos:scopeNote "A large rectangle roof tile with an upstand on one side, a roll in the centre and another roll on the other side, which fits over the upstand of the adjacent tile. The name does not denote a relationship with the Roman period."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/140459> a skos:Concept ;
+    skos:altLabel "Efte Foil"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ethyltetrafluoroethylene Foil"@en ;
+    skos:scopeNote "Extremely thin foil made out of ethyltetraflouroethylene, a modified copolymer which is extruded into a thin film and which is related to Teflon. It has a very high level of light transmission in visible and ultra violet range. Used instead of glass."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/140464> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Grass"@en ;
+    skos:scopeNote "Ground-covering herbage, some varieties of which can be used, especially when dried and in large quantities, as a construction material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/142988> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Brickearth"@en ;
+    skos:scopeNote "An unconsolidated geological deposit sometimes iused as a bonding material in stone walls."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/143234> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98022> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Sheet Lead"@en ;
+    skos:scopeNote "Lead which has been rolled into a sheet and often used as a roof covering."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/143498> a skos:Concept ;
+    skos:altLabel "Painted Wall Plaster"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Painted Plaster"@en ;
+    skos:scopeNote "Plaster which has been painted either for decorative purposes or to protect it."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/163248> a skos:Concept ;
+    skos:altLabel "Bungeroosh"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bungaroosh"@en ;
+    skos:scopeNote "Composed of a wide variety of substances and materials such as whole or broken bricks, cobblestones, flints, pebbles and sand which are set into hydraulic lime. Used most often to form external walls and is commonly found in the Brighton/Lewes region."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/169981> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Triple Roman Tile"@en ;
+    skos:scopeNote "A large rectangle roof tile in the form of an upstand on one side followed by three rolls, the last of which fits over the upstand of the adjacent tile. The name does not denote a relationship with the Roman period."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97702> a skos:Concept ;
+    skos:altLabel "Balmoral Granite"@en,
+        "Rubislaw Granite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Aberdeen Granite"@en ;
+    skos:scopeNote "Medium grained, dark bluish-grey stone. Quarried mainly from the Rubislaw Quarry."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97713> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97708> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Anodized Aluminium"@en ;
+    skos:scopeNote "Aluminium coated by a protective film of oxides created by electrolysis."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97716> a skos:Concept ;
+    skos:altLabel "Asbestos Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Artificial Slate"@en ;
+    skos:scopeNote "A rectangular sheet of roofing material created by a man made process (eg. asbestos cement slate) and made to look like, and used in the same way as, natural slate."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97718> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Artificial Timber"@en ;
+    skos:scopeNote "Synthetic fibres and reconstituted materials imitating, or in the form of, timber created by a man-made process. Use carefully - do not confuse with mock and sham timber work."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97719> a skos:Concept ;
+    skos:altLabel "Asbestos Slate"@en,
+        "Corrugated Asbestos"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Asbestos"@en ;
+    skos:scopeNote "A mineral crystal of thin, tough fibres which can be woven. Used for high temperature insulation or as reinforcement in asbestos cement building board and corrugated roofing. If used to imitate slate, use artificial slate also."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97722> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ashlar"@en ;
+    skos:scopeNote "A square, hewn or worked, high class freestone which can be 'freely' cut and is laid in horizontal courses with vertical joints."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97723> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97749> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Asphalt"@en ;
+    skos:scopeNote "Solid or viscous bituminous pitch of natural occurrence,or produced from petroleum mixed with sand or other aggregate filler, for use in roads or as a covering material"@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97726> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98111> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bakelite"@en ;
+    skos:scopeNote "An early thermosetting plastic commonly used for its properties of electrical insulation."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97729> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bamboo"@en ;
+    skos:scopeNote "Tropical giant grass with hollow stem used structurally or as a covering material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97731> a skos:Concept ;
+    skos:altLabel "Burgate Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bargate Stone"@en ;
+    skos:scopeNote "Hard, coarse grained, calcareous sandstone, coloured by iron oxide. Quarried in the Guildford and Godalming area of the South East."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97737> a skos:Concept ;
+    skos:altLabel "Box Ground"@en,
+        "Box Rubblestone"@en,
+        "Bradford Stone"@en,
+        "Combe Down Stone"@en,
+        "Corsham Stone"@en,
+        "Hartham Park Stone"@en,
+        "Hazlebury Stone"@en,
+        "Monks Park Stone"@en,
+        "St Aldhelm Stone"@en,
+        "Stoke Ground Stone"@en,
+        "Westwood Stone"@en,
+        "Winsley Ground"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bath Stone"@en ;
+    skos:scopeNote "Even grained, poorly fossiliferous, light brown/cream coloured, oolitic limestone. Quarried in the Bath area."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97740> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97814> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Beer Stone"@en ;
+    skos:scopeNote "Coarse, hard Chalkstone, light grey to white coloured, containing shell fragments."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97741> a skos:Concept ;
+    skos:altLabel "Bembridge Stone"@en,
+        "Binstead Stone"@en,
+        "Isle Of Wight Stone"@en,
+        "Quarr Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98236> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bembridge Limestone"@en ;
+    skos:scopeNote "Generic name for the hard, white/cream coloured, freshwater limestone. Quarried on the Isle of Wight."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97750> a skos:Concept ;
+    skos:altLabel "Roofing Felt"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bituminous Felt"@en ;
+    skos:scopeNote "A material made of felted fibres bonded by bitumen. Often used as a roofing material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97764> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bone"@en ;
+    skos:scopeNote "Any of the pieces of hard tissue consisting largely of calcium phosphate that make up the skeleton of a vertebrate animal."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97772> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Brass"@en ;
+    skos:scopeNote "Easily formed metal alloy composed of copper and zinc."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97788> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97866> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Caen Stone"@en ;
+    skos:scopeNote "Fine grained limestone, yellow or yellow/white in colour. Imported from France, mainly for ecclesiastical use."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97793> a skos:Concept ;
+    skos:altLabel "Campan Melange"@en,
+        "Campan Rose"@en,
+        "Campan Vert"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Campan Marble"@en ;
+    skos:scopeNote "White coloured marble. Imported from France."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97798> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Canvas"@en ;
+    skos:scopeNote "An unbleached cloth of hemp, flax or other coarse yarn."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97802> a skos:Concept ;
+    skos:altLabel "Arabescato Marble"@en,
+        "Bardiglio Marble"@en,
+        "Cipollino Marble"@en,
+        "Pavonazzo"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Carrara Marble"@en ;
+    skos:scopeNote "Imported Italian marble varying in colour from green, blue, purple to white."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97805> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97992> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cast Iron"@en ;
+    skos:scopeNote "Dating from the 15th century, it is a hard alloy of iron and carbon, melted and shaped into various moulded forms."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97808> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cedar"@en ;
+    skos:scopeNote "Durable wood from a non-native, evergreen conifer."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97828> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Clay Lump"@en ;
+    skos:scopeNote "Large, moulded, unburnt blocks of clay type soil laid in a similar way to brick, but bedded in lime and clay 'mortar'. The walls produced are characteristically thinner than those of cob and pise."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97830> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98148> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Clinker"@en ;
+    skos:scopeNote "Fused ash from furnaces used as aggregate."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97833> a skos:Concept ;
+    skos:altLabel "Burwell Stone"@en,
+        "Totternhoe Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97814> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Clunch"@en ;
+    skos:scopeNote "A hard, gritty, grey/green coloured form of chalk."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97834> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97717> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Coade Stone"@en ;
+    skos:scopeNote "Durable artificial stone consisting of china clay, sand and finely ground stoneware cast from moulds and fired in a kiln. Commonly used for architectural ornament and facings."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97850> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cork"@en ;
+    skos:scopeNote "Buoyant, light material obtained from the cork tree."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97863> a skos:Concept ;
+    skos:altLabel "Bladon Cotswold Stone"@en,
+        "Cotswold Slate"@en,
+        "Guiting Stone"@en,
+        "Stanway Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cotswold Stone"@en ;
+    skos:scopeNote "Sandy, light brown (cream to golden) coloured limestone, easily worked and readily available."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97887> a skos:Concept ;
+    skos:altLabel "Ashburton Marble"@en,
+        "Chudleigh Stone"@en,
+        "Plymouth Limestone"@en,
+        "Plymouth Stone"@en,
+        "Torquay Limestone"@en,
+        "Torquay Marble"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Devonian Limestone"@en ;
+    skos:scopeNote "Limestone formed during the Devonian period, and found predominantly between the Exe and Tamar rivers in Devon. Varying in colour from black/grey to pink/white it was often polished to imitate, and be used as, marble."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97889> a skos:Concept ;
+    skos:altLabel "Black Granite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Diorite"@en ;
+    skos:scopeNote "Coarse grained, dark coloured, igneous rock."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97906> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Elm"@en ;
+    skos:scopeNote "Deciduous wood from the native elm tree, commonly used for framing or cladding of lesser timber framed structures due to its poorer weathering qualities as compared to oak."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97911> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Encaustic Tile"@en ;
+    skos:scopeNote "Glazed and decorated, patterned earthenware tile combining different coloured clays which are inlaid and burnt in. Mainly used for flooring and external decoration."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97912> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97777> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Engineering Brick"@en ;
+    skos:scopeNote "A dense, high strength, low absorption brick of uniform size, employed predominantly in industrial structures such as railway viaducts."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97915> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Feldspar"@en ;
+    skos:scopeNote "Hard, often coloured, can be transparent. Found on its own as crystals and veins but also as a major constituent of all three geological rock types."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97916> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98238> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Felt"@en ;
+    skos:scopeNote "Fabric of fibrous materials consolidated by heat and mechanical action so that the fibres are matted together."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97918> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Fibreglass"@en ;
+    skos:scopeNote "Any material consisting of glass filaments woven into textiles, paper or board."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97921> a skos:Concept ;
+    skos:altLabel "Knapped Flint"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97821> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Flint"@en ;
+    skos:scopeNote "Hard, durable, dark grey stone, the purest native form of silica, which can either be used decoratively or as a main material. Predominantly found in East Anglia and the South East."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97923> a skos:Concept ;
+    skos:altLabel "Fluorspar"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Fluorite"@en ;
+    skos:scopeNote "Soft mineral, colour varying from black/purple to yellow/green. Commonly found as a mineral vein."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97932> a skos:Concept ;
+    skos:altLabel "Hard York Freestone"@en,
+        "Langton Freestone"@en,
+        "Yorkshire Freestone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Freestone"@en ;
+    skos:scopeNote "Stonemason's term for any easily worked sedimentary rock. Index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97942> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gold"@en ;
+    skos:scopeNote "A precious metal characterised by its yellow colour and resistance to tarnishing."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97956> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97999> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gritstone (Limestone)"@en ;
+    skos:scopeNote "Specific English quarryman's term for any limestone abundant in shell fragments. Use this term with care. When only Gritstone is mentioned, unless otherwise specified, assume it to be Gritstone (Sandstone), since this is the most common usage."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97957> a skos:Concept ;
+    skos:altLabel "Birchover Stone"@en,
+        "Birshover Gritstone"@en,
+        "Chinley Moor Stone"@en,
+        "Darley Dale Stone"@en,
+        "Derbyshire Grit Stone"@en,
+        "Hall Dale Stone"@en,
+        "Matlock Stone"@en,
+        "Millstone Grit"@en,
+        "Revidge Grit"@en,
+        "Stancliffe Stone"@en,
+        "Watts Cliff Stone"@en,
+        "Wattscliffe Stone"@en,
+        "Whatstandwell Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gritstone (Sandstone)"@en ;
+    skos:scopeNote "Carboniferous sandstone varying in grain size from coarse to fine and in colour from white, yellow, pink to brown. When only Gritstone is mentioned, unless otherwise specified, assume it to be Gritstone (Sandstone), as this is the more common usage."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97963> a skos:Concept ;
+    skos:altLabel "Ham Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ham Hill Stone"@en ;
+    skos:scopeNote "Shelly, gold/brown, coloured liassic limestone containing large quantities of crystalline calcite."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97977> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98213> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "High Tensile Steel"@en ;
+    skos:scopeNote "A strong alloy of steel."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97980> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Hornblende"@en ;
+    skos:scopeNote "Medium hard, green/black coloured. Found in many igneous and metamorphic rocks."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97982> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Hornton Stone"@en ;
+    skos:scopeNote "Compact grained, brown/yellow/green/grey blue, coloured liassic limestone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97984> a skos:Concept ;
+    skos:altLabel "Horsham Slab"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98223> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Horsham Stone"@en ;
+    skos:scopeNote "Hard, fissile sandstone which weathers to a dark brown colour. Mainly used as a stone roofing material (stone slate) throughout Sussex and Surrey."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97991> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Iona Marble"@en ;
+    skos:scopeNote "One of only three 'true' British marbles, pale green and white in colour."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98000> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97756> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Keinton Stone"@en ;
+    skos:scopeNote "Hard, white/grey coloured liassic limestone. Quarried near Somerton in Somerset."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98003> a skos:Concept ;
+    skos:altLabel "Kentish Rag"@en,
+        "Tonbridge Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97866> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Kentish Ragstone"@en ;
+    skos:scopeNote "Sandy, rough blue to green/grey coloured limestone. Quarried in Kent and widely used throughout the South East."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98007> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Killas"@en ;
+    skos:scopeNote "Cornish miner's term for slates formed during the Carboniferous and Devonian periods."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98023> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Leather"@en ;
+    skos:scopeNote "Animal skin that has been hardened or treated by a tanning process."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98025> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lightweight Concrete"@en ;
+    skos:scopeNote "A concrete which is either aerated or made from lightweight aggregate."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98029> a skos:Concept ;
+    skos:altLabel "Ancaster Stone"@en,
+        "Barnack Stone"@en,
+        "Casterton Stone"@en,
+        "Clipsham Stone"@en,
+        "Collyweston Slate"@en,
+        "Cosgrove Stone"@en,
+        "Freebed"@en,
+        "Hardwhite"@en,
+        "Ketton Stone"@en,
+        "Stamford Stone"@en,
+        "Weatherbed"@en,
+        "Weldon Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lincolnshire Limestone"@en ;
+    skos:scopeNote "Generic term for the oolitic limestones quarried in Northamptonshire, Lincolnshire and Rutland. Varying in grain size from medium to coarse, and colour from cream to pale brown."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98037> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97813> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Majolica"@en ;
+    skos:scopeNote "Fine earthenware with raised patterns of coloured decoration in the form of an enamel or coloured opaque glaze. Use for decorative wall facings."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98067> a skos:Concept ;
+    skos:altLabel "Mount Sorrel Granite"@en,
+        "Mountsorrel Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Mountsorrel Granite"@en ;
+    skos:scopeNote "Very hard, rough medium/coarse grained, pink to grey coloured granite. Usually found and quarried in Leicestershire."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98069> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Mud"@en ;
+    skos:scopeNote "Wet soil, sand or other earthy matter combined with ballast and bonded with straw or other binding material. Walls are built in the absence of shuttering by the simple process of pitching in layers."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98074> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Oak"@en ;
+    skos:scopeNote "A native hardwood of the Beech family with hard and durable characteristics which traditionally made it appropriate for structural work."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98083> a skos:Concept ;
+    skos:altLabel "Pargetting"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97876> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pargeting"@en ;
+    skos:scopeNote "External decorative plasterwork often incised or modelled with ornamental patterns. Usually applied to timber-framed houses, especially during 16th and 17th centuries."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98093> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pennant Stone"@en ;
+    skos:scopeNote "Hard, fine grained, blue/grey coloured sandstone. Quarried in South Wales and the Bristol area and commonly used, throughout the country, as a stone roofing material (stone slate)."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98101> a skos:Concept ;
+    skos:altLabel "Blue Peterhead Granite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Peterhead Granite"@en ;
+    skos:scopeNote "Coarse grained, dark coloured granite, quarried in the Peterhead and Cairngall areas of Scotland, but used throughout the North."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98104> a skos:Concept ;
+    skos:altLabel "Baltic Pine"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pine"@en ;
+    skos:scopeNote "Wood of a coniferous tree native to Scotland and Scandinavia."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98107> a skos:Concept ;
+    skos:altLabel "Pise De Terre"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pise"@en ;
+    skos:scopeNote "Rammed earth or clay of a low moisture content used to make floors or walls, or found between shuttering."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98117> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98111> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Polycarbonate"@en ;
+    skos:scopeNote "Very tough transparent sheeting often used for security glazing."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98119> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98111> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Polyvinyl Chloride"@en ;
+    skos:scopeNote "A type of thermoplastic polymer which is versatile and cheap, often referred to as PVC. This includes plasticized PVC and unplasticized PVC (uPVC)."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98121> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Portland Cement"@en ;
+    skos:scopeNote "A form of cement originally named since it was said to be like Portland Stone in appearance."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98124> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Prestressed Concrete"@en ;
+    skos:scopeNote "Concrete, containing bars or wires, which is compressed to greatly increase its strength."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98128> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97717> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pulhamite Stone"@en ;
+    skos:scopeNote "A patented manmade rock invented by James Pulham and Son of Broxbourne. Pulhamite was used to join natural rocks together or crafted to simulate natural stone features. It is an artificial form of sandstone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98138> a skos:Concept ;
+    skos:altLabel "Rag"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ragstone"@en ;
+    skos:scopeNote "Stonemason's term for any coarse/hard stone that is not easily worked. Index with specific stone type where given. Not to be confused with Kentish Ragstone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98157> a skos:Concept ;
+    skos:altLabel "Single Roman Tile"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Roman Tile"@en ;
+    skos:scopeNote "Single lap regular shaped roof covering which can have one or more water channels. Typically made of clay or concrete. The name does not denote a relationship with the Roman period."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98162> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98147> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Roughcast"@en ;
+    skos:scopeNote "A render including an aggregate of gravel or stone chipping thrown rather than trowelled onto an external wall."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98175> a skos:Concept ;
+    skos:altLabel "Alta Quartzite"@en,
+        "Altazite"@en,
+        "Barge Quartzite"@en,
+        "Italian Quartzite"@en,
+        "Otta Slate"@en,
+        "Pillaguri Slate"@en,
+        "Rembrandt Stone"@en,
+        "Sanfront Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Schist"@en ;
+    skos:scopeNote "Medium to coarse grained metamorphic rock, colour being determined by its dominant mineral. Often used for floor and wall cladding."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98184> a skos:Concept ;
+    skos:altLabel "Adamelite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Shap Granite"@en ;
+    skos:scopeNote "Hard, coarse grained, grey to red/brown coloured granite. Used predominantly for tombstones becasuse of its ability to take a polish, but it is also in demand for underwater construction."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98185> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Shell"@en ;
+    skos:scopeNote "Hard, protective covering made largely of calcium salts secreted by soft bodied invertebrate animals."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98189> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Silver"@en ;
+    skos:scopeNote "A precious metal of lustrous white colour with great malleability and ductility."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98191> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Skye Marble"@en ;
+    skos:scopeNote "One of only three 'true' British marbles, white in colour, predominantly used for sculptures and statues."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98193> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98148> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Slag"@en ;
+    skos:scopeNote "Waste material or dross separated from metals during smelting or refining."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98197> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97939> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Solar Control Glass"@en ;
+    skos:scopeNote "Glass to control or reduce the effects of the sun, includes both reflective and absorpative types of glass."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98199> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Spanish Tile"@en ;
+    skos:scopeNote "Single lap roof covering made of clay. Half cylinder in profile although one end is slightly wider than the other. A Spanish tile roof covering comprises under-tiles and over-tiles, the two have the same shape, but the under-tile is slightly larger."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98220> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98147> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Stucco"@en ;
+    skos:scopeNote "Smooth rendering applied to the exterior of buildings which may be incised to suggest coursed masonry. Made of lime and sand or brick dust, and more recently, cement."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98231> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97749> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tar"@en ;
+    skos:scopeNote "Thick, viscid liquid, obtained by the distillation of wood, coal or other organic substances, chemically a mixture of hydrocarbons with resins."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98232> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97749> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tarmacadam"@en ;
+    skos:scopeNote "Road or paving material combining crushed stone, rolled and mixed with bitumen type mixer."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98237> a skos:Concept ;
+    skos:altLabel "Mosaic"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tessera"@en ;
+    skos:scopeNote "Squared block of glass, tile, stone or marble used in mosaic."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98260> a skos:Concept ;
+    skos:altLabel "Travertine"@en,
+        "Tufa"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tufaceous Limestone"@en ;
+    skos:scopeNote "Very light, depositional limestone formed by the precipitation of calcium carbonate rich water (Tufa). The more dense and compact form, Travertine, is formed in a similar way."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98280> a skos:Concept ;
+    skos:altLabel "Weald Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98223> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Wealden Stone"@en ;
+    skos:scopeNote "Fine grained, brown/yellow to dark grey coloured cretaceous sandstone. It is a particularly good freestone and was often used for ashlar finishes."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98283> a skos:Concept ;
+    skos:altLabel "Cor Ten Steel"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98213> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Weathering Steel"@en ;
+    skos:scopeNote "An alloy of steel."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98298> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97835> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Wichert"@en ;
+    skos:scopeNote "Cob type construction typical to Buckinghamshire using a local clay with a high chalk content to produce walls of notable inherent stability."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98305> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97992> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Wrought Iron"@en ;
+    skos:scopeNote "The oldest form of iron, it is a tough, pure form of iron that can be fashioned into decorative items or shapes by hammering, squeezing or rolling."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98307> a skos:Concept ;
+    skos:altLabel "Bolton Wood Stone"@en,
+        "Crosland Hill Stone"@en,
+        "Elland Edge Flagrock"@en,
+        "Elland Edge Stone"@en,
+        "Greenmoor Stone"@en,
+        "Hard Rock"@en,
+        "Hard York"@en,
+        "Hard York Freestone"@en,
+        "Woodkirk Stone"@en,
+        "Yorkshire Flagstone"@en,
+        "Yorkshire Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "York Stone"@en ;
+    skos:scopeNote "Generic name for the fine grained, brown coloured carboniferous sandstone, quarried in the Leeds, Bradford and Halifax area."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98312> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Zinc"@en ;
+    skos:scopeNote "A hard and lustrous metallic element, used for roofing, galvanising iron and a component of alloys such as brass."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/164108> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98126> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Hertfordshire Puddingstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97774> ;
+    skos:scopeNote "A conglomerate rock comprising well rounded flint pebbles in a very hard matrix of fine pale coloured sand, bound together by hard natural silica cement. The pebbles are usually coloured ochre or red and have black rims."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97704> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Alabaster"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:scopeNote "Fine grained, whitish, granular variety of Gypsum. Suitable for carving."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97708> a skos:Concept ;
+    skos:altLabel "Corrugated Aluminium"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Aluminium"@en ;
+    skos:scopeNote "Lightweight, strong metal with good corrosive resistance, normally used as an alloy."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97756> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Blue Lias"@en ;
+    skos:scopeNote "Hard white/grey coloured liassic limestone. Quarried on the Devon-Dorset border."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97776> a skos:Concept ;
+    skos:altLabel "Thermalite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Breeze Block"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98148> ;
+    skos:scopeNote "Lightweight building block traditionally made with coke breeze from gas works combined with sand and cement. Use this term generally to denote a light, modern concrete building block with man made characteristics."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97803> a skos:Concept ;
+    skos:altLabel "Car Stone"@en,
+        "Ginger Bread Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Carstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993> ;
+    skos:scopeNote "Coarse hard sandstone often coloured with iron oxide creating its characteristic brown shades."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97821> a skos:Concept ;
+    skos:altLabel "Knapped Chert"@en,
+        "Lyddite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Chert"@en ;
+    skos:scopeNote "A hard, silica rich rock, black or brown coloured, commonly found in nodular form."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97835> a skos:Concept ;
+    skos:altLabel "Clob"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cob"@en ;
+    skos:scopeNote "Walls composed of clay, earth, straw, lime and sand, mixed with water. Constructed without shutters in layers upon a stone or brick plinth and usually covered with protective limewash."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97836> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cobble"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "Naturally occurring glacial rock fragments (diameter 64-256mm) larger than pebble and smaller than boulder."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97844> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Connemara Marble"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181> ;
+    skos:scopeNote "One of only three 'true' British marbles, green and white in colour, predominantly used in large public buildings."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97845> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Copper"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97779> ;
+    skos:scopeNote "Metal used primarily for roofing and ornamental purposes, being lighter and stronger than lead."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97892> a skos:Concept ;
+    skos:altLabel "Dolomitic Conglomerate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Dolomite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98036> ;
+    skos:scopeNote "Soft, often white, but may be transparent. Dolomite can be found on its own, but may also occur as a replacement mineral found in some rocks, particularly limestone, formed after action by magnesium-rich fluids."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97908> a skos:Concept ;
+    skos:altLabel "Catacleuse"@en,
+        "Growan"@en,
+        "Pentewan Stone"@en,
+        "Trerice Porphry"@en,
+        "Trerice Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/102688> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Elvan"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:scopeNote "Miner's term for fine grained, often light grey/fawn coloured porphyritic rocks. Commonly found in Devon and Cornwall."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97914> a skos:Concept ;
+    skos:altLabel "Marmo"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98235> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Faience"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:scopeNote "Solid masonry slabs (tiles) of terracotta which are usually used as a cladding by bedding in concrete. Faience also refers to decorative glazed units."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97917> a skos:Concept ;
+    skos:altLabel "Hardboard"@en,
+        "Medium Board"@en,
+        "Medium Density Fibreboard"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98080> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Fibreboard"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "A sheet formed from wood which has been separated into its fibrous elements and reconstituted under pressure. The natural fibres produce resins which act as adhesive, but often additional adhesives are used."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97919> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Firestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993> ;
+    skos:scopeNote "Soft sandstone stained by iron oxide often used in the Surrey area."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97939> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Glass"@en ;
+    skos:scopeNote "Transparent, hard substance made by fusing soda-silica which solidifies from a molten state."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97940> a skos:Concept ;
+    skos:altLabel "Alps Grey Granite"@en,
+        "Ematita Granite"@en,
+        "Madreperla"@en,
+        "Verde Ematita"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gneiss"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:scopeNote "Coarse grained, metamorphic rock in which the colour is dependent upon the predominant mineral."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97943> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gorse"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> ;
+    skos:scopeNote "A spiny evergreen shrub of the pea family which can be utilized as a roof covering in areas of its predominance, eg. heathland."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97974> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Heather"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> ;
+    skos:scopeNote "A dwarf shrub of the heath family used as an alternative to straw as a roof covering in moorland regions. Cut while in bloom and laid with the roots carefully entwined. The covering turns a characteristic black colour with age."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98013> a skos:Concept ;
+    skos:altLabel "Borrowdale Slate"@en,
+        "Brathay Slate"@en,
+        "Broughton Moor Slate"@en,
+        "Burlington Blue Grey"@en,
+        "Burlington Slate"@en,
+        "Bursting Stone"@en,
+        "Buttermere Slate"@en,
+        "Cobble Stone"@en,
+        "Elterwater Slate"@en,
+        "Greenslate"@en,
+        "Kirkstone Green"@en,
+        "Lakeland Green"@en,
+        "Moss Rigg Slate"@en,
+        "Skiddaw Slate"@en,
+        "Spoutcrag"@en,
+        "Westmoorland Green"@en,
+        "Westmoorland Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lake District Slate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Collective term for the Burlington (Silurian period) and Borrowdale (Ordovician period) groups of slates from the Lake District and parts of Cumbria, Lancashire. Hard, fine grained metamorphic rock, varying in colour from green/olive to black/blue black."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98022> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lead"@en ;
+    skos:scopeNote "Metal used primarily for roof coverings and window fittings. It is easy to work, can be worked cold and does not rust which makes it suitable for holding or repelling water."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98031> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98219> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Long Straw"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> ;
+    skos:scopeNote "Composed of loose uncombed lengths of harvested wheat which are formed into bundles for laying. Distinctive appearance with both ears and butts visible on the surface traditionally using hazel spars which hold the straw in place."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98036> a skos:Concept ;
+    skos:altLabel "Anston Stone"@en,
+        "Bolsover Moor"@en,
+        "Huddlestone Stone"@en,
+        "Mansfield Woodhouse Stone"@en,
+        "Roche Abbey Stone"@en,
+        "Steetly Stone"@en,
+        "Tadcaster Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Magnesian Limestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97892> ;
+    skos:scopeNote "Permian limestones which have had their chemical composition naturally altered with the calcium content being replaced by magnesium. Fine grained and varying from yellow/brown to cream in colour, although they weather to a dark grey."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98047> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Mathematical Tile"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97777> ;
+    skos:scopeNote "Tile nailed externally to a wall and usually laid in mortar designed to present a brick-like appearance."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98061> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Moorstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98173> ;
+    skos:scopeNote "Stonemason's name for granite found lying upon the moorland surface, as opposed to having been quarried, in the West Country and the Lake District. Used, as found, since prehistoric times, in later years was often dressed and shaped."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98082> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Paper"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "Thin flexible sheets made from the pulp of wood or other fibrous matter."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98090> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98147> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pebbledash"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98089> ;
+    skos:scopeNote "A render with small washed stones added as aggregate. Popular in the early 20th century."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98116> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98080> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Plywood"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "Thin layers of wood, bonded together to form a structural board. The grain of the adjacent layers lie across one another to give structural strength. Produced since mid 19th century for use in interior joinery, since 1930's for exterior use."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98123> a skos:Concept ;
+    skos:altLabel "Base Bed"@en,
+        "Basebed"@en,
+        "Chilmark Stone"@en,
+        "Portland Roach"@en,
+        "Ridgeway Stone"@en,
+        "Roach Stone"@en,
+        "Tisbury Stone"@en,
+        "Whit Bed"@en,
+        "Whitbed"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Portland Stone"@en ;
+    skos:scopeNote "Fine to coarse grained, cream to green/grey coloured oolitic limestone. Quarried since Roman times, it is one of Britain's best building stones, hence its use throughout the country."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98131> a skos:Concept ;
+    skos:altLabel "Corfe Stone"@en,
+        "Langton Freestone"@en,
+        "Purbeck Marble"@en,
+        "Purbeck Portland"@en,
+        "Swanage Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98123> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Purbeck Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:scopeNote "Collective name for the oolitic limestone quarried in the Isle of Purbeck region, geologically classified into two main groups. Firstly, a fine grained whitish variety, Purbeck Portland, secondly a fossil-rich cream/gold to grey variety, Swanage Stone etc"@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98133> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Quartz"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98134> ;
+    skos:scopeNote "Hard, transparent, often coloured mineral. Can be found on its own as crystals and veins but also as a major constituent of rocks such as granite. Often used decoratively."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98134> a skos:Concept ;
+    skos:altLabel "Diamanzite"@en,
+        "Safari Quartzite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Quartzite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98133> ;
+    skos:scopeNote "Medium grained, hard, white/grey coloured stone consisting of quartz and often silica, produced by the metamorphosis of sandstone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98143> a skos:Concept ;
+    skos:altLabel "Water Reed"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Reed"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> ;
+    skos:scopeNote "The tall, straight stalks or stems formed by plants found in the wetland areas, particularly The Fens. Used as a roofing material, the reed is laid with the ends forming the exposed covering surface."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98144> a skos:Concept ;
+    skos:altLabel "Gatton Stone"@en,
+        "Godstone Stone"@en,
+        "Merstham Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Reigate Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:scopeNote "Soft, medium grained, green/grey coloured, highly calcareous, cretaceous sandstone. Mined (more frequently than quarried) since pre-Norman times from the Reigate area of Surrey."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98145> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Reinforced Concrete"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98213> ;
+    skos:scopeNote "Aggregate, cement and mortar combined with structural elements of iron or steel mesh or rod reinforcement to form stonelike masses for load bearing, structural building work."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98164> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Rubber"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98111> ;
+    skos:scopeNote "Flexible, synthetic, polymeric organic material formed by chemical synthesis usually in imitation of a natural substance. It can be moulded to shape, extruded or formed into a sheet from solid or foam material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98165> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Rubble"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "Rough, unhewn, undressed building stones with irregular faces, generally not laid in regular courses. Index with type of stone if specified."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98173> a skos:Concept ;
+    skos:altLabel "Greyweathers"@en,
+        "Heathstone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Sarsen Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98061> ;
+    skos:scopeNote "Extremely hard, fine grained, grey to brown silica rich sandstone. It is often found on the surface of the South Downs and has been used, as found, since prehistoric times."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98179> a skos:Concept ;
+    skos:altLabel "Ballachulish Slate"@en,
+        "Scotch Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Scottish Slate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97928> ;
+    skos:scopeNote "Collective term for the Scottish Slates including the Aberdeen/Baniff and Ballachulish/Easdale groups. Fine grained, varying in colour from brown to dark grey/blue. Geologically different from Lake District, Welsh and West Country groups of slate."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98188> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Siltstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Fine grained, yellow/buff to grey/black coloured sedimentary rock."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98195> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Slurry"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809> ;
+    skos:scopeNote "Cement/water mix often used as covering. Use this for entries including slurrying and slurried."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98236> a skos:Concept ;
+    skos:altLabel "Coralline Crag"@en,
+        "Istrian Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tertiary Limestone"@en ;
+    skos:scopeNote "Hard, fossil rich, white to deep red coloured limestone, laid down during the Tertiary period. Used since Roman times because of its good durability and weathering properties."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98243> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tin"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97779> ;
+    skos:scopeNote "Malleable metal used for roofing and for alloys such as bronze."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98262> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Turf"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97902> ;
+    skos:scopeNote "Layer of grass with earth and matted roots cut from the ground and used for earth buildings and as a covering material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98276> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Wattle"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97873> ;
+    skos:scopeNote "Wooden rods or stakes which can be interlaced with twigs or branches to make walls or fences, or more commonly, to form the basis of panels in traditional timber framed buildings which are then covered with daub."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98282> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Weatherboard"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "Length of timber boarding (usually elm, now pine) fixed horizontally or vertically to the exterior of a structure which may be 'tongue and grooved' or 'feathered' to provide external protection."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98286> a skos:Concept ;
+    skos:altLabel "Berwyn Slate"@en,
+        "Blue Grey Slate"@en,
+        "Blue Welsh Slate"@en,
+        "Penrhyn Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Welsh Slate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Collective term for the North and South Wales groups of slate. Hard, fine grained, metamorphic rock, with varying dark shades."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98287> a skos:Concept ;
+    skos:altLabel "Bluestone"@en,
+        "Cornish Rustic"@en,
+        "Cornish Slate"@en,
+        "Delabole Slate"@en,
+        "Devon Slate"@en,
+        "Mill Hill Slate"@en,
+        "Tintagel Stone"@en,
+        "Trebarwith Rustic Slate"@en,
+        "Trecarne Rustic Slate"@en,
+        "Tredinnick Rustic Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "West Country Slate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Collective term for the slates from Devon and Cornwall. Hard, fine grained metamorphic rock. Varying in colour from dark grey/green to blueish/grey. West Country Slate is geologically different from both Lake District and Welsh Slate."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97779> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bronze"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97845>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98243> ;
+    skos:scopeNote "Hard, corrosive resistant alloy of copper and tin."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97814> a skos:Concept ;
+    skos:altLabel "Amberley Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97866> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Chalk"@en ;
+    skos:scopeNote "A soft, porous, white to light grey coloured limestone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97876> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Decorative Plaster"@en ;
+    skos:scopeNote "Ornate or patterned decoration, carved into or moulded from plaster."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97902> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Earth"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98087>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98262> ;
+    skos:scopeNote "Combination of organic and inorganic material cohered to form a hard solid wall or covering. Use for structures created by the excavation and piling up of earth, such as ice houses. Earth may be used in combination with other materials."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97929> a skos:Concept ;
+    skos:altLabel "Ammonite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Fossil"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "The remains of living organisms preserved in stone over a long time period. This may be the internal or external moulds of, usually, the hard parts of an organism (shells, bones, etc.)."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97947> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Gravel"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98170>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "Grains of rock fragment larger than coarse sand and finer than pebbles (diameter 2-4mm)."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98018> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lath"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97873>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110> ;
+    skos:scopeNote "Narrow strips of wood which can form the groundwork for slates, panels or plaster work."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98040> a skos:Concept ;
+    skos:altLabel "Green Ventnor Stone"@en,
+        "Malm (Stone)"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Malmstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:scopeNote "A soft, grey to white coloured, sandstone formed during the Cretaceous period, whose sand grains are cemented together with lime."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98045> a skos:Concept ;
+    skos:altLabel "Uppingham Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Marlstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98180> ;
+    skos:scopeNote "Fine grained, iron rich, liassic limestone, found in Dorset, Somerset, Oxfordshire, Northamptonshire, Leicestershire and Rutland."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98081> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pantile"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> ;
+    skos:scopeNote "Curved, interlocking roof tile of S-shaped section usually made of clay or concrete."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98087> a skos:Concept ;
+    skos:altLabel "Peat Brick"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Peat"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97777>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97902> ;
+    skos:scopeNote "Part-decomposed vegetable matter formed under waterlogged conditions into a firm, brown deposit resembling soil. Used as a brick for infilling in timber framed walls."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98089> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Pebble"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98090>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "Rock fragment (diameter 4-64mm) larger than gravel and smaller than cobble, combined with other material e.g. flint, for decorative effect."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98113> a skos:Concept ;
+    skos:altLabel "Plymax"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98080> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Plymetal"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "Structural board comprising a core of thin layers of wood bonded together, which is faced on one or both sides with a sheet of metal, usually galvanised steel or aluminium. Mainly used for external wall cladding."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98118> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Polyphant"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181> ;
+    skos:scopeNote "Compact, grey/green/brown/white-speckled coloured igneous rock, peculiar to Cornwall. It is easy to carve and readily takes a polish, hence its similarity to British marbles."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98126> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97843> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Puddingstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97774> ;
+    skos:scopeNote "Conglomerate consisting of rounded flint pebbles held together in a natural silica and sand cement."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98156> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Roman Cement"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98180> ;
+    skos:scopeNote "Technically a quick setting hydraulic cement or lime,but term has been adapted to denote cement made from burning lumps of marl found in London clay,a technique adopted for C19th building work. Name not intended to denote a relationship with Roman period"@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98174> a skos:Concept ;
+    skos:altLabel "Stucco Lustro"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97876> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Scagliola"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97717>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> ;
+    skos:scopeNote "Composite substance of plaster formed by gypsum, sand and lime and coloured with pigments, fixed under heat and highly polished. Used to imitate marble and popular in the 17th and 18th centuries for architectural features."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98180> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97843> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Septaria"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98045>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98156> ;
+    skos:scopeNote "Conglomerate consisting of nodules of calcium rich clay (marl). Used as a building stone from Roman times and as a key ingredient in Parker's Roman Cement, between 1796 and circa 1850."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98186> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Shingle"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> ;
+    skos:scopeNote "Wooden roof tile (traditionally oak) which is riven or sawn from good quality timber to a regular size and used as a roof and/or wall covering. Index with type of wood if known."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98235> a skos:Concept ;
+    skos:altLabel "Ruabon Brick"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97813> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Terracotta"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:scopeNote "Hard, unglazed, brown, versatile earthenware which can be used as a tile or moulded into statuary. Used in a structural or semi-structural context as a moulded hollow block."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98238> a skos:Concept ;
+    skos:altLabel "Fabric"@en ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Textile"@en ;
+    skos:scopeNote "A woven or bonded fabric or cloth. See TEXTILE Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98293> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Whinstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97734>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97891> ;
+    skos:scopeNote "Northern quarryman's name for any fine grained, dark grey/black to green coloured igneous rock. Index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98303> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98080> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Woodwool Slab"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "A sheet or board made from a mixture of thin strips of wood and cement which are bound together through compression within a mould. Woodwool slabs are used for roof or wall cladding, providing fire resistance, and heat and sound insulation."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/102688> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Porphyry"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97928>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:scopeNote "Traditional term for any fine to medium grained igneous rock, containing large crystal fragments."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97749> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Bitumen"@en ;
+    skos:scopeNote "A semi solid mixture of complex hydrocarbons derived from coal or petroleum. Used as a waterproof binder or protective coating."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97774> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Breccia"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/164108>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97843>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98126> ;
+    skos:scopeNote "Sedimentary rock consisting of angular fragments naturally cemented together."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97800> a skos:Concept ;
+    skos:altLabel "Battscombe Stone"@en,
+        "Cheddar Stone"@en,
+        "Deepdale Fossil"@en,
+        "Derbydene"@en,
+        "Derbyshire Fossil"@en,
+        "Dukes Red Limestone"@en,
+        "Frosterley Marble"@en,
+        "Hadene Stone"@en,
+        "Hoptons Wood Stone"@en,
+        "Orton Scar Limestone"@en,
+        "Penmon Limestone"@en,
+        "Pennon Marble"@en,
+        "Salterwath"@en,
+        "Swaledale Fossil"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Carboniferous Limestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Limestones formed during the Carboniferous period. Many are cut, polished and used as marble."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97843> a skos:Concept ;
+    skos:altLabel "Brandon Hill Grit Rubble"@en,
+        "Dolomitic Conglomerate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Conglomerate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97774> ;
+    skos:scopeNote "Sedimentary rock consisting of rounded pebbles naturally cemented together."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97891> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Dolerite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97952>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98150>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98293> ;
+    skos:scopeNote "Medium grained, intrusive, black or dark green coloured, igneous rock."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97952> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Greenstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97734>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97891>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> ;
+    skos:scopeNote "Geologist's term for any dark coloured, slightly metamorphosed igneous rock. Index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97992> a skos:Concept ;
+    skos:altLabel "Corrugated Iron"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Iron"@en ;
+    skos:scopeNote "A malleable, ductile ferromagnetic metal widely used for structural and decorative purposes."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97999> a skos:Concept ;
+    skos:altLabel "Bletchingdon Marble"@en,
+        "Forest Marble"@en,
+        "Hovingham Stone"@en,
+        "Pink Verona Marble"@en,
+        "Verde Fraye"@en,
+        "Verona Marble"@en,
+        "Walling Stone"@en,
+        "Yeovil Marble"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Jurassic Limestone"@en ;
+    skos:scopeNote "Limestone formed during the Jurassic period. Provides many widely used building stones."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98062> a skos:Concept ;
+    skos:altLabel "Lime Mortar"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Mortar"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98170> ;
+    skos:scopeNote "A mixture of lime or more recently cement with sand and water used for bonding stones or bricks."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98219> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Straw"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> ;
+    skos:scopeNote "Roofing material consisting of stems or stalks of wheat, rye, oats or barley separated from grain and laid flat in 'yealms' which form an overlapping surface which sheds water."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98223> a skos:Concept ;
+    skos:altLabel "Bognor Rock"@en,
+        "Calverley Stone"@en,
+        "Midhurst Stone"@en,
+        "Pulborough Stone"@en,
+        "Tunbridge Wells Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Sussex Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97866> ;
+    skos:scopeNote "Fine grained, buff, brown to green coloured Cretaceous sandstone. Quarried at various locations in Sussex. Not to be confused with Sussex marble which is a cretaceous limestone."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98229> a skos:Concept ;
+    skos:altLabel "Swedish Green Granite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Syenite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97928>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98150>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181> ;
+    skos:scopeNote "Hard, coarse grained, green to pink coloured igneous rock. Commonly used as a polished cladding."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97717> a skos:Concept ;
+    skos:altLabel "Bradstone"@en,
+        "Empire Stone"@en,
+        "Imitation Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Artificial Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98174>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:scopeNote "Synthetically manufactured stone made from natural stone aggregate or reconstituted ceramics or clay, and made to appear natural. Used as solid stone for masonry or for sculptural and architectural ornament."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97734> a skos:Concept ;
+    skos:altLabel "Hurdwick Stone"@en,
+        "Killerton Stone"@en,
+        "Volcanic Stone"@en,
+        "Volcanic Trap"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Basalt"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97952>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98150>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98293> ;
+    skos:scopeNote "Basic, black coloured, fine grained, igneous rock."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97777> a skos:Concept ;
+    skos:altLabel "Fletton Brick"@en,
+        "Flint Lime Brick"@en,
+        "Malm (Brick)"@en,
+        "Ruabon Brick"@en,
+        "Staffordshire Blue Brick"@en,
+        "Vitrified Brick"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Brick"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98047>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98087> ;
+    skos:scopeNote "Standard rectangular block or tablet bonded on mortar joints in a regular arrangement or pattern for strength or decoration. Made from clay or brick earth which may contain varying quantities of chalk, lime or iron oxide which effect colour or density."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97813> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ceramic"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:scopeNote "Designating or pertaining to hard, brittle substances produced by strong heating of clay."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97866> a skos:Concept ;
+    skos:altLabel "Bethersden Marble"@en,
+        "Charlwood Stone"@en,
+        "Istrian Stone"@en,
+        "Large Paludina Marble"@en,
+        "Laughton Marble"@en,
+        "Laughton Stone"@en,
+        "Petworth Marble"@en,
+        "Small Paludina Marble"@en,
+        "Sussex Marble"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cretaceous Limestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98223> ;
+    skos:scopeNote "Limestone formed during the Cretaceous period."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97873> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Daub"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98018>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98276> ;
+    skos:scopeNote "Application of earth based plaster to a backing of lath or wattle used in internal or external walls. Composite mixture which may include clay soil, dung, straw, lime putty, sand or horsehair."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97928> a skos:Concept ;
+    skos:altLabel "Charnwood Stone"@en,
+        "Swithland Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Forest Stone (Leicestershire)"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/102688>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98179>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98229> ;
+    skos:scopeNote "Collective name for a series of rocks (granite, syenite, porphry and slate) found in the Charnwood Forest of Leicestershire. Index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98080> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Panel Board"@en ;
+    skos:scopeNote "Large board used for covering the internal surfaces of a building, ie. floors, walls and ceilings. Some forms can be used as external cladding."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98111> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Plastic"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98164> ;
+    skos:scopeNote "Any of large class of polymers based on synthetic resins or modified natural polymers which may be moulded, extruded or cast while soft or liquid, which then set rigidly or slightly elastic in form."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98147> a skos:Concept ;
+    skos:altLabel "Cement Render"@en,
+        "Tyrolean"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Render"@en ;
+    skos:scopeNote "A general term for the weatherproof coat on the external walls of a building."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98148> a skos:Concept ;
+    skos:altLabel "Industrial Waste"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Residue"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97776> ;
+    skos:scopeNote "By-product or waste, resulting from an industrial process."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98150> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Rhyolite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97734>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97891>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98229> ;
+    skos:scopeNote "Fine grained, acidic, light-grey/white/ brown/red-coloured igneous rock."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98170> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Sand"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97947>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98062> ;
+    skos:scopeNote "Granular material consisting of small eroded fragments of rock or mineral grains, finer than gravel used as an ingredient in mortar and other traditional building materials."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98213> a skos:Concept ;
+    skos:altLabel "Stainless Steel"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Steel"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98145> ;
+    skos:scopeNote "An alloy of iron and carbon, its strength makes it suitable for load bearing purposes. It is primarily used in structural steelwork and concrete reinforcement."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98265> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Vegetal"@en ;
+    skos:scopeNote "Pertaining to or deriving from a botanical living organism. See VEGETAL Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Animal"@en ;
+    skos:scopeNote "Pertaining to or deriving from a living organism. See ANIMAL Class list for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827> a skos:Concept ;
+    skos:altLabel "Clay Tile"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Clay"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97777>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97813>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98081>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:scopeNote "A fine grained earth which becomes more plastic when water is added and can be moulded and dried to make bricks, tile, pottery, etc."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026> a skos:Concept ;
+    skos:altLabel "Lime Mortar"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98148> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lime"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97873>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98062>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98156> ;
+    skos:scopeNote "Calcium Oxide obtained by heating limestone in a kiln. Used as a constituent of modern mortar, or as slaked (non-hydraulic) lime in lime putty, daub, limewash and traditional lime plaster, mortar and renders."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075> a skos:Concept ;
+    skos:altLabel "Campden Stone"@en,
+        "Cary Stone"@en,
+        "Charlbury Stone"@en,
+        "Coral Rag Limestone"@en,
+        "Cornbrash Limestone"@en,
+        "Doulting Stone"@en,
+        "Dundry Stone"@en,
+        "Headington Stone"@en,
+        "Oolite"@en,
+        "Oxford Stone"@en,
+        "Painswick Stone"@en,
+        "Stonesfield Slate"@en,
+        "Taynton Stone"@en,
+        "Wheatley Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97999> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Oolitic Limestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993> ;
+    skos:scopeNote "Limestone formed during the Jurassic period. Composed of ooliths, literally small rock particles with the appearance of fish roe."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98110> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98147> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Plaster"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97873>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98018>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026> ;
+    skos:scopeNote "Lime plaster, consisting of lime and sand, is the oldest type of render. Applied externally to walls or onto laths for infill panels and usually limewashed."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98181> a skos:Concept ;
+    skos:altLabel "Serpentinite"@en,
+        "Tinos"@en,
+        "Verde Antico"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Serpentine"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97734>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97844>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98118>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98150>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98229> ;
+    skos:scopeNote "Medium to coarse grained, green to dark red/black coloured igneous rock, mainly found on The Lizard, South West Cornwall. Due to its fragmentary structure, Serpentine is mainly used for decorative and ornamental purposes."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98239> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Thatch"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97943>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97974>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98031>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98143>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98219> ;
+    skos:scopeNote "Traditional roof covering consisting of materials such as reed, straw or heather layered and fastened together onto roof to form a run off to prevent water penetration."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cement Mix"@en ;
+    skos:scopeNote "A binder combined with various aggregates which sets and holds together into a mass which then hardens and gains strength."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242> a skos:Concept ;
+    skos:altLabel "Deal"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Timber"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98186>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> ;
+    skos:scopeNote "Wood, cut and seasoned so forming or capable of forming any part of a structure. May be treated with preservative before use."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809> a skos:Concept ;
+    skos:altLabel "Cement Render"@en,
+        "Cement Tile"@en,
+        "Whitby Cement"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Cement"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98026>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98062>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98170>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98195>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98303> ;
+    skos:scopeNote "Originally obtained by burning limestone to produce quicklime. Now a fine grey powder made from a mixture of limestone and clay used with water and sand to make mortar or with water, sand and aggregate to make concrete."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993> a skos:Concept ;
+    skos:altLabel "Northamptonshire Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Ironstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97803>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97919>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98040>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98045>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98075>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:scopeNote "Collective name for any stone that has become impregnated with iron oxide. Index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024> a skos:Concept ;
+    skos:altLabel "Stowey Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97999> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Lias"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> ;
+    skos:scopeNote "Collective term for the building limestones formed during the Lower Jurassic period."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Mineral"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97929> ;
+    skos:scopeNote "Natural inorganic substance possessing a definite chemical composition in a crystalline form. See MINERAL Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98265> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Plant"@en ;
+    skos:scopeNote "Any tree, shrub or herb of cellulose form, normally subsisting in soil and producing its food through photosynthesis."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194> a skos:Concept ;
+    skos:altLabel "Longford Rustic Slate"@en,
+        "Rag Slate"@en,
+        "Riven Slate"@en,
+        "Swithland Slate"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Slate"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97928>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Collective term for a hard, fine grained, dark coloured metamorphic rock, which splits easily; hence its common use as a roofing and flooring material, and a functional description for any rectangular, sheet, roofing material."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840> a skos:Concept ;
+    skos:altLabel "Concrete Block"@en,
+        "Concrete Tile"@en,
+        "Granolithic Concrete"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97810> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Concrete"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97809>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98081>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98170>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> ;
+    skos:scopeNote "Composed of sand, stones or other aggregate and cement mixed with water which sets in a hard mass. The material is usually associated with modern building but was developed by Romans where cement was obtained from quicklime."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> a skos:Concept ;
+    skos:altLabel "Mudstone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Shale"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97800>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98013>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98188>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98194>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98286>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98287> ;
+    skos:scopeNote "Soft, very fine grained, dark coloured, sedimentary rock which splits easily."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97944> a skos:Concept ;
+    skos:altLabel "Baveno Granite"@en,
+        "Biotite Granite"@en,
+        "Bon Accord Red Granite"@en,
+        "Channel Isle Granite"@en,
+        "Cornish Granite"@en,
+        "Correnie Granite"@en,
+        "Devon Granite"@en,
+        "Drewsteignston Stone"@en,
+        "Dundee Marble"@en,
+        "Dunleary Stone"@en,
+        "Granolithic Concrete"@en,
+        "Graphic Granite"@en,
+        "Grey Royal Granite"@en,
+        "Hornblende Granite"@en,
+        "Imperial Mahogany"@en,
+        "Isle Of Man Granite"@en,
+        "Kemnay Granite"@en,
+        "Muscovite Granite"@en,
+        "Newham Stone"@en,
+        "Pink Granite"@en,
+        "Raddon Stone"@en,
+        "Rose Swede Granite"@en,
+        "Ross Of Mull Granite"@en,
+        "Scotch Granite"@en,
+        "Scottish Granite"@en,
+        "Virgo Granite"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Granite"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/102688>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97908>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97940>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97952> ;
+    skos:scopeNote "A hard, coarse grained, durable igneous rock. Can be used decoratively or as a main material. Found throughout the country."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Earth Mix"@en ;
+    skos:scopeNote "Unbaked clays and/or soil material often mixed with, or performing the function of an aggregate or binder. See EARTH MIX Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028> a skos:Concept ;
+    skos:altLabel "Calcareous Spar"@en,
+        "Devon Marble"@en,
+        "Membury Stone"@en,
+        "Moolham Stone"@en,
+        "Todber Stone"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Limestone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98040>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98144>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Sedimentary rock consisting mainly of calcium carbonate. Varying in grain size, colour and hardness, quarried and used throughout the country."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98044> a skos:Concept ;
+    skos:altLabel "Ashburton Marble"@en,
+        "Australian Marble"@en,
+        "Bethersden Marble"@en,
+        "Bletchingdon Marble"@en,
+        "Breche Rose"@en,
+        "Charlwood Stone"@en,
+        "Devon Marble"@en,
+        "Dundee Marble"@en,
+        "Forest Marble"@en,
+        "Frosterley Marble"@en,
+        "Istrian Stone"@en,
+        "Jaune Lamartine"@en,
+        "Large Paludina Marble"@en,
+        "Laughton Marble"@en,
+        "Parian Marble"@en,
+        "Pennon Marble"@en,
+        "Pentelic Marble"@en,
+        "Petworth Marble"@en,
+        "Pink Verona Marble"@en,
+        "Purbeck Marble"@en,
+        "Sicilian Marble"@en,
+        "Skyros Marble"@en,
+        "Small Paludina Marble"@en,
+        "Sussex Marble"@en,
+        "Teesdale Marble"@en,
+        "Tinos"@en,
+        "Torquay Marble"@en,
+        "Travertine"@en,
+        "Verde Antico"@en,
+        "Verde Fraye"@en,
+        "Verona Marble"@en,
+        "Yeovil Marble"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Marble"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97704>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97800>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98028>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98118>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98131>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98174> ;
+    skos:scopeNote "Collective name for, in a true geological sense, a metamorphosed limestone, eg. Carrara marble, and, in the British sense any decorative stone that will take a polish, eg. Purbeck marble. In the latter's case index with specific stone type where given."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Metal"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98113> ;
+    skos:scopeNote "Class of elements and alloys that are characteristically lustrous,ductile, fusible and malleable. These are extracted from ore minerals originally existing in nature and processed before becoming a recognisable metal. See METAL Class List for narrow terms"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98301> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98109> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Wood"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97917>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98082>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98113>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98116>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98242>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98282>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98303> ;
+    skos:scopeNote "Hard, compact, unprocessed, fibrous cellulose substance. The roots, trunks and branches of trees and shrubs consist of this tissue."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Material <By Form>"@en ;
+    skos:scopeNote "A raw material determined by its form or a finished product material characterised by its end shape or form. See MATERIAL <BY FORM> Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98171> a skos:Concept ;
+    skos:altLabel "Auchinlea Stone"@en,
+        "Blaxter Stone"@en,
+        "Bramley Fall Stone"@en,
+        "Britannia Stone"@en,
+        "Bunter Stone"@en,
+        "Caerbwdy Stone"@en,
+        "Caithness Flagstone"@en,
+        "Cardeston Stone"@en,
+        "Chatwell Stone"@en,
+        "Clashach Stone"@en,
+        "Corsehill Stone"@en,
+        "Coxbench Sandstone"@en,
+        "Craigleith Stone"@en,
+        "Culm Measures Stone"@en,
+        "Culm Stone"@en,
+        "Cumberland Stone"@en,
+        "Darney Stone"@en,
+        "Davie Blocks Stone"@en,
+        "Delph Stone"@en,
+        "Derbyshire Stone"@en,
+        "Doddington Stone"@en,
+        "Dunhouse Stone"@en,
+        "Dunston Stone"@en,
+        "Forest Of Dean Stone"@en,
+        "Forest Stone (Gloucestershire)"@en,
+        "Foxs Wood Rubble"@en,
+        "Green Brae Stone"@en,
+        "Greensand Stone"@en,
+        "Grinshill Stone"@en,
+        "Hailes Stone"@en,
+        "Hatherleigh Stone"@en,
+        "Heavitree Stone"@en,
+        "Hollington Stone"@en,
+        "Kerridge Stone"@en,
+        "Keuper Stone"@en,
+        "Ladycross Stone"@en,
+        "Lane Head Stone"@en,
+        "Lazonby Red Sandstone"@en,
+        "Locharbriggs Stone"@en,
+        "Lower Greensand"@en,
+        "Mansfield Stone"@en,
+        "Moulton Stone"@en,
+        "Pencaemaur Stone"@en,
+        "Penrith Red Sandstone"@en,
+        "Penshaw Sandstone"@en,
+        "Permian Sandstone"@en,
+        "Prudham Stone"@en,
+        "Rainhill Stone"@en,
+        "Rainow Stone"@en,
+        "Rassau Stone"@en,
+        "Red Wilderness Stone"@en,
+        "Ringby Stone"@en,
+        "Rose Brae Stone"@en,
+        "Salcombe Stone"@en,
+        "Soudley Stone"@en,
+        "Spinkwell Stone"@en,
+        "Springwell Stone"@en,
+        "Spynie Stone"@en,
+        "St Bees Stone"@en,
+        "St Boniface Stone"@en,
+        "Stainton Stone"@en,
+        "Swindon Stone"@en,
+        "Thorverton Stone"@en,
+        "Tixall Stone"@en,
+        "Waterholes Sandstone"@en,
+        "Wellfield Stone"@en,
+        "Whitby Stone"@en,
+        "Windy Hill Stone"@en,
+        "Woolton Stone"@en,
+        "Yorkshire Delph"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Sandstone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97800>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97993>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98024>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98183> ;
+    skos:scopeNote "Geologically sandstone consists of particles of quartz naturally cemented together by either silica, calcium or iron. It is this geological composition that accounts for the varying colours and grain sizes found in the many building sandstones."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98241> a skos:Concept ;
+    skos:altLabel "Cement Tile"@en,
+        "Clay Tile"@en,
+        "Concrete Tile"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Tile"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97813>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97827>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97840>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97914>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98186>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98235> ;
+    skos:scopeNote "Tablet of a uniform shape. Used as finishing or covering materials which fit together in a regular format."@en .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Man Made Material"@en ;
+    skos:scopeNote "A material or combination of materials manufactured by human effort, or fashioned into shape by man or a man made industrial process (excluding metal). See MAN MADE MATERIAL Class List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216> a skos:Concept ;
+    skos:altLabel "Gaisby Stone"@en,
+        "Metamorphic Stone"@en ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/eh_tbm> ;
+    skos:prefLabel "Stone"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97717>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97836>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97929>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97947>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98089>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98165> ;
+    skos:scopeNote "Rock of definite form and size, usually artificially shaped. See STONE CLass List for narrow terms."@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/eh_tbm> .
+
+<http://purl.org/heritagedata/schemes/eh_tbm> a skos:ConceptScheme ;
+    ns1:attributionName "Historic England"@en ;
+    ns1:attributionURL <https://historicengland.org.uk/> ;
+    ns1:license <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
+    dct:description "Terminology used for recording the main construction materials of monuments, buildings and structures relating to the built and buried heritage of the British Isles. Maintained by Historic England on behalf of the FISH Terminology Working Group"@en ;
+    dct:publisher <https://historicengland.org.uk/> ;
+    dct:spatial <http://dbpedia.org/resource/England>,
+        <http://vocab.getty.edu/tgn/7002445> ;
+    dct:title "FISH Building Materials Thesaurus"@en ;
+    skos:hasTopConcept <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97712>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/97903>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98041>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98046>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98053>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98058>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98216>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98238>,
+        <http://purl.org/heritagedata/schemes/eh_tbm/concepts/98265> .
+

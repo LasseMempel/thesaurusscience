@@ -1,0 +1,675 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152653> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Architectural Theft"@en ;
+    skos:scopeNote "The illegal removal of architectural features from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152654> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Cultural Theft"@en ;
+    skos:scopeNote "The illegal removal of fittings and internal furnishings from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152664> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Assault (Visitor)"@en ;
+    skos:scopeNote "A crime of violence against a visitor to a heritage site. Double index with the type and severity of the assault if known)."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152665> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Assault (Volunteer)"@en ;
+    skos:scopeNote "A crime of violence against a volunteer at a heritage site. Double index with the type and severity of the assault if known)."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152666> a skos:Concept ;
+    skos:altLabel "Dogging"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Sex Groups"@en ;
+    skos:scopeNote "Groups of people who meet to perform group sex. Such activity can occur amongst people of all sexual orientations and genders. Group sex may take place in public for example, at nude beaches, secluded heritage assets or outdoor events or nightclubs."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152668> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152667> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Prostitution"@en ;
+    skos:scopeNote "The act of prostituting a person or oneself for sexual activity in return for payment."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152669> a skos:Concept ;
+    skos:altLabel "Flashing"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Indecent Exposure"@en ;
+    skos:scopeNote "Unseemly behaviour involving the public exposure of one's body in an indecent manner."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152670> a skos:Concept ;
+    skos:altLabel "Arson"@en,
+        "Fireraising"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Fire Setting"@en ;
+    skos:scopeNote "The deliberate, malicious starting of fires."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152671> a skos:Concept ;
+    skos:altLabel "Car Noise"@en,
+        "Motorbike Noise"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152656>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152694> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Vehicle Noise"@en ;
+    skos:scopeNote "Sound energy emanating from motor vehicles which is is constituted chiefly of engine, tire, aerodynamic and braking elements."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152674> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152658> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Off Road Car Use"@en ;
+    skos:scopeNote "The illicit driving of a car over natural terrain or archaeologically sensitive areas where such activity is not permitted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152675> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152658> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Off Road Motorcycle Use"@en ;
+    skos:scopeNote "The illicit riding of a motorcycle over natural terrain or archaeologically sensitive areas where such activity is not permitted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152676> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152658> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Off Road Bicycle Use"@en ;
+    skos:scopeNote "The illicit riding of a bicycle over natural terrain or archaeologically sensitive areas where such activity is not permitted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152680> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152679>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Fly Tipping"@en ;
+    skos:scopeNote "The illegal deposit of any waste onto land that is not  licensed to accept waste."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152683> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152656>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Illegal Parking"@en ;
+    skos:scopeNote "The act of leaving a vehicle in a place where parking prohibited or at a time when parking is restricted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152684> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152656>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Abandoned Vehicle"@en ;
+    skos:scopeNote "The act of disposing of a vehicle in a place where it is illegal to leave it."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152688> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unlicensed Excavation"@en ;
+    skos:scopeNote "The act of causing damage to and/or the destruction of archaeological deposits at a heritage assest by means of unauthorized excavation work."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152689> a skos:Concept ;
+    skos:altLabel "Panhandling"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Begging"@en ;
+    skos:scopeNote "The act of attempting to secure material benefits from others in a public place."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152693> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Uncontrolled Animals"@en ;
+    skos:scopeNote "Domestic animals that have either been left to roam uncontrolled by their owners or are allowed to cause distress to other members of the public whilst with their owner."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152696> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152695> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Airgun Misuse"@en ;
+    skos:scopeNote "The improper use of a airgun in a public place and/or the use of a firearm to threaten or inflict violence or harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152697> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Firework Misuse"@en ;
+    skos:scopeNote "The irresponsible use of a firework and/or the use of fireworks as weapons ro harass and injure other individuals."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152698> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152677> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Street Drinking"@en ;
+    skos:scopeNote "The consumption of alcohol in public places."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152700> a skos:Concept ;
+    skos:altLabel "Unlicensed Party"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unlicensed Rave"@en ;
+    skos:scopeNote "A party \"free\" from the restrictions of the legal club scene where the people present create and enforce the rules. As a result drugs may be readily available and noise levels may be illegally high."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152701> a skos:Concept ;
+    skos:altLabel "Plant Removal"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152651>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Flora Removal"@en ;
+    skos:scopeNote "The deliberate and illegal removal of plants and flowers from a site; this can include unauthorized turf removal and the removal of plant life from wall caps."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152702> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152704> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Bat Disturbance"@en ;
+    skos:scopeNote "To intentionally or recklessly disturb a bat in its roost or deliberately disturb a group of bats without a licence."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152705> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/159394>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Wildlife Shooting"@en ;
+    skos:scopeNote "The illegal or unlicensed shooting of animals with firearms or bow weapons."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152706> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Wildlife Trapping"@en ;
+    skos:scopeNote "The illegal or unlicensed use of a device, such as a snare, foothold, cage trap or funnel trap etc, to remotely catch an animal."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152707> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Wildlife Poisoning"@en ;
+    skos:scopeNote "The illegal or unlicensed poisoning of animals or birds."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152709> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Bird Egg Removal"@en ;
+    skos:scopeNote "The act of illegally removing the eggs of protected species of birds from their nests."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152715> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Game Playing"@en ;
+    skos:scopeNote "The playing of games in a location where they are not permitted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152716> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Rowdiness"@en ;
+    skos:scopeNote "Disorderly and noisy behaviour."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159122> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Illegal Artefact Dealing"@en ;
+    skos:scopeNote "The act of trading in cultural property which has been stolen, illegally excavated or illegally imported."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159351> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Ritual Activity"@en ;
+    skos:scopeNote "The practice of alternative religous activities."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159355> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152691> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Urban Exploration"@en ;
+    skos:scopeNote "The exploration of the normally unseen or off-limits parts of heritage sites without the permission of the owner."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159358> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152710> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Verbal Intimidation"@en ;
+    skos:scopeNote "The action of causing a person to fear injury or harm by using verbal abuse."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159359> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152710> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Physical Intimidation"@en ;
+    skos:scopeNote "The action of causing a person to fear injury or harm by threatening them with physical violence."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159360> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Assault (Custodian)"@en ;
+    skos:scopeNote "A crime of violence against the custodian of a heritage site. Double index with the type and severity of the assault if known)."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159361> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Minor Assault"@en ;
+    skos:scopeNote "The unlawful threat of violence or touching of another persion with intent to inflict bodily harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159362> a skos:Concept ;
+    skos:altLabel "Grievous Bodily Harm"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Serious Assault"@en ;
+    skos:scopeNote "The unlawful infliction of bodily harm upon another person."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159363> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Fatal Assault"@en ;
+    skos:scopeNote "A crime of violence against another person that results in the death of the person being assaulted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159364> a skos:Concept ;
+    skos:altLabel "Rape"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152662>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Sexual Assault"@en ;
+    skos:scopeNote "The intentional touching of another in a sexual manner where the perpetrator does not believe that the other party consents to their actions. Created by section 3 of the Sexual Offences Act 2003."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159368> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152667> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Kerb Crawling"@en ;
+    skos:scopeNote "The practice of driving slowly by the side of a road with the intention of either harassing or soliciting prostitutes for sex."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159369> a skos:Concept ;
+    skos:altLabel "Peeping Tom"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Voyeurism"@en ;
+    skos:scopeNote "The act of obtaining sexual stimulation from the covert observation of the sexual organs or actions of others."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159371> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Bestiality"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159373> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/159372>,
+        <http://purl.org/heritagedata/schemes/596/concepts/159394> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Badger Baiting"@en ;
+    skos:scopeNote "An illegal blood sport in which badgers are forced to fight a sucession of dogs."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159376> a skos:Concept ;
+    skos:altLabel "Artefact Theft"@en,
+        "Metal Detecting (Removal Of Artefacts)"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152687> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Removal Of Artefacts"@en ;
+    skos:scopeNote "The use of a metal detector at a heritage asset which has resulted in the location and removal of artefacts without consent."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159377> a skos:Concept ;
+    skos:altLabel "Metal Detecting (Non Removal Of Artefacts)"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152687> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Non Removal Of Artefacts"@en ;
+    skos:scopeNote "The use of a metal detector at a heritage asset which had yet to result in the location and removal of artefacts without consent."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159378> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152651>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152687> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Nighthawking"@en ;
+    skos:scopeNote "The illicit use of metal detectors on archaeological sites, or sites of archaeological significance. An activity usually undertaken at night with the intention of stealing artifacts from the ground which are then often sold for personal profit."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159396> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152681> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Drug Paraphanalia"@en ;
+    skos:scopeNote "The littering of sites with items used for and relating to the taking of illegal drugs such as syringes, cigarette rolling papers, crack pipes etc."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159398> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Breach Of Condition"@en ;
+    skos:scopeNote "The act of breaching the conditions set when scheduled monument consent/listed building consent was granted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159399> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Contravention Of Stop Notice"@en ;
+    skos:scopeNote "The act of continuing on site works to either a scheduled monument or a listed building after notice has been given to cease all on site works."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159400> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "False Certificate On Application For Consent"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159401> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Non Compliance With Enforcement Notice"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159402> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Contravention Of Discontinuance Of Use"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163231> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152655> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Bronze Theft"@en ;
+    skos:scopeNote "The illegal removal of bronze external fittings or artefacts from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163232> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152655> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Brass Theft"@en ;
+    skos:scopeNote "The illegal removal of brass external fittings or artefacts from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163233> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152655> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Copper Theft"@en ;
+    skos:scopeNote "The illegal removal of copper external fittings or artefacts from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163234> a skos:Concept ;
+    skos:altLabel "Ferrous Theft"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152655> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Iron Theft"@en ;
+    skos:scopeNote "The illegal removal of iron external fittings or artefacts from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163236> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152655> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Lead Theft"@en ;
+    skos:scopeNote "The illegal removal of lead external fittings or artefacts from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163254> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152695> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Shotgun Misuse"@en ;
+    skos:scopeNote "The improper use of a shotgun to threaten or inflict violence or harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163255> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152695> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Rifle Misuse"@en ;
+    skos:scopeNote "The improper use of a rifle to threaten or inflict violence or harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152641> a skos:Concept ;
+    skos:altLabel "Vandalism"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Criminal Damage"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159381> ;
+    skos:scopeNote "The willful damage of a heritage asset."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152650> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Graffiti"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159381> ;
+    skos:scopeNote "Casual scribbles or pictographs on walls, stones or other surfaces. In more recent times applied to humorous, satiric or obscene writings or drawings executed anonymously in public places."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152677> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152661>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Alcohol Misuse"@en ;
+    skos:scopeNote "The use of alcoholic beverages to achieve intoxication."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152678> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152661>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Drug Misuse"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/152690> ;
+    skos:scopeNote "The improper use of legal and/or illegal drugs with the intention to achieve intoxicating effects."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152682> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152679>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Fly Posting"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159397> ;
+    skos:scopeNote "The illegal placing of posters or flyers on private property without the consent of the property owner."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152690> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Drug Dealing"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/152678> ;
+    skos:scopeNote "The illegal distribution and sale of substances which are subject to drug prohibition laws."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152692> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Public Urination"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159123> ;
+    skos:scopeNote "The passing of urine from the body in a public place."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152694> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Noise"@en ;
+    skos:scopeNote "A loud, harsh, disturbing, disagreeable or intrusive sound."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159123> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Public Defecation"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/152692> ;
+    skos:scopeNote "The passing of solid waste from the body in a public place."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159372> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152704> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Badger Disturbance"@en ;
+    skos:scopeNote "The act disturbing a Badger sett without a licence."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159375> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152691> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Diving"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159392> ;
+    skos:scopeNote "The act of diving a wreck site that has been designated, under either the Protection of Wrecks Act 1973 or the Protection of Military Remains Act 1986, without a license."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159392> a skos:Concept ;
+    skos:altLabel "Wrecking"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152651> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Salvaging"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159375> ;
+    skos:scopeNote "The act of removing cultural artefacts from a wreck site that has been designated, under either the Protection of Wrecks Act 1973 or the Protection of Military Remains Act 1986, without a license."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159397> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152681> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Sexual Paraphanalia"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/152682> ;
+    skos:scopeNote "The littering of sites with items used for and relating to sexual acts, such as condoms and/or the advertisment of sexual services, such as calling cards etc."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163251> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/163250> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Anti Social Behavior (Personal)"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152661> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Substance Misuse"@en ;
+    skos:scopeNote "The improper use of legal and/or illegal substances with the intention to achieve intoxicating effects."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152667> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152663> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Sex Working"@en ;
+    skos:scopeNote "The provision of sex services by sex workers who are paid to engage in sexually explicit behavior with clients; for example prostitutes or escorts."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152681> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152679>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Littering"@en ;
+    skos:scopeNote "The action of throwing or dropping litter onto the ground rather than disposing of it properly."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152691> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Access"@en ;
+    skos:scopeNote "The act of causing damage to a standing heritage asset by climbing upon its structure."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152704> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152685>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Wildlife Disturbance"@en ;
+    skos:scopeNote "The act of causing damage to, or the destruction of, the nests or homes of animals."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152710> a skos:Concept ;
+    skos:altLabel "Harrassment"@en,
+        "Threatening Behaviour"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163251> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Intimidation"@en ;
+    skos:scopeNote "The action of causing a person to fear injury or harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159394> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Illegal Sports"@en ;
+    skos:scopeNote "Any sport that has been deemed illegal due to it either involving abuse against people or animals or becuase the sport is violent and/or dangerous in nature."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152658> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152656>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163253> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Off Roading"@en ;
+    skos:scopeNote "The illicit driving of a vehicle over natural terrain or archaeologically sensitive areas where such activity is not permitted."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152679> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Environmental Crime"@en ;
+    skos:scopeNote "Illegal acts which directly harm the environment."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152687> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152686> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Metal Detecting"@en ;
+    skos:scopeNote "The use of a metal detector at a heritage asset. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152695> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152660>,
+        <http://purl.org/heritagedata/schemes/596/concepts/163252> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Firearm Misuse"@en ;
+    skos:scopeNote "The improper use of a firearm in a public place and/or the use of a firearm to threaten or inflict violence or harm."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159381> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Equipped To Commit Crime"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/152641>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152650>,
+        <http://purl.org/heritagedata/schemes/596/concepts/152652> ;
+    skos:scopeNote "Being apprehended in a public place whilst in possession of the equipment required to commit a particular type of crime."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163250> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Anti Social Behavior"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152651> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Removal Of Objects"@en ;
+    skos:scopeNote "The illegal removal of cultural objects from a heritage asset."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152652> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152651> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Theft"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/596/concepts/159381> ;
+    skos:scopeNote "The illegal taking of another person's property without that person's freely-given consent. Theft covers the illegal removal of artefacts from archaeological sites and the removal of lead and other architectural fittings from standing heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152656> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640>,
+        <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Inappropriate Use Of Vehicles"@en ;
+    skos:scopeNote "The anti-social use of a vehicle and nuisance caused by behaviour associated with vehicle usage."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152655> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152652> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Metal Theft"@en ;
+    skos:scopeNote "The illegal removal of structural metal fittings, such as a lead roof or cast iron drainpipes, from heritage assets."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152640> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Damage"@en ;
+    skos:scopeNote "Activities that can result in physical damage to a heritage asset."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152662> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Assault"@en ;
+    skos:scopeNote "A crime of violence against another person. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152663> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Public Sex Environment"@en ;
+    skos:scopeNote "Sexual acts that take place in public or semi-public places."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152685> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Natural Environment"@en ;
+    skos:scopeNote "Illegal actions that impact directly upon the natural environment."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152686> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/152640> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Unauthorized Acts"@en ;
+    skos:scopeNote "Any works that take place to a heritage asset that have not been authorized. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163252> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/163250> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Anti Social Behavior (Nuisance)"@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/159374> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Crime"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/596> .
+
+<http://purl.org/heritagedata/schemes/596/concepts/152660> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/159374> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Nuisance Behaviour"@en ;
+    skos:scopeNote "Behaviour that is either irritating, irksome and/or harmful or offensive to the public for which there is a legal remedy."@en .
+
+<http://purl.org/heritagedata/schemes/596/concepts/163253> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/596/concepts/163250> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/596> ;
+    skos:prefLabel "Anti Social Behavior (Environmental)"@en .
+
+<http://purl.org/heritagedata/schemes/596> a skos:ConceptScheme ;
+    ns1:attributionName "Historic England"@en ;
+    ns1:attributionURL <http://www.historicengland.org.uk> ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0> ;
+    dct:description "Thesaurus for indexing types of crime and incidents against heritage assets (e.g. graffiti, theft, unauthorized diving)."@en ;
+    dct:publisher <http://www.historicengland.org.uk> ;
+    dct:title "Heritage Crime Thesaurus"@en ;
+    skos:hasTopConcept <http://purl.org/heritagedata/schemes/596/concepts/159374> .
+

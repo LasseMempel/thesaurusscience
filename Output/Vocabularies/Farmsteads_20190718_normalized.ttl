@@ -1,0 +1,666 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147358> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Aisled Barn"@en ;
+    skos:scopeNote "A barn in which a central space is separated from side aisles by posts and braces."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147361> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Combination Barn"@en ;
+    skos:scopeNote "A threshing barn which also houses farm animals and sometimes used to store grain, house carts and other functions."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147362> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Bank Barn"@en ;
+    skos:scopeNote "A multi-purpose, two-storey barn, built on a hillside with entrances at both levels to a first floor threshing barn and ground floor animal housing."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147367> a skos:Concept ;
+    skos:altLabel "Waggon Shed"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147427> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Cart Shed"@en ;
+    skos:scopeNote "A building used for housing and protecting from the weather carts, waggons and farm implements, often open-fronted."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147369> a skos:Concept ;
+    skos:altLabel "Fold Yard"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147546> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Cattle Yard"@en ;
+    skos:scopeNote "A yard for cattle that has access to working buildings, usually cow houses, shelter sheds and barns."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147370> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Chaff House"@en ;
+    skos:scopeNote "An area within a building (usually the barn or stable) for storing husks from the grain crop (chaff) for animal feed after it has been threshed and winnowed in the barn."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147371> a skos:Concept ;
+    skos:altLabel "Ciderhouse"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Cider House"@en ;
+    skos:scopeNote "A building, or part of a building, for the milling and pressing of cider apples to produce cider (or pears for perry) and for storing the drink in barrels."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147372> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147546> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Covered Yard"@en ;
+    skos:scopeNote "A covered yard for the shelter of cattle that is attached to a building, first used on planned and model farms of the 1850s to 1870s. It became increasingly common from the 1880s to roof over former open yards with timber or metal-framed superstructures."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147373> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Croft"@en ;
+    skos:scopeNote "An enclosed piece of land adjoining a house."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147374> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dairy"@en ;
+    skos:scopeNote "A detached building, or more often a room within the farmhouse used for the cool storage of milk and making it into butter and/or cheese."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147377> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Linear Plan"@en ;
+    skos:scopeNote "A farmstead where the house and working buildings are attached and in-line. Can include Bastles, Longhouses and Laithe houses."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147380> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dovecote"@en ;
+    skos:scopeNote "A building or part of a building used to house doves and pigeons, usually placed at a height above the ground, with openings and provision inside for roosting and breeding."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147381> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dutch Barn"@en ;
+    skos:scopeNote "An iron framed, open fronted building for the shelter of hay or corn. They typically date from the late 19th to the mid 20th centuries."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147384> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Granary"@en ;
+    skos:scopeNote "A building, or first-floor room in a building, for the dry and secure storage of  grain after it has been threshed and winnowed"@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147385> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147455> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Grange"@en ;
+    skos:scopeNote "An outlying farm or estate, usually belonging to a medieval religious order or feudal lord. Specifically related to core buildings and structures associated with monastic land holding. Use specific term where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147386> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Hay Barn"@en ;
+    skos:scopeNote "An open-fronted building for the dry and well-ventilated storage of hay."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147388> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147467> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Hemmel"@en ;
+    skos:scopeNote "A small roofed shelter for cattle without tethering point or stalls, but with a small yard attached. Mostly found in North East England."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147393> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147467> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Linhay"@en ;
+    skos:scopeNote "A two storied and open fronted structure comprising a cattle or cart shelter on the ground floor with a hayloft above. Most common in South West England."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147394> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147425>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147433>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147467>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147468> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Box"@en ;
+    skos:scopeNote "A separate compartment, with its own door, for fattening cattle and sometimes housing bulls."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147396> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Maltings"@en ;
+    skos:scopeNote "A low ceilinged building for the malting of barley before brewing, specifically for the germination of the crop on malting floors and then drying in a kiln."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147397> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Mill"@en ;
+    skos:scopeNote "A factory used for processing raw materials, such as corn to flour."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147401> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147467> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Ox House"@en ;
+    skos:scopeNote "A building, or part of a building, for housing draught oxen."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147402> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Parallel Plan"@en ;
+    skos:scopeNote "A farmstead, often of linear plan, where the working buildings are placed opposite and parallel to the house and attached working buildings with a relatively narrow space between."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147404> a skos:Concept ;
+    skos:altLabel "Piggery"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147468> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Pigsty"@en ;
+    skos:scopeNote "An enclosure for pigs that includes a covered pen and yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147405> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147427> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Portal Framed Shed"@en ;
+    skos:scopeNote "Mass produced iron framed shed usually clad in metal sheeting."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147406> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147425>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147468> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Poultiggery"@en ;
+    skos:scopeNote "A building combining a pigsty at ground level with a poultry house in a loft over."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147409> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Root And Fodder Store"@en ;
+    skos:scopeNote "Room, usually part of another building and located close to the cattle yard, for storing and preparing roots and other animal feed."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147410> a skos:Concept ;
+    skos:altLabel "Shealing"@en,
+        "Sheiling"@en,
+        "Shiel"@en,
+        "Shielding"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Shieling"@en ;
+    skos:scopeNote "Summer pasture for cattle or sheep with associated temporary huts for domestic or agricultural use."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147412> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147427>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147467> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Shelter Shed"@en ;
+    skos:scopeNote "An open fronted building facing onto a yard used for the sheltering of cattle."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147414> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Silage Clamp"@en ;
+    skos:scopeNote "An airtight container for the storage of freshly cut grass and its conversion into silage."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147415> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Silage Tower"@en ;
+    skos:scopeNote "A tower for the airtight storage of freshly cut grass and its conversion into silage."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147416> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147471> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Stable"@en ;
+    skos:scopeNote "A building, or part of a building, for housing horses or working oxen, storing and maintaining their tackle and sometimes housing farm workers."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147417> a skos:Concept ;
+    skos:altLabel "Rick Yard"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147546> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Stack Yard"@en ;
+    skos:scopeNote "A farmyard or enclosure for the seasonal storage of stacks of hay, corn, peas etc."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147418> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Staddle Barn"@en ;
+    skos:scopeNote "A threshing barn, usually timber framed which is raised on staddle stones."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147419> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Toft"@en ;
+    skos:scopeNote "The footprint of a house, sometimes raised or marked by earthworks where the house has been removed."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147421> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147455> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Vaccary"@en ;
+    skos:scopeNote "A monastic cattle farm with associated buildings, paddocks and pastures. A stock farm for cattle. Most vaccaries are of 12th or 13th century origin, and were built for ecclesiastical or lay lords. They are concentrated in the Pennines."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147423> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Well House"@en ;
+    skos:scopeNote "A building over a well housing machinery for raising the water."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147430> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Row Plan"@en ;
+    skos:scopeNote "A farmstead where the main range of working buildings are attached in-line and form a long row often facing a series of yards."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147434> a skos:Concept ;
+    skos:altLabel "Byre"@en,
+        "Calf House"@en,
+        "Cattle Shed"@en,
+        "Hovel"@en,
+        "Shippon"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147467> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Cow House"@en ;
+    skos:scopeNote "A building in which cattle are housed, normally tethered in stalls."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147441> a skos:Concept ;
+    skos:altLabel "Chicken House"@en,
+        "Hen Cote"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147425> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Hen House"@en ;
+    skos:scopeNote "A structure providing secure housing for Hens."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147443> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147425> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Goose House"@en ;
+    skos:scopeNote "A structure providing secure housing for geese."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147454> a skos:Concept ;
+    skos:altLabel "Grain Drying Kiln"@en,
+        "Oast House"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147391> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Hop Kiln"@en ;
+    skos:scopeNote "A building in which hops are dried and stored. Known as an Oasthouse or Oast in south east England."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147459> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard L Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged as two linked ranges to create an L-shape. They can comprise a barn and an attached shelter shed to a cattle yard or an interlinked cattle housing and fodder range."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147460> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard U Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged around three sides of a yard which is open to one side."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147461> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard E Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged as an E-shaped plan around two cattle yards. Cattle housing and stabling typically extend as three ranges from the longer main range which includes a barn or mixing house."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147496> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Boiling House"@en ;
+    skos:scopeNote "A building, or part of a building for the boiling and preparation of animal feed, usually attached to pigsties."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147497> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147433> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Hogg House"@en ;
+    skos:scopeNote "A building for the winter housing of yearling sheep, which can resemble a field barn or shelter shed."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147499> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Workers House"@en ;
+    skos:scopeNote "A house for farm workers and their families."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147500> a skos:Concept ;
+    skos:altLabel "Demesne Farm"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147455> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Manorial Farm"@en ;
+    skos:scopeNote "A medieval high status farmstead, acting as the centre of the estate, directly controlled by the lord and used for the benefit of his household and dependents."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147502> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "L Plan (House Attached)"@en ;
+    skos:scopeNote "A farmstead where the farmhouse and working buildings are attached and in-line. They can comprise the extension of linear farmsteads."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147503> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147378> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Courtyard (One Sided)"@en ;
+    skos:scopeNote "A farmstead where mostly detached buildings have developed around one side of an open cattle yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147504> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147378> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Courtyard (Two Sided)"@en ;
+    skos:scopeNote "A farmstead where mostly detached buildings have developed around two sides of an open cattle yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147505> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147378> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Courtyard (Three Sided)"@en ;
+    skos:scopeNote "A farmstead where mostly detached buildings have developed around three sides of an open cattle yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147506> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147378> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Courtyard (Four Sided)"@en ;
+    skos:scopeNote "A farmstead where mostly detached buildings have developed around four sides of an open cattle yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147507> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard F Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged as an F-shaped plan around one or two cattle yards. Cattle housing and stabling typically extend as two ranges from the longer main range which includes a barn or mixing house."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147508> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard H Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged as an H-shaped plan, commonly with cattle housing to two or more cattle yards."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147509> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard T Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged as two ranges at right angles to each other."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147510> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard Z Plan"@en ;
+    skos:scopeNote "An uncommon form of a regular courtyard farmstead where the buildings are arranged in a Z-shaped form."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147511> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147376> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dispersed Driftway Plan"@en ;
+    skos:scopeNote "A dispersed farmstead where buildings and yards (regular or loose courtyard in their form) are sited alongside a routeway"@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147512> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147376> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dispersed Multi Yard Plan"@en ;
+    skos:scopeNote "A dispersed farmstead where buildings are arranged around scattered yards which can be loose or regular in their form."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147513> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147376> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dispersed Cluster Plan"@en ;
+    skos:scopeNote "A dispersed farmstead where the farm buildings and farmhouse are loosely grouped together within the boundary of the farmstead."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147542> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard Multi Yard"@en ;
+    skos:scopeNote "A farmstead with multiple yards which are grouped together and regularly arranged (other than the defined E, F, H, T or Z plans). The yards may relate to one or more buildings or ranges which may be of either loose courtyard or regular courtyard form."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147547> a skos:Concept ;
+    skos:altLabel "Fold Yard"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147546> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Horse Yard"@en ;
+    skos:scopeNote "A yard for horses that is attached to a stable range."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147548> a skos:Concept ;
+    skos:altLabel "Fold Yard"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147546> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Sheep Yard"@en ;
+    skos:scopeNote "A yard for sheep that typically projects from the farmstead."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147551> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147379> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard Full Plan"@en ;
+    skos:scopeNote "Regular courtyard farmsteads where the buildings are arranged around all four sides of the yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/159167> a skos:Concept ;
+    skos:altLabel "Grain Drying Kiln"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147391> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Corn Drying Kiln"@en ;
+    skos:scopeNote "A building for the drying of corn after harvesting, with a slatted drying floor set above a kiln."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/159168> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Smallholding"@en ;
+    skos:scopeNote "Distinct from farmsteads, they either have no defined plan type or they fall into the categories of the smallest plan types. They are usually situated within areas of enclosure of common land and associated with areas of mining or quarrying."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147360> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Threshing Barn"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147389> ;
+    skos:scopeNote "A barn usually containing a single, central threshing floor and bays for storing the threshed corn."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147382> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147359>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Field Barn"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147455> ;
+    skos:scopeNote "An isolated barn, cow house or shelter shed with a hayloft. Typically found in areas where farmsteads and fields were sited at a long distance from each other."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147389> a skos:Concept ;
+    skos:altLabel "Wheel House"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Horse Engine House"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147360> ;
+    skos:scopeNote "A round or polygonal building containing a horse engine used for powering threshing, and other, machinery; typically found projecting from barns."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147392> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Laithe House"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147426> ;
+    skos:scopeNote "A linear range of one construction comprising a farmhouse with attached (but not internally linked) to its working buildings, usually with a large door to the barn for corn or hay and smaller doors to the cowhouse and/or stable."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147395> a skos:Concept ;
+    skos:altLabel "Long House"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Longhouse"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147426> ;
+    skos:scopeNote "A building that housed humans and cattle under one roof, with a shared entrance providing access to the cattle housing (usually downslope) and the dwelling area."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147398> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Mixing House"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147359> ;
+    skos:scopeNote "A building, usually part of another building and located close to the cattle yard, where grain, cake and roots for animals would be prepared for animal feed."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147400> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Outfarm"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147455> ;
+    skos:scopeNote "A complex of buildings set within the fields away from the main farmstead, usually including a barn for corn and/or hay and cattle housing set around a yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147420> a skos:Concept ;
+    skos:altLabel "Peel Tower"@en,
+        "Pele Tower"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Tower House"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/159262> ;
+    skos:scopeNote "A fortified tower house of between two and four storeys, mostly 14th - 16th century in date and concentrated in the northern border counties."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147471> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Stabling"@en ;
+    skos:scopeNote "A structure providing secure housing for horses."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147498> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Rams Pen"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147433> ;
+    skos:scopeNote "Cubicles for housing rams, resembling pigsties with their own yard but slightly larger."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/159263> a skos:Concept ;
+    skos:altLabel "Bastel House"@en,
+        "Bastle House"@en,
+        "Byre Dwelling"@en,
+        "Byre House"@en,
+        "House Over Byre"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147363> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Bastle (Non Defensive)"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147426> ;
+    skos:scopeNote "A stone building with external access to the domestic accommodation via a permanent stair. The ground floor is normally used as a byre in rural contexts, but in an urban setting it may be intended for one of a number of other non domestic uses."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147391> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Kiln"@en ;
+    skos:scopeNote "A furnace or oven for burning, baking or drying. Use specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147458> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Courtyard Plan"@en ;
+    skos:scopeNote "A farmstead where the working buildings are arranged around a yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/159262> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147363> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Bastle (Defensive)"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147420>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147426> ;
+    skos:scopeNote "A stone building with thick outer walls and small infrequent windows whose entrance and any internal stairs are capable of defence. Many contain stone vaulted ground floor ceilings although in some instances substantial timbers have been used."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147363> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Bastle"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147426> ;
+    skos:scopeNote "A stone building with stone flagged domestic accommodation above non-domestic ground floor accommodation, typically a byre. The domestic accommodation is accessible via an external ladder or stair, the non-domestic ground floor having a separate entrance."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147376> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147463> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Dispersed Plan"@en ;
+    skos:scopeNote "A farmstead where the buildings and yards are loosely arranged, with no focal yard. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147427> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Shed"@en ;
+    skos:scopeNote "A slight structure, or a modern wide span farm building, built for shelter or storage or for use as a workshop, either attached as a lean-to to a permanent building or separate. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147433> a skos:Concept ;
+    skos:altLabel "Bercerie"@en,
+        "Sheep Cote"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Sheep House"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147498> ;
+    skos:scopeNote "Housing for sheep, in the form of a shelter shed with low eaves (very difficult to identify, but usually detached from the main farmyard and facing a detached series of yards)."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147462> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Agricultural Complexes And Buildings"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/573> .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147468> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Pig Housing"@en ;
+    skos:scopeNote "A structure providing secure housing for pigs. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147378> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147458> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Loose Courtyard Plan"@en ;
+    skos:scopeNote "A farmstead where mostly detached buildings have developed around one or more sides of an open cattle yard."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147425> a skos:Concept ;
+    skos:altLabel "Fowl House"@en ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Poultry Housing"@en ;
+    skos:scopeNote "Structures providing secure housing for poultry. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147426> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Farmhouse"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147363>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147392>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147395>,
+        <http://purl.org/heritagedata/schemes/573/concepts/159262>,
+        <http://purl.org/heritagedata/schemes/573/concepts/159263> ;
+    skos:scopeNote "The main dwelling house of a farm, it can be either detatched from or attached to the working buildings. The house can either share the main elevation with the working buildings or may face in a different direction, commonly into a garden area."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147455> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Farmstead"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147382>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147400> ;
+    skos:scopeNote "The homestead of a farm consisting of a farmhouse and working farm buildings, with yards, other working areas and usually a garden to the house."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147546> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147464> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Yard"@en ;
+    skos:scopeNote "An area enabling general movement and access to the farmhouse and working buildings and for livestock, the storage of harvested crops, timber and other products."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147466> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Animal Housing"@en ;
+    skos:scopeNote "A structure providing shelter for animals. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147467> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147466> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Cattle Housing"@en ;
+    skos:scopeNote "A structure providing secure housing for cattle. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147463> a skos:Concept ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Plan Types"@en ;
+    skos:topConceptOf <http://purl.org/heritagedata/schemes/573> .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147464> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147462> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Agricultural Complex"@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147359> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147456> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Barn"@en ;
+    skos:related <http://purl.org/heritagedata/schemes/573/concepts/147398> ;
+    skos:scopeNote "A building for the storage and processing of grain crops and for housing straw, farm equipment and occasionally livestock and their fodder. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147379> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147458> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Regular Courtyard Plan"@en ;
+    skos:scopeNote "A farmstead where the working buildings are carefully planned as linked ranges and are focused around one or more working yards. They often result from a single phase of building."@en .
+
+<http://purl.org/heritagedata/schemes/573/concepts/147456> a skos:Concept ;
+    skos:broader <http://purl.org/heritagedata/schemes/573/concepts/147462> ;
+    skos:inScheme <http://purl.org/heritagedata/schemes/573> ;
+    skos:prefLabel "Agricultural Building"@en ;
+    skos:scopeNote "A building used for an agricultural and/or subsistence purpose. Use more specific type where known."@en .
+
+<http://purl.org/heritagedata/schemes/573> a skos:ConceptScheme ;
+    ns1:attributionName "Historic England"@en ;
+    ns1:attributionURL <http://www.historicengland.org.uk> ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0> ;
+    dct:description "Thesaurus for indexing different types of farmsteads, related buildings, areas and layouts. This thesaurus does not contain any additional terminology than that held in Monument Type."@en ;
+    dct:publisher <http://www.historicengland.org.uk> ;
+    dct:title "Farmsteads Thesaurus"@en ;
+    skos:hasTopConcept <http://purl.org/heritagedata/schemes/573/concepts/147462>,
+        <http://purl.org/heritagedata/schemes/573/concepts/147463> .
+

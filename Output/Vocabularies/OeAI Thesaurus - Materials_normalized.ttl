@@ -1,0 +1,1735 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17037> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q721849> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eisenoxyd"@de,
+        "iron oxide"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17038> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300209942> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dolomit (Mineral)"@de,
+        "dolomite (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17039> a skos:Concept ;
+    skos:altLabel "Aluminosilicate"@de,
+        "Alumosilicate"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380480> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aluminiumsilikat"@de,
+        "aluminosilicate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17045> a skos:Concept ;
+    skos:altLabel "hydrous mica"@en,
+        "mica"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1145804> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Illit"@de,
+        "illite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17048> a skos:Concept ;
+    skos:altLabel "Aswan clay"@en,
+        "Aswan ware"@en,
+        "Aswani clay"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Kaolinitischer Ton aus der Region Assuan."@de,
+        "Kaolinitic clay from the Aswan region."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aswan pink clay"@de,
+        "Aswan pink clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17049> a skos:Concept ;
+    skos:altLabel "sandig"@de,
+        "sandy"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014341> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sand"@de,
+        "sand"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17050> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Kalziumkarbonatreicher Ton für Keramik die hauptsächlich in Ägypten hergestellt wurde. Aus Schiefer und Kalkstein entlang des Nils zwichen Esna und Kairo gewonnen."@de,
+        "Type of calcareous clay that was mainly used for ceramics produced in Egypt. It is derived from slate and limestone found along the Nile between Esna and Cairo."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mergelton (ägyptisch)"@de,
+        "marl clay (Egyptian)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17054> a skos:Concept ;
+    skos:altLabel "Kaolinit"@de,
+        "kaolinite"@en,
+        "kaolinitic"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010445> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kaolin"@de,
+        "kaolin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17058> a skos:Concept ;
+    skos:altLabel "schluffig"@de,
+        "silty"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379483> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schluff"@de,
+        "silt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17061> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300209721> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Montmorillonit"@de,
+        "montmorillonite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17062> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011024> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Magnesium"@de,
+        "magnesium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17064> a skos:Concept ;
+    skos:altLabel "Nilschlammton"@de,
+        "Nilton"@de,
+        "Nile clay"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Art von schluffigem Ton, der speziell in den Vulkanregionen Äthiopiens vorkommt."@de,
+        "Type of silty clay that is particular to the volcanic regions of Ethiopia."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1992479> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Nilschlamm"@de,
+        "Nile silt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17074> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ton, der reich an Kalziumkarbonat ist."@de,
+        "Clay that is composed of calcium carbonate."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "kalkreicher Ton"@de,
+        "calcareous clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075> a skos:Concept ;
+    skos:altLabel "Kalzit"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/calcite/3.37>,
+        <https://www.wikidata.org/wiki/Q171917> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Calcit"@de,
+        "calcite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17080> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ton, dem Kalziumkarbonat fehlt."@de,
+        "Clay that lacks calcium carbonate."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "kalkarmer Ton"@de,
+        "non-calcareous clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17081> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011087> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feldspat"@de,
+        "feldspar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17082> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6066207> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dung"@de,
+        "dung"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17083> a skos:Concept ;
+    skos:altLabel "Magnesiumeisenglimmer"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q105794> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Biotit"@de,
+        "biotite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17084> a skos:Concept ;
+    skos:altLabel "haematite"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q103223> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hämatit"@de,
+        "hematite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17088> a skos:Concept ;
+    skos:altLabel "Kalziumkarbonat"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300212174> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Calciumcarbonat"@de,
+        "calcium carbonate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17089> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine Art Silikatmineral mit perfekter Basalspaltung (d.h. Es lässt sich leicht in dünne elastische Platten aufspalten)"@de,
+        "A type of silicate mineral with perfect basal cleavage (i.e. easily split into thin elastic plates)."@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011124> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Glimmer"@de,
+        "mica"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23777> a skos:Concept ;
+    skos:altLabel "lehmig"@de,
+        "loamy"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014335> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lehm"@de,
+        "loam"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778> a skos:Concept ;
+    skos:altLabel "aluminum"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011015> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aluminium"@de,
+        "aluminium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011022>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/lead/5.10> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Blei"@de,
+        "lead"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23780> a skos:Concept ;
+    skos:altLabel "AE"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010957> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bronze"@de,
+        "bronze"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011002> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eisen"@de,
+        "iron"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010965> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Elektron"@de,
+        "electrum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011021>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/gold/3.34> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gold"@de,
+        "gold"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011020>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/copper/3.31> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kupfer"@de,
+        "copper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010946> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Messing"@de,
+        "brass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011029>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/silver/5.9> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Silber"@de,
+        "silver"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133751> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stahl"@de,
+        "steel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23789> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011033> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Titan"@de,
+        "titanium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23790> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011037> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zink"@de,
+        "zinc"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23791> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133748> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinn"@de,
+        "tin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23793> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014748> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalkmörtel"@de,
+        "lime mortar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23794> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014743> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zementmörtel"@de,
+        "cement mortar"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23796> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300191893> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Eierschale"@de,
+        "eggshell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23797> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011857> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Elfenbein"@de,
+        "ivory"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23799> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300048153> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bast"@de,
+        "bast"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23800> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014041> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Flachs"@de,
+        "flax"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23801> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014043> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hanf"@de,
+        "hemp"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23802> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014224> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kartonage"@de,
+        "cardboard"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23803> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014078> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leinwand"@de,
+        "canvas"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23804> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014109> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Papier"@de,
+        "paper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23805> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014127> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Papyrus"@de,
+        "papyrus"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23806> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011878> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schilf"@de,
+        "reed"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23808> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011809> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feder"@de,
+        "feather"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011796>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/antler/3.7> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Geweih"@de,
+        "antler"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23812> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012934> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bernstein"@de,
+        "amber"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011826>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/horn/3.8> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Horn"@de,
+        "horn"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23816> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300451454> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Knochen, menschlich"@de,
+        "bone (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23819> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011800> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Koralle"@de,
+        "coral"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23822> a skos:Concept ;
+    skos:altLabel "Schnecke"@de,
+        "snail shell"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Bezieht sich speziell auf das Exoskelett oder Gehäuse von Gastropoden oder Schnecken."@de,
+        "Refers specifically to the exoskeleton or shell of a gastropod or snail."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2003497> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gastropodenschale"@de,
+        "gastropod shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23823> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014067> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Baumwolle"@de,
+        "cotton"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23824> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014069> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leinen"@de,
+        "linen"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23825> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300243428> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Seide"@de,
+        "silk"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23826> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300243430> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wolle"@de,
+        "wool"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23828> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011811> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Fell"@de,
+        "fur"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23829> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011845> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Leder"@de,
+        "leather"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23830> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011851> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pergament"@de,
+        "parchment"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23831> a skos:Concept ;
+    skos:altLabel "hide"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011844> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tierhaut"@de,
+        "animal skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23832> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q561> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zahn, menschlich"@de,
+        "tooth (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23833> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400467> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zahn, tierisch"@de,
+        "tooth (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23834> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q111444518> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Knochen, tierisch"@de,
+        "bone (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23837> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300263391> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sinter"@de,
+        "sinter"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011135>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/agate/3.27> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Achat"@de,
+        "agate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23839> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011101> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Alabaster (Gips)"@de,
+        "alabaster (gypsum)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23840> a skos:Concept ;
+    skos:altLabel "Egyptian alabaster"@en,
+        "onyx marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q14552475> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalzitalabaster"@de,
+        "alabaster (calcite)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23841> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380120> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Almandin"@de,
+        "almandine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23842> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011133> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Amethyst"@de,
+        "amethyst"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011213>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/andesit/3.29> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Andesit"@de,
+        "andesite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23844> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q567788> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Anorthosit"@de,
+        "anorthosite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845> a skos:Concept ;
+    skos:altLabel "Dolerit"@de,
+        "dolerite"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011222>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/basalt/3.20> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Basalt"@de,
+        "basalt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846> a skos:Concept ;
+    skos:altLabel "clear quartz"@en,
+        "mountain crystal"@en,
+        "pure quartz"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/rock_crystal/3.16>,
+        <https://www.wikidata.org/wiki/Q2050687> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Bergkristall"@de,
+        "rock crystal"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23847> a skos:Concept ;
+    skos:altLabel "blue stone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011386> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Blaustein"@de,
+        "bluestone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011134>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chalcedony/3.13> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chalzedon"@de,
+        "chalcedony"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23849> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011084> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Diamant"@de,
+        "diamond"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23850> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011210> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Granodiorit"@de,
+        "granodiorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23851> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011219> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzdiorit"@de,
+        "quartz-diorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23853> a skos:Concept ;
+    skos:altLabel "gem"@en,
+        "jewel"@en,
+        "precious stone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300201964> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Edelstein"@de,
+        "gemstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856> a skos:Concept ;
+    skos:altLabel "Silex"@de,
+        "flintstone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011143>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/flint/4.11> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Feuerstein"@de,
+        "flint (rock)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011141>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chert/3.12> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Hornstein"@de,
+        "chert"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23858> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011230> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gabbro"@de,
+        "gabbro"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23860> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011099> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gips"@de,
+        "gypsum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23861> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011438> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gneis"@de,
+        "gneiss"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23862> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q618716> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Aplitgranit"@de,
+        "aplite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23866> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380422> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Rosengranit"@de,
+        "rose granite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23867> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011098> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Graphit"@de,
+        "graphite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23868> a skos:Concept ;
+    skos:altLabel "graywacke"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011391> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Grauwacke"@de,
+        "greywacke"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23869> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011425> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Brekzie"@de,
+        "breccia"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011151>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/jasper/3.14> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Jaspis"@de,
+        "jasper"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23871> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379609> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalksandstein"@de,
+        "calcarenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011286>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/limestone/3.22> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kalkstein"@de,
+        "limestone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23877> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300133223> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Karneol"@de,
+        "carnelian"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23878> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011430> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Konglomerat"@de,
+        "conglomerate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23879> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011122> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lapislazuli"@de,
+        "lapis lazuli"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23881> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010451> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mergel"@de,
+        "marl"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23882> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mafisches, intrusives magmatisches Gestein, das hauptsächlich aus Labradorit, Olivin und Orthopyroxen besteht."@de,
+        "A mafic intrusive igneous rock that mostly consists of labradorite, olivine and orthopyroxene."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1468713> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Norit"@de,
+        "norite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011254>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/obsidian/3.2> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Obsidian"@de,
+        "obsidian"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23884> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011136> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Onyx"@de,
+        "onyx"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23885> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011265> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Peperin"@de,
+        "peperino"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23886> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011374> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Poros"@de,
+        "poros"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23887> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q664311> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Harzburgit"@de,
+        "harzburgite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23888> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein ultramafisches magmatisches Gestein, das hauptsächlich aus Pyroxenmineralien wie Augit, Bronzit, Diopsid und Enstatit besteht."@de,
+        "An ultramafic igneous rock mainly composed of pyroxene minerals, such as augite, bronzite, diopside, and enstatite."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q648913> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pyroxenit"@de,
+        "pyroxenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23889> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine ultramafische und ultrabasische Gesteinsmischung aus Olivin und Klinopyroxen."@de,
+        "An ultramafic and ultrabasic rock mixture of olivine and clinopyroxene."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2947189> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wehrlit"@de,
+        "wehrlite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011132>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartz/3.15> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarz"@de,
+        "quartz"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011376>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/sandstone/3.25> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sandstein"@de,
+        "sandstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23892> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7067844> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "nubisch"@de,
+        "Nubian sandstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011623>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartzite/5.8> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzit"@de,
+        "quartzite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23894> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011137> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sardonyx"@de,
+        "sardonyx"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23896> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittelkörniges metamorphes Gestein mit flockiger Textur (Schieferung), das aufgrund seines hohen Gehalts an plättchenförmigen Mineralien leicht in Schichten zerfällt und einen hohen Anteil des Minerals Chlorit aufweist."@de,
+        "A medium-grained metamorphic rock with a flakey texture (schistosity), which easily breaks into plates due to its high content of platy minerals. Chlorite schist contains high levels of the mineral chlorite."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chloritschiefer"@de,
+        "chlorite schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23897> a skos:Concept ;
+    skos:altLabel "slate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "\"Tonschiefer sind Gesteine aus dem Übergangsbereich von der Diagenese zur Metamorphose. Es sind dichte, feinklastische Gesteine mit schwarzer, schwärzlich grauer, bläulich grauer, auch grünlicher, gelblicher, roter und violetter Farbe mit einer engständigen Schieferung, durch die das Gestein im Millimeterbereich spaltbar ist.\""@de,
+        "Free translation from German definition: Type of rock in the transition area from diagenesis to metamorphosis. They are dense, fine clastic rocks with colours such as black, blackish grey, bluish grey, greenish, yellowish, red and violet. They have a narrow cleavage where rock can be split in the millimeter range."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q207079> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tonschiefer"@de,
+        "clay schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011627>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/serpentine/3.23> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Serpentin"@de,
+        "serpentine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23899> a skos:Concept ;
+    skos:altLabel "soapstone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011665> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Steatit"@de,
+        "steatite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23900> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011220> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Syenit"@de,
+        "syenite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23901> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittelkörniges metamorphes Gestein mit flockiger Textur (Schieferung), das aufgrund seines hohen Gehalts an plättchenförmigen Mineralien leicht in Schichten zerfällt und einen hohen Talkanteil aufweist."@de,
+        "A medium-grained metamorphic rock with a flakey texture (schistosity), which easily breaks into plates due to its high content of platy minerals. Talc schist contains a high level of talc."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q9394827> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Talkschiefer"@de,
+        "talc schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23902> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011329> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Travertin"@de,
+        "travertine"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23903> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011264> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Tuff"@de,
+        "tuff"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23904> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011164> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Türkis"@de,
+        "turquoise (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23905> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010669> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Terrakotta"@de,
+        "terracotta"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23934> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011820> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Haar (menschlich)"@de,
+        "hair (human)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23936> a skos:Concept ;
+    skos:altLabel "färbig"@de,
+        "colored glass"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Glasart, der bei der Herstellung Metalloxide zugesetzt wurden, um eine bestimmte Färbung zu erhalten (z. B. Co2+ für Blau, Cr3+ für Grün, Mn3+ für Lila usw.)."@de,
+        "Type of glass to which metal oxides have been added during the production to obtain a specific color (e.g., Co2+ for blue, Cr3+ for green, Mn3+ for purple, etc.)."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "farbiges Glas"@de,
+        "coloured glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23937> a skos:Concept ;
+    skos:altLabel "transluzentes Glas"@de,
+        "colorless glass"@en,
+        "colourless glass"@en,
+        "translucent glass"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Art von römischem und hellenistischem Glas, dem bei der Herstellung Antimonoxide (Sb2O3) oder Manganoxide (MnO2) zugesetzt wurden, um farblose und transparente Artefakte zu erhalten."@de,
+        "Type of Roman and Hellenistic glass to which antimony oxides (Sb2O3) or manganese oxides (MnO2) have been added during the production to obtain colorless and transparent artifacts."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "farbloses Glas (römisch)"@de,
+        "colourless glass (Roman)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23938> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300386525> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "opakes Glas"@de,
+        "opaque glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23939> a skos:Concept ;
+    skos:altLabel "Teer"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012949> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pech (Harz)"@de,
+        "pitch"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23943> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011131> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Silicium"@de,
+        "silica"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23944> a skos:Concept ;
+    skos:altLabel "Schamottemehl"@de,
+        "chamotte"@en,
+        "grog"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Tonscherben, die zur Verwendung als Mischungszusatz zerkleinert wurden."@de,
+        "Pottery sherds that have been crushed for use as a mixture additive."@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300264869> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schamott"@de,
+        "crushed sherd"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23945> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q106532> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Muskovit"@de,
+        "muscovite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23946> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379536> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "lösliches Salz"@de,
+        "soluble salt"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23947> a skos:Concept ;
+    skos:altLabel "Kochsalz"@de,
+        "rock salt"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2314> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Natriumchlorid"@de,
+        "sodium chloride"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23948> a skos:Concept ;
+    skos:altLabel "sodium sulphate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q211737> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Natriumsulfat"@de,
+        "sodium sulfate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23949> a skos:Concept ;
+    skos:altLabel "potassium sulphate"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q193054> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kaliumsulfat"@de,
+        "potassium sulfate"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23950> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Natürlich vorkommendes Mineral aus Silizium und Sauerstoff (SiO2), das witterungsbeständig ist und reichlich auf der Erdoberfläche vorkommt. Es hat eine Korngröße von 0,06 bis 2 mm und wird üblicherweise als Härter in der Keramikproduktion sowie als Hauptbestandteil bei der Glasherstellung verwendet."@de,
+        "Naturally occurring mineral made up of silicon and oxygen (SiO2), which is resistant to weathering and found in abundance on the earth´s surface. It has a grain size ranging from 0.06 to 2 mm and is commonly used as temper in ceramic production and as major component in glassmaking."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Quarzsand"@de,
+        "quartz sand"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23951> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q107099> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "vulkanische Asche"@de,
+        "volcanic ash"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23955> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Cosmoloid ist ein markenrechtlich geschütztes mikrokristallines Wachsprodukt, das häufig bei der Restaurierung / Konservierung von Gemälden und Metallgegenständen verwendet wird."@de,
+        "Cosmoloid is a trademarked microcrystalline wax product, often used on paintings and metal objects."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Cosmoloid"@de,
+        "Cosmoloid"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23956> a skos:Concept ;
+    skos:altLabel "ethylenediamine tetraacetic acid"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379820> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "EDTA"@de,
+        "EDTA"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23958> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenrechtlich geschützter Handelsname einer Reihe von Hydroxypropylcelluloseverbindungen mit nichtionischen, wasserlöslichen Polymeren, die häufig zum Binden von Keramikglasuren verwendet werden."@de,
+        "Trademarked commercial name of a series of hydroxypropyl cellulose compounds with nonionic, water soluble polymers, often used to bind ceramic glazes."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Klucel"@de,
+        "Klucel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23959> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380470> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Paraloid B72"@de,
+        "Paraloid B72"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23960> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenrechtlich geschützter Handelsname für ein Copolymer aus Methylmethacrylat und Butylacrylat mit einem Haftvermittler zur Unterstützung der Verbindung mit Metallen."@de,
+        "Trademarked commercial name for a copolymer of Methyl methacrylate and butyl acrylate with an adhesion promoter to help with bonding to metals."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Paraloid B48N"@de,
+        "Paraloid B48N"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23961> a skos:Concept ;
+    skos:altLabel "Cyclododecan Spray"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23957> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein temporäres Konservierungsmittel zum Schutz der Tinte bei wässrigen Oberflächenreinigungen, wobei sich dieser Begriff speziell auf die Sprühverteilungsmethode bezieht."@de,
+        "A temporary preservative agent for protecting ink during washing treatments, with this concept referring specifically to the spray distribution method."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Cyclododekan Spray"@de,
+        "Cyclododecane spray"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23963> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein transparentes, farbloses Zweikomponenten-Epoxidharz der Marke Araldite."@de,
+        "A transparent, colourless, two part epoxy of the Araldite brand."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Araldite 2020"@de,
+        "Araldite 2020"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23967> a skos:Concept ;
+    skos:altLabel "vermillion"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400883> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinnober"@de,
+        "cinnabar (pigment)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23968> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300013280> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Ägyptischblau"@de,
+        "Egyptian blue"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23969> a skos:Concept ;
+    skos:altLabel "vermillion"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300311452> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zinnober (Mineral)"@de,
+        "cinnabar (mineral)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23973> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014585> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Wachs"@de,
+        "wax"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23974> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300265183> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Fayence"@de,
+        "faience"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23979> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011028> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Nickel"@de,
+        "nickel"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23983> a skos:Concept ;
+    skos:altLabel "Zirkonium"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380041> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zirconium"@de,
+        "zirconium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23986> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011031> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Platin"@de,
+        "platinum"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/straw/6.8>,
+        <https://www.wikidata.org/wiki/Q160066> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stroh"@de,
+        "straw"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23993> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein mittel- bis grobkörniger warmweißer oder blaugrauer Marmor, der in der antiken türkischen Stätte Aphrodisias abgebaut wurde. Der Marmor wurde hauptsächlich im hellenistischen bis spätrömischen Stil verwendet, um einen zweifarbigen Effekt zu erzielen."@de,
+        "A medium- to large grained marble, warm white or blue-gray in colour,  quarried from the ancient Turkish site of Aphrodisias. Primarily Hellenistic to Late Roman use, the marble was often used to create a two colour effect."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "aphrodisisch"@de,
+        "aphrodisian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23994> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011576> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Carrara"@de,
+        "carrara marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23995> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011505> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Celticum"@de,
+        "celticum marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23996> a skos:Concept ;
+    skos:altLabel "Marmor Chalcidicum"@de,
+        "fior di pesco"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Rekristallisierter Kalkstein von rosagrauer Farbe mit vereinzelt roten, braunen, weißen und violetten Flecken; in der römischen Kaiserzeit stark exportiert."@de,
+        "Recrystallised limestone of a pink-grey colouring with some red, brown, white and violet patches; heavily exported in the Roman imperial period."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "chalkidisch"@de,
+        "chalcidic marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23998> a skos:Concept ;
+    skos:altLabel "granito del foro"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380366> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Claudianum"@de,
+        "claudianum marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24000> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Mittelkörniger weißer Marmor aus der Region Ephesos mit makroskopischen Merkmalen wie grauen Streifen und Flecken (wie Marmor Proconnesium), aber ihre Streifen sind unregelmäßig und dieser Marmor hat beim Mahlen keinen Schwefelgeruch."@de,
+        "Free translation from German definition: Medium-grained white marble from the Ephesus region with macroscopic features such as gray streaks and spots (similar to Proconnesium marble; however, the streaks are irregular). It has no sulfur odor when ground up."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "ephesisch"@de,
+        "ephesian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24001> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011580> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "hymettisch"@de,
+        "hymettian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24004> a skos:Concept ;
+    skos:altLabel "Krokeischer Stein"@de,
+        "porfido verde antico"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Eine Art Andesit- oder Vulkangestein, das im Dorf Krokees in der Region Peloponnes in Griechenland vorkommt."@de,
+        "A type of andesite or volcanic rock found in the village of Krokees in the Peloponnese region in Greece."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1789729> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Lapis lakedaimonisch"@de,
+        "lacedaemonian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005> a skos:Concept ;
+    skos:altLabel "africano"@de,
+        "African marble"@en,
+        "lucullite"@en,
+        "marmor lucullum"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011490>,
+        <https://www.wikidata.org/wiki/Q3287561> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "lukullisch"@de,
+        "lucullan marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24006> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300444909> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "naxisch"@de,
+        "naxian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24007> a skos:Concept ;
+    skos:altLabel "giallo antico"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011557> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Numidicum"@de,
+        "numidian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24008> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011594> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "parisch"@de,
+        "parian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24009> a skos:Concept ;
+    skos:altLabel "Marmor Phrygium"@de,
+        "phrygisch"@de,
+        "phrygian marble"@en,
+        "synnadic marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011562> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pavonazzetto"@de,
+        "pavonazzetto marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24010> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011599> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "pentelischer"@de,
+        "pentelic marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011232>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/porphyry/3.30> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Porphyr"@de,
+        "porphyry"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24012> a skos:Concept ;
+    skos:altLabel "prokonnesian marble"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300193786> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "prokonnesisch"@de,
+        "proconnesian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24014> a skos:Concept ;
+    skos:altLabel "tasio"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011607> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "thasisch"@de,
+        "thasian marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24030> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5259911> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Menschenhaut"@de,
+        "human skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24032> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Bezieht sich speziell auf das Exoskelett oder Gehäuse einer zweischaligen Muschel."@de,
+        "Refers specifically to the exoskeleton or shell of a bivalve mollusk."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3511295> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Muschelschale"@de,
+        "bivalve shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24033> a skos:Concept ;
+    skos:altLabel "Hornsubstanz"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300193683> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Keratin"@de,
+        "keratin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012862>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/charcoal/4.1> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Holzkohle"@de,
+        "charcoal"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011123>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/malachite/3.35> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Malachit"@de,
+        "malachite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011079>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chlorite/3.21> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Chlorit"@de,
+        "chlorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24040> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300386691> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Grünstein"@de,
+        "greenstone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400620>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiolarite/4.18> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Radiolarit"@de,
+        "radiolarite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24288> a skos:Concept ;
+    skos:altLabel "Dolomitstein"@de,
+        "dolostone"@en ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011348> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Dolomit (Gestein)"@de,
+        "dolomite (rock)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24290> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q335239> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Amphibolit"@de,
+        "amphibolite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24436> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://nomisma.org/id/potin> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Potin"@de,
+        "potin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24437> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://nomisma.org/id/billon> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Billon"@de,
+        "billon"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24438> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010998> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Weißmetall"@de,
+        "white metal"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070> a skos:Concept ;
+    skos:altLabel "Kalzium"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300264232> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Calcium"@de,
+        "calcium"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769> a skos:Concept ;
+    skos:altLabel "cement"@en ;
+    skos:closeMatch <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/concrete/6.16> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010737> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Beton"@de,
+        "concrete"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300152583> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Erz"@de,
+        "ore"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772> a skos:Concept ;
+    skos:altLabel "moulding"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014966> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Stuck"@de,
+        "stucco"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776> a skos:Concept ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q11474> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Kunststoff"@de,
+        "plastic (synthetic)"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300400468> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Haar (tierisch)"@de,
+        "hair (animal)"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011914>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wood/3.32> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Holz"@de,
+        "wood"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011790> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schlacke"@de,
+        "slag"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011183>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/granite/3.24> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Granit"@de,
+        "granite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014922> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Verputz"@de,
+        "plaster"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23957> a skos:Concept ;
+    skos:altLabel "Cyclododecan"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Ein temporäres Konservierungsmittel zum Schutz der Tinte bei wässrigen Oberflächenreinigungen."@de,
+        "A temporary preservative agent for protecting ink during washing treatments."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Cyclododekan"@de,
+        "Cyclododecane"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:definition "Freie Übersetzung aus der englischen Definition: Markenname für einen Klebstofftyp auf Basis von Epoxid-, Polyurethan- oder Acrylpolymeren."@de,
+        "Brand name for a type of adhesive based on epoxy, polyurethane, or acrylic polymers."@en ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2779570> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Araldite"@de,
+        "Araldite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014910> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Emaille"@de,
+        "enamel"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011814> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Haar"@de,
+        "hair"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300012882> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Harz"@de,
+        "resin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820> a skos:Concept ;
+    skos:altLabel "Gehäuse"@de,
+        "Schale"@de ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011829>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/shell/3.6> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Muschel"@de,
+        "shell"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011214> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Diorit"@de,
+        "diorite"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300380471> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Paraloid"@de,
+        "Paraloid"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300235507> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Keramik"@de,
+        "ceramic"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300263800> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "vulkanisches Glas"@de,
+        "vulcanic glass"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014741> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mörtel"@de,
+        "mortar"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011798>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/bone/3.5> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Knochen"@de,
+        "bone"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011855>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/tooth/3.28> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Zahn"@de,
+        "tooth"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300013109> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Pigment"@de,
+        "pigment"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011626> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Schiefer"@de,
+        "schist"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014063> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Textil"@de,
+        "textile"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1074> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Haut"@de,
+        "skin"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> a skos:Concept ;
+    skos:altLabel "Boden"@de,
+        "Erde"@de,
+        "Schlamm"@de,
+        "earth"@en,
+        "mud"@en,
+        "soil"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300379424> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Sediment"@de,
+        "sediment"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010797> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Glas"@de,
+        "glass"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010902> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Legierung"@de,
+        "alloy"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953> a skos:Concept ;
+    skos:definition "Chemikalien, die bei der Konservierung und Restaurierung von Artefakten und Objekten verwendet werden."@de,
+        "Chemicals used in artifact and feature conservation processes."@en ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Restaurationschemikalien"@de,
+        "restoration chemicals"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300014024> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Faser"@de,
+        "fibre"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010439>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/clay/2.19> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Ton"@de,
+        "clay"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300010900>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/metal/2.9> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Metall"@de,
+        "metal"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880> a skos:Concept ;
+    skos:broader <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011443>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/marble/3.10> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Marmor"@de,
+        "marble"@en .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300191632> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "organisch"@de,
+        "organic"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931> a skos:Concept ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011068> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Mineral"@de,
+        "mineral"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836> a skos:Concept ;
+    skos:altLabel "stone"@en ;
+    skos:exactMatch <http://vocab.getty.edu/page/aat/300011692>,
+        <https://vocabs.acdh.oeaw.ac.at/defcthesaurus/stone/2.1> ;
+    skos:inScheme <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> ;
+    skos:prefLabel "Gestein"@de,
+        "rock"@en ;
+    skos:topConceptOf <https://vocabs.acdh.oeaw.ac.at/oeai-materials/> .
+
+<https://vocabs.acdh.oeaw.ac.at/oeai-materials/> a skos:ConceptScheme ;
+    rdfs:label "OeAI Thesaurus - Materials"@en ;
+    dc:description "Subset of the OeAI Thesaurus for materials."@en ;
+    dct:title "OeAI Thesaurus - Materialien"@de ;
+    skos:hasTopConcept <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23953>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972>,
+        <https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975> .
+
