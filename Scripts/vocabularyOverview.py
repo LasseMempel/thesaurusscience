@@ -1,6 +1,5 @@
 import rdflib
-from rdflib import RDF
-from rdflib.namespace import SKOS
+from rdflib import RDF, URIRef
 import glob
 import os
 import logging
@@ -22,7 +21,20 @@ folders = [
 
 basePath = "/home/mempellaenger/repos/thesaurusscience" # "/home/lasse/repos/thesaurusscience/"
 
-SKOS_NS = str(SKOS)
+
+def get_namespace(uri):
+    """Split a URI into its namespace part: everything up to and including
+    the last '#', or failing that, the last '/'."""
+    uri = str(uri)
+    if "#" in uri:
+        return uri.rsplit("#", 1)[0] + "#"
+    return uri.rsplit("/", 1)[0] + "/"
+
+
+def is_skos_family(namespace):
+    """Match core SKOS plus any extension whose namespace mentions 'skos'
+    (skos-xl, iso-thes's skos-thes, and anything similar in the future)."""
+    return "skos" in namespace.lower()
 
 
 def read_graph(file_path):
@@ -38,22 +50,30 @@ def read_graph(file_path):
     return g
 
 
-def count_skos_usage(g):
+def analyze_graph(g):
     """
-    Walk every triple and tally SKOS usage:
-      - if the predicate itself is a SKOS property (skos:prefLabel, skos:broader, ...),
-        count that property.
-      - if the predicate is rdf:type and the object is a SKOS class
-        (skos:Concept, skos:ConceptScheme, ...), count that class.
-    Returns a Counter mapping term URI -> occurrence count.
+    Walk every triple once and return:
+      - skos_counter: Counter of SKOS-family term URI -> occurrence count
+        (predicate usage, or rdf:type where the class is SKOS-family)
+      - namespaces: set of every namespace seen on any URIRef subject,
+        predicate, or object in this graph (not just SKOS-family ones)
     """
-    counter = Counter()
+    skos_counter = Counter()
+    namespaces = set()
+
     for s, p, o in g:
-        if p == RDF.type and str(o).startswith(SKOS_NS):
-            counter[str(o)] += 1
-        elif str(p).startswith(SKOS_NS):
-            counter[str(p)] += 1
-    return counter
+        if isinstance(s, URIRef):
+            namespaces.add(get_namespace(s))
+        namespaces.add(get_namespace(p))
+        if isinstance(o, URIRef):
+            namespaces.add(get_namespace(o))
+
+        if p == RDF.type and isinstance(o, URIRef) and is_skos_family(get_namespace(o)):
+            skos_counter[str(o)] += 1
+        elif is_skos_family(get_namespace(p)):
+            skos_counter[str(p)] += 1
+
+    return skos_counter, namespaces
 
 
 def find_vocab_files(folder_path):
@@ -64,6 +84,7 @@ def find_vocab_files(folder_path):
 
 def main():
     grand_total = Counter()
+    all_namespaces = set()
 
     for folder_name in folders:
         folder_path = os.path.join(basePath, folder_name)
@@ -71,19 +92,20 @@ def main():
         print(f"\n=== {folder_name} ({len(files)} files) ===")
 
         folder_total = Counter()
+
         for file_path in files:
             graph = read_graph(file_path)
             if graph is None:
                 raise RuntimeError(f"Failed to read graph from {file_path}")
 
-            usage = count_skos_usage(graph)
+            usage, namespaces = analyze_graph(graph)
             folder_total.update(usage)
+            all_namespaces.update(namespaces)
 
-            total_hits = sum(usage.values())
             print(f"  {os.path.basename(file_path)}:")
             for term, count in usage.most_common():
                 print(f"    {term}: {count}")
-            print("\n")
+            print()
 
         if folder_total and len(files) > 1:
             print(f"  -- {folder_name} totals --")
@@ -95,6 +117,12 @@ def main():
     print("\n=== Grand total across all folders ===")
     for term, count in grand_total.most_common():
         print(f"{term}: {count}")
+
+    """
+    print("\n=== All namespaces used across all vocabularies ===")
+    for ns in sorted(all_namespaces):
+        print(ns)
+    """
 
 
 if __name__ == "__main__":
