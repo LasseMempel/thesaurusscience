@@ -20,7 +20,7 @@ folders = [
     "Wortnetz",
 ]
 
-basePath = "/home/lasse/repos/thesaurusscience/"
+basePath = "/home/mempellaenger/repos/thesaurusscience" # "/home/lasse/repos/thesaurusscience/"
 
 SKOS_NS = str(SKOS)
 
@@ -29,17 +29,12 @@ def read_graph(file_path):
     """Parse an .rdf (XML) or .ttl (Turtle) file into an rdflib Graph."""
     ext = os.path.splitext(file_path)[1].lower()
     g = rdflib.Graph()
-    try:
-        if ext == ".rdf":
-            g.parse(file_path, format="xml")
-        elif ext == ".ttl":
-            g.parse(file_path, format="turtle")
-        else:
-            print(f"  Unsupported file extension: {ext}")
-            return None
-    except Exception as e:
-        print(f"  Failed to parse {file_path}: {e}")
-        return None
+    if ext == ".rdf":
+        g.parse(file_path, format="xml")
+    elif ext == ".ttl":
+        g.parse(file_path, format="turtle")
+    else:
+        raise ValueError(f"Unsupported file extension: {ext}")
     return g
 
 
@@ -79,16 +74,18 @@ def main():
         for file_path in files:
             graph = read_graph(file_path)
             if graph is None:
-                continue
+                raise RuntimeError(f"Failed to read graph from {file_path}")
 
             usage = count_skos_usage(graph)
             folder_total.update(usage)
 
             total_hits = sum(usage.values())
-            print(f"  {os.path.basename(file_path)}: "
-                  f"{total_hits} SKOS occurrences, {len(usage)} distinct terms")
+            print(f"  {os.path.basename(file_path)}:")
+            for term, count in usage.most_common():
+                print(f"    {term}: {count}")
+            print("\n")
 
-        if folder_total:
+        if folder_total and len(files) > 1:
             print(f"  -- {folder_name} totals --")
             for term, count in folder_total.most_common():
                 print(f"    {term}: {count}")
