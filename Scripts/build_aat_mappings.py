@@ -38,7 +38,7 @@ except ImportError:
 # CONFIG — local paths on your machine
 # ---------------------------------------------------------------------------
 
-BASE = Path("/home/mempellaenger/repos/thesaurusscience")
+BASE = Path("/home/lasse/repos/thesaurusscience")  
 
 DAI_PDF = BASE / "Ariadne Mappings" / "ARIADNE_DAI_AAT_Mappings.pdf"
 ADS_PDF = BASE / "Ariadne Mappings" / "ARIADNE_ADS_AAT_Mappings.pdf"

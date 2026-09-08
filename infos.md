@@ -43,3 +43,21 @@ Ariadne Mappings:
 
 Finto.fi Weitere englische Konzepte mit Mappings...
 Pactols?!
+
+Vorgehen:
+- Download Fish Vocabularies von
+    - https://heritage-standards.org.uk/fish-vocabularies/
+    - https://www.heritagedata.org/blog/vocabularies-provided/
+
+- Bezug Aktueller DAI World Thesaurus über Kontakte (RDF Download erfordert Mitarbeiter Login)
+
+- Download Backbone Thesaurus und verknüpfte Vokabulare über https://vocabs.dariah.eu/, SKOSMOS Instanz von Austrian Centre for Digital Humanities (ADCD)
+
+- Download Wortnetz Kultur über https://wnk-viewer.lvr.de/about
+
+- Download Pactols via https://github.com/frantiq/PACTOLS/tree/master/pactols-latest-version/
+
+- Download Ariadne Mappings via http://legacy.ariadne-infrastructure.eu/resources-2/aat/mappings-to-aat/
+- Gevibecodetes Script übersetzt Tabellen PDF in ttl Mappings, dabei Validierung ob Concept vorhanden ist und Label übereinstimmt. Altlabel Fallback weil häufig nicht das PrefLabel verwendet wurde...
+
+
