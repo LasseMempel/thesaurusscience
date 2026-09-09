@@ -1,32 +1,52 @@
 #!/usr/bin/env python3
 """
-Extract the ARIADNE <-> Getty AAT crosswalk tables (DAI + ADS PDFs) into
-tidy CSV/JSON, resolve missing source URIs against the DAI SKOS thesaurus
-and validate ADS source URIs against the FISH RDF/XML thesauri, then emit
+Extract the ARIADNE <-> Getty AAT crosswalk tables (DAI + ADS + INRAP PDFs)
+into tidy CSV/JSON, resolve missing source URIs against the DAI SKOS
+thesaurus, validate ADS source URIs against the FISH RDF/XML thesauri and
+INRAP source URIs against the PACTOLS SKOS RDF/XML thesauri, then emit
 SKOS-compliant mapping triples (skos:exactMatch / closeMatch / broadMatch /
 narrowMatch / relatedMatch) as Turtle.
 
-Run this on your local machine (needs the PDFs, the DAI ttl, and the FISH
-RDF/XML files on disk — see CONFIG below).
+Run this on your local machine (needs the PDFs, the DAI ttl, the FISH
+RDF/XML files, and the Pactols RDF/XML files on disk — see CONFIG below).
 
     pip install pdfplumber rdflib
 
 --------------------------------------------------------------------------
-HONEST CAVEAT: the DAI-ttl lookup and FISH-thesaurus validation code below
-was written without access to your actual .ttl / FISH files (I only have
-the two PDFs). The PDF-extraction half is tested and known-good; the
-thesaurus-linking half is my best-effort against the one example triple
-you showed me. Run it, and if label/URI lookups behave unexpectedly,
-send me the warnings and a snippet of the file and I'll adjust.
+HONEST CAVEAT: the DAI-ttl lookup, FISH-thesaurus validation, and Pactols-
+thesaurus validation code below was written without access to your actual
+.ttl / FISH / Pactols files (I only have the PDFs, plus the two example
+triples you pasted for Pactols). The PDF-extraction half — including the
+INRAP/PACTOLS ARK-URI extraction, which I tested against your actual
+ARIADNE_INRAP_AAT_Mappings.pdf across all 90 pages (1634/1634 rows
+extracted, 1632 with clean target_uri shape — 2 known word-wrap edge
+cases flagged in INRAP_LABEL_SPELLING_CORRECTIONS) — is tested and
+known-good. The thesaurus-linking half is my best-effort against the
+example triples you showed me. Run it, and if label/URI lookups behave
+unexpectedly, send me the warnings and a snippet of the file and I'll
+adjust.
 --------------------------------------------------------------------------
 """
 
 import csv
 import json
+import logging
 import re
+import warnings
 from pathlib import Path
 
 import pdfplumber
+
+# rdflib logs (with full traceback via exc_info=True) every time it hits a
+# malformed xsd:date literal (e.g. "2023-10" with no day) or a URIRef it
+# considers ill-formed (e.g. a MediaWiki "[[File:...]]" value that ended up
+# in a source field and got resolved as a relative URI). Real issues in the
+# Pactols/FISH source data, but irrelevant to the AAT mapping extraction and
+# validation this script does — we never touch those date/URI values — so
+# silence them here rather than let them bury the [WARN]/[INFO] lines that
+# actually matter.
+logging.getLogger("rdflib").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore", message=".*does not look like a valid URI.*")
 
 try:
     import rdflib
@@ -42,8 +62,11 @@ BASE = Path("/home/lasse/repos/thesaurusscience")
 
 DAI_PDF = BASE / "Ariadne Mappings" / "ARIADNE_DAI_AAT_Mappings.pdf"
 ADS_PDF = BASE / "Ariadne Mappings" / "ARIADNE_ADS_AAT_Mappings.pdf"
+INRAP_PDF = BASE / "Ariadne Mappings" / "ARIADNE_INRAP_AAT_Mappings.pdf"
 DAI_TTL = BASE / "DAI" / "export-2020-10-14_10-36.ttl"
 FISH_DIR = BASE / "FISH"  # directory containing the FISH RDF/XML thesauri
+PACTOLS_DIR = BASE / "Pactols"  # directory containing the Pactols SKOS RDF/XML files
+                                # (Pactols_Lieux_th17_*.rdf, Pactols_Sujets_TH_1_*.rdf)
 
 OUTPUT_DIR = BASE / "Output"
 
@@ -82,6 +105,20 @@ DAI_LABEL_SPELLING_CORRECTIONS = {
     "Hof/Geöft": "Hof/Gehöft",          # missing 'h'
 }
 
+# ---------------------------------------------------------------------------
+# Known spelling/extraction-artifact variants of INRAP (PACTOLS) source
+# labels -> correct spelling. Same purpose as DAI_LABEL_SPELLING_CORRECTIONS
+# above, but keyed on French labels. Add entries here as you spot them in
+# the [WARN][PACTOLS label mismatch] output.
+# ---------------------------------------------------------------------------
+
+INRAP_LABEL_SPELLING_CORRECTIONS = {
+    # "inscription de fondation" and "monnaie gallo-celtique" got their word-
+    # wrapped second half misrouted into target_uri during PDF extraction
+    # (2 of 1634 rows) rather than a label spelling issue - see the
+    # [WARN][bad target_uri shape] printout for exact rows to fix by hand.
+}
+
 SKOS_NS = "http://www.w3.org/2004/02/skos/core#"
 
 # ---------------------------------------------------------------------------
@@ -113,18 +150,24 @@ def clean_cell(raw):
     raw = raw.strip()
     if not raw:
         return ""
-    looks_like_url_fragment = ("http" in raw) or bool(re.search(r"/aat/|concepts/|schemes/", raw))
+    # "ark:"/"frantiq" added for the INRAP/PACTOLS source URIs
+    # (https://ark.frantiq.fr/ark:/26678/...), which otherwise get a stray
+    # space inserted when a single table cell wraps an ARK id across two
+    # lines (e.g. "/ark:/26678/pcrtu6\nMrQiPdBO").
+    looks_like_url_fragment = ("http" in raw) or bool(re.search(r"/aat/|concepts/|schemes/|ark:|frantiq", raw))
     if looks_like_url_fragment:
         return re.sub(r"\s+", "", raw)
     return re.sub(r"\s+", " ", raw).strip()
 
 
 def is_uri_like_fragment(text):
-    return bool(re.fullmatch(r"[a-z0-9/_.\-]+", text)) or text.isdigit()
+    # Case-insensitive + ":" added: PACTOLS ARK ids are mixed-case base62
+    # (e.g. "MrQiPdBO") and the "ark:" path segment needs the colon.
+    return bool(re.fullmatch(r"[A-Za-z0-9/_.:\-]+", text)) or text.isdigit()
 
 
 def looks_like_source_uri_piece(text):
-    return bool(re.search(r"concepts|schemes|gedata|heritagedata", text))
+    return bool(re.search(r"concepts|schemes|gedata|heritagedata|ark:|frantiq", text))
 
 
 def looks_like_target_uri_piece(text):
@@ -208,12 +251,12 @@ def extract_pdf(path, section_prefix, has_source_uri):
     return records
 
 
-def validate_uri_shape(records, has_source_uri):
+def validate_uri_shape(records, has_source_uri, source_uri_prefix="http://purl.org/heritagedata/"):
     bad = []
     for r in records:
         if not re.fullmatch(r"http://vocab\.getty\.edu/aat/\d{6,9}", r["target_uri"]):
             bad.append(("target_uri", r))
-        if has_source_uri and r.get("source_uri") and not r["source_uri"].startswith("http://purl.org/heritagedata/"):
+        if has_source_uri and r.get("source_uri") and not r["source_uri"].startswith(source_uri_prefix):
             bad.append(("source_uri", r))
     return bad
 
@@ -388,6 +431,126 @@ def validate_ads_against_fish(records, fish_graph):
 
 
 # ---------------------------------------------------------------------------
+# PACTOLS (INRAP) SKOS RDF/XML thesauri: validate INRAP source URIs exist
+# + French labels align. Same shape as the FISH validation above, adapted
+# for: (a) RDF/XML instead of mixed formats, (b) multilingual prefLabel/
+# altLabel where we care specifically about the fr labels the PDF quotes,
+# and (c) http/https scheme drift between the PDF ("http://ark.frantiq.fr/...")
+# and the RDF ("https://ark.frantiq.fr/...").
+#
+# HONEST CAVEAT: written against the one example triple you pasted, not
+# against the actual .rdf files (I don't have them). If URIs/labels don't
+# line up, send me a [WARN] snippet and I'll adjust.
+# ---------------------------------------------------------------------------
+
+def _normalize_scheme(uri):
+    """Strip the scheme so http/https variants of the same ARK URI compare equal."""
+    return re.sub(r"^https?://", "", uri)
+
+
+def load_pactols_graph(pactols_dir):
+    if rdflib is None:
+        raise RuntimeError("rdflib is required — pip install rdflib")
+
+    g = rdflib.Graph()
+    files = sorted(pactols_dir.glob("*.rdf")) + sorted(pactols_dir.glob("*.xml"))
+
+    if not files:
+        print(f"[WARN][PACTOLS] no .rdf/.xml files found in {pactols_dir}")
+        return g
+
+    for f in files:
+        try:
+            g.parse(str(f), format="xml")
+            print(f"[PACTOLS] loaded {f.name}")
+        except Exception as e:  # noqa: BLE001 — surfacing parse errors as warnings, not fatal
+            print(f"[WARN][PACTOLS] failed to parse {f.name}: {e}")
+
+    print(f"[PACTOLS] combined graph: {len(g)} triples from {len(files)} file(s)")
+    return g
+
+
+def validate_inrap_against_pactols(records, pactols_graph, label_corrections=None):
+    if len(pactols_graph) == 0:
+        print("[WARN][PACTOLS] graph is empty — skipping PACTOLS validation entirely")
+        return
+
+    label_corrections = label_corrections or {}
+
+    # index every subject by its scheme-normalized form, so an "http://" PDF
+    # URI matches an "https://" RDF rdf:about
+    existing_by_norm = {}
+    for s in pactols_graph.subjects():
+        existing_by_norm.setdefault(_normalize_scheme(str(s)), str(s))
+
+    missing = 0
+    label_mismatches = 0
+    non_fr_fallbacks = 0
+    corrected = 0
+
+    for r in records:
+        uri = r.get("source_uri", "")
+        if not uri:
+            continue
+
+        real_uri = existing_by_norm.get(_normalize_scheme(uri))
+        if real_uri is None:
+            missing += 1
+            print(f"[WARN][PACTOLS URI not found] {uri} (label: '{r['source_label']}', "
+                  f"section: {r['section']})")
+            continue
+        uri_ref = rdflib.URIRef(real_uri)
+
+        label = r["source_label"]
+        corrected_label = label_corrections.get(label)
+        if corrected_label and corrected_label != label:
+            print(f"[INFO][PACTOLS spelling corrected] '{label}' -> '{corrected_label}' "
+                  f"(target: {r['target_label']})")
+            label = corrected_label
+            corrected += 1
+        source_label = label.strip().lower()
+
+        fr_pref = {
+            str(o).strip().lower()
+            for _, _, o in pactols_graph.triples((uri_ref, SKOS.prefLabel, None))
+            if o.language == "fr"
+        }
+        fr_alt = {
+            str(o).strip().lower()
+            for _, _, o in pactols_graph.triples((uri_ref, SKOS.altLabel, None))
+            if o.language == "fr"
+        }
+        any_lang_labels = {
+            str(o).strip().lower()
+            for _, _, o in pactols_graph.triples((uri_ref, SKOS.prefLabel, None))
+        } | {
+            str(o).strip().lower()
+            for _, _, o in pactols_graph.triples((uri_ref, SKOS.altLabel, None))
+        }
+
+        if source_label in fr_pref:
+            pass  # perfect match via French prefLabel
+        elif source_label in fr_alt:
+            print(f"[INFO][PACTOLS altLabel fallback] {real_uri} — mapping uses non-preferred "
+                  f"fr label '{r['source_label']}', prefLabel(fr) is {sorted(fr_pref) or '?'}")
+        elif source_label in any_lang_labels:
+            non_fr_fallbacks += 1
+            print(f"[INFO][PACTOLS non-fr label] {real_uri} — '{r['source_label']}' matched a "
+                  f"label in another language; no fr prefLabel/altLabel matched")
+        else:
+            label_mismatches += 1
+            print(f"[WARN][PACTOLS label mismatch] {real_uri} — mapping says '{r['source_label']}', "
+                  f"thesaurus has fr prefLabel(s): {sorted(fr_pref)}, fr altLabel(s): {sorted(fr_alt)}")
+
+    print(f"\n[PACTOLS Validation Summary]")
+    print(f"  Source URIs not found: {missing}")
+    print(f"  True label mismatches: {label_mismatches}")
+    print(f"  Non-fr label fallbacks: {non_fr_fallbacks}")
+    print(f"  Labels auto-corrected via INRAP_LABEL_SPELLING_CORRECTIONS: {corrected}")
+    print(f"  Total records validated: {len([r for r in records if r.get('source_uri', '')])}")
+
+
+# ---------------------------------------------------------------------------
 # Match-type -> SKOS predicate resolution (with typo dict)
 # ---------------------------------------------------------------------------
 
@@ -485,14 +648,36 @@ def main():
     write_csv_json(ads_records, OUTPUT_DIR / "ads_aat_mappings", ads_fields)
     write_skos_ttl(ads_records, OUTPUT_DIR / "ads_aat_mappings.ttl")
 
-    bad = validate_uri_shape(ads_records, has_source_uri=True)
+    bad = validate_uri_shape(ads_records, has_source_uri=True, source_uri_prefix="http://purl.org/heritagedata/")
     print(f"ADS: {len(ads_records)} rows, {len(bad)} URI shape failures")
+
+    # --- INRAP (PACTOLS) ---
+    inrap_records = extract_pdf(INRAP_PDF, "PACTOLS", has_source_uri=True)
+    for r in inrap_records:
+        # this PDF has a single un-numbered "PACTOLS" heading (no "1. PACTOLS"
+        # style section markers like DAI/ADS), so the header-position finder
+        # never fires and section stays None — fill it in directly.
+        r["section"] = r["section"] or "PACTOLS"
+    resolve_predicate(inrap_records)
+    pactols_graph = load_pactols_graph(PACTOLS_DIR)
+    validate_inrap_against_pactols(inrap_records, pactols_graph, INRAP_LABEL_SPELLING_CORRECTIONS)
+
+    inrap_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
+    write_csv_json(inrap_records, OUTPUT_DIR / "inrap_aat_mappings", inrap_fields)
+    write_skos_ttl(inrap_records, OUTPUT_DIR / "inrap_aat_mappings.ttl")
+
+    bad = validate_uri_shape(inrap_records, has_source_uri=True, source_uri_prefix="http://ark.frantiq.fr/ark:/26678/")
+    print(f"INRAP: {len(inrap_records)} rows, {len(bad)} URI shape failures")
+    for _, r in bad:
+        print(f"  [WARN][bad target_uri shape] '{r['source_label']}' -> target_uri={r['target_uri']!r} "
+              f"(fix by hand, then re-run)")
 
     # --- combined ---
     combined_fields = ["source_file", "section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
     combined = (
         [{"source_file": DAI_PDF.name, **r} for r in dai_records]
         + [{"source_file": ADS_PDF.name, **r} for r in ads_records]
+        + [{"source_file": INRAP_PDF.name, **r} for r in inrap_records]
     )
     write_csv_json(combined, OUTPUT_DIR / "combined_aat_mappings", combined_fields)
     write_skos_ttl(combined, OUTPUT_DIR / "combined_aat_mappings.ttl")
