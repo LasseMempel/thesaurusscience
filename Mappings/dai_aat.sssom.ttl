@@ -1,0 +1,2722 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dai: <http://thesauri.dainst.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dai_aat.sssom.tsv> a sssom:MappingSet ;
+    dcterms:created "2019-01-29"^^xsd:date ;
+    dcterms:creator orcid:0009-0001-5183-1635 ;
+    dcterms:description "DAI-thesaurus-to-AAT concept crosswalk compiled by the German Archaeological Institute (DAI) for the ARIADNE project. Source URIs are resolved against your local DAI ttl export, not read from the PDF directly (the PDF table has no source_uri column for DAI)." ;
+    dcterms:issued "2026-09-10"^^xsd:date ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:title "DAI thesaurus → Getty AAT crosswalk (ARIADNE)" ;
+    rdfs:seeAlso <http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_DAI_AAT_Mappings.pdf> ;
+    sssom:creator_label "Lasse Mempel" ;
+    sssom:mapping_provider <https://ror.org/041qv0h25> ;
+    sssom:mapping_tool "build_aat_mappings.py (PDF table extraction + DAI ttl label resolution)" ;
+    sssom:mapping_tool_id <https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py> ;
+    sssom:mappings [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2a43d597 ;
+            owl:annotatedTarget aat:300003628 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "barbicans" ;
+            sssom:subject_label "Barbakane" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_6d543ff9 ;
+            owl:annotatedTarget aat:300130893 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "urban areas" ;
+            sssom:subject_label "urban" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_84c6ab45 ;
+            owl:annotatedTarget aat:300163741 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "prostyle" ;
+            sssom:subject_label "prostyler Tempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_a9308610 ;
+            owl:annotatedTarget aat:300006888 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fortifications" ;
+            sssom:subject_label "Verteidigungsanla ge" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2748 ;
+            owl:annotatedTarget aat:300006824 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "libraries (buildings)" ;
+            sssom:subject_label "Bibliothek" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_15d6e154 ;
+            owl:annotatedTarget aat:300019470 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Celtic (culture)" ;
+            sssom:subject_label "Kelte" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_42464cba ;
+            owl:annotatedTarget aat:300388268 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Egyptian, Coptic (language)" ;
+            sssom:subject_label "koptisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2892ea94 ;
+            owl:annotatedTarget aat:300000705 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "districts" ;
+            sssom:subject_label "Distrikt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4fec39d1 ;
+            owl:annotatedTarget aat:300004182 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "terraces (landscaped- site elements)" ;
+            sssom:subject_label "Terrasse" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2977 ;
+            owl:annotatedTarget aat:300025619 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hunters (people)" ;
+            sssom:subject_label "Jäger" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_e6533d72 ;
+            owl:annotatedTarget aat:300002485 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "defensive walls" ;
+            sssom:subject_label "Befestigungsmau er" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_82dae6eb ;
+            owl:annotatedTarget aat:300000796 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "religious districts" ;
+            sssom:subject_label "Heiligtum/Sakrale r Komplex" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2be24780 ;
+            owl:annotatedTarget aat:300008074 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "agoras" ;
+            sssom:subject_label "Forum/Agora" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_0e7a4339 ;
+            owl:annotatedTarget aat:300003219 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "ramps (circulation elements)" ;
+            sssom:subject_label "Rampe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_ba8b6d31 ;
+            owl:annotatedTarget aat:300000994 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "arches" ;
+            sssom:subject_label "dreitorig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_f842b64f ;
+            owl:annotatedTarget aat:300006278 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "brickworks (factories)" ;
+            sssom:subject_label "Tonverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_58bf0bec ;
+            owl:annotatedTarget aat:300054168 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "decorative arts" ;
+            sssom:subject_label "Darstellungen in der Flächenkunst" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_97918e93 ;
+            owl:annotatedTarget aat:300007148 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "caravanserais" ;
+            sssom:subject_label "Karawanserei" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_9279632d ;
+            owl:annotatedTarget aat:300009700 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "motifs" ;
+            sssom:subject_label "Unbelebte Motive" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_47d838ae ;
+            owl:annotatedTarget aat:300056005 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "worship" ;
+            sssom:subject_label "Adorant" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7212a798 ;
+            owl:annotatedTarget aat:300108367 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "naiskoi" ;
+            sssom:subject_label "Naiskos" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_41bac42c ;
+            owl:annotatedTarget aat:300005933 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mastabas (tombs)" ;
+            sssom:subject_label "Mastaba" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_41f91ee6 ;
+            owl:annotatedTarget aat:300006191 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "reservoirs (water distribution structures)" ;
+            sssom:subject_label "Wasserspeicher" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_75f0a189 ;
+            owl:annotatedTarget aat:300266557 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "bights (landforms)" ;
+            sssom:subject_label "Bucht" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_f384745a ;
+            owl:annotatedTarget aat:300002504 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "curtain walls (fortification elements)" ;
+            sssom:subject_label "Kurtine" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1a5f65fc ;
+            owl:annotatedTarget aat:300003627 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gate towers" ;
+            sssom:subject_label "Torturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_4846 ;
+            owl:annotatedTarget aat:300386020 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Dacian" ;
+            sssom:subject_label "Daker" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_464eeb21 ;
+            owl:annotatedTarget aat:300027349 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "series (groups)" ;
+            sssom:subject_label "Reihungsgruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_634bb902 ;
+            owl:annotatedTarget aat:300404451 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "secondary (general designation)" ;
+            sssom:subject_label "sekundär" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_32ade5dd ;
+            owl:annotatedTarget aat:300007495 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "abbey churches" ;
+            sssom:subject_label "Klosterkirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_879d2c87 ;
+            owl:annotatedTarget aat:300004857 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "clock towers (towers)" ;
+            sssom:subject_label "Uhrturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_989f0e9e ;
+            owl:annotatedTarget aat:300000402 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "quarries (extracting complexes)" ;
+            sssom:subject_label "Steinverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_e1e0e72e ;
+            owl:annotatedTarget aat:300005090 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "propylaea" ;
+            sssom:subject_label "Propylon" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_065c3696 ;
+            owl:annotatedTarget aat:300025658 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "actors (performing artists)" ;
+            sssom:subject_label "Schauspieler" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_691bba9c ;
+            owl:annotatedTarget aat:300007364 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "thermae" ;
+            sssom:subject_label "Thermen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_241b3c83 ;
+            owl:annotatedTarget aat:300003639 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "wall towers" ;
+            sssom:subject_label "Mauerturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_9f9088c2 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Hoftempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_6b605836 ;
+            owl:annotatedTarget aat:300000754 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "vici" ;
+            sssom:subject_label "cannabae" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_330d8d95 ;
+            owl:annotatedTarget aat:300258488 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gladiators" ;
+            sssom:subject_label "Gladiator" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_19456837 ;
+            owl:annotatedTarget aat:300257729 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "residential structures" ;
+            sssom:subject_label "Wohnbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b27a0f63 ;
+            owl:annotatedTarget aat:300180706 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "grave goods" ;
+            sssom:subject_label "Grabbefund / - inventar" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4b77941b ;
+            owl:annotatedTarget aat:300247581 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "girls" ;
+            sssom:subject_label "Mädchen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5c1e6cf8 ;
+            owl:annotatedTarget aat:300000994 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "arches" ;
+            sssom:subject_label "eintorig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d9147814 ;
+            owl:annotatedTarget aat:300025615 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "herdsmen" ;
+            sssom:subject_label "Hirte" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_b27a0f63 ;
+            owl:annotatedTarget aat:300005907 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "graves" ;
+            sssom:subject_label "Grabbefund / - inventar" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_5293422e ;
+            owl:annotatedTarget aat:300008733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "shores (landforms)" ;
+            sssom:subject_label "Küste" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2777 ;
+            owl:annotatedTarget aat:300007567 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mithraea" ;
+            sssom:subject_label "Mithräum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_0189f056 ;
+            owl:annotatedTarget aat:300054751 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "auctions" ;
+            sssom:subject_label "Auktion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3479 ;
+            owl:annotatedTarget aat:300008694 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "seas (bodies of water)" ;
+            sssom:subject_label "Meer" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_89eafd46 ;
+            owl:annotatedTarget aat:300389849 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "glassworks (buildings)" ;
+            sssom:subject_label "Glasverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_141f024d ;
+            owl:annotatedTarget aat:300005947 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sarcophagi (coffins)" ;
+            sssom:subject_label "Sarkophaggruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_a0bd1faa ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Leimsiederei" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_e5b1a6bb ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "fünfschiffig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_3588 ;
+            owl:annotatedTarget aat:300007117 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "theaters (buildings)" ;
+            sssom:subject_label "Theater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_41f42610 ;
+            owl:annotatedTarget aat:300343851 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gods (dieties)" ;
+            sssom:subject_label "Götter" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_8a370786 ;
+            owl:annotatedTarget aat:300006306 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sawmills (factories)" ;
+            sssom:subject_label "Holzverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_a07e625f ;
+            owl:annotatedTarget aat:300006958 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "monuments" ;
+            sssom:subject_label "Exedramonument" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b86f4b17 ;
+            owl:annotatedTarget aat:300391495 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "tumuli" ;
+            sssom:subject_label "Tumulus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2828ca6c ;
+            owl:annotatedTarget aat:300028711 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "cuneiform" ;
+            sssom:subject_label "Keilschrift" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_0ebbb198 ;
+            owl:annotatedTarget aat:300028721 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hieroglyphics" ;
+            sssom:subject_label "hieroglyphisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2742 ;
+            owl:annotatedTarget aat:300006165 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "aqueducts" ;
+            sssom:subject_label "Aquädukt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5bfa9a82 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "amphiprostyler Tempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2917 ;
+            owl:annotatedTarget aat:300001659 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Attic bases" ;
+            sssom:subject_label "Basen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_344ef1a0 ;
+            owl:annotatedTarget aat:300132448 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "suburban landscapes" ;
+            sssom:subject_label "suburban" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_84b4f73a ;
+            owl:annotatedTarget aat:300005934 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "megalithic chamber tombs" ;
+            sssom:subject_label "Megalithbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_d0339afd ;
+            owl:annotatedTarget aat:300169784 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "metalworking plants" ;
+            sssom:subject_label "Metallverarbeitun g" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_01ef0a90 ;
+            owl:annotatedTarget aat:300024979 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "people (agents)" ;
+            sssom:subject_label "Freigelassener" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_a9e1dd32 ;
+            owl:annotatedTarget aat:300264349 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "quadrifrontal arches" ;
+            sssom:subject_label "Tetrapylon/Quadr ifrons" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_51b56937 ;
+            owl:annotatedTarget aat:300256135 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Cyrillic" ;
+            sssom:subject_label "kyrillisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_21628231 ;
+            owl:annotatedTarget aat:300239170 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "<equipment by context>" ;
+            sssom:subject_label "Gerätegruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6a1cb7f0 ;
+            owl:annotatedTarget aat:300008777 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hills (landforms)" ;
+            sssom:subject_label "Bergügel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_8c4f2ca0 ;
+            owl:annotatedTarget aat:300375725 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mythical or legendary beings" ;
+            sssom:subject_label "Kleine Gottheiten / Mythische Wesen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3882 ;
+            owl:annotatedTarget aat:300388693 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Latin (language)" ;
+            sssom:subject_label "lateinisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_989f0e9e ;
+            owl:annotatedTarget aat:300386948 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "stonemasonry" ;
+            sssom:subject_label "Steinverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_fa014013 ;
+            owl:annotatedTarget aat:300007466 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "churches (buildings)" ;
+            sssom:subject_label "Dorfkirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_ff35ef13 ;
+            owl:annotatedTarget aat:300000885 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "architectural elements" ;
+            sssom:subject_label "zufällig getrenntes antikes Bauteil" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_0492ee07 ;
+            owl:annotatedTarget aat:300079436 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "donations" ;
+            sssom:subject_label "Schenkung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_9bfefddc ;
+            owl:annotatedTarget aat:300025480 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "emperors" ;
+            sssom:subject_label "Kaisergattin" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_4287 ;
+            owl:annotatedTarget aat:300019967 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Parthian" ;
+            sssom:subject_label "Parther" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_5a4fa5a0 ;
+            owl:annotatedTarget aat:300007613 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mortuary temples" ;
+            sssom:subject_label "Grabtempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_aa14d1ae ;
+            owl:annotatedTarget aat:300006302 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "tanneries" ;
+            sssom:subject_label "Leder- /Pelzverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d2c772a0 ;
+            owl:annotatedTarget aat:300024979 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "people (agents)" ;
+            sssom:subject_label "Menschen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2753 ;
+            owl:annotatedTarget aat:300007255 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "circuses (Roman arenas)" ;
+            sssom:subject_label "Circus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_a23faca5 ;
+            owl:annotatedTarget aat:300263527 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "figure-derived form attributes" ;
+            sssom:subject_label "Statue(n) mit Attribut(en)" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_cbc68254 ;
+            owl:annotatedTarget aat:300026877 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "correspondence" ;
+            sssom:subject_label "Korrespondenz" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_bc5e62c4 ;
+            owl:annotatedTarget aat:300015690 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Ancient African" ;
+            sssom:subject_label "Negride" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_89a1fc71 ;
+            owl:annotatedTarget aat:300072553 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "building divisions" ;
+            sssom:subject_label "integriertes Gebäude" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2778 ;
+            owl:annotatedTarget aat:300005734 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "palaces" ;
+            sssom:subject_label "Palast" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b24e1e12 ;
+            owl:annotatedTarget aat:300127097 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "prytaneia" ;
+            sssom:subject_label "Prytaneion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2751 ;
+            owl:annotatedTarget aat:300007836 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "bridges (built works)" ;
+            sssom:subject_label "Brücke" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6557b6ca ;
+            owl:annotatedTarget aat:300000774 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "provinces" ;
+            sssom:subject_label "Provinz" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_fa805797 ;
+            owl:annotatedTarget aat:300002508 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "terrepleins" ;
+            sssom:subject_label "Wehrgang" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2796 ;
+            owl:annotatedTarget aat:300007590 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "synagogues (buildings)" ;
+            sssom:subject_label "Synagoge" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_dee10600 ;
+            owl:annotatedTarget aat:300008626 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "landscapes (environments)" ;
+            sssom:subject_label "Landschaft" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6f5fdc0e ;
+            owl:annotatedTarget aat:300000370 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "columbaria (cemeteries)" ;
+            sssom:subject_label "Columbarium" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_691bba9c ;
+            owl:annotatedTarget aat:300007364 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "thermae" ;
+            sssom:subject_label "Thermen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_f1d12674 ;
+            owl:annotatedTarget aat:300005241 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "macella" ;
+            sssom:subject_label "Macellum / Markt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_402de9d0 ;
+            owl:annotatedTarget aat:300108008 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "embassies" ;
+            sssom:subject_label "Botschaft" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2747 ;
+            owl:annotatedTarget aat:300006888 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fortifications" ;
+            sssom:subject_label "Befestigung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2765 ;
+            owl:annotatedTarget aat:300004575 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sanctuaries (religious building spaces)" ;
+            sssom:subject_label "Heiligtum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b0039022 ;
+            owl:annotatedTarget aat:300000476 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "military camps" ;
+            sssom:subject_label "Militärlager" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_69b8b7c7 ;
+            owl:annotatedTarget aat:300008746 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "caves (landforms)" ;
+            sssom:subject_label "Grotte/Höhle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5f4977a1 ;
+            owl:annotatedTarget aat:300117125 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "antiques (object genre)" ;
+            sssom:subject_label "entrestaurierte antike Statue" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2811 ;
+            owl:annotatedTarget aat:300007128 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "amphitheaters (built works)" ;
+            sssom:subject_label "Amphitheater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_247c7d26 ;
+            owl:annotatedTarget aat:300007126 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "open-air theaters" ;
+            sssom:subject_label "griechisches Theater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_88c84eba ;
+            owl:annotatedTarget aat:300234110 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "archaeological objects" ;
+            sssom:subject_label "Fundgruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_457fac51 ;
+            owl:annotatedTarget aat:300000238 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "manors (agricultural complexes)" ;
+            sssom:subject_label "Villa/Landgut" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_16e8066f ;
+            owl:annotatedTarget aat:300135991 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peripteral" ;
+            sssom:subject_label "Pseudo- Peripteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_5 ;
+            owl:annotatedTarget aat:300386698 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "miscellaneous" ;
+            sssom:subject_label "Sonstiges" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_f6674384 ;
+            owl:annotatedTarget aat:300122241 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "equipment" ;
+            sssom:subject_label "private Ausstattung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1483b8da ;
+            owl:annotatedTarget aat:300054141 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "film (performing arts)" ;
+            sssom:subject_label "Film" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2778 ;
+            owl:annotatedTarget aat:300005734 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "palaces" ;
+            sssom:subject_label "Palast" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_30178e37 ;
+            owl:annotatedTarget aat:300005768 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "museums (buildings)" ;
+            sssom:subject_label "Museum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_d289d1a9 ;
+            owl:annotatedTarget aat:300079201 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "confiscating" ;
+            sssom:subject_label "Konfiszierung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d6486501 ;
+            owl:annotatedTarget aat:300000325 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "insulae" ;
+            sssom:subject_label "Insula" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_2917 ;
+            owl:annotatedTarget aat:300001650 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "column components" ;
+            sssom:subject_label "Basen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_a0f55911 ;
+            owl:annotatedTarget aat:300378926 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "topical collections" ;
+            sssom:subject_label "Materialsammlung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_e63ae8fe ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "dreischiffig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4962c921 ;
+            owl:annotatedTarget aat:300185678 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "soldiers" ;
+            sssom:subject_label "Krieger / Soldat" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_48a53f10 ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "einschiffig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_d7921edb ;
+            owl:annotatedTarget aat:300007493 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "pilgrimage churches (buildings)" ;
+            sssom:subject_label "Pilgerstation" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_bad70e93 ;
+            owl:annotatedTarget aat:300025569 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "philosophers" ;
+            sssom:subject_label "Philosoph" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_a23faca5 ;
+            owl:annotatedTarget aat:300047600 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "statues" ;
+            sssom:subject_label "Statue(n) mit Attribut(en)" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac ;
+            owl:annotatedTarget aat:300386154 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "unidentified" ;
+            sssom:subject_label "unbekannt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_77e0a34d ;
+            owl:annotatedTarget aat:300265624 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rostra" ;
+            sssom:subject_label "Rostra" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_243de556 ;
+            owl:annotatedTarget aat:300019526 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Scythian" ;
+            sssom:subject_label "Skythe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_238f5774 ;
+            owl:annotatedTarget aat:300387343 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "borders (boundaries)" ;
+            sssom:subject_label "Grenze/Linie" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_485b993c ;
+            owl:annotatedTarget aat:300120810 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "passage graves" ;
+            sssom:subject_label "Ganggrab" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2760 ;
+            owl:annotatedTarget aat:300122208 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "funerary structures" ;
+            sssom:subject_label "Grabbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_9bfefddc ;
+            owl:annotatedTarget aat:300154343 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "wives" ;
+            sssom:subject_label "Kaisergattin" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2676 ;
+            owl:annotatedTarget aat:300014127 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "papyrus (fiber product)" ;
+            sssom:subject_label "Papyrus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_16e8066f ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Pseudo- Peripteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_b80f2cd5 ;
+            owl:annotatedTarget aat:300006998 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "cromlechs" ;
+            sssom:subject_label "Kromlech" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_c2502528 ;
+            owl:annotatedTarget aat:300236112 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "regions (administrative divisions)" ;
+            sssom:subject_label "Region" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_be166ea8 ;
+            owl:annotatedTarget aat:300000641 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "monasteries (built complexes)" ;
+            sssom:subject_label "Kloster" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_94da35d2 ;
+            owl:annotatedTarget aat:300135990 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "dipteral" ;
+            sssom:subject_label "Pseudo-Dipteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_989f0e9e ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Steinverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_518d6936 ;
+            owl:annotatedTarget aat:300025480 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "emperors" ;
+            sssom:subject_label "Kaiserfamilie" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2769 ;
+            owl:annotatedTarget aat:300007466 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "churches (buildings)" ;
+            sssom:subject_label "Kirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d56a209b ;
+            owl:annotatedTarget aat:300000762 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "quarters (districts)" ;
+            sssom:subject_label "Stadtviertel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_ff8fb536 ;
+            owl:annotatedTarget aat:300027349 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "series (groups)" ;
+            sssom:subject_label "Sammelaufnahme" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5f4977a1 ;
+            owl:annotatedTarget aat:300053742 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "restoration (process)" ;
+            sssom:subject_label "entrestaurierte antike Statue" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_044988ef ;
+            owl:annotatedTarget aat:300004842 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rotundas (buildings)" ;
+            sssom:subject_label "Rundbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_60efc5d6 ;
+            owl:annotatedTarget aat:300006888 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fortifications" ;
+            sssom:subject_label "Befestigungsbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_1386 ;
+            owl:annotatedTarget aat:300014110 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "<paper by composition or origin>" ;
+            sssom:subject_label "Papier" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_67842c9a ;
+            owl:annotatedTarget aat:300006063 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "town halls" ;
+            sssom:subject_label "Rathaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_6d70d873 ;
+            owl:annotatedTarget aat:300219527 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "natural" ;
+            sssom:subject_label "natürlich" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_ea1b1ae1 ;
+            owl:annotatedTarget aat:300008697 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "springs (bodies of water)" ;
+            sssom:subject_label "Quelle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3873 ;
+            owl:annotatedTarget aat:300262964 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Punic (Carthaginian, culture or style)" ;
+            sssom:subject_label "punisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_c809765f ;
+            owl:annotatedTarget aat:300025913 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "elderly" ;
+            sssom:subject_label "Greisin" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2997 ;
+            owl:annotatedTarget aat:300380118 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "charioteers" ;
+            sssom:subject_label "Wagenlenker" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_6969a8c7 ;
+            owl:annotatedTarget aat:300006231 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "industrial buildings" ;
+            sssom:subject_label "Fabrikgebäude" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_0f873f3f ;
+            owl:annotatedTarget aat:300005144 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "stoas" ;
+            sssom:subject_label "Säulenhalle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_8e0c0f80 ;
+            owl:annotatedTarget aat:300004590 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "chapels (rooms or structures)" ;
+            sssom:subject_label "Kapelle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7d53da3b ;
+            owl:annotatedTarget aat:300019933 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Persian (culture)" ;
+            sssom:subject_label "persisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_7c6d9f45 ;
+            owl:annotatedTarget aat:300255747 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "limeworks" ;
+            sssom:subject_label "Kalkbrennerei" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_59dd53fc ;
+            owl:annotatedTarget aat:300189559 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "male" ;
+            sssom:subject_label "Mann" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9f8dae16 ;
+            owl:annotatedTarget aat:300008884 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "grove" ;
+            sssom:subject_label "Garten/Hain" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_60113156 ;
+            owl:annotatedTarget aat:300007741 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "lighthouses" ;
+            sssom:subject_label "Leuchtturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2c39be78 ;
+            owl:annotatedTarget aat:300008791 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "islands (landforms)" ;
+            sssom:subject_label "Insel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac ;
+            owl:annotatedTarget aat:300386154 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "unidentified" ;
+            sssom:subject_label "unbekannt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_b09b4ff3 ;
+            owl:annotatedTarget aat:300045490 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "granges (farms)" ;
+            sssom:subject_label "Hof/Geöft" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2771 ;
+            owl:annotatedTarget aat:300006676 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hospitals (buildings for health facility)" ;
+            sssom:subject_label "Krankenhaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_3d134df3 ;
+            owl:annotatedTarget aat:300055484 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "aristocracy" ;
+            sssom:subject_label "aristokratisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2806 ;
+            owl:annotatedTarget aat:300052558 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "cisterns (plumbing components)" ;
+            sssom:subject_label "Zisterne" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_427d7bf1 ;
+            owl:annotatedTarget aat:300008389 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "cities" ;
+            sssom:subject_label "Stadt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b3b6ee12 ;
+            owl:annotatedTarget aat:300005452 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peristyle houses" ;
+            sssom:subject_label "Peristylhaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3fda85f8 ;
+            owl:annotatedTarget aat:300236210 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "military officers" ;
+            sssom:subject_label "Militäroffizier" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3881 ;
+            owl:annotatedTarget aat:300389734 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Greek (language)" ;
+            sssom:subject_label "griechisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac ;
+            owl:annotatedTarget aat:300404264 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "attribution qualifiers" ;
+            sssom:subject_label "unbekannt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9bcb8115 ;
+            owl:annotatedTarget aat:300120504 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "horrea" ;
+            sssom:subject_label "Horreum / Magazingebäude" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2769 ;
+            owl:annotatedTarget aat:300007466 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "churches (buildings)" ;
+            sssom:subject_label "Kirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_01b8468c ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Werkstatt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_0c5b348e ;
+            owl:annotatedTarget aat:300386272 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "burghers" ;
+            sssom:subject_label "bürgerlich" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_94577d2c ;
+            owl:annotatedTarget aat:300005881 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sepulchral buildings" ;
+            sssom:subject_label "Mehrstöckiger Aediculabau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_db21f67e ;
+            owl:annotatedTarget aat:300266558 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sounds (bodies of water)" ;
+            sssom:subject_label "Meerenge" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_e81afbd6 ;
+            owl:annotatedTarget aat:300008795 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mountains (landforms)" ;
+            sssom:subject_label "Gebirge" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_17efda54 ;
+            owl:annotatedTarget aat:300053087 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "destruction (process)" ;
+            sssom:subject_label "Zerstörung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_ea233f0f ;
+            owl:annotatedTarget aat:300025513 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "poets" ;
+            sssom:subject_label "Dichter / Denker" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_2684 ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Wachs" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3447 ;
+            owl:annotatedTarget aat:300006207 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "wells (structures)" ;
+            sssom:subject_label "Brunnen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_5a3fbdb3 ;
+            owl:annotatedTarget aat:300007899 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "tunnels" ;
+            sssom:subject_label "Tunnel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3027 ;
+            owl:annotatedTarget aat:300025608 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fishermen (people)" ;
+            sssom:subject_label "Fischer" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_582686c3 ;
+            owl:annotatedTarget aat:300025467 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "magistrates" ;
+            sssom:subject_label "Amtsträger / Magistrat" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_1ddd6d26 ;
+            owl:annotatedTarget aat:300007820 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "toll-collection structures" ;
+            sssom:subject_label "Zollgebäude" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_53ba880b ;
+            owl:annotatedTarget aat:300007271 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "stadiums" ;
+            sssom:subject_label "Stadion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_394cea56 ;
+            owl:annotatedTarget aat:300230899 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "slaves (people)" ;
+            sssom:subject_label "Diener / Sklave" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4e0f83c7 ;
+            owl:annotatedTarget aat:300002574 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "aedicules" ;
+            sssom:subject_label "Aedicula" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_5b9f2871 ;
+            owl:annotatedTarget aat:300000700 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "acropolises" ;
+            sssom:subject_label "Akropolis" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_303aea25 ;
+            owl:annotatedTarget aat:300254935 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Armenian (ancient culture or style)" ;
+            sssom:subject_label "armenisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4f6f0dd3 ;
+            owl:annotatedTarget aat:300219050 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "runes" ;
+            sssom:subject_label "Runen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1217b9c5 ;
+            owl:annotatedTarget aat:300008761 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "valleys (landforms)" ;
+            sssom:subject_label "Tal" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_b668b3ed ;
+            owl:annotatedTarget aat:300135991 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peripteral" ;
+            sssom:subject_label "Peripteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_dddfb42c ;
+            owl:annotatedTarget aat:300054638 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "documentation (activity)" ;
+            sssom:subject_label "Grabungsdokumentati on" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_30178e37 ;
+            owl:annotatedTarget aat:300312281 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "museums (institutions)" ;
+            sssom:subject_label "Museum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_a46e0d7c ;
+            owl:annotatedTarget aat:300006321 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "textile mills" ;
+            sssom:subject_label "Textilverarbeitun g" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_518d6936 ;
+            owl:annotatedTarget aat:300055474 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "families" ;
+            sssom:subject_label "Kaiserfamilie" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_f39c4219 ;
+            owl:annotatedTarget aat:300247598 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "boys" ;
+            sssom:subject_label "Junge" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_25141e84 ;
+            owl:annotatedTarget aat:300000402 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "quarries (extracting complexes)" ;
+            sssom:subject_label "Steinbruch/Bergwerk" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_89ac9dc8 ;
+            owl:annotatedTarget aat:300019933 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Persian (culture)" ;
+            sssom:subject_label "Perser" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_24f7e426 ;
+            owl:annotatedTarget aat:300004847 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "towers (single built works)" ;
+            sssom:subject_label "Turmgehöft" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_01f3c708 ;
+            owl:annotatedTarget aat:300006027 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "curiae" ;
+            sssom:subject_label "Curia" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_746b1bed ;
+            owl:annotatedTarget aat:300164121 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "processing plants" ;
+            sssom:subject_label "Nahrungsverarbei tung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_d563592b ;
+            owl:annotatedTarget aat:300400517 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "space (natural or built world)" ;
+            sssom:subject_label "privater Raum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_b668b3ed ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Peripteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_08f1839e ;
+            owl:annotatedTarget aat:300005888 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "heroa" ;
+            sssom:subject_label "Heroon" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6ebede2f ;
+            owl:annotatedTarget aat:300007297 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gymnasiums" ;
+            sssom:subject_label "Gymnasium" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7647de4d ;
+            owl:annotatedTarget aat:300393213 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "foundation (action or condition)" ;
+            sssom:subject_label "Stiftung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_c0564df8 ;
+            owl:annotatedTarget aat:300404264 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "attribution qualifiers" ;
+            sssom:subject_label "unsicher" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_a82814b1 ;
+            owl:annotatedTarget aat:300069272 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "consecrations" ;
+            sssom:subject_label "Weihung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_41a4249c ;
+            owl:annotatedTarget aat:300312158 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "ritual objects" ;
+            sssom:subject_label "Kultbild" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_f096fdb3 ;
+            owl:annotatedTarget aat:300168457 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "people in religion" ;
+            sssom:subject_label "Opferdiener" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2be24780 ;
+            owl:annotatedTarget aat:300008085 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "forums (open spaces)" ;
+            sssom:subject_label "Forum/Agora" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b971daa6 ;
+            owl:annotatedTarget aat:300127075 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "odea" ;
+            sssom:subject_label "Odeion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2811 ;
+            owl:annotatedTarget aat:300007128 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "amphitheaters (built works)" ;
+            sssom:subject_label "Amphitheater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1af93ea0 ;
+            owl:annotatedTarget aat:300005147 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "commercial buildings" ;
+            sssom:subject_label "Geschäshaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3868 ;
+            owl:annotatedTarget aat:300019700 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Lycian" ;
+            sssom:subject_label "lykisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_fcd79027 ;
+            owl:annotatedTarget aat:300008591 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "railroads (infrastructure)" ;
+            sssom:subject_label "Bahnstrecke" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2804 ;
+            owl:annotatedTarget aat:300005517 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "villas" ;
+            sssom:subject_label "Villa" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_28f8614b ;
+            owl:annotatedTarget aat:300047170 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "herms" ;
+            sssom:subject_label "Doppelherme" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_befe9436 ;
+            owl:annotatedTarget aat:300011845 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "leather" ;
+            sssom:subject_label "Leder" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5f4977a1 ;
+            owl:annotatedTarget aat:300047600 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "statues" ;
+            sssom:subject_label "entrestaurierte antike Statue" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_169f7db3 ;
+            owl:annotatedTarget aat:300206213 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "demotic" ;
+            sssom:subject_label "demotisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_84c6ab45 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "prostyler Tempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_3580 ;
+            owl:annotatedTarget aat:300132360 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Plantae (kingdom)" ;
+            sssom:subject_label "Pflanzen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_bea379f7 ;
+            owl:annotatedTarget aat:300391172 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "grave altars" ;
+            sssom:subject_label "Grabaltar" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7f18ce65 ;
+            owl:annotatedTarget aat:300006809 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "nymphaea (garden structures)" ;
+            sssom:subject_label "Nymphäum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b48b5c16 ;
+            owl:annotatedTarget aat:300236762 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "generals" ;
+            sssom:subject_label "Feldherr" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3588 ;
+            owl:annotatedTarget aat:300007117 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "theaters (buildings)" ;
+            sssom:subject_label "Theater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_84b4f73a ;
+            owl:annotatedTarget aat:300006983 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "megalithic monuments" ;
+            sssom:subject_label "Megalithbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6c0bae56 ;
+            owl:annotatedTarget aat:300263485 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "burials" ;
+            sssom:subject_label "Grab" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_ba4cc9e2 ;
+            owl:annotatedTarget aat:300390592 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "excavators" ;
+            sssom:subject_label "Grabungsleiter" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2774 ;
+            owl:annotatedTarget aat:300007951 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "latrines" ;
+            sssom:subject_label "Latrine" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4d76417e ;
+            owl:annotatedTarget aat:300007002 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "memorial arches" ;
+            sssom:subject_label "Bogen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1c1a75dd ;
+            owl:annotatedTarget aat:300120624 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rock-cut tombs" ;
+            sssom:subject_label "Felsgrab" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_58a1cbaf ;
+            owl:annotatedTarget aat:300006495 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "schools (buildings)" ;
+            sssom:subject_label "Schule" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_8a370786 ;
+            owl:annotatedTarget aat:300006304 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "planing mills" ;
+            sssom:subject_label "Holzverarbeitung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_801610c0 ;
+            owl:annotatedTarget aat:300262491 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "commemorative sculpture" ;
+            sssom:subject_label "kommemoratives Monument" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_67406207 ;
+            owl:annotatedTarget aat:300312279 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "depots (storage)" ;
+            sssom:subject_label "Grabungshaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_5a8adc40 ;
+            owl:annotatedTarget aat:300000742 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "residential districts" ;
+            sssom:subject_label "Wohnviertel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_30dbf98d ;
+            owl:annotatedTarget aat:300047180 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "outdoor sculpture" ;
+            sssom:subject_label "freiplastische Gruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_37df3a8b ;
+            owl:annotatedTarget aat:300020533 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Roman (ancient Italian culture or period)" ;
+            sssom:subject_label "Römer" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1ffb45c5 ;
+            owl:annotatedTarget aat:300021614 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Ottoman (style)" ;
+            sssom:subject_label "osmanisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_ed86ff70 ;
+            owl:annotatedTarget aat:300229355 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rural areas" ;
+            sssom:subject_label "ländlich" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_61fc01bc ;
+            owl:annotatedTarget aat:300020471 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Etruscan (culture or style)" ;
+            sssom:subject_label "etruskisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_150ca422 ;
+            owl:annotatedTarget aat:300025654 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "directors (performing arts)" ;
+            sssom:subject_label "Regisseur" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_a48496de ;
+            owl:annotatedTarget aat:300025481 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "kings (people)" ;
+            sssom:subject_label "König / Pharao" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9ad3989f ;
+            owl:annotatedTarget aat:300025492 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "authors" ;
+            sssom:subject_label "Autor" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7f2e8caa ;
+            owl:annotatedTarget aat:300006075 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "canals (waterways)" ;
+            sssom:subject_label "Kanal" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_f4d61358 ;
+            owl:annotatedTarget aat:300015644 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "originals (objects)" ;
+            sssom:subject_label "Original" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_bb043f29 ;
+            owl:annotatedTarget aat:300004847 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "towers (single built works)" ;
+            sssom:subject_label "Turm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3ec13368 ;
+            owl:annotatedTarget aat:300263422 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "public spaces" ;
+            sssom:subject_label "Öffentlicher Platz" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_a48496de ;
+            owl:annotatedTarget aat:300150507 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "pharaohs" ;
+            sssom:subject_label "König / Pharao" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_d89cd8a1 ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Parfümproduktio n" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac ;
+            owl:annotatedTarget aat:300404267 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "<qualifiers for unknown creators not working directly with a known creator>" ;
+            sssom:subject_label "unbekannt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_57256287 ;
+            owl:annotatedTarget aat:300020072 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Ancient Greek (culture or style)" ;
+            sssom:subject_label "Grieche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_c4c74360 ;
+            owl:annotatedTarget aat:300019652 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Hittite (culture or style)" ;
+            sssom:subject_label "hethitisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_ebae8db5 ;
+            owl:annotatedTarget aat:300006165 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "aqueducts" ;
+            sssom:subject_label "Aquaedukt/Wasserle itung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2739 ;
+            owl:annotatedTarget aat:300003725 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "altars" ;
+            sssom:subject_label "Altar" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3f0b446f ;
+            owl:annotatedTarget aat:300236025 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "athletes" ;
+            sssom:subject_label "Athlet / Sportler" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_1367 ;
+            owl:annotatedTarget aat:300006423 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mine structures" ;
+            sssom:subject_label "Bergbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_771507bc ;
+            owl:annotatedTarget aat:300008214 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "plazas (squares)" ;
+            sssom:subject_label "Platz" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_2954_cf0633ec60c9cb1ff199a52e7795d97b ;
+            owl:annotatedTarget aat:300024979 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "people (agents)" ;
+            sssom:subject_label "Barbar" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_32ade5dd ;
+            owl:annotatedTarget aat:300007519 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "monastic churches (buildings)" ;
+            sssom:subject_label "Klosterkirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_94da35d2 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Pseudo-Dipteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_32a94cf8 ;
+            owl:annotatedTarget aat:300007783 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "railroad stations" ;
+            sssom:subject_label "Bahnhof" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_5b9f2871 ;
+            owl:annotatedTarget aat:300000700 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "acropolises" ;
+            sssom:subject_label "Akropolis" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_febd67e4 ;
+            owl:annotatedTarget aat:300230852 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peasants" ;
+            sssom:subject_label "Bauer" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_e0b78ecd ;
+            owl:annotatedTarget aat:300007126 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "open-air theaters" ;
+            sssom:subject_label "römisches Theater" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_e724ef65 ;
+            owl:annotatedTarget aat:300006962 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "boundary stones" ;
+            sssom:subject_label "Grenzmal" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2784 ;
+            owl:annotatedTarget aat:300004838 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "pyramids (tombs or platforms)" ;
+            sssom:subject_label "Pyramide" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_62543af3 ;
+            owl:annotatedTarget aat:300005934 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "megalithic chamber tombs" ;
+            sssom:subject_label "Dolmen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_892d500f ;
+            owl:annotatedTarget aat:300224592 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "man-made" ;
+            sssom:subject_label "anthropogen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_84059290 ;
+            owl:annotatedTarget aat:300006270 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "water mills" ;
+            sssom:subject_label "Mühle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_85e43cae ;
+            owl:annotatedTarget aat:300224200 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "codices" ;
+            sssom:subject_label "Codex" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_ff35ef13 ;
+            owl:annotatedTarget aat:300131111 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "detached (positional attribute)" ;
+            sssom:subject_label "zufällig getrenntes antikes Bauteil" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_c32d5a5b ;
+            owl:annotatedTarget aat:300000754 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "vici" ;
+            sssom:subject_label "vicus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_202750bd ;
+            owl:annotatedTarget aat:300008488 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "<settlements by condition>" ;
+            sssom:subject_label "Siedlung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d45e2317 ;
+            owl:annotatedTarget aat:300195474 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hoards (groupings)" ;
+            sssom:subject_label "Hort / Depot" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_882d9db7 ;
+            owl:annotatedTarget aat:300400628 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fanums" ;
+            sssom:subject_label "Umgangstempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_5c1d6a07 ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Gefäßflicker" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_266c3def ;
+            owl:annotatedTarget aat:300004790 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "single built works (built environment)" ;
+            sssom:subject_label "eigenständiges Gebäude" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_c84577be ;
+            owl:annotatedTarget aat:300047600 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "statues" ;
+            sssom:subject_label "zufällig getrennte antike Statue" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_df2452de ;
+            owl:annotatedTarget aat:300005147 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "commercial buildings" ;
+            sssom:subject_label "Taberne" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9663e946 ;
+            owl:annotatedTarget aat:300387857 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Aramaic (language)" ;
+            sssom:subject_label "aramäisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_b796f042 ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Köhlerei" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_54363cb0 ;
+            owl:annotatedTarget aat:300015642 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "replicas" ;
+            sssom:subject_label "Kopie" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_f483df78 ;
+            owl:annotatedTarget aat:300265624 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rostra" ;
+            sssom:subject_label "Rednertribüne" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2765 ;
+            owl:annotatedTarget aat:300004575 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sanctuaries (religious building spaces)" ;
+            sssom:subject_label "Heiligtum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_53c052d3 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Dipteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_a4c7b41e ;
+            owl:annotatedTarget aat:300000994 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "arches" ;
+            sssom:subject_label "zweitorig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_77a609fb ;
+            owl:annotatedTarget aat:300025774 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "priests" ;
+            sssom:subject_label "Priester" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_c38aa55f ;
+            owl:annotatedTarget aat:300054751 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "auctions" ;
+            sssom:subject_label "Versteigerung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_950aa627 ;
+            owl:annotatedTarget aat:300005451 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "atrium houses" ;
+            sssom:subject_label "Atriumhaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_18fc3bb5 ;
+            owl:annotatedTarget aat:300404073 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "pastiche copies" ;
+            sssom:subject_label "Kopie(n)/Umbildung( en)" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2746 ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "Basilika" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2901 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Tempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_48bb570d ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Doppelantentem pel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_b9994efb ;
+            owl:annotatedTarget aat:300007166 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hotels (public accommodations)" ;
+            sssom:subject_label "Hotel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_90f11ef0 ;
+            owl:annotatedTarget aat:300000372 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "necropolises" ;
+            sssom:subject_label "Nekropole/Grab" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_84059290 ;
+            owl:annotatedTarget aat:300006273 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "windmills" ;
+            sssom:subject_label "Mühle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_aba19def ;
+            owl:annotatedTarget aat:300000994 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "arches" ;
+            sssom:subject_label "mehrtorig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4a1e0431 ;
+            owl:annotatedTarget aat:300236801 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "heroes" ;
+            sssom:subject_label "Heroen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_71dff4f7 ;
+            owl:annotatedTarget aat:300005939 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gallery graves" ;
+            sssom:subject_label "Allée couvert" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_330b6e2e ;
+            owl:annotatedTarget aat:300006015 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "bouleuteria" ;
+            sssom:subject_label "Bouleuterion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_65e85901 ;
+            owl:annotatedTarget aat:300008804 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peninsulas (landforms)" ;
+            sssom:subject_label "Halbinsel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_54354aea ;
+            owl:annotatedTarget aat:300206211 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hieratic" ;
+            sssom:subject_label "hieratisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_3626 ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Pech" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_3637 ;
+            owl:annotatedTarget aat:300249395 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Animalia (kingdom)" ;
+            sssom:subject_label "Tiere" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_c84577be ;
+            owl:annotatedTarget aat:300131111 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "detached (positional attribute)" ;
+            sssom:subject_label "zufällig getrennte antike Statue" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_203b2f61 ;
+            owl:annotatedTarget aat:300135991 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "peripteral" ;
+            sssom:subject_label "Peripteros sine postico" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_2dcbad4a ;
+            owl:annotatedTarget aat:300400898 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sculpture groups" ;
+            sssom:subject_label "Bauplastische Gruppe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2746 ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "Basilika" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_eac58268 ;
+            owl:annotatedTarget aat:300122241 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "equipment" ;
+            sssom:subject_label "öffentliche Ausstattung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_22f17d06 ;
+            owl:annotatedTarget aat:300069084 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "events (activities)" ;
+            sssom:subject_label "Vererbung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_56cad583 ;
+            owl:annotatedTarget aat:300069089 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sales events" ;
+            sssom:subject_label "Verkauf" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_9c923970 ;
+            owl:annotatedTarget aat:300000739 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "industrial districts" ;
+            sssom:subject_label "Technische Bauten" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_89a8fc29 ;
+            owl:annotatedTarget aat:300006958 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "monuments" ;
+            sssom:subject_label "Denkmal" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_efbeb559 ;
+            owl:annotatedTarget aat:300008680 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "lakes (bodies of water)" ;
+            sssom:subject_label "See" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_2782 ;
+            owl:annotatedTarget aat:300006887 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "military buildings" ;
+            sssom:subject_label "Principia" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_6583d13d ;
+            owl:annotatedTarget aat:300019715 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Phrygian" ;
+            sssom:subject_label "Phryger" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_fa871da9 ;
+            owl:annotatedTarget aat:300026361 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "chronicles" ;
+            sssom:subject_label "Aufzeichnung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_868b108a ;
+            owl:annotatedTarget aat:300007466 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "churches (buildings)" ;
+            sssom:subject_label "Stadtkirche" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6a32477b ;
+            owl:annotatedTarget aat:300193868 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Turkish (culture or style)" ;
+            sssom:subject_label "türkisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_391 ;
+            owl:annotatedTarget aat:300007544 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mosques (buildings)" ;
+            sssom:subject_label "Moschee" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_7daaeda6 ;
+            owl:annotatedTarget aat:300007544 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mosques (buildings)" ;
+            sssom:subject_label "Moscheekomplex" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4962c921 ;
+            owl:annotatedTarget aat:300261945 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "warriors" ;
+            sssom:subject_label "Krieger / Soldat" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2ea5294b ;
+            owl:annotatedTarget aat:300000372 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "necropolises" ;
+            sssom:subject_label "Nekropole" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3017 ;
+            owl:annotatedTarget aat:300188602 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "equestrians" ;
+            sssom:subject_label "Reiter" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_129015a9 ;
+            owl:annotatedTarget aat:300404450 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "primary (general designation)" ;
+            sssom:subject_label "primär" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2d40b40a ;
+            owl:annotatedTarget aat:300254248 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "parks" ;
+            sssom:subject_label "Park" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_677268f5 ;
+            owl:annotatedTarget aat:300008247 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "streets" ;
+            sssom:subject_label "Straße" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_044988ef ;
+            owl:annotatedTarget aat:300005881 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "sepulchral buildings" ;
+            sssom:subject_label "Rundbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_de742fda ;
+            owl:annotatedTarget aat:300007733 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "workshop buildings" ;
+            sssom:subject_label "Teer" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_99d8c615 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Antentempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_e1e5f52e ;
+            owl:annotatedTarget aat:300005891 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "mausoleums" ;
+            sssom:subject_label "Türbe" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_53ba880b ;
+            owl:annotatedTarget aat:300007271 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "stadium" ;
+            sssom:subject_label "Stadion" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_6d2a5c23 ;
+            owl:annotatedTarget aat:300305463 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "honors" ;
+            sssom:subject_label "Ehrung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d914ec36 ;
+            owl:annotatedTarget aat:300005621 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gatehouses" ;
+            sssom:subject_label "Torbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_36c788fd ;
+            owl:annotatedTarget aat:300049945 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "pastiches (objects)" ;
+            sssom:subject_label "Modernes Pasticcio" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9779f311 ;
+            owl:annotatedTarget aat:300006156 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "levees" ;
+            sssom:subject_label "Damm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_cd750998 ;
+            owl:annotatedTarget aat:300379855 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Gallic" ;
+            sssom:subject_label "Gallier" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2ea5294b ;
+            owl:annotatedTarget aat:300000372 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "necropolises" ;
+            sssom:subject_label "Nekropole" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2790 ;
+            owl:annotatedTarget aat:300006050 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "treasuries" ;
+            sssom:subject_label "Schatzhaus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_ed41a94d ;
+            owl:annotatedTarget aat:300025913 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "elderly" ;
+            sssom:subject_label "Greis" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_60efc5d6 ;
+            owl:annotatedTarget aat:300006888 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "fortifications" ;
+            sssom:subject_label "Befestigungsbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_5bfa9a82 ;
+            owl:annotatedTarget aat:300163729 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "amphiprostyle" ;
+            sssom:subject_label "amphiprostyler Tempel" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_f6674384 ;
+            owl:annotatedTarget aat:300056387 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "privacy" ;
+            sssom:subject_label "private Ausstattung" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_203b2f61 ;
+            owl:annotatedTarget aat:300007595 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "temples (buildings)" ;
+            sssom:subject_label "Peripteros sine postico" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_d6217c47 ;
+            owl:annotatedTarget aat:300385957 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "Arabic (style)" ;
+            sssom:subject_label "arabisch" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_ce31583b ;
+            owl:annotatedTarget aat:300387387 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "moles (structures)" ;
+            sssom:subject_label "Mole" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2701 ;
+            owl:annotatedTarget aat:300025103 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "artists (visual artists)" ;
+            sssom:subject_label "Künstler" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_cac4c63f ;
+            owl:annotatedTarget aat:300008850 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "capes (landforms)" ;
+            sssom:subject_label "Kap" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2677 ;
+            owl:annotatedTarget aat:300250699 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "vellum (paper)" ;
+            sssom:subject_label "Pergament" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2763 ;
+            owl:annotatedTarget aat:300008678 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "harbors" ;
+            sssom:subject_label "Hafen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_f1d12674 ;
+            owl:annotatedTarget aat:300005238 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "markets (structures)" ;
+            sssom:subject_label "Macellum / Markt" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_cade55c0 ;
+            owl:annotatedTarget aat:300121227 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "tholoi" ;
+            sssom:subject_label "Tholos" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2756 ;
+            owl:annotatedTarget aat:300008090 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "gardens (open spaces)" ;
+            sssom:subject_label "Garten" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_56be75ec ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "vierschiffig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_89128543 ;
+            owl:annotatedTarget aat:300008773 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "ravines (landform)" ;
+            sssom:subject_label "Schlucht" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2804 ;
+            owl:annotatedTarget aat:300005517 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "villas" ;
+            sssom:subject_label "Villa" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_89db57c4 ;
+            owl:annotatedTarget aat:300170443 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "basilicas" ;
+            sssom:subject_label "zweischiffig" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_07eeaf49 ;
+            owl:annotatedTarget aat:300008738 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "cataract (bodies of water)" ;
+            sssom:subject_label "Katarakt / Stromschnelle" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_d563592b ;
+            owl:annotatedTarget aat:300056387 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "privacy" ;
+            sssom:subject_label "privater Raum" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_c807125a ;
+            owl:annotatedTarget aat:300134522 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "watchtowers" ;
+            sssom:subject_label "Wachturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_dd8719dd ;
+            owl:annotatedTarget aat:300025480 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "emperors" ;
+            sssom:subject_label "Kaiser" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_c5eff9b0 ;
+            owl:annotatedTarget aat:300182716 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "tower houses (defensive structures)" ;
+            sssom:subject_label "Wohnturm" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_d0339afd ;
+            owl:annotatedTarget aat:300007734 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "smithies" ;
+            sssom:subject_label "Metallverarbeitun g" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_dd360f8a ;
+            owl:annotatedTarget aat:300025687 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "photographers" ;
+            sssom:subject_label "Photograph" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_3007 ;
+            owl:annotatedTarget aat:300025389 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "craftsmen" ;
+            sssom:subject_label "Handwerker" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:narrowMatch ;
+            owl:annotatedSource dai:_84b4f73a ;
+            owl:annotatedTarget aat:300123562 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "megaliths" ;
+            sssom:subject_label "Megalithbau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_f60dd2eb ;
+            owl:annotatedTarget aat:300379598 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "toddlers" ;
+            sssom:subject_label "Kleinkind" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_16fb930d ;
+            owl:annotatedTarget aat:300008372 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "villages" ;
+            sssom:subject_label "Dorf" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_9512c706 ;
+            owl:annotatedTarget aat:300008707 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "rivers (bodies of water)" ;
+            sssom:subject_label "Fluss" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_2767 ;
+            owl:annotatedTarget aat:300005665 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "barracks" ;
+            sssom:subject_label "Kaserne" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_78c804cf ;
+            owl:annotatedTarget aat:300025943 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "women (female humans)" ;
+            sssom:subject_label "Frau" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_4d76417e ;
+            owl:annotatedTarget aat:300000994 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "arches" ;
+            sssom:subject_label "Bogen" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_e764db27 ;
+            owl:annotatedTarget aat:300248647 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "triumphal columns" ;
+            sssom:subject_label "Ehrensäule" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7963201b ;
+            owl:annotatedTarget aat:300014078 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "canvas" ;
+            sssom:subject_label "Leinwand" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_53c052d3 ;
+            owl:annotatedTarget aat:300135990 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "dipteral" ;
+            sssom:subject_label "Dipteros" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_7c0ac5e8 ;
+            owl:annotatedTarget aat:300008805 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "plains (landforms)" ;
+            sssom:subject_label "Ebene" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:closeMatch ;
+            owl:annotatedSource dai:_2778 ;
+            owl:annotatedTarget aat:300005734 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "palaces" ;
+            sssom:subject_label "Palast" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_44ecd5e7 ;
+            owl:annotatedTarget aat:300108449 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "hippodromes (Greek sports buildings)" ;
+            sssom:subject_label "Hippodrom / Zirkus" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:broadMatch ;
+            owl:annotatedSource dai:_0e298ef9 ;
+            owl:annotatedTarget aat:300006178 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "ditches" ;
+            sssom:subject_label "Viereckschanze" ],
+        [ a owl:Axiom ;
+            owl:annotatedProperty skos:exactMatch ;
+            owl:annotatedSource dai:_21f298a9 ;
+            owl:annotatedTarget aat:300026841 ;
+            sssom:mapping_justification semapv:UnspecifiedMatching ;
+            sssom:object_label "certificates" ;
+            sssom:subject_label "Urkunde" ] ;
+    sssom:object_source aat: ;
+    sssom:subject_source dai: .
+
+
