@@ -10,4 +10,5 @@ dependencies = [
     "pyoxigraph>=0.5.9",
     "rdflib>=7.6.0",
     "sparqlwrapper>=2.0.0",
+    "sssom>=0.4.21",
 ]

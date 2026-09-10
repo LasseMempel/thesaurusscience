@@ -1,0 +1,1653 @@
+#curie_map:
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/inrap_aat.sssom.tsv
+#mapping_set_title: INRAP PACTOLS → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: PACTOLS-thesaurus-to-AAT concept crosswalk compiled by INRAP for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2016-10-10
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_provider: https://ror.org/04andmq85
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: https://ark.frantiq.fr/ark:/26678/TH_1
+#object_source: http://vocab.getty.edu/aat/
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_INRAP_AAT_Mappings.pdf
+#comment: Original table compiled by Achille Felicetti (per PDF author metadata) for ARIADNE. 2 of 1634 rows needed hand correction for a PDF word-wrap extraction artifact (see INRAP_LABEL_SPELLING_CORRECTIONS) before this export was generated.
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+pactols:pcrt9Xvh4RiNS5	skos:closeMatch	aat:300055406	semapv:UnspecifiedMatching	abandon de lieu	emigration	
+pactols:pcrt8icSwjOM7u	skos:exactMatch	aat:300007495	semapv:UnspecifiedMatching	abbatiale	abbey churches	
+pactols:pcrt8icSwjOM7u	skos:exactMatch	aat:300000642	semapv:UnspecifiedMatching	abbaye	abbeys (monasteries)	
+pactols:pcrtBpaSMOlWvz	skos:exactMatch	aat:300220971	semapv:UnspecifiedMatching	abreuvoir	troughs (containers)	
+pactols:pcrtkeLpJpVN4t	skos:exactMatch	aat:300007699	semapv:UnspecifiedMatching	abri sous roche	rock shelters	
+pactols:pcrtJ71ZuyuOEq	skos:exactMatch	aat:300004607	semapv:UnspecifiedMatching	abside	apses	
+pactols:pcrts8SiTTY3Ka	skos:closeMatch	aat:300000388	semapv:UnspecifiedMatching	acquisition de ressource naturelle	extracting complexes	
+pactols:pcrtIq8AvOPlPV	skos:exactMatch	aat:300077610	semapv:UnspecifiedMatching	acquisition des données	recording	
+pactols:pcrtTQjJbnRU7S	skos:exactMatch	aat:300002214	semapv:UnspecifiedMatching	acrotre	acroteria	
+pactols:pcrtMNiNZMViWi	skos:broadMatch	aat:300061886	semapv:UnspecifiedMatching	activités commerciales	trade (function)	
+pactols:pcrtF4g7aXEn6l	skos:exactMatch	aat:300254069	semapv:UnspecifiedMatching	administrations	public administration	
+pactols:pcrthELuSjXqGH	skos:exactMatch	aat:300081138	semapv:UnspecifiedMatching	adobe	adobe (material)	
+pactols:pcrtrg5RZoroR7	skos:exactMatch	aat:300163862	semapv:UnspecifiedMatching	adolescent	adolescents	
+pactols:pcrtf4z1Qe2N4U	skos:exactMatch	aat:300154397	semapv:UnspecifiedMatching	adulte	adults	
+pactols:pcrtu6MrQiPdBO	skos:exactMatch	aat:300379464	semapv:UnspecifiedMatching	AFC	factor analysis	
+pactols:pcrt1gsiMfFUP0	skos:broadMatch	aat:300008400	semapv:UnspecifiedMatching	agglomération secondaire	agglomerations	
+pactols:pcrtN5zGcqx0YR	skos:exactMatch	aat:300008375	semapv:UnspecifiedMatching	agglomération urbaine	towns	
+pactols:pcrtRWDy1UDdDG	skos:exactMatch	aat:300239507	semapv:UnspecifiedMatching	agrafe	clasps (fasteners)	
+pactols:pcrtuDGmtyntVb	skos:exactMatch	aat:300054463	semapv:UnspecifiedMatching	agriculture	agriculture	
+pactols:pcrt9dibLrQ5oo	skos:exactMatch	aat:300254393	semapv:UnspecifiedMatching	agronomie	agronomy	
+pactols:pcrtebcLdP2rVc	skos:exactMatch	aat:300045667	semapv:UnspecifiedMatching	aiguière	aquamaniles	
+pactols:pcrtpyrtgrXdME	skos:exactMatch	aat:300024789	semapv:UnspecifiedMatching	aiguille	needles (piercing tools)	
+pactols:pcrt903VxVZvpD	skos:exactMatch	aat:300023299	semapv:UnspecifiedMatching	aiguisoir	whetstones	
+pactols:pcrtw6060MPvnU	skos:closeMatch	aat:300005871	semapv:UnspecifiedMatching	aire d'incinération	crematories	
+pactols:pcrtUQEt5jp9Q3	skos:exactMatch	aat:300024663	semapv:UnspecifiedMatching	alêne	awls	
+pactols:pcrtpbgzj4c0da	skos:exactMatch	aat:300056243	semapv:UnspecifiedMatching	alignements	alignment	
+pactols:pcrtkAoBnFpdrT	skos:exactMatch	aat:300379463	semapv:UnspecifiedMatching	alimentation	diet	
+pactols:pcrtrx7Rc5oHkk	skos:exactMatch	aat:300008618	semapv:UnspecifiedMatching	alimentation en eau	water supply systems	
+pactols:pcrtgcn5U8laUN	skos:exactMatch	aat:300254496	semapv:UnspecifiedMatching	aliments	food	
+pactols:pcrtgWbicZTgZe	skos:exactMatch	aat:300005939	semapv:UnspecifiedMatching	allée couverte	gallery graves	
+pactols:pcrtzcGlM17go5	skos:exactMatch	aat:300010902	semapv:UnspecifiedMatching	alliage	alloy	
+pactols:pcrt4Jy2JE8F3U	skos:exactMatch	aat:300264223	semapv:UnspecifiedMatching	alluvion	alluvium	
+pactols:pcrtKZYwYOkWlK	skos:exactMatch	aat:300120507	semapv:UnspecifiedMatching	amas coquillier	middens	
+pactols:pcrtSAtrywvkI9	skos:exactMatch	aat:300265125	semapv:UnspecifiedMatching	amas de débitage	debitage	
+pactols:pcrtSiQAzZxXsv	skos:exactMatch	aat:300012934	semapv:UnspecifiedMatching	ambre	amber (fossil resin)	
+pactols:pcrtORlgwkPgL5	skos:closeMatch	aat:300006161	semapv:UnspecifiedMatching	aménagement de berge	flood protection works	
+pactols:pcrtPXIo4VBd5K	skos:broadMatch	aat:300055399	semapv:UnspecifiedMatching	aménagement du relief	land use	
+pactols:pcrtUu5zfknZ1x	skos:exactMatch	aat:300055399	semapv:UnspecifiedMatching	aménagement du sol	land use	
+pactols:pcrtlLaVIacMMt	skos:closeMatch	aat:300015131	semapv:UnspecifiedMatching	amendement	fertilizer	
+pactols:pcrtsFdnVuIzkm	skos:exactMatch	aat:300055165	semapv:UnspecifiedMatching	amour	love (emotion)	
+pactols:pcrtBJYesjJJuc	skos:exactMatch	aat:300249665	semapv:UnspecifiedMatching	amphibien	Amphibia (class)	
+pactols:pcrtEmYHAsBI3W	skos:exactMatch	aat:300007128	semapv:UnspecifiedMatching	amphithéâtre	amphitheaters (built works)	
+pactols:pcrtVFfTq3JlGu	skos:exactMatch	aat:300148696	semapv:UnspecifiedMatching	amphore	amphorae (storage vessels)	
+pactols:pcrtShV4zjpBwz	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore africaine	amphorae (storage vessels)	
+pactols:pcrtfmAsFkQ65S	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore étrusque	amphorae (storage vessels)	
+pactols:pcrtiUhJYvi7PG	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore gauloise	amphorae (storage vessels)	
+pactols:pcrtPSS2MM5bOd	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore grecque	amphorae (storage vessels)	
+pactols:pcrtSGcwcsBoyS	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore ibérique	amphorae (storage vessels)	
+pactols:pcrtNbAKI2ocgN	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore italique	amphorae (storage vessels)	
+pactols:pcrtOfFF2y5aml	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore massaliète	amphorae (storage vessels)	
+pactols:pcrt86nTYZYBHw	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore orientale	amphorae (storage vessels)	
+pactols:pcrte7YAlPc3wx	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphore punique	amphorae (storage vessels)	
+pactols:pcrtypeuXnXbxa	skos:broadMatch	aat:300148696	semapv:UnspecifiedMatching	amphorette	amphorae (storage vessels)	
+pactols:pcrtxme0rj3r2Z	skos:broadMatch	aat:300137832	semapv:UnspecifiedMatching	amputation	surgery	
+pactols:pcrtJM6rFSQ84T	skos:exactMatch	aat:300198980	semapv:UnspecifiedMatching	AMS	mass spectrometers	
+pactols:pcrtpuX90VQ6vw	skos:exactMatch	aat:300266585	semapv:UnspecifiedMatching	amulette	amulets	
+pactols:pcrtnQsh3FimJb	skos:exactMatch	aat:300054636	semapv:UnspecifiedMatching	analyse des données	data processing	
+pactols:pcrtI7E5QGYFhb	skos:broadMatch	aat:300122729	semapv:UnspecifiedMatching	analyse des matériaux	archaeometry	
+pactols:pcrtJmrHLDqtoN	skos:broadMatch	aat:300155399	semapv:UnspecifiedMatching	analyse documentaire	subject analysis	
+pactols:pcrtBThnmzqTT1	skos:exactMatch	aat:300380275	semapv:UnspecifiedMatching	analyse fonctionnelle	functional analysis	
+pactols:pcrtuDWiNoQD59	skos:exactMatch	aat:300223990	semapv:UnspecifiedMatching	analyse spatiale	spatial analysis	
+pactols:pcrtLEaUqg7IZm	skos:exactMatch	aat:300054465	semapv:UnspecifiedMatching	anatomie	anatomy	
+pactols:pcrt7ZUb0jZYg8	skos:exactMatch	aat:300219429	semapv:UnspecifiedMatching	ancre	anchors (watercraft equipment)	
+pactols:pcrtL41Ddfw4XO	skos:exactMatch	aat:300046012	semapv:UnspecifiedMatching	anneau	rings (jewelry)	
+pactols:pcrtZcMrW2O5nI	skos:exactMatch	aat:300209294	semapv:UnspecifiedMatching	anneau de cheville	anklets	
+pactols:pcrtcKecfL7Beu	skos:exactMatch	aat:300002217	semapv:UnspecifiedMatching	antéfixe	antefixes	
+pactols:pcrtHymRiII9SY	skos:broadMatch	aat:300251771	semapv:UnspecifiedMatching	anthracologie	archaeobotany	
+pactols:pcrttcpeEPi2K0	skos:exactMatch	aat:300054315	semapv:UnspecifiedMatching	anthropologie	anthropology	
+pactols:pcrtPi94u2INlY	skos:closeMatch	aat:300054322	semapv:UnspecifiedMatching	anthropologie de terrain	physical anthropology	
+pactols:pcrtU8RLhLoUoy	skos:broadMatch	aat:300254388	semapv:UnspecifiedMatching	apiculture	animal husbandry	
+pactols:pcrtkXXVYFfHbv	skos:exactMatch	aat:300256026	semapv:UnspecifiedMatching	applique	onlays (applied decoration)	
+pactols:pcrtWM9edcGV95	skos:exactMatch	aat:300120786	semapv:UnspecifiedMatching	appontement	wharves	
+pactols:pcrtvfRyLrY33I	skos:exactMatch	aat:300137616	semapv:UnspecifiedMatching	approvisionnement	procurement	
+pactols:pcrtrx7Rc5oHkk	skos:exactMatch	aat:300008618	semapv:UnspecifiedMatching	approvisionnement en eau	water supply systems	
+pactols:pcrtQLzzeiDyrk	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	aqueduc	aqueducts	
+pactols:pcrtQLzzeiDyrk	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	aqueduc romain	aqueducts	
+pactols:pcrtEMVOMHVcio	skos:exactMatch	aat:300233317	semapv:UnspecifiedMatching	araire	plows (agricultural equipment)	
+pactols:pcrtqRa7VHvxAe	skos:closeMatch	aat:300037000	semapv:UnspecifiedMatching	arbalète	crossbows	
+pactols:pcrtjU6tklpIsW	skos:exactMatch	aat:300179397	semapv:UnspecifiedMatching	arboriculture	silviculture	
+pactols:pcrtnUINrG3Gx0	skos:broadMatch	aat:300011868	semapv:UnspecifiedMatching	arbre fruitier	fruit (plant components)	
+pactols:pcrt6ihD3VYe4o	skos:exactMatch	aat:300007002	semapv:UnspecifiedMatching	arc monumental	memorial arches	
+pactols:pcrty05M9SVnLu	skos:exactMatch	aat:300054328	semapv:UnspecifiedMatching	archéologie	archaeology	
+pactols:pcrtSgRiFP04jl	skos:exactMatch	aat:300252459	semapv:UnspecifiedMatching	archéologie du paysage	landscape archaeology	
+pactols:pcrt6RlBpO560k	skos:exactMatch	aat:300252681	semapv:UnspecifiedMatching	archéologie expérimentale	experimental archaeology	
+pactols:pcrtVNiJ6JaW7U	skos:exactMatch	aat:300054333	semapv:UnspecifiedMatching	archéologie industrielle	industrial archaeology	
+pactols:pcrt9A9KDllfAq	skos:closeMatch	aat:300379376	semapv:UnspecifiedMatching	archéologie préventive	rescue archaeology	
+pactols:pcrtvtdrjzINR5	skos:exactMatch	aat:300054339	semapv:UnspecifiedMatching	archéologie subaquatique	underwater archaeology	
+pactols:pcrtse6crobZf3	skos:exactMatch	aat:300379542	semapv:UnspecifiedMatching	archéologie urbaine	urban archaeology	
+pactols:pcrtKAS0FH5vun	skos:exactMatch	aat:300081754	semapv:UnspecifiedMatching	archéomagnétisme	paleomagnetic dating	
+pactols:pcrtnFzEJXOj2S	skos:exactMatch	aat:300122729	semapv:UnspecifiedMatching	archéométrie	archaeometry	
+pactols:pcrtRmSldQaKLx	skos:exactMatch	aat:300251929	semapv:UnspecifiedMatching	archéozoologie	archaeozoology	
+pactols:pcrtKJVpuP3AET	skos:exactMatch	aat:300054156	semapv:UnspecifiedMatching	architecture	architecture (discipline)	
+pactols:pcrtxzTYzVBKas	skos:exactMatch	aat:300055882	semapv:UnspecifiedMatching	architecture (conception)	architectural theory	
+pactols:pcrtSuHbSRhwZu	skos:closeMatch	aat:300004560	semapv:UnspecifiedMatching	architecture chrétienne	Christian religious building spaces	
+pactols:pcrtPEkp3Yydb2	skos:exactMatch	aat:300379486	semapv:UnspecifiedMatching	architecture de terre	earthen architecture	
+pactols:pcrtWegewfItfX	skos:closeMatch	aat:300257729	semapv:UnspecifiedMatching	architecture domestique	residential structures	
+pactols:pcrtGdotYbyIR9	skos:closeMatch	aat:300005866	semapv:UnspecifiedMatching	architecture funéraire	funerary buildings	
+pactols:pcrtl4bhxfadHb	skos:broadMatch	aat:300020775	semapv:UnspecifiedMatching	architecture gothique	Gothic (Medieval)	
+pactols:pcrtW0KbTFT2kb	skos:closeMatch	aat:300006887	semapv:UnspecifiedMatching	architecture militaire	military buildings	
+pactols:pcrtE2HKmkY7aj	skos:broadMatch	aat:300006958	semapv:UnspecifiedMatching	architecture monumentale	monuments	
+pactols:pcrtkfp5SIXXoF	skos:closeMatch	aat:300008059	semapv:UnspecifiedMatching	architecture publique	public buildings (governmental buildings)	
+pactols:pcrtwXskswbuF3	skos:closeMatch	aat:300007391	semapv:UnspecifiedMatching	architecture religieuse	religious buildings	
+pactols:pcrt0lEegLdQOD	skos:broadMatch	aat:300020533	semapv:UnspecifiedMatching	architecture romaine	Roman (ancient Italian culture or period)	
+pactols:pcrtUFEeJuMejs	skos:broadMatch	aat:300020768	semapv:UnspecifiedMatching	architecture romane	Romanesque	
+pactols:pcrtxizW65mJ49	skos:broadMatch	aat:300312242	semapv:UnspecifiedMatching	archive départementale	archives (institutions)	
+pactols:pcrtaS0hStUkrV	skos:broadMatch	aat:300312242	semapv:UnspecifiedMatching	archive municipale	archives (institutions)	
+pactols:pcrttUONyH0Uai	skos:exactMatch	aat:300312242	semapv:UnspecifiedMatching	archives	archives (institutions)	
+pactols:pcrtQqTsG6TEFy	skos:exactMatch	aat:300011646	semapv:UnspecifiedMatching	ardoise	slate (rock)	
+pactols:pcrtv4l43h0QmH	skos:exactMatch	aat:300007268	semapv:UnspecifiedMatching	arène	arenas (sports buildings)	
+pactols:pcrtcWoSlbWLE0	skos:exactMatch	aat:300011029	semapv:UnspecifiedMatching	argent	silver (metal)	
+pactols:pcrto44p1SaKFn	skos:exactMatch	aat:300010439	semapv:UnspecifiedMatching	argile	clay	
+pactols:pcrtc7SWApIzto	skos:broadMatch	aat:300010439	semapv:UnspecifiedMatching	argile (atelier)	clay	
+pactols:pcrtUMHqwRy8Ok	skos:broadMatch	aat:300010439	semapv:UnspecifiedMatching	argile (outillage)	clay	
+pactols:pcrtgjwqPbWjHa	skos:broadMatch	aat:300010439	semapv:UnspecifiedMatching	argile rouge	clay	
+pactols:pcrtkFvBudkPIc	skos:exactMatch	aat:300375127	semapv:UnspecifiedMatching	aristocratie	aristocracies	
+pactols:pcrtORUzDbgmhe	skos:closeMatch	aat:300400615	semapv:UnspecifiedMatching	armature	blades (stone tools)	
+pactols:pcrtDMPItSUxPY	skos:exactMatch	aat:300036926	semapv:UnspecifiedMatching	arme	weapons	
+pactols:pcrtkracAFyy7h	skos:broadMatch	aat:300036926	semapv:UnspecifiedMatching	arme défensive	weapons	
+pactols:pcrtwnXO3Ud8U5	skos:broadMatch	aat:300036926	semapv:UnspecifiedMatching	arme offensive	weapons	
+pactols:pcrtDz6FAhsh6y	skos:exactMatch	aat:300137542	semapv:UnspecifiedMatching	armée	armies	
+pactols:pcrtfgbTf8dbyO	skos:broadMatch	aat:300137542	semapv:UnspecifiedMatching	armée romaine	armies	
+pactols:pcrtD5qOdEAPPF	skos:exactMatch	aat:300000448	semapv:UnspecifiedMatching	arsenal	arsenals (buildings)	
+pactols:pcrttq9gp2ZMuc	skos:exactMatch	aat:300175240	semapv:UnspecifiedMatching	art	arts (broad discipline)	
+pactols:pcrtwFKRNBgkWh	skos:broadMatch	aat:300175240	semapv:UnspecifiedMatching	art chrétien	arts (broad discipline)	
+pactols:pcrtouRgPEtooa	skos:exactMatch	aat:300020775	semapv:UnspecifiedMatching	art gothique	Gothic (Medieval)	
+pactols:pcrtktNqY0JyPz	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	art militaire	wars	
+pactols:pcrtWbThvTYYf4	skos:exactMatch	aat:300400640	semapv:UnspecifiedMatching	art mobilier	portable art	
+pactols:pcrtTv2xhrEwPW	skos:exactMatch	aat:300080208	semapv:UnspecifiedMatching	art pariétal	cave art	
+pactols:pcrtW9bpQtLjsx	skos:exactMatch	aat:300020768	semapv:UnspecifiedMatching	art roman	Romanesque	
+pactols:pcrtET0l280TUS	skos:exactMatch	aat:300184090	semapv:UnspecifiedMatching	art rupestre	rock art	
+pactols:pcrtroLHL5A6bm	skos:exactMatch	aat:300036931	semapv:UnspecifiedMatching	artillerie	artillery	
+pactols:pcrtU9mPdxj3Ql	skos:exactMatch	aat:300025389	semapv:UnspecifiedMatching	artisan	craftsmen	
+pactols:pcrtuNA5xRSr9l	skos:exactMatch	aat:300054704	semapv:UnspecifiedMatching	artisanat	crafts (art genres)	
+pactols:pcrtRHA0IiiUOF	skos:broadMatch	aat:300254496	semapv:UnspecifiedMatching	artisanat alimentaire	food	
+pactols:pcrtkOgxvd4Ijy	skos:exactMatch	aat:300054168	semapv:UnspecifiedMatching	arts décoratifs	decorative arts	
+pactols:pcrtzh0OPBazqS	skos:exactMatch	aat:300198885	semapv:UnspecifiedMatching	aryballe	aryballoi	
+pactols:pcrtmjVjRMpJM1	skos:exactMatch	aat:300194586	semapv:UnspecifiedMatching	as	as coins	
+pactols:pcrtrrOj4xoA0D	skos:exactMatch	aat:300055199	semapv:UnspecifiedMatching	assainissement	drainage	
+pactols:pcrtOlL4vtJxgr	skos:exactMatch	aat:300053014	semapv:UnspecifiedMatching	assemblage	bonding (joining)	
+pactols:pcrtpST0gidgL5	skos:exactMatch	aat:300042991	semapv:UnspecifiedMatching	assiette	plates (general, dishes)	
+pactols:pcrtRxLPuVsO8f	skos:exactMatch	aat:300004531	semapv:UnspecifiedMatching	atelier	workshops (work spaces)	
+pactols:pcrttw20c2DxV5	skos:broadMatch	aat:300025316	semapv:UnspecifiedMatching	atelier de bronzier	bronzeworkers	
+pactols:pcrtfUZSMbifle	skos:exactMatch	aat:300006310	semapv:UnspecifiedMatching	atelier de potier	potteries (manufactories)	
+pactols:pcrtQGIObuLF2K	skos:broadMatch	aat:300025256	semapv:UnspecifiedMatching	atelier de tabletier	carvers (people in crafts)	
+pactols:pcrt9WrayiIQys	skos:broadMatch	aat:300380037	semapv:UnspecifiedMatching	atelier de taille	knapping	
+pactols:pcrtHX75pcAif1	skos:exactMatch	aat:300312295	semapv:UnspecifiedMatching	atelier de verrier	glassmaking studios (organizations)	
+pactols:pcrtllf5h2mEWg	skos:closeMatch	aat:300122139	semapv:UnspecifiedMatching	atelier métallurgique	metal works structures	
+pactols:pcrtNLZO6QXXqS	skos:broadMatch	aat:300343852	semapv:UnspecifiedMatching	Athéna Parthénos	goddesses	
+pactols:pcrtWthF204SuS	skos:exactMatch	aat:300028053	semapv:UnspecifiedMatching	atlas	atlases	
+pactols:pcrtJs2bV5mfYW	skos:exactMatch	aat:300004097	semapv:UnspecifiedMatching	atrium	atriums (Roman halls)	
+pactols:pcrtDLkbESTT9A	skos:broadMatch	aat:300248011	semapv:UnspecifiedMatching	attelage	teams	
+pactols:pcrtsrlRWaly2K	skos:exactMatch	aat:300007170	semapv:UnspecifiedMatching	auberge	inns	
+pactols:pcrt52SAPxOV16	skos:exactMatch	aat:300220971	semapv:UnspecifiedMatching	auge	troughs (containers)	
+pactols:pcrt5XWh8nlOlK	skos:exactMatch	aat:300196960	semapv:UnspecifiedMatching	auget	salt boxes (containers)	
+pactols:pcrtqhD4QzKHDr	skos:exactMatch	aat:300192871	semapv:UnspecifiedMatching	aureus	aurei	
+pactols:pcrtMxpl1f7MQj	skos:broadMatch	aat:300310440	semapv:UnspecifiedMatching	aurochs	Bovidae (family)	
+pactols:pcrtiEd3ufnIkf	skos:exactMatch	aat:300003725	semapv:UnspecifiedMatching	autel	altars (religious fixtures)	
+pactols:pcrtGmYVK4DmTV	skos:exactMatch	aat:300391172	semapv:UnspecifiedMatching	autel funéraire	grave altars	
+pactols:pcrtMv4SJoonkS	skos:broadMatch	aat:300343828	semapv:UnspecifiedMatching	avoine	Poaceae (family)	
+pactols:pcrtkDQQ7MxwNb	skos:exactMatch	aat:300046012	semapv:UnspecifiedMatching	bague	rings (jewelry)	
+pactols:pcrthAtwVH0f7L	skos:broadMatch	aat:300343854	semapv:UnspecifiedMatching	bain	bathing	
+pactols:pcrt5fQSlWPFwD	skos:broadMatch	aat:300343854	semapv:UnspecifiedMatching	bain rituel	bathing	
+pactols:pcrtHTmKYVz5YK	skos:broadMatch	aat:300343854	semapv:UnspecifiedMatching	bains grecs	bathing	
+pactols:pcrtbME0PA8KDn	skos:exactMatch	aat:300196293	semapv:UnspecifiedMatching	balance	scales (weighing devices)	
+pactols:pcrtf4YoEbr1fx	skos:closeMatch	aat:300037216	semapv:UnspecifiedMatching	balle de fronde	slings (projectile weapons)	
+pactols:pcrtQnuRW9SKmF	skos:exactMatch	aat:300197635	semapv:UnspecifiedMatching	balsamaire	perfume bottles	
+pactols:pcrtIB2ZBVtndn	skos:exactMatch	aat:300247614	semapv:UnspecifiedMatching	banquet	banquets (feasts)	
+pactols:pcrtplAOSH90sN	skos:closeMatch	aat:300247614	semapv:UnspecifiedMatching	banquet sacré	banquets (feasts)	
+pactols:pcrtuFKsKIOQ3U	skos:exactMatch	aat:300007444	semapv:UnspecifiedMatching	baptistère	baptisteries	
+pactols:pcrt5uraytgnYo	skos:exactMatch	aat:300178749	semapv:UnspecifiedMatching	barque	boats	
+pactols:pcrtGlOemVT6hw	skos:exactMatch	aat:300006084	semapv:UnspecifiedMatching	barrage	dams (hydraulic structures)	
+pactols:pcrtctuE9VNJOc	skos:exactMatch	aat:300011222	semapv:UnspecifiedMatching	basalte	basalt (basic igneous rock)	
+pactols:pcrt1t50zTAfPG	skos:exactMatch	aat:300028543	semapv:UnspecifiedMatching	base de données	databases	
+pactols:pcrtuSD3gHyNAk	skos:exactMatch	aat:300006438	semapv:UnspecifiedMatching	bas-fourneau	blast furnaces	
+pactols:pcrtQluMbIyppo	skos:closeMatch	aat:300170443	semapv:UnspecifiedMatching	basilica	basilicas	
+pactols:pcrtDNwkkmmHq2	skos:closeMatch	aat:300170443	semapv:UnspecifiedMatching	basilique	basilicas	
+pactols:pcrtaspfi2lUjq	skos:exactMatch	aat:300053623	semapv:UnspecifiedMatching	bas-relief	bas-relief (sculpture technique)	
+pactols:pcrtOWbsE377Kt	skos:exactMatch	aat:300003688	semapv:UnspecifiedMatching	basse-cour	baileys	
+pactols:pcrt02KdlM0gwJ	skos:exactMatch	aat:300006191	semapv:UnspecifiedMatching	bassin (structure)	reservoirs (water distribution structures)	
+pactols:pcrt6MZFGZ6bi5	skos:exactMatch	aat:300006169	semapv:UnspecifiedMatching	bassin de décantation	settling basins	
+pactols:pcrt7nHkxJNLlf	skos:closeMatch	aat:300386845	semapv:UnspecifiedMatching	bassin sédimentaire	basins (landforms)	
+pactols:pcrtrm9U7TEqJS	skos:exactMatch	aat:300002495	semapv:UnspecifiedMatching	bastion	bastions	
+pactols:pcrt5EjiIPAc1X	skos:exactMatch	aat:300185692	semapv:UnspecifiedMatching	bataille	battles	
+pactols:pcrtxMLnhaMAsQ	skos:exactMatch	aat:300178749	semapv:UnspecifiedMatching	bateau	boats	
+pactols:pcrtDlzbGxWvTo	skos:exactMatch	aat:300004792	semapv:UnspecifiedMatching	bâtiment	buildings (structures)	
+pactols:pcrt0TjDJMhpY1	skos:broadMatch	aat:300004792	semapv:UnspecifiedMatching	bâtiment à fonctions multiples	buildings (structures)	
+pactols:pcrtIdEjFMFAod	skos:exactMatch	aat:300004898	semapv:UnspecifiedMatching	bâtiment agricole	agricultural buildings	
+pactols:pcrt20EsS32aXe	skos:exactMatch	aat:300005147	semapv:UnspecifiedMatching	bâtiment commercial	commercial buildings	
+pactols:pcrtbptj4SOA1W	skos:exactMatch	aat:300008347	semapv:UnspecifiedMatching	bâtiment domestique	inhabited places	
+pactols:pcrtooz4GMRqi4	skos:exactMatch	aat:300006231	semapv:UnspecifiedMatching	bâtiment industriel	industrial buildings	
+pactols:pcrtkP8rR1YLpG	skos:exactMatch	aat:300006887	semapv:UnspecifiedMatching	bâtiment militaire	military buildings	
+pactols:pcrtgS9WvKHJJH	skos:exactMatch	aat:300312369	semapv:UnspecifiedMatching	battage	threshing	
+pactols:pcrtclfneB8qKO	skos:exactMatch	aat:300004848	semapv:UnspecifiedMatching	beffroi	bell towers	
+pactols:pcrtLywf8Y5k0n	skos:broadMatch	aat:300404156	semapv:UnspecifiedMatching	bélier	Ovis aries (species)	
+pactols:pcrt9MZnacjb5Y	skos:exactMatch	aat:300148044	semapv:UnspecifiedMatching	Bénédictins	Benedictine	
+pactols:pcrtqFSnLdA1Df	skos:exactMatch	aat:300045477	semapv:UnspecifiedMatching	bergerie	sheepfolds	
+pactols:pcrtEOlJwpiHmn	skos:exactMatch	aat:300250280	semapv:UnspecifiedMatching	bétail	livestock	
+pactols:pcrtqMJdKI4PHt	skos:exactMatch	aat:300215505	semapv:UnspecifiedMatching	biberon	biberons (drinking vessels)	
+pactols:pcrtgmR3Q5i4wb	skos:exactMatch	aat:300006080	semapv:UnspecifiedMatching	bief	millraces	
+pactols:pcrt3nBjHrcDGM	skos:broadMatch	aat:300006341	semapv:UnspecifiedMatching	bière	breweries	
+pactols:pcrtB9EnHWh1cG	skos:exactMatch	aat:300265136	semapv:UnspecifiedMatching	biface	bifaces (stone tools)	
+pactols:pcrtUqBbtbUOzF	skos:exactMatch	aat:300209286	semapv:UnspecifiedMatching	bijou	jewelry	
+pactols:pcrt9mYGGkTtLB	skos:exactMatch	aat:300054538	semapv:UnspecifiedMatching	biochimie	biochemistry	
+pactols:pcrtL8Vz1ImuZ3	skos:exactMatch	aat:300054466	semapv:UnspecifiedMatching	biologie	biology	
+pactols:pcrtQFlNqONkTm	skos:closeMatch	aat:300233389	semapv:UnspecifiedMatching	blason	crest	
+pactols:pcrtLieaANMAud	skos:exactMatch	aat:300343825	semapv:UnspecifiedMatching	blé	Triticum (genus)	
+pactols:pcrtq1Ejudoefg	skos:exactMatch	aat:300393192	semapv:UnspecifiedMatching	blessure	injury (medical condition)	
+pactols:pcrt3qwtVjY634	skos:exactMatch	aat:300053092	semapv:UnspecifiedMatching	blocage	filling (process)	
+pactols:pcrtRpEmyMyoAU	skos:exactMatch	aat:300250282	semapv:UnspecifiedMatching	boeuf	oxen	
+pactols:pcrtMr3tb79bV8	skos:exactMatch	aat:300011914	semapv:UnspecifiedMatching	bois	wood (plant material)	
+pactols:pcrtTbldUhfb1h	skos:exactMatch	aat:300395687	semapv:UnspecifiedMatching	bois de cerf	antlers (animal components)	
+pactols:pcrtmmQBSGulBN	skos:exactMatch	aat:300395687	semapv:UnspecifiedMatching	bois de cervidé	antlers (animal components)	
+pactols:pcrtI4g8pXkSSJ	skos:exactMatch	aat:300012785	semapv:UnspecifiedMatching	bois d'oeuvre	lumber	
+pactols:pcrt666qbbU96m	skos:exactMatch	aat:300002691	semapv:UnspecifiedMatching	boiserie	wainscoting	
+pactols:pcrtXZwBzU7OxM	skos:broadMatch	aat:300028877	semapv:UnspecifiedMatching	boite à sceau	seals (artifacts)	
+pactols:pcrtbNWpvbz1pc	skos:exactMatch	aat:300203596	semapv:UnspecifiedMatching	bol	bowls (vessels)	
+pactols:pcrtzwxWSKXL5O	skos:broadMatch	aat:300404141	semapv:UnspecifiedMatching	bombardement	attacks (armed conflicts)	
+pactols:pcrttrNOPRpGmS	skos:exactMatch	aat:300055451	semapv:UnspecifiedMatching	bornage	land subdivision	
+pactols:pcrtYko2Uw1uib	skos:exactMatch	aat:300006962	semapv:UnspecifiedMatching	borne	boundary stones	
+pactols:pcrtvw7qwGBX9r	skos:exactMatch	aat:300054467	semapv:UnspecifiedMatching	botanique	botany	
+pactols:pcrtL0KNvdoXv0	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	botanique antique	botany	
+pactols:pcrtLTfjeNtYxU	skos:exactMatch	aat:300379670	semapv:UnspecifiedMatching	boucherie	butchering	
+pactols:pcrtUzYehXjGyc	skos:exactMatch	aat:300045717	semapv:UnspecifiedMatching	bouchon	stoppers (container components)	
+pactols:pcrtKUMlexqjSQ	skos:exactMatch	aat:300239260	semapv:UnspecifiedMatching	boucle	buckles (strap accessories)	
+pactols:pcrtlfo0RiMSbJ	skos:exactMatch	aat:300375281	semapv:UnspecifiedMatching	boucle de ceinture	belt buckles	
+pactols:pcrtj0vmNc3SRp	skos:exactMatch	aat:300045998	semapv:UnspecifiedMatching	boucle d'oreille	earrings (jewelry)	
+pactols:pcrtvle3e90Ofd	skos:exactMatch	aat:300036869	semapv:UnspecifiedMatching	bouclier	shields (armor)	
+pactols:pcrt7r77ub1prl	skos:exactMatch	aat:300005291	semapv:UnspecifiedMatching	boulangerie	bakeries	
+pactols:pcrthQ6kKk5A8g	skos:exactMatch	aat:300201708	semapv:UnspecifiedMatching	boulet	cannonballs	
+pactols:pcrtVEYRUBqoLm	skos:exactMatch	aat:300045627	semapv:UnspecifiedMatching	bouteille	bottles	
+pactols:pcrtvT9Q8lDLhE	skos:exactMatch	aat:300024790	semapv:UnspecifiedMatching	bouterolle	punches (marking tools)	
+pactols:pcrtpDiX3ha6hS	skos:exactMatch	aat:300005283	semapv:UnspecifiedMatching	boutique	stores	
+pactols:pcrtUt8RmqQKbM	skos:exactMatch	aat:300239261	semapv:UnspecifiedMatching	bouton	buttons (fasteners)	
+pactols:pcrtlhRBmey0WK	skos:exactMatch	aat:300310440	semapv:UnspecifiedMatching	bovidé	Bovidae (family)	
+pactols:pcrt8WnGavbNU7	skos:broadMatch	aat:300310440	semapv:UnspecifiedMatching	bovinés	Bovidae (family)	
+pactols:pcrt8WnGavbNU7	skos:exactMatch	aat:300310440	semapv:UnspecifiedMatching	bovins	Bovidae (family)	
+pactols:pcrt7mTLggtbHJ	skos:exactMatch	aat:300045991	semapv:UnspecifiedMatching	bracelet	bracelets (jewelry)	
+pactols:pcrtbNrPP8yFxP	skos:exactMatch	aat:300198452	semapv:UnspecifiedMatching	brasero	braziers (cooking, heating equipment)	
+pactols:pcrtX58FTqpRou	skos:exactMatch	aat:300247490	semapv:UnspecifiedMatching	brassard	armbands	
+pactols:pcrtW9mUFwQABF	skos:exactMatch	aat:300010463	semapv:UnspecifiedMatching	brique	brick (clay product)	
+pactols:pcrthELuSjXqGH	skos:exactMatch	aat:300081138	semapv:UnspecifiedMatching	brique crue	adobe (material)	
+pactols:pcrttn308Sxrnt	skos:exactMatch	aat:300265545	semapv:UnspecifiedMatching	briquet	lighters (fire-making equipment)	
+pactols:pcrtOI9SLqb5uI	skos:exactMatch	aat:300015333	semapv:UnspecifiedMatching	briquetage	brickwork (masonry)	
+pactols:pcrt3B0eLHB02m	skos:broadMatch	aat:300045537	semapv:UnspecifiedMatching	briquetage du sel	saltworks	
+pactols:pcrtL2cYBrgNp8	skos:exactMatch	aat:300006278	semapv:UnspecifiedMatching	briqueterie	brickworks (factories)	
+pactols:pcrtjzKlry0LZi	skos:exactMatch	aat:300010957	semapv:UnspecifiedMatching	bronze	bronze (metal)	
+pactols:pcrtjzKlry0LZi	skos:exactMatch	aat:300010957	semapv:UnspecifiedMatching	bronze (métal)	bronze (metal)	
+pactols:pcrtibXdLTUhhT	skos:exactMatch	aat:300047333	semapv:UnspecifiedMatching	bronzes	bronzes (visual works)	
+pactols:pcrtL1em6pzVhS	skos:exactMatch	aat:300025316	semapv:UnspecifiedMatching	bronzier	bronzeworkers	
+pactols:pcrtnI9SsWzgPO	skos:exactMatch	aat:300053090	semapv:UnspecifiedMatching	broyage	grinding	
+pactols:pcrtFvhjdYd7SX	skos:exactMatch	aat:300263933	semapv:UnspecifiedMatching	broyeur	grinding stones	
+pactols:pcrtkb8erki8g3	skos:exactMatch	aat:300024725	semapv:UnspecifiedMatching	broyon	pestles	
+pactols:pcrtHtkH5XaO98	skos:exactMatch	aat:300199764	semapv:UnspecifiedMatching	brûle-parfum	cassolettes	
+pactols:pcrtPm7RMy8JDE	skos:exactMatch	aat:300005908	semapv:UnspecifiedMatching	bûcher	pyres	
+pactols:pcrt34NxNXOBYM	skos:exactMatch	aat:300266223	semapv:UnspecifiedMatching	bulle	bullae (seals)	
+pactols:pcrtjGi4jbH8MF	skos:exactMatch	aat:300193147	semapv:UnspecifiedMatching	burin	burins	
+pactols:pcrtThu8wInkhJ	skos:exactMatch	aat:300054717	semapv:UnspecifiedMatching	C14	radiocarbon dating	
+pactols:pcrtqsNPWjGG9u	skos:exactMatch	aat:300004824	semapv:UnspecifiedMatching	cabane	huts (houses)	
+pactols:pcrtc6LNXVNfT8	skos:exactMatch	aat:300027247	semapv:UnspecifiedMatching	cadastre	land registers	
+pactols:pcrtalmpL9IBGx	skos:exactMatch	aat:300011689	semapv:UnspecifiedMatching	cailloutis	gravel	
+pactols:pcrtAqKgmvERHQ	skos:exactMatch	aat:300006960	semapv:UnspecifiedMatching	cairn	cairns	
+pactols:pcrtwatV2eYSL2	skos:exactMatch	aat:300039119	semapv:UnspecifiedMatching	caisson	coffers (furniture)	
+pactols:pcrtc1Ueky7Zpg	skos:exactMatch	aat:300011286	semapv:UnspecifiedMatching	calcaire	limestone	
+pactols:pcrt887vr6FuSI	skos:exactMatch	aat:300043236	semapv:UnspecifiedMatching	calice	goblets	
+pactols:pcrtxS1kGjQJiw	skos:exactMatch	aat:300010047	semapv:UnspecifiedMatching	calvaire	Calvary crosses	
+pactols:pcrtIulke04wc7	skos:exactMatch	aat:300164117	semapv:UnspecifiedMatching	camp	army camps	
+pactols:pcrtIulke04wc7	skos:exactMatch	aat:300164117	semapv:UnspecifiedMatching	camp militaire	army camps	
+pactols:pcrtLf3Bt5nKRt	skos:exactMatch	aat:300229355	semapv:UnspecifiedMatching	campagne	rural areas	
+pactols:pcrtXGgQa70ZVU	skos:exactMatch	aat:300000476	semapv:UnspecifiedMatching	campement	military camps	
+pactols:pcrtu9P4MNQ4K8	skos:exactMatch	aat:300006075	semapv:UnspecifiedMatching	canal	canals (waterways)	
+pactols:pcrtgJvAbEFhK7	skos:exactMatch	aat:300052600	semapv:UnspecifiedMatching	canalisation	drainage piping	
+pactols:pcrtPN66ARBqe9	skos:exactMatch	aat:300265713	semapv:UnspecifiedMatching	canidé	Canidae (family)	
+pactols:pcrtqOAKgeSUj4	skos:closeMatch	aat:300006178	semapv:UnspecifiedMatching	caniveau	ditches	
+pactols:pcrtPpa488jnSS	skos:exactMatch	aat:300036936	semapv:UnspecifiedMatching	canon (arme)	cannons (artillery)	
+pactols:pcrtyFBX8RROW4	skos:exactMatch	aat:300250122	semapv:UnspecifiedMatching	caprinés	Capra (genus)	
+pactols:pcrttS5ToD19OK	skos:exactMatch	aat:300122265	semapv:UnspecifiedMatching	cardo	cardines	
+pactols:pcrtRi9at48zkM	skos:broadMatch	aat:300379414	semapv:UnspecifiedMatching	carpologie	paleobotany	
+pactols:pcrt019SSqbR7W	skos:exactMatch	aat:300379948	semapv:UnspecifiedMatching	carreau	tiles (object genre)	
+pactols:pcrtys3T4Y7Eub	skos:exactMatch	aat:300250799	semapv:UnspecifiedMatching	carreau de pavement	floor tile	
+pactols:pcrtEo3PgHE5z9	skos:exactMatch	aat:300052201	semapv:UnspecifiedMatching	carreau de poêle	stoves (heating equipment)	
+pactols:pcrt1rzVyAmprh	skos:exactMatch	aat:300003871	semapv:UnspecifiedMatching	carrefour	intersections	
+pactols:pcrtcz89Bsf1o7	skos:exactMatch	aat:300025047	semapv:UnspecifiedMatching	carrier	quarriers	
+pactols:pcrtXk6sdvTjnE	skos:exactMatch	aat:300000402	semapv:UnspecifiedMatching	carrière	quarries (extracting complexes)	
+pactols:pcrtXk6sdvTjnE	skos:exactMatch	aat:300000402	semapv:UnspecifiedMatching	carrière de pierre	quarries (extracting complexes)	
+pactols:pcrtO6qdXAHfh2	skos:broadMatch	aat:300028142	semapv:UnspecifiedMatching	carte archéologique	thematic maps	
+pactols:pcrtEbZ8WTILNS	skos:exactMatch	aat:300053163	semapv:UnspecifiedMatching	cartographie	cartography (discipline)	
+pactols:pcrtqsNPWjGG9u	skos:exactMatch	aat:300004824	semapv:UnspecifiedMatching	case	huts (houses)	
+pactols:pcrt2jYGlPYNTJ	skos:exactMatch	aat:300005665	semapv:UnspecifiedMatching	caserne	barracks	
+pactols:pcrtxZrGUp5b4N	skos:exactMatch	aat:300036794	semapv:UnspecifiedMatching	casque	helmets (protective wear)	
+pactols:pcrtdDETRlg6JV	skos:exactMatch	aat:300026059	semapv:UnspecifiedMatching	catalogue (documents)	catalogs	
+pactols:pcrtAhnxMt1kMc	skos:exactMatch	aat:300007501	semapv:UnspecifiedMatching	cathédrale	cathedrals (buildings)	
+pactols:pcrtoyLU25Xoz1	skos:exactMatch	aat:300212659	semapv:UnspecifiedMatching	cavalerie	cavalries	
+pactols:pcrtzDkqZHm1L4	skos:exactMatch	aat:300188602	semapv:UnspecifiedMatching	cavalier	equestrians	
+pactols:pcrtHcRTVDR1pt	skos:exactMatch	aat:300004759	semapv:UnspecifiedMatching	cave	cellars (storerooms)	
+pactols:pcrtew0pefj7au	skos:exactMatch	aat:300112480	semapv:UnspecifiedMatching	caveau	vaults (tomb spaces)	
+pactols:pcrtkXtNUEj0Mh	skos:exactMatch	aat:300210002	semapv:UnspecifiedMatching	ceinture	belts (costume accessories)	
+pactols:pcrt1cEhO3JsYc	skos:exactMatch	aat:300210007	semapv:UnspecifiedMatching	ceinturon	sword belts	
+pactols:pcrtSGWOGTgMp8	skos:exactMatch	aat:300185263	semapv:UnspecifiedMatching	cella	cellae	
+pactols:pcrt21NHh41vsK	skos:exactMatch	aat:300004499	semapv:UnspecifiedMatching	cellier	pantries	
+pactols:pcrt8eIQ0jLXjo	skos:exactMatch	aat:300007027	semapv:UnspecifiedMatching	cénotaphe	cenotaphs	
+pactols:pcrtJtBUSJRN9p	skos:broadMatch	aat:300055451	semapv:UnspecifiedMatching	centuriation	land subdivision	
+pactols:pcrt1DMOWvDF4j	skos:exactMatch	aat:300010666	semapv:UnspecifiedMatching	céramique	pottery (visual works)	
+pactols:pcrtBOEN87D6dV	skos:broadMatch	aat:300010666	semapv:UnspecifiedMatching	céramique (style)	pottery (visual works)	
+pactols:pcrt0oF1Z1HbOE	skos:broadMatch	aat:300140803	semapv:UnspecifiedMatching	céramique à glaçure plombifère	earthenware	
+pactols:pcrtFrREfvh9AM	skos:exactMatch	aat:300020118	semapv:UnspecifiedMatching	céramique attique	Attic (Mainland Greek pottery styles)	
+pactols:pcrtGYSdHhlaLw	skos:exactMatch	aat:300020176	semapv:UnspecifiedMatching	céramique campanienne	Campanian (pottery style)	
+pactols:pcrt5QORNkTKcN	skos:broadMatch	aat:300106854	semapv:UnspecifiedMatching	céramique campaniforme	Bell Beaker (culture or style)	
+pactols:pcrtezbc1vU2xS	skos:broadMatch	aat:300019332	semapv:UnspecifiedMatching	céramique cardiale	European Neolithic (culture or period)	
+pactols:pcrt1DUhJUxESm	skos:broadMatch	aat:300020764	semapv:UnspecifiedMatching	céramique carolingienne	Carolingian (culture or style)	
+pactols:pcrtwXWhESaWWb	skos:broadMatch	aat:300391512	semapv:UnspecifiedMatching	céramique celtibérique	Celtiberian (culture or style)	
+pactols:pcrtSkpgY7gQvj	skos:broadMatch	aat:300019273	semapv:UnspecifiedMatching	céramique chalcolithique	Chalcolithic	
+pactols:pcrtho8l95no0j	skos:broadMatch	aat:300244578	semapv:UnspecifiedMatching	céramique commune	ware	
+pactols:pcrt0iMD8sfiqe	skos:broadMatch	aat:300244578	semapv:UnspecifiedMatching	céramique de l'Eifel	ware	
+pactols:pcrtSp5zYRrOku	skos:broadMatch	aat:300019275	semapv:UnspecifiedMatching	céramique du bronze	Bronze Age	
+pactols:pcrt6VdPSiSDfs	skos:broadMatch	aat:300019279	semapv:UnspecifiedMatching	céramique du fer	Iron Age	
+pactols:pcrtu78zgTPSQH	skos:broadMatch	aat:300019368	semapv:UnspecifiedMatching	céramique du Hallstatt	Hallstatt (Bronze Age culture or period)	
+pactols:pcrtksXl4GziNh	skos:broadMatch	aat:300015111	semapv:UnspecifiedMatching	céramique engobée	engobe	
+pactols:pcrtkfqGqodvJq	skos:broadMatch	aat:300386019	semapv:UnspecifiedMatching	céramique gallo- belge	Belgic	
+pactols:pcrtRSkVB0xGL9	skos:broadMatch	aat:300020580	semapv:UnspecifiedMatching	céramique gallo- romaine	Gallo-Roman	
+pactols:pcrt1asKmbn9q8	skos:broadMatch	aat:300195111	semapv:UnspecifiedMatching	céramique glaçurée	pottery glazing (process or technique)	
+pactols:pcrtcowF6f5sa5	skos:exactMatch	aat:300020113	semapv:UnspecifiedMatching	céramique grecque	Greek pottery styles	
+pactols:pcrtAuIIhy2xSX	skos:broadMatch	aat:300020113	semapv:UnspecifiedMatching	céramique grecque orientale	Greek pottery styles	
+pactols:pcrt6TSwzVHjnE	skos:broadMatch	aat:300305500	semapv:UnspecifiedMatching	céramique ibérique	Iberian	
+pactols:pcrtYqRY0jHNjP	skos:broadMatch	aat:300020756	semapv:UnspecifiedMatching	céramique médiévale	Medieval (European)	
+pactols:pcrt1LnRlVnvq5	skos:broadMatch	aat:300019512	semapv:UnspecifiedMatching	céramique mérovingienne	Merovingian (culture or style)	
+pactols:pcrtr8bEOP6Lyh	skos:broadMatch	aat:300386511	semapv:UnspecifiedMatching	céramique métallescente	Rhenish	
+pactols:pcrtxhiROcXtaM	skos:exactMatch	aat:300111457	semapv:UnspecifiedMatching	céramique moderne	modern European ceramics styles	
+pactols:pcrtekRzBDVyGa	skos:exactMatch	aat:300263188	semapv:UnspecifiedMatching	céramique néolithique	Pottery Neolithic	
+pactols:pcrtK43haeM3e3	skos:broadMatch	aat:300387228	semapv:UnspecifiedMatching	céramique peinte	pottery paintings (visual works)	
+pactols:pcrt4StkSBEvk6	skos:broadMatch	aat:300019280	semapv:UnspecifiedMatching	céramique protohistorique	protohistoric	
+pactols:pcrtB9St4P5oUc	skos:exactMatch	aat:300107361	semapv:UnspecifiedMatching	céramique romaine	Roman pottery styles	
+pactols:pcrt5duB0NNdN6	skos:exactMatch	aat:300107826	semapv:UnspecifiedMatching	céramique rubanée	Linienbandkeramik (Neolithic culture and style)	
+pactols:pcrt7ON1SbYHuf	skos:exactMatch	aat:300107376	semapv:UnspecifiedMatching	céramique sigillée	Terra sigillata (pottery style)	
+pactols:pcrtXpeIEtqsSk	skos:broadMatch	aat:300054328	semapv:UnspecifiedMatching	céramologie	archaeology	
+pactols:pcrt1FD59O4eTz	skos:exactMatch	aat:300006998	semapv:UnspecifiedMatching	cercle de pierres	cromlechs	
+pactols:pcrtrJM9dwVgvI	skos:exactMatch	aat:300197585	semapv:UnspecifiedMatching	cercueil	coffins	
+pactols:pcrtos8skSB1bj	skos:broadMatch	aat:300343828	semapv:UnspecifiedMatching	céréale	Poaceae (family)	
+pactols:pcrtBWawwFyKfi	skos:exactMatch	aat:300310515	semapv:UnspecifiedMatching	cerf	Cervus (genus)	
+pactols:pcrte3arlcUhzY	skos:exactMatch	aat:300250308	semapv:UnspecifiedMatching	cervidé	Cervidae (family)	
+pactols:pcrt0fd4QNWbYI	skos:exactMatch	aat:300014625	semapv:UnspecifiedMatching	chaîne	chains (object genres)	
+pactols:pcrt0MrE8nfMfq	skos:broadMatch	aat:300077527	semapv:UnspecifiedMatching	chaîne opératoire (lithique)	manufacturing	
+pactols:pcrtWQl17aKWko	skos:exactMatch	aat:300139435	semapv:UnspecifiedMatching	chaise curule	curule chairs	
+pactols:pcrtbdJZ93Kiii	skos:exactMatch	aat:300004088	semapv:UnspecifiedMatching	chambre funéraire	burial chambers	
+pactols:pcrtZtKktLIqkU	skos:broadMatch	aat:300310440	semapv:UnspecifiedMatching	chamois	Bovidae (family)	
+pactols:pcrtWv2LKUDyjw	skos:exactMatch	aat:300014043	semapv:UnspecifiedMatching	chanvre	hemp (fiber)	
+pactols:pcrtWAzvDrstom	skos:exactMatch	aat:300264662	semapv:UnspecifiedMatching	chapelet	chaplets (rosaries)	
+pactols:pcrtXbnSYWENsu	skos:exactMatch	aat:300004590	semapv:UnspecifiedMatching	chapelle	chapels (rooms or structures)	
+pactols:pcrtfZeS5mp6jT	skos:exactMatch	aat:300001662	semapv:UnspecifiedMatching	chapiteau	capitals (column components)	
+pactols:pcrtGKX5Bwi4vU	skos:exactMatch	aat:300212699	semapv:UnspecifiedMatching	char	chariots (ancient vehicles)	
+pactols:pcrtsrWeYcRkNg	skos:exactMatch	aat:300015149	semapv:UnspecifiedMatching	charbon	coal	
+pactols:pcrt4GtjAItlOn	skos:exactMatch	aat:300012864	semapv:UnspecifiedMatching	charbon de bois	wood charcoal	
+pactols:pcrtS7x7vmVqmp	skos:broadMatch	aat:300000396	semapv:UnspecifiedMatching	charbonnière	coal mines	
+pactols:pcrtMgKMJJ3DRJ	skos:exactMatch	aat:300219531	semapv:UnspecifiedMatching	chariot	chariots (carriages)	
+pactols:pcrt9iomb1d1EJ	skos:exactMatch	aat:300379107	semapv:UnspecifiedMatching	charité	charity (philosophical concept)	
+pactols:pcrttiIzxZEiqB	skos:broadMatch	aat:300002382	semapv:UnspecifiedMatching	charpente	roof frame components	
+pactols:pcrtZk4KDjdyYZ	skos:exactMatch	aat:300000650	semapv:UnspecifiedMatching	chartreuse	charterhouses	
+pactols:pcrtcoV2DHQBSp	skos:exactMatch	aat:300239666	semapv:UnspecifiedMatching	chasse	hunting	
+pactols:pcrtk8SafaOAjq	skos:exactMatch	aat:300025619	semapv:UnspecifiedMatching	chasseur	hunters (people)	
+pactols:pcrtWt1GTT1T0b	skos:exactMatch	aat:300391448	semapv:UnspecifiedMatching	chasseur-cueilleur	hunter-gatherer (early cultures)	
+pactols:pcrtBEscNJUhBp	skos:exactMatch	aat:300265960	semapv:UnspecifiedMatching	chat	Felis domesticus (species)	
+pactols:pcrtRFSvuXH6BD	skos:exactMatch	aat:300006891	semapv:UnspecifiedMatching	château	castles (fortifications)	
+pactols:pcrtSILWSJO1yW	skos:exactMatch	aat:300006204	semapv:UnspecifiedMatching	château d'eau	water towers	
+pactols:pcrt8AQJzm2L6E	skos:exactMatch	aat:300400701	semapv:UnspecifiedMatching	château-fort	motte-and-bailey castles	
+pactols:pcrtMchkJ5TnEz	skos:exactMatch	aat:300196395	semapv:UnspecifiedMatching	chaudron	cauldrons	
+pactols:pcrtVLnKfPwHqV	skos:exactMatch	aat:300051479	semapv:UnspecifiedMatching	chauffage	heating systems	
+pactols:pcrt9mMcUmpjLn	skos:exactMatch	aat:300008231	semapv:UnspecifiedMatching	chaussée	causeways	
+pactols:pcrtnLNKkJozdp	skos:exactMatch	aat:300046065	semapv:UnspecifiedMatching	chaussure	shoes (footwear)	
+pactols:pcrtERMm8Q0wYw	skos:exactMatch	aat:300011736	semapv:UnspecifiedMatching	chaux	calcium oxide	
+pactols:pcrtijLWlSgWtZ	skos:exactMatch	aat:300008591	semapv:UnspecifiedMatching	chemin de fer	railroads (infrastructure)	
+pactols:pcrt6clF510Il1	skos:exactMatch	aat:300052347	semapv:UnspecifiedMatching	cheminée	mantels (fireplace components)	
+pactols:pcrtRfS52nulqt	skos:exactMatch	aat:300008713	semapv:UnspecifiedMatching	chenal	channels (water bodies)	
+pactols:pcrtviptY11HzO	skos:exactMatch	aat:300161848	semapv:UnspecifiedMatching	chenet	andirons	
+pactols:pcrt6i8AcPBoY2	skos:exactMatch	aat:300250148	semapv:UnspecifiedMatching	cheval	Equus caballus (species)	
+pactols:pcrt7117G28hkK	skos:exactMatch	aat:300004606	semapv:UnspecifiedMatching	chevet	chevets (building spaces)	
+pactols:pcrt3jcrAaRENB	skos:exactMatch	aat:300250122	semapv:UnspecifiedMatching	chèvre	Capra (genus)	
+pactols:pcrt4v7jKE3TVw	skos:exactMatch	aat:300250130	semapv:UnspecifiedMatching	chien	Canis familiaris (species)	
+pactols:pcrtTsFUpot5O5	skos:exactMatch	aat:300054537	semapv:UnspecifiedMatching	chimie	chemistry	
+pactols:pcrtWG6u3Ahkgo	skos:exactMatch	aat:300004565	semapv:UnspecifiedMatching	choeur	chancels	
+pactols:pcrt1zp23TEHfU	skos:exactMatch	aat:300400610	semapv:UnspecifiedMatching	chopper	choppers (prehistoric cutting tools)	
+pactols:pcrtYYTljnV8Gy	skos:exactMatch	aat:300265211	semapv:UnspecifiedMatching	chrisme	chrism	
+pactols:pcrtzxSy7iiww6	skos:broadMatch	aat:300073711	semapv:UnspecifiedMatching	christianisation	Christianity	
+pactols:pcrtymoUAauQMy	skos:exactMatch	aat:300056104	semapv:UnspecifiedMatching	chronologie	chronology (discipline)	
+pactols:pcrtNEVqOIPqzo	skos:broadMatch	aat:300192073	semapv:UnspecifiedMatching	chronostratigraphie	stratigraphy	
+pactols:pcrtsIm3RuNMGu	skos:exactMatch	aat:300000372	semapv:UnspecifiedMatching	cimetière	necropolises	
+pactols:pcrtSDmqv2zljj	skos:exactMatch	aat:300008170	semapv:UnspecifiedMatching	cimetière paroissial	churchyards	
+pactols:pcrtZoPEeqKhas	skos:exactMatch	aat:300006963	semapv:UnspecifiedMatching	cippe	cippi	
+pactols:pcrtmuXmeNbXty	skos:broadMatch	aat:300037316	semapv:UnspecifiedMatching	circulation monétaire	money	
+pactols:pcrtBo1yLBvJKu	skos:exactMatch	aat:300007255	semapv:UnspecifiedMatching	cirque	circuses (Roman arenas)	
+pactols:pcrt9ftu0VRlXm	skos:exactMatch	aat:300024665	semapv:UnspecifiedMatching	ciseau	chisels	
+pactols:pcrthX8XjMG2wX	skos:exactMatch	aat:300400723	semapv:UnspecifiedMatching	ciste	cistae (toiletry containers)	
+pactols:pcrtA56TqYxlPi	skos:exactMatch	aat:300148071	semapv:UnspecifiedMatching	Cisterciens	Cistercian	
+pactols:pcrt6UZ1B610j3	skos:exactMatch	aat:300006902	semapv:UnspecifiedMatching	citadelle	citadels	
+pactols:pcrtyXVLlmyt3F	skos:exactMatch	aat:300006203	semapv:UnspecifiedMatching	citerne	water tanks	
+pactols:pcrtvzl3HUp31m	skos:exactMatch	aat:300234611	semapv:UnspecifiedMatching	cité-ville	city-states	
+pactols:pcrteG5tTLXN3T	skos:exactMatch	aat:300011888	semapv:UnspecifiedMatching	clayonnage	wattle (building materials)	
+pactols:pcrtnDoiMB7bXc	skos:exactMatch	aat:300251159	semapv:UnspecifiedMatching	clé	keys (adjusting equipment)	
+pactols:pcrtr2LIg20u6S	skos:exactMatch	aat:300055322	semapv:UnspecifiedMatching	climat	climate	
+pactols:pcrtqj3vNw55Df	skos:exactMatch	aat:300379447	semapv:UnspecifiedMatching	climatologie	climatology	
+pactols:pcrtWNdQjwi6Lv	skos:exactMatch	aat:300041872	semapv:UnspecifiedMatching	cloche	bells (idiophones)	
+pactols:pcrtAeeFSDMwi7	skos:exactMatch	aat:300004848	semapv:UnspecifiedMatching	clocher	bell towers	
+pactols:pcrtSIJ8VYglZv	skos:exactMatch	aat:300002538	semapv:UnspecifiedMatching	cloison	partitions (interior walls)	
+pactols:pcrtug0BSh8Km8	skos:exactMatch	aat:300007423	semapv:UnspecifiedMatching	cloître	cloisters	
+pactols:pcrtMbtcPfoUvx	skos:exactMatch	aat:300033565	semapv:UnspecifiedMatching	clou	nails (fasteners)	
+pactols:pcrtRZ0ne3nzWk	skos:exactMatch	aat:300215543	semapv:UnspecifiedMatching	coffre	trunks (containers)	
+pactols:pcrtGxQqPzwTU7	skos:broadMatch	aat:300215543	semapv:UnspecifiedMatching	coffre en bois	trunks (containers)	
+pactols:pcrttj5t8ZRTvk	skos:broadMatch	aat:300215543	semapv:UnspecifiedMatching	coffre en pierre	trunks (containers)	
+pactols:pcrt1ZRzwFzjxD	skos:exactMatch	aat:300039119	semapv:UnspecifiedMatching	coffret	coffers (furniture)	
+pactols:pcrtaOHvUS4rT6	skos:exactMatch	aat:300192948	semapv:UnspecifiedMatching	collagène	collagen	
+pactols:pcrtgvESXelz5D	skos:exactMatch	aat:300046001	semapv:UnspecifiedMatching	collier	necklaces	
+pactols:pcrtgg4KWVZk74	skos:broadMatch	aat:300379424	semapv:UnspecifiedMatching	colluvion	sediment	
+pactols:pcrtayUfKeMPjk	skos:exactMatch	aat:300125479	semapv:UnspecifiedMatching	colombage	half-timber construction	
+pactols:pcrt5p3bwgIHaR	skos:exactMatch	aat:300002613	semapv:UnspecifiedMatching	colonnade	colonnades	
+pactols:pcrtbhNbSIzWXG	skos:exactMatch	aat:300001571	semapv:UnspecifiedMatching	colonne	columns (architectural elements)	
+pactols:pcrtHgXylM0gkU	skos:exactMatch	aat:300007008	semapv:UnspecifiedMatching	colonne monumentale	memorial columns	
+pactols:pcrtJ8FyJDGMvS	skos:exactMatch	aat:300047453	semapv:UnspecifiedMatching	colosse	colossi	
+pactols:pcrtIlQ85rFA17	skos:exactMatch	aat:300000370	semapv:UnspecifiedMatching	columbarium	columbaria (cemeteries)	
+pactols:pcrt5EjiIPAc1X	skos:exactMatch	aat:300185692	semapv:UnspecifiedMatching	combat	battles	
+pactols:pcrtO40ZLI4giK	skos:exactMatch	aat:300015139	semapv:UnspecifiedMatching	combustible	fuel	
+pactols:pcrt7BMlTX2YhF	skos:exactMatch	aat:300235537	semapv:UnspecifiedMatching	commanderie	commanderies	
+pactols:pcrthOtrQhBIUG	skos:exactMatch	aat:300061886	semapv:UnspecifiedMatching	commerce	trade (function)	
+pactols:pcrtuqSj7zzidD	skos:broadMatch	aat:300061886	semapv:UnspecifiedMatching	commerce fluvial	trade (function)	
+pactols:pcrtKPKSRRMdbB	skos:broadMatch	aat:300192630	semapv:UnspecifiedMatching	communauté	groups of people	
+pactols:pcrtgJvAbEFhK7	skos:exactMatch	aat:300006175	semapv:UnspecifiedMatching	conduite d'eau	conduits (water distribution structures)	
+pactols:pcrtYz27Ka1xtv	skos:broadMatch	aat:300054508	semapv:UnspecifiedMatching	confection des routes	traffic engineering	
+pactols:pcrtWe1U0gnsaJ	skos:exactMatch	aat:300158836	semapv:UnspecifiedMatching	confort	comfort (sensation)	
+pactols:pcrtbSfKuoqH7L	skos:broadMatch	aat:300266154	semapv:UnspecifiedMatching	conservation d'aliments	preserving	
+pactols:pcrtJMg7QSeeGX	skos:exactMatch	aat:300379385	semapv:UnspecifiedMatching	conservation de site	site protection	
+pactols:pcrtyP7Ep8O22X	skos:broadMatch	aat:300266154	semapv:UnspecifiedMatching	conservation des matières végétales	preserving	
+pactols:pcrteFHjryOQqT	skos:broadMatch	aat:300229399	semapv:UnspecifiedMatching	conservation du bois	preventive conservation	
+pactols:pcrtFQKZJWgr7c	skos:broadMatch	aat:300229399	semapv:UnspecifiedMatching	conservation du métal	preventive conservation	
+pactols:pcrtRXhdi4O5ST	skos:closeMatch	aat:300054238	semapv:UnspecifiedMatching	conservation- restauration	conservation (discipline)	
+pactols:pcrtM9HMWQTGJV	skos:exactMatch	aat:300054608	semapv:UnspecifiedMatching	construction	construction (assembling)	
+pactols:pcrt6htVOpKXb1	skos:exactMatch	aat:300247448	semapv:UnspecifiedMatching	construction navale	shipbuilding	
+pactols:pcrtM9HMWQTGJV	skos:exactMatch	aat:300054608	semapv:UnspecifiedMatching	construction technique	construction (assembling)	
+pactols:pcrt6Bxd07j7Ni	skos:exactMatch	aat:300025461	semapv:UnspecifiedMatching	consulat	consuls	
+pactols:pcrt0Ffns3pZ28	skos:exactMatch	aat:300379448	semapv:UnspecifiedMatching	coprolithe	coprolites	
+pactols:pcrtnqXmXqlSQi	skos:exactMatch	aat:300250039	semapv:UnspecifiedMatching	coq	cocks (birds)	
+pactols:pcrt6G1VlWyHN9	skos:broadMatch	aat:300196368	semapv:UnspecifiedMatching	coquemar	boilers (vessels)	
+pactols:pcrtUDM5NvfJZ1	skos:exactMatch	aat:300011829	semapv:UnspecifiedMatching	coquillage	shell (animal material)	
+pactols:pcrt7ySVpWQ2aW	skos:exactMatch	aat:300191893	semapv:UnspecifiedMatching	coquille	eggshell (animal material)	
+pactols:pcrtknhh7n1sa3	skos:exactMatch	aat:300011800	semapv:UnspecifiedMatching	corail	coral (material)	
+pactols:pcrtva7NUywIgB	skos:exactMatch	aat:300250041	semapv:UnspecifiedMatching	corbeau	crows (birds)	
+pactols:pcrtBOi4SRNxSG	skos:exactMatch	aat:300006259	semapv:UnspecifiedMatching	corderie	roperies	
+pactols:pcrtyBKU8jSiGp	skos:broadMatch	aat:300136719	semapv:UnspecifiedMatching	cordonnerie	cobblers	
+pactols:pcrtU6YoUalie6	skos:exactMatch	aat:300011826	semapv:UnspecifiedMatching	corne	horn (animal material)	
+pactols:pcrtKoEikI0iIm	skos:exactMatch	aat:300001788	semapv:UnspecifiedMatching	corniche	cornices	
+pactols:pcrt0SEeMmB4DY	skos:exactMatch	aat:300311737	semapv:UnspecifiedMatching	corpus	corpora (writings)	
+pactols:pcrtyn2aQ6ANE7	skos:exactMatch	aat:300299206	semapv:UnspecifiedMatching	cotte de mailles	shirts of mail	
+pactols:pcrtu5RUM9S618	skos:exactMatch	aat:300080438	semapv:UnspecifiedMatching	couleur	colors (hues or tints)	
+pactols:pcrt1V2ynr1VqP	skos:exactMatch	aat:300043202	semapv:UnspecifiedMatching	coupe	cups (drinking vessels)	
+pactols:pcrtQrOmSJ1e0j	skos:broadMatch	aat:300203596	semapv:UnspecifiedMatching	coupelle	bowls (vessels)	
+pactols:pcrtbFJDzRUZx0	skos:exactMatch	aat:300004095	semapv:UnspecifiedMatching	cour	courtyards	
+pactols:pcrtQPGouseprK	skos:exactMatch	aat:300046020	semapv:UnspecifiedMatching	couronne	crowns (headdresses)	
+pactols:pcrtWJqx3qlw07	skos:exactMatch	aat:300387091	semapv:UnspecifiedMatching	cours d'eau	watercourses	
+pactols:pcrtRV35MASQWr	skos:exactMatch	aat:300002504	semapv:UnspecifiedMatching	courtine (fortification elements)	curtain walls	
+pactols:pcrtSUUdPW04Ht	skos:exactMatch	aat:300024668	semapv:UnspecifiedMatching	couteau	knives	
+pactols:pcrtiKtUQlaS7p	skos:broadMatch	aat:300024668	semapv:UnspecifiedMatching	couteau à dos	knives	
+pactols:pcrtqLkW2z3SmU	skos:exactMatch	aat:300000635	semapv:UnspecifiedMatching	couvent	convents (built complexes)	
+pactols:pcrtvVXzQsUsKN	skos:exactMatch	aat:300014897	semapv:UnspecifiedMatching	couverture	roofing	
+pactols:pcrtc4Qh2dBShL	skos:exactMatch	aat:300205009	semapv:UnspecifiedMatching	couvrement	coverings	
+pactols:pcrtGAyvyEsZJE	skos:exactMatch	aat:300191856	semapv:UnspecifiedMatching	crâne	skulls (skeleton components)	
+pactols:pcrtMoabnLELjx	skos:exactMatch	aat:300198855	semapv:UnspecifiedMatching	cratère	kraters	
+pactols:pcrttBIxHKUw54	skos:exactMatch	aat:300266356	semapv:UnspecifiedMatching	crémation	cremations	
+pactols:pcrtB8TJ1UZKdW	skos:exactMatch	aat:300196462	semapv:UnspecifiedMatching	creuset	crucibles	
+pactols:pcrtc2SkvG29we	skos:broadMatch	aat:300011152	semapv:UnspecifiedMatching	cristal de roche	quartz crystal	
+pactols:pcrtHEc4SsdjMV	skos:exactMatch	aat:300033537	semapv:UnspecifiedMatching	crochet	hooks (fasteners)	
+pactols:pcrtPru6hdcx4X	skos:exactMatch	aat:300010044	semapv:UnspecifiedMatching	croix	crosses (motifs)	
+pactols:pcrtq20N5kcw0H	skos:exactMatch	aat:300045685	semapv:UnspecifiedMatching	cruche	jugs (vessels)	
+pactols:pcrtmdJdxASSdo	skos:exactMatch	aat:300248835	semapv:UnspecifiedMatching	crucifix	crucifixes	
+pactols:pcrtvxa2xrJNyN	skos:exactMatch	aat:300054731	semapv:UnspecifiedMatching	crue	floods (natural events)	
+pactols:pcrtqdEo1gq2xN	skos:exactMatch	aat:300310469	semapv:UnspecifiedMatching	crustacé	Crustacea (subphylum)	
+pactols:pcrtS7gEQ2LkNm	skos:broadMatch	aat:300379586	semapv:UnspecifiedMatching	cryoturbation	sedimentology	
+pactols:pcrtW9wgN3Gdgb	skos:exactMatch	aat:300004618	semapv:UnspecifiedMatching	crypte	crypts	
+pactols:pcrte5XIxMr7kD	skos:exactMatch	aat:300004295	semapv:UnspecifiedMatching	cryptoportique	cryptoportici	
+pactols:pcrttXcbeWGloc	skos:exactMatch	aat:300043149	semapv:UnspecifiedMatching	cuiller	spoons	
+pactols:pcrtPIeXclbVBy	skos:exactMatch	aat:300375704	semapv:UnspecifiedMatching	cuiller à fard	cosmetic spoons	
+pactols:pcrttXcbeWGloc	skos:exactMatch	aat:300043149	semapv:UnspecifiedMatching	cuillère	spoons	
+pactols:pcrtn5zR6bBN39	skos:exactMatch	aat:300011845	semapv:UnspecifiedMatching	cuir	leather	
+pactols:pcrtAWMnNe4Z2N	skos:closeMatch	aat:300200422	semapv:UnspecifiedMatching	cuisine	cooking and heating devices	
+pactols:pcrtx3wq2lIxhn	skos:broadMatch	aat:300053887	semapv:UnspecifiedMatching	cuisson de l'argile	firing (technique)	
+pactols:pcrt16pnvNar4g	skos:exactMatch	aat:300011020	semapv:UnspecifiedMatching	cuivre	copper (metal)	
+pactols:pcrt16pnvNar4g	skos:exactMatch	aat:300011020	semapv:UnspecifiedMatching	cuivre (métal)	copper (metal)	
+pactols:pcrtfvIQbnsSeS	skos:broadMatch	aat:300011790	semapv:UnspecifiedMatching	culot	slag	
+pactols:pcrtvpycooDOIf	skos:broadMatch	aat:300056005	semapv:UnspecifiedMatching	culte domestique	worship	
+pactols:pcrttI5ov3DsHu	skos:broadMatch	aat:300056005	semapv:UnspecifiedMatching	culte privé	worship	
+pactols:pcrtVIebDXVNhS	skos:exactMatch	aat:300251847	semapv:UnspecifiedMatching	cultes	cults (group or movement)	
+pactols:pcrtuQw1K0XBDB	skos:exactMatch	aat:300055768	semapv:UnspecifiedMatching	Culture	culture	
+pactols:pcrtdBIOgAhPJO	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	culture en terrasse	agriculture	
+pactols:pcrtPgxTqDMay5	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	culture extensive	agriculture	
+pactols:pcrt5xGjt3dGdR	skos:broadMatch	aat:300054512	semapv:UnspecifiedMatching	culture fruitière	horticulture	
+pactols:pcrtB5MOlwoFbc	skos:exactMatch	aat:300400799	semapv:UnspecifiedMatching	cupule	dents (condition)	
+pactols:pcrt4UwtOmnUDx	skos:exactMatch	aat:300194541	semapv:UnspecifiedMatching	cuve	vats (containers)	
+pactols:pcrtJkLW2h0FJh	skos:exactMatch	aat:300194541	semapv:UnspecifiedMatching	cuve (structure)	vats (containers)	
+pactols:pcrtQawWpG1Vw9	skos:exactMatch	aat:300206700	semapv:UnspecifiedMatching	cuve à vin	tuns (casks)	
+pactols:pcrtqGEHFEakqA	skos:exactMatch	aat:300053677	semapv:UnspecifiedMatching	dallage	paving	
+pactols:pcrtX6hgStZS6S	skos:exactMatch	aat:300011687	semapv:UnspecifiedMatching	dalle	flagstone	
+pactols:pcrtSZdQ2VTs2k	skos:exactMatch	aat:300005923	semapv:UnspecifiedMatching	dalle funéraire	tombstones (sepulchral monuments)	
+pactols:pcrtySvUnoT58R	skos:exactMatch	aat:300054019	semapv:UnspecifiedMatching	damasquinure	damascening	
+pactols:pcrtpSis9hZLUb	skos:exactMatch	aat:300054714	semapv:UnspecifiedMatching	datation	dating (measuring)	
+pactols:pcrtTnlurfPgFb	skos:closeMatch	aat:300054717	semapv:UnspecifiedMatching	datation isotopique	radioactive dating	
+pactols:pcrthhW88JhtBR	skos:exactMatch	aat:300211084	semapv:UnspecifiedMatching	dé	dice	
+pactols:pcrthhW88JhtBR	skos:exactMatch	aat:300211084	semapv:UnspecifiedMatching	dé à jouer	dice	
+pactols:pcrtz2Jazv9paI	skos:exactMatch	aat:300265125	semapv:UnspecifiedMatching	débitage	debitage	
+pactols:pcrtyOZbSEvnZv	skos:broadMatch	aat:300265125	semapv:UnspecifiedMatching	débitage de l'os	debitage	
+pactols:pcrtlpADryiiAo	skos:broadMatch	aat:300265125	semapv:UnspecifiedMatching	débitage laminaire	debitage	
+pactols:pcrtx7FboGFtuA	skos:exactMatch	aat:300379186	semapv:UnspecifiedMatching	décapitation	beheadings	
+pactols:pcrtccdy3tjhVx	skos:exactMatch	aat:300234585	semapv:UnspecifiedMatching	décharnement	fleshing	
+pactols:pcrtOKKafduvWE	skos:broadMatch	aat:300022774	semapv:UnspecifiedMatching	décor à la molette	roulettes (engraving tools)	
+pactols:pcrtd1J2aYQ6GE	skos:exactMatch	aat:300000885	semapv:UnspecifiedMatching	décor architectural	architectural elements	
+pactols:pcrtcyGHMfulla	skos:broadMatch	aat:300378993	semapv:UnspecifiedMatching	décor funéraire	funeral decorations	
+pactols:pcrtt6GJP0WaaM	skos:broadMatch	aat:300053829	semapv:UnspecifiedMatching	décor incisé	engraving (action)	
+pactols:pcrtmZ7gZV6UUA	skos:broadMatch	aat:300054216	semapv:UnspecifiedMatching	décor peint	painting (image- making)	
+pactols:pcrtIG9aOhEUaq	skos:broadMatch	aat:300054394	semapv:UnspecifiedMatching	découverte ancienne	history (discipline)	
+pactols:pcrtQKxf8QNzai	skos:exactMatch	aat:300008264	semapv:UnspecifiedMatching	decumanus	decumani	
+pactols:pcrt58UKFWmOvV	skos:broadMatch	aat:300028702	semapv:UnspecifiedMatching	dédicace	inscriptions	
+pactols:pcrtKcRc2Lo2d8	skos:broadMatch	aat:300343852	semapv:UnspecifiedMatching	déesse-mère	goddesses	
+pactols:pcrtoBSSWiOt51	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	défense	wars	
+pactols:pcrtzb0P2rTokq	skos:exactMatch	aat:300254446	semapv:UnspecifiedMatching	déforestation	deforestation	
+pactols:pcrtn03SMTS5Bw	skos:broadMatch	aat:300191856	semapv:UnspecifiedMatching	déformation crânienne	skulls (skeleton components)	
+pactols:pcrtHrDifszoxy	skos:closeMatch	aat:300068034	semapv:UnspecifiedMatching	défrichement	reclamation	
+pactols:pcrtWANqEEARhN	skos:exactMatch	aat:300379577	semapv:UnspecifiedMatching	dégraissant	degreasing	
+pactols:pcrtZd0FGOZwl3	skos:exactMatch	aat:300054357	semapv:UnspecifiedMatching	démographie	demography	
+pactols:pcrtYgu4jWtWru	skos:exactMatch	aat:300054715	semapv:UnspecifiedMatching	dendrochronologie	dendrochronology	
+pactols:pcrt1SyNG9SDq7	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	dendrologie	botany	
+pactols:pcrtmKHYJPrErU	skos:exactMatch	aat:300037266	semapv:UnspecifiedMatching	denier	denarii	
+pactols:pcrthA4kIWMu84	skos:exactMatch	aat:300400467	semapv:UnspecifiedMatching	dent	teeth (animal components)	
+pactols:pcrtrXrWfiRYvF	skos:exactMatch	aat:300400630	semapv:UnspecifiedMatching	denticulé	denticulates	
+pactols:pcrtsfaiAjXLxV	skos:exactMatch	aat:300235114	semapv:UnspecifiedMatching	dépendance	dependencies	
+pactols:pcrts62Z2hl4ux	skos:exactMatch	aat:300264846	semapv:UnspecifiedMatching	dépôt	deposit	
+pactols:pcrt9dsMs2oJvc	skos:closeMatch	aat:300180706	semapv:UnspecifiedMatching	dépôt funéraire	grave goods	
+pactols:pcrtFo4Z6QHtST	skos:broadMatch	aat:300263243	semapv:UnspecifiedMatching	dépôt sacrificiel	sacrifices	
+pactols:pcrteJiI6BxaFN	skos:closeMatch	aat:300000824	semapv:UnspecifiedMatching	dépotoir	dumps (refuse areas)	
+pactols:pcrtaBp5noBj31	skos:broadMatch	aat:300387474	semapv:UnspecifiedMatching	dérivée de sigillée paléochrétienne	terra sigillata chiara	
+pactols:pcrtzmgVgArOJh	skos:exactMatch	aat:300033973	semapv:UnspecifiedMatching	dessin	drawings (visual works)	
+pactols:pcrtcWtmlzv64Z	skos:exactMatch	aat:300053087	semapv:UnspecifiedMatching	destruction	destruction	
+pactols:pcrtp0Q1N38DIe	skos:closeMatch	aat:300137572	semapv:UnspecifiedMatching	détention	imprisonment	
+pactols:pcrtHOoY2ss1a1	skos:exactMatch	aat:300013808	semapv:UnspecifiedMatching	diatomée	diatomaceous earth	
+pactols:pcrtGhrS5rJcNl	skos:exactMatch	aat:300170882	semapv:UnspecifiedMatching	digue	dikes	
+pactols:pcrtSaGSlaA4NM	skos:exactMatch	aat:300137858	semapv:UnspecifiedMatching	dîme	tithing	
+pactols:pcrtH3R3xTfVO7	skos:broadMatch	aat:300389809	semapv:UnspecifiedMatching	disposition du corps	dead (people)	
+pactols:pcrtrUSkK6SQjU	skos:exactMatch	aat:300251427	semapv:UnspecifiedMatching	disque	disks (object genres)	
+pactols:pcrtOIoML6YqHd	skos:broadMatch	aat:300343850	semapv:UnspecifiedMatching	divinités romaines	deities	
+pactols:pcrtfcf82N0J8s	skos:exactMatch	aat:300055451	semapv:UnspecifiedMatching	division des terres	land subdivision	
+pactols:pcrtSKcTSyd4bv	skos:exactMatch	aat:300026685	semapv:UnspecifiedMatching	documentation	records (documents)	
+pactols:pcrt3sb7lFIENf	skos:broadMatch	aat:300072513	semapv:UnspecifiedMatching	dodécaèdre	polyhedra	
+pactols:pcrtrmZTScioB8	skos:exactMatch	aat:300400601	semapv:UnspecifiedMatching	dolium	doliums	
+pactols:pcrt0Krn6QJlhU	skos:closeMatch	aat:300005934	semapv:UnspecifiedMatching	dolmen	megalithic chamber tombs	
+pactols:pcrt2JN6b2iw50	skos:broadMatch	aat:300254388	semapv:UnspecifiedMatching	domestication	animal husbandry	
+pactols:pcrtbNUNRnBldV	skos:exactMatch	aat:300148084	semapv:UnspecifiedMatching	Dominicains	Dominican (monastic order)	
+pactols:pcrtBTWy6SwZAu	skos:exactMatch	aat:300005506	semapv:UnspecifiedMatching	domus	domus	
+pactols:pcrtOQj6KuEbn2	skos:exactMatch	aat:300003694	semapv:UnspecifiedMatching	donjon	keeps	
+pactols:pcrtIBBzDtHASy	skos:exactMatch	aat:300005998	semapv:UnspecifiedMatching	douane	customhouses	
+pactols:pcrtOdfSnOQY3v	skos:exactMatch	aat:300003716	semapv:UnspecifiedMatching	douve	moats	
+pactols:pcrtVttMRLTroY	skos:exactMatch	aat:300053705	semapv:UnspecifiedMatching	dragage	dredging	
+pactols:pcrtthlTfnSHQp	skos:closeMatch	aat:300052600	semapv:UnspecifiedMatching	drain	drainage piping	
+pactols:pcrt2WF3gcWDUM	skos:exactMatch	aat:300055199	semapv:UnspecifiedMatching	drainage	drainage	
+pactols:pcrtJYawSTtElG	skos:exactMatch	aat:300011772	semapv:UnspecifiedMatching	eau	water (inorganic material)	
+pactols:pcrtnnO5LEtmht	skos:exactMatch	aat:300015617	semapv:UnspecifiedMatching	ébauche	sketches	
+pactols:pcrtZpexgdVakQ	skos:exactMatch	aat:300387350	semapv:UnspecifiedMatching	échange	exchange media (objects)	
+pactols:pcrtdfsZ3abSZh	skos:exactMatch	aat:300379429	semapv:UnspecifiedMatching	échantillonnage	sampling	
+pactols:pcrt3SWbm6EV00	skos:exactMatch	aat:300051944	semapv:UnspecifiedMatching	éclairage	lighting	
+pactols:pcrtlm6QHV1rJx	skos:exactMatch	aat:300265137	semapv:UnspecifiedMatching	éclat	flakes (object genre)	
+pactols:pcrthaIQSu4FM1	skos:exactMatch	aat:300266108	semapv:UnspecifiedMatching	école	schools (institutions)	
+pactols:pcrt1urpl6axh0	skos:exactMatch	aat:300054468	semapv:UnspecifiedMatching	écologie	ecology	
+pactols:pcrtFlZ2UyH7Bb	skos:exactMatch	aat:300389790	semapv:UnspecifiedMatching	économie (faits)	economy	
+pactols:pcrth0UcAMjUf4	skos:broadMatch	aat:300389790	semapv:UnspecifiedMatching	économie de subsistance	economy	
+pactols:pcrtZM8iFRO4Tu	skos:exactMatch	aat:300042964	semapv:UnspecifiedMatching	écuelle	porringers (dishes)	
+pactols:pcrtBB0V7eYSQ2	skos:exactMatch	aat:300005015	semapv:UnspecifiedMatching	écurie	stables (animal housing)	
+pactols:pcrtc4giwkfkYt	skos:exactMatch	aat:300002574	semapv:UnspecifiedMatching	édicule	aedicules	
+pactols:pcrtDpSNLz1mSr	skos:closeMatch	aat:300054608	semapv:UnspecifiedMatching	édification	construction (assembling)	
+pactols:pcrtDlzbGxWvTo	skos:exactMatch	aat:300004792	semapv:UnspecifiedMatching	édifice	buildings (structures)	
+pactols:pcrtbza1yQv2Rr	skos:exactMatch	aat:300005866	semapv:UnspecifiedMatching	édifice funéraire	funerary buildings	
+pactols:pcrt4HEc49rMp7	skos:exactMatch	aat:300008059	semapv:UnspecifiedMatching	édifice public	public buildings (governmental buildings)	
+pactols:pcrt30jRVudWjq	skos:exactMatch	aat:300007391	semapv:UnspecifiedMatching	édifice religieux	religious buildings	
+pactols:pcrtoV7zLJpAfX	skos:exactMatch	aat:300007466	semapv:UnspecifiedMatching	église	churches (buildings)	
+pactols:pcrtyBdN76zI6i	skos:exactMatch	aat:300006122	semapv:UnspecifiedMatching	égout	sewers (drainage structures)	
+pactols:pcrt6d15xRmV8x	skos:exactMatch	aat:300010965	semapv:UnspecifiedMatching	électrum	electrum	
+pactols:pcrtd1J2aYQ6GE	skos:exactMatch	aat:300000885	semapv:UnspecifiedMatching	élément architectural	architectural elements	
+pactols:pcrtApx02AU6ap	skos:broadMatch	aat:300212699	semapv:UnspecifiedMatching	élément de char	chariots (ancient vehicles)	
+pactols:pcrth4ik1YqDS1	skos:exactMatch	aat:300250160	semapv:UnspecifiedMatching	éléphant	Elephantidae (family)	
+pactols:pcrtFQ469T1itu	skos:exactMatch	aat:300254388	semapv:UnspecifiedMatching	élevage	animal husbandry	
+pactols:pcrt2awJbSfO2O	skos:broadMatch	aat:300254388	semapv:UnspecifiedMatching	élevage (type)	animal husbandry	
+pactols:pcrthr1ylBhyBN	skos:closeMatch	aat:300014706	semapv:UnspecifiedMatching	empierrement	ballast (aggregate)	
+pactols:pcrthDc9XXlpPU	skos:broadMatch	aat:300380299	semapv:UnspecifiedMatching	empreinte animale	ichnology	
+pactols:pcrtRshWtjD9Qm	skos:exactMatch	aat:300263476	semapv:UnspecifiedMatching	empreinte de pied	footprints (foot impressions)	
+pactols:pcrtSAoSja0235	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	empreinte végétale	botany	
+pactols:pcrt321qD4sfeM	skos:closeMatch	aat:300100558	semapv:UnspecifiedMatching	enceinte	boundary walls	
+pactols:pcrto2Udjh8XSP	skos:exactMatch	aat:300265591	semapv:UnspecifiedMatching	encens	incense	
+pactols:pcrtZxVQ2PLkIO	skos:exactMatch	aat:300198814	semapv:UnspecifiedMatching	encensoir	censers	
+pactols:pcrtKei7jxhn32	skos:exactMatch	aat:300005044	semapv:UnspecifiedMatching	enclos	fences (site elements)	
+pactols:pcrtqXL8V79evX	skos:exactMatch	aat:300004983	semapv:UnspecifiedMatching	enclos à bétail	corrals	
+pactols:pcrt9gfvI45Kcj	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	enclos circulaire	corrals	
+pactols:pcrt4r4BzEK12w	skos:broadMatch	aat:300000360	semapv:UnspecifiedMatching	enclos funéraire	graveyards	
+pactols:pcrtfOjLfceAZ0	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	enclos quadrangulaire	corrals	
+pactols:pcrtFoJLRZxYE7	skos:exactMatch	aat:300400518	semapv:UnspecifiedMatching	enclos sacré	sacred space	
+pactols:pcrtpjw26EaVTa	skos:exactMatch	aat:300023119	semapv:UnspecifiedMatching	enclume	anvils (tools)	
+pactols:pcrtrJuZIg7rGs	skos:exactMatch	aat:300196797	semapv:UnspecifiedMatching	encrier	inkwells	
+pactols:pcrtFidgusMwk8	skos:closeMatch	aat:300177433	semapv:UnspecifiedMatching	enduit peint	frescoes (paintings)	
+pactols:pcrt3OJx1alrMD	skos:exactMatch	aat:300025945	semapv:UnspecifiedMatching	enfant	children (people by age group)	
+pactols:pcrtqWuyjUHSD4	skos:exactMatch	aat:300400626	semapv:UnspecifiedMatching	enfeu	burial niches	
+pactols:pcrtXgoFDoG7xA	skos:exactMatch	aat:300015111	semapv:UnspecifiedMatching	engobe	engobe	
+pactols:pcrtjtN6oShkSP	skos:exactMatch	aat:300264522	semapv:UnspecifiedMatching	enluminure	illuminations (visual works)	
+pactols:pcrtJ9V4pxnZoU	skos:broadMatch	aat:300155399	semapv:UnspecifiedMatching	enregistrement- diffusion	subject analysis	
+pactols:pcrttfsRrzLxgj	skos:exactMatch	aat:300200490	semapv:UnspecifiedMatching	entonnoir	funnels	
+pactols:pcrtInJjvhZPR6	skos:exactMatch	aat:300247514	semapv:UnspecifiedMatching	entrave	shackles	
+pactols:pcrtylFLKbzFds	skos:exactMatch	aat:300002776	semapv:UnspecifiedMatching	entrée	entrances	
+pactols:pcrtpzpA8KI0Tp	skos:exactMatch	aat:300007722	semapv:UnspecifiedMatching	entrepôt	warehouses	
+pactols:pcrt9Y2UzXnNSo	skos:exactMatch	aat:300055325	semapv:UnspecifiedMatching	environnement	environments (object groupings)	
+pactols:pcrtHIjtOg1P75	skos:exactMatch	aat:300188746	semapv:UnspecifiedMatching	épave	shipwrecks	
+pactols:pcrtW6OB8LFIkS	skos:exactMatch	aat:300037048	semapv:UnspecifiedMatching	épée	swords	
+pactols:pcrtDnJG7K8v0p	skos:exactMatch	aat:300036923	semapv:UnspecifiedMatching	éperon	spurs (costume accessories)	
+pactols:pcrt3FTqaIdbpb	skos:exactMatch	aat:300400671	semapv:UnspecifiedMatching	éperon barré	promontory forts	
+pactols:pcrtQ52vI3duHe	skos:broadMatch	aat:300054279	semapv:UnspecifiedMatching	épicurisme	philosophy	
+pactols:pcrtMFJP4dYca8	skos:exactMatch	aat:300379833	semapv:UnspecifiedMatching	épidémie	plagues	
+pactols:pcrtJrInD7k8G1	skos:exactMatch	aat:300138808	semapv:UnspecifiedMatching	épigraphie	epigraphy	
+pactols:pcrtzSxXtuj98i	skos:exactMatch	aat:300046006	semapv:UnspecifiedMatching	épingle	pins (jewelry)	
+pactols:pcrtmGlRAoyFJ2	skos:exactMatch	aat:300028729	semapv:UnspecifiedMatching	épitaphe	epitaphs	
+pactols:pcrtscphFlGg1l	skos:exactMatch	aat:300265958	semapv:UnspecifiedMatching	équidé	Equidae (family)	
+pactols:pcrtXO0BnMWg4V	skos:broadMatch	aat:300036743	semapv:UnspecifiedMatching	équipement militaire	Weapons and Ammunition (hierarchy name)	
+pactols:pcrtqw7yj7Uiav	skos:exactMatch	aat:300054116	semapv:UnspecifiedMatching	érosion	erosion	
+pactols:pcrt9rY1ZcA6mi	skos:exactMatch	aat:300003228	semapv:UnspecifiedMatching	escalier	stairs	
+pactols:pcrtzr7nbwzqRx	skos:exactMatch	aat:300230899	semapv:UnspecifiedMatching	esclave	slaves (people)	
+pactols:pcrtg00vcKiNAp	skos:closeMatch	aat:300008166	semapv:UnspecifiedMatching	espace vert	grounds (open spaces)	
+pactols:pcrtjnV1swPk4K	skos:closeMatch	aat:300008304	semapv:UnspecifiedMatching	esplanade	squares (open spaces)	
+pactols:pcrtvKpPe8MSHv	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	essartage	agriculture	
+pactols:pcrtPlSSNwa3hz	skos:exactMatch	aat:300053138	semapv:UnspecifiedMatching	estampage	stamping (forming)	
+pactols:pcrttZ3YcZ8qEj	skos:closeMatch	aat:300028765	semapv:UnspecifiedMatching	estampille	factory marks	
+pactols:pcrtd4GWKaHWOw	skos:exactMatch	aat:300004918	semapv:UnspecifiedMatching	étable	cowsheds	
+pactols:pcrttKbi4kQsJN	skos:exactMatch	aat:300007347	semapv:UnspecifiedMatching	établissement de bain	bathhouses (water recreation structures)	
+pactols:pcrtGpmPNJ0jRl	skos:exactMatch	aat:300133748	semapv:UnspecifiedMatching	étain	tin (metal)	
+pactols:pcrtSEg0ZTFHts	skos:exactMatch	aat:300008688	semapv:UnspecifiedMatching	étang	ponds (water)	
+pactols:pcrtxMZey15FER	skos:exactMatch	aat:300054316	semapv:UnspecifiedMatching	ethnologie	ethnology	
+pactols:pcrtzfzsUaVArQ	skos:exactMatch	aat:300255573	semapv:UnspecifiedMatching	étrier	stirrups	
+pactols:pcrtB6XMjo9qbB	skos:broadMatch	aat:300054389	semapv:UnspecifiedMatching	étude du paysage	physical geography	
+pactols:pcrtTiTtJfS2XB	skos:closeMatch	aat:300000799	semapv:UnspecifiedMatching	évêché	dioceses	
+pactols:pcrtc8FIfrDV4W	skos:broadMatch	aat:300252681	semapv:UnspecifiedMatching	expérimentation	experimental archaeology	
+pactols:pcrtXJ9WRlw9GD	skos:broadMatch	aat:300067987	semapv:UnspecifiedMatching	exploitation	natural resources	
+pactols:pcrt9n2Ts8Ezd2	skos:closeMatch	aat:300008420	semapv:UnspecifiedMatching	exploitation agricole	agricultural settlements	
+pactols:pcrtujj3xLzEqZ	skos:closeMatch	aat:300054511	semapv:UnspecifiedMatching	exploitation de la forêt	forestry	
+pactols:pcrtSPbJxwzVmX	skos:exactMatch	aat:300379871	semapv:UnspecifiedMatching	exploitation des données	data management	
+pactols:pcrtYHA8kKMYt9	skos:closeMatch	aat:300045537	semapv:UnspecifiedMatching	exploitation du sel	saltworks	
+pactols:pcrtpZqoqAbrdg	skos:broadMatch	aat:300010439	semapv:UnspecifiedMatching	extraction de l'argile	clay	
+pactols:pcrtGYzRry8HxI	skos:exactMatch	aat:300379357	semapv:UnspecifiedMatching	extraction du silex	flint mines	
+pactols:pcrth6yZm2rFvQ	skos:exactMatch	aat:300178243	semapv:UnspecifiedMatching	ex-voto	ex-votos (religious visual works)	
+pactols:pcrtAXfdhrm9Q5	skos:broadMatch	aat:300178243	semapv:UnspecifiedMatching	ex-voto anatomique	ex-votos (religious visual works)	
+pactols:pcrt3We1mLOmN0	skos:closeMatch	aat:300239669	semapv:UnspecifiedMatching	fabrication des textiles	textile processes and techniques	
+pactols:pcrtLbjx1LR0E0	skos:exactMatch	aat:300002526	semapv:UnspecifiedMatching	façade	façades	
+pactols:pcrtHUBxS0zSzD	skos:exactMatch	aat:300266341	semapv:UnspecifiedMatching	façonnage de l'argile	modeling clay	
+pactols:pcrt10kHDSy3qs	skos:broadMatch	aat:300011798	semapv:UnspecifiedMatching	façonnage de l'os	bone (material)	
+pactols:pcrtqHWkorsw9D	skos:exactMatch	aat:300010668	semapv:UnspecifiedMatching	faïence	faience (earthenware)	
+pactols:pcrtOKLIQiV8vn	skos:broadMatch	aat:300010668	semapv:UnspecifiedMatching	faïencerie	faience (earthenware)	
+pactols:pcrtX1X3PUJHwQ	skos:exactMatch	aat:300201088	semapv:UnspecifiedMatching	faisselle	sieves	
+pactols:pcrt3P8IPYw9S6	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	faits de guerre	wars	
+pactols:pcrt8sdERP5yOv	skos:exactMatch	aat:300400628	semapv:UnspecifiedMatching	fanum	fanums	
+pactols:pcrtJfGF3PlIkr	skos:exactMatch	aat:300000874	semapv:UnspecifiedMatching	faubourg	suburbs	
+pactols:pcrtNLITkP6OLz	skos:exactMatch	aat:300264860	semapv:UnspecifiedMatching	faucille	sickles	
+pactols:pcrtT2H2KjqBcU	skos:exactMatch	aat:300310150	semapv:UnspecifiedMatching	faune	fauna	
+pactols:pcrtRFlWnN22Zg	skos:exactMatch	aat:300249497	semapv:UnspecifiedMatching	faune domestiquée	domestic animals	
+pactols:pcrt6rr9Oa0uMc	skos:broadMatch	aat:300310150	semapv:UnspecifiedMatching	faune marine	fauna	
+pactols:pcrtfqo3RFoFJ5	skos:exactMatch	aat:300310185	semapv:UnspecifiedMatching	faune sauvage	wild animals	
+pactols:pcrthVHcfmv1xQ	skos:exactMatch	aat:300025943	semapv:UnspecifiedMatching	femme	women (female humans)	
+pactols:pcrtSR6GJ72lOD	skos:exactMatch	aat:300002944	semapv:UnspecifiedMatching	fenêtre	windows	
+pactols:pcrtJWWucnutA0	skos:exactMatch	aat:300011002	semapv:UnspecifiedMatching	fer	iron (metal)	
+pactols:pcrt4UE6wMvzwu	skos:exactMatch	aat:300024400	semapv:UnspecifiedMatching	fer à cheval	horseshoes (animal equipment)	
+pactols:pcrt8N9y3ZL4Lh	skos:exactMatch	aat:300000291	semapv:UnspecifiedMatching	ferme	homesteads	
+pactols:pcrtRV7RNMN07n	skos:exactMatch	aat:300025320	semapv:UnspecifiedMatching	ferrier	ironsmiths	
+pactols:pcrtqOEaIc05cO	skos:broadMatch	aat:300045374	semapv:UnspecifiedMatching	ferrure	furniture hardware	
+pactols:pcrtHbFOhUydUz	skos:exactMatch	aat:300379149	semapv:UnspecifiedMatching	fertilité	fertility	
+pactols:pcrtmhUStm5T6Y	skos:narrowMatch	aat:300068986	semapv:UnspecifiedMatching	feu	fires (events)	
+pactols:pcrt1tSmMf0Tw8	skos:exactMatch	aat:300209303	semapv:UnspecifiedMatching	fibule	fibulae	
+pactols:pcrtqEWFq9RGda	skos:exactMatch	aat:300047296	semapv:UnspecifiedMatching	figurine	terracottas (sculptural works)	
+pactols:pcrtssUkdoIYx4	skos:exactMatch	aat:300053661	semapv:UnspecifiedMatching	filage	spinning (textile process)	
+pactols:pcrtOSOt2YziXO	skos:broadMatch	aat:300230818	semapv:UnspecifiedMatching	filet	nets (objects)	
+pactols:pcrt83M3AddL5O	skos:narrowMatch	aat:300387092	semapv:UnspecifiedMatching	finage	parishes (civil divisions)	
+pactols:pcrtuzHWMyH3Pr	skos:exactMatch	aat:300198822	semapv:UnspecifiedMatching	fiole	vials	
+pactols:pcrt9DTr18hBPc	skos:exactMatch	aat:300045671	semapv:UnspecifiedMatching	flacon	flasks (bottles)	
+pactols:pcrtfyWGSYTyS1	skos:exactMatch	aat:300036976	semapv:UnspecifiedMatching	flèche	arrows	
+pactols:pcrt7VzGc5ZUum	skos:exactMatch	aat:300008707	semapv:UnspecifiedMatching	fleuve	rivers	
+pactols:pcrtSpZKiFuqSw	skos:exactMatch	aat:300310152	semapv:UnspecifiedMatching	flore	flora (plants)	
+pactols:pcrtxP5I53Pj0s	skos:exactMatch	aat:300224161	semapv:UnspecifiedMatching	fluorescence X	x-ray fluorescence	
+pactols:pcrtaFgRlZ06fN	skos:broadMatch	aat:300189669	semapv:UnspecifiedMatching	foetus	pregnancy	
+pactols:pcrt3NS9nZOZK5	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	fond de cabane	huts (houses)	
+pactols:pcrtBedPXm0UJJ	skos:exactMatch	aat:300000919	semapv:UnspecifiedMatching	fondation de bâtiment	foundations (structural elements)	
+pactols:pcrtU4olaGc3aI	skos:broadMatch	aat:300393213	semapv:UnspecifiedMatching	fondation de ville	foundation (action or condition)	
+pactols:pcrtA40egcJDkz	skos:exactMatch	aat:300103997	semapv:UnspecifiedMatching	fonderie	smelters (metalworking plants)	
+pactols:pcrtYmIa7MvtLc	skos:exactMatch	aat:300006179	semapv:UnspecifiedMatching	fontaine	fountains	
+pactols:pcrtTcvLDTNT86	skos:exactMatch	aat:300054041	semapv:UnspecifiedMatching	fonte	smelting	
+pactols:pcrtA2w22SzLJA	skos:exactMatch	aat:300053113	semapv:UnspecifiedMatching	fonte à cire perdue	lost-wax process	
+pactols:pcrtLnVNH2ynJc	skos:exactMatch	aat:300387598	semapv:UnspecifiedMatching	forêt d'arbres	forests (plant communities)	
+pactols:pcrt3uOj7GEVaE	skos:exactMatch	aat:300023137	semapv:UnspecifiedMatching	forge	forges (machinery)	
+pactols:pcrthidIN7OmaK	skos:broadMatch	aat:300023137	semapv:UnspecifiedMatching	forge hydraulique	forges (machinery)	
+pactols:pcrt8uSV4Y8Zx3	skos:exactMatch	aat:300006894	semapv:UnspecifiedMatching	forteresse	fortresses	
+pactols:pcrtaGFcSzXQ5x	skos:exactMatch	aat:300006888	semapv:UnspecifiedMatching	fortification	fortifications	
+pactols:pcrtqfG1QXGASz	skos:exactMatch	aat:300008085	semapv:UnspecifiedMatching	forum	forums (open spaces)	
+pactols:pcrtms2OAv82PY	skos:exactMatch	aat:300008027	semapv:UnspecifiedMatching	fosse	pits (earthworks)	
+pactols:pcrthcbe2XySTb	skos:exactMatch	aat:300400647	semapv:UnspecifiedMatching	fosse cultuelle	ritual pits	
+pactols:pcrtSjw3kLPdoh	skos:broadMatch	aat:300055451	semapv:UnspecifiedMatching	fossé parcellaire	land subdivision	
+pactols:pcrtp5Wcpmp9I3	skos:closeMatch	aat:300000824	semapv:UnspecifiedMatching	fosse-dépotoir	dumps (refuse areas)	
+pactols:pcrt8gLHNSozRI	skos:exactMatch	aat:300247919	semapv:UnspecifiedMatching	fossile	fossils	
+pactols:pcrtb1E0Dz7cSX	skos:exactMatch	aat:300266151	semapv:UnspecifiedMatching	fouille	excavations (sites)	
+pactols:pcrtEekLBvaBPu	skos:exactMatch	aat:300006324	semapv:UnspecifiedMatching	foulon	fulling mills	
+pactols:pcrtIqEHwJLuq0	skos:exactMatch	aat:300022798	semapv:UnspecifiedMatching	four	kilns	
+pactols:pcrteATef2dHLg	skos:exactMatch	aat:300006404	semapv:UnspecifiedMatching	four à chaux	lime kilns	
+pactols:pcrte9b8FrRLiO	skos:broadMatch	aat:300045537	semapv:UnspecifiedMatching	four à sel	saltworks	
+pactols:pcrtfl2epc7gJw	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	four de bronzier	kilns	
+pactols:pcrtvZeTjQPvtK	skos:broadMatch	aat:300006310	semapv:UnspecifiedMatching	four de potier	potteries (manufactories)	
+pactols:pcrtcV747ESEyl	skos:broadMatch	aat:300386284	semapv:UnspecifiedMatching	four de tuilier	tile makers	
+pactols:pcrtqx5gLXSqBS	skos:broadMatch	aat:300025285	semapv:UnspecifiedMatching	four de verrier	glassmakers	
+pactols:pcrtfGIWhvMEJt	skos:closeMatch	aat:300195511	semapv:UnspecifiedMatching	four domestique	bake ovens (baking devices)	
+pactols:pcrtoc8yjoUorS	skos:exactMatch	aat:300024650	semapv:UnspecifiedMatching	fourneau	furnaces (heating components)	
+pactols:pcrtnRPlNmeHQA	skos:exactMatch	aat:300198733	semapv:UnspecifiedMatching	fourreau	sheaths (cases)	
+pactols:pcrtJUwAaZ7Nz9	skos:exactMatch	aat:300003990	semapv:UnspecifiedMatching	foyer	hearths	
+pactols:pcrtcm41DKVMlu	skos:exactMatch	aat:300148096	semapv:UnspecifiedMatching	Franciscains	Franciscan	
+pactols:pcrt3NvIZz49m6	skos:broadMatch	aat:300228714	semapv:UnspecifiedMatching	francisque	throwing axes	
+pactols:pcrt4RyXDNkbZ0	skos:exactMatch	aat:300053357	semapv:UnspecifiedMatching	fresque	fresco painting (technique)	
+pactols:pcrtvS2lfiKO1a	skos:exactMatch	aat:300001816	semapv:UnspecifiedMatching	frise	friezes (entablature components)	
+pactols:pcrtSkt1eRlMG2	skos:exactMatch	aat:300387507	semapv:UnspecifiedMatching	frontière	frontiers	
+pactols:pcrtDFvOrje3j0	skos:exactMatch	aat:300011868	semapv:UnspecifiedMatching	fruit	fruit (plant components)	
+pactols:pcrtnUINrG3Gx0	skos:closeMatch	aat:300011868	semapv:UnspecifiedMatching	fruitière	fruit (plant components)	
+pactols:pcrtaYH1KLTwHt	skos:exactMatch	aat:300400675	semapv:UnspecifiedMatching	fumage	smoking (preserving)	
+pactols:pcrtzjREioYILk	skos:exactMatch	aat:300263796	semapv:UnspecifiedMatching	fusaïole	whorls	
+pactols:pcrtmikMZoV4Hm	skos:broadMatch	aat:300222278	semapv:UnspecifiedMatching	fusil	long guns	
+pactols:pcrtDISmiAdvys	skos:exactMatch	aat:300266177	semapv:UnspecifiedMatching	galène	galena	
+pactols:pcrtv3UT59y4b6	skos:closeMatch	aat:300004031	semapv:UnspecifiedMatching	galerie	galleries (upper level spaces)	
+pactols:pcrtTgttY2SfBr	skos:exactMatch	aat:300011691	semapv:UnspecifiedMatching	galet	pebble (rock)	
+pactols:pcrta8Bnn8iMwS	skos:exactMatch	aat:300400611	semapv:UnspecifiedMatching	galet aménagé	chopping tools (prehistoric cutting tools)	
+pactols:pcrtmDzYa3dSzv	skos:broadMatch	aat:300011691	semapv:UnspecifiedMatching	galet gravé	pebble (rock)	
+pactols:pcrtwDKITsGcZT	skos:broadMatch	aat:300000455	semapv:UnspecifiedMatching	garnison	military bases	
+pactols:pcrth6l0mevtSJ	skos:broadMatch	aat:300199704	semapv:UnspecifiedMatching	garum	curing (preserving or seasoning)	
+pactols:pcrtg8ehkPNQXZ	skos:exactMatch	aat:300249701	semapv:UnspecifiedMatching	gastéropodes	Gastropoda (class)	
+pactols:pcrt8yYh5xgMeO	skos:exactMatch	aat:300201964	semapv:UnspecifiedMatching	gemme	gemstone	
+pactols:pcrtmkRNd3ikl4	skos:exactMatch	aat:300251618	semapv:UnspecifiedMatching	géoarchéologie	geoarchaeology	
+pactols:pcrtPiWnSsQTNJ	skos:exactMatch	aat:300054543	semapv:UnspecifiedMatching	géochimie	geochemistry	
+pactols:pcrtdikABwfiMJ	skos:broadMatch	aat:300054546	semapv:UnspecifiedMatching	géodynamique	geology	
+pactols:pcrtzQcj7ySt1K	skos:exactMatch	aat:300054388	semapv:UnspecifiedMatching	géographie	geography	
+pactols:pcrt6g3bwHKS6p	skos:exactMatch	aat:300054389	semapv:UnspecifiedMatching	géographie physique	physical geography	
+pactols:pcrtcMAzwfcMyS	skos:exactMatch	aat:300054546	semapv:UnspecifiedMatching	géologie	geology	
+pactols:pcrtJHTcW3uQ01	skos:exactMatch	aat:300054547	semapv:UnspecifiedMatching	géomorphologie	geomorphology	
+pactols:pcrt4kT9Gzua0B	skos:exactMatch	aat:300054548	semapv:UnspecifiedMatching	géophysique	geophysics	
+pactols:pcrtlEYVJzjAU6	skos:exactMatch	aat:300008004	semapv:UnspecifiedMatching	glacière	icehouses	
+pactols:pcrt3pmFUqt27w	skos:exactMatch	aat:300053914	semapv:UnspecifiedMatching	glaçure	glazing (coating process)	
+pactols:pcrtdZsvpNrnWI	skos:broadMatch	aat:300000390	semapv:UnspecifiedMatching	glaisière	mines (extracting complexes)	
+pactols:pcrtn0Eluy59dq	skos:exactMatch	aat:300213477	semapv:UnspecifiedMatching	glaive	gladii	
+pactols:pcrt4pVKLiaB9L	skos:exactMatch	aat:300043198	semapv:UnspecifiedMatching	gobelet	beakers (drinking vessels)	
+pactols:pcrtG1Fn8ELS0P	skos:exactMatch	aat:300045651	semapv:UnspecifiedMatching	godet	buckets (vessels)	
+pactols:pcrtZ1B37tVgAE	skos:exactMatch	aat:300221010	semapv:UnspecifiedMatching	gourde	canteens (vessels)	
+pactols:pcrtbHFvxXkxfD	skos:exactMatch	aat:300052565	semapv:UnspecifiedMatching	gouttière	gutters (building drainage components)	
+pactols:pcrtWSqJyedQws	skos:exactMatch	aat:300015613	semapv:UnspecifiedMatching	graffiti	graffiti	
+pactols:pcrtjJcpGtmjVe	skos:exactMatch	aat:300004900	semapv:UnspecifiedMatching	grange	barns	
+pactols:pcrtDnenSUMjFl	skos:exactMatch	aat:300011183	semapv:UnspecifiedMatching	granite	granite (rock)	
+pactols:pcrtAO75iuppgW	skos:exactMatch	aat:300380072	semapv:UnspecifiedMatching	granulométrie	granulometry	
+pactols:pcrtwZOaTfxE7u	skos:exactMatch	aat:300264849	semapv:UnspecifiedMatching	graphisme	graphic arts	
+pactols:pcrt1jTyJEx22Y	skos:exactMatch	aat:300011098	semapv:UnspecifiedMatching	graphite	graphite (mineral)	
+pactols:pcrtI2yF9zYsKz	skos:broadMatch	aat:300023081	semapv:UnspecifiedMatching	grattoir	scratch tools	
+pactols:pcrtgI8DSt7eam	skos:exactMatch	aat:300041340	semapv:UnspecifiedMatching	gravure	engravings (prints)	
+pactols:pcrt2m165SIOlQ	skos:broadMatch	aat:300041340	semapv:UnspecifiedMatching	gravure pariétale	engravings (prints)	
+pactols:pcrt5SSv2BAXbS	skos:exactMatch	aat:300041933	semapv:UnspecifiedMatching	grelot	rattles	
+pactols:pcrtVLPx3sY5Ku	skos:exactMatch	aat:300011097	semapv:UnspecifiedMatching	grenat	garnet (mineral)	
+pactols:pcrtGBctSVZOBy	skos:exactMatch	aat:300004929	semapv:UnspecifiedMatching	grenier	granaries	
+pactols:pcrtR1s94Zuaul	skos:exactMatch	aat:300011376	semapv:UnspecifiedMatching	grès	sandstone	
+pactols:pcrtt7G9pnQlu1	skos:exactMatch	aat:300010672	semapv:UnspecifiedMatching	grès (pot)	stoneware (pottery)	
+pactols:pcrtuoBc53ywow	skos:exactMatch	aat:300379594	semapv:UnspecifiedMatching	griffon	griffins	
+pactols:pcrthS3cPFaIEA	skos:exactMatch	aat:300203658	semapv:UnspecifiedMatching	gril	gridirons (culinary tools)	
+pactols:pcrtxKnfzXYMxK	skos:exactMatch	aat:300008746	semapv:UnspecifiedMatching	grotte	caves	
+pactols:pcrtiaQHMzQVGS	skos:closeMatch	aat:300178308	semapv:UnspecifiedMatching	grotte ornée	cave paintings	
+pactols:pcrtfUWF9GVr4q	skos:exactMatch	aat:300387008	semapv:UnspecifiedMatching	grotte sépulcrale	burial caves	
+pactols:pcrtvFjnEwDKOh	skos:broadMatch	aat:300301427	semapv:UnspecifiedMatching	groupe de La Graufesenque	south Gallic terra sigillata	
+pactols:pcrtlw8IsSn97S	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	groupe de Lezoux	terra sigillata ware	
+pactols:pcrtZnMg1n4t5g	skos:broadMatch	aat:300301427	semapv:UnspecifiedMatching	groupe de Montans	south Gallic terra sigillata	
+pactols:pcrt2EQPlDtl1H	skos:exactMatch	aat:300000802	semapv:UnspecifiedMatching	groupe épiscopal	closes (cathedral)	
+pactols:pcrtIWeqtc3uKd	skos:exactMatch	aat:300387042	semapv:UnspecifiedMatching	gué	fords	
+pactols:pcrtf1yEbB24G1	skos:exactMatch	aat:300055314	semapv:UnspecifiedMatching	guerre	wars	
+pactols:pcrtMlsIEIAdqF	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	guerre des Gaules	wars	
+pactols:pcrtoRerEcO48K	skos:exactMatch	aat:300261945	semapv:UnspecifiedMatching	guerrier	warriors	
+pactols:pcrtOF9oqZo0Pd	skos:exactMatch	aat:300011099	semapv:UnspecifiedMatching	gypse	gypsum	
+pactols:pcrt38MzYdpFr4	skos:exactMatch	aat:300266639	semapv:UnspecifiedMatching	habillement	clothing	
+pactols:pcrtbptj4SOA1W	skos:exactMatch	aat:300008347	semapv:UnspecifiedMatching	habitat	inhabited places	
+pactols:pcrtERsRub9G3c	skos:broadMatch	aat:300008347	semapv:UnspecifiedMatching	habitat de plein air	inhabited places	
+pactols:pcrtMVyOncjILc	skos:exactMatch	aat:300387238	semapv:UnspecifiedMatching	habitat fortifié	fortified settlements	
+pactols:pcrthXosl9QxQ2	skos:exactMatch	aat:300389983	semapv:UnspecifiedMatching	habitat groupé	nucleated villages	
+pactols:pcrt5uHlswsQmN	skos:broadMatch	aat:300008347	semapv:UnspecifiedMatching	habitat ouvert	inhabited places	
+pactols:pcrtVnWeKqGpcj	skos:exactMatch	aat:300229355	semapv:UnspecifiedMatching	habitat rural	rural areas	
+pactols:pcrtSxe2PZMWR8	skos:exactMatch	aat:300005425	semapv:UnspecifiedMatching	habitation	dwellings	
+pactols:pcrtI9ADjL6wEs	skos:exactMatch	aat:300036982	semapv:UnspecifiedMatching	hache	axes (weapons)	
+pactols:pcrtLqVVcJ93ef	skos:exactMatch	aat:300400642	semapv:UnspecifiedMatching	hache à ailerons	winged axes	
+pactols:pcrtGFlPsnSIzu	skos:exactMatch	aat:300400605	semapv:UnspecifiedMatching	hache à douille	socketed axes	
+pactols:pcrtAIb25QSw3s	skos:exactMatch	aat:300400602	semapv:UnspecifiedMatching	hache à talon	palstaves	
+pactols:pcrtrw55ayOX0s	skos:broadMatch	aat:300036982	semapv:UnspecifiedMatching	hache plate	axes (weapons)	
+pactols:pcrtZo2oV1xEn0	skos:broadMatch	aat:300036982	semapv:UnspecifiedMatching	hache polie	axes (weapons)	
+pactols:pcrtJBBFH9wdOA	skos:exactMatch	aat:300400724	semapv:UnspecifiedMatching	hachereau	cleavers (prehistoric cutting tools)	
+pactols:pcrt5fjWrwW4Kx	skos:broadMatch	aat:300005238	semapv:UnspecifiedMatching	halle	markets (structures)	
+pactols:pcrtxWLeS2I4TG	skos:exactMatch	aat:300024418	semapv:UnspecifiedMatching	hameçon	fishhooks	
+pactols:pcrtBF6RDKbW6E	skos:exactMatch	aat:300036746	semapv:UnspecifiedMatching	harnachement de guerrier	body armor	
+pactols:pcrtNtGbI8Rqxi	skos:exactMatch	aat:300265358	semapv:UnspecifiedMatching	harnachement du cheval	horse trappings	
+pactols:pcrta4RiFzdpuH	skos:exactMatch	aat:300212971	semapv:UnspecifiedMatching	harnais	harnesses	
+pactols:pcrtyHeYxfQFMo	skos:exactMatch	aat:300037011	semapv:UnspecifiedMatching	harpon	harpoons	
+pactols:pcrt5FUwwB1A6G	skos:exactMatch	aat:300006438	semapv:UnspecifiedMatching	haut-fourneau	blast furnaces	
+pactols:pcrtuFMPNUEKWb	skos:exactMatch	aat:300011138	semapv:UnspecifiedMatching	hématite	bloodstone	
+pactols:pcrtTg7ubUZSuL	skos:exactMatch	aat:300023553	semapv:UnspecifiedMatching	herminette	adzes	
+pactols:pcrtxTzaEYNSXS	skos:exactMatch	aat:300400634	semapv:UnspecifiedMatching	hipposandale	hipposandals	
+pactols:pcrtJHV6SKuS8I	skos:exactMatch	aat:300054394	semapv:UnspecifiedMatching	histoire	history (discipline)	
+pactols:pcrtdhYxFrEX6t	skos:broadMatch	aat:300054394	semapv:UnspecifiedMatching	histoire agraire	history (discipline)	
+pactols:pcrtIG9aOhEUaq	skos:broadMatch	aat:300054394	semapv:UnspecifiedMatching	histoire des fouilles	history (discipline)	
+pactols:pcrtiqoxXEO1L0	skos:exactMatch	aat:300249450	semapv:UnspecifiedMatching	histoire militaire	military history	
+pactols:pcrtAX6tDRzJFl	skos:broadMatch	aat:300054394	semapv:UnspecifiedMatching	histoire politique	history (discipline)	
+pactols:pcrtwSE4xE1XNb	skos:exactMatch	aat:300054403	semapv:UnspecifiedMatching	histoire sociale	social history	
+pactols:pcrthwxAP9LOxf	skos:exactMatch	aat:300055926	semapv:UnspecifiedMatching	historiographie	historiography	
+pactols:pcrt6oT1r38cvH	skos:exactMatch	aat:300006676	semapv:UnspecifiedMatching	hôpital	hospitals (buildings for health facility)	
+pactols:pcrt8gP3z538ei	skos:exactMatch	aat:300120504	semapv:UnspecifiedMatching	horreum	horrea	
+pactols:pcrtSswfqFhJ9S	skos:exactMatch	aat:300054512	semapv:UnspecifiedMatching	horticulture	horticulture	
+pactols:pcrtfxt1vqyxAp	skos:exactMatch	aat:300007160	semapv:UnspecifiedMatching	hospice	hospices (public accomodations)	
+pactols:pcrtDSibTZMY1O	skos:exactMatch	aat:300007162	semapv:UnspecifiedMatching	hôtellerie	hostels	
+pactols:pcrtnO3WTHZ2c4	skos:exactMatch	aat:300024329	semapv:UnspecifiedMatching	houe	hoes (agricultural tools)	
+pactols:pcrttvE2YZwZu6	skos:exactMatch	aat:300014254	semapv:UnspecifiedMatching	huile	oil (organic material)	
+pactols:pcrtpJbqFUYwZI	skos:exactMatch	aat:300248351	semapv:UnspecifiedMatching	huilerie	oil mills	
+pactols:pcrtRKX6aHwyde	skos:narrowMatch	aat:300002785	semapv:UnspecifiedMatching	huisserie	doorframes	
+pactols:pcrtZig4pNZk7B	skos:exactMatch	aat:300054566	semapv:UnspecifiedMatching	hydraulique	hydraulics	
+pactols:pcrtqQv1MSIsp0	skos:exactMatch	aat:300264403	semapv:UnspecifiedMatching	hydrologie	hydrology	
+pactols:pcrtJDKvc5Hsg1	skos:broadMatch	aat:300054272	semapv:UnspecifiedMatching	hydronymie	toponymy	
+pactols:pcrtXiL6nBw86Y	skos:exactMatch	aat:300379164	semapv:UnspecifiedMatching	hygiène	hygiene	
+pactols:pcrtwtNyeS0E2v	skos:exactMatch	aat:300004277	semapv:UnspecifiedMatching	hypocauste	hypocausts	
+pactols:pcrt0McMy0AxE3	skos:exactMatch	aat:300005931	semapv:UnspecifiedMatching	hypogée	hypogea	
+pactols:pcrtTrt5DQtFIs	skos:exactMatch	aat:300251965	semapv:UnspecifiedMatching	ichtyologie	ichthyology	
+pactols:pcrtUF6SedpeVv	skos:exactMatch	aat:300033945	semapv:UnspecifiedMatching	icône	icons (devotional images)	
+pactols:pcrtb4M5pvMjvr	skos:exactMatch	aat:300055859	semapv:UnspecifiedMatching	iconographie	iconography	
+pactols:pcrtmDglThUK8S	skos:exactMatch	aat:300008791	semapv:UnspecifiedMatching	île	islands (landforms)	
+pactols:pcrt2f8QaSD6TS	skos:exactMatch	aat:300005707	semapv:UnspecifiedMatching	immeuble	apartment houses	
+pactols:pcrtpHtvTOh6g6	skos:exactMatch	aat:300252720	semapv:UnspecifiedMatching	importation	imports	
+pactols:pcrtpXF9cZA8R4	skos:exactMatch	aat:300068986	semapv:UnspecifiedMatching	incendie	fires (events)	
+pactols:pcrttBIxHKUw54	skos:exactMatch	aat:300266356	semapv:UnspecifiedMatching	incinération	cremations	
+pactols:pcrt5BkWfWHwDc	skos:exactMatch	aat:300055718	semapv:UnspecifiedMatching	industrie	industry (economic concept)	
+pactols:pcrtbfqVEeganP	skos:broadMatch	aat:300264630	semapv:UnspecifiedMatching	industrie lithique	industry (object groupings)	
+pactols:pcrtpy5s63Sdhx	skos:broadMatch	aat:300264630	semapv:UnspecifiedMatching	industrie osseuse	industry (object groupings)	
+pactols:pcrt80ITkuUvTt	skos:broadMatch	aat:300264630	semapv:UnspecifiedMatching	industrie polie	industry (object groupings)	
+pactols:pcrtTvRl318sqX	skos:broadMatch	aat:300264630	semapv:UnspecifiedMatching	industrie sur matière dure animale	industry (object groupings)	
+pactols:pcrtrZlKwOpIJt	skos:exactMatch	aat:300263485	semapv:UnspecifiedMatching	inhumation	burials	
+pactols:pcrt9rcnQNYQDI	skos:exactMatch	aat:300054731	semapv:UnspecifiedMatching	inondation	floods (natural events)	
+pactols:pcrtP5iej59Ksf	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription chrétienne	epigraphs	
+pactols:pcrt2hsBAwey2e	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription contenu	epigraphs	
+pactols:pcrtmGlRAoyFJ2	skos:exactMatch	aat:300028729	semapv:UnspecifiedMatching	inscription funéraire	epitaphs	
+pactols:pcrtKKStGoKW4A	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription paléochrétienne	epigraphs	
+pactols:pcrtleELPEb7zG	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription religieuse	epigraphs	
+pactols:pcrtk1rnrpxG94	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription rupestre	epigraphs	
+pactols:pcrtN3itnaYUeJ	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription support	epigraphs	
+pactols:pcrti43gSp7SKT	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription sur vase	epigraphs	
+pactols:pcrtBApohOOZ1V	skos:broadMatch	aat:300028719	semapv:UnspecifiedMatching	inscription votive	epigraphs	
+pactols:pcrtLeJDEv8jY1	skos:exactMatch	aat:300310470	semapv:UnspecifiedMatching	insecte	Insecta (class)	
+pactols:pcrtHIBqP9Wsvy	skos:exactMatch	aat:300041620	semapv:UnspecifiedMatching	instrument de musique	musical instruments	
+pactols:pcrtEznNgQ3h63	skos:exactMatch	aat:300037336	semapv:UnspecifiedMatching	instrumentum	furnishings (artifacts)	
+pactols:pcrtSmefwuwa97	skos:exactMatch	aat:300008077	semapv:UnspecifiedMatching	insula	city blocks	
+pactols:pcrt6Ei1oWy7fy	skos:exactMatch	aat:300047216	semapv:UnspecifiedMatching	intaille	intaglios (sculptural objects)	
+pactols:pcrtwRi2ji9ZSA	skos:exactMatch	aat:300027045	semapv:UnspecifiedMatching	inventaire	inventories	
+pactols:pcrtkhKLXU3mWs	skos:exactMatch	aat:300055262	semapv:UnspecifiedMatching	irrigation	irrigation systems	
+pactols:pcrtYqQiDynWG8	skos:exactMatch	aat:300027086	semapv:UnspecifiedMatching	itinéraire	itineraries	
+pactols:pcrt1zVFrqhSh2	skos:exactMatch	aat:300011857	semapv:UnspecifiedMatching	ivoire	ivory (material)	
+pactols:pcrtslVSzVnfeg	skos:exactMatch	aat:300011121	semapv:UnspecifiedMatching	jadéite	jadeite	
+pactols:pcrtV3BZNic1DR	skos:exactMatch	aat:300211957	semapv:UnspecifiedMatching	jais	lignite	
+pactols:pcrt7EyA2KZ6XA	skos:exactMatch	aat:300036788	semapv:UnspecifiedMatching	jambière	greaves	
+pactols:pcrtXhKSYgoqeP	skos:exactMatch	aat:300008090	semapv:UnspecifiedMatching	jardin	gardens (open spaces)	
+pactols:pcrtTS2T8PJDRo	skos:exactMatch	aat:300195347	semapv:UnspecifiedMatching	jarre	jars	
+pactols:pcrtLuZpaj90t3	skos:exactMatch	aat:300045614	semapv:UnspecifiedMatching	jatte	basins (vessels)	
+pactols:pcrt00ulosY2Lk	skos:exactMatch	aat:300037019	semapv:UnspecifiedMatching	javelot	javelins	
+pactols:pcrti1hjmzSSeI	skos:exactMatch	aat:300191481	semapv:UnspecifiedMatching	jeton	jettons	
+pactols:pcrtV3kw2a2i6i	skos:exactMatch	aat:300069657	semapv:UnspecifiedMatching	jeu	games	
+pactols:pcrtRMYHK2grK0	skos:exactMatch	aat:300211037	semapv:UnspecifiedMatching	jouet	toys (recreational artifacts)	
+pactols:pcrt9Vu0LqJbzT	skos:exactMatch	aat:300255560	semapv:UnspecifiedMatching	joug	yokes (animal equipment)	
+pactols:pcrtRLpzUzUbJP	skos:closeMatch	aat:300387749	semapv:UnspecifiedMatching	Juifs	Ancient Jewish	
+pactols:pcrtcSwGKi6BiS	skos:exactMatch	aat:300387344	semapv:UnspecifiedMatching	karst	karst areas	
+pactols:pcrtmYSxuly0iQ	skos:closeMatch	aat:300008649	semapv:UnspecifiedMatching	labour	arable land	
+pactols:pcrtFdK3klNna0	skos:exactMatch	aat:300008680	semapv:UnspecifiedMatching	lac	lakes (bodies of water)	
+pactols:pcrtDfHvvnBWz7	skos:exactMatch	aat:300243430	semapv:UnspecifiedMatching	laine	wool (textile)	
+pactols:pcrtAWl3eAUQlA	skos:exactMatch	aat:300191622	semapv:UnspecifiedMatching	lait	milk	
+pactols:pcrtYdJwXpuL9x	skos:exactMatch	aat:300024917	semapv:UnspecifiedMatching	lame	blades (tool and equipment components)	
+pactols:pcrtrugvfgLj8m	skos:exactMatch	aat:300213348	semapv:UnspecifiedMatching	lamelle	lamellae	
+pactols:pcrtXhOugVaIb6	skos:broadMatch	aat:300213348	semapv:UnspecifiedMatching	lamelle à dos	lamellae	
+pactols:pcrtlKNhumKaYq	skos:exactMatch	aat:300037592	semapv:UnspecifiedMatching	lampe	lamps (lighting devices)	
+pactols:pcrtyFu25rKSvF	skos:broadMatch	aat:300037630	semapv:UnspecifiedMatching	lampe romaine	oil lamps	
+pactols:pcrtLD0BvhDhPz	skos:exactMatch	aat:300037038	semapv:UnspecifiedMatching	lance	spears (weapons)	
+pactols:pcrt4gZUIHTwR0	skos:exactMatch	aat:300037647	semapv:UnspecifiedMatching	lanterne	lanterns (lighting devices)	
+pactols:pcrt62veMzuBwH	skos:exactMatch	aat:300250218	semapv:UnspecifiedMatching	lapin	rabbits	
+pactols:pcrtoSNocojBlt	skos:exactMatch	aat:300400600	semapv:UnspecifiedMatching	laraire	lararia	
+pactols:pcrt68T1KcWNtb	skos:exactMatch	aat:300007951	semapv:UnspecifiedMatching	latrines	latrines	
+pactols:pcrtg2XRmDw4B6	skos:exactMatch	aat:300008016	semapv:UnspecifiedMatching	lavoir	washhouses (outbuildings)	
+pactols:pcrtlp1OFwcxfE	skos:broadMatch	aat:300137542	semapv:UnspecifiedMatching	légion	armies	
+pactols:pcrtvmAscT0l41	skos:exactMatch	aat:300343861	semapv:UnspecifiedMatching	légumineuse	Fabaceae (family)	
+pactols:pcrtSaNDeLvKzS	skos:exactMatch	aat:300386970	semapv:UnspecifiedMatching	levée de terre	banks (landforms)	
+pactols:pcrtY20DKUZ2AS	skos:closeMatch	aat:300004575	semapv:UnspecifiedMatching	lieu de culte	sanctuaries (religious building spaces)	
+pactols:pcrtUjIBD38u8D	skos:closeMatch	aat:300004575	semapv:UnspecifiedMatching	lieu sacré	sanctuaries (religious building spaces)	
+pactols:pcrtOl4a3UUtiu	skos:exactMatch	aat:300250216	semapv:UnspecifiedMatching	lièvre	hares (Leporidae)	
+pactols:pcrt9rIFPQ997Q	skos:exactMatch	aat:300211957	semapv:UnspecifiedMatching	lignite	lignite	
+pactols:pcrtVHSiUuDQVO	skos:exactMatch	aat:300055451	semapv:UnspecifiedMatching	limite des terres	land subdivision	
+pactols:pcrt2vlSZd64Zk	skos:exactMatch	aat:300014335	semapv:UnspecifiedMatching	limon	loam	
+pactols:pcrtId0TMGAa0F	skos:exactMatch	aat:300014041	semapv:UnspecifiedMatching	lin	flax (fiber)	
+pactols:pcrtcGVXRJeh6n	skos:exactMatch	aat:300215011	semapv:UnspecifiedMatching	linceul	shrouds	
+pactols:pcrttLoeMjF22J	skos:exactMatch	aat:300137865	semapv:UnspecifiedMatching	lingot	ingot	
+pactols:pcrtiNStQWVtFe	skos:exactMatch	aat:300003161	semapv:UnspecifiedMatching	linteau	lintels (spanning elements)	
+pactols:pcrtYEUR76AjnD	skos:exactMatch	aat:300400797	semapv:UnspecifiedMatching	lissoir	lissoirs (polishing tools)	
+pactols:pcrtQYOKHx5tGa	skos:exactMatch	aat:300386791	semapv:UnspecifiedMatching	lithologie	lithology	
+pactols:pcrtNS4vm5u8xJ	skos:exactMatch	aat:300008734	semapv:UnspecifiedMatching	littoral	coastlines	
+pactols:pcrtcQviVbRaPn	skos:exactMatch	aat:300055983	semapv:UnspecifiedMatching	liturgie	liturgy	
+pactols:pcrtSIsVZPQG1t	skos:exactMatch	aat:300014336	semapv:UnspecifiedMatching	loess	loess	
+pactols:pcrtu7Kn9LSoe6	skos:exactMatch	aat:300005639	semapv:UnspecifiedMatching	logement des religieux	clergy houses	
+pactols:pcrtelsaPcm6iS	skos:exactMatch	aat:300005425	semapv:UnspecifiedMatching	logis	dwellings	
+pactols:pcrtajHBJm1GSI	skos:exactMatch	aat:300138173	semapv:UnspecifiedMatching	loisirs	leisure	
+pactols:pcrtbexIrkxhip	skos:exactMatch	aat:300200095	semapv:UnspecifiedMatching	louche	ladles	
+pactols:pcrtPfgeWSPnIt	skos:broadMatch	aat:300404290	semapv:UnspecifiedMatching	luxe	abundance	
+pactols:pcrtOPVlFNlXsv	skos:broadMatch	aat:300055957	semapv:UnspecifiedMatching	Lycée	Aristotelianism	
+pactols:pcrtzEegseJ5VO	skos:exactMatch	aat:300015333	semapv:UnspecifiedMatching	maçonnerie	brickwork (masonry)	
+pactols:pcrtSE0sKffhOM	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	macrorestes	botany	
+pactols:pcrtYE8gj9Yicf	skos:exactMatch	aat:300054590	semapv:UnspecifiedMatching	magie	magic	
+pactols:pcrtdP8WBHGn9S	skos:exactMatch	aat:300024825	semapv:UnspecifiedMatching	maillet	mallets (striking tools)	
+pactols:pcrtaGBUR5Ekx1	skos:exactMatch	aat:300005433	semapv:UnspecifiedMatching	maison	houses	
+pactols:pcrtwvA3rYnUHO	skos:broadMatch	aat:300005433	semapv:UnspecifiedMatching	maison à deux nefs	houses	
+pactols:pcrtsbWpYsZfe5	skos:broadMatch	aat:300005433	semapv:UnspecifiedMatching	maison danubienne	houses	
+pactols:pcrtwNsmFD4zxg	skos:closeMatch	aat:300006894	semapv:UnspecifiedMatching	maison forte	fortresses	
+pactols:pcrtx9zrJVsoSO	skos:broadMatch	aat:300005433	semapv:UnspecifiedMatching	maison ronde	houses	
+pactols:pcrt4jqSXocNLw	skos:exactMatch	aat:300266510	semapv:UnspecifiedMatching	malacofaune	Mollusca (phylum)	
+pactols:pcrt5n86YNsS2H	skos:broadMatch	aat:300054472	semapv:UnspecifiedMatching	malacologie	zoology	
+pactols:pcrtMY50Z2K4Fh	skos:exactMatch	aat:300055130	semapv:UnspecifiedMatching	maladie	disease	
+pactols:pcrtvBeQVvSNo8	skos:exactMatch	aat:300006692	semapv:UnspecifiedMatching	maladrerie	lazarettos	
+pactols:pcrtLvx6qlliRn	skos:exactMatch	aat:300265707	semapv:UnspecifiedMatching	mammifère	Mammalia (class)	
+pactols:pcrtu6kwQxaOeV	skos:exactMatch	aat:300395482	semapv:UnspecifiedMatching	mammouth	Mammuthus (genus)	
+pactols:pcrtg2BN9HYkhf	skos:broadMatch	aat:300191778	semapv:UnspecifiedMatching	manipulation d'ossements	skeletons (animal components)	
+pactols:pcrtP1l7JMuKs6	skos:exactMatch	aat:300005579	semapv:UnspecifiedMatching	manoir	manor houses	
+pactols:pcrtVauEttfZoe	skos:exactMatch	aat:300077527	semapv:UnspecifiedMatching	manufacture	manufacturing	
+pactols:pcrt4iNidJ2qfx	skos:exactMatch	aat:300266034	semapv:UnspecifiedMatching	maquette	scale models	
+pactols:pcrtGKF5TmR5AS	skos:exactMatch	aat:300008903	semapv:UnspecifiedMatching	marais	marshes	
+pactols:pcrtSkipOsBGML	skos:exactMatch	aat:300011443	semapv:UnspecifiedMatching	marbre	marble (rock)	
+pactols:pcrtTUAqOs2Jxt	skos:exactMatch	aat:300025245	semapv:UnspecifiedMatching	marchand	merchants	
+pactols:pcrtTVvJEyAnuf	skos:exactMatch	aat:300005238	semapv:UnspecifiedMatching	marché	markets (structures)	
+pactols:pcrtLuPqDA8Zhs	skos:exactMatch	aat:300199857	semapv:UnspecifiedMatching	marmite	crockpots	
+pactols:pcrtbUunFprb1b	skos:exactMatch	aat:300028744	semapv:UnspecifiedMatching	marque	marks (symbols)	
+pactols:pcrtHFqkS7rixl	skos:broadMatch	aat:300028744	semapv:UnspecifiedMatching	marque de carrier	marks (symbols)	
+pactols:pcrtzohrWZhuOl	skos:broadMatch	aat:300028744	semapv:UnspecifiedMatching	marque de tâcheron	marks (symbols)	
+pactols:pcrt8FNS8EFJ6Q	skos:broadMatch	aat:300262844	semapv:UnspecifiedMatching	marque sur amphore	stamps (marks)	
+pactols:pcrtUxWo09gzB6	skos:exactMatch	aat:300028783	semapv:UnspecifiedMatching	marque sur brique	brick stamps	
+pactols:pcrtdRWuuqSion	skos:broadMatch	aat:300262844	semapv:UnspecifiedMatching	marque sur tuile	stamps (marks)	
+pactols:pcrtyNQzocZ6T0	skos:broadMatch	aat:300262844	semapv:UnspecifiedMatching	marque sur vase	stamps (marks)	
+pactols:pcrt9oytlSrw3S	skos:exactMatch	aat:300024823	semapv:UnspecifiedMatching	marteau	hammers (tools)	
+pactols:pcrtjYvhMVpH3Q	skos:exactMatch	aat:300054098	semapv:UnspecifiedMatching	martelage	hammering (metal finishing)	
+pactols:pcrt2hndmryMV2	skos:exactMatch	aat:300037214	semapv:UnspecifiedMatching	masse d'armes	maces (weapons)	
+pactols:pcrtIMsuG0RWTs	skos:exactMatch	aat:300010358	semapv:UnspecifiedMatching	matériaux	materials (matter)	
+pactols:pcrtQuZiT5nYY2	skos:exactMatch	aat:300014857	semapv:UnspecifiedMatching	matériaux de construction	building materials	
+pactols:pcrtXOuO8FKGbe	skos:exactMatch	aat:300056392	semapv:UnspecifiedMatching	matériaux de réemploi	adaptive reuse	
+pactols:pcrtgsjUNspKtF	skos:closeMatch	aat:300024724	semapv:UnspecifiedMatching	matériel de broyage	mortars (grinding tools)	
+pactols:pcrtwvFLgSQRs5	skos:exactMatch	aat:300011792	semapv:UnspecifiedMatching	matière organique	organic material	
+pactols:pcrtvKH7mF2Oas	skos:exactMatch	aat:300015351	semapv:UnspecifiedMatching	matière première	raw material	
+pactols:pcrtJdl7n3HRdk	skos:exactMatch	aat:300005891	semapv:UnspecifiedMatching	mausolée	mausoleums	
+pactols:pcrtSP0dQbsIZo	skos:exactMatch	aat:300008727	semapv:UnspecifiedMatching	méandre body components)	meanders (water	
+pactols:pcrtIvN6VPwMxK	skos:exactMatch	aat:300224957	semapv:UnspecifiedMatching	MEB	scanning electron microscopy	
+pactols:pcrtc6qIb7UHSQ	skos:exactMatch	aat:300046025	semapv:UnspecifiedMatching	médaille	medals	
+pactols:pcrtNQL40Ax17n	skos:exactMatch	aat:300077357	semapv:UnspecifiedMatching	médaillon	medallions (medals)	
+pactols:pcrtARiDUn3jr1	skos:exactMatch	aat:300054518	semapv:UnspecifiedMatching	médecine	medicine (discipline)	
+pactols:pcrtjMFrjr1utW	skos:exactMatch	aat:300123562	semapv:UnspecifiedMatching	mégalithe	megaliths	
+pactols:pcrtQpKQcDolxc	skos:closeMatch	aat:300006983	semapv:UnspecifiedMatching	mégalithe complexe	megalithic monuments	
+pactols:pcrt3S7lIydczN	skos:broadMatch	aat:300123562	semapv:UnspecifiedMatching	mégalithisme	megaliths	
+pactols:pcrtD19Y1kxWR4	skos:exactMatch	aat:300006985	semapv:UnspecifiedMatching	menhir	menhirs	
+pactols:pcrtTGfc88uXNW	skos:exactMatch	aat:300054087	semapv:UnspecifiedMatching	menuiserie	joinery (woodwork)	
+pactols:pcrtj7UzwMo9cV	skos:exactMatch	aat:300008694	semapv:UnspecifiedMatching	mer	seas	
+pactols:pcrt0U973LRsPU	skos:broadMatch	aat:300343851	semapv:UnspecifiedMatching	Mercure	gods (dieties)	
+pactols:pcrtTwPPMSZuiN	skos:broadMatch	aat:300053578	semapv:UnspecifiedMatching	mesure de longueur	measuring	
+pactols:pcrtjgj46uKdtQ	skos:broadMatch	aat:300053578	semapv:UnspecifiedMatching	mesure de volume	measuring	
+pactols:pcrtkn1hAXHveS	skos:exactMatch	aat:300010900	semapv:UnspecifiedMatching	métal	metal	
+pactols:pcrtixGJUknjcq	skos:exactMatch	aat:300226182	semapv:UnspecifiedMatching	métallographie	metallography	
+pactols:pcrtuf9JSs9vo6	skos:exactMatch	aat:300054499	semapv:UnspecifiedMatching	métallurgie	metallurgy	
+pactols:pcrtdUvEkSeyqH	skos:exactMatch	aat:300054676	semapv:UnspecifiedMatching	méthodologie	methodology	
+pactols:pcrt2k7dmQEGsR	skos:exactMatch	aat:300247546	semapv:UnspecifiedMatching	métier à tisser	looms (textile tools)	
+pactols:pcrtaJkXATOYwB	skos:exactMatch	aat:300379443	semapv:UnspecifiedMatching	métrologie	metrology	
+pactols:pcrtUt7XJjD0Si	skos:exactMatch	aat:300040215	semapv:UnspecifiedMatching	meuble	furniture components	
+pactols:pcrt1Gqf0UzaZ3	skos:exactMatch	aat:300185256	semapv:UnspecifiedMatching	meule	millstones (equipment components)	
+pactols:pcrt8Kxe3TJcK3	skos:closeMatch	aat:300263933	semapv:UnspecifiedMatching	meule rotative	grinding stones	
+pactols:pcrtc8EgFRyyMq	skos:exactMatch	aat:300053090	semapv:UnspecifiedMatching	meunerie	grinding	
+pactols:pcrtcz91HmkSSF	skos:exactMatch	aat:300400614	semapv:UnspecifiedMatching	microburin	microburins	
+pactols:pcrtMPleZ2204X	skos:broadMatch	aat:300310150	semapv:UnspecifiedMatching	microfaune	fauna	
+pactols:pcrt5dU0qJs5N8	skos:exactMatch	aat:300393267	semapv:UnspecifiedMatching	microlithe	microliths	
+pactols:pcrt5StlzTk4Vn	skos:exactMatch	aat:300218793	semapv:UnspecifiedMatching	micromorphologie	micromorphology	
+pactols:pcrtmn4k8f28dv	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	microrestes	botany	
+pactols:pcrtLf3Bt5nKRt	skos:closeMatch	aat:300380146	semapv:UnspecifiedMatching	milieu rural	rural life	
+pactols:pcrtZ1NStSd183	skos:closeMatch	aat:300266061	semapv:UnspecifiedMatching	milieu végétal	vegetation	
+pactols:pcrtoRerEcO48K	skos:exactMatch	aat:300185678	semapv:UnspecifiedMatching	militaire	soldiers	
+pactols:pcrtkup1vSkwAZ	skos:exactMatch	aat:300400462	semapv:UnspecifiedMatching	millet	Millettia (genus)	
+pactols:pcrtsyYSjFJeJ3	skos:exactMatch	aat:300006973	semapv:UnspecifiedMatching	milliaire	milestones	
+pactols:pcrtuVBFofOdjD	skos:exactMatch	aat:300000390	semapv:UnspecifiedMatching	mine	mines (extracting complexes)	
+pactols:pcrt5bIL1UtwcT	skos:exactMatch	aat:300152583	semapv:UnspecifiedMatching	minerai	ore	
+pactols:pcrty2mcsksa6s	skos:exactMatch	aat:300011068	semapv:UnspecifiedMatching	minéral	mineral	
+pactols:pcrt73IP4tSAfK	skos:exactMatch	aat:300343852	semapv:UnspecifiedMatching	Minerve	goddesses	
+pactols:pcrtb30B513JzE	skos:exactMatch	aat:300037690	semapv:UnspecifiedMatching	miroir	looking glasses	
+pactols:pcrtm0wNp3ZYm9	skos:exactMatch	aat:300379280	semapv:UnspecifiedMatching	mise en scène	spectacles (performances)	
+pactols:pcrtEznNgQ3h63	skos:exactMatch	aat:300037336	semapv:UnspecifiedMatching	mobilier	furnishings (artifacts)	
+pactols:pcrtzAt433wDSZ	skos:exactMatch	aat:300180706	semapv:UnspecifiedMatching	mobilier funéraire	grave goods	
+pactols:pcrtgHrkHykmek	skos:broadMatch	aat:300389790	semapv:UnspecifiedMatching	mode de production	economy	
+pactols:pcrtIfW45Oj2Fb	skos:broadMatch	aat:300005425	semapv:UnspecifiedMatching	mode de résidence	dwellings	
+pactols:pcrtUbQwxQM8Q8	skos:broadMatch	aat:300054575	semapv:UnspecifiedMatching	modélisation	computer science	
+pactols:pcrtEklsyTYoVi	skos:exactMatch	aat:300011693	semapv:UnspecifiedMatching	moellon	rubble	
+pactols:pcrtTN5hnP2dGJ	skos:exactMatch	aat:300022774	semapv:UnspecifiedMatching	molette	roulettes (engraving tools)	
+pactols:pcrt4jqSXocNLw	skos:exactMatch	aat:300266510	semapv:UnspecifiedMatching	mollusque	Mollusca (phylum)	
+pactols:pcrtxAh3LEGcFT	skos:exactMatch	aat:300262951	semapv:UnspecifiedMatching	momie	mummies (bodies)	
+pactols:pcrtwE5STw4SDe	skos:exactMatch	aat:300000641	semapv:UnspecifiedMatching	monastère	monasteries (built complexes)	
+pactols:pcrtaDZQlTT0S8	skos:exactMatch	aat:300037222	semapv:UnspecifiedMatching	monnaie	coins (money)	
+pactols:pcrtoJNY2x1kSq	skos:broadMatch	aat:300194573	semapv:UnspecifiedMatching	monnaie carolingienne	Later Western World coins	
+pactols:pcrtU85GM9JnPj	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie celtique	Early Western World coins	
+pactols:pcrtQ6SIFubMD6	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie du Bas- Empire	Early Western World coins	
+pactols:pcrtLNs0gPSXrA	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie du Haut- Empire	Early Western World coins	
+pactols:pcrtw8Gr55mWQj	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie gauloise	Early Western World coins	
+pactols:pcrtROhN84ILNW	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie grecque	Early Western World coins	
+pactols:pcrtwqW8eGs8Jp	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie impériale	Early Western World coins	
+pactols:pcrthusOdSrtKO	skos:broadMatch	aat:300194573	semapv:UnspecifiedMatching	monnaie médiévale	Later Western World coins	
+pactols:pcrtDJJQDtIzgN	skos:broadMatch	aat:300194573	semapv:UnspecifiedMatching	monnaie mérovingienne	Later Western World coins	
+pactols:pcrtjzkyEUKpHJ	skos:broadMatch	aat:300194573	semapv:UnspecifiedMatching	monnaie moderne	Later Western World coins	
+pactols:pcrtvtoognkHPG	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie punique	Early Western World coins	
+pactols:pcrtNv9EEafPRv	skos:broadMatch	aat:300194573	semapv:UnspecifiedMatching	monnaie Renaissance	Later Western World coins	
+pactols:pcrtsN2awl2Gju	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie républicaine	Early Western World coins	
+pactols:pcrt2AiEKgttQQ	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie romaine	Early Western World coins	
+pactols:pcrtA02smYErrV	skos:broadMatch	aat:300194572	semapv:UnspecifiedMatching	monnaie wisigothique	Early Western World coins	
+pactols:pcrtup4sulBl7v	skos:exactMatch	aat:300206581	semapv:UnspecifiedMatching	monnayage	minting	
+pactols:pcrt28fUXAVb3Z	skos:exactMatch	aat:300008795	semapv:UnspecifiedMatching	montagne	mountains	
+pactols:pcrtZQS76tcoZi	skos:exactMatch	aat:300248085	semapv:UnspecifiedMatching	mors	bits (bridle components)	
+pactols:pcrtNb90Egda4H	skos:exactMatch	aat:300151836	semapv:UnspecifiedMatching	mort	deaths	
+pactols:pcrt5G8Zu1vuaw	skos:closeMatch	aat:300069676	semapv:UnspecifiedMatching	mort violente	murders	
+pactols:pcrtTEWIXPM7Br	skos:exactMatch	aat:300024724	semapv:UnspecifiedMatching	mortier (récipient)	mortars (grinding tools)	
+pactols:pcrtEWWJvOVoh5	skos:exactMatch	aat:300014741	semapv:UnspecifiedMatching	mortier de chaux	mortar (filler)	
+pactols:pcrtEWWJvOVoh5	skos:exactMatch	aat:300014741	semapv:UnspecifiedMatching	mortier de construction	mortar (filler)	
+pactols:pcrtUxTj7SSjjU	skos:broadMatch	aat:300014741	semapv:UnspecifiedMatching	mortier peint	mortar (filler)	
+pactols:pcrtUcrzzSFY50	skos:exactMatch	aat:300015342	semapv:UnspecifiedMatching	mosaïque	mosaics (visual works)	
+pactols:pcrtLZ1el2MnOP	skos:broadMatch	aat:300015342	semapv:UnspecifiedMatching	mosaïque géométrique	mosaics (visual works)	
+pactols:pcrtFPA0Zqg3Yz	skos:exactMatch	aat:300009700	semapv:UnspecifiedMatching	motif décoratif	motifs	
+pactols:pcrtUWW1jdmNbs	skos:exactMatch	aat:300009764	semapv:UnspecifiedMatching	motif géométrique	geometric motifs	
+pactols:pcrtBDFoDRAo75	skos:exactMatch	aat:300164599	semapv:UnspecifiedMatching	motif végétal	plant-derived motifs	
+pactols:pcrt5nrxWObFLg	skos:exactMatch	aat:300175482	semapv:UnspecifiedMatching	motte	mottes	
+pactols:pcrtw9lK8RSghm	skos:exactMatch	aat:300007927	semapv:UnspecifiedMatching	mouillage	berths (waterfront spaces)	
+pactols:pcrtIqlYdSxj6I	skos:broadMatch	aat:300024814	semapv:UnspecifiedMatching	moule de potier	molds (shaping tools)	
+pactols:pcrtnfa1jFbfKD	skos:broadMatch	aat:300024814	semapv:UnspecifiedMatching	moule monétaire	molds (shaping tools)	
+pactols:pcrtLSXO163Odc	skos:broadMatch	aat:300024814	semapv:UnspecifiedMatching	moule pour métal	molds (shaping tools)	
+pactols:pcrtZpxVcg7sSA	skos:exactMatch	aat:300264626	semapv:UnspecifiedMatching	moulin	mills (buildings)	
+pactols:pcrt6oKbFdZxqF	skos:exactMatch	aat:300006270	semapv:UnspecifiedMatching	moulin à eau	water mills	
+pactols:pcrtLuTRnnPFJp	skos:exactMatch	aat:300006273	semapv:UnspecifiedMatching	moulin à vent	windmills	
+pactols:pcrt98n6h95hof	skos:exactMatch	aat:300053134	semapv:UnspecifiedMatching	moulure	molding (forming)	
+pactols:pcrtDtJwUVaZ0I	skos:exactMatch	aat:300404156	semapv:UnspecifiedMatching	mouton	Ovis aries (species)	
+pactols:pcrtbxdVAk7uVQ	skos:exactMatch	aat:300053155	semapv:UnspecifiedMatching	mouture	milling (metalworking)	
+pactols:pcrtTPJFzJTZNm	skos:narrowMatch	aat:300263931	semapv:UnspecifiedMatching	mouvement de population	migrations (events)	
+pactols:pcrtIxHmbVwDYW	skos:exactMatch	aat:300002469	semapv:UnspecifiedMatching	mur	walls	
+pactols:pcrtKABRRvuwRJ	skos:exactMatch	aat:300002505	semapv:UnspecifiedMatching	mur d'enceinte	ramparts	
+pactols:pcrtdKYAov6rPY	skos:exactMatch	aat:300002485	semapv:UnspecifiedMatching	muraille	defensive walls	
+pactols:pcrtADTnt0nqjr	skos:exactMatch	aat:300247580	semapv:UnspecifiedMatching	murus gallicus	murus gallicus	
+pactols:pcrthoMrS3qnLo	skos:exactMatch	aat:300312281	semapv:UnspecifiedMatching	musée	museums (institutions)	
+pactols:pcrtmoM3SzhDcB	skos:exactMatch	aat:300011835	semapv:UnspecifiedMatching	nacre	mother of pearl	
+pactols:pcrtheTIyQA4MB	skos:exactMatch	aat:300004624	semapv:UnspecifiedMatching	narthex	narthexes	
+pactols:pcrtiWWfFSvcjn	skos:exactMatch	aat:300263216	semapv:UnspecifiedMatching	nasse	fykes	
+pactols:pcrtM1Jed0bHvM	skos:exactMatch	aat:300247548	semapv:UnspecifiedMatching	navette	shuttles (textile tools)	
+pactols:pcrt7T8PlSbmnN	skos:broadMatch	aat:300068773	semapv:UnspecifiedMatching	navigation fluviale	water transport	
+pactols:pcrtsIm3RuNMGu	skos:exactMatch	aat:300000372	semapv:UnspecifiedMatching	nécropole	necropolises	
+pactols:pcrtBTt3dH8T7s	skos:broadMatch	aat:300000372	semapv:UnspecifiedMatching	nécropole à incinération	necropolises	
+pactols:pcrtjurU41z1VA	skos:broadMatch	aat:300000372	semapv:UnspecifiedMatching	nécropole à rangées	necropolises	
+pactols:pcrtjurU41z1VA	skos:broadMatch	aat:300000372	semapv:UnspecifiedMatching	nécropole en plein champ	necropolises	
+pactols:pcrtVUHISri9uE	skos:exactMatch	aat:300004627	semapv:UnspecifiedMatching	nef	naves	
+pactols:pcrthbreFd57Bs	skos:exactMatch	aat:300002704	semapv:UnspecifiedMatching	niche	niches	
+pactols:pcrtvF6NR3LjxS	skos:broadMatch	aat:300054146	semapv:UnspecifiedMatching	notation musicale	music (performing arts)	
+pactols:pcrtQthmFXKZvt	skos:exactMatch	aat:300189561	semapv:UnspecifiedMatching	nourrisson	infants	
+pactols:pcrtY8tYVGcqWv	skos:broadMatch	aat:300189561	semapv:UnspecifiedMatching	nouveau-né	infants	
+pactols:pcrtRrjLKroLLU	skos:exactMatch	aat:300265134	semapv:UnspecifiedMatching	nucleus	cores (object genres)	
+pactols:pcrtaEf2wWY07i	skos:exactMatch	aat:300054419	semapv:UnspecifiedMatching	numismatique	numismatics	
+pactols:pcrtNb6b1FbpBU	skos:exactMatch	aat:300006809	semapv:UnspecifiedMatching	nymphée	nymphaea (garden structures)	
+pactols:pcrtZhnbHzuSzG	skos:exactMatch	aat:300311889	semapv:UnspecifiedMatching	objet	objects	
+pactols:pcrtWB9n8gkPsO	skos:closeMatch	aat:300404019	semapv:UnspecifiedMatching	objet de libation	libation vessels	
+pactols:pcrtWJ6Lelvm6J	skos:closeMatch	aat:300236191	semapv:UnspecifiedMatching	objet de toilette	toilet sets (dresser sets)	
+pactols:pcrt4OanARQmgf	skos:closeMatch	aat:300015348	semapv:UnspecifiedMatching	objet en bois	woodwork	
+pactols:pcrt39PRSHHxPD	skos:exactMatch	aat:300234147	semapv:UnspecifiedMatching	objet liturgique	liturgical objects	
+pactols:pcrtf8SaMYKckm	skos:broadMatch	aat:300015336	semapv:UnspecifiedMatching	objet métallique	metalwork (visual works)	
+pactols:pcrta4TfENEoJy	skos:exactMatch	aat:300234098	semapv:UnspecifiedMatching	objet religieux	religious objects	
+pactols:pcrtgefwJa13yZ	skos:exactMatch	aat:300011254	semapv:UnspecifiedMatching	obsidienne	obsidian	
+pactols:pcrtUu5zfknZ1x	skos:exactMatch	aat:300055399	semapv:UnspecifiedMatching	occupation du sol	land use	
+pactols:pcrttnySGIGsj6	skos:exactMatch	aat:300013951	semapv:UnspecifiedMatching	ocre	ocher (inorganic material)	
+pactols:pcrtjLErxnSQev	skos:exactMatch	aat:300198866	semapv:UnspecifiedMatching	oenochoé	oinochoai	
+pactols:pcrtfUZSMbifle	skos:exactMatch	aat:300006310	semapv:UnspecifiedMatching	officine	potteries (manufactories)	
+pactols:pcrt7aZQYTcLGF	skos:exactMatch	aat:300178244	semapv:UnspecifiedMatching	offrande	votive offerings	
+pactols:pcrttz2ScynGZv	skos:broadMatch	aat:300178244	semapv:UnspecifiedMatching	offrande alimentaire	votive offerings	
+pactols:pcrtqbh6Y1DsXN	skos:exactMatch	aat:300266506	semapv:UnspecifiedMatching	oiseau	Aves (class)	
+pactols:pcrttmOlgrdf6f	skos:broadMatch	aat:300178563	semapv:UnspecifiedMatching	oléiculture	arboriculture	
+pactols:pcrteZDglJiqWF	skos:exactMatch	aat:300311369	semapv:UnspecifiedMatching	olivier	Olea europaea (species)	
+pactols:pcrtWKhW99XX8F	skos:broadMatch	aat:300054245	semapv:UnspecifiedMatching	onomastique	linguistics	
+pactols:pcrtroIpDW7j36	skos:exactMatch	aat:300008396	semapv:UnspecifiedMatching	oppidum	oppida	
+pactols:pcrtoz5WZxu4iz	skos:exactMatch	aat:300266050	semapv:UnspecifiedMatching	optoluminescence	optically stimulated luminescence dating	
+pactols:pcrt039bGXIj6t	skos:exactMatch	aat:300262690	semapv:UnspecifiedMatching	opus reticulatum	opus reticulatum	
+pactols:pcrtSNta3G6E6g	skos:exactMatch	aat:300254462	semapv:UnspecifiedMatching	opus sectile	opus sectile (visual works)	
+pactols:pcrtE6otPtwi8P	skos:exactMatch	aat:300379969	semapv:UnspecifiedMatching	opus signinum	opus signinum	
+pactols:pcrtuihSl3eSnW	skos:exactMatch	aat:300011021	semapv:UnspecifiedMatching	or	gold (metal)	
+pactols:pcrttmPpnMmB2t	skos:exactMatch	aat:300007459	semapv:UnspecifiedMatching	oratoire	oratories	
+pactols:pcrtSIkOA9h9ld	skos:closeMatch	aat:300054048	semapv:UnspecifiedMatching	orfèvrerie	goldsmithing	
+pactols:pcrtZ50m7faghJ	skos:broadMatch	aat:300054687	semapv:UnspecifiedMatching	organisation de la recherche	research (function)	
+pactols:pcrt3mBlLdPeGK	skos:exactMatch	aat:300054188	semapv:UnspecifiedMatching	organisation de l'espace	space planning	
+pactols:pcrtckTraG5aXX	skos:exactMatch	aat:300055473	semapv:UnspecifiedMatching	organisation sociale	social structure	
+pactols:pcrt4vKMQQ6elk	skos:exactMatch	aat:300343826	semapv:UnspecifiedMatching	orge	Hordeum (genus)	
+pactols:pcrt448yYmVDuT	skos:exactMatch	aat:300011798	semapv:UnspecifiedMatching	os	bone (material)	
+pactols:pcrtoz5WZxu4iz	skos:exactMatch	aat:300266050	semapv:UnspecifiedMatching	OSL	optically stimulated luminescence dating	
+pactols:pcrtEfcf8rSZvm	skos:closeMatch	aat:300011798	semapv:UnspecifiedMatching	ossement	bone (material)	
+pactols:pcrtxaAvFeoE3Z	skos:closeMatch	aat:300191781	semapv:UnspecifiedMatching	ossements animaux	skeleton components (animal components)	
+pactols:pcrtf0jhaoDXkJ	skos:closeMatch	aat:300191781	semapv:UnspecifiedMatching	ossements humains	skeleton components (animal components)	
+pactols:pcrt0YYwncvlpV	skos:exactMatch	aat:300005897	semapv:UnspecifiedMatching	ossuaire	ossuaries (buildings)	
+pactols:pcrtaI2EMYnfOm	skos:exactMatch	aat:300379771	semapv:UnspecifiedMatching	ostéologie	osteology	
+pactols:pcrtS56SLxiSsp	skos:broadMatch	aat:300379771	semapv:UnspecifiedMatching	ostéométrie	osteology	
+pactols:pcrtgEDZEUxU7l	skos:exactMatch	aat:300199780	semapv:UnspecifiedMatching	oule	ollas	
+pactols:pcrtxs8Kml8jLw	skos:exactMatch	aat:300024841	semapv:UnspecifiedMatching	outil	tools	
+pactols:pcrtgi6nA8qPOv	skos:exactMatch	aat:300233315	semapv:UnspecifiedMatching	outil agricole	agricultural equipment	
+pactols:pcrtx72BOMXZ2d	skos:exactMatch	aat:300002765	semapv:UnspecifiedMatching	ouverture	openings (architectural elements)	
+pactols:pcrt6j9PdPG70O	skos:exactMatch	aat:300003701	semapv:UnspecifiedMatching	ouvrage avancé	outworks	
+pactols:pcrtq3R2kFrtAu	skos:broadMatch	aat:300310440	semapv:UnspecifiedMatching	ovi-capridé	Bovidae (family)	
+pactols:pcrtaNAa6VITc0	skos:exactMatch	aat:300250284	semapv:UnspecifiedMatching	ovinés	Ovis (genus)	
+pactols:pcrtDr6Oi6lHM6	skos:exactMatch	aat:300262820	semapv:UnspecifiedMatching	pain	bread	
+pactols:pcrtISZAuzsISK	skos:exactMatch	aat:300005734	semapv:UnspecifiedMatching	palais	palaces	
+pactols:pcrtDfFRaHdgV8	skos:broadMatch	aat:300005734	semapv:UnspecifiedMatching	palais épiscopal	palaces	
+pactols:pcrtfRsB7bzupa	skos:exactMatch	aat:300020665	semapv:UnspecifiedMatching	Paléochrétiens	Early Christian	
+pactols:pcrtkilSDZLAlV	skos:exactMatch	aat:300379410	semapv:UnspecifiedMatching	paléoenvironnement	paleoenvironments	
+pactols:pcrtvun1g7PPLq	skos:exactMatch	aat:300054420	semapv:UnspecifiedMatching	paléographie	paleography	
+pactols:pcrtD9ainKPnan	skos:broadMatch	aat:300379576	semapv:UnspecifiedMatching	paléolac	hydrogeology	
+pactols:pcrt16K8Z22Yox	skos:closeMatch	aat:300054555	semapv:UnspecifiedMatching	paléontologie animale	paleontology	
+pactols:pcrtZpkoQ0bXdY	skos:closeMatch	aat:300054555	semapv:UnspecifiedMatching	paléontologie des invertébrés	paleontology	
+pactols:pcrtGqf4ieHiSY	skos:closeMatch	aat:300054326	semapv:UnspecifiedMatching	paléontologie humaine	paleoanthropology	
+pactols:pcrtslhJM0KfQ3	skos:exactMatch	aat:300379436	semapv:UnspecifiedMatching	paléopathologie	pathology	
+pactols:pcrtYEBzGKTPit	skos:broadMatch	aat:300379586	semapv:UnspecifiedMatching	paléosol	sedimentology	
+pactols:pcrtu1Srs8qhIX	skos:exactMatch	aat:300007301	semapv:UnspecifiedMatching	palestre	palaestrae	
+pactols:pcrt97cSBJyoxI	skos:closeMatch	aat:300375707	semapv:UnspecifiedMatching	palette à fard	cosmetic palettes	
+pactols:pcrt0zYTSW9UyI	skos:exactMatch	aat:300003717	semapv:UnspecifiedMatching	palissade	palisades (outworks)	
+pactols:pcrt1vSh3lIhHm	skos:exactMatch	aat:300251145	semapv:UnspecifiedMatching	palynologie	palynology	
+pactols:pcrtcJFj5LxGDG	skos:exactMatch	aat:300012336	semapv:UnspecifiedMatching	pan de bois	partridgewood (wood)	
+pactols:pcrt0IUiakkwSx	skos:broadMatch	aat:300054466	semapv:UnspecifiedMatching	parasitologie	biology	
+pactols:pcrt3G8RooGUeu	skos:exactMatch	aat:300028125	semapv:UnspecifiedMatching	parcellaire	plats (maps)	
+pactols:pcrthTAMawVNg8	skos:exactMatch	aat:300386688	semapv:UnspecifiedMatching	parement	facing (material)	
+pactols:pcrtS1LzpAWeT2	skos:exactMatch	aat:300000773	semapv:UnspecifiedMatching	paroisse	parishes (religious divisions)	
+pactols:pcrtRtxV7z0lyE	skos:closeMatch	aat:300133704	semapv:UnspecifiedMatching	partie de maison	rooms and spaces	
+pactols:pcrtoTxSI7RoF4	skos:closeMatch	aat:300004560	semapv:UnspecifiedMatching	partie de monastère	monastic churches (buildings)	
+pactols:pcrt53FsGe90uG	skos:broadMatch	aat:300006958	semapv:UnspecifiedMatching	partie de monument	monuments	
+pactols:pcrtEA7Zm6T4zu	skos:broadMatch	aat:300007466	semapv:UnspecifiedMatching	partie d'église	churches (buildings)	
+pactols:pcrtNBrnOdttU9	skos:exactMatch	aat:300209286	semapv:UnspecifiedMatching	parure	jewelry	
+pactols:pcrth2K8oV7jvr	skos:exactMatch	aat:300201087	semapv:UnspecifiedMatching	passoire	strainers (culinary tools)	
+pactols:pcrt5u9tMfcVa9	skos:broadMatch	aat:300380146	semapv:UnspecifiedMatching	pastoralisme	rural life	
+pactols:pcrtZETJwE7RTQ	skos:exactMatch	aat:300010459	semapv:UnspecifiedMatching	pâte	slip (clay)	
+pactols:pcrtSmefwuwa97	skos:exactMatch	aat:300008077	semapv:UnspecifiedMatching	pâté de maisons	city blocks	
+pactols:pcrtBoASrkiQOc	skos:exactMatch	aat:300198942	semapv:UnspecifiedMatching	patène	patens (liturgical vessels)	
+pactols:pcrth768oLavp9	skos:exactMatch	aat:300260178	semapv:UnspecifiedMatching	patère	paterae (containers)	
+pactols:pcrtslhJM0KfQ3	skos:exactMatch	aat:300379436	semapv:UnspecifiedMatching	pathologie	pathology	
+pactols:pcrtDAGnvZa9az	skos:exactMatch	aat:300386990	semapv:UnspecifiedMatching	pâturage	grazing areas	
+pactols:pcrt3mGRLwEneh	skos:exactMatch	aat:300011718	semapv:UnspecifiedMatching	pavé	paving stone	
+pactols:pcrtI57XGm8k1D	skos:exactMatch	aat:300002088	semapv:UnspecifiedMatching	pavement	pavements (surface elements)	
+pactols:pcrtKlvalAWQ4B	skos:broadMatch	aat:300007820	semapv:UnspecifiedMatching	péage	toll-collection structures	
+pactols:pcrtmSImgZOUQg	skos:exactMatch	aat:300239470	semapv:UnspecifiedMatching	pêche	fishing	
+pactols:pcrtLKK8DqqSAb	skos:broadMatch	aat:300054557	semapv:UnspecifiedMatching	pédogenèse	soil science	
+pactols:pcrts8Sij9iWxU	skos:exactMatch	aat:300054557	semapv:UnspecifiedMatching	pédologie	soil science	
+pactols:pcrtevVY2zQola	skos:broadMatch	aat:300045685	semapv:UnspecifiedMatching	pégau	jugs (vessels)	
+pactols:pcrtwS1o3yfK4q	skos:exactMatch	aat:300236397	semapv:UnspecifiedMatching	peigne	combs (grooming tools)	
+pactols:pcrtvsFBSmOKN2	skos:exactMatch	aat:300054216	semapv:UnspecifiedMatching	peinture	painting (image- making)	
+pactols:pcrtXnnrd43yND	skos:exactMatch	aat:300178677	semapv:UnspecifiedMatching	peinture murale	mural painting (image-making)	
+pactols:pcrtTcw1EjNRjc	skos:exactMatch	aat:300178308	semapv:UnspecifiedMatching	peinture pariétale	cave paintings	
+pactols:pcrtlnO5p7I8Do	skos:exactMatch	aat:300024300	semapv:UnspecifiedMatching	pelle	shovels	
+pactols:pcrtWjl7XVHb31	skos:broadMatch	aat:300011811	semapv:UnspecifiedMatching	pelleterie	fur (hair material)	
+pactols:pcrt1y72wtlJiM	skos:exactMatch	aat:300046002	semapv:UnspecifiedMatching	pendeloque	pendants (jewelry)	
+pactols:pcrtyhGhA0pEmo	skos:exactMatch	aat:300046002	semapv:UnspecifiedMatching	pendentif	pendants (jewelry)	
+pactols:pcrtkKW8tQKUQe	skos:exactMatch	aat:300389694	semapv:UnspecifiedMatching	perçoir	borers (tools)	
+pactols:pcrtSOib7pkuVY	skos:exactMatch	aat:300024854	semapv:UnspecifiedMatching	percuteur	hammerstones	
+pactols:pcrtMyNWcemJmF	skos:broadMatch	aat:300379586	semapv:UnspecifiedMatching	pergélisol	sedimentology	
+pactols:pcrtdzyBHnXaL5	skos:exactMatch	aat:300004029	semapv:UnspecifiedMatching	péristyle	peristyles (colonnades)	
+pactols:pcrtcOdrZSUYkk	skos:exactMatch	aat:300234006	semapv:UnspecifiedMatching	perle	beads (pierced objects)	
+pactols:pcrtt4zLcbgpbm	skos:exactMatch	aat:300265738	semapv:UnspecifiedMatching	peson	spindles (textile working equipment)	
+pactols:pcrthnT1nxnGPl	skos:exactMatch	aat:300266727	semapv:UnspecifiedMatching	peson de filet de pêche	sinkers (fishing)	
+pactols:pcrtvKEYQjSSlI	skos:exactMatch	aat:300379833	semapv:UnspecifiedMatching	peste	plagues	
+pactols:pcrtuObVSkeViP	skos:closeMatch	aat:300015333	semapv:UnspecifiedMatching	petit appareil	brickwork (masonry)	
+pactols:pcrtiiGa8GYBlS	skos:exactMatch	aat:300379416	semapv:UnspecifiedMatching	pétrographie	petrography	
+pactols:pcrtk0qX6lHZeu	skos:closeMatch	aat:300055418	semapv:UnspecifiedMatching	peuplement	population change	
+pactols:pcrtP5AK6MqaZy	skos:exactMatch	aat:300261080	semapv:UnspecifiedMatching	phalères	phalerae	
+pactols:pcrtuWZ3xzYnjx	skos:exactMatch	aat:300007741	semapv:UnspecifiedMatching	phare	lighthouses	
+pactols:pcrtOUkmlGSESJ	skos:exactMatch	aat:300054262	semapv:UnspecifiedMatching	phonétique	phonetics	
+pactols:pcrt2nbSAPPSwB	skos:exactMatch	aat:300379779	semapv:UnspecifiedMatching	phosphate	phosphate	
+pactols:pcrtIRVfnRRfuP	skos:exactMatch	aat:300053580	semapv:UnspecifiedMatching	photogrammétrie	photogrammetry	
+pactols:pcrtDnXil6KFZm	skos:exactMatch	aat:300054225	semapv:UnspecifiedMatching	photographie	photography (process)	
+pactols:pcrtJlb73k6yKX	skos:exactMatch	aat:300053443	semapv:UnspecifiedMatching	photographie aérienne	aerial photography	
+pactols:pcrtkyIAFWLoSn	skos:exactMatch	aat:300224431	semapv:UnspecifiedMatching	physico-chimie	physical chemistry	
+pactols:pcrt5Bet7kzAgJ	skos:exactMatch	aat:300379628	semapv:UnspecifiedMatching	phytolithe	phytoliths	
+pactols:pcrtwmwJw6xguE	skos:exactMatch	aat:300024830	semapv:UnspecifiedMatching	pic	picks (tools)	
+pactols:pcrtJakeAnrd68	skos:exactMatch	aat:300194765	semapv:UnspecifiedMatching	pichet	pitchers (vessels)	
+pactols:pcrthJ0dPo1nlZ	skos:exactMatch	aat:300247420	semapv:UnspecifiedMatching	piège	traps (trapping equipment)	
+pactols:pcrtnlpDSw0du4	skos:exactMatch	aat:300011665	semapv:UnspecifiedMatching	pierre ollaire	soapstone (metamorphic rock)	
+pactols:pcrtkzqjsdoWsv	skos:exactMatch	aat:300070971	semapv:UnspecifiedMatching	pierre sèche	dry walls (masonry)	
+pactols:pcrtSZdQ2VTs2k	skos:exactMatch	aat:300005923	semapv:UnspecifiedMatching	pierre tombale	tombstones (sepulchral monuments)	
+pactols:pcrtL3WSQJjK9w	skos:exactMatch	aat:300247473	semapv:UnspecifiedMatching	pieu	stakes (pointed objects)	
+pactols:pcrtVJZca9L0GP	skos:exactMatch	aat:300004975	semapv:UnspecifiedMatching	pigeonnier	dovecotes	
+pactols:pcrtGzQPnntJa1	skos:exactMatch	aat:300013109	semapv:UnspecifiedMatching	pigment	pigment	
+pactols:pcrtPFlqRPxAw0	skos:exactMatch	aat:300002737	semapv:UnspecifiedMatching	pilastre	pilasters	
+pactols:pcrttV8cp3mWYM	skos:exactMatch	aat:300263483	semapv:UnspecifiedMatching	pile funéraire	pillar tombs	
+pactols:pcrtUR3VSyzS1r	skos:exactMatch	aat:300264605	semapv:UnspecifiedMatching	pilier	pillars	
+pactols:pcrt7Kgm9TTHgF	skos:exactMatch	aat:300379554	semapv:UnspecifiedMatching	pillage	looting	
+pactols:pcrtL9O7cXfFQc	skos:exactMatch	aat:300024725	semapv:UnspecifiedMatching	pilon	pestles	
+pactols:pcrt2Li4dQSq4u	skos:exactMatch	aat:300213510	semapv:UnspecifiedMatching	pilum	pila (javelins)	
+pactols:pcrtWcHt5Idk5X	skos:exactMatch	aat:300024749	semapv:UnspecifiedMatching	pince à épiler	tweezers	
+pactols:pcrtN0rNrP54Qt	skos:exactMatch	aat:300248067	semapv:UnspecifiedMatching	pipe	pipes (smoking equipment)	
+pactols:pcrtU7MKwduVZI	skos:closeMatch	aat:300000228	semapv:UnspecifiedMatching	pisciculture	fish hatcheries	
+pactols:pcrtWeehA5itZ7	skos:exactMatch	aat:300014362	semapv:UnspecifiedMatching	pisé	pisé	
+pactols:pcrtVJoK8AR7B6	skos:exactMatch	aat:300037160	semapv:UnspecifiedMatching	pistolet	pistols	
+pactols:pcrtw4WU5RpLdF	skos:exactMatch	aat:300008304	semapv:UnspecifiedMatching	place	squares (open spaces)	
+pactols:pcrtSqZrIUtWgv	skos:exactMatch	aat:300002031	semapv:UnspecifiedMatching	plafond	ceilings	
+pactols:pcrtSKri8bFtmn	skos:exactMatch	aat:300034158	semapv:UnspecifiedMatching	plan	floor plans	
+pactols:pcrtUIbdZmT2P6	skos:exactMatch	aat:300002060	semapv:UnspecifiedMatching	plancher	floors (surface elements)	
+pactols:pcrtNQhoS8U7Ve	skos:exactMatch	aat:300014031	semapv:UnspecifiedMatching	plante à textile	plant fiber	
+pactols:pcrtATL3ZnpSP5	skos:closeMatch	aat:300380162	semapv:UnspecifiedMatching	plante alimentaire	vegetables	
+pactols:pcrt7HbtemJhVu	skos:exactMatch	aat:300010262	semapv:UnspecifiedMatching	plaque	plaques (flat objects)	
+pactols:pcrtbPJTIhNh6t	skos:exactMatch	aat:300375281	semapv:UnspecifiedMatching	plaque de ceinture	belt buckles	
+pactols:pcrtGNV7vBYjjg	skos:exactMatch	aat:300022755	semapv:UnspecifiedMatching	plaque décorée	printing plates	
+pactols:pcrtBcnnbWFksB	skos:exactMatch	aat:300375281	semapv:UnspecifiedMatching	plaque-boucle	belt buckles	
+pactols:pcrtlZ7VYeGKO3	skos:exactMatch	aat:300010262	semapv:UnspecifiedMatching	plaquette	plaques (flat objects)	
+pactols:pcrtdt7TJtiVvO	skos:closeMatch	aat:300190507	semapv:UnspecifiedMatching	plaquette décorée	plaquettes (sculptures)	
+pactols:pcrt7TXrgFrBy7	skos:closeMatch	aat:300190507	semapv:UnspecifiedMatching	plaquette gravée	plaquettes (sculptures)	
+pactols:pcrtbrRG0zkqH0	skos:exactMatch	aat:300042973	semapv:UnspecifiedMatching	plat	dishes (vessels)	
+pactols:pcrt0cXwJQ0m88	skos:exactMatch	aat:300196376	semapv:UnspecifiedMatching	plat à pain	bread pans	
+pactols:pcrtxVPISFTEr6	skos:exactMatch	aat:300011099	semapv:UnspecifiedMatching	plâtre	gypsum	
+pactols:pcrtEpGlZykUTy	skos:exactMatch	aat:300011022	semapv:UnspecifiedMatching	plomb	lead (metal)	
+pactols:pcrtQIoupOcrjR	skos:broadMatch	aat:300028702	semapv:UnspecifiedMatching	plomb inscrit	inscriptions	
+pactols:pcrtR02lm9id5t	skos:exactMatch	aat:300249278	semapv:UnspecifiedMatching	podium	podiums (platforms)	
+pactols:pcrt6x9uf6RKNp	skos:exactMatch	aat:300042983	semapv:UnspecifiedMatching	poêle	pans (containers)	
+pactols:pcrthHJV1reScS	skos:exactMatch	aat:300042987	semapv:UnspecifiedMatching	poêlon	saucepans	
+pactols:pcrtV5hROSW9aQ	skos:exactMatch	aat:300343371	semapv:UnspecifiedMatching	poids	weights (object genres)	
+pactols:pcrt61TDW4zbkB	skos:exactMatch	aat:300254280	semapv:UnspecifiedMatching	poids monétaire	coin weights	
+pactols:pcrtGwTuoUH3BY	skos:exactMatch	aat:300037058	semapv:UnspecifiedMatching	poignard	daggers (weapons)	
+pactols:pcrthN2iV93TG4	skos:exactMatch	aat:300024927	semapv:UnspecifiedMatching	poignée	handles	
+pactols:pcrtMAvA0cek91	skos:exactMatch	aat:300023486	semapv:UnspecifiedMatching	poinçon	bodkins (tools)	
+pactols:pcrtmDqe8H6RNF	skos:exactMatch	aat:300190701	semapv:UnspecifiedMatching	pointe	ends (object portions)	
+pactols:pcrtd79H4ej2zN	skos:exactMatch	aat:300024861	semapv:UnspecifiedMatching	pointe de flèche	arrowheads	
+pactols:pcrt8WJQ9WYnAG	skos:exactMatch	aat:300037118	semapv:UnspecifiedMatching	pointe de lance	spearheads	
+pactols:pcrt3u1amrctOl	skos:exactMatch	aat:300400682	semapv:UnspecifiedMatching	pointe de Palmela	Palmela points	
+pactols:pcrts48isTYuSt	skos:exactMatch	aat:300400609	semapv:UnspecifiedMatching	pointe foliacée	foliate points	
+pactols:pcrtWzsaEhKlzd	skos:exactMatch	aat:300266085	semapv:UnspecifiedMatching	poisson	fish (animals)	
+pactols:pcrtc6RmFQxFuS	skos:exactMatch	aat:300012949	semapv:UnspecifiedMatching	poix	pitch (tar)	
+pactols:pcrtwS8B9AqhuJ	skos:exactMatch	aat:300053867	semapv:UnspecifiedMatching	polissage	polishing	
+pactols:pcrtswvHAQS08J	skos:exactMatch	aat:300236674	semapv:UnspecifiedMatching	polissoir	buffers (surface working tools)	
+pactols:pcrtVgXu5JJGUg	skos:closeMatch	aat:300400637	semapv:UnspecifiedMatching	polissoir à rainures	grooved rocks	
+pactols:pcrtfvFEM5jWpL	skos:exactMatch	aat:300247962	semapv:UnspecifiedMatching	polychromie	polychromy	
+pactols:pcrttcSF6qn4l3	skos:exactMatch	aat:300007836	semapv:UnspecifiedMatching	pont	bridges (built works)	
+pactols:pcrtQ9YJIfA1mQ	skos:exactMatch	aat:300007858	semapv:UnspecifiedMatching	pont-levis	drawbridges	
+pactols:pcrtamWjqMqPWT	skos:exactMatch	aat:300250114	semapv:UnspecifiedMatching	porc	Sus (genus)	
+pactols:pcrtPEGVkSl8Hk	skos:exactMatch	aat:300386874	semapv:UnspecifiedMatching	porcelaine	porcelain (visual works)	
+pactols:pcrtPIyie0O35K	skos:narrowMatch	aat:300387409	semapv:UnspecifiedMatching	porcelaine chinoise	Chinese export porcelain	
+pactols:pcrt3EJjtWAVjc	skos:exactMatch	aat:300004132	semapv:UnspecifiedMatching	porche	porches	
+pactols:pcrtp45jEJloXR	skos:exactMatch	aat:300011232	semapv:UnspecifiedMatching	porphyre	porphyry	
+pactols:pcrtVemT6o6YVG	skos:exactMatch	aat:300008678	semapv:UnspecifiedMatching	port	harbors	
+pactols:pcrtwh5icnwutJ	skos:exactMatch	aat:300387511	semapv:UnspecifiedMatching	port maritime	seaports	
+pactols:pcrt4otVkR3bqD	skos:exactMatch	aat:300002803	semapv:UnspecifiedMatching	porte	doors	
+pactols:pcrtVeZQVh7enW	skos:closeMatch	aat:300076641	semapv:UnspecifiedMatching	porte monumentale	portals	
+pactols:pcrt3JJD9yzFE8	skos:exactMatch	aat:300005080	semapv:UnspecifiedMatching	porte urbaine	city gates	
+pactols:pcrtYvFTIy7qRD	skos:exactMatch	aat:300004145	semapv:UnspecifiedMatching	portique	porticoes	
+pactols:pcrtwv8hEQphcZ	skos:closeMatch	aat:300198953	semapv:UnspecifiedMatching	pot à cuire	stockpots	
+pactols:pcrtxsAscs897u	skos:exactMatch	aat:300001609	semapv:UnspecifiedMatching	poteau	posts (structural elements)	
+pactols:pcrt1DMOWvDF4j	skos:exactMatch	aat:300010666	semapv:UnspecifiedMatching	poterie	pottery (visual works)	
+pactols:pcrtNHs49sqYDW	skos:exactMatch	aat:300002932	semapv:UnspecifiedMatching	poterne	posterns	
+pactols:pcrtvzUoe0N6qk	skos:exactMatch	aat:300025414	semapv:UnspecifiedMatching	potier	potters	
+pactols:pcrtkbJMkYrMF6	skos:exactMatch	aat:300010979	semapv:UnspecifiedMatching	potin	pewter (tin alloy)	
+pactols:pcrtEBpIym4SMO	skos:exactMatch	aat:300311345	semapv:UnspecifiedMatching	pourpre	crimson (color)	
+pactols:pcrtacve3pNckc	skos:broadMatch	aat:300265605	semapv:UnspecifiedMatching	pourrissoir	retting	
+pactols:pcrtMw5xXEAy1F	skos:closeMatch	aat:300263485	semapv:UnspecifiedMatching	pratique funéraire	burials	
+pactols:pcrtiSegPnzgXc	skos:closeMatch	aat:300056005	semapv:UnspecifiedMatching	pratique religieuse	worship	
+pactols:pcrtHlxwv11rUT	skos:exactMatch	aat:300005648	semapv:UnspecifiedMatching	presbytère	presbyteries	
+pactols:pcrtwSX1mPDm02	skos:exactMatch	aat:300121802	semapv:UnspecifiedMatching	pressoir à huile	oil presses	
+pactols:pcrtX6i6y3KIsv	skos:exactMatch	aat:300203675	semapv:UnspecifiedMatching	pressoir à vin	wine presses	
+pactols:pcrtbrO7H4lPWM	skos:exactMatch	aat:300000645	semapv:UnspecifiedMatching	prieuré	priories	
+pactols:pcrtGfuuHTbwsI	skos:exactMatch	aat:300006460	semapv:UnspecifiedMatching	prison	prisons (buildings)	
+pactols:pcrtbXaQ5mO06W	skos:exactMatch	aat:300025933	semapv:UnspecifiedMatching	prisonnier	prisoners	
+pactols:pcrtg9XR0wFYKT	skos:exactMatch	aat:300054713	semapv:UnspecifiedMatching	production	production	
+pactols:pcrtDffxD420gS	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	produit agricole	agriculture	
+pactols:pcrt5L4aRNkptl	skos:exactMatch	aat:300024860	semapv:UnspecifiedMatching	projectile	projectile points	
+pactols:pcrtA03yShas9H	skos:exactMatch	aat:300004670	semapv:UnspecifiedMatching	pronaos	pronaoi	
+pactols:pcrtsBlSwTs097	skos:broadMatch	aat:300189129	semapv:UnspecifiedMatching	prophylaxie	preventing	
+pactols:pcrtM6WKp5XFlj	skos:exactMatch	aat:300226986	semapv:UnspecifiedMatching	prospection	surveys (documents)	
+pactols:pcrtD900pLBG6t	skos:exactMatch	aat:300379907	semapv:UnspecifiedMatching	prospection géophysique	geophysical surveys	
+pactols:pcrtTxG9hMhZd7	skos:exactMatch	aat:300055863	semapv:UnspecifiedMatching	provenance	provenance	
+pactols:pcrt6FVY044DB8	skos:exactMatch	aat:300111999	semapv:UnspecifiedMatching	publication	publications (documents)	
+pactols:pcrtiS8Ollckzn	skos:exactMatch	aat:300006207	semapv:UnspecifiedMatching	puits	wells (structures)	
+pactols:pcrtSp0Bn88zX1	skos:closeMatch	aat:300008027	semapv:UnspecifiedMatching	puits d'extraction	pits (earthworks)	
+pactols:pcrtwVyNg0yMfv	skos:exactMatch	aat:300005951	semapv:UnspecifiedMatching	puits funéraire	shaft graves (tombs)	
+pactols:pcrtKRoPbSDJ9I	skos:exactMatch	aat:300400646	semapv:UnspecifiedMatching	pyramidion	pyramidions	
+pactols:pcrtBnFSZZpTMl	skos:exactMatch	aat:300083008	semapv:UnspecifiedMatching	pyxide	pyxes	
+pactols:pcrtrMs1qgrvxu	skos:exactMatch	aat:300120782	semapv:UnspecifiedMatching	quai	quays	
+pactols:pcrt0dhrbSWbZw	skos:exactMatch	aat:300000762	semapv:UnspecifiedMatching	quartier	quarters (districts)	
+pactols:pcrtW7v3csyt1b	skos:closeMatch	aat:300000739	semapv:UnspecifiedMatching	quartier artisanal	industrial districts	
+pactols:pcrtBXP12Vm0e7	skos:exactMatch	aat:300000742	semapv:UnspecifiedMatching	quartier résidentiel	residential districts	
+pactols:pcrtfdjrKksfEZ	skos:exactMatch	aat:300000724	semapv:UnspecifiedMatching	quartier spécial	land use districts	
+pactols:pcrtDwe0cp16nl	skos:exactMatch	aat:300011132	semapv:UnspecifiedMatching	quartz	quartz (mineral)	
+pactols:pcrtLgpv98vu4P	skos:exactMatch	aat:300011623	semapv:UnspecifiedMatching	quartzite	quartzite	
+pactols:pcrtRNmXmLw95p	skos:exactMatch	aat:300024836	semapv:UnspecifiedMatching	racloir	scrapers (finishing tools)	
+pactols:pcrtThu8wInkhJ	skos:exactMatch	aat:300054717	semapv:UnspecifiedMatching	radiocarbone	radiocarbon dating	
+pactols:pcrt6LWkykxIa8	skos:exactMatch	aat:300053450	semapv:UnspecifiedMatching	radiographie	radiography	
+pactols:pcrtEZtdnlGSe0	skos:exactMatch	aat:300213077	semapv:UnspecifiedMatching	rame	oars	
+pactols:pcrtk1diUAx3s7	skos:exactMatch	aat:300236438	semapv:UnspecifiedMatching	rasoir	razors	
+pactols:pcrtolrabjfp2T	skos:broadMatch	aat:300053887	semapv:UnspecifiedMatching	raté de cuisson	firing (technique)	
+pactols:pcrttEGd8ZYxey	skos:exactMatch	aat:300393181	semapv:UnspecifiedMatching	recensement	censusing	
+pactols:pcrtGuNNWYMcIA	skos:exactMatch	aat:300198452	semapv:UnspecifiedMatching	réchaud	braziers (cooking, heating equipment)	
+pactols:pcrtdJAt9nhHcl	skos:closeMatch	aat:300193015	semapv:UnspecifiedMatching	récipient (fonction)	vessels (containers)	
+pactols:pcrtrKe2HqRZl4	skos:closeMatch	aat:300193015	semapv:UnspecifiedMatching	récipient (typologie)	vessels (containers)	
+pactols:pcrt4AGeTNVEJs	skos:exactMatch	aat:300197197	semapv:UnspecifiedMatching	récipient de stockage	containers (receptacles)	
+pactols:pcrtrybRSZB1lH	skos:broadMatch	aat:300197197	semapv:UnspecifiedMatching	récipient non céramique	containers (receptacles)	
+pactols:pcrtc2ZnwiAPpd	skos:broadMatch	aat:300193015	semapv:UnspecifiedMatching	récipient ouvert	vessels (containers)	
+pactols:pcrtTPNhTpHiLB	skos:exactMatch	aat:300265801	semapv:UnspecifiedMatching	récipient rituel	ritual vessels	
+pactols:pcrtfv4IrNiWE8	skos:exactMatch	aat:300193015	semapv:UnspecifiedMatching	récipients	vessels (containers)	
+pactols:pcrtPc80oZfofd	skos:broadMatch	aat:300192802	semapv:UnspecifiedMatching	récolte	farming (function)	
+pactols:pcrtBdx2xbw5L8	skos:closeMatch	aat:300053742	semapv:UnspecifiedMatching	reconstitution	restoration (process)	
+pactols:pcrtBx4xajlIjR	skos:exactMatch	aat:300053744	semapv:UnspecifiedMatching	reconstruction	reconstruction (process )	
+pactols:pcrt6GM1L0NKd4	skos:exactMatch	aat:300053882	semapv:UnspecifiedMatching	réfrigération	refrigeration (process)	
+pactols:pcrtfijMya7ARK	skos:exactMatch	aat:300379463	semapv:UnspecifiedMatching	régime alimentaire	diet	
+pactols:pcrtSQMQgJGzx3	skos:closeMatch	aat:300005206	semapv:UnspecifiedMatching	relais	roadhouses	
+pactols:pcrt1PtSvqzeS0	skos:exactMatch	aat:300053622	semapv:UnspecifiedMatching	relief	relief (sculpture techniques)	
+pactols:pcrtybZfQyGGDM	skos:exactMatch	aat:300073708	semapv:UnspecifiedMatching	religion	religions (belief systems, cultures)	
+pactols:pcrt3qfpcjQejP	skos:exactMatch	aat:300187549	semapv:UnspecifiedMatching	reliquaire	reliquaries	
+pactols:pcrt9M0SrAITut	skos:exactMatch	aat:300008023	semapv:UnspecifiedMatching	remblai	embankments	
+pactols:pcrtSy10ihyt5s	skos:exactMatch	aat:300400678	semapv:UnspecifiedMatching	remontage	refitting	
+pactols:pcrtMmh3cNfKb3	skos:exactMatch	aat:300387515	semapv:UnspecifiedMatching	rempart	bulwarks	
+pactols:pcrtXOuO8FKGbe	skos:exactMatch	aat:300056392	semapv:UnspecifiedMatching	remploi	adaptive reuse	
+pactols:pcrtSGYXpNbhwF	skos:exactMatch	aat:300266520	semapv:UnspecifiedMatching	renard	foxes (animals)	
+pactols:pcrthEe9BJru6v	skos:broadMatch	aat:300220066	semapv:UnspecifiedMatching	rendement	capacity	
+pactols:pcrtjuRb0UXSPh	skos:exactMatch	aat:300253843	semapv:UnspecifiedMatching	renne	Rangifer tarandus (species)	
+pactols:pcrtDm4SzIGTiV	skos:exactMatch	aat:300379053	semapv:UnspecifiedMatching	repas	meals (eating, event)	
+pactols:pcrtkSnboosslY	skos:broadMatch	aat:300069162	semapv:UnspecifiedMatching	repas funéraire	funerals	
+pactols:pcrtV3IEHqowSP	skos:broadMatch	aat:300065284	semapv:UnspecifiedMatching	repas rituel	rituals (events)	
+pactols:pcrtRnZm96c6HF	skos:exactMatch	aat:300034787	semapv:UnspecifiedMatching	représentation architecturale	architectural drawings (visual works)	
+pactols:pcrtZKVsvkIvmO	skos:closeMatch	aat:300404114	semapv:UnspecifiedMatching	représentation de partie humaine	human figures (visual works)	
+pactols:pcrt9PXeW1n9Wv	skos:exactMatch	aat:300015636	semapv:UnspecifiedMatching	représentation de paysage	landscapes (representations)	
+pactols:pcrt55D1AwT1kg	skos:exactMatch	aat:300265956	semapv:UnspecifiedMatching	reptile	Reptilia (class)	
+pactols:pcrti29g0mB5JT	skos:exactMatch	aat:300008217	semapv:UnspecifiedMatching	réseau routier	roads	
+pactols:pcrti29g0mB5JT	skos:exactMatch	aat:300008217	semapv:UnspecifiedMatching	réseau viaire	roads	
+pactols:pcrtamDrEz9F4I	skos:exactMatch	aat:300006191	semapv:UnspecifiedMatching	réservoir	reservoirs (water distribution structures)	
+pactols:pcrtT7xkUlGGbB	skos:closeMatch	aat:300071272	semapv:UnspecifiedMatching	résidence aristocratique	mansions	
+pactols:pcrtrxL50B7yNx	skos:exactMatch	aat:300012882	semapv:UnspecifiedMatching	résine	resin (organic material)	
+pactols:pcrtWTK3DeulF7	skos:exactMatch	aat:300220387	semapv:UnspecifiedMatching	résonance de spin électronique	electron spin resonance	
+pactols:pcrtMSRKVDdz7Z	skos:exactMatch	aat:300015643	semapv:UnspecifiedMatching	restitution	reproductions	
+pactols:pcrthmS86NawNU	skos:exactMatch	aat:300076035	semapv:UnspecifiedMatching	retable	retables (altar appendage)	
+pactols:pcrtTxljL0MI61	skos:exactMatch	aat:300400661	semapv:UnspecifiedMatching	retouche	retouch (archaeological concept)	
+pactols:pcrtosJq8KFgDB	skos:broadMatch	aat:300400661	semapv:UnspecifiedMatching	retouchoir	retouch (archaeological concept)	
+pactols:pcrt0uGqGRYcaL	skos:exactMatch	aat:300250315	semapv:UnspecifiedMatching	rhinocéros	Rhinocerotidae (family)	
+pactols:pcrtXVZBob53by	skos:exactMatch	aat:300011211	semapv:UnspecifiedMatching	rhyolite	rhyolite	
+pactols:pcrtZ9GDySg7pm	skos:closeMatch	aat:300069162	semapv:UnspecifiedMatching	rite funéraire	funerals	
+pactols:pcrtoyqcfQUVMK	skos:exactMatch	aat:300312160	semapv:UnspecifiedMatching	rites	rites	
+pactols:pcrthBOo082xvY	skos:exactMatch	aat:300065284	semapv:UnspecifiedMatching	rituel	rituals (events)	
+pactols:pcrtZ9GDySg7pm	skos:closeMatch	aat:300069162	semapv:UnspecifiedMatching	rituel funéraire	funerals	
+pactols:pcrtHj8OIOOjJe	skos:exactMatch	aat:300036425	semapv:UnspecifiedMatching	rivet	rivets	
+pactols:pcrttDG0oSwLVJ	skos:exactMatch	aat:300008707	semapv:UnspecifiedMatching	rivière	rivers	
+pactols:pcrtSVdwKcS3MI	skos:exactMatch	aat:300011692	semapv:UnspecifiedMatching	roche	rock (inorganic material)	
+pactols:pcrtDhZmKFAlZa	skos:exactMatch	aat:300011178	semapv:UnspecifiedMatching	roche magmatique	igneous rock	
+pactols:pcrtj3ZcwkArSR	skos:exactMatch	aat:300011273	semapv:UnspecifiedMatching	roche sédimentaire	sedimentary rock	
+pactols:pcrtmxvuuXHSTS	skos:exactMatch	aat:300011178	semapv:UnspecifiedMatching	roche volcanique	igneous rock	
+pactols:pcrtXklWBqN8mN	skos:broadMatch	aat:300055402	semapv:UnspecifiedMatching	romanisation	colonization	
+pactols:pcrtAUJf7Z2DsS	skos:exactMatch	aat:300036432	semapv:UnspecifiedMatching	rondelle	washers (fasteners)	
+pactols:pcrtFl3pmSnGsQ	skos:exactMatch	aat:300024976	semapv:UnspecifiedMatching	roue	wheels (components)	
+pactols:pcrtDFgBQSnOH0	skos:broadMatch	aat:300006270	semapv:UnspecifiedMatching	roue à aube	water mills	
+pactols:pcrt5xX0ZtiV67	skos:broadMatch	aat:300178244	semapv:UnspecifiedMatching	rouelle	votive offerings	
+pactols:pcrt9tOSfBmNuc	skos:exactMatch	aat:300008217	semapv:UnspecifiedMatching	route	roads	
+pactols:pcrt2SY3ROHAYV	skos:exactMatch	aat:300008247	semapv:UnspecifiedMatching	rue	streets	
+pactols:pcrtav4GgUBmvU	skos:exactMatch	aat:300379516	semapv:UnspecifiedMatching	rural	rural	
+pactols:pcrt0HFzFNNK1N	skos:exactMatch	aat:300014341	semapv:UnspecifiedMatching	sable	sand	
+pactols:pcrtz0w6vUsuRQ	skos:exactMatch	aat:300037086	semapv:UnspecifiedMatching	sabre	sabers	
+pactols:pcrt1N8tL35oBg	skos:exactMatch	aat:300263243	semapv:UnspecifiedMatching	sacrifice	sacrifices	
+pactols:pcrtWWZemZd9gj	skos:exactMatch	aat:300004631	semapv:UnspecifiedMatching	sacristie	sacristies (religious spaces)	
+pactols:pcrtPD5wyQH2wG	skos:exactMatch	aat:300251704	semapv:UnspecifiedMatching	sagaie	assegais	
+pactols:pcrtQyHiirB1US	skos:closeMatch	aat:300025891	semapv:UnspecifiedMatching	saisonnier	migrant workers	
+pactols:pcrtVRGDeMZs50	skos:exactMatch	aat:300387003	semapv:UnspecifiedMatching	saline	salt marshes	
+pactols:pcrtbwGuSAPKld	skos:exactMatch	aat:300007418	semapv:UnspecifiedMatching	salle capitulaire	chapter houses	
+pactols:pcrtF9P4mbuyGk	skos:exactMatch	aat:300004575	semapv:UnspecifiedMatching	sanctuaire	sanctuaries (religious building spaces)	
+pactols:pcrtXxzPt5omn1	skos:exactMatch	aat:300046077	semapv:UnspecifiedMatching	sandale	sandals	
+pactols:pcrtzpthHxgRWY	skos:exactMatch	aat:300005947	semapv:UnspecifiedMatching	sarcophage	sarcophagi (coffins)	
+pactols:pcrt82lj1bBlxj	skos:broadMatch	aat:300400676	semapv:UnspecifiedMatching	saumure	salting (preserving)	
+pactols:pcrtXOgVOi2Rbt	skos:exactMatch	aat:300045537	semapv:UnspecifiedMatching	saunerie	saltworks	
+pactols:pcrtxB7AK7LSTp	skos:exactMatch	aat:300008881	semapv:UnspecifiedMatching	savane	savannas	
+pactols:pcrtwUh0y59kD4	skos:broadMatch	aat:300023081	semapv:UnspecifiedMatching	scalptorium	scratch tools	
+pactols:pcrtZS6oum6Xwy	skos:exactMatch	aat:300028877	semapv:UnspecifiedMatching	sceau	seals (artifacts)	
+pactols:pcrtUtYOn0siqy	skos:exactMatch	aat:300195841	semapv:UnspecifiedMatching	sceau-cylindre	cylinder seals	
+pactols:pcrtJfSVQroYis	skos:exactMatch	aat:300053822	semapv:UnspecifiedMatching	scellement	sealing (process)	
+pactols:pcrtImRXTwOx0B	skos:exactMatch	aat:300011626	semapv:UnspecifiedMatching	schiste	schist	
+pactols:pcrtLnUS9cADfI	skos:exactMatch	aat:300024671	semapv:UnspecifiedMatching	scie	saws	
+pactols:pcrtzh0WTynBny	skos:exactMatch	aat:300137730	semapv:UnspecifiedMatching	scories	scoria	
+pactols:pcrt9qyM2vyJd6	skos:exactMatch	aat:300400650	semapv:UnspecifiedMatching	scramasaxe	saxes (edged weapons)	
+pactols:pcrt4rR2kyMQuW	skos:exactMatch	aat:300047090	semapv:UnspecifiedMatching	sculpture	sculpture (visual works)	
+pactols:pcrtBWujheDk6Z	skos:exactMatch	aat:300184644	semapv:UnspecifiedMatching	sculpture funéraire	funerary sculpture	
+pactols:pcrt3Y24BzzYhk	skos:exactMatch	aat:300045651	semapv:UnspecifiedMatching	seau	buckets (vessels)	
+pactols:pcrtmFiiOHIboO	skos:exactMatch	aat:300053758	semapv:UnspecifiedMatching	séchage	drying	
+pactols:pcrtT7StpJd3ye	skos:closeMatch	aat:300055401	semapv:UnspecifiedMatching	sédentarisation	land settlement	
+pactols:pcrt8JpPBNyUGO	skos:closeMatch	aat:300379424	semapv:UnspecifiedMatching	sédimentation	sediment	
+pactols:pcrt4vmcwIU4yP	skos:exactMatch	aat:300379586	semapv:UnspecifiedMatching	sédimentologie	sedimentology	
+pactols:pcrtT35kYh63Ey	skos:broadMatch	aat:300375489	semapv:UnspecifiedMatching	seigle	Elymus (genus)	
+pactols:pcrthmVBQESXy2	skos:exactMatch	aat:300183627	semapv:UnspecifiedMatching	sel	salt (inorganic material)	
+pactols:pcrt795b632nWw	skos:exactMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture	graves	
+pactols:pcrt5JabTE2S1y	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture collective	graves	
+pactols:pcrtu9IVkMoqZH	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture d'animaux	graves	
+pactols:pcrtVjzPFoOkpk	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture d'enfant	graves	
+pactols:pcrtUTIawFdJyT	skos:exactMatch	aat:300400606	semapv:UnspecifiedMatching	sépulture double	double burials	
+pactols:pcrtaYjSmbqgpE	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture féminine	graves	
+pactols:pcrt3u4zAuShTw	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	sépulture masculine	graves	
+pactols:pcrtqdNtRi9Tsb	skos:closeMatch	aat:300379368	semapv:UnspecifiedMatching	sépulture secondaire	reburial	
+pactols:pcrtz3X7k2pIel	skos:exactMatch	aat:300265636	semapv:UnspecifiedMatching	serpette	billhooks	
+pactols:pcrtdSroJ7S1Yi	skos:exactMatch	aat:300033407	semapv:UnspecifiedMatching	serrure	locks (securing devices)	
+pactols:pcrtuq4lc43JjB	skos:closeMatch	aat:300025336	semapv:UnspecifiedMatching	serrurerie	locksmiths	
+pactols:pcrt0dHwUvhWqv	skos:exactMatch	aat:300037270	semapv:UnspecifiedMatching	sesterce	sestertii	
+pactols:pcrt2vSqFSVOQc	skos:exactMatch	aat:300054049	semapv:UnspecifiedMatching	sidérurgie	ironworking	
+pactols:pcrtlBLY2zwdxi	skos:exactMatch	aat:300042706	semapv:UnspecifiedMatching	sifflet	whistles	
+pactols:pcrtTGYtROASZW	skos:exactMatch	aat:300263887	semapv:UnspecifiedMatching	SIG	geographic information systems	
+pactols:pcrt7ON1SbYHuf	skos:exactMatch	aat:300107376	semapv:UnspecifiedMatching	sigillée	Terra sigillata (pottery style)	
+pactols:pcrtASNSSVPKAu	skos:exactMatch	aat:300301393	semapv:UnspecifiedMatching	sigillée africaine	African terra sigillata	
+pactols:pcrtl5ONg8O33B	skos:exactMatch	aat:300387474	semapv:UnspecifiedMatching	sigillée claire	terra sigillata chiara	
+pactols:pcrtOmp3tcFarb	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	sigillée d'Argonne	terra sigillata ware	
+pactols:pcrt9EYVyoaeDN	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	sigillée de Gaule de l'Est	terra sigillata ware	
+pactols:pcrtglvJ4bEDjY	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	sigillée de Gaule du Centre	terra sigillata ware	
+pactols:pcrt7rXE1Lln5j	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	sigillée gallo-romaine	terra sigillata ware	
+pactols:pcrt7rXE1Lln5j	skos:broadMatch	aat:300387395	semapv:UnspecifiedMatching	sigillée gauloise	terra sigillata ware	
+pactols:pcrt5vXubUfqPO	skos:exactMatch	aat:300301418	semapv:UnspecifiedMatching	sigillée italique	Italic terra sigillata	
+pactols:pcrtLRidhSkMsE	skos:exactMatch	aat:300301427	semapv:UnspecifiedMatching	sigillée sud-gauloise	south Gallic terra sigillata	
+pactols:pcrtTd6K5orhOr	skos:broadMatch	aat:300053829	semapv:UnspecifiedMatching	signe gravé	engraving (action)	
+pactols:pcrtIzSUofuocv	skos:exactMatch	aat:300011143	semapv:UnspecifiedMatching	silex	flint (rock)	
+pactols:pcrtF8Wf7AekK2	skos:exactMatch	aat:300011131	semapv:UnspecifiedMatching	silice	silica (mineral)	
+pactols:pcrtdgALrHBSlv	skos:exactMatch	aat:300005024	semapv:UnspecifiedMatching	silo	silos (agricultural structures)	
+pactols:pcrt9PJh9aTXv4	skos:exactMatch	aat:300000810	semapv:UnspecifiedMatching	site archéologique	archaeological sites	
+pactols:pcrt7XYoF5la6b	skos:broadMatch	aat:300000810	semapv:UnspecifiedMatching	site de plaine	archaeological sites	
+pactols:pcrtSu7E2Qh0Xv	skos:broadMatch	aat:300000810	semapv:UnspecifiedMatching	site d'extraction	archaeological sites	
+pactols:pcrtU0zgrbMIHE	skos:exactMatch	aat:300198870	semapv:UnspecifiedMatching	situle	situlae	
+pactols:pcrta4xHmtEUeL	skos:exactMatch	aat:300400665	semapv:UnspecifiedMatching	soc d'araire	plowshares	
+pactols:pcrtYRywMlAUGn	skos:exactMatch	aat:300400665	semapv:UnspecifiedMatching	soc de charrue	plowshares	
+pactols:pcrt5Vyzd3D9vw	skos:closeMatch	aat:300138065	semapv:UnspecifiedMatching	société	social functions	
+pactols:pcrtjyu8fGvM12	skos:exactMatch	aat:300001744	semapv:UnspecifiedMatching	socle-piédestal	pedestals	
+pactols:pcrthQAINOX0GB	skos:exactMatch	aat:300014330	semapv:UnspecifiedMatching	sol	soil	
+pactols:pcrtvRM2ZVPsLA	skos:exactMatch	aat:300011696	semapv:UnspecifiedMatching	sol terrazzo	terrazzo	
+pactols:pcrtWWQS75V5Bc	skos:broadMatch	aat:300008022	semapv:UnspecifiedMatching	sondage	trenches	
+pactols:pcrtAIrNT67ovS	skos:exactMatch	aat:300001955	semapv:UnspecifiedMatching	soubassement	substructures	
+pactols:pcrtSKvPhI0dHJ	skos:exactMatch	aat:300008697	semapv:UnspecifiedMatching	source	springs (bodies of water)	
+pactols:pcrtAZBmluawuf	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources archéologiques	reference sources	
+pactols:pcrtyGBKSdgbDj	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources cartographiques	reference sources	
+pactols:pcrtEIoHXm4ThB	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources de l'histoire	reference sources	
+pactols:pcrtvskf7FZVME	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources écrites	reference sources	
+pactols:pcrtkrTq5JRzvf	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources iconographiques	reference sources	
+pactols:pcrtShO3h4Ldmk	skos:broadMatch	aat:300163404	semapv:UnspecifiedMatching	sources littéraires	reference sources	
+pactols:pcrtYDw1DVDUXe	skos:exactMatch	aat:300053768	semapv:UnspecifiedMatching	soutènement	supporting	
+pactols:pcrtNU9yWjKe6U	skos:exactMatch	aat:300004779	semapv:UnspecifiedMatching	souterrain	souterrains (passages)	
+pactols:pcrtiZVgpwZxxt	skos:closeMatch	aat:300193195	semapv:UnspecifiedMatching	spatule	spatulas (artists' tools)	
+pactols:pcrtJM6rFSQ84T	skos:exactMatch	aat:300198980	semapv:UnspecifiedMatching	spectrométrie de masse par accélérateur	mass spectrometers	
+pactols:pcrtPIaKhMk2ks	skos:exactMatch	aat:300121807	semapv:UnspecifiedMatching	spéculation	speculating	
+pactols:pcrtcS3oJgVjRu	skos:exactMatch	aat:300222725	semapv:UnspecifiedMatching	sport	sports	
+pactols:pcrtQjFLxSMhNs	skos:exactMatch	aat:300222725	semapv:UnspecifiedMatching	sports	sports	
+pactols:pcrtWGHXhdG8Xy	skos:exactMatch	aat:300191778	semapv:UnspecifiedMatching	squelette	skeletons (animal components)	
+pactols:pcrtUqG1cmRahD	skos:exactMatch	aat:300191666	semapv:UnspecifiedMatching	statère	staters	
+pactols:pcrtFJ1mxd5cGS	skos:exactMatch	aat:300026924	semapv:UnspecifiedMatching	statistique	statistics	
+pactols:pcrt89cX9Z01xr	skos:closeMatch	aat:300047600	semapv:UnspecifiedMatching	statuaire	statues	
+pactols:pcrtI1R2oldVZn	skos:exactMatch	aat:300047600	semapv:UnspecifiedMatching	statue	statues	
+pactols:pcrtQPAuiNqSdy	skos:exactMatch	aat:300312262	semapv:UnspecifiedMatching	statuette	statuettes (statues)	
+pactols:pcrtvpHLEemb4v	skos:exactMatch	aat:300007023	semapv:UnspecifiedMatching	stèle	stelae	
+pactols:pcrt6FJgRdSUXx	skos:broadMatch	aat:300007023	semapv:UnspecifiedMatching	stèle funéraire	stelae	
+pactols:pcrt4csug8yYED	skos:broadMatch	aat:300007023	semapv:UnspecifiedMatching	stèle funéraire décorée	stelae	
+pactols:pcrt0fEFHq0Qcm	skos:exactMatch	aat:300386995	semapv:UnspecifiedMatching	steppe	steppes	
+pactols:pcrto3fB02OhuY	skos:exactMatch	aat:300056390	semapv:UnspecifiedMatching	stockage	storage	
+pactols:pcrtG6GAQWGerl	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	stratégie	wars	
+pactols:pcrt6TSfpXkNW6	skos:closeMatch	aat:300387100	semapv:UnspecifiedMatching	strates géologiques	geological formations	
+pactols:pcrtAyr2cM5Yf0	skos:exactMatch	aat:300192073	semapv:UnspecifiedMatching	stratigraphie	stratigraphy	
+pactols:pcrtXkBDk8keXY	skos:exactMatch	aat:300343767	semapv:UnspecifiedMatching	strigile	strigils	
+pactols:pcrtHBU3mnn3DF	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	structure agraire	agriculture	
+pactols:pcrtKfL11q1qOk	skos:exactMatch	aat:300008001	semapv:UnspecifiedMatching	structure annexe	outbuildings	
+pactols:pcrtjMViY6Mka1	skos:exactMatch	aat:300052267	semapv:UnspecifiedMatching	structure de combustion	fireplaces	
+pactols:pcrtux8pUagmKL	skos:broadMatch	aat:300055460	semapv:UnspecifiedMatching	structure urbaine	urbanization	
+pactols:pcrtsIGcaQ8O7x	skos:exactMatch	aat:300014966	semapv:UnspecifiedMatching	stuc	stucco	
+pactols:pcrt9SkpOgSbXw	skos:closeMatch	aat:300177433	semapv:UnspecifiedMatching	stuc peint	frescoes (paintings)	
+pactols:pcrtSgJdONpbqW	skos:broadMatch	aat:300107361	semapv:UnspecifiedMatching	style à paroi fine	Roman pottery styles	
+pactols:pcrttDPhmeXlJn	skos:exactMatch	aat:300020133	semapv:UnspecifiedMatching	style corinthien	Corinthian (pottery style)	
+pactols:pcrtIqu9Z939hh	skos:broadMatch	aat:300054156	semapv:UnspecifiedMatching	style d'architecture (discipline)	architecture	
+pactols:pcrtJxXUPZ76vw	skos:exactMatch	aat:300265031	semapv:UnspecifiedMatching	style protoattique	Proto-Attic	
+pactols:pcrtYwa01IgGQF	skos:broadMatch	aat:300055859	semapv:UnspecifiedMatching	stylistique	iconography	
+pactols:pcrtwIptMTwKjR	skos:exactMatch	aat:300000986	semapv:UnspecifiedMatching	stylobate	stylobates	
+pactols:pcrta3PzVQ4Hnu	skos:exactMatch	aat:300004958	semapv:UnspecifiedMatching	sucrerie	sugar houses	
+pactols:pcrt7qUGPzSAnk	skos:exactMatch	aat:300310427	semapv:UnspecifiedMatching	suidé	Suidae (family)	
+pactols:pcrtEnDi29BSEv	skos:closeMatch	aat:300260428	semapv:UnspecifiedMatching	supplice	torturing	
+pactols:pcrtjU6tklpIsW	skos:exactMatch	aat:300179397	semapv:UnspecifiedMatching	sylviculture	silviculture	
+pactols:pcrtI3GLtDKz2W	skos:exactMatch	aat:300007590	semapv:UnspecifiedMatching	synagogue	synagogues (buildings)	
+pactols:pcrtXLoNEjBvnw	skos:exactMatch	aat:300011896	semapv:UnspecifiedMatching	tabac	tobacco (material)	
+pactols:pcrtGuSnDZ85Ta	skos:exactMatch	aat:300039548	semapv:UnspecifiedMatching	table	tables (support furniture)	
+pactols:pcrtJkiAM9JJEl	skos:exactMatch	aat:300028879	semapv:UnspecifiedMatching	tablette	tablets (information artifacts)	
+pactols:pcrtEaFZFvpInN	skos:exactMatch	aat:300053850	semapv:UnspecifiedMatching	tabletterie	inlay (process)	
+pactols:pcrt5RnB4V844h	skos:exactMatch	aat:300380037	semapv:UnspecifiedMatching	taille	knapping	
+pactols:pcrtbNJR98Fv1A	skos:exactMatch	aat:300025039	semapv:UnspecifiedMatching	tailleur	stonecutters	
+pactols:pcrt6RVUI8RJMJ	skos:exactMatch	aat:300006302	semapv:UnspecifiedMatching	tannerie	tanneries	
+pactols:pcrtjpqBTfmY7d	skos:exactMatch	aat:300379641	semapv:UnspecifiedMatching	taphonomie	taphonomy	
+pactols:pcrtLhbOznwGk6	skos:exactMatch	aat:300205002	semapv:UnspecifiedMatching	tapisserie	tapestries	
+pactols:pcrtKG1x4JyOvt	skos:exactMatch	aat:300043202	semapv:UnspecifiedMatching	tasse	cups (drinking vessels)	
+pactols:pcrtVibtZJlA99	skos:exactMatch	aat:300250117	semapv:UnspecifiedMatching	taureau	bulls (animals)	
+pactols:pcrtetfU0AS8HI	skos:exactMatch	aat:300252046	semapv:UnspecifiedMatching	taxinomie	taxonomies (documents)	
+pactols:pcrt60dIUSvnUm	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	technique (lithique)	lithics	
+pactols:pcrtG18U79Wbsv	skos:broadMatch	aat:300011798	semapv:UnspecifiedMatching	technique (os)	bone (material)	
+pactols:pcrtPMnyBFScKQ	skos:closeMatch	aat:300192637	semapv:UnspecifiedMatching	technique agricole	agricultural functions	
+pactols:pcrtQNxYz6P6Mh	skos:closeMatch	aat:300389791	semapv:UnspecifiedMatching	technique de construction	construction (discipline)	
+pactols:pcrtpn66h6MkcD	skos:exactMatch	aat:300400619	semapv:UnspecifiedMatching	technique Levallois	Levallois technique	
+pactols:pcrtQNxYz6P6Mh	skos:closeMatch	aat:300389791	semapv:UnspecifiedMatching	techniques de construction	construction (discipline)	
+pactols:pcrttrEq4Rcpkr	skos:exactMatch	aat:300056069	semapv:UnspecifiedMatching	technologie	technology (general associated concept)	
+pactols:pcrtYPpmkDk2rS	skos:closeMatch	aat:300053901	semapv:UnspecifiedMatching	technologie de l'argile	pottery techniques	
+pactols:pcrtlflojXmhAi	skos:broadMatch	aat:300138082	semapv:UnspecifiedMatching	technologie de l'os	techniques (processes)	
+pactols:pcrtD8bo5lH0H4	skos:closeMatch	aat:300053946	semapv:UnspecifiedMatching	technologie du métal	metalworking	
+pactols:pcrt125sJ3jsbN	skos:closeMatch	aat:300053929	semapv:UnspecifiedMatching	technologie du verre	glassworking	
+pactols:pcrtoPowqxFzs7	skos:broadMatch	aat:300138082	semapv:UnspecifiedMatching	technologie lithique	techniques (processes)	
+pactols:pcrtEYqI4kLNb3	skos:exactMatch	aat:300053049	semapv:UnspecifiedMatching	teinturerie	dyeing	
+pactols:pcrtDUuxi4zDjo	skos:exactMatch	aat:300000805	semapv:UnspecifiedMatching	téménos	temene	
+pactols:pcrtYhYMiLwDUr	skos:exactMatch	aat:300007595	semapv:UnspecifiedMatching	temple	temples (buildings)	
+pactols:pcrtwqiJgMNHzm	skos:exactMatch	aat:300004182	semapv:UnspecifiedMatching	terrasse	terraces (landscaped-site elements)	
+pactols:pcrt8WIZYG4YAf	skos:broadMatch	aat:300132328	semapv:UnspecifiedMatching	terrasse alluviale	fluvial landforms	
+pactols:pcrtKYUiLbGDYc	skos:broadMatch	aat:300132328	semapv:UnspecifiedMatching	terrasse fluviatile	fluvial landforms	
+pactols:pcrtfx4s0yvSLj	skos:exactMatch	aat:300010669	semapv:UnspecifiedMatching	terre cuite	terracotta (day material)	
+pactols:pcrtbAJrlqK7Lc	skos:exactMatch	aat:300010670	semapv:UnspecifiedMatching	terre cuite architecturale	architectural terracotta	
+pactols:pcrtPLs10mF9zI	skos:broadMatch	aat:300010669	semapv:UnspecifiedMatching	terre cuite blanche	terracotta (day material)	
+pactols:pcrtfx4s0yvSLj	skos:exactMatch	aat:300010669	semapv:UnspecifiedMatching	terres cuites	terracotta (day material)	
+pactols:pcrtIMLF0zrBUu	skos:exactMatch	aat:300135982	semapv:UnspecifiedMatching	territoire	territories	
+pactols:pcrt10h3IcGtc8	skos:closeMatch	aat:300182722	semapv:UnspecifiedMatching	terroir	regions (geographic)	
+pactols:pcrtKYQSidPt75	skos:exactMatch	aat:300005903	semapv:UnspecifiedMatching	tertre funéraire	burial mounds	
+pactols:pcrtls0q0Keyyz	skos:exactMatch	aat:300375054	semapv:UnspecifiedMatching	tête	heads (animal components)	
+pactols:pcrthAOjGBEfZk	skos:exactMatch	aat:300231565	semapv:UnspecifiedMatching	textile	textile materials	
+pactols:pcrtU6s8jjsWol	skos:exactMatch	aat:300007117	semapv:UnspecifiedMatching	théâtre	theaters (buildings)	
+pactols:pcrtU6s8jjsWol	skos:exactMatch	aat:300007117	semapv:UnspecifiedMatching	théâtre (édifice)	theaters (buildings)	
+pactols:pcrte0Wtwmldeh	skos:exactMatch	aat:300007364	semapv:UnspecifiedMatching	thermes	thermae	
+pactols:pcrtD0oRTnKoRb	skos:closeMatch	aat:300007364	semapv:UnspecifiedMatching	thermes privés	thermae	
+pactols:pcrtVPxBxiVqMy	skos:exactMatch	aat:300054718	semapv:UnspecifiedMatching	thermoluminescence	thermoluminescence dating	
+pactols:pcrtzB5uqSB4bZ	skos:exactMatch	aat:300195474	semapv:UnspecifiedMatching	thésaurisation	hoards (groupings)	
+pactols:pcrtBUIxwNlS4X	skos:exactMatch	aat:300121227	semapv:UnspecifiedMatching	tholos	tholoi	
+pactols:pcrtTsp6zXaTwQ	skos:exactMatch	aat:300301443	semapv:UnspecifiedMatching	tintinnabulum	tintinnabulos	
+pactols:pcrtR1mzakcqfp	skos:exactMatch	aat:300053642	semapv:UnspecifiedMatching	tissage	weaving	
+pactols:pcrtqGQOorLDxx	skos:exactMatch	aat:300162391	semapv:UnspecifiedMatching	tissu	cloth	
+pactols:pcrtXBwEwXhHkX	skos:exactMatch	aat:300379165	semapv:UnspecifiedMatching	toilette	toilette (activity)	
+pactols:pcrthcTW4t0cvN	skos:exactMatch	aat:300014897	semapv:UnspecifiedMatching	toiture	roofing	
+pactols:pcrt517D9bhI6v	skos:exactMatch	aat:300400657	semapv:UnspecifiedMatching	tombe à char	chariot burials	
+pactols:pcrtKm7j4sf5fd	skos:exactMatch	aat:300005941	semapv:UnspecifiedMatching	tombe à ciste	cist graves	
+pactols:pcrtKLAHnzsSXq	skos:exactMatch	aat:300298862	semapv:UnspecifiedMatching	tombe en coffre	sepulcral chest	
+pactols:pcrtKsjk6BZvmn	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	tombe en fosse	graves	
+pactols:pcrta3pG2SUSbG	skos:closeMatch	aat:300005907	semapv:UnspecifiedMatching	tombe en pleine terre	graves	
+pactols:pcrtOjL41tGiRu	skos:exactMatch	aat:300120624	semapv:UnspecifiedMatching	tombe rupestre	rock-cut tombs	
+pactols:pcrthimvauXNFz	skos:exactMatch	aat:300400653	semapv:UnspecifiedMatching	tombe sous tuile	tile graves	
+pactols:pcrtrU7ImEVbLP	skos:exactMatch	aat:300005946	semapv:UnspecifiedMatching	tombeau	royal tombs	
+pactols:pcrtvlIe8e74Nq	skos:exactMatch	aat:300194515	semapv:UnspecifiedMatching	tonneau	cask	
+pactols:pcrtvlIe8e74Nq	skos:exactMatch	aat:300194515	semapv:UnspecifiedMatching	tonnelet	cask	
+pactols:pcrtSJlHFFua75	skos:exactMatch	aat:300256273	semapv:UnspecifiedMatching	topographie	topography (image- making)	
+pactols:pcrtxirQzRy18W	skos:exactMatch	aat:300054272	semapv:UnspecifiedMatching	toponymie	toponymy	
+pactols:pcrtK8tO0rlQlM	skos:exactMatch	aat:300163933	semapv:UnspecifiedMatching	torchis	daub	
+pactols:pcrt694BdPU8No	skos:exactMatch	aat:300263462	semapv:UnspecifiedMatching	torque	torques (necklaces)	
+pactols:pcrtQY3u48DUrQ	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	torra	megalithic monuments	
+pactols:pcrtslAx38Lp91	skos:narrowMatch	aat:300004847	semapv:UnspecifiedMatching	tour	towers (single built works)	
+pactols:pcrtwh11nA4w5F	skos:exactMatch	aat:300134522	semapv:UnspecifiedMatching	tour de guet	watchtowers	
+pactols:pcrtFngGoA2jsH	skos:exactMatch	aat:300022820	semapv:UnspecifiedMatching	tour de potier	potter's wheels	
+pactols:pcrtMvZR1GMyI3	skos:exactMatch	aat:300004862	semapv:UnspecifiedMatching	tour défensive	defensive towers	
+pactols:pcrtzDfVNkD5St	skos:exactMatch	aat:300008902	semapv:UnspecifiedMatching	tourbière	peat bogs	
+pactols:pcrtNbDnMejMkR	skos:broadMatch	aat:300008217	semapv:UnspecifiedMatching	tracé	roads	
+pactols:pcrtbaGcexuM67	skos:broadMatch	aat:300379670	semapv:UnspecifiedMatching	trace de découpe	butchering	
+pactols:pcrttfGiJWaY3o	skos:closeMatch	aat:300249135	semapv:UnspecifiedMatching	trace d'usage (lithique)	use-wear analysis	
+pactols:pcrt4h8W1jSj3k	skos:broadMatch	aat:300011798	semapv:UnspecifiedMatching	trace d'usage (os)	bone (material)	
+pactols:pcrtKvWKvwdYPk	skos:exactMatch	aat:300249137	semapv:UnspecifiedMatching	tracéologie	microwear analysis	
+pactols:pcrtn6j4Z5qxV9	skos:closeMatch	aat:300022890	semapv:UnspecifiedMatching	tranchet	leather cutters	
+pactols:pcrtsRdSxSAHjb	skos:exactMatch	aat:300004645	semapv:UnspecifiedMatching	transept	transepts	
+pactols:pcrtgAenxM25f3	skos:closeMatch	aat:300379368	semapv:UnspecifiedMatching	translation	reburial	
+pactols:pcrt45NtAFS36q	skos:exactMatch	aat:300055244	semapv:UnspecifiedMatching	transport	transportation	
+pactols:pcrtNjfX50bXbv	skos:exactMatch	aat:300068773	semapv:UnspecifiedMatching	transport sur eau	water transport	
+pactols:pcrtnvdQmt8WEf	skos:exactMatch	aat:300229483	semapv:UnspecifiedMatching	travail des peaux	hide and skin processing	
+pactols:pcrtUdAqTSVpc7	skos:exactMatch	aat:300054083	semapv:UnspecifiedMatching	travail du bois	woodworking	
+pactols:pcrtjbX1Zygs38	skos:exactMatch	aat:300008554	semapv:UnspecifiedMatching	travaux publics	public works	
+pactols:pcrt91HwcveBqQ	skos:broadMatch	aat:300054515	semapv:UnspecifiedMatching	trépanation	health sciences	
+pactols:pcrtaFscj0mIjr	skos:exactMatch	aat:300195474	semapv:UnspecifiedMatching	trésor	hoards	
+pactols:pcrtvXy2Xmowve	skos:broadMatch	aat:300195474	semapv:UnspecifiedMatching	trésor monétaire	hoards	
+pactols:pcrtFoO4fLvQDw	skos:exactMatch	aat:300252735	semapv:UnspecifiedMatching	tribunal	courts (judicial bodies)	
+pactols:pcrtXL9v9A4Djb	skos:exactMatch	aat:300042339	semapv:UnspecifiedMatching	trompette	trumpets (aerophones)	
+pactols:pcrtMZaJOuxhdE	skos:exactMatch	aat:300003893	semapv:UnspecifiedMatching	trottoir	sidewalks	
+pactols:pcrtFnKonRZjWY	skos:exactMatch	aat:300400666	semapv:UnspecifiedMatching	trou de poteau	postholes	
+pactols:pcrtQRW7L4bOiT	skos:broadMatch	aat:300204078	semapv:UnspecifiedMatching	trou d'obus	shells (ammunition)	
+pactols:pcrtfx2fwztQ8p	skos:exactMatch	aat:300011264	semapv:UnspecifiedMatching	tuf	tuff	
+pactols:pcrttqRMDTN4VE	skos:exactMatch	aat:300010699	semapv:UnspecifiedMatching	tuile	roofing tile	
+pactols:pcrtvLkK6N8Qni	skos:exactMatch	aat:300248627	semapv:UnspecifiedMatching	tuilerie	tileries	
+pactols:pcrtjt6fT6tah9	skos:exactMatch	aat:300391495	semapv:UnspecifiedMatching	tumulus	tumuli	
+pactols:pcrtpM2GTDhoRh	skos:broadMatch	aat:300006122	semapv:UnspecifiedMatching	tuyau de plomb	sewers (drainage structures)	
+pactols:pcrtwJqetoWYz9	skos:exactMatch	aat:300380255	semapv:UnspecifiedMatching	tuyère	tuyeres	
+pactols:pcrtWOrwXjvsa3	skos:exactMatch	aat:300067209	semapv:UnspecifiedMatching	typologie	typology	
+pactols:pcrtmnVinujIdx	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	typologie lithique	lithics	
+pactols:pcrtw3N8SoEL3q	skos:broadMatch	aat:300015336	semapv:UnspecifiedMatching	typologie métallique	metalwork (visual works)	
+pactols:pcrtbbOKgxaFFc	skos:exactMatch	aat:300222460	semapv:UnspecifiedMatching	umbo	umbos	
+pactols:pcrt0mjELsY3mi	skos:exactMatch	aat:300386639	semapv:UnspecifiedMatching	uranium-thorium	uranium-thorium dating	
+pactols:pcrtPPPS9ErMrW	skos:exactMatch	aat:300055460	semapv:UnspecifiedMatching	urbanisation	urbanization	
+pactols:pcrthT7f96LxBR	skos:exactMatch	aat:300189645	semapv:UnspecifiedMatching	urbanisme	urban design	
+pactols:pcrtt5JlTMM6i9	skos:exactMatch	aat:300129425	semapv:UnspecifiedMatching	urne	urns	
+pactols:pcrtt5JlTMM6i9	skos:exactMatch	aat:300129425	semapv:UnspecifiedMatching	urne funéraire	urns	
+pactols:pcrtTQjmm8BnWW	skos:exactMatch	aat:300241917	semapv:UnspecifiedMatching	ustensile	utensils	
+pactols:pcrtcg7XX1LdjY	skos:exactMatch	aat:300005876	semapv:UnspecifiedMatching	ustrinum	ustrina	
+pactols:pcrtM4tR8ZGTvw	skos:exactMatch	aat:300244578	semapv:UnspecifiedMatching	vaisselle	ware	
+pactols:pcrtqiiVth9tfA	skos:exactMatch	aat:300047333	semapv:UnspecifiedMatching	vaisselle de bronze	bronzes (visual works)	
+pactols:pcrtZSSTfT3iW8	skos:exactMatch	aat:300265121	semapv:UnspecifiedMatching	vaisselle de métal	metalware	
+pactols:pcrtySs2lWdI4z	skos:exactMatch	aat:300008761	semapv:UnspecifiedMatching	vallée	valleys (Landforms)	
+pactols:pcrt2o4bOY3kIh	skos:exactMatch	aat:300044074	semapv:UnspecifiedMatching	vannerie	wickerwork (visual works)	
+pactols:pcrtfv4IrNiWE8	skos:exactMatch	aat:300193015	semapv:UnspecifiedMatching	vase	vessels (containers)	
+pactols:pcrtE3TkiyYR8i	skos:broadMatch	aat:300197635	semapv:UnspecifiedMatching	vase à parfum	perfume bottles	
+pactols:pcrt2WTqu2BkNA	skos:exactMatch	aat:300404019	semapv:UnspecifiedMatching	vase de libation	libation vessels	
+pactols:pcrtOd6LMcoTMh	skos:broadMatch	aat:300132254	semapv:UnspecifiedMatching	vase de pierre	vases	
+pactols:pcrtPsfSZ5o6f9	skos:exactMatch	aat:300379340	semapv:UnspecifiedMatching	vase funéraire	grave vases	
+pactols:pcrtIl6yx3IDBZ	skos:broadMatch	aat:300132254	semapv:UnspecifiedMatching	vase miniature	vases	
+pactols:pcrt3tBXWyzuAv	skos:exactMatch	aat:300219258	semapv:UnspecifiedMatching	véhicule	vehicles (transportation)	
+pactols:pcrtbhGMomQMIF	skos:broadMatch	aat:300343852	semapv:UnspecifiedMatching	Vénus	goddesses	
+pactols:pcrtNkl2f86Opk	skos:exactMatch	aat:300008890	semapv:UnspecifiedMatching	verger	orchards	
+pactols:pcrttS4bFv2ezb	skos:exactMatch	aat:300015091	semapv:UnspecifiedMatching	vernis	glaze	
+pactols:pcrt4GqimUgoOq	skos:exactMatch	aat:300010797	semapv:UnspecifiedMatching	verre	glass (material)	
+pactols:pcrtEWwc0xZbrH	skos:broadMatch	aat:300010797	semapv:UnspecifiedMatching	verre typologie	glass (material)	
+pactols:pcrtpYS4ijo0m2	skos:exactMatch	aat:300010898	semapv:UnspecifiedMatching	verrerie	glassware	
+pactols:pcrtu4Do7EDGDg	skos:exactMatch	aat:300266639	semapv:UnspecifiedMatching	vêtement	clothing	
+pactols:pcrtOPqdpwj043	skos:exactMatch	aat:300389813	semapv:UnspecifiedMatching	viande	meat	
+pactols:pcrtQNRRYhNKP5	skos:exactMatch	aat:300000754	semapv:UnspecifiedMatching	vicus	vici	
+pactols:pcrtafV5Xq6zoY	skos:closeMatch	aat:300389790	semapv:UnspecifiedMatching	vie économique	economy	
+pactols:pcrtubcbbalocA	skos:closeMatch	aat:300055715	semapv:UnspecifiedMatching	vie financière	finance	
+pactols:pcrttV6XwP4wBv	skos:broadMatch	aat:300055314	semapv:UnspecifiedMatching	vie militaire	wars	
+pactols:pcrtvWHPMsEEqO	skos:closeMatch	aat:300252897	semapv:UnspecifiedMatching	vie quotidienne	ways of life	
+pactols:pcrtJBpSsfiAq9	skos:exactMatch	aat:300380146	semapv:UnspecifiedMatching	vie rurale	rural life	
+pactols:pcrtPXdPqLtW6N	skos:broadMatch	aat:300026009	semapv:UnspecifiedMatching	vie sociale	societies	
+pactols:pcrtihlJWfvH4v	skos:exactMatch	aat:300000248	semapv:UnspecifiedMatching	vigne	vineyards	
+pactols:pcrtLEIWWX4Z3O	skos:exactMatch	aat:300005517	semapv:UnspecifiedMatching	villa	villas	
+pactols:pcrtLEIWWX4Z3O	skos:exactMatch	aat:300005517	semapv:UnspecifiedMatching	villa romaine	villas	
+pactols:pcrtLEIWWX4Z3O	skos:exactMatch	aat:300005517	semapv:UnspecifiedMatching	villa rustica	villas	
+pactols:pcrtfhnY18Qz3w	skos:exactMatch	aat:300008372	semapv:UnspecifiedMatching	village	villages	
+pactols:pcrtN5zGcqx0YR	skos:exactMatch	aat:300008375	semapv:UnspecifiedMatching	ville	towns	
+pactols:pcrtDPHSnUSk0Y	skos:closeMatch	aat:300154319	semapv:UnspecifiedMatching	ville/campagne	urban fringes	
+pactols:pcrt3mTg9h3RFE	skos:exactMatch	aat:300379442	semapv:UnspecifiedMatching	vin	wine	
+pactols:pcrtKpR47IIaTn	skos:exactMatch	aat:300265204	semapv:UnspecifiedMatching	vinification	wine making (process)	
+pactols:pcrtELg38f2qtV	skos:broadMatch	aat:300055299	semapv:UnspecifiedMatching	violation de sépulture	vandalism	
+pactols:pcrtaXHZy6qadS	skos:exactMatch	aat:300192799	semapv:UnspecifiedMatching	violence	violence	
+pactols:pcrtDrDBcuUmry	skos:exactMatch	aat:300389852	semapv:UnspecifiedMatching	viticulture	viticulture	
+pactols:pcrtfiKSZUXfxE	skos:exactMatch	aat:300263722	semapv:UnspecifiedMatching	vitrail	stained glass (visual works)	
+pactols:pcrt1eKrSANesO	skos:exactMatch	aat:300265365	semapv:UnspecifiedMatching	voie	routes	
+pactols:pcrtuzoS9dkkXV	skos:broadMatch	aat:300386595	semapv:UnspecifiedMatching	voie aurélienne	cultural routes	
+pactols:pcrt1eKrSANesO	skos:exactMatch	aat:300265365	semapv:UnspecifiedMatching	voie de communication	routes	
+pactols:pcrtLkyNSuKk3k	skos:broadMatch	aat:300386595	semapv:UnspecifiedMatching	voie domitienne	cultural routes	
+pactols:pcrt0x8JTHPWol	skos:broadMatch	aat:300008592	semapv:UnspecifiedMatching	voie ferrée	railroads (infrastructure)	
+pactols:pcrt43czK1VuWx	skos:broadMatch	aat:300386595	semapv:UnspecifiedMatching	voie romaine	cultural routes	
+pactols:pcrtjclbYvph1S	skos:broadMatch	aat:300008217	semapv:UnspecifiedMatching	voirie	roads	
+pactols:pcrtLSWHK2XwbK	skos:broadMatch	aat:300132325	semapv:UnspecifiedMatching	volcanologie	volcanoes	
+pactols:pcrtNSNYxrQDas	skos:exactMatch	aat:300001324	semapv:UnspecifiedMatching	voûte	vaults (structural element)	
+pactols:pcrtSE0sKffhOM	skos:broadMatch	aat:300054467	semapv:UnspecifiedMatching	xylologie	botany	
+pactols:pcrtAhu8O29Xb2	skos:exactMatch	aat:300011037	semapv:UnspecifiedMatching	zinc	zinc	
+pactols:pcrtakKD2YPOgU	skos:exactMatch	aat:300008899	semapv:UnspecifiedMatching	zone humide	wetlands	
+pactols:pcrt3qpYFnIQFm	skos:exactMatch	aat:300054472	semapv:UnspecifiedMatching	zoologie	zoology	
+pactols:pcrtTyrrYeD26R	skos:exactMatch	aat:300010338	semapv:UnspecifiedMatching	zoomorphe	zoomorphic	

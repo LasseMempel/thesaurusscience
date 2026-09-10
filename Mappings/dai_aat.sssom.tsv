@@ -1,0 +1,405 @@
+#curie_map:
+#  dai: http://thesauri.dainst.org/
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dai_aat.sssom.tsv
+#mapping_set_title: DAI thesaurus → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: DAI-thesaurus-to-AAT concept crosswalk compiled by the German Archaeological Institute (DAI) for the ARIADNE project. Source URIs are resolved against your local DAI ttl export, not read from the PDF directly (the PDF table has no source_uri column for DAI).
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_provider: https://ror.org/041qv0h25
+#mapping_tool: build_aat_mappings.py (PDF table extraction + DAI ttl label resolution)
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: http://thesauri.dainst.org/
+#object_source: http://vocab.getty.edu/aat/
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_DAI_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+dai:_fa871da9	skos:exactMatch	aat:300026361	semapv:UnspecifiedMatching	Aufzeichnung	chronicles	
+dai:_85e43cae	skos:exactMatch	aat:300224200	semapv:UnspecifiedMatching	Codex	codices	
+dai:_1483b8da	skos:exactMatch	aat:300054141	semapv:UnspecifiedMatching	Film	film (performing arts)	
+dai:_dddfb42c	skos:closeMatch	aat:300054638	semapv:UnspecifiedMatching	Grabungsdokumentati on	documentation (activity)	
+dai:_54363cb0	skos:exactMatch	aat:300015642	semapv:UnspecifiedMatching	Kopie	replicas	
+dai:_cbc68254	skos:exactMatch	aat:300026877	semapv:UnspecifiedMatching	Korrespondenz	correspondence	
+dai:_a0f55911	skos:closeMatch	aat:300378926	semapv:UnspecifiedMatching	Materialsammlung	topical collections	
+dai:_befe9436	skos:exactMatch	aat:300011845	semapv:UnspecifiedMatching	Leder	leather	
+dai:_7963201b	skos:exactMatch	aat:300014078	semapv:UnspecifiedMatching	Leinwand	canvas	
+dai:_1386	skos:closeMatch	aat:300014110	semapv:UnspecifiedMatching	Papier	<paper by composition or origin>	
+dai:_2676	skos:exactMatch	aat:300014127	semapv:UnspecifiedMatching	Papyrus	papyrus (fiber product)	
+dai:_2677	skos:exactMatch	aat:300250699	semapv:UnspecifiedMatching	Pergament	vellum (paper)	
+dai:_9ad3989f	skos:exactMatch	aat:300025492	semapv:UnspecifiedMatching	Autor	authors	
+dai:_ba4cc9e2	skos:closeMatch	aat:300390592	semapv:UnspecifiedMatching	Grabungsleiter	excavators	
+dai:_2701	skos:exactMatch	aat:300025103	semapv:UnspecifiedMatching	Künstler	artists (visual artists)	
+dai:_dd360f8a	skos:exactMatch	aat:300025687	semapv:UnspecifiedMatching	Photograph	photographers	
+dai:_150ca422	skos:exactMatch	aat:300025654	semapv:UnspecifiedMatching	Regisseur	directors (performing arts)	
+dai:_3d134df3	skos:closeMatch	aat:300055484	semapv:UnspecifiedMatching	aristokratisch	aristocracy	
+dai:_0c5b348e	skos:closeMatch	aat:300386272	semapv:UnspecifiedMatching	bürgerlich	burghers	
+dai:_30178e37	skos:closeMatch	aat:300312281	semapv:UnspecifiedMatching	Museum	museums (institutions)	
+dai:_5	skos:closeMatch	aat:300386698	semapv:UnspecifiedMatching	Sonstiges	miscellaneous	
+dai:_0189f056	skos:closeMatch	aat:300054751	semapv:UnspecifiedMatching	Auktion	auctions	
+dai:_0492ee07	skos:closeMatch	aat:300079436	semapv:UnspecifiedMatching	Schenkung	donations	
+dai:_22f17d06	skos:closeMatch	aat:300069084	semapv:UnspecifiedMatching	Vererbung	events (activities)	
+dai:_56cad583	skos:closeMatch	aat:300069089	semapv:UnspecifiedMatching	Verkauf	sales events	
+dai:_17efda54	skos:closeMatch	aat:300053087	semapv:UnspecifiedMatching	Zerstörung	destruction (process)	
+dai:_c38aa55f	skos:closeMatch	aat:300054751	semapv:UnspecifiedMatching	Versteigerung	auctions	
+dai:_d289d1a9	skos:closeMatch	aat:300079201	semapv:UnspecifiedMatching	Konfiszierung	confiscating	
+dai:_3881	skos:exactMatch	aat:300389734	semapv:UnspecifiedMatching	griechisch	Greek (language)	
+dai:_3882	skos:exactMatch	aat:300388693	semapv:UnspecifiedMatching	lateinisch	Latin (language)	
+dai:_d6217c47	skos:exactMatch	aat:300385957	semapv:UnspecifiedMatching	arabisch	Arabic (style)	
+dai:_9663e946	skos:exactMatch	aat:300387857	semapv:UnspecifiedMatching	aramäisch	Aramaic (language)	
+dai:_303aea25	skos:exactMatch	aat:300254935	semapv:UnspecifiedMatching	armenisch	Armenian (ancient culture or style)	
+dai:_169f7db3	skos:exactMatch	aat:300206213	semapv:UnspecifiedMatching	demotisch	demotic	
+dai:_61fc01bc	skos:exactMatch	aat:300020471	semapv:UnspecifiedMatching	etruskisch	Etruscan (culture or style)	
+dai:_c4c74360	skos:exactMatch	aat:300019652	semapv:UnspecifiedMatching	hethitisch	Hittite (culture or style)	
+dai:_54354aea	skos:exactMatch	aat:300206211	semapv:UnspecifiedMatching	hieratisch	hieratic	
+dai:_0ebbb198	skos:exactMatch	aat:300028721	semapv:UnspecifiedMatching	hieroglyphisch	hieroglyphics	
+dai:_2828ca6c	skos:exactMatch	aat:300028711	semapv:UnspecifiedMatching	Keilschrift	cuneiform	
+dai:_42464cba	skos:exactMatch	aat:300388268	semapv:UnspecifiedMatching	koptisch	Egyptian, Coptic (language)	
+dai:_51b56937	skos:exactMatch	aat:300256135	semapv:UnspecifiedMatching	kyrillisch	Cyrillic	
+dai:_3868	skos:exactMatch	aat:300019700	semapv:UnspecifiedMatching	lykisch	Lycian	
+dai:_1ffb45c5	skos:exactMatch	aat:300021614	semapv:UnspecifiedMatching	osmanisch	Ottoman (style)	
+dai:_7d53da3b	skos:exactMatch	aat:300019933	semapv:UnspecifiedMatching	persisch	Persian (culture)	
+dai:_3873	skos:exactMatch	aat:300262964	semapv:UnspecifiedMatching	punisch	Punic (Carthaginian, culture or style)	
+dai:_4f6f0dd3	skos:exactMatch	aat:300219050	semapv:UnspecifiedMatching	Runen	runes	
+dai:_6a32477b	skos:exactMatch	aat:300193868	semapv:UnspecifiedMatching	türkisch	Turkish (culture or style)	
+dai:_4e0f83c7	skos:exactMatch	aat:300002574	semapv:UnspecifiedMatching	Aedicula	aedicules	
+dai:_2739	skos:exactMatch	aat:300003725	semapv:UnspecifiedMatching	Altar	altars	
+dai:_2811	skos:exactMatch	aat:300007128	semapv:UnspecifiedMatching	Amphitheater	amphitheaters (built works)	
+dai:_2746	skos:exactMatch	aat:300170443	semapv:UnspecifiedMatching	Basilika	basilicas	
+dai:_4d76417e	skos:exactMatch	aat:300000994	semapv:UnspecifiedMatching	Bogen	arches	
+dai:_1367	skos:exactMatch	aat:300006423	semapv:UnspecifiedMatching	Bergbau	mine structures	
+dai:_4d76417e	skos:exactMatch	aat:300007002	semapv:UnspecifiedMatching	Bogen	memorial arches	
+dai:_330b6e2e	skos:exactMatch	aat:300006015	semapv:UnspecifiedMatching	Bouleuterion	bouleuteria	
+dai:_2751	skos:exactMatch	aat:300007836	semapv:UnspecifiedMatching	Brücke	bridges (built works)	
+dai:_3447	skos:exactMatch	aat:300006207	semapv:UnspecifiedMatching	Brunnen	wells (structures)	
+dai:_2753	skos:exactMatch	aat:300007255	semapv:UnspecifiedMatching	Circus	circuses (Roman arenas)	
+dai:_89a8fc29	skos:closeMatch	aat:300006958	semapv:UnspecifiedMatching	Denkmal	monuments	
+dai:_1af93ea0	skos:exactMatch	aat:300005147	semapv:UnspecifiedMatching	Geschäshaus	commercial buildings	
+dai:_2760	skos:exactMatch	aat:300122208	semapv:UnspecifiedMatching	Grabbau	funerary structures	
+dai:_6ebede2f	skos:exactMatch	aat:300007297	semapv:UnspecifiedMatching	Gymnasium	gymnasiums	
+dai:_2769	skos:exactMatch	aat:300007466	semapv:UnspecifiedMatching	Kirche	churches (buildings)	
+dai:_84b4f73a	skos:narrowMatch	aat:300005934	semapv:UnspecifiedMatching	Megalithbau	megalithic chamber tombs	
+dai:_84b4f73a	skos:narrowMatch	aat:300006983	semapv:UnspecifiedMatching	Megalithbau	megalithic monuments	
+dai:_84b4f73a	skos:narrowMatch	aat:300123562	semapv:UnspecifiedMatching	Megalithbau	megaliths	
+dai:_391	skos:exactMatch	aat:300007544	semapv:UnspecifiedMatching	Moschee	mosques (buildings)	
+dai:_7f18ce65	skos:exactMatch	aat:300006809	semapv:UnspecifiedMatching	Nymphäum	nymphaea (garden structures)	
+dai:_b971daa6	skos:exactMatch	aat:300127075	semapv:UnspecifiedMatching	Odeion	odea	
+dai:_0f873f3f	skos:narrowMatch	aat:300005144	semapv:UnspecifiedMatching	Säulenhalle	stoas	
+dai:_2790	skos:closeMatch	aat:300006050	semapv:UnspecifiedMatching	Schatzhaus	treasuries	
+dai:_53ba880b	skos:broadMatch	aat:300007271	semapv:UnspecifiedMatching	Stadion	stadiums	
+dai:_df2452de	skos:broadMatch	aat:300005147	semapv:UnspecifiedMatching	Taberne	commercial buildings	
+dai:_2901	skos:exactMatch	aat:300007595	semapv:UnspecifiedMatching	Tempel	temples (buildings)	
+dai:_3588	skos:broadMatch	aat:300007117	semapv:UnspecifiedMatching	Theater	theaters (buildings)	
+dai:_691bba9c	skos:closeMatch	aat:300007364	semapv:UnspecifiedMatching	Thermen	thermae	
+dai:_d914ec36	skos:exactMatch	aat:300005621	semapv:UnspecifiedMatching	Torbau	gatehouses	
+dai:_bb043f29	skos:exactMatch	aat:300004847	semapv:UnspecifiedMatching	Turm	towers (single built works)	
+dai:_a9308610	skos:closeMatch	aat:300006888	semapv:UnspecifiedMatching	Verteidigungsanla ge	fortifications	
+dai:_19456837	skos:closeMatch	aat:300257729	semapv:UnspecifiedMatching	Wohnbau	residential structures	
+dai:_2742	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	Aquädukt	aqueducts	
+dai:_32a94cf8	skos:exactMatch	aat:300007783	semapv:UnspecifiedMatching	Bahnhof	railroad stations	
+dai:_2748	skos:closeMatch	aat:300006824	semapv:UnspecifiedMatching	Bibliothek	libraries (buildings)	
+dai:_01f3c708	skos:exactMatch	aat:300006027	semapv:UnspecifiedMatching	Curia	curiae	
+dai:_402de9d0	skos:exactMatch	aat:300108008	semapv:UnspecifiedMatching	Botschaft	embassies	
+dai:_e764db27	skos:closeMatch	aat:300248647	semapv:UnspecifiedMatching	Ehrensäule	triumphal columns	
+dai:_a07e625f	skos:broadMatch	aat:300006958	semapv:UnspecifiedMatching	Exedramonument	monuments	
+dai:_08f1839e	skos:exactMatch	aat:300005888	semapv:UnspecifiedMatching	Heroon	heroa	
+dai:_9bcb8115	skos:exactMatch	aat:300120504	semapv:UnspecifiedMatching	Horreum / Magazingebäude	horrea	
+dai:_b9994efb	skos:exactMatch	aat:300007166	semapv:UnspecifiedMatching	Hotel	hotels (public accommodations)	
+dai:_2767	skos:exactMatch	aat:300005665	semapv:UnspecifiedMatching	Kaserne	barracks	
+dai:_2771	skos:closeMatch	aat:300006676	semapv:UnspecifiedMatching	Krankenhaus	hospitals (buildings for health facility)	
+dai:_2774	skos:closeMatch	aat:300007951	semapv:UnspecifiedMatching	Latrine	latrines	
+dai:_60113156	skos:closeMatch	aat:300007741	semapv:UnspecifiedMatching	Leuchtturm	lighthouses	
+dai:_f1d12674	skos:exactMatch	aat:300005241	semapv:UnspecifiedMatching	Macellum / Markt	macella	
+dai:_f1d12674	skos:closeMatch	aat:300005238	semapv:UnspecifiedMatching	Macellum / Markt	markets (structures)	
+dai:_30178e37	skos:exactMatch	aat:300005768	semapv:UnspecifiedMatching	Museum	museums (buildings)	
+dai:_2782	skos:broadMatch	aat:300006887	semapv:UnspecifiedMatching	Principia	military buildings	
+dai:_e1e0e72e	skos:exactMatch	aat:300005090	semapv:UnspecifiedMatching	Propylon	propylaea	
+dai:_2784	skos:exactMatch	aat:300004838	semapv:UnspecifiedMatching	Pyramide	pyramids (tombs or platforms)	
+dai:_0e7a4339	skos:closeMatch	aat:300003219	semapv:UnspecifiedMatching	Rampe	ramps (circulation elements)	
+dai:_67842c9a	skos:exactMatch	aat:300006063	semapv:UnspecifiedMatching	Rathaus	town halls	
+dai:_f483df78	skos:closeMatch	aat:300265624	semapv:UnspecifiedMatching	Rednertribüne	rostra	
+dai:_58a1cbaf	skos:closeMatch	aat:300006495	semapv:UnspecifiedMatching	Schule	schools (buildings)	
+dai:_41f91ee6	skos:exactMatch	aat:300006191	semapv:UnspecifiedMatching	Wasserspeicher	reservoirs (water distribution structures)	
+dai:_01b8468c	skos:exactMatch	aat:300007733	semapv:UnspecifiedMatching	Werkstatt	workshop buildings	
+dai:_2806	skos:exactMatch	aat:300052558	semapv:UnspecifiedMatching	Zisterne	cisterns (plumbing components)	
+dai:_1ddd6d26	skos:narrowMatch	aat:300007820	semapv:UnspecifiedMatching	Zollgebäude	toll-collection structures	
+dai:_2796	skos:exactMatch	aat:300007590	semapv:UnspecifiedMatching	Synagoge	synagogues (buildings)	
+dai:_77e0a34d	skos:exactMatch	aat:300265624	semapv:UnspecifiedMatching	Rostra	rostra	
+dai:_b24e1e12	skos:exactMatch	aat:300127097	semapv:UnspecifiedMatching	Prytaneion	prytaneia	
+dai:_d7921edb	skos:narrowMatch	aat:300007493	semapv:UnspecifiedMatching	Pilgerstation	pilgrimage churches (buildings)	
+dai:_41bac42c	skos:exactMatch	aat:300005933	semapv:UnspecifiedMatching	Mastaba	mastabas (tombs)	
+dai:_ce31583b	skos:exactMatch	aat:300387387	semapv:UnspecifiedMatching	Mole	moles (structures)	
+dai:_84059290	skos:narrowMatch	aat:300006270	semapv:UnspecifiedMatching	Mühle	water mills	
+dai:_84059290	skos:narrowMatch	aat:300006273	semapv:UnspecifiedMatching	Mühle	windmills	
+dai:_6969a8c7	skos:closeMatch	aat:300006231	semapv:UnspecifiedMatching	Fabrikgebäude	industrial buildings	
+dai:_67406207	skos:broadMatch	aat:300312279	semapv:UnspecifiedMatching	Grabungshaus	depots (storage)	
+dai:_44ecd5e7	skos:exactMatch	aat:300108449	semapv:UnspecifiedMatching	Hippodrom / Zirkus	hippodromes (Greek sports buildings)	
+dai:_5b9f2871	skos:exactMatch	aat:300000700	semapv:UnspecifiedMatching	Akropolis	acropolises	
+dai:_60efc5d6	skos:closeMatch	aat:300006888	semapv:UnspecifiedMatching	Befestigungsbau	fortifications	
+dai:_2be24780	skos:exactMatch	aat:300008074	semapv:UnspecifiedMatching	Forum/Agora	agoras	
+dai:_2be24780	skos:exactMatch	aat:300008085	semapv:UnspecifiedMatching	Forum/Agora	forums (open spaces)	
+dai:_82dae6eb	skos:closeMatch	aat:300000796	semapv:UnspecifiedMatching	Heiligtum/Sakrale r Komplex	religious districts	
+dai:_2ea5294b	skos:exactMatch	aat:300000372	semapv:UnspecifiedMatching	Nekropole	necropolises	
+dai:_2778	skos:closeMatch	aat:300005734	semapv:UnspecifiedMatching	Palast	palaces	
+dai:_9c923970	skos:closeMatch	aat:300000739	semapv:UnspecifiedMatching	Technische Bauten	industrial districts	
+dai:_5a8adc40	skos:closeMatch	aat:300000742	semapv:UnspecifiedMatching	Wohnviertel	residential districts	
+dai:_ed86ff70	skos:closeMatch	aat:300229355	semapv:UnspecifiedMatching	ländlich	rural areas	
+dai:_6d543ff9	skos:closeMatch	aat:300130893	semapv:UnspecifiedMatching	urban	urban areas	
+dai:_344ef1a0	skos:closeMatch	aat:300132448	semapv:UnspecifiedMatching	suburban	suburban landscapes	
+dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac	skos:exactMatch	aat:300386154	semapv:UnspecifiedMatching	unbekannt	unidentified	
+dai:_266c3def	skos:exactMatch	aat:300004790	semapv:UnspecifiedMatching	eigenständiges Gebäude	single built works (built environment)	
+dai:_89a1fc71	skos:exactMatch	aat:300072553	semapv:UnspecifiedMatching	integriertes Gebäude	building divisions	
+dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac	skos:exactMatch	aat:300386154	semapv:UnspecifiedMatching	unbekannt	unidentified	
+dai:_5c1e6cf8	skos:broadMatch	aat:300000994	semapv:UnspecifiedMatching	eintorig	arches	
+dai:_a4c7b41e	skos:broadMatch	aat:300000994	semapv:UnspecifiedMatching	zweitorig	arches	
+dai:_ba8b6d31	skos:broadMatch	aat:300000994	semapv:UnspecifiedMatching	dreitorig	arches	
+dai:_aba19def	skos:broadMatch	aat:300000994	semapv:UnspecifiedMatching	mehrtorig	arches	
+dai:_a9e1dd32	skos:exactMatch	aat:300264349	semapv:UnspecifiedMatching	Tetrapylon/Quadr ifrons	quadrifrontal arches	
+dai:_48a53f10	skos:broadMatch	aat:300170443	semapv:UnspecifiedMatching	einschiffig	basilicas	
+dai:_89db57c4	skos:broadMatch	aat:300170443	semapv:UnspecifiedMatching	zweischiffig	basilicas	
+dai:_e63ae8fe	skos:broadMatch	aat:300170443	semapv:UnspecifiedMatching	dreischiffig	basilicas	
+dai:_56be75ec	skos:broadMatch	aat:300170443	semapv:UnspecifiedMatching	vierschiffig	basilicas	
+dai:_e5b1a6bb	skos:broadMatch	aat:300170443	semapv:UnspecifiedMatching	fünfschiffig	basilicas	
+dai:_1c1a75dd	skos:exactMatch	aat:300120624	semapv:UnspecifiedMatching	Felsgrab	rock-cut tombs	
+dai:_94577d2c	skos:broadMatch	aat:300005881	semapv:UnspecifiedMatching	Mehrstöckiger Aediculabau	sepulchral buildings	
+dai:_044988ef	skos:broadMatch	aat:300005881	semapv:UnspecifiedMatching	Rundbau	sepulchral buildings	
+dai:_044988ef	skos:broadMatch	aat:300004842	semapv:UnspecifiedMatching	Rundbau	rotundas (buildings)	
+dai:_e1e5f52e	skos:exactMatch	aat:300005891	semapv:UnspecifiedMatching	Türbe	mausoleums	
+dai:_b86f4b17	skos:exactMatch	aat:300391495	semapv:UnspecifiedMatching	Tumulus	tumuli	
+dai:_bea379f7	skos:exactMatch	aat:300391172	semapv:UnspecifiedMatching	Grabaltar	grave altars	
+dai:_6f5fdc0e	skos:exactMatch	aat:300000370	semapv:UnspecifiedMatching	Columbarium	columbaria (cemeteries)	
+dai:_5a4fa5a0	skos:exactMatch	aat:300007613	semapv:UnspecifiedMatching	Grabtempel	mortuary temples	
+dai:_868b108a	skos:broadMatch	aat:300007466	semapv:UnspecifiedMatching	Stadtkirche	churches (buildings)	
+dai:_fa014013	skos:broadMatch	aat:300007466	semapv:UnspecifiedMatching	Dorfkirche	churches (buildings)	
+dai:_8e0c0f80	skos:exactMatch	aat:300004590	semapv:UnspecifiedMatching	Kapelle	chapels (rooms or structures)	
+dai:_32ade5dd	skos:narrowMatch	aat:300007495	semapv:UnspecifiedMatching	Klosterkirche	abbey churches	
+dai:_32ade5dd	skos:exactMatch	aat:300007519	semapv:UnspecifiedMatching	Klosterkirche	monastic churches (buildings)	
+dai:_5bfa9a82	skos:closeMatch	aat:300163729	semapv:UnspecifiedMatching	amphiprostyler Tempel	amphiprostyle	
+dai:_5bfa9a82	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	amphiprostyler Tempel	temples (buildings)	
+dai:_99d8c615	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Antentempel	temples (buildings)	
+dai:_53c052d3	skos:closeMatch	aat:300135990	semapv:UnspecifiedMatching	Dipteros	dipteral	
+dai:_53c052d3	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Dipteros	temples (buildings)	
+dai:_48bb570d	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Doppelantentem pel	temples (buildings)	
+dai:_9f9088c2	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Hoftempel	temples (buildings)	
+dai:_2777	skos:exactMatch	aat:300007567	semapv:UnspecifiedMatching	Mithräum	mithraea	
+dai:_7212a798	skos:exactMatch	aat:300108367	semapv:UnspecifiedMatching	Naiskos	naiskoi	
+dai:_203b2f61	skos:closeMatch	aat:300135991	semapv:UnspecifiedMatching	Peripteros sine postico	peripteral	
+dai:_203b2f61	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Peripteros sine postico	temples (buildings)	
+dai:_b668b3ed	skos:closeMatch	aat:300135991	semapv:UnspecifiedMatching	Peripteros	peripteral	
+dai:_b668b3ed	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Peripteros	temples (buildings)	
+dai:_84c6ab45	skos:closeMatch	aat:300163741	semapv:UnspecifiedMatching	prostyler Tempel	prostyle	
+dai:_84c6ab45	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	prostyler Tempel	temples (buildings)	
+dai:_94da35d2	skos:broadMatch	aat:300135990	semapv:UnspecifiedMatching	Pseudo-Dipteros	dipteral	
+dai:_94da35d2	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Pseudo-Dipteros	temples (buildings)	
+dai:_16e8066f	skos:broadMatch	aat:300135991	semapv:UnspecifiedMatching	Pseudo- Peripteros	peripteral	
+dai:_16e8066f	skos:broadMatch	aat:300007595	semapv:UnspecifiedMatching	Pseudo- Peripteros	temples (buildings)	
+dai:_cade55c0	skos:exactMatch	aat:300121227	semapv:UnspecifiedMatching	Tholos	tholoi	
+dai:_882d9db7	skos:narrowMatch	aat:300400628	semapv:UnspecifiedMatching	Umgangstempel	fanums	
+dai:_247c7d26	skos:broadMatch	aat:300007126	semapv:UnspecifiedMatching	griechisches Theater	open-air theaters	
+dai:_e0b78ecd	skos:broadMatch	aat:300007126	semapv:UnspecifiedMatching	römisches Theater	open-air theaters	
+dai:_2811	skos:exactMatch	aat:300007128	semapv:UnspecifiedMatching	Amphitheater	amphitheaters (built works)	
+dai:_241b3c83	skos:exactMatch	aat:300003639	semapv:UnspecifiedMatching	Mauerturm	wall towers	
+dai:_24f7e426	skos:broadMatch	aat:300004847	semapv:UnspecifiedMatching	Turmgehöft	towers (single built works)	
+dai:_c807125a	skos:exactMatch	aat:300134522	semapv:UnspecifiedMatching	Wachturm	watchtowers	
+dai:_c5eff9b0	skos:exactMatch	aat:300182716	semapv:UnspecifiedMatching	Wohnturm	tower houses (defensive structures)	
+dai:_879d2c87	skos:exactMatch	aat:300004857	semapv:UnspecifiedMatching	Uhrturm	clock towers (towers)	
+dai:_1a5f65fc	skos:exactMatch	aat:300003627	semapv:UnspecifiedMatching	Torturm	gate towers	
+dai:_950aa627	skos:exactMatch	aat:300005451	semapv:UnspecifiedMatching	Atriumhaus	atrium houses	
+dai:_2778	skos:exactMatch	aat:300005734	semapv:UnspecifiedMatching	Palast	palaces	
+dai:_b3b6ee12	skos:exactMatch	aat:300005452	semapv:UnspecifiedMatching	Peristylhaus	peristyle houses	
+dai:_2804	skos:exactMatch	aat:300005517	semapv:UnspecifiedMatching	Villa	villas	
+dai:_62543af3	skos:exactMatch	aat:300005934	semapv:UnspecifiedMatching	Dolmen	megalithic chamber tombs	
+dai:_485b993c	skos:exactMatch	aat:300120810	semapv:UnspecifiedMatching	Ganggrab	passage graves	
+dai:_71dff4f7	skos:exactMatch	aat:300005939	semapv:UnspecifiedMatching	Allée couvert	gallery graves	
+dai:_b80f2cd5	skos:narrowMatch	aat:300006998	semapv:UnspecifiedMatching	Kromlech	cromlechs	
+dai:_2a43d597	skos:exactMatch	aat:300003628	semapv:UnspecifiedMatching	Barbakane	barbicans	
+dai:_60efc5d6	skos:exactMatch	aat:300006888	semapv:UnspecifiedMatching	Befestigungsbau	fortifications	
+dai:_e6533d72	skos:exactMatch	aat:300002485	semapv:UnspecifiedMatching	Befestigungsmau er	defensive walls	
+dai:_f384745a	skos:exactMatch	aat:300002504	semapv:UnspecifiedMatching	Kurtine	curtain walls (fortification elements)	
+dai:_fa805797	skos:exactMatch	aat:300002508	semapv:UnspecifiedMatching	Wehrgang	terrepleins	
+dai:_f842b64f	skos:narrowMatch	aat:300006278	semapv:UnspecifiedMatching	Tonverarbeitung	brickworks (factories)	
+dai:_d0339afd	skos:closeMatch	aat:300007734	semapv:UnspecifiedMatching	Metallverarbeitun g	smithies	
+dai:_d0339afd	skos:closeMatch	aat:300169784	semapv:UnspecifiedMatching	Metallverarbeitun g	metalworking plants	
+dai:_989f0e9e	skos:narrowMatch	aat:300000402	semapv:UnspecifiedMatching	Steinverarbeitung	quarries (extracting complexes)	
+dai:_989f0e9e	skos:closeMatch	aat:300386948	semapv:UnspecifiedMatching	Steinverarbeitung	stonemasonry	
+dai:_989f0e9e	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Steinverarbeitung	workshop buildings	
+dai:_89eafd46	skos:exactMatch	aat:300389849	semapv:UnspecifiedMatching	Glasverarbeitung	glassworks (buildings)	
+dai:_a46e0d7c	skos:closeMatch	aat:300006321	semapv:UnspecifiedMatching	Textilverarbeitun g	textile mills	
+dai:_746b1bed	skos:closeMatch	aat:300164121	semapv:UnspecifiedMatching	Nahrungsverarbei tung	processing plants	
+dai:_8a370786	skos:narrowMatch	aat:300006306	semapv:UnspecifiedMatching	Holzverarbeitung	sawmills (factories)	
+dai:_8a370786	skos:closeMatch	aat:300006304	semapv:UnspecifiedMatching	Holzverarbeitung	planing mills	
+dai:_aa14d1ae	skos:closeMatch	aat:300006302	semapv:UnspecifiedMatching	Leder- /Pelzverarbeitung	tanneries	
+dai:_d89cd8a1	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Parfümproduktio n	workshop buildings	
+dai:_7c6d9f45	skos:closeMatch	aat:300255747	semapv:UnspecifiedMatching	Kalkbrennerei	limeworks	
+dai:_de742fda	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Teer	workshop buildings	
+dai:_3626	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Pech	workshop buildings	
+dai:_a0bd1faa	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Leimsiederei	workshop buildings	
+dai:_b796f042	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Köhlerei	workshop buildings	
+dai:_5c1d6a07	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Gefäßflicker	workshop buildings	
+dai:_2684	skos:broadMatch	aat:300007733	semapv:UnspecifiedMatching	Wachs	workshop buildings	
+dai:_2746	skos:exactMatch	aat:300170443	semapv:UnspecifiedMatching	Basilika	basilicas	
+dai:_2756	skos:exactMatch	aat:300008090	semapv:UnspecifiedMatching	Garten	gardens (open spaces)	
+dai:_2765	skos:exactMatch	aat:300004575	semapv:UnspecifiedMatching	Heiligtum	sanctuaries (religious building spaces)	
+dai:_2769	skos:exactMatch	aat:300007466	semapv:UnspecifiedMatching	Kirche	churches (buildings)	
+dai:_90f11ef0	skos:exactMatch	aat:300000372	semapv:UnspecifiedMatching	Nekropole/Grab	necropolises	
+dai:_3ec13368	skos:exactMatch	aat:300263422	semapv:UnspecifiedMatching	Öffentlicher Platz	public spaces	
+dai:_d563592b	skos:closeMatch	aat:300400517	semapv:UnspecifiedMatching	privater Raum	space (natural or built world)	
+dai:_d563592b	skos:broadMatch	aat:300056387	semapv:UnspecifiedMatching	privater Raum	privacy	
+dai:_53ba880b	skos:exactMatch	aat:300007271	semapv:UnspecifiedMatching	Stadion	stadium	
+dai:_3588	skos:exactMatch	aat:300007117	semapv:UnspecifiedMatching	Theater	theaters (buildings)	
+dai:_691bba9c	skos:exactMatch	aat:300007364	semapv:UnspecifiedMatching	Thermen	thermae	
+dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac	skos:closeMatch	aat:300404267	semapv:UnspecifiedMatching	unbekannt	<qualifiers for unknown creators not working directly with a known creator>	
+dai:_2804	skos:exactMatch	aat:300005517	semapv:UnspecifiedMatching	Villa	villas	
+dai:_41f42610	skos:exactMatch	aat:300343851	semapv:UnspecifiedMatching	Götter	gods (dieties)	
+dai:_8c4f2ca0	skos:closeMatch	aat:300375725	semapv:UnspecifiedMatching	Kleine Gottheiten / Mythische Wesen	mythical or legendary beings	
+dai:_4a1e0431	skos:exactMatch	aat:300236801	semapv:UnspecifiedMatching	Heroen	heroes	
+dai:_d2c772a0	skos:exactMatch	aat:300024979	semapv:UnspecifiedMatching	Menschen	people (agents)	
+dai:_3637	skos:closeMatch	aat:300249395	semapv:UnspecifiedMatching	Tiere	Animalia (kingdom)	
+dai:_3580	skos:closeMatch	aat:300132360	semapv:UnspecifiedMatching	Pflanzen	Plantae (kingdom)	
+dai:_9279632d	skos:closeMatch	aat:300009700	semapv:UnspecifiedMatching	Unbelebte Motive	motifs	
+dai:_78c804cf	skos:exactMatch	aat:300025943	semapv:UnspecifiedMatching	Frau	women (female humans)	
+dai:_ed41a94d	skos:closeMatch	aat:300025913	semapv:UnspecifiedMatching	Greis	elderly	
+dai:_c809765f	skos:closeMatch	aat:300025913	semapv:UnspecifiedMatching	Greisin	elderly	
+dai:_f39c4219	skos:exactMatch	aat:300247598	semapv:UnspecifiedMatching	Junge	boys	
+dai:_f60dd2eb	skos:closeMatch	aat:300379598	semapv:UnspecifiedMatching	Kleinkind	toddlers	
+dai:_4b77941b	skos:exactMatch	aat:300247581	semapv:UnspecifiedMatching	Mädchen	girls	
+dai:_59dd53fc	skos:exactMatch	aat:300189559	semapv:UnspecifiedMatching	Mann	male	
+dai:_2954_cf0633ec60c9cb1ff199a52e7795d97b	skos:broadMatch	aat:300024979	semapv:UnspecifiedMatching	Barbar	people (agents)	
+dai:_4846	skos:closeMatch	aat:300386020	semapv:UnspecifiedMatching	Daker	Dacian	
+dai:_cd750998	skos:closeMatch	aat:300379855	semapv:UnspecifiedMatching	Gallier	Gallic	
+dai:_57256287	skos:closeMatch	aat:300020072	semapv:UnspecifiedMatching	Grieche	Ancient Greek (culture or style)	
+dai:_15d6e154	skos:closeMatch	aat:300019470	semapv:UnspecifiedMatching	Kelte	Celtic (culture)	
+dai:_bc5e62c4	skos:closeMatch	aat:300015690	semapv:UnspecifiedMatching	Negride	Ancient African	
+dai:_4287	skos:closeMatch	aat:300019967	semapv:UnspecifiedMatching	Parther	Parthian	
+dai:_89ac9dc8	skos:closeMatch	aat:300019933	semapv:UnspecifiedMatching	Perser	Persian (culture)	
+dai:_6583d13d	skos:closeMatch	aat:300019715	semapv:UnspecifiedMatching	Phryger	Phrygian	
+dai:_37df3a8b	skos:closeMatch	aat:300020533	semapv:UnspecifiedMatching	Römer	Roman (ancient Italian culture or period)	
+dai:_243de556	skos:closeMatch	aat:300019526	semapv:UnspecifiedMatching	Skythe	Scythian	
+dai:_47d838ae	skos:broadMatch	aat:300056005	semapv:UnspecifiedMatching	Adorant	worship	
+dai:_582686c3	skos:exactMatch	aat:300025467	semapv:UnspecifiedMatching	Amtsträger / Magistrat	magistrates	
+dai:_3f0b446f	skos:exactMatch	aat:300236025	semapv:UnspecifiedMatching	Athlet / Sportler	athletes	
+dai:_febd67e4	skos:exactMatch	aat:300230852	semapv:UnspecifiedMatching	Bauer	peasants	
+dai:_ea233f0f	skos:exactMatch	aat:300025513	semapv:UnspecifiedMatching	Dichter / Denker	poets	
+dai:_394cea56	skos:exactMatch	aat:300230899	semapv:UnspecifiedMatching	Diener / Sklave	slaves (people)	
+dai:_b48b5c16	skos:exactMatch	aat:300236762	semapv:UnspecifiedMatching	Feldherr	generals	
+dai:_3027	skos:exactMatch	aat:300025608	semapv:UnspecifiedMatching	Fischer	fishermen (people)	
+dai:_01ef0a90	skos:broadMatch	aat:300024979	semapv:UnspecifiedMatching	Freigelassener	people (agents)	
+dai:_330d8d95	skos:exactMatch	aat:300258488	semapv:UnspecifiedMatching	Gladiator	gladiators	
+dai:_3007	skos:exactMatch	aat:300025389	semapv:UnspecifiedMatching	Handwerker	craftsmen	
+dai:_d9147814	skos:exactMatch	aat:300025615	semapv:UnspecifiedMatching	Hirte	herdsmen	
+dai:_2977	skos:exactMatch	aat:300025619	semapv:UnspecifiedMatching	Jäger	hunters (people)	
+dai:_dd8719dd	skos:exactMatch	aat:300025480	semapv:UnspecifiedMatching	Kaiser	emperors	
+dai:_518d6936	skos:closeMatch	aat:300025480	semapv:UnspecifiedMatching	Kaiserfamilie	emperors	
+dai:_518d6936	skos:closeMatch	aat:300055474	semapv:UnspecifiedMatching	Kaiserfamilie	families	
+dai:_9bfefddc	skos:closeMatch	aat:300025480	semapv:UnspecifiedMatching	Kaisergattin	emperors	
+dai:_9bfefddc	skos:closeMatch	aat:300154343	semapv:UnspecifiedMatching	Kaisergattin	wives	
+dai:_a48496de	skos:exactMatch	aat:300025481	semapv:UnspecifiedMatching	König / Pharao	kings (people)	
+dai:_a48496de	skos:exactMatch	aat:300150507	semapv:UnspecifiedMatching	König / Pharao	pharaohs	
+dai:_4962c921	skos:exactMatch	aat:300261945	semapv:UnspecifiedMatching	Krieger / Soldat	warriors	
+dai:_4962c921	skos:exactMatch	aat:300185678	semapv:UnspecifiedMatching	Krieger / Soldat	soldiers	
+dai:_3fda85f8	skos:exactMatch	aat:300236210	semapv:UnspecifiedMatching	Militäroffizier	military officers	
+dai:_f096fdb3	skos:broadMatch	aat:300168457	semapv:UnspecifiedMatching	Opferdiener	people in religion	
+dai:_bad70e93	skos:exactMatch	aat:300025569	semapv:UnspecifiedMatching	Philosoph	philosophers	
+dai:_77a609fb	skos:exactMatch	aat:300025774	semapv:UnspecifiedMatching	Priester	priests	
+dai:_3017	skos:exactMatch	aat:300188602	semapv:UnspecifiedMatching	Reiter	equestrians	
+dai:_065c3696	skos:exactMatch	aat:300025658	semapv:UnspecifiedMatching	Schauspieler	actors (performing artists)	
+dai:_2997	skos:exactMatch	aat:300380118	semapv:UnspecifiedMatching	Wagenlenker	charioteers	
+dai:_6d2a5c23	skos:exactMatch	aat:300305463	semapv:UnspecifiedMatching	Ehrung	honors	
+dai:_6c0bae56	skos:exactMatch	aat:300263485	semapv:UnspecifiedMatching	Grab	burials	
+dai:_e724ef65	skos:closeMatch	aat:300006962	semapv:UnspecifiedMatching	Grenzmal	boundary stones	
+dai:_801610c0	skos:broadMatch	aat:300262491	semapv:UnspecifiedMatching	kommemoratives Monument	commemorative sculpture	
+dai:_41a4249c	skos:broadMatch	aat:300312158	semapv:UnspecifiedMatching	Kultbild	ritual objects	
+dai:_eac58268	skos:closeMatch	aat:300122241	semapv:UnspecifiedMatching	öffentliche Ausstattung	equipment	
+dai:_f6674384	skos:closeMatch	aat:300122241	semapv:UnspecifiedMatching	private Ausstattung	equipment	
+dai:_f6674384	skos:closeMatch	aat:300056387	semapv:UnspecifiedMatching	private Ausstattung	privacy	
+dai:_7647de4d	skos:exactMatch	aat:300393213	semapv:UnspecifiedMatching	Stiftung	foundation (action or condition)	
+dai:_c0564df8	skos:broadMatch	aat:300404264	semapv:UnspecifiedMatching	unsicher	attribution qualifiers	
+dai:_21f298a9	skos:exactMatch	aat:300026841	semapv:UnspecifiedMatching	Urkunde	certificates	
+dai:_a82814b1	skos:exactMatch	aat:300069272	semapv:UnspecifiedMatching	Weihung	consecrations	
+dai:_3701_a470a738408e250b1ed2c7c8f5ea05ac	skos:broadMatch	aat:300404264	semapv:UnspecifiedMatching	unbekannt	attribution qualifiers	
+dai:_2dcbad4a	skos:broadMatch	aat:300400898	semapv:UnspecifiedMatching	Bauplastische Gruppe	sculpture groups	
+dai:_28f8614b	skos:closeMatch	aat:300047170	semapv:UnspecifiedMatching	Doppelherme	herms	
+dai:_5f4977a1	skos:broadMatch	aat:300047600	semapv:UnspecifiedMatching	entrestaurierte antike Statue	statues	
+dai:_5f4977a1	skos:broadMatch	aat:300053742	semapv:UnspecifiedMatching	entrestaurierte antike Statue	restoration (process)	
+dai:_5f4977a1	skos:broadMatch	aat:300117125	semapv:UnspecifiedMatching	entrestaurierte antike Statue	antiques (object genre)	
+dai:_30dbf98d	skos:closeMatch	aat:300047180	semapv:UnspecifiedMatching	freiplastische Gruppe	outdoor sculpture	
+dai:_88c84eba	skos:closeMatch	aat:300234110	semapv:UnspecifiedMatching	Fundgruppe	archaeological objects	
+dai:_21628231	skos:closeMatch	aat:300239170	semapv:UnspecifiedMatching	Gerätegruppe	<equipment by context>	
+dai:_b27a0f63	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	Grabbefund / - inventar	graves	
+dai:_b27a0f63	skos:exactMatch	aat:300180706	semapv:UnspecifiedMatching	Grabbefund / - inventar	grave goods	
+dai:_d45e2317	skos:exactMatch	aat:300195474	semapv:UnspecifiedMatching	Hort / Depot	hoards (groupings)	
+dai:_36c788fd	skos:exactMatch	aat:300049945	semapv:UnspecifiedMatching	Modernes Pasticcio	pastiches (objects)	
+dai:_464eeb21	skos:broadMatch	aat:300027349	semapv:UnspecifiedMatching	Reihungsgruppe	series (groups)	
+dai:_ff8fb536	skos:broadMatch	aat:300027349	semapv:UnspecifiedMatching	Sammelaufnahme	series (groups)	
+dai:_141f024d	skos:closeMatch	aat:300005947	semapv:UnspecifiedMatching	Sarkophaggruppe	sarcophagi (coffins)	
+dai:_a23faca5	skos:broadMatch	aat:300047600	semapv:UnspecifiedMatching	Statue(n) mit Attribut(en)	statues	
+dai:_a23faca5	skos:broadMatch	aat:300263527	semapv:UnspecifiedMatching	Statue(n) mit Attribut(en)	figure-derived form attributes	
+dai:_c84577be	skos:closeMatch	aat:300047600	semapv:UnspecifiedMatching	zufällig getrennte antike Statue	statues	
+dai:_c84577be	skos:broadMatch	aat:300131111	semapv:UnspecifiedMatching	zufällig getrennte antike Statue	detached (positional attribute)	
+dai:_ff35ef13	skos:closeMatch	aat:300000885	semapv:UnspecifiedMatching	zufällig getrenntes antikes Bauteil	architectural elements	
+dai:_ff35ef13	skos:broadMatch	aat:300131111	semapv:UnspecifiedMatching	zufällig getrenntes antikes Bauteil	detached (positional attribute)	
+dai:_2917	skos:broadMatch	aat:300001650	semapv:UnspecifiedMatching	Basen	column components	
+dai:_2917	skos:closeMatch	aat:300001659	semapv:UnspecifiedMatching	Basen	Attic bases	
+dai:_58bf0bec	skos:broadMatch	aat:300054168	semapv:UnspecifiedMatching	Darstellungen in der Flächenkunst	decorative arts	
+dai:_18fc3bb5	skos:exactMatch	aat:300404073	semapv:UnspecifiedMatching	Kopie(n)/Umbildung( en)	pastiche copies	
+dai:_f4d61358	skos:exactMatch	aat:300015644	semapv:UnspecifiedMatching	Original	originals (objects)	
+dai:_129015a9	skos:exactMatch	aat:300404450	semapv:UnspecifiedMatching	primär	primary (general designation)	
+dai:_634bb902	skos:exactMatch	aat:300404451	semapv:UnspecifiedMatching	sekundär	secondary (general designation)	
+dai:_6a1cb7f0	skos:exactMatch	aat:300008777	semapv:UnspecifiedMatching	Bergügel	hills (landforms)	
+dai:_75f0a189	skos:exactMatch	aat:300266557	semapv:UnspecifiedMatching	Bucht	bights (landforms)	
+dai:_7c0ac5e8	skos:exactMatch	aat:300008805	semapv:UnspecifiedMatching	Ebene	plains (landforms)	
+dai:_9512c706	skos:exactMatch	aat:300008707	semapv:UnspecifiedMatching	Fluss	rivers (bodies of water)	
+dai:_e81afbd6	skos:exactMatch	aat:300008795	semapv:UnspecifiedMatching	Gebirge	mountains (landforms)	
+dai:_69b8b7c7	skos:exactMatch	aat:300008746	semapv:UnspecifiedMatching	Grotte/Höhle	caves (landforms)	
+dai:_65e85901	skos:exactMatch	aat:300008804	semapv:UnspecifiedMatching	Halbinsel	peninsulas (landforms)	
+dai:_2c39be78	skos:exactMatch	aat:300008791	semapv:UnspecifiedMatching	Insel	islands (landforms)	
+dai:_cac4c63f	skos:exactMatch	aat:300008850	semapv:UnspecifiedMatching	Kap	capes (landforms)	
+dai:_07eeaf49	skos:exactMatch	aat:300008738	semapv:UnspecifiedMatching	Katarakt / Stromschnelle	cataract (bodies of water)	
+dai:_5293422e	skos:exactMatch	aat:300008733	semapv:UnspecifiedMatching	Küste	shores (landforms)	
+dai:_dee10600	skos:closeMatch	aat:300008626	semapv:UnspecifiedMatching	Landschaft	landscapes (environments)	
+dai:_3479	skos:exactMatch	aat:300008694	semapv:UnspecifiedMatching	Meer	seas (bodies of water)	
+dai:_db21f67e	skos:exactMatch	aat:300266558	semapv:UnspecifiedMatching	Meerenge	sounds (bodies of water)	
+dai:_ea1b1ae1	skos:exactMatch	aat:300008697	semapv:UnspecifiedMatching	Quelle	springs (bodies of water)	
+dai:_89128543	skos:exactMatch	aat:300008773	semapv:UnspecifiedMatching	Schlucht	ravines (landform)	
+dai:_efbeb559	skos:exactMatch	aat:300008680	semapv:UnspecifiedMatching	See	lakes (bodies of water)	
+dai:_1217b9c5	skos:exactMatch	aat:300008761	semapv:UnspecifiedMatching	Tal	valleys (landforms)	
+dai:_5b9f2871	skos:exactMatch	aat:300000700	semapv:UnspecifiedMatching	Akropolis	acropolises	
+dai:_ebae8db5	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	Aquaedukt/Wasserle itung	aqueducts	
+dai:_fcd79027	skos:exactMatch	aat:300008591	semapv:UnspecifiedMatching	Bahnstrecke	railroads (infrastructure)	
+dai:_2747	skos:exactMatch	aat:300006888	semapv:UnspecifiedMatching	Befestigung	fortifications	
+dai:_6b605836	skos:broadMatch	aat:300000754	semapv:UnspecifiedMatching	cannabae	vici	
+dai:_2892ea94	skos:exactMatch	aat:300000705	semapv:UnspecifiedMatching	Distrikt	districts	
+dai:_16fb930d	skos:exactMatch	aat:300008372	semapv:UnspecifiedMatching	Dorf	villages	
+dai:_9779f311	skos:exactMatch	aat:300006156	semapv:UnspecifiedMatching	Damm	levees	
+dai:_9f8dae16	skos:exactMatch	aat:300008884	semapv:UnspecifiedMatching	Garten/Hain	grove	
+dai:_238f5774	skos:exactMatch	aat:300387343	semapv:UnspecifiedMatching	Grenze/Linie	borders (boundaries)	
+dai:_2763	skos:exactMatch	aat:300008678	semapv:UnspecifiedMatching	Hafen	harbors	
+dai:_2765	skos:exactMatch	aat:300004575	semapv:UnspecifiedMatching	Heiligtum	sanctuaries (religious building spaces)	
+dai:_b09b4ff3	skos:closeMatch	aat:300045490	semapv:UnspecifiedMatching	Hof/Geöft	granges (farms)	
+dai:_d6486501	skos:exactMatch	aat:300000325	semapv:UnspecifiedMatching	Insula	insulae	
+dai:_7f2e8caa	skos:exactMatch	aat:300006075	semapv:UnspecifiedMatching	Kanal	canals (waterways)	
+dai:_97918e93	skos:exactMatch	aat:300007148	semapv:UnspecifiedMatching	Karawanserei	caravanserais	
+dai:_be166ea8	skos:exactMatch	aat:300000641	semapv:UnspecifiedMatching	Kloster	monasteries (built complexes)	
+dai:_b0039022	skos:exactMatch	aat:300000476	semapv:UnspecifiedMatching	Militärlager	military camps	
+dai:_7daaeda6	skos:closeMatch	aat:300007544	semapv:UnspecifiedMatching	Moscheekomplex	mosques (buildings)	
+dai:_2ea5294b	skos:exactMatch	aat:300000372	semapv:UnspecifiedMatching	Nekropole	necropolises	
+dai:_2778	skos:exactMatch	aat:300005734	semapv:UnspecifiedMatching	Palast	palaces	
+dai:_2d40b40a	skos:exactMatch	aat:300254248	semapv:UnspecifiedMatching	Park	parks	
+dai:_771507bc	skos:exactMatch	aat:300008214	semapv:UnspecifiedMatching	Platz	plazas (squares)	
+dai:_6557b6ca	skos:exactMatch	aat:300000774	semapv:UnspecifiedMatching	Provinz	provinces	
+dai:_c2502528	skos:closeMatch	aat:300236112	semapv:UnspecifiedMatching	Region	regions (administrative divisions)	
+dai:_202750bd	skos:closeMatch	aat:300008488	semapv:UnspecifiedMatching	Siedlung	<settlements by condition>	
+dai:_427d7bf1	skos:exactMatch	aat:300008389	semapv:UnspecifiedMatching	Stadt	cities	
+dai:_d56a209b	skos:exactMatch	aat:300000762	semapv:UnspecifiedMatching	Stadtviertel	quarters (districts)	
+dai:_25141e84	skos:exactMatch	aat:300000402	semapv:UnspecifiedMatching	Steinbruch/Bergwerk	quarries (extracting complexes)	
+dai:_677268f5	skos:exactMatch	aat:300008247	semapv:UnspecifiedMatching	Straße	streets	
+dai:_4fec39d1	skos:exactMatch	aat:300004182	semapv:UnspecifiedMatching	Terrasse	terraces (landscaped- site elements)	
+dai:_5a3fbdb3	skos:exactMatch	aat:300007899	semapv:UnspecifiedMatching	Tunnel	tunnels	
+dai:_c32d5a5b	skos:exactMatch	aat:300000754	semapv:UnspecifiedMatching	vicus	vici	
+dai:_0e298ef9	skos:broadMatch	aat:300006178	semapv:UnspecifiedMatching	Viereckschanze	ditches	
+dai:_457fac51	skos:exactMatch	aat:300000238	semapv:UnspecifiedMatching	Villa/Landgut	manors (agricultural complexes)	
+dai:_6d70d873	skos:closeMatch	aat:300219527	semapv:UnspecifiedMatching	natürlich	natural	
+dai:_892d500f	skos:closeMatch	aat:300224592	semapv:UnspecifiedMatching	anthropogen	man-made	

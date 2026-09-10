@@ -1,0 +1,866 @@
+#curie_map:
+#  fish: http://purl.org/heritagedata/
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_aat.sssom.tsv
+#mapping_set_title: ADS FISH → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data Service (ADS) for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_provider: https://ror.org/04w1khd64
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: http://purl.org/heritagedata/
+#object_source: http://vocab.getty.edu/aat/
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+fish:schemes/eh_tbm/concepts/97722	skos:closeMatch	aat:300011701	semapv:UnspecifiedMatching	ASHLAR	ashlar	
+fish:schemes/eh_tbm/concepts/97777	skos:closeMatch	aat:300010463	semapv:UnspecifiedMatching	BRICK	brick (clay product)	
+fish:schemes/eh_tbm/concepts/97813	skos:exactMatch	aat:300235507	semapv:UnspecifiedMatching	CERAMIC	ceramic (material)	
+fish:schemes/eh_tbm/concepts/97840	skos:exactMatch	aat:300010737	semapv:UnspecifiedMatching	CONCRETE	concrete	
+fish:schemes/eh_tbm/concepts/97873	skos:exactMatch	aat:300163933	semapv:UnspecifiedMatching	DAUB	daub	
+fish:schemes/eh_tbm/concepts/97939	skos:exactMatch	aat:300010797	semapv:UnspecifiedMatching	GLASS	glass (material)	
+fish:schemes/eh_tbm/concepts/98028	skos:exactMatch	aat:300011286	semapv:UnspecifiedMatching	LIMESTONE	limestone	
+fish:schemes/eh_tbm/concepts/98193	skos:exactMatch	aat:300011790	semapv:UnspecifiedMatching	SLAG	slag	
+fish:schemes/eh_tbm/concepts/98194	skos:closeMatch	aat:300389711	semapv:UnspecifiedMatching	SLATE	slate (roofing)	
+fish:schemes/eh_tbm/concepts/98216	skos:exactMatch	aat:300011176	semapv:UnspecifiedMatching	STONE	stone (worked rock)	
+fish:schemes/eh_tbm/concepts/98241	skos:exactMatch	aat:300010676	semapv:UnspecifiedMatching	TILE	tile (materials)	
+fish:schemes/eh_tbm/concepts/98243	skos:closeMatch	aat:300133748	semapv:UnspecifiedMatching	TIN	tin (metal)	
+fish:schemes/eh_com/concepts/137632	skos:exactMatch	aat:300022331	semapv:UnspecifiedMatching	CRANE	cranes (equipment)	
+fish:schemes/eh_com/concepts/137654	skos:exactMatch	aat:300001846	semapv:UnspecifiedMatching	CRUCK	crucks	
+fish:schemes/eh_com/concepts/137700	skos:closeMatch	aat:300002232	semapv:UnspecifiedMatching	DORMER WINDOW	dormers	
+fish:schemes/eh_com/concepts/137771	skos:exactMatch	aat:300052267	semapv:UnspecifiedMatching	FIREPLACE	fireplaces	
+fish:schemes/eh_com/concepts/137950	skos:exactMatch	aat:300003161	semapv:UnspecifiedMatching	LINTEL	lintels (spanning elements)	
+fish:schemes/eh_com/concepts/138038	skos:exactMatch	aat:300002954	semapv:UnspecifiedMatching	ORIEL WINDOW	oriel windows	
+fish:schemes/eh_com/concepts/138059	skos:exactMatch	aat:300002717	semapv:UnspecifiedMatching	PARAPET	parapets	
+fish:schemes/eh_com/concepts/138109	skos:broadMatch	aat:300001609	semapv:UnspecifiedMatching	POST HOLE	posts (structural elements)	
+fish:schemes/eh_com/concepts/138191	skos:exactMatch	aat:300185694	semapv:UnspecifiedMatching	SAIL	sails (equipment)	
+fish:schemes/mda_obj/concepts/96909	skos:exactMatch	aat:300023553	semapv:UnspecifiedMatching	ADZE	adzes	
+fish:schemes/mda_obj/concepts/95055	skos:closeMatch	aat:300054463	semapv:UnspecifiedMatching	AGRICULTURE AND SUBSISTENCE	agriculture	
+fish:schemes/mda_obj/concepts/142915	skos:exactMatch	aat:300264223	semapv:UnspecifiedMatching	ALLUVIUM	alluvium	
+fish:schemes/mda_obj/concepts/100100	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	AMPHIBIAN REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96750	skos:exactMatch	aat:300148696	semapv:UnspecifiedMatching	AMPHORA	amphorae (storage vessels)	
+fish:schemes/mda_obj/concepts/95897	skos:exactMatch	aat:300198899	semapv:UnspecifiedMatching	AMPULLA	ampullae	
+fish:schemes/mda_obj/concepts/95896	skos:exactMatch	aat:300266585	semapv:UnspecifiedMatching	AMULET	amulets	
+fish:schemes/mda_obj/concepts/97102	skos:exactMatch	aat:300036975	semapv:UnspecifiedMatching	ANGON	angons	
+fish:schemes/mda_obj/concepts/95074	skos:exactMatch	aat:300191781	semapv:UnspecifiedMatching	Animal Bone	skeleton components (animal components)	
+fish:schemes/mda_obj/concepts/95054	skos:broadMatch	aat:300255532	semapv:UnspecifiedMatching	ANIMAL EQUIPMENT	animal husbandry equipment	
+fish:schemes/mda_obj/concepts/100097	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	ANIMAL MICRO REMAINS	animal components	
+fish:schemes/mda_obj/concepts/95074	skos:closeMatch	aat:300011793	semapv:UnspecifiedMatching	ANIMAL REMAINS	animal material	
+fish:schemes/mda_obj/concepts/95074	skos:exactMatch	aat:300400467	semapv:UnspecifiedMatching	Animal Tooth	teeth (animal components)	
+fish:schemes/mda_obj/concepts/97114	skos:exactMatch	aat:300263352	semapv:UnspecifiedMatching	ANNULAR BROOCH	ring brooches	
+fish:schemes/mda_obj/concepts/141231	skos:broadMatch	aat:300045995	semapv:UnspecifiedMatching	Ansate Brooch	brooches	
+fish:schemes/mda_obj/concepts/95074	skos:exactMatch	aat:300395687	semapv:UnspecifiedMatching	Antler	antlers (animal components)	
+fish:schemes/mda_obj/concepts/95074	skos:broadMatch	aat:300395687	semapv:UnspecifiedMatching	Antler Tine	antlers (animal components)	
+fish:schemes/mda_obj/concepts/96360	skos:exactMatch	aat:300000885	semapv:UnspecifiedMatching	ARCHITECTURAL ELEMENT	architectural elements	
+fish:schemes/mda_obj/concepts/96002	skos:broadMatch	aat:300117130	semapv:UnspecifiedMatching	ARCHITECTURAL FRAGMENT	fragments (object portions)	
+fish:schemes/mda_obj/concepts/95056	skos:exactMatch	aat:300263552	semapv:UnspecifiedMatching	ARCHITECTURE	architecture (object genre)	
+fish:schemes/mda_obj/concepts/97103	skos:broadMatch	aat:300201790	semapv:UnspecifiedMatching	ARM GUARD	vambraces	
+fish:schemes/mda_obj/concepts/96652	skos:exactMatch	aat:300045990	semapv:UnspecifiedMatching	ARMLET	armlets	
+fish:schemes/mda_obj/concepts/95156	skos:exactMatch	aat:300036745	semapv:UnspecifiedMatching	ARMOUR	armor (protective wear)	
+fish:schemes/mda_obj/concepts/97083	skos:closeMatch	aat:300036926	semapv:UnspecifiedMatching	ARMOUR AND WEAPONS	weapons	
+fish:schemes/mda_obj/concepts/97083	skos:closeMatch	aat:300036745	semapv:UnspecifiedMatching	ARMOUR AND WEAPONS	armor (protective wear)	
+fish:schemes/mda_obj/concepts/95131	skos:exactMatch	aat:300036976	semapv:UnspecifiedMatching	ARROW	arrows	
+fish:schemes/mda_obj/concepts/95132	skos:exactMatch	aat:300024861	semapv:UnspecifiedMatching	ARROWHEAD	arrowheads	
+fish:schemes/mda_obj/concepts/141192	skos:exactMatch	aat:300256847	semapv:UnspecifiedMatching	ASSEMBLAGE	assemblages (object groupings)	
+fish:schemes/mda_obj/concepts/96914	skos:closeMatch	aat:300024663	semapv:UnspecifiedMatching	AWL	awls	
+fish:schemes/mda_obj/concepts/141179	skos:exactMatch	aat:300024664	semapv:UnspecifiedMatching	AXE (TOOL)	axes (tools)	
+fish:schemes/mda_obj/concepts/141181	skos:exactMatch	aat:300036982	semapv:UnspecifiedMatching	AXE (WEAPON)	axes (weapons)	
+fish:schemes/mda_obj/concepts/143949	skos:exactMatch	aat:300023039	semapv:UnspecifiedMatching	AXE HAMMER	axhammers	
+fish:schemes/mda_obj/concepts/97526	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	AXE TRIMMING FLAKE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/100153	skos:exactMatch	aat:300400808	semapv:UnspecifiedMatching	AXEHEAD	ax heads	
+fish:schemes/mda_obj/concepts/96418	skos:exactMatch	aat:300193994	semapv:UnspecifiedMatching	BADGE	badges	
+fish:schemes/mda_obj/concepts/95306	skos:exactMatch	aat:300195805	semapv:UnspecifiedMatching	BALANCE	balances (scales)	
+fish:schemes/mda_obj/concepts/96654	skos:exactMatch	aat:300045992	semapv:UnspecifiedMatching	Bangle	bangles	
+fish:schemes/mda_obj/concepts/95162	skos:broadMatch	aat:300024861	semapv:UnspecifiedMatching	BARBED AND TANGED ARROWHEAD	arrowheads	
+fish:schemes/mda_obj/concepts/97328	skos:broadMatch	aat:300024860	semapv:UnspecifiedMatching	BARBED POINT	projectile points	
+fish:schemes/mda_obj/concepts/96397	skos:exactMatch	aat:300194514	semapv:UnspecifiedMatching	BARREL	barrels (containers)	
+fish:schemes/mda_obj/concepts/137053	skos:broadMatch	aat:300117132	semapv:UnspecifiedMatching	BASE SHERD	sherds	
+fish:schemes/mda_obj/concepts/96363	skos:exactMatch	aat:300194498	semapv:UnspecifiedMatching	BASKET	baskets (containers)	
+fish:schemes/mda_obj/concepts/95165	skos:exactMatch	aat:300036983	semapv:UnspecifiedMatching	BATTLEAXE	battle-axes	
+fish:schemes/mda_obj/concepts/96488	skos:exactMatch	aat:300234006	semapv:UnspecifiedMatching	BEAD	beads (pierced objects)	
+fish:schemes/mda_obj/concepts/96754	skos:exactMatch	aat:300043198	semapv:UnspecifiedMatching	BEAKER	beakers (drinking vessels)	
+fish:schemes/mda_obj/concepts/95509	skos:exactMatch	aat:300041872	semapv:UnspecifiedMatching	BELL	bells (idiophones)	
+fish:schemes/mda_obj/concepts/151960	skos:closeMatch	aat:300264948	semapv:UnspecifiedMatching	BICONICAL URN	biconical urns	
+fish:schemes/mda_obj/concepts/95893	skos:exactMatch	aat:300262819	semapv:UnspecifiedMatching	BIER	biers	
+fish:schemes/mda_obj/concepts/95128	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	BIRD REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96399	skos:closeMatch	aat:300024917	semapv:UnspecifiedMatching	BLADE	blades (tool and equipment components)	
+fish:schemes/mda_obj/concepts/151831	skos:closeMatch	aat:300265134	semapv:UnspecifiedMatching	BLADE CORE	cores (object genres)	
+fish:schemes/mda_obj/concepts/97335	skos:broadMatch	aat:300054041	semapv:UnspecifiedMatching	BLOOM	smelting	
+fish:schemes/mda_obj/concepts/137054	skos:closeMatch	aat:300117132	semapv:UnspecifiedMatching	BODY SHERD	sherds	
+fish:schemes/mda_obj/concepts/96240	skos:exactMatch	aat:300033325	semapv:UnspecifiedMatching	BOLT (FASTENING)	bolts (fasteners)	
+fish:schemes/mda_obj/concepts/96485	skos:closeMatch	aat:300389694	semapv:UnspecifiedMatching	BORER	borers (tools)	
+fish:schemes/mda_obj/concepts/96823	skos:exactMatch	aat:300045627	semapv:UnspecifiedMatching	BOTTLE	bottles	
+fish:schemes/mda_obj/concepts/96755	skos:exactMatch	aat:300203596	semapv:UnspecifiedMatching	BOWL	bowls (vessels)	
+fish:schemes/mda_obj/concepts/96439	skos:exactMatch	aat:300045643	semapv:UnspecifiedMatching	BOX	boxes (containers)	
+fish:schemes/mda_obj/concepts/96654	skos:exactMatch	aat:300045991	semapv:UnspecifiedMatching	BRACELET	bracelets (jewelry)	
+fish:schemes/mda_obj/concepts/97596	skos:broadMatch	aat:300184647	semapv:UnspecifiedMatching	BRASS	brasses (memorials)	
+fish:schemes/mda_obj/concepts/95169	skos:exactMatch	aat:300036753	semapv:UnspecifiedMatching	BREASTPLATE	breastplates (body armor)	
+fish:schemes/mda_obj/concepts/96010	skos:closeMatch	aat:300010534	semapv:UnspecifiedMatching	BRICK	building brick (clay products)	
+fish:schemes/mda_obj/concepts/95672	skos:broadMatch	aat:300248092	semapv:UnspecifiedMatching	BRIDLE FITTING	bridles	
+fish:schemes/mda_obj/concepts/97337	skos:broadMatch	aat:300157780	semapv:UnspecifiedMatching	BRIQUETAGE	ceramic products	
+fish:schemes/mda_obj/concepts/96665	skos:exactMatch	aat:300045995	semapv:UnspecifiedMatching	BROOCH	brooches	
+fish:schemes/mda_obj/concepts/141197	skos:broadMatch	aat:300265691	semapv:UnspecifiedMatching	BRYOZOAN REMAINS	Bryozoa (phylum)	
+fish:schemes/mda_obj/concepts/96364	skos:exactMatch	aat:300045651	semapv:UnspecifiedMatching	BUCKET	buckets (vessels)	
+fish:schemes/mda_obj/concepts/96667	skos:exactMatch	aat:300239260	semapv:UnspecifiedMatching	BUCKLE	buckles (strap accessories)	
+fish:schemes/mda_obj/concepts/95135	skos:closeMatch	aat:300201694	semapv:UnspecifiedMatching	BULLET	bullets	
+fish:schemes/mda_obj/concepts/96401	skos:exactMatch	aat:300203447	semapv:UnspecifiedMatching	BUNG	bungs	
+fish:schemes/mda_obj/concepts/148316	skos:closeMatch	aat:300237688	semapv:UnspecifiedMatching	BUNGHOLE JUG	bungholes	
+fish:schemes/mda_obj/concepts/95886	skos:exactMatch	aat:300124808	semapv:UnspecifiedMatching	BURIAL URN	cremation urns	
+fish:schemes/mda_obj/concepts/95758	skos:exactMatch	aat:300193147	semapv:UnspecifiedMatching	BURIN	burins	
+fish:schemes/mda_obj/concepts/97341	skos:broadMatch	aat:300343517	semapv:UnspecifiedMatching	BURIN SPALL	spalls	
+fish:schemes/mda_obj/concepts/97540	skos:broadMatch	aat:300011143	semapv:UnspecifiedMatching	BURNT FLINT	flint (rock)	
+fish:schemes/mda_obj/concepts/141186	skos:broadMatch	aat:300011793	semapv:UnspecifiedMatching	BUTCHERED ANIMAL REMAINS	animal material	
+fish:schemes/mda_obj/concepts/96674	skos:exactMatch	aat:300239261	semapv:UnspecifiedMatching	BUTTON	buttons (fasteners)	
+fish:schemes/mda_obj/concepts/96011	skos:exactMatch	aat:300003106	semapv:UnspecifiedMatching	CAME	cames	
+fish:schemes/mda_obj/concepts/96192	skos:exactMatch	aat:300037583	semapv:UnspecifiedMatching	CANDLE HOLDER	candleholders	
+fish:schemes/mda_obj/concepts/96198	skos:closeMatch	aat:300037588	semapv:UnspecifiedMatching	CANDLESTICK	candlesticks	
+fish:schemes/mda_obj/concepts/95172	skos:exactMatch	aat:300036936	semapv:UnspecifiedMatching	CANNON	cannons (artillery)	
+fish:schemes/mda_obj/concepts/148345	skos:broadMatch	aat:300203596	semapv:UnspecifiedMatching	CARINATED BOWL	bowls (vessels)	
+fish:schemes/mda_obj/concepts/148389	skos:broadMatch	aat:300043202	semapv:UnspecifiedMatching	CARINATED CUP	cups (drinking vessels)	
+fish:schemes/mda_obj/concepts/148295	skos:broadMatch	aat:300186923	semapv:UnspecifiedMatching	CARVED OBJECT	found object sculpture	
+fish:schemes/mda_obj/concepts/148295	skos:closeMatch	aat:300047090	semapv:UnspecifiedMatching	Carved Stone	sculpture (visual work)	
+fish:schemes/mda_obj/concepts/97542	skos:broadMatch	aat:300053104	semapv:UnspecifiedMatching	CASTING WASTE	casting (process)	
+fish:schemes/mda_obj/concepts/96757	skos:exactMatch	aat:300196395	semapv:UnspecifiedMatching	CAULDRON	cauldrons	
+fish:schemes/mda_obj/concepts/141190	skos:exactMatch	aat:300235507	semapv:UnspecifiedMatching	CERAMIC	ceramic (material)	
+fish:schemes/mda_obj/concepts/142983	skos:exactMatch	aat:300011871	semapv:UnspecifiedMatching	CEREAL GRAIN	grain (seed)	
+fish:schemes/mda_obj/concepts/100065	skos:exactMatch	aat:300234117	semapv:UnspecifiedMatching	CEREMONIAL OBJECT	ceremonial objects	
+fish:schemes/mda_obj/concepts/96246	skos:closeMatch	aat:300014625	semapv:UnspecifiedMatching	CHAIN	chains (object genres)	
+fish:schemes/mda_obj/concepts/95877	skos:exactMatch	aat:300194762	semapv:UnspecifiedMatching	CHALICE	chalices (liturgical vessels)	
+fish:schemes/mda_obj/concepts/96678	skos:exactMatch	aat:300209297	semapv:UnspecifiedMatching	CHATELAINE	chatelaines	
+fish:schemes/mda_obj/concepts/96025	skos:exactMatch	aat:300003961	semapv:UnspecifiedMatching	CHIMNEY POT	chimney pots	
+fish:schemes/mda_obj/concepts/96922	skos:exactMatch	aat:300024665	semapv:UnspecifiedMatching	CHISEL	chisels	
+fish:schemes/mda_obj/concepts/95903	skos:closeMatch	aat:300124808	semapv:UnspecifiedMatching	CINERARY URN	cremation urns	
+fish:schemes/mda_obj/concepts/95509	skos:closeMatch	aat:300041874	semapv:UnspecifiedMatching	Clapper	clapper bells	
+fish:schemes/mda_obj/concepts/96248	skos:exactMatch	aat:300239507	semapv:UnspecifiedMatching	CLASP	clasps (fasteners)	
+fish:schemes/mda_obj/concepts/95639	skos:closeMatch	aat:300248067	semapv:UnspecifiedMatching	CLAY PIPE (SMOKING)	pipes (smoking equipment)	
+fish:schemes/mda_obj/concepts/96404	skos:closeMatch	aat:300199941	semapv:UnspecifiedMatching	CLEAVER	cleavers	
+fish:schemes/mda_obj/concepts/97105	skos:exactMatch	aat:300266639	semapv:UnspecifiedMatching	CLOTHING	clothing	
+fish:schemes/mda_obj/concepts/100078	skos:exactMatch	aat:300046148	semapv:UnspecifiedMatching	CODPIECE	codpieces	
+fish:schemes/mda_obj/concepts/95905	skos:exactMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN	coffins	
+fish:schemes/mda_obj/concepts/100132	skos:broadMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN FITTING	coffins	
+fish:schemes/mda_obj/concepts/95423	skos:closeMatch	aat:300037222	semapv:UnspecifiedMatching	COIN	coins (money)	
+fish:schemes/mda_obj/concepts/97525	skos:broadMatch	aat:300195474	semapv:UnspecifiedMatching	COIN HOARD	hoards (groupings)	
+fish:schemes/mda_obj/concepts/95094	skos:broadMatch	aat:300310502	semapv:UnspecifiedMatching	Coleoptera Remains	Coleoptera (order)	
+fish:schemes/mda_obj/concepts/96634	skos:closeMatch	aat:300210058	semapv:UnspecifiedMatching	COLLAR	collars (neckwear)	
+fish:schemes/mda_obj/concepts/151970	skos:broadMatch	aat:300129425	semapv:UnspecifiedMatching	COLLARED URN	urns	
+fish:schemes/mda_obj/concepts/142920	skos:broadMatch	aat:300264846	semapv:UnspecifiedMatching	COLLUVIUM	deposit	
+fish:schemes/mda_obj/concepts/96154	skos:exactMatch	aat:300236397	semapv:UnspecifiedMatching	COMB	combs (grooming tools)	
+fish:schemes/mda_obj/concepts/97242	skos:closeMatch	aat:300236397	semapv:UnspecifiedMatching	COMB CASE	combs (grooming tools)	
+fish:schemes/mda_obj/concepts/96817	skos:exactMatch	aat:300197197	semapv:UnspecifiedMatching	CONTAINER	containers (receptacles)	
+fish:schemes/mda_obj/concepts/97243	skos:broadMatch	aat:300197197	semapv:UnspecifiedMatching	CONTAINER	containers (receptacles)	
+fish:schemes/mda_obj/concepts/97220	skos:broadMatch	aat:300197197	semapv:UnspecifiedMatching	CONTAINER	containers (receptacles)	
+fish:schemes/mda_obj/concepts/97227	skos:closeMatch	aat:300201279	semapv:UnspecifiedMatching	COOKING VESSEL	cookware	
+fish:schemes/mda_obj/concepts/151965	skos:broadMatch	aat:300129425	semapv:UnspecifiedMatching	CORDONED URN	urns	
+fish:schemes/mda_obj/concepts/97552	skos:exactMatch	aat:300265134	semapv:UnspecifiedMatching	CORE	cores (object genres)	
+fish:schemes/mda_obj/concepts/96520	skos:exactMatch	aat:300203448	semapv:UnspecifiedMatching	CORK	corks (stoppers)	
+fish:schemes/mda_obj/concepts/95060	skos:exactMatch	aat:300178802	semapv:UnspecifiedMatching	COSTUME	costume (mode of fashion)	
+fish:schemes/mda_obj/concepts/137057	skos:closeMatch	aat:300205348	semapv:UnspecifiedMatching	COUNTER	gaming counters	
+fish:schemes/mda_obj/concepts/97661	skos:closeMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION	cremations	
+fish:schemes/mda_obj/concepts/96851	skos:exactMatch	aat:300196462	semapv:UnspecifiedMatching	CRUCIBLE	crucibles	
+fish:schemes/mda_obj/concepts/141235	skos:broadMatch	aat:300045995	semapv:UnspecifiedMatching	CRUCIFORM BROOCH	brooches	
+fish:schemes/mda_obj/concepts/141200	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	CRUSTACEAN REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96767	skos:exactMatch	aat:300043202	semapv:UnspecifiedMatching	CUP	cups (drinking vessels)	
+fish:schemes/mda_obj/concepts/97209	skos:closeMatch	aat:300037316	semapv:UnspecifiedMatching	CURRENCY	money	
+fish:schemes/mda_obj/concepts/97146	skos:exactMatch	aat:300163290	semapv:UnspecifiedMatching	CUTTING EQUIPMENT	cutting equipment	
+fish:schemes/mda_obj/concepts/95138	skos:exactMatch	aat:300037058	semapv:UnspecifiedMatching	DAGGER	daggers (weapons)	
+fish:schemes/mda_obj/concepts/136754	skos:closeMatch	aat:300163933	semapv:UnspecifiedMatching	DAUB	daub	
+fish:schemes/mda_obj/concepts/99629	skos:broadMatch	aat:300234126	semapv:UnspecifiedMatching	DEATH BURIAL OR FUNERARY OBJECT	funerary objects	
+fish:schemes/mda_obj/concepts/97322	skos:exactMatch	aat:300265125	semapv:UnspecifiedMatching	DEBITAGE	debitage	
+fish:schemes/mda_obj/concepts/142911	skos:closeMatch	aat:300264846	semapv:UnspecifiedMatching	DEPOSIT	deposit	
+fish:schemes/mda_obj/concepts/97135	skos:exactMatch	aat:300211084	semapv:UnspecifiedMatching	DIE	dice	
+fish:schemes/mda_obj/concepts/137058	skos:broadMatch	aat:300263827	semapv:UnspecifiedMatching	DISC	circular (shape)	
+fish:schemes/mda_obj/concepts/137058	skos:closeMatch	aat:300251427	semapv:UnspecifiedMatching	DISC	disks (object genres)	
+fish:schemes/mda_obj/concepts/97517	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	DISCOIDAL KNIFE	lithics	
+fish:schemes/mda_obj/concepts/96770	skos:closeMatch	aat:300198294	semapv:UnspecifiedMatching	DISH	serving dishes	
+fish:schemes/mda_obj/concepts/96054	skos:exactMatch	aat:300002803	semapv:UnspecifiedMatching	DOOR	doors	
+fish:schemes/mda_obj/concepts/96337	skos:closeMatch	aat:300052564	semapv:UnspecifiedMatching	DRAIN PIPE	drains	
+fish:schemes/mda_obj/concepts/100075	skos:closeMatch	aat:300209273	semapv:UnspecifiedMatching	DRESS AND PERSONAL ACCESSORIES	costume accessories	
+fish:schemes/mda_obj/concepts/97440	skos:broadMatch	aat:300266639	semapv:UnspecifiedMatching	DRESS COMPONENT	clothing	
+fish:schemes/mda_obj/concepts/96449	skos:closeMatch	aat:300070050	semapv:UnspecifiedMatching	DRESSED STONE	dressed stone	
+fish:schemes/mda_obj/concepts/97225	skos:exactMatch	aat:300194567	semapv:UnspecifiedMatching	DRINKING VESSEL	drinking vessels	
+fish:schemes/mda_obj/concepts/96686	skos:exactMatch	aat:300045998	semapv:UnspecifiedMatching	EAR RING	earrings (jewelry)	
+fish:schemes/mda_obj/concepts/95274	skos:broadMatch	aat:300122241	semapv:UnspecifiedMatching	EAR SCOOP	equipment	
+fish:schemes/mda_obj/concepts/97085	skos:broadMatch	aat:300011792	semapv:UnspecifiedMatching	ECOFACTS	organic material	
+fish:schemes/mda_obj/concepts/96928	skos:broadMatch	aat:300024836	semapv:UnspecifiedMatching	END SCRAPER	scrapers (finishing tools)	
+fish:schemes/mda_obj/concepts/96929	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	FABRICATOR	flakes (object genre)	
+fish:schemes/mda_obj/concepts/95074	skos:broadMatch	aat:300011793	semapv:UnspecifiedMatching	Faunal Remains	animal material	
+fish:schemes/mda_obj/concepts/95824	skos:exactMatch	aat:300047455	semapv:UnspecifiedMatching	FIGURINE	figurines	
+fish:schemes/mda_obj/concepts/96691	skos:exactMatch	aat:300046012	semapv:UnspecifiedMatching	FINGER RING	rings (jewelry)	
+fish:schemes/mda_obj/concepts/96204	skos:closeMatch	aat:300003988	semapv:UnspecifiedMatching	FIRE GRATE	grates	
+fish:schemes/mda_obj/concepts/95471	skos:exactMatch	aat:300024418	semapv:UnspecifiedMatching	FISH HOOK	fishhooks	
+fish:schemes/mda_obj/concepts/95091	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	FISH REMAINS	animal components	
+fish:schemes/mda_obj/concepts/95774	skos:exactMatch	aat:300037044	semapv:UnspecifiedMatching	FISH SPEAR	fishing spears	
+fish:schemes/mda_obj/concepts/97681	skos:closeMatch	aat:300024416	semapv:UnspecifiedMatching	FISHING OBJECT	fishing tackle	
+fish:schemes/mda_obj/concepts/97692	skos:broadMatch	aat:300040215	semapv:UnspecifiedMatching	FIXTURES AND FITTINGS	furniture components	
+fish:schemes/mda_obj/concepts/96775	skos:closeMatch	aat:300196545	semapv:UnspecifiedMatching	FLAGON	flagons	
+fish:schemes/mda_obj/concepts/97321	skos:closeMatch	aat:300265137	semapv:UnspecifiedMatching	FLAKE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/96776	skos:exactMatch	aat:300045671	semapv:UnspecifiedMatching	FLASK	flasks (bottles)	
+fish:schemes/mda_obj/concepts/97566	skos:broadMatch	aat:300011143	semapv:UnspecifiedMatching	Flint Implement	flint (rock)	
+fish:schemes/mda_obj/concepts/96075	skos:exactMatch	aat:300250799	semapv:UnspecifiedMatching	FLOOR TILE	floor tile	
+fish:schemes/mda_obj/concepts/96369	skos:exactMatch	aat:300194749	semapv:UnspecifiedMatching	FLOWER POT	flowerpots	
+fish:schemes/mda_obj/concepts/97221	skos:closeMatch	aat:300198294	semapv:UnspecifiedMatching	FOOD AND DRINK SERVING CONTAINER	serving dishes	
+fish:schemes/mda_obj/concepts/99627	skos:closeMatch	aat:300197582	semapv:UnspecifiedMatching	FOOD AND LIQUID STORAGE CONTAINER	storage containers	
+fish:schemes/mda_obj/concepts/97226	skos:broadMatch	aat:300197577	semapv:UnspecifiedMatching	FOOD GATHERING AND PREPARATION CONTAINER	culinary containers	
+fish:schemes/mda_obj/concepts/96751	skos:broadMatch	aat:300197577	semapv:UnspecifiedMatching	FOOD PREPARATION AND CONSUMPTION	culinary containers	
+fish:schemes/mda_obj/concepts/97444	skos:broadMatch	aat:300197577	semapv:UnspecifiedMatching	FOOD PREPARATION CONTAINER	culinary containers	
+fish:schemes/mda_obj/concepts/97223	skos:broadMatch	aat:300198294	semapv:UnspecifiedMatching	FOOD SERVING CONTAINER	serving dishes	
+fish:schemes/mda_obj/concepts/96545	skos:exactMatch	aat:300037680	semapv:UnspecifiedMatching	FURNITURE	furniture	
+fish:schemes/mda_obj/concepts/95650	skos:exactMatch	aat:300211101	semapv:UnspecifiedMatching	GAMING PIECE	game pieces (game elements)	
+fish:schemes/mda_obj/concepts/99617	skos:closeMatch	aat:300379627	semapv:UnspecifiedMatching	GEOLOGICAL SAMPLE	geological specimens	
+fish:schemes/mda_obj/concepts/96624	skos:exactMatch	aat:300220741	semapv:UnspecifiedMatching	GIRDLE	girdles (belts)	
+fish:schemes/mda_obj/concepts/96695	skos:broadMatch	aat:300209297	semapv:UnspecifiedMatching	GIRDLE HANGER	chatelaines	
+fish:schemes/mda_obj/concepts/97573	skos:broadMatch	aat:300053929	semapv:UnspecifiedMatching	GLASS WORKING DEBRIS	glassworking	
+fish:schemes/mda_obj/concepts/95356	skos:broadMatch	aat:300005021	semapv:UnspecifiedMatching	GRAIN MEASURE	grain bins	
+fish:schemes/mda_obj/concepts/141192	skos:exactMatch	aat:300180706	semapv:UnspecifiedMatching	Grave Goods	grave goods	
+fish:schemes/mda_obj/concepts/95975	skos:exactMatch	aat:300391176	semapv:UnspecifiedMatching	GRAVE MARKER	grave markers	
+fish:schemes/mda_obj/concepts/97507	skos:exactMatch	aat:300185385	semapv:UnspecifiedMatching	GRAVE SLAB	tomb slabs	
+fish:schemes/mda_obj/concepts/95977	skos:exactMatch	aat:300005923	semapv:UnspecifiedMatching	GRAVESTONE	tombstones (sepulchral monuments)	
+fish:schemes/mda_obj/concepts/96370	skos:closeMatch	aat:300263933	semapv:UnspecifiedMatching	GRINDSTONE	grinding stones	
+fish:schemes/mda_obj/concepts/96699	skos:broadMatch	aat:300209287	semapv:UnspecifiedMatching	HAIR PIN	hair ornaments	
+fish:schemes/mda_obj/concepts/96938	skos:exactMatch	aat:300024854	semapv:UnspecifiedMatching	HAMMERSTONE	hammerstones	
+fish:schemes/mda_obj/concepts/96374	skos:broadMatch	aat:300024664	semapv:UnspecifiedMatching	HANDAXE	axes (tools)	
+fish:schemes/mda_obj/concepts/137067	skos:closeMatch	aat:300024927	semapv:UnspecifiedMatching	HANDLE	handles	
+fish:schemes/mda_obj/concepts/95682	skos:exactMatch	aat:300212971	semapv:UnspecifiedMatching	HARNESS	harnesses	
+fish:schemes/mda_obj/concepts/96225	skos:exactMatch	aat:300052342	semapv:UnspecifiedMatching	HEARTHSTONE	hearthstones	
+fish:schemes/mda_obj/concepts/95183	skos:exactMatch	aat:300036794	semapv:UnspecifiedMatching	HELMET	helmets (protective wear)	
+fish:schemes/mda_obj/concepts/96271	skos:exactMatch	aat:300033367	semapv:UnspecifiedMatching	HINGE	hinges (hardware)	
+fish:schemes/mda_obj/concepts/97498	skos:exactMatch	aat:300195474	semapv:UnspecifiedMatching	HOARD	hoards (groupings)	
+fish:schemes/mda_obj/concepts/96577	skos:broadMatch	aat:300033565	semapv:UnspecifiedMatching	HOB NAIL	nails (fasteners)	
+fish:schemes/mda_obj/concepts/96274	skos:closeMatch	aat:300400821	semapv:UnspecifiedMatching	HOOK	hooks (object genre)	
+fish:schemes/mda_obj/concepts/95671	skos:exactMatch	aat:300248085	semapv:UnspecifiedMatching	Horse Bit	bits (bridle components)	
+fish:schemes/mda_obj/concepts/97578	skos:exactMatch	aat:300265358	semapv:UnspecifiedMatching	HORSE TRAPPING	horse trappings	
+fish:schemes/mda_obj/concepts/95696	skos:exactMatch	aat:300024400	semapv:UnspecifiedMatching	HORSESHOE	horseshoes (animal equipment)	
+fish:schemes/mda_obj/concepts/95093	skos:closeMatch	aat:300379896	semapv:UnspecifiedMatching	Human Bone	human remains	
+fish:schemes/mda_obj/concepts/95093	skos:exactMatch	aat:300379896	semapv:UnspecifiedMatching	HUMAN REMAINS	human remains	
+fish:schemes/mda_obj/concepts/95093	skos:broadMatch	aat:300191778	semapv:UnspecifiedMatching	Human Skeleton	skeletons (animal components)	
+fish:schemes/mda_obj/concepts/95093	skos:closeMatch	aat:300191856	semapv:UnspecifiedMatching	Human Skull	skulls (skeleton components)	
+fish:schemes/mda_obj/concepts/95093	skos:broadMatch	aat:300400467	semapv:UnspecifiedMatching	Human Tooth	teeth (animal components)	
+fish:schemes/mda_obj/concepts/96084	skos:exactMatch	aat:300010682	semapv:UnspecifiedMatching	IMBREX	imbrex	
+fish:schemes/mda_obj/concepts/97580	skos:broadMatch	aat:300253876	semapv:UnspecifiedMatching	INDUSTRIAL BY PRODUCT	waste	
+fish:schemes/mda_obj/concepts/95424	skos:exactMatch	aat:300137865	semapv:UnspecifiedMatching	INGOT	ingot	
+fish:schemes/mda_obj/concepts/95378	skos:exactMatch	aat:300196797	semapv:UnspecifiedMatching	INKWELL	inkwells	
+fish:schemes/mda_obj/concepts/97318	skos:broadMatch	aat:300028702	semapv:UnspecifiedMatching	INSCRIBED OBJECT	inscriptions	
+fish:schemes/mda_obj/concepts/95094	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	INSECT REMAINS	animal components	
+fish:schemes/mda_obj/concepts/95417	skos:closeMatch	aat:300047216	semapv:UnspecifiedMatching	INTAGLIO	intaglios (sculptural objects)	
+fish:schemes/mda_obj/concepts/141195	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	INVERTEBRATE REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96783	skos:exactMatch	aat:300195347	semapv:UnspecifiedMatching	JAR	jars	
+fish:schemes/mda_obj/concepts/95426	skos:exactMatch	aat:300191481	semapv:UnspecifiedMatching	JETTON	jettons	
+fish:schemes/mda_obj/concepts/96706	skos:exactMatch	aat:300209286	semapv:UnspecifiedMatching	JEWELLERY	jewellery	
+fish:schemes/mda_obj/concepts/95488	skos:exactMatch	aat:300042576	semapv:UnspecifiedMatching	JEWS HARP	Jew's harps	
+fish:schemes/mda_obj/concepts/96784	skos:exactMatch	aat:300045685	semapv:UnspecifiedMatching	JUG	jugs (vessels)	
+fish:schemes/mda_obj/concepts/96861	skos:exactMatch	aat:300194516	semapv:UnspecifiedMatching	KEG	kegs	
+fish:schemes/mda_obj/concepts/97317	skos:exactMatch	aat:300033579	semapv:UnspecifiedMatching	KEY (LOCKING)	keys (hardware)	
+fish:schemes/mda_obj/concepts/97584	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	KILN WASTE	kilns	
+fish:schemes/mda_obj/concepts/96377	skos:closeMatch	aat:300024668	semapv:UnspecifiedMatching	KNIFE	knives	
+fish:schemes/mda_obj/concepts/97585	skos:broadMatch	aat:300210524	semapv:UnspecifiedMatching	LACE TAG	shoelaces	
+fish:schemes/mda_obj/concepts/96213	skos:exactMatch	aat:300037592	semapv:UnspecifiedMatching	LAMP	lamps (lighting devices)	
+fish:schemes/mda_obj/concepts/96283	skos:broadMatch	aat:300033397	semapv:UnspecifiedMatching	LATCHLIFTER	lift latches	
+fish:schemes/mda_obj/concepts/97253	skos:closeMatch	aat:300024861	semapv:UnspecifiedMatching	LEAF ARROWHEAD	arrowheads	
+fish:schemes/mda_obj/concepts/97668	skos:broadMatch	aat:300265134	semapv:UnspecifiedMatching	LEVALLOIS CORE	cores (object genres)	
+fish:schemes/mda_obj/concepts/97669	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	LEVALLOIS FLAKE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/97669	skos:broadMatch	aat:300024860	semapv:UnspecifiedMatching	Levallois Point	projectile points	
+fish:schemes/mda_obj/concepts/96284	skos:broadMatch	aat:300251159	semapv:UnspecifiedMatching	LIFT KEY	keys (adjusting equipment)	
+fish:schemes/mda_obj/concepts/95440	skos:broadMatch	aat:300391133	semapv:UnspecifiedMatching	LINCH PIN	shafts (vehicle components)	
+fish:schemes/mda_obj/concepts/97566	skos:exactMatch	aat:300379567	semapv:UnspecifiedMatching	LITHIC IMPLEMENT	lithics	
+fish:schemes/mda_obj/concepts/97042	skos:exactMatch	aat:300248042	semapv:UnspecifiedMatching	LOOMWEIGHT	loom weights	
+fish:schemes/mda_obj/concepts/95196	skos:closeMatch	aat:300299039	semapv:UnspecifiedMatching	MACE	ceremonial maces	
+fish:schemes/mda_obj/concepts/95196	skos:exactMatch	aat:300375720	semapv:UnspecifiedMatching	Macehead	mace heads (weapons)	
+fish:schemes/mda_obj/concepts/100098	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	MAMMAL REMAINS	animal components	
+fish:schemes/mda_obj/concepts/97581	skos:broadMatch	aat:300077527	semapv:UnspecifiedMatching	MANUFACTURE AND PROCESSING	manufacturing	
+fish:schemes/mda_obj/concepts/95385	skos:exactMatch	aat:300028569	semapv:UnspecifiedMatching	MANUSCRIPT	manuscripts (document genre)	
+fish:schemes/mda_obj/concepts/95636	skos:exactMatch	aat:300211125	semapv:UnspecifiedMatching	MARBLE	marbles (game pieces)	
+fish:schemes/mda_obj/concepts/142929	skos:broadMatch	aat:300264846	semapv:UnspecifiedMatching	MARINE DEPOSIT	deposit	
+fish:schemes/mda_obj/concepts/142895	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	MARINE MOLLUSCA REMAINS	animal components	
+fish:schemes/mda_obj/concepts/97597	skos:closeMatch	aat:300053946	semapv:UnspecifiedMatching	METAL WORKING DEBRIS	metal-working	
+fish:schemes/mda_obj/concepts/97390	skos:broadMatch	aat:300393267	semapv:UnspecifiedMatching	MICROBURIN	microliths	
+fish:schemes/mda_obj/concepts/96371	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	MICRODENTICULATE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/96373	skos:exactMatch	aat:300393267	semapv:UnspecifiedMatching	MICROLITH	microliths	
+fish:schemes/mda_obj/concepts/97392	skos:exactMatch	aat:300037682	semapv:UnspecifiedMatching	MIRROR	mirrors	
+fish:schemes/mda_obj/concepts/95096	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	MOLLUSCA REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96410	skos:exactMatch	aat:300024724	semapv:UnspecifiedMatching	MORTAR (VESSEL)	mortars (grinding tools)	
+fish:schemes/mda_obj/concepts/96869	skos:exactMatch	aat:300395633	semapv:UnspecifiedMatching	MORTARIUM	mortaria	
+fish:schemes/mda_obj/concepts/96290	skos:closeMatch	aat:300015342	semapv:UnspecifiedMatching	MOSAIC	mosaics (visual works)	
+fish:schemes/mda_obj/concepts/96472	skos:closeMatch	aat:300024814	semapv:UnspecifiedMatching	MOULD	moulds (shaping tools)	
+fish:schemes/mda_obj/concepts/96089	skos:closeMatch	aat:300244017	semapv:UnspecifiedMatching	MOULDING	architectural mouldings	
+fish:schemes/mda_obj/concepts/137076	skos:exactMatch	aat:300171585	semapv:UnspecifiedMatching	MOUNT	mounts (attachments)	
+fish:schemes/mda_obj/concepts/96791	skos:exactMatch	aat:300043248	semapv:UnspecifiedMatching	MUG	mugs (cups)	
+fish:schemes/mda_obj/concepts/97088	skos:closeMatch	aat:300041620	semapv:UnspecifiedMatching	MUSIC	musical instruments	
+fish:schemes/mda_obj/concepts/96291	skos:exactMatch	aat:300033565	semapv:UnspecifiedMatching	NAIL	nails (fasteners)	
+fish:schemes/mda_obj/concepts/97602	skos:closeMatch	aat:300236740	semapv:UnspecifiedMatching	NAIL CLEANER	nail-brushes	
+fish:schemes/mda_obj/concepts/96716	skos:exactMatch	aat:300046001	semapv:UnspecifiedMatching	NECKLACE	necklaces	
+fish:schemes/mda_obj/concepts/96950	skos:exactMatch	aat:300024789	semapv:UnspecifiedMatching	NEEDLE	needles (piercing tools)	
+fish:schemes/mda_obj/concepts/96871	skos:closeMatch	aat:300023451	semapv:UnspecifiedMatching	NEEDLE HOLDER	needle cases	
+fish:schemes/mda_obj/concepts/142896	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	NON MARINE MOLLUSCA REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96227	skos:exactMatch	aat:300003650	semapv:UnspecifiedMatching	OVEN	ovens (baking equipment)	
+fish:schemes/mda_obj/concepts/95098	skos:exactMatch	aat:300011836	semapv:UnspecifiedMatching	OYSTER SHELL	oyster shell	
+fish:schemes/mda_obj/concepts/96293	skos:closeMatch	aat:300133746	semapv:UnspecifiedMatching	PADLOCK	padlocks	
+fish:schemes/mda_obj/concepts/96295	skos:exactMatch	aat:300036421	semapv:UnspecifiedMatching	PEG	pegs (fasteners)	
+fish:schemes/mda_obj/concepts/164177	skos:broadMatch	aat:300010699	semapv:UnspecifiedMatching	PEG TILE	roofing tile	
+fish:schemes/mda_obj/concepts/96719	skos:closeMatch	aat:300211545	semapv:UnspecifiedMatching	PENANNULAR BROOCH	penannular brooches	
+fish:schemes/mda_obj/concepts/96721	skos:exactMatch	aat:300046002	semapv:UnspecifiedMatching	PENDANT	pendants (jewelry)	
+fish:schemes/mda_obj/concepts/97454	skos:broadMatch	aat:300209275	semapv:UnspecifiedMatching	PERSONAL ACCESSORY	costume accessories carried	
+fish:schemes/mda_obj/concepts/97111	skos:broadMatch	aat:300209273	semapv:UnspecifiedMatching	PERSONAL ORNAMENT	costume accessories	
+fish:schemes/mda_obj/concepts/97112	skos:broadMatch	aat:300055878	semapv:UnspecifiedMatching	PERSONAL SYMBOL	symbols	
+fish:schemes/mda_obj/concepts/95826	skos:exactMatch	aat:300312034	semapv:UnspecifiedMatching	PETROGLYPH	petroglyphs	
+fish:schemes/mda_obj/concepts/95795	skos:exactMatch	aat:300024830	semapv:UnspecifiedMatching	PICK	picks (tools)	
+fish:schemes/mda_obj/concepts/97152	skos:closeMatch	aat:300024788	semapv:UnspecifiedMatching	PIERCING EQUIPMENT	piercing tools	
+fish:schemes/mda_obj/concepts/95986	skos:exactMatch	aat:300265066	semapv:UnspecifiedMatching	PILGRIM BADGE	pilgrim badges	
+fish:schemes/mda_obj/concepts/97288	skos:exactMatch	aat:300036423	semapv:UnspecifiedMatching	PIN	pins (fasteners)	
+fish:schemes/mda_obj/concepts/100056	skos:closeMatch	aat:300014662	semapv:UnspecifiedMatching	PIPE (ARCHITECTURAL)	pipes (conduits)	
+fish:schemes/mda_obj/concepts/100082	skos:exactMatch	aat:300248067	semapv:UnspecifiedMatching	PIPE (SMOKING)	pipes (smoking equipment)	
+fish:schemes/mda_obj/concepts/95204	skos:exactMatch	aat:300037160	semapv:UnspecifiedMatching	PISTOL	pistols	
+fish:schemes/mda_obj/concepts/96796	skos:exactMatch	aat:300194765	semapv:UnspecifiedMatching	PITCHER	pitchers (vessels)	
+fish:schemes/mda_obj/concepts/95797	skos:exactMatch	aat:300024353	semapv:UnspecifiedMatching	PITCHFORK	pitchforks	
+fish:schemes/mda_obj/concepts/96103	skos:exactMatch	aat:300012825	semapv:UnspecifiedMatching	PLANK	planks (wood)	
+fish:schemes/mda_obj/concepts/96378	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	PLANO CONVEX KNIFE	lithics	
+fish:schemes/mda_obj/concepts/100094	skos:broadMatch	aat:300124117	semapv:UnspecifiedMatching	PLANT MACRO REMAINS	plant material	
+fish:schemes/mda_obj/concepts/100096	skos:broadMatch	aat:300124117	semapv:UnspecifiedMatching	PLANT MICRO REMAINS	plant material	
+fish:schemes/mda_obj/concepts/100093	skos:broadMatch	aat:300124117	semapv:UnspecifiedMatching	PLANT REMAINS	plant material	
+fish:schemes/mda_obj/concepts/96882	skos:exactMatch	aat:300043053	semapv:UnspecifiedMatching	PLATTER	platters	
+fish:schemes/mda_obj/concepts/95798	skos:closeMatch	aat:300233317	semapv:UnspecifiedMatching	Ploughshare	ploughs (agricultural equipment)	
+fish:schemes/mda_obj/concepts/96379	skos:broadMatch	aat:300024788	semapv:UnspecifiedMatching	POINT	piercing tools	
+fish:schemes/mda_obj/concepts/100095	skos:exactMatch	aat:300213002	semapv:UnspecifiedMatching	POLLEN	pollen	
+fish:schemes/mda_obj/concepts/96380	skos:exactMatch	aat:300045697	semapv:UnspecifiedMatching	POT	pots (containers)	
+fish:schemes/mda_obj/concepts/97050	skos:exactMatch	aat:300022820	semapv:UnspecifiedMatching	POTTERS WHEEL	potter's wheels	
+fish:schemes/mda_obj/concepts/96722	skos:exactMatch	aat:300194553	semapv:UnspecifiedMatching	POUCH	pouches	
+fish:schemes/mda_obj/concepts/95210	skos:closeMatch	aat:300204665	semapv:UnspecifiedMatching	POWDER MEASURE	powder flasks	
+fish:schemes/mda_obj/concepts/100011	skos:closeMatch	aat:300203727	semapv:UnspecifiedMatching	PROJECTILE	projectile weapons	
+fish:schemes/mda_obj/concepts/96960	skos:exactMatch	aat:300389696	semapv:UnspecifiedMatching	PUNCH	punches (cutting tools)	
+fish:schemes/mda_obj/concepts/96723	skos:closeMatch	aat:300215521	semapv:UnspecifiedMatching	PURSE	coin purses	
+fish:schemes/mda_obj/concepts/96961	skos:exactMatch	aat:300200181	semapv:UnspecifiedMatching	QUERN	querns	
+fish:schemes/mda_obj/concepts/95213	skos:exactMatch	aat:300037085	semapv:UnspecifiedMatching	RAPIER	rapiers	
+fish:schemes/mda_obj/concepts/97139	skos:closeMatch	aat:300053622	semapv:UnspecifiedMatching	RELIEF	relief (sculpture techniques)	
+fish:schemes/mda_obj/concepts/97089	skos:closeMatch	aat:300234098	semapv:UnspecifiedMatching	RELIGION OR RITUAL	religious objects	
+fish:schemes/mda_obj/concepts/99632	skos:broadMatch	aat:300003723	semapv:UnspecifiedMatching	RELIGIOUS STRUCTURAL OBJECT	religious building fixtures	
+fish:schemes/mda_obj/concepts/100099	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	REPTILE REMAINS	animal components	
+fish:schemes/mda_obj/concepts/96383	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	RETOUCHED FLAKE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/96111	skos:exactMatch	aat:300010715	semapv:UnspecifiedMatching	RIDGE TILE	ridge tile	
+fish:schemes/mda_obj/concepts/137052	skos:exactMatch	aat:300263317	semapv:UnspecifiedMatching	RIM SHERD	rim sherds	
+fish:schemes/mda_obj/concepts/97660	skos:closeMatch	aat:300263678	semapv:UnspecifiedMatching	RING	rings (object genres)	
+fish:schemes/mda_obj/concepts/96300	skos:exactMatch	aat:300036425	semapv:UnspecifiedMatching	RIVET	rivets	
+fish:schemes/mda_obj/concepts/97574	skos:exactMatch	aat:300014669	semapv:UnspecifiedMatching	ROD	rods (object genre)	
+fish:schemes/mda_obj/concepts/96113	skos:broadMatch	aat:300247625	semapv:UnspecifiedMatching	ROOF SLAB	slabs (flat objects)	
+fish:schemes/mda_obj/concepts/96114	skos:exactMatch	aat:300011650	semapv:UnspecifiedMatching	ROOF SLATE	roofing slate	
+fish:schemes/mda_obj/concepts/96115	skos:closeMatch	aat:300010699	semapv:UnspecifiedMatching	ROOF TILE	roofing tile	
+fish:schemes/mda_obj/concepts/97453	skos:closeMatch	aat:300194594	semapv:UnspecifiedMatching	ROUGHOUT	blanks (object genre)	
+fish:schemes/mda_obj/concepts/142875	skos:closeMatch	aat:300014652	semapv:UnspecifiedMatching	ROUND SHOT	shot (ammunition)	
+fish:schemes/mda_obj/concepts/96301	skos:broadMatch	aat:300036425	semapv:UnspecifiedMatching	ROVE	rivets	
+fish:schemes/mda_obj/concepts/97697	skos:exactMatch	aat:300028875	semapv:UnspecifiedMatching	SAMPLE	samples	
+fish:schemes/mda_obj/concepts/95214	skos:exactMatch	aat:300037139	semapv:UnspecifiedMatching	SCABBARD	scabbards	
+fish:schemes/mda_obj/concepts/95214	skos:closeMatch	aat:300037139	semapv:UnspecifiedMatching	Scabbard Fitting	scabbards	
+fish:schemes/mda_obj/concepts/95306	skos:exactMatch	aat:300196293	semapv:UnspecifiedMatching	Scales	scales (weighing devices)	
+fish:schemes/mda_obj/concepts/96468	skos:exactMatch	aat:300023459	semapv:UnspecifiedMatching	SCISSORS	scissors	
+fish:schemes/mda_obj/concepts/97183	skos:closeMatch	aat:300024836	semapv:UnspecifiedMatching	SCRAPER (TOOL)	scrapers (finishing tools)	
+fish:schemes/mda_obj/concepts/95830	skos:exactMatch	aat:300047090	semapv:UnspecifiedMatching	SCULPTURE	sculpture (visual work)	
+fish:schemes/mda_obj/concepts/95398	skos:closeMatch	aat:300028877	semapv:UnspecifiedMatching	SEAL	seals (artifacts)	
+fish:schemes/mda_obj/concepts/95402	skos:broadMatch	aat:300028877	semapv:UnspecifiedMatching	SEAL MATRIX	seals (artifacts)	
+fish:schemes/mda_obj/concepts/95143	skos:broadMatch	aat:300036973	semapv:UnspecifiedMatching	SEAX	edged weapons	
+fish:schemes/mda_obj/concepts/142911	skos:closeMatch	aat:300379424	semapv:UnspecifiedMatching	Sediment	sediment	
+fish:schemes/mda_obj/concepts/142984	skos:closeMatch	aat:300400469	semapv:UnspecifiedMatching	SEEDS	seeds (plant components)	
+fish:schemes/mda_obj/concepts/97623	skos:broadMatch	aat:300024671	semapv:UnspecifiedMatching	SERRATED IMPLEMENT	saws	
+fish:schemes/mda_obj/concepts/95714	skos:exactMatch	aat:300247514	semapv:UnspecifiedMatching	SHACKLE	shackles	
+fish:schemes/mda_obj/concepts/95809	skos:exactMatch	aat:300024672	semapv:UnspecifiedMatching	SHEARS	shears (cutting tools)	
+fish:schemes/mda_obj/concepts/97241	skos:exactMatch	aat:300198733	semapv:UnspecifiedMatching	SHEATH	sheaths (cases)	
+fish:schemes/mda_obj/concepts/137051	skos:exactMatch	aat:300117132	semapv:UnspecifiedMatching	SHERD	sherds	
+fish:schemes/mda_obj/concepts/95215	skos:exactMatch	aat:300036869	semapv:UnspecifiedMatching	SHIELD	shields (armor)	
+fish:schemes/mda_obj/concepts/95241	skos:broadMatch	aat:300047259	semapv:UnspecifiedMatching	SHIELD BOSS	bosses	
+fish:schemes/mda_obj/concepts/100147	skos:closeMatch	aat:300082981	semapv:UnspecifiedMatching	SHIP	ships	
+fish:schemes/mda_obj/concepts/96570	skos:exactMatch	aat:300046065	semapv:UnspecifiedMatching	SHOE	shoes (footwear)	
+fish:schemes/mda_obj/concepts/96579	skos:closeMatch	aat:300375283	semapv:UnspecifiedMatching	SHOE IRON	heel plates	
+fish:schemes/mda_obj/concepts/95144	skos:exactMatch	aat:300014652	semapv:UnspecifiedMatching	SHOT	shot (ammunition)	
+fish:schemes/mda_obj/concepts/95811	skos:exactMatch	aat:300264860	semapv:UnspecifiedMatching	SICKLE	sickles	
+fish:schemes/mda_obj/concepts/97143	skos:broadMatch	aat:300024836	semapv:UnspecifiedMatching	SIDE SCRAPER	scrapers (finishing tools)	
+fish:schemes/mda_obj/concepts/97418	skos:exactMatch	aat:300011790	semapv:UnspecifiedMatching	SLAG	slag	
+fish:schemes/mda_obj/concepts/96114	skos:broadMatch	aat:300262572	semapv:UnspecifiedMatching	Slate	writing boards (tablets)	
+fish:schemes/mda_obj/concepts/137086	skos:closeMatch	aat:300248085	semapv:UnspecifiedMatching	SNAFFLE BIT	bits (bridle components)	
+fish:schemes/mda_obj/concepts/95812	skos:closeMatch	aat:300024300	semapv:UnspecifiedMatching	SPADE	shovels	
+fish:schemes/mda_obj/concepts/95295	skos:broadMatch	aat:300209587	semapv:UnspecifiedMatching	SPATULA	spatulas (culinary tools)	
+fish:schemes/mda_obj/concepts/95145	skos:exactMatch	aat:300037038	semapv:UnspecifiedMatching	SPEAR	spears (weapons)	
+fish:schemes/mda_obj/concepts/97404	skos:exactMatch	aat:300037118	semapv:UnspecifiedMatching	SPEARHEAD	spearheads	
+fish:schemes/mda_obj/concepts/96304	skos:closeMatch	aat:300036427	semapv:UnspecifiedMatching	SPIKE	spikes (object genre)	
+fish:schemes/mda_obj/concepts/96970	skos:exactMatch	aat:300265738	semapv:UnspecifiedMatching	SPINDLE	spindles (textile working equipment)	
+fish:schemes/mda_obj/concepts/97061	skos:exactMatch	aat:300263796	semapv:UnspecifiedMatching	SPINDLE WHORL	whorls	
+fish:schemes/mda_obj/concepts/96805	skos:exactMatch	aat:300043149	semapv:UnspecifiedMatching	SPOON	spoons	
+fish:schemes/mda_obj/concepts/97090	skos:broadMatch	aat:300211035	semapv:UnspecifiedMatching	SPORTS AND GAMES	sports and athletic equipment	
+fish:schemes/mda_obj/concepts/95689	skos:exactMatch	aat:300036923	semapv:UnspecifiedMatching	SPUR	spurs (costume accessories)	
+fish:schemes/mda_obj/concepts/141244	skos:broadMatch	aat:300045995	semapv:UnspecifiedMatching	SQUARE HEADED BROOCH	brooches	
+fish:schemes/mda_obj/concepts/96119	skos:exactMatch	aat:300010853	semapv:UnspecifiedMatching	STAINED GLASS (WINDOW)	stained glass (material)	
+fish:schemes/mda_obj/concepts/96307	skos:exactMatch	aat:300247473	semapv:UnspecifiedMatching	STAKE	stakes (pointed objects)	
+fish:schemes/mda_obj/concepts/95827	skos:closeMatch	aat:300047600	semapv:UnspecifiedMatching	STATUE	statues	
+fish:schemes/mda_obj/concepts/96456	skos:exactMatch	aat:300014680	semapv:UnspecifiedMatching	STAVE	staves (boards)	
+fish:schemes/mda_obj/concepts/95686	skos:exactMatch	aat:300255573	semapv:UnspecifiedMatching	STIRRUP	stirrups	
+fish:schemes/mda_obj/concepts/97230	skos:closeMatch	aat:300197582	semapv:UnspecifiedMatching	STORAGE CONTAINER	storage containers	
+fish:schemes/mda_obj/concepts/96311	skos:exactMatch	aat:300049015	semapv:UnspecifiedMatching	STRAP	straps (fasteners)	
+fish:schemes/mda_obj/concepts/140465	skos:broadMatch	aat:300049015	semapv:UnspecifiedMatching	STRAP END	straps (fasteners)	
+fish:schemes/mda_obj/concepts/97424	skos:broadMatch	aat:300049015	semapv:UnspecifiedMatching	STRAP FITTING	straps (fasteners)	
+fish:schemes/mda_obj/concepts/96230	skos:closeMatch	aat:300266523	semapv:UnspecifiedMatching	STRIKE A LIGHT	firesteels	
+fish:schemes/mda_obj/concepts/96123	skos:closeMatch	aat:300012822	semapv:UnspecifiedMatching	STRUCTURAL TIMBER	structural lumber	
+fish:schemes/mda_obj/concepts/96503	skos:exactMatch	aat:300239504	semapv:UnspecifiedMatching	STUD	studs (buttons)	
+fish:schemes/mda_obj/concepts/95405	skos:exactMatch	aat:300022483	semapv:UnspecifiedMatching	STYLUS	styluses (writing equipment)	
+fish:schemes/mda_obj/concepts/95221	skos:exactMatch	aat:300037048	semapv:UnspecifiedMatching	SWORD	swords	
+fish:schemes/mda_obj/concepts/96892	skos:exactMatch	aat:300198941	semapv:UnspecifiedMatching	TANK	tanks (containers)	
+fish:schemes/mda_obj/concepts/96125	skos:broadMatch	aat:300010713	semapv:UnspecifiedMatching	TEGULA	pantile	
+fish:schemes/mda_obj/concepts/97162	skos:broadMatch	aat:300212971	semapv:UnspecifiedMatching	Terret	harnesses	
+fish:schemes/mda_obj/concepts/96126	skos:exactMatch	aat:300010730	semapv:UnspecifiedMatching	TESSERA	tesserae (mosaic components)	
+fish:schemes/mda_obj/concepts/97632	skos:closeMatch	aat:300231565	semapv:UnspecifiedMatching	TEXTILE	textile materials	
+fish:schemes/mda_obj/concepts/99619	skos:exactMatch	aat:300163224	semapv:UnspecifiedMatching	TEXTILE EQUIPMENT	textile working equipment	
+fish:schemes/mda_obj/concepts/96975	skos:exactMatch	aat:300247551	semapv:UnspecifiedMatching	THIMBLE	thimbles	
+fish:schemes/mda_obj/concepts/97081	skos:broadMatch	aat:300312126	semapv:UnspecifiedMatching	Thread Picker	beaters (weaving)	
+fish:schemes/mda_obj/concepts/96127	skos:exactMatch	aat:300010676	semapv:UnspecifiedMatching	TILE	tile (materials)	
+fish:schemes/mda_obj/concepts/97647	skos:broadMatch	aat:300248067	semapv:UnspecifiedMatching	TOBACCO PIPE	pipes (smoking equipment)	
+fish:schemes/mda_obj/concepts/97116	skos:broadMatch	aat:300236656	semapv:UnspecifiedMatching	TOILET ARTICLE	<equipment for grooming, hygiene and health care>	
+fish:schemes/mda_obj/concepts/96464	skos:exactMatch	aat:300024748	semapv:UnspecifiedMatching	TONGS	tongs (devices)	
+fish:schemes/mda_obj/concepts/96982	skos:exactMatch	aat:300022238	semapv:UnspecifiedMatching	TOOLS AND EQUIPMENT	Tools and Equipment (Hierarchy Name)	
+fish:schemes/mda_obj/concepts/96743	skos:exactMatch	aat:300263462	semapv:UnspecifiedMatching	TORC	torques (necklaces)	
+fish:schemes/mda_obj/concepts/100111	skos:broadMatch	aat:300265137	semapv:UnspecifiedMatching	TRANCHET FLAKE	flakes (object genre)	
+fish:schemes/mda_obj/concepts/96317	skos:closeMatch	aat:300014634	semapv:UnspecifiedMatching	TRENAIL	dowels	
+fish:schemes/mda_obj/concepts/148314	skos:broadMatch	aat:300194765	semapv:UnspecifiedMatching	TRIPOD PITCHER	pitchers (vessels)	
+fish:schemes/mda_obj/concepts/96976	skos:closeMatch	aat:300023093	semapv:UnspecifiedMatching	TROWEL	trowels	
+fish:schemes/mda_obj/concepts/96621	skos:exactMatch	aat:300209869	semapv:UnspecifiedMatching	TUNIC	tunics	
+fish:schemes/mda_obj/concepts/96152	skos:exactMatch	aat:300024749	semapv:UnspecifiedMatching	TWEEZERS	tweezers	
+fish:schemes/mda_obj/concepts/95070	skos:closeMatch	aat:300386154	semapv:UnspecifiedMatching	UNASSIGNED	unidentified	
+fish:schemes/mda_obj/concepts/96810	skos:exactMatch	aat:300129425	semapv:UnspecifiedMatching	URN	urns	
+fish:schemes/mda_obj/concepts/96562	skos:exactMatch	aat:300132254	semapv:UnspecifiedMatching	VASE	vases	
+fish:schemes/mda_obj/concepts/141194	skos:broadMatch	aat:300251797	semapv:UnspecifiedMatching	VERTEBRATE REMAINS	animal components	
+fish:schemes/mda_obj/concepts/97653	skos:closeMatch	aat:300193015	semapv:UnspecifiedMatching	VESSEL	vessels (containers)	
+fish:schemes/mda_obj/concepts/141189	skos:broadMatch	aat:300014922	semapv:UnspecifiedMatching	WALL PLASTER	plaster	
+fish:schemes/mda_obj/concepts/96463	skos:exactMatch	aat:300253876	semapv:UnspecifiedMatching	WASTE	waste	
+fish:schemes/mda_obj/concepts/97433	skos:broadMatch	aat:300253876	semapv:UnspecifiedMatching	WASTER	waste	
+fish:schemes/mda_obj/concepts/97204	skos:exactMatch	aat:300042940	semapv:UnspecifiedMatching	WATER CRAFT	watercraft	
+fish:schemes/mda_obj/concepts/100092	skos:broadMatch	aat:300028875	semapv:UnspecifiedMatching	WATERLOGGED SAMPLE	samples	
+fish:schemes/mda_obj/concepts/100059	skos:exactMatch	aat:300036926	semapv:UnspecifiedMatching	WEAPON	weapons	
+fish:schemes/mda_obj/concepts/96462	skos:closeMatch	aat:300024101	semapv:UnspecifiedMatching	WEDGE	wedges	
+fish:schemes/mda_obj/concepts/97081	skos:broadMatch	aat:300312126	semapv:UnspecifiedMatching	WEFT BEATER	beaters (weaving)	
+fish:schemes/mda_obj/concepts/95324	skos:closeMatch	aat:300343371	semapv:UnspecifiedMatching	WEIGHT	weights (object genres)	
+fish:schemes/mda_obj/concepts/95324	skos:closeMatch	aat:300197555	semapv:UnspecifiedMatching	WEIGHT	weights (scale components)	
+fish:schemes/mda_obj/concepts/100055	skos:exactMatch	aat:300152327	semapv:UnspecifiedMatching	WELL	water wells	
+fish:schemes/mda_obj/concepts/95463	skos:exactMatch	aat:300024976	semapv:UnspecifiedMatching	WHEEL	wheels (components)	
+fish:schemes/mda_obj/concepts/96475	skos:exactMatch	aat:300023299	semapv:UnspecifiedMatching	WHETSTONE	whetstones	
+fish:schemes/mda_obj/concepts/96138	skos:closeMatch	aat:300010824	semapv:UnspecifiedMatching	WINDOW GLASS	sheet glass	
+fish:schemes/mda_obj/concepts/96011	skos:closeMatch	aat:300121827	semapv:UnspecifiedMatching	Window Lead	leaded lights	
+fish:schemes/mda_obj/concepts/96905	skos:exactMatch	aat:300045639	semapv:UnspecifiedMatching	WINE BOTTLE	wine bottles	
+fish:schemes/mda_obj/concepts/97658	skos:exactMatch	aat:300011063	semapv:UnspecifiedMatching	WIRE	wire	
+fish:schemes/mda_obj/concepts/97323	skos:broadMatch	aat:300234110	semapv:UnspecifiedMatching	WORKED OBJECT	archaeological objects	
+fish:schemes/mda_obj/concepts/96731	skos:broadMatch	aat:300239507	semapv:UnspecifiedMatching	Wrist Clasp	clasps (fasteners)	
+fish:schemes/mda_obj/concepts/95408	skos:exactMatch	aat:300262572	semapv:UnspecifiedMatching	WRITING TABLET	writing boards (tablets)	
+fish:schemes/mda_obj/concepts/97685	skos:broadMatch	aat:300137794	semapv:UnspecifiedMatching	WRITTEN COMMUNICATIONS	communication (function)	
+fish:schemes/mda_obj/concepts/97490	skos:closeMatch	aat:300263751	semapv:UnspecifiedMatching	WRITTEN ITEM	texts (document genres)	
+fish:schemes/eh_tmc/concepts/100272	skos:exactMatch	aat:300232674	semapv:UnspecifiedMatching	BARGE	barges (flat-bottomed watercraft)	
+fish:schemes/eh_tmc/concepts/100273	skos:closeMatch	aat:300233050	semapv:UnspecifiedMatching	BARQUE	jackass barques	
+fish:schemes/eh_tmc/concepts/100295	skos:exactMatch	aat:300212694	semapv:UnspecifiedMatching	CARGO VESSEL	cargo vessels	
+fish:schemes/eh_tmc/concepts/100307	skos:closeMatch	aat:300042940	semapv:UnspecifiedMatching	CRAFT	watercraft	
+fish:schemes/eh_tmc/concepts/100322	skos:exactMatch	aat:300232872	semapv:UnspecifiedMatching	DREDGER	dredgers (watercraft)	
+fish:schemes/eh_tmc/concepts/100350	skos:closeMatch	aat:300212611	semapv:UnspecifiedMatching	FRIGATE (SAIL)	frigates	
+fish:schemes/eh_tmc/concepts/100355	skos:exactMatch	aat:300125456	semapv:UnspecifiedMatching	GALLEY	galleys (watercraft)	
+fish:schemes/eh_tmc/concepts/100359	skos:exactMatch	aat:300232845	semapv:UnspecifiedMatching	GUNBOAT	gunboats	
+fish:schemes/eh_tmc/concepts/100369	skos:closeMatch	aat:300233414	semapv:UnspecifiedMatching	HULK	hulks (utility and service vessels)	
+fish:schemes/eh_tmc/concepts/100383	skos:exactMatch	aat:300233434	semapv:UnspecifiedMatching	LIBERTY SHIP	Liberty ships	
+fish:schemes/eh_tmc/concepts/100391	skos:closeMatch	aat:300232932	semapv:UnspecifiedMatching	LOGBOAT	dugout-based watercraft	
+fish:schemes/eh_tmc/concepts/100394	skos:broadMatch	aat:300042940	semapv:UnspecifiedMatching	MARITIME CRAFT	watercraft	
+fish:schemes/eh_tmc/concepts/100419	skos:exactMatch	aat:300232798	semapv:UnspecifiedMatching	PASSENGER VESSEL	passenger vessels	
+fish:schemes/eh_tmc/concepts/100443	skos:closeMatch	aat:300233013	semapv:UnspecifiedMatching	SAILING VESSEL	sailing-vessels	
+fish:schemes/eh_tmc/concepts/100447	skos:exactMatch	aat:300212871	semapv:UnspecifiedMatching	SCHOONER	schooners	
+fish:schemes/eh_tmc/concepts/100450	skos:broadMatch	aat:300042940	semapv:UnspecifiedMatching	SERVICE VESSEL	watercraft	
+fish:schemes/eh_tmc/concepts/145087	skos:exactMatch	aat:300264028	semapv:UnspecifiedMatching	SEWN BOAT	sewn boats	
+fish:schemes/eh_tmc/concepts/100307	skos:closeMatch	aat:300082981	semapv:UnspecifiedMatching	Ship	ships	
+fish:schemes/eh_tmc/concepts/100455	skos:exactMatch	aat:300233561	semapv:UnspecifiedMatching	SHIP OF THE LINE	ships of the line	
+fish:schemes/eh_tmc/concepts/100465	skos:exactMatch	aat:300212607	semapv:UnspecifiedMatching	SUBMARINE	submarines	
+fish:schemes/eh_tmc/concepts/100472	skos:exactMatch	aat:300216586	semapv:UnspecifiedMatching	TANKER	tankers (cargo vessels)	
+fish:schemes/eh_tmc/concepts/100502	skos:broadMatch	aat:300233561	semapv:UnspecifiedMatching	THIRD RATE SHIP OF THE LINE	ships of the line	
+fish:schemes/eh_tmc/concepts/100480	skos:closeMatch	aat:300232815	semapv:UnspecifiedMatching	TRANSPORT VESSEL	transport vessels	
+fish:schemes/eh_tmc/concepts/100490	skos:exactMatch	aat:300212606	semapv:UnspecifiedMatching	WARSHIP	warships	
+fish:schemes/eh_tmt2/concepts/70120	skos:exactMatch	aat:300000642	semapv:UnspecifiedMatching	ABBEY	abbeys (monasteries)	
+fish:schemes/eh_tmt2/concepts/69980	skos:closeMatch	aat:300007495	semapv:UnspecifiedMatching	Abbey Church	abbey churches	
+fish:schemes/eh_tmt2/concepts/70116	skos:broadMatch	aat:300000786	semapv:UnspecifiedMatching	Abbey Wall	precincts	
+fish:schemes/eh_tmt2/concepts/68544	skos:exactMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL BUILDING	agricultural buildings	
+fish:schemes/eh_tmt2/concepts/103673	skos:broadMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL DWELLING	agricultural buildings	
+fish:schemes/eh_tmt2/concepts/91004	skos:broadMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL HALL	agricultural buildings	
+fish:schemes/eh_tmt2/concepts/68543	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	AGRICULTURE AND SUBSISTENCE	agriculture	
+fish:schemes/eh_tmt2/concepts/68810	skos:exactMatch	aat:300007689	semapv:UnspecifiedMatching	AIR RAID SHELTER	air raid shelters	
+fish:schemes/eh_tmt2/concepts/70208	skos:closeMatch	aat:300212527	semapv:UnspecifiedMatching	AIRCRAFT	aircraft	
+fish:schemes/eh_tmt2/concepts/70209	skos:exactMatch	aat:300000679	semapv:UnspecifiedMatching	AIRFIELD	airfields	
+fish:schemes/eh_tmt2/concepts/140501	skos:broadMatch	aat:300000679	semapv:UnspecifiedMatching	AIRFIELD DEFENCE SITE	airfields	
+fish:schemes/eh_tmt2/concepts/71767	skos:broadMatch	aat:300004900	semapv:UnspecifiedMatching	AISLED BARN	barns	
+fish:schemes/eh_tmt2/concepts/100228	skos:broadMatch	aat:300247461	semapv:UnspecifiedMatching	AISLED BUILDING	hall houses	
+fish:schemes/eh_tmt2/concepts/94115	skos:closeMatch	aat:300247461	semapv:UnspecifiedMatching	AISLED HALL HOUSE	hall houses	
+fish:schemes/eh_tmt2/concepts/140533	skos:broadMatch	aat:300006951	semapv:UnspecifiedMatching	Alan Williams Turret	field fortifications	
+fish:schemes/eh_tmt2/concepts/68709	skos:exactMatch	aat:300006745	semapv:UnspecifiedMatching	ALMSHOUSE	almshouses (buildings)	
+fish:schemes/eh_tmt2/concepts/140084	skos:exactMatch	aat:300386968	semapv:UnspecifiedMatching	ANCHORAGE (MARITIME)	anchorages	
+fish:schemes/eh_tmt2/concepts/68812	skos:broadMatch	aat:300004862	semapv:UnspecifiedMatching	ANGLE TOWER	defensive towers	
+fish:schemes/eh_tmt2/concepts/91036	skos:closeMatch	aat:300007501	semapv:UnspecifiedMatching	ANGLICAN CATHEDRAL	cathedrals (buildings)	
+fish:schemes/eh_tmt2/concepts/70019	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	ANIMAL BURIAL	burials	
+fish:schemes/eh_tmt2/concepts/142867	skos:closeMatch	aat:300386994	semapv:UnspecifiedMatching	ANTI INVASION DEFENCE SITE	defense installations	
+fish:schemes/eh_tmt2/concepts/141942	skos:broadMatch	aat:300006951	semapv:UnspecifiedMatching	ANTI TANK DITCH	field fortifications	
+fish:schemes/eh_tmt2/concepts/140527	skos:broadMatch	aat:300036948	semapv:UnspecifiedMatching	ANTI TANK GUN EMPLACEMENT	antitank guns	
+fish:schemes/eh_tmt2/concepts/141949	skos:closeMatch	aat:300006914	semapv:UnspecifiedMatching	ANTI TANK OBSTACLE	stockades	
+fish:schemes/eh_tmt2/concepts/70432	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	AQUEDUCT	aqueducts	
+fish:schemes/eh_tmt2/concepts/102912	skos:broadMatch	aat:300000810	semapv:UnspecifiedMatching	ARCHAEOLOGICAL FEATURE	archaeological sites	
+fish:schemes/eh_tmt2/concepts/69498	skos:broadMatch	aat:300000885	semapv:UnspecifiedMatching	ARCHITECTURAL FRAGMENT	architectural elements	
+fish:schemes/eh_tmt2/concepts/71798	skos:exactMatch	aat:300164117	semapv:UnspecifiedMatching	ARMY CAMP	army camps	
+fish:schemes/eh_tmt2/concepts/86499	skos:broadMatch	aat:300117127	semapv:UnspecifiedMatching	ARTEFACT SCATTER	artifacts (object genre)	
+fish:schemes/eh_tmt2/concepts/70153	skos:broadMatch	aat:300000641	semapv:UnspecifiedMatching	AUGUSTINIAN MONASTERY	monasteries (built complexes)	
+fish:schemes/eh_tmt2/concepts/68923	skos:exactMatch	aat:300266040	semapv:UnspecifiedMatching	BAKEHOUSE	bakehouses	
+fish:schemes/eh_tmt2/concepts/69009	skos:exactMatch	aat:300006791	semapv:UnspecifiedMatching	BANDSTAND	bandstands	
+fish:schemes/eh_tmt2/concepts/68979	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	BANJO ENCLOSURE	corrals	
+fish:schemes/eh_tmt2/concepts/91126	skos:closeMatch	aat:300008020	semapv:UnspecifiedMatching	BANK (EARTHWORK)	earthworks (engineering works)	
+fish:schemes/eh_tmt2/concepts/68916	skos:closeMatch	aat:300005080	semapv:UnspecifiedMatching	Bar	city gates	
+fish:schemes/eh_tmt2/concepts/145080	skos:exactMatch	aat:300005158	semapv:UnspecifiedMatching	BAR (LICENCED)	bars (commercial buildings)	
+fish:schemes/eh_tmt2/concepts/97262	skos:broadMatch	aat:300011064	semapv:UnspecifiedMatching	BARBED WIRE OBSTRUCTION	barbed wire	
+fish:schemes/eh_tmt2/concepts/68547	skos:exactMatch	aat:300004900	semapv:UnspecifiedMatching	BARN	barns	
+fish:schemes/eh_tmt2/concepts/68821	skos:exactMatch	aat:300005665	semapv:UnspecifiedMatching	BARRACKS	barracks	
+fish:schemes/eh_tmt2/concepts/70000	skos:exactMatch	aat:300391494	semapv:UnspecifiedMatching	BARROW	barrows	
+fish:schemes/eh_tmt2/concepts/70054	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BARROW CEMETERY	barrows	
+fish:schemes/eh_tmt2/concepts/68678	skos:broadMatch	aat:300008059	semapv:UnspecifiedMatching	BASILICA	public buildings	
+fish:schemes/eh_tmt2/concepts/70433	skos:closeMatch	aat:300007353	semapv:UnspecifiedMatching	BATH HOUSE	public baths	
+fish:schemes/eh_tmt2/concepts/68712	skos:exactMatch	aat:300007353	semapv:UnspecifiedMatching	BATHS	public baths	
+fish:schemes/eh_tmt2/concepts/68824	skos:exactMatch	aat:300002501	semapv:UnspecifiedMatching	BATTERY	batteries (platforms)	
+fish:schemes/eh_tmt2/concepts/68758	skos:exactMatch	aat:300000835	semapv:UnspecifiedMatching	BATTLEFIELD	battlefields	
+fish:schemes/eh_tmt2/concepts/91156	skos:broadMatch	aat:300005588	semapv:UnspecifiedMatching	BEACH HUT	beach houses	
+fish:schemes/eh_tmt2/concepts/68827	skos:closeMatch	aat:300007739	semapv:UnspecifiedMatching	BEACON	beacons	
+fish:schemes/eh_tmt2/concepts/70018	skos:closeMatch	aat:300263485	semapv:UnspecifiedMatching	Beaker Burial	burials	
+fish:schemes/eh_tmt2/concepts/70310	skos:broadMatch	aat:300001497	semapv:UnspecifiedMatching	BEAM SLOT	beams (structural elements)	
+fish:schemes/eh_tmt2/concepts/146404	skos:exactMatch	aat:300004760	semapv:UnspecifiedMatching	BEER CELLAR	beer cellars	
+fish:schemes/eh_tmt2/concepts/69965	skos:exactMatch	aat:300137347	semapv:UnspecifiedMatching	Belfry	belfries (equipment spaces)	
+fish:schemes/eh_tmt2/concepts/70011	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BELL BARROW	barrows	
+fish:schemes/eh_tmt2/concepts/69103	skos:broadMatch	aat:300266773	semapv:UnspecifiedMatching	BELL PIT	foundries	
+fish:schemes/eh_tmt2/concepts/69591	skos:exactMatch	aat:300038494	semapv:UnspecifiedMatching	BENCH	benches (furniture)	
+fish:schemes/eh_tmt2/concepts/69180	skos:exactMatch	aat:300379639	semapv:UnspecifiedMatching	BLOOMERY	bloomeries	
+fish:schemes/eh_tmt2/concepts/127133	skos:closeMatch	aat:300387501	semapv:UnspecifiedMatching	BOAT SHED	boatyards	
+fish:schemes/eh_tmt2/concepts/125633	skos:broadMatch	aat:300000385	semapv:UnspecifiedMatching	BONE WORKING SITE	industrial complexes	
+fish:schemes/eh_tmt2/concepts/118873	skos:broadMatch	aat:300048803	semapv:UnspecifiedMatching	Boom Defence	coastal fortifications	
+fish:schemes/eh_tmt2/concepts/68924	skos:closeMatch	aat:300005677	semapv:UnspecifiedMatching	BOTHY	bothies	
+fish:schemes/eh_tmt2/concepts/70323	skos:exactMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY	boundaries	
+fish:schemes/eh_tmt2/concepts/70324	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY BANK	boundaries	
+fish:schemes/eh_tmt2/concepts/70326	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY DITCH	boundaries	
+fish:schemes/eh_tmt2/concepts/70332	skos:exactMatch	aat:300100558	semapv:UnspecifiedMatching	BOUNDARY WALL	boundary walls	
+fish:schemes/eh_tmt2/concepts/70012	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BOWL BARROW	barrows	
+fish:schemes/eh_tmt2/concepts/68829	skos:exactMatch	aat:300002487	semapv:UnspecifiedMatching	BREASTWORK	breastworks	
+fish:schemes/eh_tmt2/concepts/69053	skos:exactMatch	aat:300022989	semapv:UnspecifiedMatching	BRICK KILN	brick kilns	
+fish:schemes/eh_tmt2/concepts/69055	skos:exactMatch	aat:300006278	semapv:UnspecifiedMatching	BRICKWORKS	brickworks (factories)	
+fish:schemes/eh_tmt2/concepts/70214	skos:exactMatch	aat:300007836	semapv:UnspecifiedMatching	BRIDGE	bridges (built works)	
+fish:schemes/eh_tmt2/concepts/143003	skos:exactMatch	aat:300004863	semapv:UnspecifiedMatching	BROCH	brochs	
+fish:schemes/eh_tmt2/concepts/70336	skos:exactMatch	aat:300004792	semapv:UnspecifiedMatching	BUILDING	buildings (structures)	
+fish:schemes/eh_tmt2/concepts/70337	skos:broadMatch	aat:300132129	semapv:UnspecifiedMatching	BUILDING PLATFORM	platforms (floors)	
+fish:schemes/eh_tmt2/concepts/127993	skos:broadMatch	aat:300055399	semapv:UnspecifiedMatching	BURGAGE PLOT	land use	
+fish:schemes/eh_tmt2/concepts/68679	skos:broadMatch	aat:300387238	semapv:UnspecifiedMatching	BURH	fortified settlements	
+fish:schemes/eh_tmt2/concepts/70018	skos:exactMatch	aat:300263485	semapv:UnspecifiedMatching	BURIAL	burials	
+fish:schemes/eh_tmt2/concepts/70044	skos:exactMatch	aat:300006960	semapv:UnspecifiedMatching	BURIAL CAIRN	cairns	
+fish:schemes/eh_tmt2/concepts/70044	skos:exactMatch	aat:300005903	semapv:UnspecifiedMatching	Burial Mound	burial mounds	
+fish:schemes/eh_tmt2/concepts/70000	skos:exactMatch	aat:300005903	semapv:UnspecifiedMatching	Burial Mound	burial mounds	
+fish:schemes/eh_tmt2/concepts/70038	skos:closeMatch	aat:300387004	semapv:UnspecifiedMatching	BURIAL PIT	burial sites	
+fish:schemes/eh_tmt2/concepts/142968	skos:broadMatch	aat:300014330	semapv:UnspecifiedMatching	BURIED LAND SURFACE	soil	
+fish:schemes/eh_tmt2/concepts/140223	skos:broadMatch	aat:300014330	semapv:UnspecifiedMatching	BURIED SOIL HORIZON	soil	
+fish:schemes/eh_tmt2/concepts/68925	skos:exactMatch	aat:300375754	semapv:UnspecifiedMatching	BURNT MOUND	burnt mounds	
+fish:schemes/eh_tmt2/concepts/143179	skos:broadMatch	aat:300379670	semapv:UnspecifiedMatching	BUTCHERY SITE	butchering	
+fish:schemes/eh_tmt2/concepts/91656	skos:closeMatch	aat:300265627	semapv:UnspecifiedMatching	Byre	cow houses	
+fish:schemes/eh_tmt2/concepts/68781	skos:closeMatch	aat:300004342	semapv:UnspecifiedMatching	CAFE	cafeterias (eating and drinking spaces)	
+fish:schemes/eh_tmt2/concepts/68612	skos:exactMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRN	cairns	
+fish:schemes/eh_tmt2/concepts/70055	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRN CEMETERY	cairns	
+fish:schemes/eh_tmt2/concepts/68614	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRNFIELD	cairns	
+fish:schemes/eh_tmt2/concepts/159207	skos:exactMatch	aat:300000819	semapv:UnspecifiedMatching	CAMPSITE	camp sites (recreation spaces)	
+fish:schemes/eh_tmt2/concepts/70288	skos:exactMatch	aat:300006075	semapv:UnspecifiedMatching	CANAL	canals (waterways)	
+fish:schemes/eh_tmt2/concepts/70290	skos:broadMatch	aat:300006075	semapv:UnspecifiedMatching	CANAL BASIN	canals (waterways)	
+fish:schemes/eh_tmt2/concepts/70215	skos:broadMatch	aat:300007836	semapv:UnspecifiedMatching	CANAL BRIDGE	bridges (built works)	
+fish:schemes/eh_tmt2/concepts/71379	skos:exactMatch	aat:300312219	semapv:UnspecifiedMatching	CANTEEN	canteens (eating and recreation spaces)	
+fish:schemes/eh_tmt2/concepts/143165	skos:closeMatch	aat:300000534	semapv:UnspecifiedMatching	CARAVAN PARK	trailer camps	
+fish:schemes/eh_tmt2/concepts/70347	skos:broadMatch	aat:300047203	semapv:UnspecifiedMatching	CARVED STONE	carvings (visual works)	
+fish:schemes/eh_tmt2/concepts/70347	skos:broadMatch	aat:300047203	semapv:UnspecifiedMatching	CARVED STONE	carvings (visual works)	
+fish:schemes/eh_tmt2/concepts/70348	skos:exactMatch	aat:300047203	semapv:UnspecifiedMatching	CARVING	carvings (visual works)	
+fish:schemes/10/concepts/68833	skos:exactMatch	aat:300006891	semapv:UnspecifiedMatching	CASTLE	castles (fortifications)	
+fish:schemes/eh_tmt2/concepts/68833	skos:exactMatch	aat:300006891	semapv:UnspecifiedMatching	CASTLE	castles (fortifications)	
+fish:schemes/eh_tmt2/concepts/69975	skos:exactMatch	aat:300007501	semapv:UnspecifiedMatching	CATHEDRAL	cathedrals (buildings)	
+fish:schemes/eh_tmt2/concepts/69977	skos:closeMatch	aat:300387001	semapv:UnspecifiedMatching	CATHEDRAL PRECINCT	holy precincts	
+fish:schemes/eh_tmt2/concepts/70272	skos:exactMatch	aat:300008231	semapv:UnspecifiedMatching	CAUSEWAY	causeways	
+fish:schemes/eh_tmt2/concepts/69978	skos:broadMatch	aat:300263489	semapv:UnspecifiedMatching	CAUSEWAYED ENCLOSURE	ceremonial structures	
+fish:schemes/eh_tmt2/concepts/70384	skos:exactMatch	aat:300008746	semapv:UnspecifiedMatching	CAVE	caves	
+fish:schemes/eh_tmt2/concepts/70384	skos:closeMatch	aat:300048808	semapv:UnspecifiedMatching	Cave Site	cave dwellings	
+fish:schemes/eh_tmt2/concepts/70341	skos:exactMatch	aat:300004759	semapv:UnspecifiedMatching	CELLAR	cellars (storerooms)	
+fish:schemes/eh_tmt2/concepts/70053	skos:exactMatch	aat:300266755	semapv:UnspecifiedMatching	CEMETERY	cemeteries	
+fish:schemes/eh_tmt2/concepts/68759	skos:exactMatch	aat:300007027	semapv:UnspecifiedMatching	CENOTAPH	cenotaphs	
+fish:schemes/eh_tmt2/concepts/68760	skos:broadMatch	aat:300006961	semapv:UnspecifiedMatching	CENTURIAL STONE	markers (monuments)	
+fish:schemes/eh_tmt2/concepts/70434	skos:closeMatch	aat:300052556	semapv:UnspecifiedMatching	CESS PIT	cesspools	
+fish:schemes/eh_tmt2/concepts/69058	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	CHALK PIT	quarries (extracting complexes)	
+fish:schemes/eh_tmt2/concepts/70045	skos:broadMatch	aat:300005935	semapv:UnspecifiedMatching	CHAMBERED CAIRN	chamber tombs	
+fish:schemes/eh_tmt2/concepts/70064	skos:closeMatch	aat:300005935	semapv:UnspecifiedMatching	CHAMBERED TOMB	chamber tombs	
+fish:schemes/eh_tmt2/concepts/69967	skos:exactMatch	aat:300004590	semapv:UnspecifiedMatching	CHAPEL	chapels (rooms or structures)	
+fish:schemes/eh_tmt2/concepts/69974	skos:exactMatch	aat:300007418	semapv:UnspecifiedMatching	CHAPTER HOUSE	chapter houses	
+fish:schemes/eh_tmt2/concepts/91432	skos:broadMatch	aat:300164121	semapv:UnspecifiedMatching	CHARCOAL PRODUCTION SITE	processing plants	
+fish:schemes/eh_tmt2/concepts/70026	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	Chariot Burial	burials	
+fish:schemes/eh_tmt2/concepts/69980	skos:relatedMatch	aat:300007466	semapv:UnspecifiedMatching	CHURCH	churches (buildings)	
+fish:schemes/eh_tmt2/concepts/70061	skos:exactMatch	aat:300008170	semapv:UnspecifiedMatching	CHURCHYARD	churchyards	
+fish:schemes/eh_tmt2/concepts/70029	skos:closeMatch	aat:300124808	semapv:UnspecifiedMatching	CINERARY URN	cremation urns	
+fish:schemes/eh_tmt2/concepts/70356	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	CIRCULAR ENCLOSURE	corrals	
+fish:schemes/eh_tmt2/concepts/70071	skos:exactMatch	aat:300005941	semapv:UnspecifiedMatching	CIST	cist graves	
+fish:schemes/eh_tmt2/concepts/70062	skos:closeMatch	aat:300005941	semapv:UnspecifiedMatching	CIST GRAVE CEMETERY	cist graves	
+fish:schemes/eh_tmt2/concepts/70435	skos:exactMatch	aat:300052558	semapv:UnspecifiedMatching	CISTERN	cisterns (plumbing components)	
+fish:schemes/eh_tmt2/concepts/68915	skos:broadMatch	aat:300005072	semapv:UnspecifiedMatching	City Defences	city walls	
+fish:schemes/eh_tmt2/concepts/91489	skos:exactMatch	aat:300000701	semapv:UnspecifiedMatching	CIVIC CENTRE	civic centres	
+fish:schemes/eh_tmt2/concepts/68675	skos:closeMatch	aat:300008059	semapv:UnspecifiedMatching	CIVIL	public buildings	
+fish:schemes/eh_tmt2/concepts/91495	skos:broadMatch	aat:300000390	semapv:UnspecifiedMatching	CLAY EXTRACTION SITE	mines (extracting complexes)	
+fish:schemes/eh_tmt2/concepts/69086	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	CLAY PIPE KILN	kilns	
+fish:schemes/eh_tmt2/concepts/68613	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CLEARANCE CAIRN	cairns	
+fish:schemes/eh_tmt2/concepts/70342	skos:exactMatch	aat:300007423	semapv:UnspecifiedMatching	CLOISTER	cloisters	
+fish:schemes/eh_tmt2/concepts/70129	skos:broadMatch	aat:300004026	semapv:UnspecifiedMatching	CLUNIAC CELL	cells (interior spaces)	
+fish:schemes/eh_tmt2/concepts/70158	skos:broadMatch	aat:300000641	semapv:UnspecifiedMatching	CLUNIAC MONASTERY	monasteries (built complexes)	
+fish:schemes/eh_tmt2/concepts/70177	skos:broadMatch	aat:300000645	semapv:UnspecifiedMatching	Cluniac Priory	priories	
+fish:schemes/eh_tmt2/concepts/91536	skos:closeMatch	aat:300000396	semapv:UnspecifiedMatching	COAL MINING SITE	coal mines	
+fish:schemes/eh_tmt2/concepts/69104	skos:closeMatch	aat:300380157	semapv:UnspecifiedMatching	COAL WORKINGS	colliers	
+fish:schemes/eh_tmt2/concepts/71817	skos:broadMatch	aat:300048803	semapv:UnspecifiedMatching	COASTAL BATTERY	coastal fortifications	
+fish:schemes/eh_tmt2/concepts/87145	skos:broadMatch	aat:300065054	semapv:UnspecifiedMatching	Coastal Battery Observation Post	observation decks	
+fish:schemes/eh_tmt2/concepts/94351	skos:closeMatch	aat:300048803	semapv:UnspecifiedMatching	COASTAL DEFENCE SITE	coastal fortifications	
+fish:schemes/eh_tmt2/concepts/68880	skos:closeMatch	aat:300006894	semapv:UnspecifiedMatching	Coastal Fort	fortresses	
+fish:schemes/eh_tmt2/concepts/91548	skos:closeMatch	aat:300007831	semapv:UnspecifiedMatching	COASTGUARD TOWER	coastguard stations	
+fish:schemes/eh_tmt2/concepts/78156	skos:broadMatch	aat:300053677	semapv:UnspecifiedMatching	Cobbled Surface	paving	
+fish:schemes/eh_tmt2/concepts/70074	skos:exactMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN	coffins	
+fish:schemes/eh_tmt2/concepts/69985	skos:broadMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN STONE	coffins	
+fish:schemes/eh_tmt2/concepts/68695	skos:exactMatch	aat:300312285	semapv:UnspecifiedMatching	COLLEGE	colleges (institutions)	
+fish:schemes/eh_tmt2/concepts/70720	skos:exactMatch	aat:300266759	semapv:UnspecifiedMatching	COLLIERY	collieries	
+fish:schemes/eh_tmt2/concepts/70311	skos:closeMatch	aat:300001571	semapv:UnspecifiedMatching	COLUMN	columns (architectural elements)	
+fish:schemes/eh_tmt2/concepts/68757	skos:closeMatch	aat:300006956	semapv:UnspecifiedMatching	COMMEMORATIVE	memorials (structures)	
+fish:schemes/eh_tmt2/concepts/68765	skos:exactMatch	aat:300006956	semapv:UnspecifiedMatching	COMMEMORATIVE MONUMENT	memorials (structures)	
+fish:schemes/eh_tmt2/concepts/68777	skos:closeMatch	aat:300132652	semapv:UnspecifiedMatching	COMMERCIAL	commercial complexes	
+fish:schemes/eh_tmt2/concepts/68615	skos:exactMatch	aat:300008666	semapv:UnspecifiedMatching	Common	common land (cultural landscape)	
+fish:schemes/eh_tmt2/concepts/71344	skos:closeMatch	aat:300122187	semapv:UnspecifiedMatching	COMMUNICATIONS	communications structures	
+fish:schemes/eh_tmt2/concepts/91593	skos:exactMatch	aat:300008144	semapv:UnspecifiedMatching	COMMUNITY GARDEN	community gardens	
+fish:schemes/eh_tmt2/concepts/91618	skos:closeMatch	aat:300375754	semapv:UnspecifiedMatching	COOKING PIT	burnt mounds	
+fish:schemes/eh_tmt2/concepts/69271	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Copper Smelting Works	smelters (metalworking plants)	
+fish:schemes/eh_tmt2/concepts/69219	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	COPPER WORKING SITE	smelters (metalworking plants)	
+fish:schemes/eh_tmt2/concepts/70741	skos:broadMatch	aat:300132451	semapv:UnspecifiedMatching	COPPICE	woods (plant communities)	
+fish:schemes/eh_tmt2/concepts/70741	skos:broadMatch	aat:300132451	semapv:UnspecifiedMatching	Copse	woods (plant communities)	
+fish:schemes/eh_tmt2/concepts/68580	skos:closeMatch	aat:300209521	semapv:UnspecifiedMatching	Corn Drier	corn dryers	
+fish:schemes/eh_tmt2/concepts/68579	skos:closeMatch	aat:300209521	semapv:UnspecifiedMatching	CORN DRYING KILN	corn dryers	
+fish:schemes/eh_tmt2/concepts/68580	skos:closeMatch	aat:300003650	semapv:UnspecifiedMatching	CORN DRYING OVEN	ovens (baking equipment)	
+fish:schemes/eh_tmt2/concepts/71509	skos:closeMatch	aat:300000323	semapv:UnspecifiedMatching	COUNCIL HOUSE	public housing	
+fish:schemes/eh_tmt2/concepts/70430	skos:exactMatch	aat:300004095	semapv:UnspecifiedMatching	COURTYARD	courtyards	
+fish:schemes/eh_tmt2/concepts/78149	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	COVE	megalithic monuments	
+fish:schemes/eh_tmt2/concepts/91656	skos:exactMatch	aat:300265627	semapv:UnspecifiedMatching	COW HOUSE	cow houses	
+fish:schemes/eh_tmt2/concepts/91658	skos:broadMatch	aat:300000816	semapv:UnspecifiedMatching	CRAFT INDUSTRY SITE	industrial sites	
+fish:schemes/eh_tmt2/concepts/70028	skos:closeMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION	cremations	
+fish:schemes/eh_tmt2/concepts/142070	skos:closeMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION BURIAL	cremations	
+fish:schemes/eh_tmt2/concepts/70056	skos:closeMatch	aat:300005871	semapv:UnspecifiedMatching	CREMATION CEMETERY	crematoria	
+fish:schemes/eh_tmt2/concepts/70040	skos:broadMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION PIT	cremations	
+fish:schemes/eh_tmt2/concepts/68617	skos:closeMatch	aat:300000211	semapv:UnspecifiedMatching	CROFT	small holdings	
+fish:schemes/eh_tmt2/concepts/70412	skos:closeMatch	aat:300248611	semapv:UnspecifiedMatching	Crop Mark	crop marks	
+fish:schemes/eh_tmt2/concepts/91673	skos:broadMatch	aat:300005433	semapv:UnspecifiedMatching	CROSS PASSAGE HOUSE	houses	
+fish:schemes/eh_tmt2/concepts/70082	skos:closeMatch	aat:300391173	semapv:UnspecifiedMatching	CROSS SLAB	grave crosses	
+fish:schemes/eh_tmt2/concepts/70033	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	CROUCHED INHUMATION	burials	
+fish:schemes/eh_tmt2/concepts/91680	skos:closeMatch	aat:300001846	semapv:UnspecifiedMatching	CRUCK HOUSE	crucks	
+fish:schemes/eh_tmt2/concepts/70079	skos:closeMatch	aat:300004618	semapv:UnspecifiedMatching	CRYPT	crypts	
+fish:schemes/eh_tmt2/concepts/68618	skos:broadMatch	aat:300132443	semapv:UnspecifiedMatching	CULTIVATION MARKS	cropland	
+fish:schemes/eh_tmt2/concepts/70439	skos:exactMatch	aat:300006116	semapv:UnspecifiedMatching	CULVERT	culverts	
+fish:schemes/eh_tmt2/concepts/69995	skos:broadMatch	aat:300080131	semapv:UnspecifiedMatching	CUP AND RING MARKED STONE	rock carvings	
+fish:schemes/eh_tmt2/concepts/69996	skos:broadMatch	aat:300080131	semapv:UnspecifiedMatching	CUP MARKED STONE	rock carvings	
+fish:schemes/eh_tmt2/concepts/69997	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	CURSUS	megalithic monuments	
+fish:schemes/eh_tmt2/concepts/71391	skos:exactMatch	aat:300002504	semapv:UnspecifiedMatching	CURTAIN WALL	curtain walls (fortification elements)	
+fish:schemes/eh_tmt2/concepts/70355	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	CURVILINEAR ENCLOSURE	agricultural settlements	
+fish:schemes/eh_tmt2/concepts/68557	skos:closeMatch	aat:300083012	semapv:UnspecifiedMatching	DAIRY	dairies (non- mechanized)	
+fish:schemes/eh_tmt2/concepts/70440	skos:exactMatch	aat:300006084	semapv:UnspecifiedMatching	DAM	dams (hydraulic structures)	
+fish:schemes/eh_tmt2/concepts/68589	skos:closeMatch	aat:300254248	semapv:UnspecifiedMatching	DEER PARK	parks (grounds)	
+fish:schemes/eh_tmt2/concepts/68808	skos:closeMatch	aat:300386994	semapv:UnspecifiedMatching	DEFENCE	defense installations	
+fish:schemes/eh_tmt2/concepts/97280	skos:closeMatch	aat:300167671	semapv:UnspecifiedMatching	DESERTED SETTLEMENT	deserted settlements	
+fish:schemes/eh_tmt2/concepts/70351	skos:exactMatch	aat:300006178	semapv:UnspecifiedMatching	DITCH	ditches	
+fish:schemes/eh_tmt2/concepts/70361	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	DITCHED ENCLOSURE	agricultural settlements	
+fish:schemes/eh_tmt2/concepts/91736	skos:broadMatch	aat:300120801	semapv:UnspecifiedMatching	DOCK AND HARBOUR INSTALLATION	docks	
+fish:schemes/eh_tmt2/concepts/68921	skos:broadMatch	aat:300257729	semapv:UnspecifiedMatching	DOMESTIC	residential structures	
+fish:schemes/10/concepts/68921	skos:broadMatch	aat:300257729	semapv:UnspecifiedMatching	DOMESTIC	residential structures	
+fish:schemes/eh_tmt2/concepts/143471	skos:broadMatch	aat:300005425	semapv:UnspecifiedMatching	DOMESTIC SITE	dwellings	
+fish:schemes/eh_tmt2/concepts/129049	skos:closeMatch	aat:300004531	semapv:UnspecifiedMatching	DOMESTIC WORKSHOP	workshops (work spaces)	
+fish:schemes/eh_tmt2/concepts/71617	skos:closeMatch	aat:300005668	semapv:UnspecifiedMatching	DORMITORY	dormitories (buildings)	
+fish:schemes/eh_tmt2/concepts/70362	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	DOUBLE DITCHED ENCLOSURE	agricultural settlements	
+fish:schemes/eh_tmt2/concepts/68558	skos:exactMatch	aat:300004975	semapv:UnspecifiedMatching	DOVECOTE	dovecotes	
+fish:schemes/eh_tmt2/concepts/70441	skos:exactMatch	aat:300052564	semapv:UnspecifiedMatching	DRAIN	drains	
+fish:schemes/eh_tmt2/concepts/70442	skos:closeMatch	aat:300008620	semapv:UnspecifiedMatching	DRAINAGE DITCH	drainage systems	
+fish:schemes/eh_tmt2/concepts/70443	skos:exactMatch	aat:300008620	semapv:UnspecifiedMatching	DRAINAGE SYSTEM	drainage systems	
+fish:schemes/eh_tmt2/concepts/71827	skos:broadMatch	aat:300003650	semapv:UnspecifiedMatching	Drying Oven	ovens (baking equipment)	
+fish:schemes/eh_tmt2/concepts/70815	skos:exactMatch	aat:300005425	semapv:UnspecifiedMatching	DWELLING	dwellings	
+fish:schemes/eh_tmt2/concepts/91817	skos:broadMatch	aat:300002485	semapv:UnspecifiedMatching	DYKE (DEFENCE)	defensive walls	
+fish:schemes/eh_tmt2/concepts/70352	skos:exactMatch	aat:300008020	semapv:UnspecifiedMatching	EARTHWORK	earthworks (engineering works)	
+fish:schemes/eh_tmt2/concepts/91825	skos:broadMatch	aat:300005147	semapv:UnspecifiedMatching	EATING AND DRINKING ESTABLISHMENT	commercial buildings	
+fish:schemes/eh_tmt2/concepts/68693	skos:broadMatch	aat:300264742	semapv:UnspecifiedMatching	EDUCATION	educational centres (buildings)	
+fish:schemes/eh_tmt2/concepts/68803	skos:closeMatch	aat:300005283	semapv:UnspecifiedMatching	Emporium	shops (stores)	
+fish:schemes/eh_tmt2/concepts/68981	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	ENCLOSED HUT CIRCLE SETTLEMENT	huts (houses)	
+fish:schemes/eh_tmt2/concepts/68745	skos:closeMatch	aat:300008396	semapv:UnspecifiedMatching	ENCLOSED OPPIDUM	oppida	
+fish:schemes/eh_tmt2/concepts/68854	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	ENCLOSED SETTLEMENT	agricultural settlements	
+fish:schemes/eh_tmt2/concepts/70354	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	ENCLOSURE	agricultural settlements	
+fish:schemes/eh_tmt2/concepts/69362	skos:broadMatch	aat:300006366	semapv:UnspecifiedMatching	ENGINE HOUSE	powerhouses	
+fish:schemes/eh_tmt2/concepts/70237	skos:broadMatch	aat:300120696	semapv:UnspecifiedMatching	ENGINE SHED	railway buildings	
+fish:schemes/eh_tmt2/concepts/70065	skos:closeMatch	aat:300005935	semapv:UnspecifiedMatching	ENTRANCE GRAVE	chamber tombs	
+fish:schemes/eh_tmt2/concepts/91867	skos:closeMatch	aat:300005567	semapv:UnspecifiedMatching	ESTATE BUILDING	country houses	
+fish:schemes/eh_tmt2/concepts/69101	skos:broadMatch	aat:300000390	semapv:UnspecifiedMatching	EXTRACTIVE PIT	mines (extracting complexes)	
+fish:schemes/eh_tmt2/concepts/91904	skos:closeMatch	aat:300007733	semapv:UnspecifiedMatching	FACTORY UNIT	workshop buildings	
+fish:schemes/eh_tmt2/concepts/100198	skos:exactMatch	aat:300007313	semapv:UnspecifiedMatching	FAIRGROUND RIDE	amusement rides	
+fish:schemes/eh_tmt2/concepts/68621	skos:exactMatch	aat:300000206	semapv:UnspecifiedMatching	FARM	farms	
+fish:schemes/eh_tmt2/concepts/70851	skos:closeMatch	aat:300004898	semapv:UnspecifiedMatching	FARM BUILDING	agricultural buildings	
+fish:schemes/eh_tmt2/concepts/68560	skos:exactMatch	aat:300005574	semapv:UnspecifiedMatching	FARMHOUSE	farmhouses	
+fish:schemes/eh_tmt2/concepts/68622	skos:broadMatch	aat:300000206	semapv:UnspecifiedMatching	FARMSTEAD	farms	
+fish:schemes/eh_tmt2/concepts/68582	skos:exactMatch	aat:300000226	semapv:UnspecifiedMatching	FARMYARD	farmyards	
+fish:schemes/eh_tmt2/concepts/78156	skos:broadMatch	aat:300387105	semapv:UnspecifiedMatching	FEATURE	physical features	
+fish:schemes/eh_tmt2/concepts/70333	skos:exactMatch	aat:300005044	semapv:UnspecifiedMatching	FENCE	fences (site elements)	
+fish:schemes/eh_tmt2/concepts/91922	skos:exactMatch	aat:300259220	semapv:UnspecifiedMatching	FERNERY (GLASSHOUSE)	ferneries (greenhouses)	
+fish:schemes/eh_tmt2/concepts/68623	skos:closeMatch	aat:300343519	semapv:UnspecifiedMatching	FIELD	fields (land)	
+fish:schemes/eh_tmt2/concepts/68625	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	FIELD BOUNDARY	boundaries	
+fish:schemes/eh_tmt2/concepts/91930	skos:closeMatch	aat:300052564	semapv:UnspecifiedMatching	FIELD DRAIN	drains	
+fish:schemes/eh_tmt2/concepts/91930	skos:closeMatch	aat:300052564	semapv:UnspecifiedMatching	FIELD DRAIN	drains	
+fish:schemes/eh_tmt2/concepts/68633	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	FIELD SYSTEM	agricultural land	
+fish:schemes/eh_tmt2/concepts/68633	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	FIELD SYSTEM	agricultural land	
+fish:schemes/eh_tmt2/concepts/68866	skos:closeMatch	aat:300006951	semapv:UnspecifiedMatching	FIELDWORK	field fortifications	
+fish:schemes/1/concepts/1535	skos:broadMatch	aat:300000810	semapv:UnspecifiedMatching	FINDSPOT	archaeological sites	
+fish:schemes/eh_tmt2/concepts/151890	skos:exactMatch	aat:300375112	semapv:UnspecifiedMatching	FIRE PIT	firepits	
+fish:schemes/eh_tmt2/concepts/71726	skos:closeMatch	aat:300000228	semapv:UnspecifiedMatching	FISH FARM	fish hatcheries	
+fish:schemes/eh_tmt2/concepts/69127	skos:closeMatch	aat:300006348	semapv:UnspecifiedMatching	FISH PROCESSING SITE	fisheries	
+fish:schemes/eh_tmt2/concepts/68595	skos:broadMatch	aat:300247420	semapv:UnspecifiedMatching	FISH TRAP	traps (trapping equipment)	
+fish:schemes/eh_tmt2/concepts/68596	skos:broadMatch	aat:300387251	semapv:UnspecifiedMatching	FISH WEIR	fishing spots (sites)	
+fish:schemes/eh_tmt2/concepts/91955	skos:broadMatch	aat:300387251	semapv:UnspecifiedMatching	FISHING SITE	fishing spots (sites)	
+fish:schemes/eh_tmt2/concepts/68600	skos:exactMatch	aat:300008689	semapv:UnspecifiedMatching	FISHPOND	fishponds	
+fish:schemes/eh_tmt2/concepts/70035	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	FLEXED INHUMATION	burials	
+fish:schemes/eh_tmt2/concepts/70369	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	FLINT SCATTER	lithics	
+fish:schemes/eh_tmt2/concepts/70313	skos:exactMatch	aat:300002060	semapv:UnspecifiedMatching	FLOOR	floors (surface elements)	
+fish:schemes/eh_tmt2/concepts/82817	skos:exactMatch	aat:300008135	semapv:UnspecifiedMatching	FLOWER GARDEN	flower gardens	
+fish:schemes/eh_tmt2/concepts/68996	skos:exactMatch	aat:300005660	semapv:UnspecifiedMatching	FOGOU	fogous	
+fish:schemes/eh_tmt2/concepts/69013	skos:exactMatch	aat:300006795	semapv:UnspecifiedMatching	FOLLY	follies (architectural)	
+fish:schemes/eh_tmt2/concepts/91991	skos:broadMatch	aat:300006335	semapv:UnspecifiedMatching	FOOD AND DRINK INDUSTRY SITE	food processing plants	
+fish:schemes/eh_tmt2/concepts/91995	skos:broadMatch	aat:300006335	semapv:UnspecifiedMatching	FOOD PRESERVING SITE	food processing plants	
+fish:schemes/eh_tmt2/concepts/143482	skos:closeMatch	aat:300008863	semapv:UnspecifiedMatching	FOREST	forests (cultural landscapes)	
+fish:schemes/eh_tmt2/concepts/69017	skos:exactMatch	aat:300008092	semapv:UnspecifiedMatching	FORMAL GARDEN	formal gardens	
+fish:schemes/eh_tmt2/concepts/68868	skos:exactMatch	aat:300006909	semapv:UnspecifiedMatching	FORT	forts	
+fish:schemes/eh_tmt2/concepts/68874	skos:exactMatch	aat:300006888	semapv:UnspecifiedMatching	FORTIFICATION	fortifications	
+fish:schemes/eh_tmt2/concepts/147241	skos:closeMatch	aat:300387238	semapv:UnspecifiedMatching	FORTIFIED BUILDING	fortified settlements	
+fish:schemes/eh_tmt2/concepts/68875	skos:closeMatch	aat:300005546	semapv:UnspecifiedMatching	FORTIFIED HOUSE	bastle houses	
+fish:schemes/eh_tmt2/concepts/68880	skos:exactMatch	aat:300006894	semapv:UnspecifiedMatching	FORTRESS	fortresses	
+fish:schemes/eh_tmt2/concepts/68705	skos:exactMatch	aat:300008085	semapv:UnspecifiedMatching	FORUM	forums (open spaces)	
+fish:schemes/eh_tmt2/concepts/70336	skos:closeMatch	aat:300000919	semapv:UnspecifiedMatching	Foundation	foundations (structural elements)	
+fish:schemes/eh_tmt2/concepts/69014	skos:exactMatch	aat:300006179	semapv:UnspecifiedMatching	FOUNTAIN	fountains	
+fish:schemes/eh_tmt2/concepts/68882	skos:broadMatch	aat:300387507	semapv:UnspecifiedMatching	FRONTIER DEFENCE	frontiers	
+fish:schemes/eh_tmt2/concepts/69999	skos:closeMatch	aat:300387004	semapv:UnspecifiedMatching	FUNERARY SITE	burial sites	
+fish:schemes/eh_tmt2/concepts/69175	skos:exactMatch	aat:300024650	semapv:UnspecifiedMatching	FURNACE	furnaces (heating components)	
+fish:schemes/eh_tmt2/concepts/92062	skos:broadMatch	aat:300007206	semapv:UnspecifiedMatching	GAMBLING SITE	entertainment buildings	
+fish:schemes/eh_tmt2/concepts/68641	skos:exactMatch	aat:300008090	semapv:UnspecifiedMatching	GARDEN	gardens (open spaces)	
+fish:schemes/eh_tmt2/concepts/99961	skos:broadMatch	aat:300008187	semapv:UnspecifiedMatching	GARDENS PARKS AND URBAN SPACES	parks (recreation areas)	
+fish:schemes/eh_tmt2/concepts/68971	skos:closeMatch	aat:300005621	semapv:UnspecifiedMatching	GATE LODGE	gatehouses	
+fish:schemes/eh_tmt2/concepts/70372	skos:exactMatch	aat:300005621	semapv:UnspecifiedMatching	GATEHOUSE	gatehouses	
+fish:schemes/eh_tmt2/concepts/70386	skos:broadMatch	aat:300387100	semapv:UnspecifiedMatching	GEOLOGICAL MARKS	geological formations	
+fish:schemes/eh_tmt2/concepts/69090	skos:broadMatch	aat:300053929	semapv:UnspecifiedMatching	GLASS WORKING SITE	glassworking	
+fish:schemes/eh_tmt2/concepts/70238	skos:broadMatch	aat:300006411	semapv:UnspecifiedMatching	GOODS SHED	sheds (storage structures)	
+fish:schemes/eh_tmt2/concepts/70373	skos:exactMatch	aat:300015613	semapv:UnspecifiedMatching	GRAFFITI	graffiti	
+fish:schemes/eh_tmt2/concepts/70080	skos:exactMatch	aat:300005907	semapv:UnspecifiedMatching	GRAVE	graves	
+fish:schemes/eh_tmt2/concepts/152525	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	GRAVE LINING	graves	
+fish:schemes/eh_tmt2/concepts/103572	skos:exactMatch	aat:300005923	semapv:UnspecifiedMatching	GRAVE MARKER	tombstones (sepulchral monuments)	
+fish:schemes/eh_tmt2/concepts/70081	skos:closeMatch	aat:300005923	semapv:UnspecifiedMatching	GRAVE SLAB	tombstones (sepulchral monuments)	
+fish:schemes/eh_tmt2/concepts/69062	skos:exactMatch	aat:300000389	semapv:UnspecifiedMatching	GRAVEL PIT	gravel pits	
+fish:schemes/eh_tmt2/concepts/68946	skos:closeMatch	aat:300005567	semapv:UnspecifiedMatching	GREAT HOUSE	country houses	
+fish:schemes/eh_tmt2/concepts/68927	skos:exactMatch	aat:300137527	semapv:UnspecifiedMatching	GRUBENHAUS	sunken huts	
+fish:schemes/eh_tmt2/concepts/68885	skos:exactMatch	aat:300006941	semapv:UnspecifiedMatching	GUARDHOUSE	guardhouses	
+fish:schemes/eh_tmt2/concepts/71658	skos:broadMatch	aat:300004590	semapv:UnspecifiedMatching	GUILD CHAPEL	chapels (rooms or structures)	
+fish:schemes/eh_tmt2/concepts/70935	skos:exactMatch	aat:300008769	semapv:UnspecifiedMatching	GULLY	gullies	
+fish:schemes/eh_tmt2/concepts/68886	skos:closeMatch	aat:300002501	semapv:UnspecifiedMatching	GUN EMPLACEMENT	batteries (platforms)	
+fish:schemes/eh_tmt2/concepts/68977	skos:closeMatch	aat:300008347	semapv:UnspecifiedMatching	Habitation Site	inhabited places	
+fish:schemes/eh_tmt2/concepts/87136	skos:exactMatch	aat:300004420	semapv:UnspecifiedMatching	Hall	halls (interior spaces)	
+fish:schemes/eh_tmt2/concepts/68985	skos:exactMatch	aat:300008369	semapv:UnspecifiedMatching	HAMLET	hamlets	
+fish:schemes/eh_tmt2/concepts/69456	skos:exactMatch	aat:300008678	semapv:UnspecifiedMatching	HARBOUR	harbours	
+fish:schemes/eh_tmt2/concepts/92203	skos:broadMatch	aat:300001987	semapv:UnspecifiedMatching	HARD STANDING	surface elements (architectural)	
+fish:schemes/eh_tmt2/concepts/68707	skos:closeMatch	aat:300006653	semapv:UnspecifiedMatching	HEALTH AND WELFARE	health facilities	
+fish:schemes/eh_tmt2/concepts/68707	skos:closeMatch	aat:300006742	semapv:UnspecifiedMatching	HEALTH AND WELFARE	welfare buildings	
+fish:schemes/eh_tmt2/concepts/70374	skos:closeMatch	aat:300003990	semapv:UnspecifiedMatching	HEARTH	hearths	
+fish:schemes/eh_tmt2/concepts/70334	skos:exactMatch	aat:300266413	semapv:UnspecifiedMatching	HEDGE	hedges	
+fish:schemes/eh_tmt2/concepts/133453	skos:broadMatch	aat:300008023	semapv:UnspecifiedMatching	HEDGE BANK	embankments	
+fish:schemes/eh_tmt2/concepts/70096	skos:exactMatch	aat:300120486	semapv:UnspecifiedMatching	HENGE	henges	
+fish:schemes/eh_tmt2/concepts/70097	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	HENGE ENCLOSURE	megalithic monuments	
+fish:schemes/eh_tmt2/concepts/70098	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	HENGIFORM MONUMENT	megalithic monuments	
+fish:schemes/eh_tmt2/concepts/70099	skos:exactMatch	aat:300000640	semapv:UnspecifiedMatching	HERMITAGE (RELIGIOUS)	hermitages	
+fish:schemes/eh_tmt2/concepts/68855	skos:exactMatch	aat:300006911	semapv:UnspecifiedMatching	HILLFORT	hillforts	
+fish:schemes/eh_tmt2/concepts/94405	skos:closeMatch	aat:300266136	semapv:UnspecifiedMatching	HINDU TEMPLE	Hindu temple spaces	
+fish:schemes/eh_tmt2/concepts/92250	skos:closeMatch	aat:300000517	semapv:UnspecifiedMatching	HOLIDAY CENTRE	camps (recreation areas)	
+fish:schemes/eh_tmt2/concepts/70376	skos:broadMatch	aat:300163023	semapv:UnspecifiedMatching	HOLLOW	hollow (form attribute)	
+fish:schemes/eh_tmt2/concepts/70267	skos:broadMatch	aat:300008321	semapv:UnspecifiedMatching	HOLLOW WAY	paths	
+fish:schemes/eh_tmt2/concepts/70203	skos:exactMatch	aat:300007638	semapv:UnspecifiedMatching	HOLY WELL	holy wells	
+fish:schemes/eh_tmt2/concepts/142092	skos:broadMatch	aat:300006887	semapv:UnspecifiedMatching	HOME GUARD HEADQUARTERS	military buildings	
+fish:schemes/eh_tmt2/concepts/141940	skos:broadMatch	aat:300006941	semapv:UnspecifiedMatching	HOME GUARD SHELTER	guardhouses	
+fish:schemes/eh_tmt2/concepts/141944	skos:broadMatch	aat:300006887	semapv:UnspecifiedMatching	HOME GUARD STORE	military buildings	
+fish:schemes/eh_tmt2/concepts/70833	skos:closeMatch	aat:300000291	semapv:UnspecifiedMatching	HOMESTEAD	homesteads	
+fish:schemes/eh_tmt2/concepts/68716	skos:exactMatch	aat:300006676	semapv:UnspecifiedMatching	HOSPITAL	hospitals (buildings for health facility)	
+fish:schemes/eh_tmt2/concepts/68928	skos:exactMatch	aat:300005433	semapv:UnspecifiedMatching	HOUSE	houses	
+fish:schemes/eh_tmt2/concepts/68951	skos:broadMatch	aat:300132129	semapv:UnspecifiedMatching	HOUSE PLATFORM	platforms (floors)	
+fish:schemes/eh_tmt2/concepts/69614	skos:exactMatch	aat:300379896	semapv:UnspecifiedMatching	HUMAN REMAINS	human remains	
+fish:schemes/eh_tmt2/concepts/68602	skos:closeMatch	aat:300007177	semapv:UnspecifiedMatching	HUNTING LODGE	hunting lodges	
+fish:schemes/eh_tmt2/concepts/68961	skos:exactMatch	aat:300004824	semapv:UnspecifiedMatching	HUT	huts (houses)	
+fish:schemes/eh_tmt2/concepts/68964	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	HUT CIRCLE	huts (houses)	
+fish:schemes/eh_tmt2/concepts/68986	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	HUT CIRCLE SETTLEMENT	huts (houses)	
+fish:schemes/eh_tmt2/concepts/68967	skos:exactMatch	aat:300004277	semapv:UnspecifiedMatching	HYPOCAUST	hypocausts	
+fish:schemes/eh_tmt2/concepts/69047	skos:closeMatch	aat:300000385	semapv:UnspecifiedMatching	INDUSTRIAL	industrial complexes	
+fish:schemes/eh_tmt2/concepts/69199	skos:closeMatch	aat:300006231	semapv:UnspecifiedMatching	INDUSTRIAL BUILDING	industrial buildings	
+fish:schemes/eh_tmt2/concepts/92351	skos:closeMatch	aat:300000322	semapv:UnspecifiedMatching	INDUSTRIAL HOUSE	industrial housing	
+fish:schemes/eh_tmt2/concepts/69201	skos:closeMatch	aat:300000816	semapv:UnspecifiedMatching	INDUSTRIAL SITE	industrial sites	
+fish:schemes/eh_tmt2/concepts/70976	skos:exactMatch	aat:300006706	semapv:UnspecifiedMatching	INFIRMARY	infirmaries	
+fish:schemes/eh_tmt2/concepts/70031	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	INHUMATION	burials	
+fish:schemes/eh_tmt2/concepts/70060	skos:broadMatch	aat:300266755	semapv:UnspecifiedMatching	INHUMATION CEMETERY	cemeteries	
+fish:schemes/eh_tmt2/concepts/68793	skos:exactMatch	aat:300007170	semapv:UnspecifiedMatching	INN	inns	
+fish:schemes/eh_tmt2/concepts/70100	skos:broadMatch	aat:300262491	semapv:UnspecifiedMatching	INSCRIBED STONE	commemorative sculpture	
+fish:schemes/eh_tmt2/concepts/139404	skos:closeMatch	aat:300000325	semapv:UnspecifiedMatching	INSULA	insulae	
+fish:schemes/eh_tmt2/concepts/69187	skos:broadMatch	aat:300054049	semapv:UnspecifiedMatching	IRON FURNACE	ironworking	
+fish:schemes/eh_tmt2/concepts/69236	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Iron Smelting Site	smelters (metalworking plants)	
+fish:schemes/eh_tmt2/concepts/69236	skos:broadMatch	aat:300054049	semapv:UnspecifiedMatching	IRON WORKING SITE	ironworking	
+fish:schemes/eh_tmt2/concepts/69237	skos:closeMatch	aat:300006296	semapv:UnspecifiedMatching	IRON WORKS	ironworks (factories)	
+fish:schemes/eh_tmt2/concepts/69263	skos:closeMatch	aat:300000399	semapv:UnspecifiedMatching	IRONSTONE MINE	iron mines	
+fish:schemes/eh_tmt2/concepts/69457	skos:exactMatch	aat:300006155	semapv:UnspecifiedMatching	JETTY	jetties (erosion protection works)	
+fish:schemes/eh_tmt2/concepts/68603	skos:exactMatch	aat:300004993	semapv:UnspecifiedMatching	KENNELS	kennels (animal housing)	
+fish:schemes/eh_tmt2/concepts/78353	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	KERB CAIRN	cairns	
+fish:schemes/eh_tmt2/concepts/69203	skos:exactMatch	aat:300022798	semapv:UnspecifiedMatching	KILN	kilns	
+fish:schemes/eh_tmt2/concepts/68969	skos:exactMatch	aat:300004514	semapv:UnspecifiedMatching	KITCHEN	kitchens	
+fish:schemes/eh_tmt2/concepts/87924	skos:exactMatch	aat:300008680	semapv:UnspecifiedMatching	LAKE	lakes (bodies of water)	
+fish:schemes/eh_tmt2/concepts/70441	skos:closeMatch	aat:300055202	semapv:UnspecifiedMatching	Land Drain	land drainage	
+fish:schemes/eh_tmt2/concepts/92441	skos:closeMatch	aat:300055202	semapv:UnspecifiedMatching	LAND IMPROVEMENT DRAIN	land drainage	
+fish:schemes/eh_tmt2/concepts/92443	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	LAND USE SITE	agricultural land	
+fish:schemes/eh_tmt2/concepts/71511	skos:exactMatch	aat:300007951	semapv:UnspecifiedMatching	Latrine	latrines	
+fish:schemes/eh_tmt2/concepts/78869	skos:exactMatch	aat:300008889	semapv:UnspecifiedMatching	LAWN	lawns (landscaped grass)	
+fish:schemes/eh_tmt2/concepts/69271	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Lead Mill	smelters (metalworking plants)	
+fish:schemes/eh_tmt2/concepts/69265	skos:exactMatch	aat:300343378	semapv:UnspecifiedMatching	LEAD MINE	lead mines	
+fish:schemes/eh_tmt2/concepts/71500	skos:closeMatch	aat:300000322	semapv:UnspecifiedMatching	Lead Miners Cottage	industrial housing	
+fish:schemes/eh_tmt2/concepts/142000	skos:closeMatch	aat:300103997	semapv:UnspecifiedMatching	LEAD SMELTER	smelters (metalworking plants)	
+fish:schemes/eh_tmt2/concepts/69238	skos:broadMatch	aat:300122139	semapv:UnspecifiedMatching	LEAD WORKING SITE	metal works structures	
+fish:schemes/eh_tmt2/concepts/69239	skos:broadMatch	aat:300122139	semapv:UnspecifiedMatching	LEAD WORKS	metal works structures	
+fish:schemes/eh_tmt2/concepts/70448	skos:closeMatch	aat:300133792	semapv:UnspecifiedMatching	LEAT	artificial water channels	
+fish:schemes/eh_tmt2/concepts/71660	skos:exactMatch	aat:300004409	semapv:UnspecifiedMatching	LECTURE THEATRE	lecture theatres	
+fish:schemes/eh_tmt2/concepts/68881	skos:closeMatch	aat:300006894	semapv:UnspecifiedMatching	LEGIONARY FORTRESS	fortresses	
+fish:schemes/eh_tmt2/concepts/70240	skos:closeMatch	aat:300003864	semapv:UnspecifiedMatching	LEVEL CROSSING	level crossings	
+fish:schemes/eh_tmt2/concepts/93993	skos:closeMatch	aat:300007376	semapv:UnspecifiedMatching	LIDO	swimming pools	
+fish:schemes/eh_tmt2/concepts/69063	skos:exactMatch	aat:300006404	semapv:UnspecifiedMatching	LIME KILN	lime kilns	
+fish:schemes/eh_tmt2/concepts/69070	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	LIMESTONE QUARRY	quarries (extracting complexes)	
+fish:schemes/eh_tmt2/concepts/68890	skos:broadMatch	aat:300006178	semapv:UnspecifiedMatching	Linear Ditch	ditches	
+fish:schemes/eh_tmt2/concepts/68890	skos:broadMatch	aat:300008020	semapv:UnspecifiedMatching	LINEAR EARTHWORK	earthworks (engineering works)	
+fish:schemes/eh_tmt2/concepts/70378	skos:broadMatch	aat:300008020	semapv:UnspecifiedMatching	LINEAR FEATURE	earthworks (engineering works)	
+fish:schemes/eh_tmt2/concepts/94213	skos:closeMatch	aat:300379567	semapv:UnspecifiedMatching	LITHIC SCATTER	lithics	
+fish:schemes/eh_tmt2/concepts/94214	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	LITHIC WORKING SITE	lithics	
+fish:schemes/eh_tmt2/concepts/70006	skos:exactMatch	aat:300391498	semapv:UnspecifiedMatching	LONG BARROW	long barrows	
+fish:schemes/eh_tmt2/concepts/70086	skos:closeMatch	aat:300391498	semapv:UnspecifiedMatching	LONG MOUND	long barrows	
+fish:schemes/eh_tmt2/concepts/104173	skos:closeMatch	aat:300005672	semapv:UnspecifiedMatching	LONGHOUSE	longhouses (multiple dwellings)	
+fish:schemes/eh_tmt2/concepts/68626	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	LYNCHET	agricultural land	
+fish:schemes/eh_tmt2/concepts/141875	skos:exactMatch	aat:300005241	semapv:UnspecifiedMatching	MACELLUM	macella	
+fish:schemes/eh_tmt2/concepts/141948	skos:closeMatch	aat:300221835	semapv:UnspecifiedMatching	MACHINE GUN POST	gun mounts	
+fish:schemes/eh_tmt2/concepts/68567	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	MALT KILN	kilns	
+fish:schemes/eh_tmt2/concepts/69130	skos:closeMatch	aat:300004950	semapv:UnspecifiedMatching	MALTINGS	malthouses	
+fish:schemes/eh_tmt2/concepts/97254	skos:closeMatch	aat:300008863	semapv:UnspecifiedMatching	MANAGED WOODLAND	forests (cultural landscapes)	
+fish:schemes/eh_tmt2/concepts/68648	skos:exactMatch	aat:300000238	semapv:UnspecifiedMatching	MANOR	manors (agricultural complexes)	
+fish:schemes/eh_tmt2/concepts/68948	skos:exactMatch	aat:300005579	semapv:UnspecifiedMatching	MANOR HOUSE	manor houses	
+fish:schemes/eh_tmt2/concepts/69438	skos:closeMatch	aat:300008038	semapv:UnspecifiedMatching	MARITIME	marine structures	
+fish:schemes/eh_tmt2/concepts/68796	skos:exactMatch	aat:300005238	semapv:UnspecifiedMatching	MARKET	markets (structures)	
+fish:schemes/eh_tmt2/concepts/71722	skos:exactMatch	aat:300312182	semapv:UnspecifiedMatching	MARKET HOUSE	market houses	
+fish:schemes/eh_tmt2/concepts/69113	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	MARL PIT	quarries (extracting complexes)	
+fish:schemes/eh_tmt2/concepts/87826	skos:exactMatch	aat:300000691	semapv:UnspecifiedMatching	MARSHALLING YARD	marshalling yards	
+fish:schemes/eh_tmt2/concepts/68893	skos:exactMatch	aat:300006946	semapv:UnspecifiedMatching	MARTELLO TOWER	martello towers	
+fish:schemes/eh_tmt2/concepts/144484	skos:closeMatch	aat:300005907	semapv:UnspecifiedMatching	MASS GRAVE	graves	
+fish:schemes/eh_tmt2/concepts/70109	skos:closeMatch	aat:300386964	semapv:UnspecifiedMatching	MONUMENTAL MOUND	ceremonial mounds	
+fish:schemes/eh_tmt2/concepts/70382	skos:exactMatch	aat:300008024	semapv:UnspecifiedMatching	MOUND	mounds	
+fish:schemes/eh_tmt2/concepts/68897	skos:exactMatch	aat:300003717	semapv:UnspecifiedMatching	PALISADE	palisades (outworks)	
+fish:schemes/eh_tmt2/concepts/70398	skos:closeMatch	aat:300008027	semapv:UnspecifiedMatching	PIT	pits (earthworks)	
+fish:schemes/eh_tmt2/concepts/70407	skos:exactMatch	aat:300312201	semapv:UnspecifiedMatching	RING DITCH	ring ditches	
+fish:schemes/eh_tmt2/concepts/70182	skos:exactMatch	aat:300004575	semapv:UnspecifiedMatching	SANCTUARY	sanctuaries (religious building spaces)	
+fish:schemes/eh_tmt2/concepts/70411	skos:exactMatch	aat:300007688	semapv:UnspecifiedMatching	SHELTER	shelters (single built works)	
+fish:schemes/eh_tmt2/concepts/70184	skos:exactMatch	aat:300007558	semapv:UnspecifiedMatching	SHRINE	shrines (structures)	
+fish:schemes/eh_tmt2/concepts/69333	skos:exactMatch	aat:300006273	semapv:UnspecifiedMatching	WINDMILL	windmills	
+fish:schemes/eh_tmt2/concepts/68972	skos:exactMatch	aat:300120507	semapv:UnspecifiedMatching	MIDDEN	middens	
+fish:schemes/eh_tmt2/concepts/70152	skos:exactMatch	aat:300000641	semapv:UnspecifiedMatching	MONASTERY	monasteries (built complexes)	

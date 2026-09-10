@@ -20703,10 +20703,11 @@
     "source_file": "ARIADNE_INRAP_AAT_Mappings.pdf",
     "section": "PACTOLS",
     "source_uri": "http://ark.frantiq.fr/ark:/26678/pcrtYPpqbYK8AK",
-    "source_label": "inscription de",
+    "source_label": "inscription de fondation",
     "target_label": "epigraphs",
     "target_uri": "http://vocab.getty.efondationdu/aat/300028719",
     "match": "broad match",
+    "sssom_comment": "source_label corrected from 'inscription de' to 'inscription de fondation' (PDF word-wrap extraction artifact)",
     "skos_predicate": "broadMatch"
   },
   {
@@ -22353,10 +22354,11 @@
     "source_file": "ARIADNE_INRAP_AAT_Mappings.pdf",
     "section": "PACTOLS",
     "source_uri": "http://ark.frantiq.fr/ark:/26678/pcrtb1ZjhINTB9",
-    "source_label": "monnaie gallo-",
+    "source_label": "monnaie gallo-celtique",
     "target_label": "Early Western World",
     "target_uri": "http://vocab.getty.eceltiquecoinsdu/aat/300194572",
     "match": "broad match",
+    "sssom_comment": "source_label corrected from 'monnaie gallo-' to 'monnaie gallo-celtique' (PDF word-wrap extraction artifact)",
     "skos_predicate": "broadMatch"
   },
   {

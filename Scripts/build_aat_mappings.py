@@ -3,29 +3,19 @@
 Extract the ARIADNE <-> Getty AAT crosswalk tables (DAI + ADS + INRAP PDFs)
 into tidy CSV/JSON, resolve missing source URIs against the DAI SKOS
 thesaurus, validate ADS source URIs against the FISH RDF/XML thesauri and
-INRAP source URIs against the PACTOLS SKOS RDF/XML thesauri, then emit
-SKOS-compliant mapping triples (skos:exactMatch / closeMatch / broadMatch /
-narrowMatch / relatedMatch) as Turtle.
+INRAP source URIs against the PACTOLS SKOS RDF/XML thesauri, then emit both
+SKOS-compliant mapping triples (Turtle) AND SSSOM TSV+YAML files — one per
+source (dai_aat.sssom.tsv / ads_aat.sssom.tsv / inrap_aat.sssom.tsv) — which
+are the intended master/published artifact per our mapping-model discussion
+(SSSOM Option A). The CSV/JSON/TTL outputs are kept as a secondary/legacy
+view for now.
 
 Run this on your local machine (needs the PDFs, the DAI ttl, the FISH
 RDF/XML files, and the Pactols RDF/XML files on disk — see CONFIG below).
 
     pip install pdfplumber rdflib
+    pip install sssom   # optional, but recommended: `sssom validate <file>.sssom.tsv`
 
---------------------------------------------------------------------------
-HONEST CAVEAT: the DAI-ttl lookup, FISH-thesaurus validation, and Pactols-
-thesaurus validation code below was written without access to your actual
-.ttl / FISH / Pactols files (I only have the PDFs, plus the two example
-triples you pasted for Pactols). The PDF-extraction half — including the
-INRAP/PACTOLS ARK-URI extraction, which I tested against your actual
-ARIADNE_INRAP_AAT_Mappings.pdf across all 90 pages (1634/1634 rows
-extracted, 1632 with clean target_uri shape — 2 known word-wrap edge
-cases flagged in INRAP_LABEL_SPELLING_CORRECTIONS) — is tested and
-known-good. The thesaurus-linking half is my best-effort against the
-example triples you showed me. Run it, and if label/URI lookups behave
-unexpectedly, send me the warnings and a snippet of the file and I'll
-adjust.
---------------------------------------------------------------------------
 """
 
 import csv
@@ -68,7 +58,111 @@ FISH_DIR = BASE / "FISH"  # directory containing the FISH RDF/XML thesauri
 PACTOLS_DIR = BASE / "Pactols"  # directory containing the Pactols SKOS RDF/XML files
                                 # (Pactols_Lieux_th17_*.rdf, Pactols_Sujets_TH_1_*.rdf)
 
-OUTPUT_DIR = BASE / "Output"
+OUTPUT_DIR = BASE / "Output"       # legacy CSV/JSON/TTL views — kept for now, not the source of truth
+SSSOM_DIR = BASE / "Mappings"       # new: SSSOM TSV+YAML files, one per (fromScheme, toScheme) source
+
+GITHUB_TOOL_URL = "https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py"
+
+# CREATOR_ID: tested against `sssom validate` — this slot specifically
+# REQUIRES a proper CURIE (a prefix declared in the file's curie_map), not a
+# bare URL. A bare "https://lod-am.net" fails validation even though it's a
+# perfectly good absolute URI; only e.g. "orcid:0000-0000-0000-0000" (with
+# "orcid" declared below) passes. If you don't have an ORCID, mint your own
+# prefix instead — e.g. add "lodam: https://lod-am.net/" to each prefix map
+# below and set CREATOR_ID = "lodam:lasse".
+CREATOR_ID = "orcid:0009-0001-5183-1635"
+
+# LICENSE / MAPPING_PROVIDER, by contrast, validated fine as bare absolute
+# URIs in testing — no CURIE required for these.
+LICENSE = "https://creativecommons.org/licenses/by/4.0/"
+                                               # "https://creativecommons.org/publicdomain/zero/1.0/" (CC0)
+PUBLICATION_DATE = "2026-09-10"               # date you actually publish/commit the SSSOM files — update per release
+
+# Prefix maps: only INRAP/Pactols and ADS/FISH are grounded in real data seen
+# this conversation. DAI's namespace was never confirmed against your actual
+# DAI_TTL file — TODO placeholder until you check dai_records[i]["source_uri"]
+# after resolve_dai_source_uris() runs and tell me the real namespace.
+# "orcid" is declared everywhere in case you fill in CREATOR_ID with one.
+PACTOLS_PREFIX_MAP = {
+    "pactols": "https://ark.frantiq.fr/ark:/26678/",
+    "aat": "http://vocab.getty.edu/aat/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "orcid": "https://orcid.org/",
+}
+FISH_PREFIX_MAP = {
+    "fish": "http://purl.org/heritagedata/",
+    "aat": "http://vocab.getty.edu/aat/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "orcid": "https://orcid.org/",
+}
+DAI_PREFIX_MAP = {
+    "dai": "http://thesauri.dainst.org/",
+    "aat": "http://vocab.getty.edu/aat/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "orcid": "https://orcid.org/",
+}
+
+INRAP_SSSOM_META = {
+    "mapping_set_id": "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/inrap_aat.sssom.tsv",
+    "mapping_set_title": "INRAP PACTOLS \u2192 Getty AAT crosswalk (ARIADNE)",
+    "mapping_set_description": "PACTOLS-thesaurus-to-AAT concept crosswalk compiled by INRAP for the "
+                                "ARIADNE project, extracted from the project's published PDF table.",
+    "license": LICENSE,
+    "mapping_date": "2016-10-10",          # ARIADNE_INRAP_AAT_Mappings.pdf CreationDate (pdfinfo)
+    "publication_date": PUBLICATION_DATE,
+    "creator_id": CREATOR_ID,
+    "creator_label": "Lasse Mempel",
+    "mapping_provider": "https://ror.org/04andmq85",
+    "mapping_tool": "build_aat_mappings.py (PDF table extraction)",
+    "mapping_tool_id": GITHUB_TOOL_URL,
+    "subject_source": "https://ark.frantiq.fr/ark:/26678/TH_1",     # Pactols Sujets scheme URI (seen in your example RDF)
+    "object_source": "http://vocab.getty.edu/aat/",
+    "see_also": "http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_INRAP_AAT_Mappings.pdf",
+    "comment": "Original table compiled by Achille Felicetti (per PDF author metadata) for ARIADNE. "
+               "2 of 1634 rows needed hand correction for a PDF word-wrap extraction artifact "
+               "(see INRAP_LABEL_SPELLING_CORRECTIONS) before this export was generated.",
+}
+
+ADS_SSSOM_META = {
+    "mapping_set_id": "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_aat.sssom.tsv",
+    "mapping_set_title": "ADS FISH \u2192 Getty AAT crosswalk (ARIADNE)",
+    "mapping_set_description": "FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data "
+                                "Service (ADS) for the ARIADNE project, extracted from the project's "
+                                "published PDF table.",
+    "license": LICENSE,
+    "mapping_date": "2019-01-29",
+    "publication_date": PUBLICATION_DATE,
+    "creator_id": CREATOR_ID,
+    "creator_label": "Lasse Mempel",
+    "mapping_provider": "https://ror.org/04w1khd64",
+    "mapping_tool": "build_aat_mappings.py (PDF table extraction)",
+    "mapping_tool_id": GITHUB_TOOL_URL,
+    "subject_source": "http://purl.org/heritagedata/",              # FISH thesaurus scheme root
+    "object_source": "http://vocab.getty.edu/aat/",
+    "see_also": "http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf",
+    "comment": "",
+}
+
+DAI_SSSOM_META = {
+    "mapping_set_id": "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dai_aat.sssom.tsv",
+    "mapping_set_title": "DAI thesaurus \u2192 Getty AAT crosswalk (ARIADNE)",
+    "mapping_set_description": "DAI-thesaurus-to-AAT concept crosswalk compiled by the German "
+                                "Archaeological Institute (DAI) for the ARIADNE project. Source URIs "
+                                "are resolved against your local DAI ttl export, not read from the PDF "
+                                "directly (the PDF table has no source_uri column for DAI).",
+    "license": LICENSE,
+    "mapping_date": "2019-01-29",
+    "publication_date": PUBLICATION_DATE,
+    "creator_id": CREATOR_ID,
+    "creator_label": "Lasse Mempel",
+    "mapping_provider": "https://ror.org/041qv0h25",
+    "mapping_tool": "build_aat_mappings.py (PDF table extraction + DAI ttl label resolution)",
+    "mapping_tool_id": GITHUB_TOOL_URL,
+    "subject_source": "http://thesauri.dainst.org/",
+    "object_source": "http://vocab.getty.edu/aat/",
+    "see_also": "http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_DAI_AAT_Mappings.pdf",
+    "comment": "",
+}
 
 # ---------------------------------------------------------------------------
 # Known OCR/typo variants of the "Match" column -> canonical SKOS predicate.
@@ -113,10 +207,12 @@ DAI_LABEL_SPELLING_CORRECTIONS = {
 # ---------------------------------------------------------------------------
 
 INRAP_LABEL_SPELLING_CORRECTIONS = {
-    # "inscription de fondation" and "monnaie gallo-celtique" got their word-
-    # wrapped second half misrouted into target_uri during PDF extraction
-    # (2 of 1634 rows) rather than a label spelling issue - see the
-    # [WARN][bad target_uri shape] printout for exact rows to fix by hand.
+    # Confirmed against the real PACTOLS validation run: these two rows had
+    # their word-wrapped second half misrouted into target_uri during PDF
+    # extraction (2 of 1634 rows). The corrected labels are PACTOLS's own
+    # prefLabel(fr) for pcrtYPpqbYK8AK / pcrtb1ZjhINTB9 respectively.
+    "inscription de": "inscription de fondation",
+    "monnaie gallo-": "monnaie gallo-celtique",
 }
 
 SKOS_NS = "http://www.w3.org/2004/02/skos/core#"
@@ -588,6 +684,119 @@ def write_csv_json(records, out_stub, fieldnames):
     return csv_path, json_path
 
 
+def _scheme_variants(uri):
+    """Same http/https drift as the PACTOLS ark.frantiq.fr URIs elsewhere in this
+    script (see _normalize_scheme) — the PDF says http://, the source RDF and
+    our own prefix maps say https://. Try both when CURIE-matching."""
+    if uri.startswith("http://"):
+        yield uri
+        yield "https://" + uri[len("http://"):]
+    elif uri.startswith("https://"):
+        yield uri
+        yield "http://" + uri[len("https://"):]
+    else:
+        yield uri
+
+
+def to_curie(uri, prefix_map):
+    """Longest-prefix match against prefix_map (scheme-drift tolerant); returns
+    the URI unchanged if nothing matches."""
+    best_prefix, best_ns, best_variant = None, "", None
+    for variant in _scheme_variants(uri):
+        for prefix, ns in prefix_map.items():
+            if variant.startswith(ns) and len(ns) > len(best_ns):
+                best_prefix, best_ns, best_variant = prefix, ns, variant
+    return f"{best_prefix}:{best_variant[len(best_ns):]}" if best_prefix else uri
+
+
+# Order matters for header readability only (curie_map, then the rest of the
+# recognised MappingSet-level slots, in roughly the order the SSSOM spec
+# groups them: identity -> provenance -> people/tools -> vocab sources -> free text).
+SSSOM_HEADER_SLOT_ORDER = [
+    "mapping_set_id", "mapping_set_title", "mapping_set_version", "mapping_set_description",
+    "license", "mapping_date", "publication_date",
+    "creator_id", "creator_label", "mapping_provider",
+    "mapping_tool", "mapping_tool_id",
+    "subject_source", "object_source",
+    "see_also", "comment",
+]
+
+
+def write_sssom_tsv(records, out_path, mapping_set_meta, prefix_map,
+                     row_mapping_justification="semapv:UnspecifiedMatching",
+                     subject_field="source_uri", subject_label_field="source_label",
+                     object_field="target_uri", object_label_field="target_label"):
+    """
+    Write records as an SSSOM TSV+YAML file (the "#"-prefixed YAML header block
+    followed by a tab-separated mapping table — this is literally what
+    "SSSOM/TSV" means, see https://mapping-commons.github.io/sssom/).
+
+    mapping_set_meta: dict of MappingSet-level slot values (mapping_set_id,
+        license, creator_id, ... — see SSSOM_HEADER_SLOT_ORDER). Only slots
+        with a non-empty value are written.
+    prefix_map: dict CURIE-prefix -> namespace URI, written as curie_map and
+        used to compact subject_id/object_id into CURIEs.
+    row_mapping_justification: SEMAPV CURIE applied to every row in this file
+        (propagated from the mapping-set level — none of our current tracks
+        need a different justification per row within the same source file).
+
+    This intentionally does NOT depend on the `sssom` package to WRITE the
+    file — it's a small, fully-controlled format, and keeping the generator
+    dependency-free means this script still only needs pdfplumber + rdflib.
+    Use the `sssom` CLI/library downstream to validate, convert to RDF, merge,
+    or otherwise operate on the file this produces (`pip install sssom`;
+    `sssom validate out.sssom.tsv`).
+    """
+    rows = []
+    skipped_no_subject = skipped_no_pred = skipped_bad_object_uri = 0
+    for r in records:
+        subject_uri = r.get(subject_field, "")
+        pred = r.get("skos_predicate", "")
+        object_uri = r.get(object_field, "")
+        if not subject_uri:
+            skipped_no_subject += 1
+            continue
+        if not pred:
+            skipped_no_pred += 1
+            continue
+        if not re.fullmatch(r"http://vocab\.getty\.edu/aat/\d{6,9}", object_uri):
+            # known PDF word-wrap extraction artifacts (see validate_uri_shape /
+            # the [WARN][bad target_uri shape] printout) — don't publish a
+            # mapping to a garbled AAT URI; fix the source row and re-run instead.
+            skipped_bad_object_uri += 1
+            continue
+        rows.append({
+            "subject_id": to_curie(subject_uri, prefix_map),
+            "predicate_id": f"skos:{pred}",
+            "object_id": to_curie(object_uri, prefix_map),
+            "mapping_justification": row_mapping_justification,
+            "subject_label": r.get(subject_label_field, ""),
+            "object_label": r.get(object_label_field, ""),
+            "comment": r.get("sssom_comment", ""),
+        })
+
+    with out_path.open("w", encoding="utf-8", newline="") as f:
+        f.write("#curie_map:\n")
+        for prefix, ns in prefix_map.items():
+            f.write(f"#  {prefix}: {ns}\n")
+        for slot in SSSOM_HEADER_SLOT_ORDER:
+            value = mapping_set_meta.get(slot)
+            if value:
+                f.write(f"#{slot}: {value}\n")
+
+        tsv_fields = ["subject_id", "predicate_id", "object_id", "mapping_justification",
+                      "subject_label", "object_label", "comment"]
+        writer = csv.DictWriter(f, fieldnames=tsv_fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({k: row.get(k, "") for k in tsv_fields})
+
+    print(f"[sssom] {out_path.name}: {len(rows)} mappings written "
+          f"({skipped_no_subject} skipped: no subject URI, {skipped_no_pred} skipped: unresolved match type, "
+          f"{skipped_bad_object_uri} skipped: malformed object_uri — fix and re-run)")
+    return out_path
+
+
 def write_skos_ttl(records, out_path):
     if rdflib is None:
         raise RuntimeError("rdflib is required — pip install rdflib")
@@ -624,6 +833,7 @@ def write_skos_ttl(records, out_path):
 
 def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    SSSOM_DIR.mkdir(parents=True, exist_ok=True)
 
     # --- DAI ---
     dai_records = extract_pdf(DAI_PDF, "DAI", has_source_uri=False)
@@ -634,6 +844,7 @@ def main():
     dai_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
     write_csv_json(dai_records, OUTPUT_DIR / "dai_aat_mappings", dai_fields)
     write_skos_ttl(dai_records, OUTPUT_DIR / "dai_aat_mappings.ttl")
+    write_sssom_tsv(dai_records, SSSOM_DIR / "dai_aat.sssom.tsv", DAI_SSSOM_META, DAI_PREFIX_MAP)
 
     bad = validate_uri_shape(dai_records, has_source_uri=False)
     print(f"DAI: {len(dai_records)} rows, {len(bad)} target_uri shape failures")
@@ -647,6 +858,7 @@ def main():
     ads_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
     write_csv_json(ads_records, OUTPUT_DIR / "ads_aat_mappings", ads_fields)
     write_skos_ttl(ads_records, OUTPUT_DIR / "ads_aat_mappings.ttl")
+    write_sssom_tsv(ads_records, SSSOM_DIR / "ads_aat.sssom.tsv", ADS_SSSOM_META, FISH_PREFIX_MAP)
 
     bad = validate_uri_shape(ads_records, has_source_uri=True, source_uri_prefix="http://purl.org/heritagedata/")
     print(f"ADS: {len(ads_records)} rows, {len(bad)} URI shape failures")
@@ -658,6 +870,15 @@ def main():
         # style section markers like DAI/ADS), so the header-position finder
         # never fires and section stays None — fill it in directly.
         r["section"] = r["section"] or "PACTOLS"
+    # apply corrections to the records themselves (not just inside the Pactols
+    # validator's comparison) so CSV/TTL/SSSOM outputs all carry the fixed label
+    for r in inrap_records:
+        fix = INRAP_LABEL_SPELLING_CORRECTIONS.get(r["source_label"])
+        if fix:
+            r["sssom_comment"] = (f"source_label corrected from '{r['source_label']}' to '{fix}' "
+                                   f"(PDF word-wrap extraction artifact)")
+            r["source_label"] = fix
+
     resolve_predicate(inrap_records)
     pactols_graph = load_pactols_graph(PACTOLS_DIR)
     validate_inrap_against_pactols(inrap_records, pactols_graph, INRAP_LABEL_SPELLING_CORRECTIONS)
@@ -665,6 +886,7 @@ def main():
     inrap_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
     write_csv_json(inrap_records, OUTPUT_DIR / "inrap_aat_mappings", inrap_fields)
     write_skos_ttl(inrap_records, OUTPUT_DIR / "inrap_aat_mappings.ttl")
+    write_sssom_tsv(inrap_records, SSSOM_DIR / "inrap_aat.sssom.tsv", INRAP_SSSOM_META, PACTOLS_PREFIX_MAP)
 
     bad = validate_uri_shape(inrap_records, has_source_uri=True, source_uri_prefix="http://ark.frantiq.fr/ark:/26678/")
     print(f"INRAP: {len(inrap_records)} rows, {len(bad)} URI shape failures")
