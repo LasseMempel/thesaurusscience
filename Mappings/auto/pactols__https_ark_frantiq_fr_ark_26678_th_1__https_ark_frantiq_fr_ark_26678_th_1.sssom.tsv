@@ -1,0 +1,24 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/pactols__https_ark_frantiq_fr_ark_26678_th_1__https_ark_frantiq_fr_ark_26678_th_1.sssom.tsv
+#mapping_set_title: PACTOLS SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of PACTOLS (concept scheme: https://ark.frantiq.fr/ark:/26678/TH_1), targeting concept scheme https://ark.frantiq.fr/ark:/26678/TH_1. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_provider: https://ror.org/04andmq85
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: pactols:TH_1
+#subject_source_version: 2022-09-21
+#object_source: pactols:TH_1
+#object_source_version: 2022-09-21
+#comment: Extracted from local RDF file Pactols_Sujets_TH_1_20260722.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+pactols:pcrtySs2lWdI4z	valley	skos:exactMatch	pactols:pcrtySs2lWdI4z	valley	semapv:UnspecifiedMatching	

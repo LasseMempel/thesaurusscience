@@ -1,0 +1,40 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dariah_vocabs__https_humanitiesthesaurus_academyofathens_gr__unknown_target_scheme.sssom.tsv
+#mapping_set_title: DARIAH-DE vocabularies SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of DARIAH-DE vocabularies (concept scheme: https://humanitiesthesaurus.academyofathens.gr). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://humanitiesthesaurus.academyofathens.gr
+#subject_source_version: 2020-10-21
+#comment: Extracted from local RDF file DYAS Humanities Thesaurus .ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/13	Geneses	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000016		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/14	Natural disasters	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000015		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/17	Structural parts of material objects	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000020		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/18		skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000003		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/19	Intentional destructions	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000012		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/20	Events	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000011		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/21	Functions	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000013		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/22	Symbolic objects	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000021		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/2253	Organisations	skos:broadMatch	https://vocabs.dariah.eu/bbt/Concept/000007		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/23	Built environment	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000018		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/24	Mobile objects	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000017		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/25	Propositional objects	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000022		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/26	Collectivities and groups	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000007		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/28	Concepts	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000024		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/29	Physical features	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000019		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/30	Epochs	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000005		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/31	Methods	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000023		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/32	Geopolitical units	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000009		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/33	Disciplines	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000010		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/34	Offices	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000025		semapv:UnspecifiedMatching	
+https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/35	Roles of interpersonal relations	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000026		semapv:UnspecifiedMatching	

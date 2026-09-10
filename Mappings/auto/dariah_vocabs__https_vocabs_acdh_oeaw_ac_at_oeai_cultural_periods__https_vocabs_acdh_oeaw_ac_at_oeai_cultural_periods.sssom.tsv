@@ -1,0 +1,407 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dariah_vocabs__https_vocabs_acdh_oeaw_ac_at_oeai_cultural_periods__https_vocabs_acdh_oeaw_ac_at_oeai_cultural_periods.sssom.tsv
+#mapping_set_title: DARIAH-DE vocabularies SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of DARIAH-DE vocabularies (concept scheme: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/), targeting concept scheme https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#subject_source_version: 1.0.0
+#object_source: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#object_source_version: 1.0.0
+#comment: Extracted from local RDF file OeAI Thesaurus - Cultural Time Periods.ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+http://chronontology.dainst.org/period/beGZZZTJ5dt4		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23192	Seljuk	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300019258		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23546	Palaeolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300019260		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23194	Lower Palaeolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300019261		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23195	Middle Palaeolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300019262		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23196	Upper Palaeolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300106751		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23315	Early Chalcolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300106753		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23316	Middle Chalcolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300106755		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23317	Late Chalcolithic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300106928		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23258	Proto-Sesklo	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300106931		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23259	Sesklo	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300263188		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23515	Pottery Neolithic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/0Jnp2MWmSZjC		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23269	Early Archaic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/0Yevp82GLwdT		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23238	Samnite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/1dH5kfYOFE5T		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23487	Early Antonine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/2Rt01S20nMqq		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23295	Early Minoan IIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/2VmiOlvIObfR		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23571	Italic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/34aNFX1SMAZ6		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23239	Umbrian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/3LyVa2wb88y0		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23527	Early Minoan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/3XPgYqqSJPoR		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23555	Third Intermediate Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/3Y47oKS1Pg8L		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23276	Late Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/3i1UvjawzQ73		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23284	Late Helladic I	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/4AmzRtTJnBIg		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23511	Middle Minoan III	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/4DkjOuob3b7w		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23524	New Kingdom	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/4XeWN5lpQooL		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23508	Early Minoan II	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/5bvpMrURKXyE		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23479	Neronian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/6GXiCOaCfmTQ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23272	Late Archaic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/6Ulfr1r7LcBs		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23552	Medieval Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/6VooUMYGJjOI		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23574	Egyptian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/6e2ZbRiMULdQ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23529	Late Minoan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/6yDtOnq2H6fO		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23554	Second Intermediate Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/72DTmZZMriHD		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23297	Middle Minoan IA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/73BHzmkXjTDx		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23242	Middle Cycladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/78jvQ8c4qZaK		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23280	Late Hellenistic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/7FaA0NgbdXDs		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23271	Orientalizing Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/7G2xPRWnKY06		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23289	Late Helladic IIIB1	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/7fDysWha7NKs		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23536	Late Roman Empire	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/876a7NVQZkH9		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23501	Middle Kingdom	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/8Acc6pBnRz4V		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23211	Assyrian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/8yAvVAy4qe98		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23282	High Classical	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/90Hn6glf9wp5		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23275	Proto-Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/9DshiEVPeqWQ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23482	Trajanic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/9EZPSCbQ0bNP		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23273	Early Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/9NcJMGJLmoxO		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23537	Julio-Claudian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/9eJnzwj23JAu		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23241	Early Cycladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ADKp8g8Rd4WZ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23474	Old Kingdom, Hittite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/AMH9SUN4lnKm		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23274	Middle Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/AYeqXxXF339o		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23227	Early Helladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/AqUgeWHp0xIl		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23558	Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/CLpWAMh5aUgH		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23225	Middle Byzantine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/CPnAH7wcZdIp		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23233	Median	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/CePG4Xyy5sWn		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23216	Halaf	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/CwQTWp2KJdpr		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23308	Late Minoan IIIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/D9H0YAbqkZVY		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23312	Bavarian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/EliRdMbzrRLJ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23495	Early Byzantine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/FLVf6DQUB25L		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23290	Late Helladic IIIB2	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/G5kuvyw9DDaX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23302	Middle Minoan IIIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/GZrnbuJSY6yV		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23287	Late Helladic IIIA1	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Ggh6F2OLrBJd		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23512	Late Minoan I	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/GzPQDbfWXlR8		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23320	Late Roman Republic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/HEBM03OOyAM5		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23281	Early Classical	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ICVrqTb3uj90		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23220	Ubaid	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/INd7rM5RESXX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23509	Middle Minoan I	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/IOVQ33rqV4KM		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23519	Helladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Ielmwklxtvt1		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23229	Old Hittite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/IjIbjrz1ImyR		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23313	Hunnic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/IuZMm71sRTYh		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23486	Tiberian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/J316Dxjfexrl		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23214	Early Christian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/K7vWtxMoUJ14		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23303	Late Minoan IA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/KTwRym1w8abB		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23522	Roman	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/KprSO1DTzWOC		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23219	Lydian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/KzRNJP4WR6PS		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23236	Campanian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/L3Ky6d0YpzMe		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23301	Middle Minoan IIIA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/LBnJ3GkRUjSy		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23543	Archaic (Greece)	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/MKDQdW5LKYHo		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23488	Middle Antonine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/NUh7uOh17QQb		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23288	Late Helladic IIIA2	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Ns3tiKfNhVmL		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23249	Middle Mycenaean	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/O5pOSDbgUIEU		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23534	Late Helladic III	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/OTyMiCtkjqCz		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23559	High Roman Empire	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/OYIpMMUk6oOF		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23520	Hittite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/OhCEL9ryU4HL		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23292	Late Cycladic I	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/OmLwJwy7CuKS		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23286	Late Helladic IIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/P5Z5GW8eOMbY		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23550	Late Minoan III	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/PKmoBh79izYT		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23224	Ptolemaic Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/PpAGOV3UBCMU		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23300	Middle Minoan IIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RGbECa9kHJT4		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23213	Etruscan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ROkpsNEzFjOm		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23228	Middle Helladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RX2Rv7kcbLGk		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23503	Roman Republic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RZIAbqaeTzmI		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23506	Late Helladic IIIA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RcTmuXxf7IHX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23217	Hassuna	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Rk5jShCApBwq		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23518	Byzantine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RwGmBmSWvZHL		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23481	Hadrianic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/RzbGVFodlQ5Z		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23235	Apulian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/SuuD817asCH2		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23528	Middle Minoan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/U5KkgjlmLIc4		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23277	Sub Geometric	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/U8Bt9qsUxdPg		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23285	Late Helladic IIA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/UDNlSgJFLNoO		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23296	Early Minoan III	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/UxzJ6VWQnnvJ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23490	Early Severan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/V9dy8McSgA2Y		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23525	Hellenistic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/W4Pzs5WmUR8U		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23293	Early Minoan I	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Wv5o2s6PWOlH		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23230	Middle Hittite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/XLYbvLSSRb0t		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23560	Prehistory	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/XVMa04OzqkyP		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23306	Late Minoan IIIA1	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Y863Mey70o4t		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23319	Early Roman Republic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/YOyP9TLDuhrb		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23540	Greek	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ZEK7GvmSxqyz		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23485	Claudian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ZfvGCBbvOtdd		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23491	Late Severan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/ZpocwkvytUpd		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23305	Late Minoan II	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/Zs0m3wO3GgJe		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23539	Severan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/aGIlO07l9Yc5		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23248	Early Mycenaean	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/aGXu2saj2dYX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23526	Late Helladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/aPVWSbyFD0AQ		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23523	Urartian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/anG2pmK0097C		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23507	Late Helladic IIIB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/b40GOqHyfQlv		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23243	Sub Minoan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/bCTpXj4LVC2n		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23532	Roman Empire	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/bJXq0VVqpm2h		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23500	Early Dynastic Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/cAUvIcb93BsX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23251	Submycenean	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/cGrUW4bfFGlv		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23489	Late Antonine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/cPkKW4krup3D		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23232	Parthian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/dSJD5oYSDccr		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23517	Augustan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/dZ3ERUpZtmDy		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23538	Antonine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/eRjJwJeWpOhx		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23307	Late Minoan IIIA2	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/elISqvMiPKMo		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23551	Iranian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/etfLhNF0LtBT		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23250	Late Mycenaean	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/f1nOVhp4aLLF		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23223	Cypriot	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/f1xgSq2EAdyK		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23279	High Hellenistic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/fIA3SHJthHYh		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23541	Minoan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/gFZviC9Ehp0O		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23270	High Archaic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/gZM469VRx0RO		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23311	Avar	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/gzNoWGDHpBcr		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23218	Islamic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/hORjfiFsdbaX		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23278	Early Hellenistic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/i8FokDK41BZ6		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23268	Justinian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/iKJWJJjC5obx		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23542	Mycenaean	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/iOaFpwImnKYj		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23221	Ottoman	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/jMI3kojyyYgk		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23492	Early Augustan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/kf17V19w3CWv		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23499	First Intermediate Period	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/kn2zrUYdWAe8		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23556	Old Kingdom	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/lRiuE8KqMdM4		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23521	Cycladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/lgmcrzRuu418		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23544	Classical	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/mlZjTl5TmrHV		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23480	Flavian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/n1fz7Xk0ved6		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23222	Phrygian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/oRysjlNaQkF5		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23310	Alamannic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/p0qvojDBQkKo		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23510	Middle Minoan II	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/pHRknhlqTDKh		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23513	Late Minoan IIIA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/prX4hmZMs0yp		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23234	Sassanid	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/qxRTvWeeS4mT		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23237	Ligurian	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/rL37RWstkEFe		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23226	Late Byzantine	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/rioxFiEuYtAG		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23484	Tetrarchic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/sQi9AkYPgCmb		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23483	Gallienic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/tZJKzlCggBFA		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23283	Late Classical	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/un3ffUxH9BBz		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23496	Late Cycladic	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/vGkLErraPKsL		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23298	Middle Minoan IB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/vpg0DvwPQxyc		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23231	Achaemenid	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/vve7mgqkCAGE		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23516	Early Roman Empire	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/wWNOmfiKSqfq		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23309	Late Minoan IIIC	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/x5uSxZmg05qr		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23294	Early Minoan IIA	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/xfbzbyFXzV2z		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23494	Khirbet Kerak	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/yXcDwVzqYOZc		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23505	Late Helladic II	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/z2IlJ6Ey2mDf		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23493	Late Augustan	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/z2paLntWaKJm		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23291	Late Helladic III C	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/zKxEgCZAMote		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23304	Late Minoan IB	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/zQku91CVLlbI		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23475	New Kingdom (Empire), Hittite	semapv:UnspecifiedMatching	
+https://chronontology.dainst.org/period/zwAAOU6Hu2Nm		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23299	Middle Minoan IIA	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept282		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23560	Prehistory	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept283		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23546	Palaeolithic	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept285		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23502	Neolithic	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept286		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23531	Chalcolithic	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept287		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23530	Bronze Age	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept288		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23314	Early Bronze Age	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept289		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23514	Middle Bronze Age	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept290		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23498	Late Bronze Age	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept293		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23532	Roman Empire	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept294		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23260	Late Antiquity	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept295		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23552	Medieval Period	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept296		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23244	Early Middle Ages	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept298		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23247	Late Middle Ages	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/iadthesaurus/scheme/concept299		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23553	Modern Era	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q102865		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23472	Darius III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1047444		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23476	Pre-pottery Neolithic A	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q111079		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23398	Anedjib	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q11761		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23530	Bronze Age	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1190360		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23535	Pre-pottery Neolithic	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q12154		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23438	Tutankhamun	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q122960		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23257	Rococo	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q129165		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23459	Xerxes I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q129234		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23432	Hatshepsut	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q130253		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23531	Chalcolithic	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q131192		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23545	Migration	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1400616		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23267	8th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q146029		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23425	Ay	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q146055		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23577	18th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1471923		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23314	Early Bronze Age	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q151805		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23399	Semerkhet	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q151817		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23402	Hotepsekhemwy	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q151819		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23395	Qa'a	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q151824		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23401	Nynetjer	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q151828		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23400	Djet	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1523		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23442	Ramses II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q152375		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23396	Djer	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1526		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23441	Ramses I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q152751		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23405	Nebra	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1528		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23446	Ramses III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1532		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23447	Ramses IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157899		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23436	Thutmose III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157918		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23443	Seti I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157956		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23567	19th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157962		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23434	Thutmose I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157966		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23426	Amenhotep I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157985		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23437	Thutmose IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q157995		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23431	Horemheb	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158003		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23433	Smenkhkara	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158025		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23435	Thutmose II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158043		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23440	Merenptah	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158052		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23427	Amenhotep II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158059		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23445	Saptah	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q158065		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23439	Amenmessu	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q161904		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23372	Khufu	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q165989		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23331	Psusennes II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q169349		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23240	Kura–Araxes	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q170292		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23255	Classicism	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q17175310		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23514	Middle Bronze Age	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q174367		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23367	Djoser	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q175775		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23466	Nectanebo I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1758757		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23498	Late Bronze Age	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q18722		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23423	Senusret II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q18734		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23419	Amenemhet II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q18763		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23422	Senusret I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q18771		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23418	Amenemhet I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q188472		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23455	Artaxerxes II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q189371		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23377	Sneferu	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q189574		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23397	Menes	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q189689		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23456	Artaxerxes I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q19244		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23420	Amenemhet III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q19246		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23421	Amenemhet IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q19248		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23424	Senusret III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q192522		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23212	Catalhöyük	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q192867		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23470	Artaxerxes III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q198688		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23468	Teos	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q199861		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23373	Khafra	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q200986		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23375	Menkaura	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q202236		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23458	Darius II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q202763		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23244	Early Middle Ages	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q203859		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23569	1st Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q204252		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23378	Thamphthis	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q207778		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23575	2nd Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q208520		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23182	Egyptian Prehistory	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q209397		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23374	Djedefre	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q211001		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23568	4th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q212976		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23247	Late Middle Ages	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q21694324		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23346	Sheshonq V	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q217050		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23260	Late Antiquity	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q220252		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23376	Shepseskaf	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q220256		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23368	Sekhemkhet	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q220276		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23562	3rd Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q220318		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23371	Bikheris	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q220320		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23369	Hor-Khaba	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q228951		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23321	Sobekneferu	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q230774		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23390	Nitiqret	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q243692		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23384	Sahura	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q244985		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23386	Unas	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2538799		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23410	Wadjenes	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q258637		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23394	Userkara	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q260783		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23469	Arses	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q268576		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23382	Neferirkara	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q268601		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23385	Shepseskara	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q268614		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23387	Userkaf	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269200		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23383	Nyuserra	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269209		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23388	Nemtyemsaf I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269237		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23572	5th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269247		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23379	Djedkara	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269257		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23380	Menkauhor	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269265		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23391	Pepy I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269271		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23381	Neferefre	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269285		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23393	Teti	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q269979		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23565	6th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2717024		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23478	Pre-pottery Neolithic C	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q272043		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23460	Xerxes II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q277466		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23253	historicism	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q294266		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23403	Khasekhemwy	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q296439		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23415	Mentuhotep II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q297704		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23409	Senedj	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q310278		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23416	Mentuhotep III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q310878		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23408	Peribsen	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q310881		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23411	Intef I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q311811		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23342	Sheshonq I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q312045		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23355	Ahmose II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q313121		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23454	Ramses XI	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q313126		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23467	Nectanebo II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q313865		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23417	Mentuhotep IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q313869		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23412	Intef II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q315695		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23359	Piye	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q315714		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23365	Taharqo	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q316271		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23414	Mentuhotep I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q316274		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23413	Intef III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q316278		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23362	Psamtek III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q318000		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23461	Amyrtaios	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q320908		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23389	Nemtyemsaf II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q322169		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23322	Apepi	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q325744		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23335	Ini	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q3281534		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23553	Modern Era	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q328763		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23360	Psamtek I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q336395		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23333	Smendes	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q34636		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23254	Art Nouveau	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q349291		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23356	Apries	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q360012		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23462	Hakor	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q36422		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23502	Neolithic	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q365929		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23363	Shabaka	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q366097		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23332	Siamun	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q373521		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23361	Psamtek II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q37853		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23252	Baroque	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q380676		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23330	Psusennes I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q386303		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23533	30th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q386681		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23339	Pami	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q4009		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23448	Ramses IX	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q4026		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23453	Ramses X	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q4064		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23449	Ramses V	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q42606		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23428	Amenhotep III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q429981		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23261	10th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q434535		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23366	Tanutamani	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q434547		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23364	Shebitku	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q434877		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23327	Amenemnisu	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q440496		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23324	Khyan	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q44387		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23457	Darius I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q450558		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23406	Neferkare	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q450994		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23464	Nepherites I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q455594		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23358	Necho I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q459153		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23337	Osorkon II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q459201		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23354	Tefnakht	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q462448		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23328	Amenemope	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q464248		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23407	Neferkasokar	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q46805		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23246	Romanesque	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q46825		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23245	Gothic	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q4692		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23256	Renaissance	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q504873		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23463	Nepherites II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q509679		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23326	Salitis	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q510515		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23353	Bakenrenef	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q511257		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23548	29th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q515574		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23336	Osorkon I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q515584		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23338	Osorkon III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q5167		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23450	Ramses VI	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q533344		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23350	Iuput II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q546639		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23357	Kashta	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q548570		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23340	Pedubastis I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q548623		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23347	Takelot I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q560026		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23348	Takelot II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q583501		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23573	20th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q596489		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23334	Iuput I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q6198		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23392	Pepy II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q6215		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23451	Ramses VII	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q621917		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23557	Late Period	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q642301		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23266	17th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q650945		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23264	14th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q708340		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23343	Sheshonq II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q708389		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23329	Osorkon the Elder	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q718214		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23351	Osorkon IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q719634		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23566	11th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q719639		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23570	12th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q721807		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23263	13th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q7222		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23430	Ahmose I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q728449		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23262	9th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q728479		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23561	15th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q737629		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23578	22nd Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q737648		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23576	25th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q737695		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23265	16th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q748151		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23564	21st Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q748170		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23547	23rd Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q754749		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23504	24th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q781765		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23345	Sheshonq IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q8045		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23452	Ramses VIII	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q8048		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23444	Seti II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q81794		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23429	Amenhotep IV	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q829005		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23318	Epipalaeolithic	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q833118		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23497	28th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q878396		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23344	Sheshonq III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q879122		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23465	Psammuthis	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q879157		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23325	Khamudi	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q879176		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23349	Takelot III	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q879190		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23341	Rudamon	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q880139		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23323	Sheshi	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q881240		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23471	Khababash	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q886043		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23352	Pedubastis II	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q887937		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23404	Hudjefa I	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q889891		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23370	Nebka	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q897323		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23477	Pre-pottery Neolithic B	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q908860		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23215	Hacilar	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q926624		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23563	27th Dynasty	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q978071		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/concept23549	31st Dynasty	semapv:UnspecifiedMatching	

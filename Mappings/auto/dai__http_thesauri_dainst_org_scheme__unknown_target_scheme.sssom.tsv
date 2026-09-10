@@ -1,0 +1,281 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#  dai: http://thesauri.dainst.org/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dai__http_thesauri_dainst_org_scheme__unknown_target_scheme.sssom.tsv
+#mapping_set_title: German Archaeological Institute (DAI) SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of German Archaeological Institute (DAI) (concept scheme: http://thesauri.dainst.org/scheme). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: dai:scheme
+#comment: Extracted from local RDF file export-2020-10-14_10-36.ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+dai:_00c6c6be	Caesarisch	skos:exactMatch	http://chronontology.dainst.org/period/AB4aqZMN0hvU		semapv:UnspecifiedMatching	
+dai:_018b18d1	Spätarchaisch	skos:exactMatch	http://chronontology.dainst.org/period/9WifOjJh4pwj		semapv:UnspecifiedMatching	
+dai:_02e30fc1	Frühchristlich	skos:exactMatch	http://chronontology.dainst.org/period/J316Dxjfexrl		semapv:UnspecifiedMatching	
+dai:_02ea2cca	Endneolithikum	skos:exactMatch	http://chronontology.dainst.org/period/82pxqmMCXADR		semapv:UnspecifiedMatching	
+dai:_03e5b59b	Jungpaläolithikum	skos:exactMatch	http://chronontology.dainst.org/period/GQgR0N8XCCIw		semapv:UnspecifiedMatching	
+dai:_04a1d2f4	Späthelladikum	skos:exactMatch	http://chronontology.dainst.org/period/p5YQVNoly66L		semapv:UnspecifiedMatching	
+dai:_052dd27f	Frühe und mittlere Kaiserzeit (Eggers A/B)	skos:exactMatch	http://chronontology.dainst.org/period/xdr1qDRsVUiB		semapv:UnspecifiedMatching	
+dai:_0530b8a9	Römische Kaiserzeit	skos:exactMatch	http://chronontology.dainst.org/period/bKl9jq6zJHQc		semapv:UnspecifiedMatching	
+dai:_05a07a16	illyrisch	skos:exactMatch	dai:_3858#		semapv:UnspecifiedMatching	
+dai:_05ab5433	Mittelminoisch III	skos:exactMatch	http://chronontology.dainst.org/period/JZCgQE9XVjgE		semapv:UnspecifiedMatching	
+dai:_06103ab8	material (1956 - 1997)	skos:exactMatch	http://nomisma.org/id/material		semapv:UnspecifiedMatching	
+dai:_06103ab8	material (1956 - 1997)	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000003		semapv:UnspecifiedMatching	
+dai:_06300f37	Zinn	skos:exactMatch	http://nomisma.org/id/sn		semapv:UnspecifiedMatching	
+dai:_08be1174	Frühhellenismus	skos:exactMatch	http://chronontology.dainst.org/period/oLo7AGjVIIno		semapv:UnspecifiedMatching	
+dai:_09106e2a	Endbronzezeit	skos:exactMatch	http://chronontology.dainst.org/period/OTQ9rrOzhVgl		semapv:UnspecifiedMatching	
+dai:_0aa1995c	Spätgeometrisch	skos:exactMatch	http://chronontology.dainst.org/period/xZiNqiEhIti7		semapv:UnspecifiedMatching	
+dai:_0bbbd3c7	Mittelminoisch	skos:exactMatch	http://chronontology.dainst.org/period/zxq5nBvtYLIB		semapv:UnspecifiedMatching	
+dai:_0bf473ff	Dädalisch	skos:exactMatch	http://chronontology.dainst.org/period/btOUj5sA9qOu		semapv:UnspecifiedMatching	
+dai:_0c62a372	protoattisch	skos:exactMatch	http://chronontology.dainst.org/period/ULPiMrTyGdDe		semapv:UnspecifiedMatching	
+dai:_0d861bbc	Frühmykenisch	skos:exactMatch	http://chronontology.dainst.org/period/GsKbQWJIreF4		semapv:UnspecifiedMatching	
+dai:_10e5d0f3	Mittelhelladisch III	skos:exactMatch	http://chronontology.dainst.org/period/yGQ44sNcIiSj		semapv:UnspecifiedMatching	
+dai:_10f31087	Frühhelladisch II	skos:exactMatch	http://chronontology.dainst.org/period/iyzHautVtYVf		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:closeMatch	dai:arachne_value_76576		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:closeMatch	dai:arachne_value_76577		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:closeMatch	dai:arachne_value_76578		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:closeMatch	dai:arachne_value_76579		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:exactMatch	dai:arachne_value_76568		semapv:UnspecifiedMatching	
+dai:_11038b72	Späthelladisch III A	skos:exactMatch	http://chronontology.dainst.org/period/yx1n7vIQXHYq		semapv:UnspecifiedMatching	
+dai:_14bf8f23	Ägäische und griechische Bronzezeitchronologie	skos:exactMatch	http://chronontology.dainst.org/period/6MVbpzo5kstF		semapv:UnspecifiedMatching	
+dai:_156ae356	Jungneolithikum	skos:exactMatch	http://chronontology.dainst.org/period/dRhXAx1RY4MS		semapv:UnspecifiedMatching	
+dai:_15865b3e	Frühhelladisch III	skos:exactMatch	http://chronontology.dainst.org/period/NJgbKsWOvbSp		semapv:UnspecifiedMatching	
+dai:_1591f7f8	Hochmittelalter (ca. 900-1250)	skos:exactMatch	https://chronontology.dainst.org/period/LX5sP0qgXpoc		semapv:UnspecifiedMatching	
+dai:_159e5ee6	Mittelbronzezeit	skos:exactMatch	http://chronontology.dainst.org/period/xwwG9nQva5bu		semapv:UnspecifiedMatching	
+dai:_160b3380	Elektron	skos:exactMatch	http://nomisma.org/id/el		semapv:UnspecifiedMatching	
+dai:_166d43a8	bronze	skos:exactMatch	http://nomisma.org/id/ae		semapv:UnspecifiedMatching	
+dai:_16fbdb83	Klassische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/PrbzOZMRjCBQ		semapv:UnspecifiedMatching	
+dai:_19115443	Magnesium	skos:exactMatch	dai:_2650#		semapv:UnspecifiedMatching	
+dai:_19718518	fountains (untill 1997 subdivided)	skos:closeMatch	dai:_06df2601		semapv:UnspecifiedMatching	
+dai:_1972b041	Soldatenkaiser	skos:exactMatch	http://chronontology.dainst.org/period/6yOBUymxIvfH		semapv:UnspecifiedMatching	
+dai:_1b23b7aa	Frühprotokorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/1dswsl0r0Rj8		semapv:UnspecifiedMatching	
+dai:_1c0fa2d2	Objekte	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000004		semapv:UnspecifiedMatching	
+dai:_1c4e6622	Stempel	skos:closeMatch	http://nomisma.org/id/die		semapv:UnspecifiedMatching	
+dai:_1d839342	Mittelbyzantinisch	skos:exactMatch	http://chronontology.dainst.org/period/zPBCAaAerEYS		semapv:UnspecifiedMatching	
+dai:_1de3178a	Spätgeometrisch I	skos:exactMatch	http://chronontology.dainst.org/period/t3dUCMX1JFth		semapv:UnspecifiedMatching	
+dai:_1f524e33	Frühbronzezeit	skos:exactMatch	http://chronontology.dainst.org/period/5xdcPsYrmHL0		semapv:UnspecifiedMatching	
+dai:_1f71d5dc	history of art	skos:closeMatch	dai:_2721.		semapv:UnspecifiedMatching	
+dai:_233a3677	Gebaute Umgebung und Befunde	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000018		semapv:UnspecifiedMatching	
+dai:_252522e9	museology	skos:exactMatch	dai:de_15		semapv:UnspecifiedMatching	
+dai:_26280e6c	Früharchaisch	skos:exactMatch	http://chronontology.dainst.org/period/DNQC9CbQyUXp		semapv:UnspecifiedMatching	
+dai:_26bca4bc	Korinthisch	skos:exactMatch	http://chronontology.dainst.org/period/tuUMtGhBqUDd		semapv:UnspecifiedMatching	
+dai:_29baa959	Frühhelladikum	skos:exactMatch	http://chronontology.dainst.org/period/iRlJvqohiuZR		semapv:UnspecifiedMatching	
+dai:_2b45060c	Neronisch	skos:exactMatch	http://chronontology.dainst.org/period/oV2CxuQDUuuw		semapv:UnspecifiedMatching	
+dai:_2b873128	Guss	skos:exactMatch	http://nomisma.org/id/cast		semapv:UnspecifiedMatching	
+dai:_2b930717	Spätprotokorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/VhT7jH8m0E2H		semapv:UnspecifiedMatching	
+dai:_2c5e6519	Spätantike	skos:exactMatch	http://chronontology.dainst.org/period/ZJwhOGTXDXZX		semapv:UnspecifiedMatching	
+dai:_2e5fdad9	Spätbyzantinisch	skos:exactMatch	http://chronontology.dainst.org/period/YRwAU4tS7fvH		semapv:UnspecifiedMatching	
+dai:_2eaf48c6	Jüngere Eisenzeit (Mitteleuropa)	skos:exactMatch	http://chronontology.dainst.org/period/Ck8Cur4bQNE4		semapv:UnspecifiedMatching	
+dai:_2ecdb440	Frühkykladisch II	skos:exactMatch	http://chronontology.dainst.org/period/uCgHMWupo9is		semapv:UnspecifiedMatching	
+dai:_2f305609	Theodosianisch	skos:exactMatch	http://chronontology.dainst.org/period/pKMb6nhYI3XY		semapv:UnspecifiedMatching	
+dai:_2fad7185	Frühprotoattisch	skos:exactMatch	http://chronontology.dainst.org/period/26NiMbkBZToa		semapv:UnspecifiedMatching	
+dai:_2fe07279	Genese 	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000016		semapv:UnspecifiedMatching	
+dai:_2fe6f4ee	Antoninisch	skos:exactMatch	http://chronontology.dainst.org/period/dZ3ERUpZtmDy		semapv:UnspecifiedMatching	
+dai:_309adfca	Mittelprotoattisch	skos:exactMatch	http://chronontology.dainst.org/period/UX8iNtl2shZA		semapv:UnspecifiedMatching	
+dai:_30ac6926	Latènezeit	skos:exactMatch	http://chronontology.dainst.org/period/ILLDfhJB7HAf		semapv:UnspecifiedMatching	
+dai:_32eb2837	Spätminoisch I	skos:exactMatch	http://chronontology.dainst.org/period/JNmyWFKQuClD		semapv:UnspecifiedMatching	
+dai:_344a3ee9	Submykenisch	skos:exactMatch	http://chronontology.dainst.org/period/MgRh9wPyim8l		semapv:UnspecifiedMatching	
+dai:_35beea54	Frühminoisch	skos:exactMatch	http://chronontology.dainst.org/period/XppKhDh1DEcQ		semapv:UnspecifiedMatching	
+dai:_35d24b60	Trajanisch	skos:exactMatch	http://chronontology.dainst.org/period/9DshiEVPeqWQ		semapv:UnspecifiedMatching	
+dai:_35d5239b	Frühminoisch I	skos:exactMatch	http://chronontology.dainst.org/period/dfTUn6vsLnkI		semapv:UnspecifiedMatching	
+dai:_39260fea	methods and theory	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000023		semapv:UnspecifiedMatching	
+dai:_3ab9c458	Spätkykladisch III	skos:exactMatch	http://chronontology.dainst.org/period/uJLem3G3Yybz		semapv:UnspecifiedMatching	
+dai:_3bff2fb5	Frühgeometrisch	skos:exactMatch	http://chronontology.dainst.org/period/N6SA3aMUapJj		semapv:UnspecifiedMatching	
+dai:_3daffa4b	Frühmesolithikum	skos:closeMatch	https://chronontology.dainst.org/period/w35tMjbQgMPE		semapv:UnspecifiedMatching	
+dai:_3fcae76d	Mittelmykenisch	skos:exactMatch	http://chronontology.dainst.org/period/QzIwTNiIBEYT		semapv:UnspecifiedMatching	
+dai:_4184afc2	Hallstatt C	skos:exactMatch	http://chronontology.dainst.org/period/nMnCK9s5Cyyj		semapv:UnspecifiedMatching	
+dai:_437c9bf8	Frühkykladisch III	skos:exactMatch	http://chronontology.dainst.org/period/04fIvY4dbTOl		semapv:UnspecifiedMatching	
+dai:_465255e4	Mittelkykladisch	skos:exactMatch	http://chronontology.dainst.org/period/Qw1VpTN3XVf9		semapv:UnspecifiedMatching	
+dai:_46c2d50b	Physische Merkmale	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000019		semapv:UnspecifiedMatching	
+dai:_46c7ab03	Vergoldungen	skos:closeMatch	http://nomisma.org/id/gilded		semapv:UnspecifiedMatching	
+dai:_474fdc79	Raumbezogene Einheiten	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/0000049		semapv:UnspecifiedMatching	
+dai:_47fe49df	Späte Kaiserzeit (Eggers C; ca. 150-375)	skos:exactMatch	http://chronontology.dainst.org/period/vffxyHsXpjuF		semapv:UnspecifiedMatching	
+dai:_499426a1	architecture	skos:exactMatch	http://thesauri.dainst.org_0191b05e		semapv:UnspecifiedMatching	
+dai:_4c6ab632	Hocharchaisch	skos:exactMatch	http://chronontology.dainst.org/period/TUAgYbfZBVxQ		semapv:UnspecifiedMatching	
+dai:_4c881de2	Severisch	skos:exactMatch	http://chronontology.dainst.org/period/49XD6itTpXJ8		semapv:UnspecifiedMatching	
+dai:_4c9b6f46	Frühaugusteisch	skos:exactMatch	http://chronontology.dainst.org/period/jMI3kojyyYgk		semapv:UnspecifiedMatching	
+dai:_4d1096fb	Eisenzeit	skos:exactMatch	http://chronontology.dainst.org/period/cj6Qe6bcZgvi		semapv:UnspecifiedMatching	
+dai:_4d1bfe78	Vorrömische Eisenzeit	skos:exactMatch	http://chronontology.dainst.org/period/k6Gkl4yA7ZkK		semapv:UnspecifiedMatching	
+dai:_4d56ea0c	Gallienisch	skos:exactMatch	http://chronontology.dainst.org/period/sQi9AkYPgCmb		semapv:UnspecifiedMatching	
+dai:_4dc296b2	Ereignisse	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000011		semapv:UnspecifiedMatching	
+dai:_4de2566c	Gordianisch	skos:exactMatch	http://chronontology.dainst.org/period/qywedSO865yR		semapv:UnspecifiedMatching	
+dai:_4e8937db	Almohadisch (ca. 1147-1269)	skos:exactMatch	http://chronontology.dainst.org/period/KIxYZg7Rzult		semapv:UnspecifiedMatching	
+dai:_508b6b1e	Späthelladisch II A	skos:exactMatch	http://chronontology.dainst.org/period/x0W7jnTzMHTN		semapv:UnspecifiedMatching	
+dai:_528bfae4	Mittelkykladisch II	skos:exactMatch	http://chronontology.dainst.org/period/VCDvDZLVcmFM		semapv:UnspecifiedMatching	
+dai:_530b1364	Lineare Ausdehnungen	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/0000053		semapv:UnspecifiedMatching	
+dai:_535c84ee	Hochhellenismus	skos:exactMatch	http://chronontology.dainst.org/period/VhjnYVYpHnft		semapv:UnspecifiedMatching	
+dai:_538757ef	Mittelneolithikum	skos:exactMatch	http://chronontology.dainst.org/period/mPbxVLtLX1tZ		semapv:UnspecifiedMatching	
+dai:_543e4883	Islamisch (nach 634)	skos:exactMatch	http://chronontology.dainst.org/period/vgvQiHhewSxD		semapv:UnspecifiedMatching	
+dai:_564e6125	Claudisch	skos:exactMatch	dai:de/concepts/arachne_value_28613		semapv:UnspecifiedMatching	
+dai:_564e6125	Claudisch	skos:exactMatch	http://chronontology.dainst.org/period/8eb3OwD5RJKs		semapv:UnspecifiedMatching	
+dai:_58694b5f	Spätmittelalter (ca. 1250-1500)	skos:exactMatch	https://chronontology.dainst.org/period/HEuRo8pOA6ic		semapv:UnspecifiedMatching	
+dai:_588a9c73	Konzeptionelle Objekte	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000006		semapv:UnspecifiedMatching	
+dai:_5958c44b	Dämme	skos:closeMatch	dai:_068fd7ef		semapv:UnspecifiedMatching	
+dai:_5958c44b	Dämme	skos:closeMatch	dai:_c33bb23b		semapv:UnspecifiedMatching	
+dai:_595f6ed1	Votive	skos:closeMatch	dai:_6c0bc080		semapv:UnspecifiedMatching	
+dai:_598f0dfd	Symbolische Objekte	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000021		semapv:UnspecifiedMatching	
+dai:_5c27d530	Spätaugusteisch	skos:exactMatch	http://chronontology.dainst.org/period/z2IlJ6Ey2mDf		semapv:UnspecifiedMatching	
+dai:_5d1ac0ba	Hallstatt D	skos:exactMatch	http://chronontology.dainst.org/period/twBAY7HAdxJE		semapv:UnspecifiedMatching	
+dai:_5de157c8	Frühhelladisch I	skos:exactMatch	http://chronontology.dainst.org/period/Stz3tTG89WH8		semapv:UnspecifiedMatching	
+dai:_5e63c1ec	Spätklassik	skos:exactMatch	http://chronontology.dainst.org/period/HTj6bkcY6oQU		semapv:UnspecifiedMatching	
+dai:_5e82af1a	Späte Republik	skos:exactMatch	http://chronontology.dainst.org/period/guwxK6sPgusr		semapv:UnspecifiedMatching	
+dai:_5ea51278	seals	skos:exactMatch	http://nomisma.org/id/seal		semapv:UnspecifiedMatching	
+dai:_6010cd75	Gusserker	skos:exactMatch	file:///home/lasse/repos/thesaurusscience/DAI/Gusserker		semapv:UnspecifiedMatching	
+dai:_618961ce	Barren	skos:exactMatch	http://nomisma.org/id/ingot		semapv:UnspecifiedMatching	
+dai:_620f720c	Spätprotoattisch	skos:exactMatch	http://chronontology.dainst.org/period/DcTIgIPDo7QE		semapv:UnspecifiedMatching	
+dai:_624ef706	Spätneolithikum	skos:exactMatch	http://chronontology.dainst.org/period/hakZia2wXSx7		semapv:UnspecifiedMatching	
+dai:_62a09577	Chronologien	skos:closeMatch	https://vocabs.dariah.eu/bbt/Concept/000005		semapv:UnspecifiedMatching	
+dai:_64e2871b	Frühbyzantinisch	skos:exactMatch	http://chronontology.dainst.org/period/bm6lARXTmbxy		semapv:UnspecifiedMatching	
+dai:_66a09ffb	Spätminoisch III	skos:exactMatch	http://chronontology.dainst.org/period/RXR0s7YdWZ2I		semapv:UnspecifiedMatching	
+dai:_67a3acdc	Ämter	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000025		semapv:UnspecifiedMatching	
+dai:_697dc279	Geometrische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/KS6ZKg6yWtuo		semapv:UnspecifiedMatching	
+dai:_6a167951	Mittellatène (Lt C)	skos:exactMatch	http://chronontology.dainst.org/period/psg5rLnNl5Tl		semapv:UnspecifiedMatching	
+dai:_6a823a3e	glyptics	skos:exactMatch	dai:_4772+		semapv:UnspecifiedMatching	
+dai:_6a93899c	Komponenten	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000020		semapv:UnspecifiedMatching	
+dai:_6d2cb9ed	Almoravidisch (ca. 1046-1147)	skos:exactMatch	http://chronontology.dainst.org/period/BoXTuKGr9z2j		semapv:UnspecifiedMatching	
+dai:_6d528ffb	Späte Kupferzeit	skos:exactMatch	http://chronontology.dainst.org/period/ZsrsKebRTr5l		semapv:UnspecifiedMatching	
+dai:_6e11e02c	Disziplinen und Fachrichtungen	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000010		semapv:UnspecifiedMatching	
+dai:_6f82bef2	Alt-/Frühneolithikum	skos:exactMatch	http://chronontology.dainst.org/period/idAZ4U9HvPxa		semapv:UnspecifiedMatching	
+dai:_711f44b8	orientalisierend	skos:exactMatch	http://chronontology.dainst.org/period/8LhTuI6fZQws		semapv:UnspecifiedMatching	
+dai:_72e32915	Iulisch-claudisch	skos:exactMatch	http://chronontology.dainst.org/period/9NcJMGJLmoxO		semapv:UnspecifiedMatching	
+dai:_73fe7969	Physiogeographische Einheiten	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/0000051		semapv:UnspecifiedMatching	
+dai:_74591782	Spätmykenisch	skos:exactMatch	http://chronontology.dainst.org/period/WPszl3HskK0u		semapv:UnspecifiedMatching	
+dai:_752978ae	Protokorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/t2YcrGGxWIpE		semapv:UnspecifiedMatching	
+dai:_753a8a67	Oberes/Jung-Pleistozän	skos:exactMatch	http://chronontology.dainst.org/period/WfcyjOQ6cXQU		semapv:UnspecifiedMatching	
+dai:_756633c7	Mittelalter (10.-15.Jahrhundert)	skos:exactMatch	http://chronontology.dainst.org/period/iOasO0VSiqjj		semapv:UnspecifiedMatching	
+dai:_7739f460	Späthelladisch II	skos:exactMatch	http://chronontology.dainst.org/period/zcRkHEsRRgdg		semapv:UnspecifiedMatching	
+dai:_77ccef06	vessels	skos:closeMatch	dai:_1fb40fe0		semapv:UnspecifiedMatching	
+dai:_79492093	Banknoten	skos:exactMatch	http://nomisma.org/id/paper_money		semapv:UnspecifiedMatching	
+dai:_7a2de26b	Späthelladisch I	skos:exactMatch	http://chronontology.dainst.org/period/OL8qJDLvVEDB		semapv:UnspecifiedMatching	
+dai:_7a9606cb	Frühminoisch II	skos:exactMatch	http://chronontology.dainst.org/period/2a2aZLHCm8G2		semapv:UnspecifiedMatching	
+dai:_7bb9ece9	3D-Volume	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/0000052		semapv:UnspecifiedMatching	
+dai:_7ca60c0f	Taifazeitlich (ca. 1009-1287)	skos:exactMatch	http://chronontology.dainst.org/period/fWgyEHizyP7N		semapv:UnspecifiedMatching	
+dai:_7ce025e6	faience	skos:exactMatch	dai:arachne_value_77074		semapv:UnspecifiedMatching	
+dai:_7ce025e6	faience	skos:exactMatch	dai:arachne_value_77128		semapv:UnspecifiedMatching	
+dai:_7ce025e6	faience	skos:exactMatch	dai:arachne_value_84281		semapv:UnspecifiedMatching	
+dai:_8764115d	Mittleres Pleistozän	skos:exactMatch	http://chronontology.dainst.org/period/X0UXTeCpLffF		semapv:UnspecifiedMatching	
+dai:_8bb3692d	Mittelpaläolithikum	skos:exactMatch	http://chronontology.dainst.org/period/xLzvZTbW943d		semapv:UnspecifiedMatching	
+dai:_8bca4bf1	Bronzezeit	skos:exactMatch	http://chronontology.dainst.org/period/2ui42h06LVTe		semapv:UnspecifiedMatching	
+dai:_8c9435db	Strenger Stil	skos:exactMatch	http://chronontology.dainst.org/period/PrchHJvl7mmh		semapv:UnspecifiedMatching	
+dai:_8cb35559	Geopolitische Einheiten	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000009		semapv:UnspecifiedMatching	
+dai:_8cea85d5	Frühklassik	skos:exactMatch	http://chronontology.dainst.org/period/a1VBFNGjKxm8		semapv:UnspecifiedMatching	
+dai:_8df2a580	Mittelminoisch I	skos:exactMatch	http://chronontology.dainst.org/period/QF8tX4skBvvd		semapv:UnspecifiedMatching	
+dai:_8f53616c	Mittelkorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/pLfbpBgYgvsn		semapv:UnspecifiedMatching	
+dai:_90580fc5	Hochklassik	skos:exactMatch	http://chronontology.dainst.org/period/Vl1dOcKKkpeh		semapv:UnspecifiedMatching	
+dai:_93f1b1d1	Byzantinische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/4tXbZcNrMS7E		semapv:UnspecifiedMatching	
+dai:_94623b1e	Hadrianisch	skos:exactMatch	http://chronontology.dainst.org/period/RwGmBmSWvZHL		semapv:UnspecifiedMatching	
+dai:_95226d66	Mitteleuropäische Bronzezeitchronologie	skos:exactMatch	http://chronontology.dainst.org/period/rYh7ggsMyaSj		semapv:UnspecifiedMatching	
+dai:_95e9c3a6	Späthelladisch II B	skos:exactMatch	http://chronontology.dainst.org/period/klDq1lC0bTnc		semapv:UnspecifiedMatching	
+dai:_96114c79	Mudéjar (ca. 1085-1492)	skos:exactMatch	http://chronontology.dainst.org/period/XpNLmNLchlZk		semapv:UnspecifiedMatching	
+dai:_9632eade	Spätminoisch	skos:exactMatch	http://chronontology.dainst.org/period/TzYaAe8cBbB5		semapv:UnspecifiedMatching	
+dai:_98088a30	Frühantoninisch	skos:exactMatch	http://chronontology.dainst.org/period/1dH5kfYOFE5T		semapv:UnspecifiedMatching	
+dai:_983742ff	Kalifal (ca. 929-1031)	skos:exactMatch	http://chronontology.dainst.org/period/s3QvtV8yVrm3		semapv:UnspecifiedMatching	
+dai:_984a381b	Hellenistische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/HeJZ8bH8nDbC		semapv:UnspecifiedMatching	
+dai:_9855ea50	Nasridisch (ca. 1238-1492)	skos:exactMatch	http://chronontology.dainst.org/period/0A3tbJhiGWK9		semapv:UnspecifiedMatching	
+dai:_98ccb2bd	Frühmittelalter (5.-9. Jahrh.) 	skos:exactMatch	http://chronontology.dainst.org/period/PxKgPEek0BXT		semapv:UnspecifiedMatching	
+dai:_99aa4cc9	Unteres/Alt-Pleistozän	skos:exactMatch	http://chronontology.dainst.org/period/BK4TjCxqSeAW		semapv:UnspecifiedMatching	
+dai:_9a3aad1b	Eisenzeit (Mittelmeer)	skos:exactMatch	http://chronontology.dainst.org/period/yCRDTtFQlIl8		semapv:UnspecifiedMatching	
+dai:_9a41616f	Rollen	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000008		semapv:UnspecifiedMatching	
+dai:_9a472cbb	Potin	skos:exactMatch	http://nomisma.org/id/potin		semapv:UnspecifiedMatching	
+dai:_9cdb7430	Mittelaugusteisch	skos:exactMatch	http://chronontology.dainst.org/period/arV6Jb9hcKdv		semapv:UnspecifiedMatching	
+dai:_9db89720	Spätantoninisch	skos:exactMatch	http://chronontology.dainst.org/period/cGrUW4bfFGlv		semapv:UnspecifiedMatching	
+dai:_9e28008f	Silber	skos:exactMatch	http://nomisma.org/id/ar		semapv:UnspecifiedMatching	
+dai:_9f153557	Mittelhelladikum	skos:exactMatch	http://chronontology.dainst.org/period/bYKyvXtxx2PU		semapv:UnspecifiedMatching	
+dai:_9f3d13a7	Subgeometrisch	skos:exactMatch	http://chronontology.dainst.org/period/prnj9UnMaWZF		semapv:UnspecifiedMatching	
+dai:_9f5980e9	Flavisch 	skos:exactMatch	http://chronontology.dainst.org/period/mlZjTl5TmrHV		semapv:UnspecifiedMatching	
+dai:_9f9a98b2	Gold	skos:exactMatch	http://nomisma.org/id/av		semapv:UnspecifiedMatching	
+dai:_a160e7a2	Punisch (Nordafrika)	skos:exactMatch	http://chronontology.dainst.org/period/mZ09zLL1wqE5		semapv:UnspecifiedMatching	
+dai:_a2a1efa5	Zink	skos:exactMatch	http://nomisma.org/id/zn		semapv:UnspecifiedMatching	
+dai:_a3a71072	Karolingerzeit (ca. 639-937)	skos:exactMatch	http://chronontology.dainst.org/period/3LyPnx8sQUEZ		semapv:UnspecifiedMatching	
+dai:_a41c44b3	Epipaläolithikum	skos:exactMatch	http://chronontology.dainst.org/period/zesdaTksSJux		semapv:UnspecifiedMatching	
+dai:_a4276388	Spätbronzezeit	skos:exactMatch	http://chronontology.dainst.org/period/nkYyjaEHAXbG		semapv:UnspecifiedMatching	
+dai:_a4be3392	Spätminoisch IIIA	skos:exactMatch	http://chronontology.dainst.org/period/msJg9laKGzWb		semapv:UnspecifiedMatching	
+dai:_a4c97475	archaisch	skos:exactMatch	http://chronontology.dainst.org/period/LJmbpIwxIzRZ		semapv:UnspecifiedMatching	
+dai:_a671d80c	Subminoisch	skos:exactMatch	http://chronontology.dainst.org/period/oUJ4bczBkP9N		semapv:UnspecifiedMatching	
+dai:_a828586d	Spätkykladisch	skos:exactMatch	http://chronontology.dainst.org/period/buIBWaKedpJT		semapv:UnspecifiedMatching	
+dai:_a91d7f99	Konstantinisch	skos:exactMatch	http://chronontology.dainst.org/period/aGQT7LqXvOyt		semapv:UnspecifiedMatching	
+dai:_a952843c	Süddeutsche Bronzezeitchronologie	skos:closeMatch	https://chronontology.dainst.org/period/xwwG9nQva5bu		semapv:UnspecifiedMatching	
+dai:_aa025995	Spätgeometrisch II	skos:exactMatch	http://chronontology.dainst.org/period/a0IZrpI32aQG		semapv:UnspecifiedMatching	
+dai:_acc90782	Ältere Eisenzeit (Mitteleuropa)	skos:exactMatch	http://chronontology.dainst.org/period/NtKPKClkMids		semapv:UnspecifiedMatching	
+dai:_acee2faf	military equipment	skos:closeMatch	dai:_ff475f46		semapv:UnspecifiedMatching	
+dai:_ad8a599b	Spätminoisch II	skos:exactMatch	http://chronontology.dainst.org/period/XAYO4pZCUL4U		semapv:UnspecifiedMatching	
+dai:_ad8ec5e3	goods and commodities	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000017		semapv:UnspecifiedMatching	
+dai:_ae84536e	Atlantische Bronzezeitchronologie	skos:closeMatch	https://chronontology.dainst.org/period/nkYyjaEHAXbG		semapv:UnspecifiedMatching	
+dai:_af14464c	Spätminoisch IIIB	skos:exactMatch	http://chronontology.dainst.org/period/KS9ovjSjXKXy		semapv:UnspecifiedMatching	
+dai:_af443381	Spätkorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/HEi1VjffUt9Y		semapv:UnspecifiedMatching	
+dai:_afaf4e77	Späthelladisch III B	skos:exactMatch	http://chronontology.dainst.org/period/EViLMBCtCniv		semapv:UnspecifiedMatching	
+dai:_afbdde2e	Mittelmesolithikum	skos:closeMatch	https://chronontology.dainst.org/period/w35tMjbQgMPE		semapv:UnspecifiedMatching	
+dai:_b087b8e1	iron	skos:exactMatch	http://nomisma.org/id/fe		semapv:UnspecifiedMatching	
+dai:_b34a7579	Spätmesolithikum	skos:closeMatch	https://chronontology.dainst.org/period/w35tMjbQgMPE		semapv:UnspecifiedMatching	
+dai:_b5f3ac52	Mozarabisch (ca. 711-1200)	skos:exactMatch	http://chronontology.dainst.org/period/1metfGGpGumv		semapv:UnspecifiedMatching	
+dai:_b607d747	Frühkykladisch	skos:exactMatch	http://chronontology.dainst.org/period/SYprFxSH81qc		semapv:UnspecifiedMatching	
+dai:_b69f4c21	Späthelladisch III C	skos:exactMatch	http://chronontology.dainst.org/period/NpJJpC5tk3xR		semapv:UnspecifiedMatching	
+dai:_b72252ed	Frühminoisch III	skos:exactMatch	http://chronontology.dainst.org/period/ua9dJy4zAkO5		semapv:UnspecifiedMatching	
+dai:_b938521a	Billon	skos:exactMatch	http://nomisma.org/id/billon		semapv:UnspecifiedMatching	
+dai:_b9892df7	Archaische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/EfFq8qCFODK8		semapv:UnspecifiedMatching	
+dai:_b9fce3db	Altpaläolithikum	skos:exactMatch	http://chronontology.dainst.org/period/rjdGNAvZHqfJ		semapv:UnspecifiedMatching	
+dai:_ba0c5b5d	Frühe Völkerwanderungszeit (Eggers D, 375-478 A.D.)	skos:exactMatch	https://chronontology.dainst.org/period/iFLvMfRgpJQC		semapv:UnspecifiedMatching	
+dai:_bd8fc709	Lanzen	skos:exactMatch	dai:_155b1d6e		semapv:UnspecifiedMatching	
+dai:_c0a8d632	Merowingerzeit (ca. 457-754)	skos:exactMatch	http://chronontology.dainst.org/period/zEOoWDgH38YP		semapv:UnspecifiedMatching	
+dai:_c1210d5a	Hallstatt A = Urnenfelderzeit	skos:exactMatch	http://chronontology.dainst.org/period/d0e0jcKURWql		semapv:UnspecifiedMatching	
+dai:_c26d8599	Kupferzeit/Äneolithikum/Chalcolithikum	skos:exactMatch	http://chronontology.dainst.org/period/6zl7BCdHCwSo		semapv:UnspecifiedMatching	
+dai:_c2d1bd0c	Akeramisches Neolithikum (PPNA, PPNB)	skos:closeMatch	https://chronontology.dainst.org/period/dRhXAx1RY4MS		semapv:UnspecifiedMatching	
+dai:_c30d6117	Substruktionen	skos:exactMatch	dai:_4702b7a4		semapv:UnspecifiedMatching	
+dai:_c332e252	Hallstattzeit (Mitteleuropa)	skos:exactMatch	http://chronontology.dainst.org/period/QZnA5emObLP0		semapv:UnspecifiedMatching	
+dai:_c47df3a2	copper	skos:exactMatch	http://nomisma.org/id/cu		semapv:UnspecifiedMatching	
+dai:_c58fc467	Mykenische Zeit	skos:exactMatch	http://chronontology.dainst.org/period/SrMCt6943bDu		semapv:UnspecifiedMatching	
+dai:_c6622738	Späthellenismus	skos:exactMatch	http://chronontology.dainst.org/period/GPfXEkROD7LY		semapv:UnspecifiedMatching	
+dai:_c7cb4d75	Contorniaten	skos:exactMatch	http://nomisma.org/id/contorniate		semapv:UnspecifiedMatching	
+dai:_ca89c6a9	Spätrömische-/Völkerwanderungszeit (4.-6. Jh.)	skos:exactMatch	http://chronontology.dainst.org/period/R9CDDZhGY5qH		semapv:UnspecifiedMatching	
+dai:_cadb286c	Hallstatt B	skos:exactMatch	http://chronontology.dainst.org/period/nNig5S41Ul8N		semapv:UnspecifiedMatching	
+dai:_cbba060c	Numidisch (Nordafrika)	skos:exactMatch	http://chronontology.dainst.org/period/HbbUyw91azfP		semapv:UnspecifiedMatching	
+dai:_cc22e013	Protogeometrisch	skos:exactMatch	http://chronontology.dainst.org/period/1hcdKZcfnuXi		semapv:UnspecifiedMatching	
+dai:_cc383c1d	Mittelprotokorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/SJRFUONx4sgo		semapv:UnspecifiedMatching	
+dai:_cc425b72	Tausch	skos:closeMatch	dai:_9a9f2168		semapv:UnspecifiedMatching	
+dai:_ccc4d1d5	Spätlatène (Lt D)	skos:exactMatch	http://chronontology.dainst.org/period/cifdEhN8plBC		semapv:UnspecifiedMatching	
+dai:_cd6327b4	Kaiserzeit-Spätantike	skos:exactMatch	http://chronontology.dainst.org/period/sTAli5CHCKzd		semapv:UnspecifiedMatching	
+dai:_cedc2f74	Nickel	skos:exactMatch	http://nomisma.org/id/ni		semapv:UnspecifiedMatching	
+dai:_d0f38906	Mittelkykladisch I	skos:exactMatch	http://chronontology.dainst.org/period/cC3rtOjSxzJW		semapv:UnspecifiedMatching	
+dai:_d5d756a7	Frühkykladisch I	skos:exactMatch	http://chronontology.dainst.org/period/h7fGt5vRdvlj		semapv:UnspecifiedMatching	
+dai:_d6b12791	Medaillen	skos:exactMatch	http://nomisma.org/id/medal		semapv:UnspecifiedMatching	
+dai:_d729a2fd	Mittelhelladisch II	skos:exactMatch	http://chronontology.dainst.org/period/MFwpooY3aOYj		semapv:UnspecifiedMatching	
+dai:_d8bf23e6	Spätkykladisch I	skos:exactMatch	http://chronontology.dainst.org/period/8eWzLtKWBYY6		semapv:UnspecifiedMatching	
+dai:_d9539381	Frühkorinthisch	skos:exactMatch	http://chronontology.dainst.org/period/bkIcGgMg2K1z		semapv:UnspecifiedMatching	
+dai:_d9a01ada	Aussageobjekte	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000022		semapv:UnspecifiedMatching	
+dai:_dac3529c	Paläolithikum	skos:exactMatch	http://chronontology.dainst.org/period/DRh5u7hRWe3y		semapv:UnspecifiedMatching	
+dai:_dcceb2f5	Mittelhelladisch I	skos:exactMatch	http://chronontology.dainst.org/period/dBVyjDtlj9ct		semapv:UnspecifiedMatching	
+dai:_dfdb34ff	Konzepte	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000024		semapv:UnspecifiedMatching	
+dai:_e04cc3e7	Aktivitäten	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000001		semapv:UnspecifiedMatching	
+dai:_e121a211	Späthelladisch III	skos:exactMatch	http://chronontology.dainst.org/period/7Ul9CgiYiZAH		semapv:UnspecifiedMatching	
+dai:_e140fe64	Natürliche Prozesse	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000002		semapv:UnspecifiedMatching	
+dai:_e28254e7	Tetrarchisch	skos:exactMatch	http://chronontology.dainst.org/period/lt6m2UCO2MHS		semapv:UnspecifiedMatching	
+dai:_e2eff393	Funktionen	skos:exactMatch	https://vocabs.dariah.eu/bbt/Concept/000013		semapv:UnspecifiedMatching	
+dai:_e2fd5130	Personen	skos:exactMatch	dai:de/concepts/new.html		semapv:UnspecifiedMatching	
+dai:_e42a5238	Saint-Uze	skos:exactMatch	sainthttp://thesauri.dainst.org/_852671fb		semapv:UnspecifiedMatching	
+dai:_e5799cbe	Pyxiden	skos:closeMatch	dai:_8064a2b2		semapv:UnspecifiedMatching	
+dai:_e616464d	Endmesolithikum	skos:closeMatch	https://chronontology.dainst.org/period/w35tMjbQgMPE		semapv:UnspecifiedMatching	
+dai:_ece33704	Genealogie	skos:closeMatch	dai:_376#		semapv:UnspecifiedMatching	
+dai:_ed0828c5	Republikanische Zeit (Italien)	skos:exactMatch	http://chronontology.dainst.org/period/EjdISVTsTkyh		semapv:UnspecifiedMatching	
+dai:_eee85fa3	Spät-/Endpaläolithikum	skos:exactMatch	https://chronontology.dainst.org/period/el422Pl4bQ3g		semapv:UnspecifiedMatching	
+dai:_eef15fc7	Neolithikum	skos:exactMatch	http://chronontology.dainst.org/period/szXcCUvcKfez		semapv:UnspecifiedMatching	
+dai:_ef5cdbc4	Mesolithikum	skos:exactMatch	https://chronontology.dainst.org/period/w35tMjbQgMPE		semapv:UnspecifiedMatching	
+dai:_efb49bfd	Augusteisch	skos:exactMatch	http://chronontology.dainst.org/period/izNtpADTHEE3		semapv:UnspecifiedMatching	
+dai:_f0708f53	Messing	skos:exactMatch	http://nomisma.org/id/brass		semapv:UnspecifiedMatching	
+dai:_f30cc6be	Westgotenzeitlich (ca. 418-711)	skos:exactMatch	http://chronontology.dainst.org/period/PxHYcYatz5YJ		semapv:UnspecifiedMatching	
+dai:_f5eff9bb	lead	skos:exactMatch	http://nomisma.org/id/pb		semapv:UnspecifiedMatching	
+dai:_f9010334	Mittelminoisch II	skos:exactMatch	http://chronontology.dainst.org/period/lxGOZ7D3D8xb		semapv:UnspecifiedMatching	
+dai:_fa319636	Spätkykladisch II	skos:exactMatch	http://chronontology.dainst.org/period/GtwzyoVCgKRA		semapv:UnspecifiedMatching	
+dai:_fae7b079	Mittelkykladisch III	skos:exactMatch	http://chronontology.dainst.org/period/DYFqZtUSNkYn		semapv:UnspecifiedMatching	
+dai:_fbbf4a72	Mittelantoninisch	skos:exactMatch	http://chronontology.dainst.org/period/MKDQdW5LKYHo		semapv:UnspecifiedMatching	
+dai:_fcc3853f	Frühe Kupferzeit	skos:exactMatch	http://chronontology.dainst.org/period/hR0EbFBBI74M		semapv:UnspecifiedMatching	
+dai:_fe470a76	Mittelgeometrisch	skos:exactMatch	http://chronontology.dainst.org/period/975UZkuCi5Dh		semapv:UnspecifiedMatching	
+dai:_feb4fbdf	Tiberisch	skos:exactMatch	http://chronontology.dainst.org/period/dRof7D6qNh6d		semapv:UnspecifiedMatching	
+dai:_ff9eb49a	Münzen	skos:exactMatch	http://nomisma.org/id/coin		semapv:UnspecifiedMatching	

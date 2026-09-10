@@ -1,0 +1,39 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dariah_vocabs__http_thesauri_dainst_org_scheme__http_thesauri_dainst_org_scheme.sssom.tsv
+#mapping_set_title: DARIAH-DE vocabularies SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of DARIAH-DE vocabularies (concept scheme: http://thesauri.dainst.org/scheme), targeting concept scheme http://thesauri.dainst.org/scheme. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://thesauri.dainst.org/scheme
+#subject_source_version: 1.2
+#object_source: http://thesauri.dainst.org/scheme
+#object_source_version: 1.2
+#comment: Extracted from local RDF file DAI_v1.2_Idaiworld.ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+http://thesauri.dainst.org/_28017b83	anatolisch (Sprache)	skos:exactMatch	http://thesauri.dainst.org/_28017b83	anatolisch (Sprache)	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_53d904e5	economy	skos:exactMatch	http://thesauri.dainst.org/_53d904e5	economy	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_5c0d4c34	Park	skos:exactMatch	http://thesauri.dainst.org/_5c0d4c34	Park	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_74f61838	Oratorien	skos:closeMatch	http://thesauri.dainst.org/_d98a7902	Chapel	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_7f5db256	traffic	skos:exactMatch	http://thesauri.dainst.org/_7f5db256	traffic	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_88ac328a	Siebgefäße	skos:exactMatch	http://thesauri.dainst.org/_b09ed63b	Colander	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_8f3ab352	Thymiateria	skos:exactMatch	http://thesauri.dainst.org/_8f3ab352	Thymiateria	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_9349f8ed	Kunst	skos:closeMatch	http://thesauri.dainst.org/_9349f8ed	Kunst	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_b8ffe37b	sarcophagi	skos:exactMatch	http://thesauri.dainst.org/_b8ffe37b	sarcophagi	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_bc9fb671	Wollkämme	skos:closeMatch	http://thesauri.dainst.org/_8eebaece	Webkämme	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_bccde16c	Kopfschmuck	skos:exactMatch	http://thesauri.dainst.org/_bccde16c	Kopfschmuck	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_ce2fbcc5	Kunst (Disziplin)	skos:closeMatch	http://thesauri.dainst.org/_9349f8ed	Kunst	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_dcfcfbd4	mosaic	skos:closeMatch	http://thesauri.dainst.org/_41b25740	Bodenmosaiken	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_e18aef5f	females	skos:closeMatch	http://thesauri.dainst.org/_1ce6f32f	statues of women	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_e22785de	Auvernier-Kultur	skos:exactMatch	http://thesauri.dainst.org/_e22785de	Auvernier-Kultur	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_ecd0475d	Zähne	skos:closeMatch	http://thesauri.dainst.org/_9a89e9b8	Zahnuntersuchungen	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_f114dda0	Basarabi-Kultur	skos:closeMatch	http://thesauri.dainst.org/_f114dda0	Basarabi-Kultur	semapv:UnspecifiedMatching	
+http://thesauri.dainst.org/_f644432c	Open	skos:closeMatch	http://thesauri.dainst.org/_6dc4632d	offene Form	semapv:UnspecifiedMatching	

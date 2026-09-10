@@ -1,0 +1,918 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#  fish: http://purl.org/heritagedata/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/fish__http_purl_org_heritagedata_schemes_10__unknown_target_scheme.sssom.tsv
+#mapping_set_title: FISH SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of FISH (concept scheme: http://purl.org/heritagedata/schemes/10). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: fish:schemes/10
+#subject_source_version: 2007-04-05T11:33:47
+#comment: Extracted from local RDF file seneschal_rc_10_20130717.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+fish:schemes/10/concepts/100022	PRACTICE TRENCH	skos:broadMatch	http://dewey.info/class/355.44/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/100022	PRACTICE TRENCH	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/100022	PRACTICE TRENCH	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/100233	WRECK	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/100233	WRECK	skos:broadMatch	http://dewey.info/class/623.8176/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/102912	ARCHAEOLOGICAL FEATURE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/103432	LOCK	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/103432	LOCK	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/104133	PREFABRICATED BUILDING	skos:broadMatch	http://dewey.info/class/691.97/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/104133	PREFABRICATED BUILDING	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/104173	LONGHOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/104193	BARYTES MILL	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/104193	BARYTES MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/119053	BARRAGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/119053	BARRAGE	skos:broadMatch	http://dewey.info/class/627.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/136830	MESS	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/136830	MESS	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500020	BOAT	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500020	BOAT	skos:broadMatch	http://dewey.info/class/623.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500042	CUBE	skos:broadMatch	http://dewey.info/class/358.1382/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500042	CUBE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500047	DEFENDED BUILDING	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500047	DEFENDED BUILDING	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500085	LANDSCAPE	skos:broadMatch	http://dewey.info/class/712.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500085	LANDSCAPE	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500105	MINING FEATURE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500132	PILLBOX (TYPE FW3/24)	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500132	PILLBOX (TYPE FW3/24)	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500134	PILLBOX (VARIANT)	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500134	PILLBOX (VARIANT)	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500145	QUARRY BUILDING	skos:broadMatch	http://dewey.info/class/622.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500145	QUARRY BUILDING	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500155	SCOURING BASIN	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500155	SCOURING BASIN	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500164	SLUICE HOUSE	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500164	SLUICE HOUSE	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500187	TREE	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500187	TREE	skos:broadMatch	http://dewey.info/class/719.33/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500199	WIND FARM	skos:broadMatch	http://dewey.info/class/621.312136/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500199	WIND FARM	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500259	ALUMINIUM WORKS	skos:broadMatch	http://dewey.info/class/671/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500259	ALUMINIUM WORKS	skos:broadMatch	http://dewey.info/class/673.722/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500264	CANABAE	skos:broadMatch	http://dewey.info/class/722.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500264	CANABAE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500265	CANAL BUILDING	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500265	CANAL BUILDING	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500274	BATTLE SITE	skos:broadMatch	http://dewey.info/class/355.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500274	BATTLE SITE	skos:broadMatch	http://dewey.info/class/356/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500280	BRICK AND TILE WORKS	skos:broadMatch	http://dewey.info/class/666.737/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500280	BRICK AND TILE WORKS	skos:broadMatch	http://dewey.info/class/691/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500282	BUILDING COMPLEX	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500290	COKING WORKS	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500290	COKING WORKS	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500295	LIME WORKINGS	skos:broadMatch	http://dewey.info/class/622.3516/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500295	LIME WORKINGS	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500300	CHAPEL HOUSE	skos:broadMatch	http://dewey.info/class/726.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500300	CHAPEL HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500304	CITY	skos:broadMatch	http://dewey.info/class/307.764/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500304	CITY	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500306	CREMATION BURIAL	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500306	CREMATION BURIAL	skos:broadMatch	http://dewey.info/class/725.597/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500307	CROPMARK	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500309	DEFENDED ENCLOSURE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500310	DEFENDED SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500310	DEFENDED SETTLEMENT	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500311	DEPOT	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500311	DEPOT	skos:broadMatch	http://dewey.info/class/725.38/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500312	DESERTED RURAL SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500312	DESERTED RURAL SETTLEMENT	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500316	LLYS	skos:broadMatch	http://dewey.info/class/728.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500316	LLYS	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500318	LONG HUT	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500326	ENCLOSURE COMPLEX	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500326	ENCLOSURE COMPLEX	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500331	FLANNEL MILL	skos:broadMatch	http://dewey.info/class/677/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500331	FLANNEL MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500345	HOARD	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500346	HOME FARM	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500346	HOME FARM	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500350	ICE FACTORY	skos:broadMatch	http://dewey.info/class/664/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500350	ICE FACTORY	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500353	INVASION SITE	skos:broadMatch	http://dewey.info/class/356/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500366	LEAT SYSTEM	skos:broadMatch	http://dewey.info/class/627.45/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500366	LEAT SYSTEM	skos:broadMatch	http://dewey.info/class/627/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500381	OIL DEPOT	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500381	OIL DEPOT	skos:broadMatch	http://dewey.info/class/665.53/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500389	PLACE NAME	skos:broadMatch	http://dewey.info/class/910/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500389	PLACE NAME	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500394	PREHISTORIC MONUMENT COMPLEX	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500394	PREHISTORIC MONUMENT COMPLEX	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500406	TINPLATE WORKS	skos:broadMatch	http://dewey.info/class/672.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500406	TINPLATE WORKS	skos:broadMatch	http://dewey.info/class/672/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500407	SHOWGROUND	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500407	SHOWGROUND	skos:broadMatch	http://dewey.info/class/636.0811/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500409	SLATE PROCESSING WORKS	skos:broadMatch	http://dewey.info/class/622.354/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500409	SLATE PROCESSING WORKS	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500413	STANDING STONE PAIR	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500413	STANDING STONE PAIR	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500423	TERRACED HOUSING	skos:broadMatch	http://dewey.info/class/728.312/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500423	TERRACED HOUSING	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500901	COUNTRY HOUSE ESTATE	skos:broadMatch	http://dewey.info/class/712.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500901	COUNTRY HOUSE ESTATE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/500901	COUNTRY HOUSE ESTATE	skos:broadMatch	http://dewey.info/class/731/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68544	AGRICULTURAL BUILDING	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68544	AGRICULTURAL BUILDING	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68545	ABATTOIR	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68545	ABATTOIR	skos:broadMatch	http://dewey.info/class/664.9029/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68545	ABATTOIR	skos:broadMatch	http://dewey.info/class/664/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68547	BARN	skos:broadMatch	http://dewey.info/class/633/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68547	BARN	skos:broadMatch	http://dewey.info/class/728.922/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68549	TITHE BARN	skos:broadMatch	http://dewey.info/class/633/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68549	TITHE BARN	skos:broadMatch	http://dewey.info/class/728.922/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68555	CORN MILL	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68555	CORN MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68557	DAIRY	skos:broadMatch	http://dewey.info/class/338.47637/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68557	DAIRY	skos:broadMatch	http://dewey.info/class/637/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68558	DOVECOTE	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68558	DOVECOTE	skos:broadMatch	http://dewey.info/class/728.927/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68560	FARMHOUSE	skos:broadMatch	http://dewey.info/class/728.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68560	FARMHOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68561	GRANARY	skos:broadMatch	http://dewey.info/class/633/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68561	GRANARY	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68566	MALT HOUSE	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68566	MALT HOUSE	skos:broadMatch	http://dewey.info/class/663.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68568	PIGSTY	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68568	PIGSTY	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68568	PIGSTY	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68569	POULTRY HOUSE	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68569	POULTRY HOUSE	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68569	POULTRY HOUSE	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68570	SHEEP HOUSE	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68570	SHEEP HOUSE	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68579	CORN DRYING KILN	skos:broadMatch	http://dewey.info/class/664/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68593	FISHERY	skos:broadMatch	http://dewey.info/class/639.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68593	FISHERY	skos:broadMatch	http://dewey.info/class/639/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68595	FISH TRAP	skos:broadMatch	http://dewey.info/class/639.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68595	FISH TRAP	skos:broadMatch	http://dewey.info/class/639/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68596	FISH WEIR	skos:broadMatch	http://dewey.info/class/639.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68596	FISH WEIR	skos:broadMatch	http://dewey.info/class/639/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68612	CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68612	CAIRN	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68613	CLEARANCE CAIRN	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68613	CLEARANCE CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68615	COMMON LAND	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68615	COMMON LAND	skos:broadMatch	http://dewey.info/class/712.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68621	FARM	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68621	FARM	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68622	FARMSTEAD	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68622	FARMSTEAD	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68625	FIELD BOUNDARY	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68625	FIELD BOUNDARY	skos:broadMatch	http://dewey.info/class/631.27/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68628	RIDGE AND FURROW	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68628	RIDGE AND FURROW	skos:broadMatch	http://dewey.info/class/631.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68633	FIELD SYSTEM	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68633	FIELD SYSTEM	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68641	GARDEN	skos:broadMatch	http://dewey.info/class/712/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68645	NURSERY GARDEN	skos:broadMatch	http://dewey.info/class/631.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68645	NURSERY GARDEN	skos:broadMatch	http://dewey.info/class/635/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68646	GRANGE	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68646	GRANGE	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68649	ORCHARD	skos:broadMatch	http://dewey.info/class/634.11/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68649	ORCHARD	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68653	VILLA	skos:broadMatch	http://dewey.info/class/728.37/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68653	VILLA	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68657	WOOD BANK	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68657	WOOD BANK	skos:broadMatch	http://dewey.info/class/719.33/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68658	OYSTER BEDS	skos:broadMatch	http://dewey.info/class/338.37244/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68658	OYSTER BEDS	skos:broadMatch	http://dewey.info/class/639/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68659	PILLOW MOUND	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68659	PILLOW MOUND	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68659	PILLOW MOUND	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68661	RABBIT WARREN	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68661	RABBIT WARREN	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68663	SHEEP FOLD	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68663	SHEEP FOLD	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68685	POST OFFICE	skos:broadMatch	http://dewey.info/class/383/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68685	POST OFFICE	skos:broadMatch	http://dewey.info/class/725.16/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68687	SIGNAL STATION	skos:broadMatch	http://dewey.info/class/384/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68687	SIGNAL STATION	skos:broadMatch	http://dewey.info/class/621.38/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68690	TELEPHONE BOX	skos:broadMatch	http://dewey.info/class/384.65/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68690	TELEPHONE BOX	skos:broadMatch	http://dewey.info/class/384/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68692	COUNTY HALL	skos:broadMatch	http://dewey.info/class/352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68692	COUNTY HALL	skos:broadMatch	http://dewey.info/class/725.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68692	COUNTY HALL	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68695	COLLEGE	skos:broadMatch	http://dewey.info/class/727.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68695	COLLEGE	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68697	LIBRARY	skos:broadMatch	http://dewey.info/class/727.84/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68697	LIBRARY	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68698	MUSEUM	skos:broadMatch	http://dewey.info/class/708/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68698	MUSEUM	skos:broadMatch	http://dewey.info/class/727.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68700	SCHOOL	skos:broadMatch	http://dewey.info/class/727.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68700	SCHOOL	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68703	UNIVERSITY	skos:broadMatch	http://dewey.info/class/727.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68703	UNIVERSITY	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68706	GUILDHALL	skos:broadMatch	http://dewey.info/class/352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68706	GUILDHALL	skos:broadMatch	http://dewey.info/class/725.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68709	ALMSHOUSE	skos:broadMatch	http://dewey.info/class/362/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68709	ALMSHOUSE	skos:broadMatch	http://dewey.info/class/725.55/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68716	HOSPITAL	skos:broadMatch	http://dewey.info/class/610/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68716	HOSPITAL	skos:broadMatch	http://dewey.info/class/725.51/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68723	WORKHOUSE	skos:broadMatch	http://dewey.info/class/360/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68723	WORKHOUSE	skos:broadMatch	http://dewey.info/class/725.55/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68725	COURT HOUSE	skos:broadMatch	http://dewey.info/class/365/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68725	COURT HOUSE	skos:broadMatch	http://dewey.info/class/725.15/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68725	COURT HOUSE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68734	POLICE STATION	skos:broadMatch	http://dewey.info/class/365/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68734	POLICE STATION	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68735	PRISON	skos:broadMatch	http://dewey.info/class/365/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68735	PRISON	skos:broadMatch	http://dewey.info/class/725.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68749	PUBLIC BUILDING	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68750	TOWN	skos:broadMatch	http://dewey.info/class/307.762/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68750	TOWN	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68754	TOWN HALL	skos:broadMatch	http://dewey.info/class/352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68754	TOWN HALL	skos:broadMatch	http://dewey.info/class/725.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68765	COMMEMORATIVE MONUMENT	skos:broadMatch	http://dewey.info/class/711/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68765	COMMEMORATIVE MONUMENT	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68771	WAR MEMORIAL	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68771	WAR MEMORIAL	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68775	STATUE	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68775	STATUE	skos:broadMatch	http://dewey.info/class/735/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68789	FAIR	skos:broadMatch	http://dewey.info/class/302/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68789	FAIR	skos:broadMatch	http://dewey.info/class/712.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68792	HOTEL	skos:broadMatch	http://dewey.info/class/728.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68792	HOTEL	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68793	INN	skos:broadMatch	http://dewey.info/class/725.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68793	INN	skos:broadMatch	http://dewey.info/class/728.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68793	INN	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68797	LIVESTOCK MARKET	skos:broadMatch	http://dewey.info/class/338.176/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68797	LIVESTOCK MARKET	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68798	MARKET HALL	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68798	MARKET HALL	skos:broadMatch	http://dewey.info/class/725.21/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68800	PUBLIC HOUSE	skos:broadMatch	http://dewey.info/class/725.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68800	PUBLIC HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68803	SHOP	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68803	SHOP	skos:broadMatch	http://dewey.info/class/725.21/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68804	SHOPPING ARCADE	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68804	SHOPPING ARCADE	skos:broadMatch	http://dewey.info/class/721.41/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68806	WAREHOUSE	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68806	WAREHOUSE	skos:broadMatch	http://dewey.info/class/725.35/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68811	AMPHITHEATRE	skos:broadMatch	http://dewey.info/class/722.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68811	AMPHITHEATRE	skos:broadMatch	http://dewey.info/class/725.827/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68811	AMPHITHEATRE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68821	BARRACKS	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68821	BARRACKS	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68832	RIFLE BUTTS	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68832	RIFLE BUTTS	skos:broadMatch	http://dewey.info/class/799.312/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68833	CASTLE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68833	CASTLE	skos:broadMatch	http://dewey.info/class/728.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68841	MOTTE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68841	MOTTE	skos:broadMatch	http://dewey.info/class/728.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68842	MOTTE AND BAILEY	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68842	MOTTE AND BAILEY	skos:broadMatch	http://dewey.info/class/728.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68844	RINGWORK	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68844	RINGWORK	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68854	ENCLOSED SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68854	ENCLOSED SETTLEMENT	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68855	HILLFORT	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68855	HILLFORT	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68863	PROMONTORY FORT	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68863	PROMONTORY FORT	skos:broadMatch	http://dewey.info/class/623.1942/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68863	PROMONTORY FORT	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68868	FORT	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68868	FORT	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68875	FORTIFIED HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68877	FORTLET	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68877	FORTLET	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68881	LEGIONARY FORTRESS	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68881	LEGIONARY FORTRESS	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68893	MARTELLO TOWER	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68893	MARTELLO TOWER	skos:broadMatch	http://dewey.info/class/725.97/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68904	RADAR STATION	skos:broadMatch	http://dewey.info/class/384/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68904	RADAR STATION	skos:broadMatch	http://dewey.info/class/623.7348/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68910	TANK TRAP	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68910	TANK TRAP	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68912	MARCHING CAMP	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68912	MARCHING CAMP	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68913	PRACTICE CAMP	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68913	PRACTICE CAMP	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68915	TOWN DEFENCES	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68915	TOWN DEFENCES	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68916	TOWN GATE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68916	TOWN GATE	skos:broadMatch	http://dewey.info/class/725.96/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68924	BOTHY	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68925	BURNT MOUND	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68928	HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68932	BISHOPS PALACE	skos:broadMatch	http://dewey.info/class/726.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68932	BISHOPS PALACE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68942	VICARAGE	skos:broadMatch	http://dewey.info/class/726.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68942	VICARAGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68944	CRANNOG	skos:broadMatch	http://dewey.info/class/307.772/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68944	CRANNOG	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68947	COUNTRY HOUSE	skos:broadMatch	http://dewey.info/class/728.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68947	COUNTRY HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68948	MANOR HOUSE	skos:broadMatch	http://dewey.info/class/728.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68948	MANOR HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68951	HOUSE PLATFORM	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68952	LIGHTHOUSE	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68952	LIGHTHOUSE	skos:broadMatch	http://dewey.info/class/623.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68959	TOLL HOUSE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68959	TOLL HOUSE	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68960	TOWN HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68964	HUT CIRCLE	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68964	HUT CIRCLE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68970	LODGE	skos:broadMatch	http://dewey.info/class/728.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68970	LODGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68973	MOAT	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68973	MOAT	skos:broadMatch	http://dewey.info/class/725.98/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68977	SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68977	SETTLEMENT	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68985	HAMLET	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68985	HAMLET	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68986	HUT CIRCLE SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68986	HUT CIRCLE SETTLEMENT	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68987	UNENCLOSED HUT CIRCLE SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68987	UNENCLOSED HUT CIRCLE SETTLEMENT	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/68991	PALISADED ENCLOSURE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69001	VILLAGE	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69001	VILLAGE	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69001	VILLAGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69013	FOLLY	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69014	FOUNTAIN	skos:broadMatch	http://dewey.info/class/714/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69014	FOUNTAIN	skos:broadMatch	http://dewey.info/class/725.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69021	GAZEBO	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69026	ORANGERY	skos:broadMatch	http://dewey.info/class/634.31/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69026	ORANGERY	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69032	PARK	skos:broadMatch	http://dewey.info/class/712/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69034	PUBLIC PARK	skos:broadMatch	http://dewey.info/class/712/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69036	PAVILION	skos:broadMatch	http://dewey.info/class/690.58043/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69036	PAVILION	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69046	TREE RING	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69046	TREE RING	skos:broadMatch	http://dewey.info/class/719.33/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69048	ADIT	skos:broadMatch	http://dewey.info/class/622.28/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69048	ADIT	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69053	BRICK KILN	skos:broadMatch	http://dewey.info/class/666.737/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69053	BRICK KILN	skos:broadMatch	http://dewey.info/class/691/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69055	BRICKWORKS	skos:broadMatch	http://dewey.info/class/666.737/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69055	BRICKWORKS	skos:broadMatch	http://dewey.info/class/691/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69057	CEMENT WORKS	skos:broadMatch	http://dewey.info/class/666.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69057	CEMENT WORKS	skos:broadMatch	http://dewey.info/class/691/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69059	CLAY PIT	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69062	GRAVEL PIT	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69063	LIME KILN	skos:broadMatch	http://dewey.info/class/622.3516/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69063	LIME KILN	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69068	QUARRY	skos:broadMatch	http://dewey.info/class/622.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69068	QUARRY	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69070	LIMESTONE QUARRY	skos:broadMatch	http://dewey.info/class/622.3516/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69070	LIMESTONE QUARRY	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69073	SLATE QUARRY	skos:broadMatch	http://dewey.info/class/622.354/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69073	SLATE QUARRY	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69091	GLASS WORKS	skos:broadMatch	http://dewey.info/class/624.1838/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69091	GLASS WORKS	skos:broadMatch	http://dewey.info/class/679/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69097	CHIMNEY	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69097	CHIMNEY	skos:broadMatch	http://dewey.info/class/721.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69103	BELL PIT	skos:broadMatch	http://dewey.info/class/622.28/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69103	BELL PIT	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69104	COAL WORKINGS	skos:broadMatch	http://dewey.info/class/622.331/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69104	COAL WORKINGS	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69108	IRONSTONE WORKINGS	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69108	IRONSTONE WORKINGS	skos:broadMatch	http://dewey.info/class/672.092/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69115	STONE AXE FACTORY	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69115	STONE AXE FACTORY	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69118	FACTORY	skos:broadMatch	http://dewey.info/class/670/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69118	FACTORY	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69121	BREWERY	skos:broadMatch	http://dewey.info/class/663.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69121	BREWERY	skos:broadMatch	http://dewey.info/class/663/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69144	CHEMICAL WORKS	skos:broadMatch	http://dewey.info/class/660/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69144	CHEMICAL WORKS	skos:broadMatch	http://dewey.info/class/661/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69145	COAL MINE	skos:broadMatch	http://dewey.info/class/622.331/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69145	COAL MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69149	GAS WORKS	skos:broadMatch	http://dewey.info/class/620.107/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69149	GAS WORKS	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69152	GUNPOWDER WORKS	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69152	GUNPOWDER WORKS	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69153	OIL REFINERY	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69153	OIL REFINERY	skos:broadMatch	http://dewey.info/class/665.53/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69156	PAPER MILL	skos:broadMatch	http://dewey.info/class/676.122/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69156	PAPER MILL	skos:broadMatch	http://dewey.info/class/676/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69157	PEAT CUTTING	skos:broadMatch	http://dewey.info/class/622.331/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69157	PEAT CUTTING	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69167	SALT WORKS	skos:broadMatch	http://dewey.info/class/553.632/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69167	SALT WORKS	skos:broadMatch	http://dewey.info/class/664/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69175	FURNACE	skos:broadMatch	http://dewey.info/class/621.183/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69175	FURNACE	skos:broadMatch	http://dewey.info/class/669/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69179	BLAST FURNACE	skos:broadMatch	http://dewey.info/class/669/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69179	BLAST FURNACE	skos:broadMatch	http://dewey.info/class/672.092/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69200	INDUSTRIAL ESTATE	skos:broadMatch	http://dewey.info/class/381/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69200	INDUSTRIAL ESTATE	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69201	INDUSTRIAL SITE	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69201	INDUSTRIAL SITE	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69203	KILN	skos:broadMatch	http://dewey.info/class/666.436/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69203	KILN	skos:broadMatch	http://dewey.info/class/666/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69220	COPPER WORKS	skos:broadMatch	http://dewey.info/class/671/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69225	FORGE	skos:broadMatch	http://dewey.info/class/682/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69228	FOUNDRY	skos:broadMatch	http://dewey.info/class/682/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69236	IRON WORKING SITE	skos:broadMatch	http://dewey.info/class/672.092/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69236	IRON WORKING SITE	skos:broadMatch	http://dewey.info/class/672/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69237	IRON WORKS	skos:broadMatch	http://dewey.info/class/672.092/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69237	IRON WORKS	skos:broadMatch	http://dewey.info/class/672/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69239	LEAD WORKS	skos:broadMatch	http://dewey.info/class/669/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69239	LEAD WORKS	skos:broadMatch	http://dewey.info/class/673.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69241	MUNITIONS FACTORY	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69241	MUNITIONS FACTORY	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69255	COPPER MINE	skos:broadMatch	http://dewey.info/class/622.343/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69255	COPPER MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69262	GOLD MINE	skos:broadMatch	http://dewey.info/class/622.342/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69262	GOLD MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69265	LEAD MINE	skos:broadMatch	http://dewey.info/class/622.344/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69265	LEAD MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69266	MANGANESE MINE	skos:broadMatch	http://dewey.info/class/622.34629/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69266	MANGANESE MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69270	SILVER MINE	skos:broadMatch	http://dewey.info/class/622.342/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69270	SILVER MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69281	ZINC MINE	skos:broadMatch	http://dewey.info/class/622.3452/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69281	ZINC MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69284	RAILWAY WORKS	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69284	RAILWAY WORKS	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69288	SHIPYARD	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69288	SHIPYARD	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69297	STEEL WORKS	skos:broadMatch	http://dewey.info/class/672.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69297	STEEL WORKS	skos:broadMatch	http://dewey.info/class/672/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69313	SAW MILL	skos:broadMatch	http://dewey.info/class/674.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69313	SAW MILL	skos:broadMatch	http://dewey.info/class/694/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69321	FULLING MILL	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69321	FULLING MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69329	WOOLLEN MILL	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69329	WOOLLEN MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69332	TIDE MILL	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69332	TIDE MILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69333	WINDMILL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69333	WINDMILL	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69340	MILL RACE	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69340	MILL RACE	skos:broadMatch	http://dewey.info/class/627.45/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69343	MINE	skos:broadMatch	http://dewey.info/class/622.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69343	MINE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69347	MINE BUILDING	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69348	MINE SHAFT	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69353	BOILER HOUSE	skos:broadMatch	http://dewey.info/class/697.07/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69353	BOILER HOUSE	skos:broadMatch	http://dewey.info/class/697/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69358	ENGINE	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69362	ENGINE HOUSE	skos:broadMatch	http://dewey.info/class/620/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69377	WATER WHEEL	skos:broadMatch	http://dewey.info/class/621.21/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69377	WATER WHEEL	skos:broadMatch	http://dewey.info/class/627/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69383	PRINTING WORKS	skos:broadMatch	http://dewey.info/class/686/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69383	PRINTING WORKS	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69401	TANNERY	skos:broadMatch	http://dewey.info/class/675.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69401	TANNERY	skos:broadMatch	http://dewey.info/class/675/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69424	SAW PIT	skos:broadMatch	http://dewey.info/class/674.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69424	SAW PIT	skos:broadMatch	http://dewey.info/class/694/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69439	BOAT HOUSE	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69439	BOAT HOUSE	skos:broadMatch	http://dewey.info/class/725.87/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69440	BREAKWATER	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69440	BREAKWATER	skos:broadMatch	http://dewey.info/class/627.24/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69450	CUSTOM HOUSE	skos:broadMatch	http://dewey.info/class/332/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69450	CUSTOM HOUSE	skos:broadMatch	http://dewey.info/class/725.14/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69451	DOCK	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69451	DOCK	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69452	DRY DOCK	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69452	DRY DOCK	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69453	DOCKYARD	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69453	DOCKYARD	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69456	HARBOUR	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69456	HARBOUR	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69457	JETTY	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69457	JETTY	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69459	LIFEBOAT STATION	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69459	LIFEBOAT STATION	skos:broadMatch	http://dewey.info/class/623.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69463	PIER	skos:broadMatch	http://dewey.info/class/725.87/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69463	PIER	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69464	PORT	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69464	PORT	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69465	QUAY	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69465	QUAY	skos:broadMatch	http://dewey.info/class/627.24/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69466	SEA DEFENCES	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69466	SEA DEFENCES	skos:broadMatch	http://dewey.info/class/627.24/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69469	STAITH	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69469	STAITH	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69470	WHARF	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69470	WHARF	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69933	COCKPIT	skos:broadMatch	http://dewey.info/class/791.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69933	COCKPIT	skos:broadMatch	http://dewey.info/class/793/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69941	CONCERT HALL	skos:broadMatch	http://dewey.info/class/725.81/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69941	CONCERT HALL	skos:broadMatch	http://dewey.info/class/791/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69953	RECREATION GROUND	skos:broadMatch	http://dewey.info/class/796.06/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69953	RECREATION GROUND	skos:broadMatch	http://dewey.info/class/796/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69955	SWIMMING POOL	skos:broadMatch	http://dewey.info/class/725.73/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69955	SWIMMING POOL	skos:broadMatch	http://dewey.info/class/797/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69957	THEATRE	skos:broadMatch	http://dewey.info/class/725.822/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69957	THEATRE	skos:broadMatch	http://dewey.info/class/792/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69967	CHAPEL	skos:broadMatch	http://dewey.info/class/726.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69967	CHAPEL	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69975	CATHEDRAL	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69975	CATHEDRAL	skos:broadMatch	http://dewey.info/class/728.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69976	CATHEDRAL CLOSE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69978	CAUSEWAYED ENCLOSURE	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69978	CAUSEWAYED ENCLOSURE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69980	CHURCH	skos:broadMatch	http://dewey.info/class/726.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69980	CHURCH	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69987	CROSS	skos:broadMatch	http://dewey.info/class/246.558/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69987	CROSS	skos:broadMatch	http://dewey.info/class/246/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69994	CROSS INCISED STONE	skos:broadMatch	http://dewey.info/class/246.558/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/69994	CROSS INCISED STONE	skos:broadMatch	http://dewey.info/class/736/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70000	BARROW	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70000	BARROW	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70009	RING BARROW	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70009	RING BARROW	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70010	ROUND BARROW	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70010	ROUND BARROW	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70018	BURIAL	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70018	BURIAL	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70048	LONG CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70048	LONG CAIRN	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70049	RING CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70049	RING CAIRN	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70050	ROUND CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70050	ROUND CAIRN	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70053	CEMETERY	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70054	BARROW CEMETERY	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70054	BARROW CEMETERY	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70055	CAIRN CEMETERY	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70055	CAIRN CEMETERY	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70064	CHAMBERED TOMB	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70064	CHAMBERED TOMB	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70071	CIST	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70071	CIST	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70078	CREMATORIUM	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70078	CREMATORIUM	skos:broadMatch	http://dewey.info/class/725.597/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70087	MAUSOLEUM	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70087	MAUSOLEUM	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70092	TOMB	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70092	TOMB	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70096	HENGE	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70096	HENGE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70100	INSCRIBED STONE	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70100	INSCRIBED STONE	skos:broadMatch	http://dewey.info/class/736/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70107	FRIENDS MEETING HOUSE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70113	PIT CIRCLE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70120	ABBEY	skos:broadMatch	http://dewey.info/class/726.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70120	ABBEY	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70140	FRIARY	skos:broadMatch	http://dewey.info/class/726.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70140	FRIARY	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70152	MONASTERY	skos:broadMatch	http://dewey.info/class/726.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70152	MONASTERY	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70177	PRIORY	skos:broadMatch	http://dewey.info/class/726.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70177	PRIORY	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70185	STANDING STONE	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70185	STANDING STONE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70188	STONE ALIGNMENT	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70188	STONE ALIGNMENT	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70189	STONE AVENUE	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70189	STONE AVENUE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70190	STONE CIRCLE	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70190	STONE CIRCLE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70194	STONE SETTING	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70194	STONE SETTING	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70195	SYNAGOGUE	skos:broadMatch	http://dewey.info/class/726.3/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70195	SYNAGOGUE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70196	TEMPLE	skos:broadMatch	http://dewey.info/class/726.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70196	TEMPLE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70209	AIRFIELD	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70209	AIRFIELD	skos:broadMatch	http://dewey.info/class/629.1363/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70210	AIRPORT	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70210	AIRPORT	skos:broadMatch	http://dewey.info/class/725.39/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70214	BRIDGE	skos:broadMatch	http://dewey.info/class/624.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70214	BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70215	CANAL BRIDGE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70215	CANAL BRIDGE	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70221	RAILWAY BRIDGE	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70221	RAILWAY BRIDGE	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70222	ROAD BRIDGE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70222	ROAD BRIDGE	skos:broadMatch	http://dewey.info/class/624.225/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70222	ROAD BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70223	SUSPENSION BRIDGE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70223	SUSPENSION BRIDGE	skos:broadMatch	http://dewey.info/class/624.23/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70223	SUSPENSION BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70224	SWING BRIDGE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70224	SWING BRIDGE	skos:broadMatch	http://dewey.info/class/624.24/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70224	SWING BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70229	INCLINED PLANE	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70235	MILESTONE	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70238	GOODS SHED	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70238	GOODS SHED	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70239	GOODS YARD	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70239	GOODS YARD	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70240	LEVEL CROSSING	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70240	LEVEL CROSSING	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70241	RAILWAY	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70241	RAILWAY	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70241	RAILWAY	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70247	RAILWAY STATION	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70247	RAILWAY STATION	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70247	RAILWAY STATION	skos:broadMatch	http://dewey.info/class/725.31/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70248	RAILWAY TUNNEL	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70248	RAILWAY TUNNEL	skos:broadMatch	http://dewey.info/class/624.193/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70248	RAILWAY TUNNEL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70250	RAILWAY VIADUCT	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70250	RAILWAY VIADUCT	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70251	TRAM DEPOT	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70251	TRAM DEPOT	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70251	TRAM DEPOT	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70252	TRAMWAY	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70252	TRAMWAY	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70252	TRAMWAY	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70261	COACH HOUSE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70261	COACH HOUSE	skos:broadMatch	http://dewey.info/class/725.38/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70264	ROAD	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70264	ROAD	skos:broadMatch	http://dewey.info/class/625.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70264	ROAD	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70267	HOLLOW WAY	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70270	TRACKWAY	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70270	TRACKWAY	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70270	TRACKWAY	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70272	CAUSEWAY	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70272	CAUSEWAY	skos:broadMatch	http://dewey.info/class/625.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70272	CAUSEWAY	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70284	VIADUCT	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70284	VIADUCT	skos:broadMatch	http://dewey.info/class/624.22/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70284	VIADUCT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70288	CANAL	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70288	CANAL	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70290	CANAL BASIN	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70290	CANAL BASIN	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70292	CANAL DOCK	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70292	CANAL DOCK	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70294	CANAL FEEDER	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70294	CANAL FEEDER	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70296	CANAL LOCK	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70296	CANAL LOCK	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70298	CANAL SLUICE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70298	CANAL SLUICE	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70299	CANAL TUNNEL	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70299	CANAL TUNNEL	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70300	CANAL WHARF	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70300	CANAL WHARF	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70309	ARCH	skos:broadMatch	http://dewey.info/class/721.41/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70309	ARCH	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70332	BOUNDARY WALL	skos:broadMatch	http://dewey.info/class/631.27/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70332	BOUNDARY WALL	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70336	BUILDING	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70338	OUTBUILDING	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70338	OUTBUILDING	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70349	CLOCK TOWER	skos:broadMatch	http://dewey.info/class/725.97/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70349	CLOCK TOWER	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70352	EARTHWORK	skos:broadMatch	http://dewey.info/class/625.73/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70352	EARTHWORK	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70354	ENCLOSURE	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70354	ENCLOSURE	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70371	GATE	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70371	GATE	skos:broadMatch	http://dewey.info/class/725.96/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70372	GATEHOUSE	skos:broadMatch	http://dewey.info/class/728.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70372	GATEHOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70378	LINEAR FEATURE	skos:broadMatch	http://dewey.info/class/551.42-551.45/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70378	LINEAR FEATURE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70382	MOUND	skos:broadMatch	http://dewey.info/class/551.43/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70382	MOUND	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70383	NATURAL FEATURE	skos:broadMatch	http://dewey.info/class/719.32/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70383	NATURAL FEATURE	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70384	CAVE	skos:broadMatch	http://dewey.info/class/551.447/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70384	CAVE	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70391	STONE	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70391	STONE	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70396	OVEN	skos:broadMatch	http://dewey.info/class/641.58/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70396	OVEN	skos:broadMatch	http://dewey.info/class/644/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70407	RING DITCH	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70407	RING DITCH	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70411	SHELTER	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70411	SHELTER	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70413	STABLE	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70413	STABLE	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70413	STABLE	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70420	STRUCTURE	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70422	TOWER	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70422	TOWER	skos:broadMatch	http://dewey.info/class/725.97/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70423	TUNNEL	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70423	TUNNEL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70423	TUNNEL	skos:broadMatch	http://dewey.info/class/725.98/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70426	WALL	skos:broadMatch	http://dewey.info/class/631.27/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70426	WALL	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70432	AQUEDUCT	skos:broadMatch	http://dewey.info/class/624.22/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70432	AQUEDUCT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70433	BATH HOUSE	skos:broadMatch	http://dewey.info/class/725.73/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70433	BATH HOUSE	skos:broadMatch	http://dewey.info/class/797/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70436	CONDUIT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70436	CONDUIT	skos:broadMatch	http://dewey.info/class/625.734/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70439	CULVERT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70439	CULVERT	skos:broadMatch	http://dewey.info/class/625.7342/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70440	DAM	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70440	DAM	skos:broadMatch	http://dewey.info/class/627.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70443	DRAINAGE SYSTEM	skos:broadMatch	http://dewey.info/class/622.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70443	DRAINAGE SYSTEM	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70448	LEAT	skos:broadMatch	http://dewey.info/class/627.45/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70448	LEAT	skos:broadMatch	http://dewey.info/class/627/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70449	POND	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70449	POND	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70450	PUBLIC CONVENIENCE	skos:broadMatch	http://dewey.info/class/628.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70450	PUBLIC CONVENIENCE	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70454	PUMP HOUSE	skos:broadMatch	http://dewey.info/class/621.64-621.69/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70454	PUMP HOUSE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70454	PUMP HOUSE	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70457	RESERVOIR	skos:broadMatch	http://dewey.info/class/627.86/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70457	RESERVOIR	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70460	SLUICE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70460	SLUICE	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70461	SLUICE GATE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70461	SLUICE GATE	skos:broadMatch	http://dewey.info/class/627.1352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70462	WATER CHANNEL	skos:broadMatch	http://dewey.info/class/621.21/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70462	WATER CHANNEL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70464	WATER TANK	skos:broadMatch	http://dewey.info/class/628.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70464	WATER TANK	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70467	WEIR	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70467	WEIR	skos:broadMatch	http://dewey.info/class/551.484/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70469	WELL HOUSE	skos:broadMatch	http://dewey.info/class/551.498/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70469	WELL HOUSE	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70484	COMBINATION FARM BUILDING	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70484	COMBINATION FARM BUILDING	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70644	CANAL CUTTING	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70644	CANAL CUTTING	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70720	COLLIERY	skos:broadMatch	http://dewey.info/class/622.331/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70720	COLLIERY	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70752	COTTAGE	skos:broadMatch	http://dewey.info/class/728.37/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70752	COTTAGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70815	DWELLING	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70833	HOMESTEAD	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70833	HOMESTEAD	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70851	FARM BUILDING	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70851	FARM BUILDING	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70905	GAOL	skos:broadMatch	http://dewey.info/class/365/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70905	GAOL	skos:broadMatch	http://dewey.info/class/725.6/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70918	GLASSHOUSE	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70918	GLASSHOUSE	skos:broadMatch	http://dewey.info/class/728.924/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/70943	HALL HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71126	TOW PATH	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71126	TOW PATH	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71187	RAILWAY CUTTING	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71187	RAILWAY CUTTING	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71188	RAILWAY EMBANKMENT	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71188	RAILWAY EMBANKMENT	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71277	SQUARE BARROW CEMETERY	skos:broadMatch	http://dewey.info/class/718/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71277	SQUARE BARROW CEMETERY	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71284	STREAM	skos:broadMatch	http://dewey.info/class/714/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71284	STREAM	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71329	WAGONWAY	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71329	WAGONWAY	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71329	WAGONWAY	skos:broadMatch	http://dewey.info/class/625.7/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71359	OFFICE	skos:broadMatch	http://dewey.info/class/690.52/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71359	OFFICE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71369	SHIRE HALL	skos:broadMatch	http://dewey.info/class/352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71369	SHIRE HALL	skos:broadMatch	http://dewey.info/class/725.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71373	FOOTBRIDGE	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71373	FOOTBRIDGE	skos:broadMatch	http://dewey.info/class/624.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71373	FOOTBRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71374	STOREHOUSE	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71374	STOREHOUSE	skos:broadMatch	http://dewey.info/class/725.35/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71378	LOCK KEEPERS COTTAGE	skos:broadMatch	http://dewey.info/class/728.37/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71378	LOCK KEEPERS COTTAGE	skos:broadMatch	http://dewey.info/class/728.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71378	LOCK KEEPERS COTTAGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71387	SCULPTURE	skos:broadMatch	http://dewey.info/class/735/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71404	WALLED GARDEN	skos:broadMatch	http://dewey.info/class/635/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71422	SHED	skos:broadMatch	http://dewey.info/class/721/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71422	SHED	skos:broadMatch	http://dewey.info/class/728.92/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71432	INSTITUTE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71432	INSTITUTE	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71441	BUS STATION	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71441	BUS STATION	skos:broadMatch	http://dewey.info/class/725.38/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71447	SUNDAY SCHOOL	skos:broadMatch	http://dewey.info/class/726.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71447	SUNDAY SCHOOL	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71453	HOUSING ESTATE	skos:broadMatch	http://dewey.info/class/728.31/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71453	HOUSING ESTATE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71454	CHAPEL OF EASE	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71454	CHAPEL OF EASE	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71455	LOCAL GOVERNMENT OFFICE	skos:broadMatch	http://dewey.info/class/352/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71455	LOCAL GOVERNMENT OFFICE	skos:broadMatch	http://dewey.info/class/725.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71458	RAILWAY SIDING	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71458	RAILWAY SIDING	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71483	WINDER HOUSE	skos:broadMatch	http://dewey.info/class/622.28/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71483	WINDER HOUSE	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71486	MODEL FARM	skos:broadMatch	http://dewey.info/class/630/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71486	MODEL FARM	skos:broadMatch	http://dewey.info/class/636.01/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71513	GARDEN FEATURE	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71516	WORKERS VILLAGE	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71516	WORKERS VILLAGE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71531	COMMUNITY CENTRE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71535	STADIUM	skos:broadMatch	http://dewey.info/class/725.827/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71535	STADIUM	skos:broadMatch	http://dewey.info/class/796/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71579	MANAGERS HOUSE	skos:broadMatch	http://dewey.info/class/725.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71579	MANAGERS HOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71584	ARTS CENTRE	skos:broadMatch	http://dewey.info/class/725.804/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71584	ARTS CENTRE	skos:broadMatch	http://dewey.info/class/791/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71613	MISSION HALL	skos:broadMatch	http://dewey.info/class/726.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71613	MISSION HALL	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71642	GOLF CLUB	skos:broadMatch	http://dewey.info/class/796.06/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71642	GOLF CLUB	skos:broadMatch	http://dewey.info/class/796/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71712	CANAL WAREHOUSE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71712	CANAL WAREHOUSE	skos:broadMatch	http://dewey.info/class/725.35/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71758	FISH HOUSE	skos:broadMatch	http://dewey.info/class/639.2/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71758	FISH HOUSE	skos:broadMatch	http://dewey.info/class/639/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71798	ARMY CAMP	skos:broadMatch	http://dewey.info/class/355.31/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71798	ARMY CAMP	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71799	ARMY OFFICE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71799	ARMY OFFICE	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/71809	FOOTBALL GROUND	skos:broadMatch	http://dewey.info/class/796/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78231	TRAMWAY BRIDGE	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78231	TRAMWAY BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78231	TRAMWAY BRIDGE	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78353	KERB CAIRN	skos:broadMatch	http://dewey.info/class/726.8/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78353	KERB CAIRN	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/78500	GRANITE QUARRY	skos:broadMatch	http://dewey.info/class/622/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/82817	FLOWER GARDEN	skos:broadMatch	http://dewey.info/class/635.9/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/82817	FLOWER GARDEN	skos:broadMatch	http://dewey.info/class/716/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/82821	ISLAND	skos:broadMatch	http://dewey.info/class/551.42/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/82821	ISLAND	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/83569	RADIO STATION	skos:broadMatch	http://dewey.info/class/384/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/83569	RADIO STATION	skos:broadMatch	http://dewey.info/class/623.73/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87145	OBSERVATION POST	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87743	CANAL OFFICE	skos:broadMatch	http://dewey.info/class/386/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87743	CANAL OFFICE	skos:broadMatch	http://dewey.info/class/627.13/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87746	ASSEMBLY ROOMS	skos:broadMatch	http://dewey.info/class/725.804/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87746	ASSEMBLY ROOMS	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87782	TUNNEL PORTAL	skos:broadMatch	http://dewey.info/class/388/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87782	TUNNEL PORTAL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87782	TUNNEL PORTAL	skos:broadMatch	http://dewey.info/class/725.98/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87813	EMBANKMENT	skos:broadMatch	http://dewey.info/class/624.162/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87813	EMBANKMENT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87813	EMBANKMENT	skos:broadMatch	http://dewey.info/class/625/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87924	LAKE	skos:broadMatch	http://dewey.info/class/714/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87924	LAKE	skos:broadMatch	http://dewey.info/class/719/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87957	VALVE TOWER	skos:broadMatch	http://dewey.info/class/628/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/87957	VALVE TOWER	skos:broadMatch	http://dewey.info/class/725.97/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91052	ANTI TANK BLOCK	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91052	ANTI TANK BLOCK	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91126	BANK (EARTHWORK)	skos:broadMatch	http://dewey.info/class/625.73/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91126	BANK (EARTHWORK)	skos:broadMatch	http://dewey.info/class/631/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91127	BANK (FINANCIAL)	skos:broadMatch	http://dewey.info/class/332/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91127	BANK (FINANCIAL)	skos:broadMatch	http://dewey.info/class/725.24/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91489	CIVIC CENTRE	skos:broadMatch	http://dewey.info/class/725.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91489	CIVIC CENTRE	skos:broadMatch	http://dewey.info/class/725/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91529	COAL EXCHANGE	skos:broadMatch	http://dewey.info/class/382/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91529	COAL EXCHANGE	skos:broadMatch	http://dewey.info/class/662.624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91530	COAL FIRED POWER STATION	skos:broadMatch	http://dewey.info/class/621.31/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91530	COAL FIRED POWER STATION	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91579	COMBINATION BARN	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91579	COMBINATION BARN	skos:broadMatch	http://dewey.info/class/728.922/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91583	COMMEMORATIVE STONE	skos:broadMatch	http://dewey.info/class/711/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91583	COMMEMORATIVE STONE	skos:broadMatch	http://dewey.info/class/725.94/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91644	COUNTRY CLUB	skos:broadMatch	http://dewey.info/class/367/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91644	COUNTRY CLUB	skos:broadMatch	http://dewey.info/class/728.4/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91817	DYKE (DEFENCE)	skos:broadMatch	http://dewey.info/class/623.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/91817	DYKE (DEFENCE)	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92135	GOOSE PEN	skos:broadMatch	http://dewey.info/class/636.0831/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92135	GOOSE PEN	skos:broadMatch	http://dewey.info/class/636/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92250	HOLIDAY CENTRE	skos:broadMatch	http://dewey.info/class/728.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92250	HOLIDAY CENTRE	skos:broadMatch	http://dewey.info/class/790/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92399	JUNIOR SCHOOL	skos:broadMatch	http://dewey.info/class/727.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92399	JUNIOR SCHOOL	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92446	LANDING POINT	skos:broadMatch	http://dewey.info/class/387/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92446	LANDING POINT	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92548	MARINA	skos:broadMatch	http://dewey.info/class/725.34/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92548	MARINA	skos:broadMatch	http://dewey.info/class/797/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92728	NATIONAL SCHOOL	skos:broadMatch	http://dewey.info/class/727.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92728	NATIONAL SCHOOL	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92767	NUCLEAR POWER STATION	skos:broadMatch	http://dewey.info/class/621.483/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92767	NUCLEAR POWER STATION	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92861	PARLIAMENT HOUSE	skos:broadMatch	http://dewey.info/class/351/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92861	PARLIAMENT HOUSE	skos:broadMatch	http://dewey.info/class/725.11/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92878	PEAT WORKINGS	skos:broadMatch	http://dewey.info/class/622.331/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/92878	PEAT WORKINGS	skos:broadMatch	http://dewey.info/class/662/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93080	RAILWAY JUNCTION	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93080	RAILWAY JUNCTION	skos:broadMatch	http://dewey.info/class/625.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93234	SCHOOL HALL	skos:broadMatch	http://dewey.info/class/727.1/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93234	SCHOOL HALL	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93357	SMELTING WORKS	skos:broadMatch	http://dewey.info/class/672.092/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93357	SMELTING WORKS	skos:broadMatch	http://dewey.info/class/672/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93395	SQUATTER SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93395	SQUATTER SETTLEMENT	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93463	SUMMERHOUSE	skos:broadMatch	http://dewey.info/class/717/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93463	SUMMERHOUSE	skos:broadMatch	http://dewey.info/class/728/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93617	TRAMWAY EMBANKMENT	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93617	TRAMWAY EMBANKMENT	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93617	TRAMWAY EMBANKMENT	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93618	TRAMWAY TRANSPORT SITE	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93618	TRAMWAY TRANSPORT SITE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93618	TRAMWAY TRANSPORT SITE	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93619	TRAMWAY TUNNEL	skos:broadMatch	http://dewey.info/class/385/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93619	TRAMWAY TUNNEL	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93619	TRAMWAY TUNNEL	skos:broadMatch	http://dewey.info/class/625.66/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93789	WELL CHAPEL	skos:broadMatch	http://dewey.info/class/726.5/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93789	WELL CHAPEL	skos:broadMatch	http://dewey.info/class/726/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93859	WORKING MENS INSTITUTE	skos:broadMatch	http://dewey.info/class/727/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93886	RECREATION CENTRE	skos:broadMatch	http://dewey.info/class/793/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/93886	RECREATION CENTRE	skos:broadMatch	http://dewey.info/class/796.06/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/94190	ARCH BRIDGE	skos:broadMatch	http://dewey.info/class/624.22/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/94190	ARCH BRIDGE	skos:broadMatch	http://dewey.info/class/624/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/94296	FINDSPOT	skos:broadMatch	http://dewey.info/class/941/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/94357	MILITARY TRAINING SITE	skos:broadMatch	http://dewey.info/class/623/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/94357	MILITARY TRAINING SITE	skos:broadMatch	http://dewey.info/class/725.18/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/97254	MANAGED WOODLAND	skos:broadMatch	http://dewey.info/class/634/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/97254	MANAGED WOODLAND	skos:broadMatch	http://dewey.info/class/719.33/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/97280	DESERTED SETTLEMENT	skos:broadMatch	http://dewey.info/class/307.72/		semapv:UnspecifiedMatching	
+fish:schemes/10/concepts/97280	DESERTED SETTLEMENT	skos:broadMatch	http://dewey.info/class/307/		semapv:UnspecifiedMatching	

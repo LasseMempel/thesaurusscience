@@ -20,8 +20,8 @@ The script:
 
 Important provenance distinction:
   * creator_id = Lasse Mempel, because you created this SSSOM representation
-  * mapping_provider = configured institution/project or, where appropriate,
-    the vocabulary/source itself
+  * mapping_provider = optional manual enrichment; omitted when the origin of
+    the mapping assertion is unknown
   * publication_date = date this generated SSSOM artifact is created
   * mapping_date is omitted unless a reliable assertion date exists in the source
 """
@@ -30,9 +30,16 @@ from __future__ import annotations
 
 import csv
 import datetime as dt
+import logging
 import re
 from collections import defaultdict
 from pathlib import Path
+
+# rdflib may encounter malformed typed literals in source dumps (e.g.
+# duplicated timezone offsets). This extraction only needs graph structure,
+# so suppress rdflib's lexical conversion traceback noise.
+logging.getLogger("rdflib.term").setLevel(logging.ERROR)
+logging.getLogger("rdflib").setLevel(logging.ERROR)
 
 from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDF, SKOS
@@ -48,16 +55,16 @@ LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
 GITHUB_TOOL_URL = (
     "https://github.com/LasseMempel/thesaurusscience/"
-    "blob/main/Scripts/extract_skos_mappings_to_sssom.py"
+    "blob/main/Scripts/build_vocabulary_mappings.py"
 )
 
-# Fill/adjust these after your manual provider/Con­ceptScheme checks.
+# Fill/adjust these after your manual provider/ConceptScheme checks.
 VOCABULARIES = {
     "DAI": {
         "path": BASE / "DAI",
         "prefix": "dai",
         "source_namespace": "http://thesauri.dainst.org/",
-        "mapping_provider": "https://ror.org/041qv0h25",
+        "mapping_provider": None,
         "label": "German Archaeological Institute (DAI)",
     },
     "Dariah Vocabs": {
@@ -102,6 +109,22 @@ VOCABULARIES = {
 #     },
 # }
 CONCEPT_SCHEME_OVERRIDES: dict[str, dict[str, dict[str, str]]] = {}
+
+# Optional manual provider enrichment. This can be folder-wide or file-specific.
+# Keys are folder names. Use "__default__" for a folder-wide value and a
+# relative source-file path for a file-specific override. A concept-scheme
+# override above takes precedence over these defaults.
+#
+# Example:
+# MAPPING_PROVIDER_OVERRIDES = {
+#     "FISH": {
+#         "__default__": "https://ror.org/....",
+#     },
+#     "Dariah Vocabs": {
+#         "some/file.ttl": "https://ror.org/....",
+#     },
+# }
+MAPPING_PROVIDER_OVERRIDES: dict[str, dict[str, str]] = {}
 
 MAPPING_PREDICATES = {
     SKOS.exactMatch: "exactMatch",
@@ -206,6 +229,47 @@ def get_scheme_version(graph: Graph, scheme_uri: str | None) -> str | None:
     return sorted(set(values))[0] if values else None
 
 
+def analyze_declared_schemes(graph: Graph, mapping_subjects: set[URIRef]) -> tuple[str | None, bool, list[str]]:
+    """
+    Decide whether a file-level ConceptScheme is safe to use as the default
+    source scheme.
+
+    Rules:
+      * exactly one skos:ConceptScheme must exist; and
+      * every mapping subject must either have inScheme = that scheme or no
+        conflicting inScheme information.
+
+    If any subject explicitly belongs to another scheme, the file-level scheme
+    is NOT used as the default. Explicit inScheme always wins later.
+    """
+    schemes = sorted(str(s) for s in graph.subjects(RDF.type, SKOS.ConceptScheme))
+    print(f"[SCHEME CHECK] ConceptSchemes declared in file: {len(schemes)}")
+    for scheme in schemes:
+        print(f"    - {scheme}")
+
+    if len(schemes) != 1:
+        print("[SCHEME CHECK] Result: cannot use a file-level default source scheme")
+        return None, False, schemes
+
+    candidate = schemes[0]
+    conflicts = []
+    for subject in mapping_subjects:
+        explicit = {str(o) for o in graph.objects(subject, SKOS.inScheme)}
+        if explicit and candidate not in explicit:
+            conflicts.append((str(subject), sorted(explicit)))
+
+    if conflicts:
+        print("[SCHEME CHECK] Result: REJECTED as file-level default; explicit inScheme conflicts found")
+        for subject, explicit in conflicts[:20]:
+            print(f"    [ERROR][SCHEME COLLISION] {subject} -> {explicit}; overrides file-level scheme {candidate}")
+        if len(conflicts) > 20:
+            print(f"    ... {len(conflicts) - 20} more conflicts")
+        return None, False, schemes
+
+    print(f"[SCHEME CHECK] Result: ACCEPTED; all mapping subjects are compatible with {candidate}")
+    return candidate, True, schemes
+
+
 def query_mappings(graph: Graph):
     query = """
     SELECT DISTINCT
@@ -246,12 +310,42 @@ def mapping_set_id(filename: str) -> str:
     )
 
 
-def provider_for(folder_name: str, subject_scheme: str | None) -> tuple[str | None, str]:
+def namespace_candidate(uri: str) -> str:
+    """
+    Heuristic namespace candidate for REPORTING ONLY.
+
+    This intentionally never becomes subject_source/object_source automatically.
+    It is used only to show which URI stems occur in the corpus for later
+    namespace/concept-scheme harvesting.
+    """
+    if "#" in uri:
+        base = uri.rsplit("#", 1)[0] + "#"
+        return base
+    if "/" in uri:
+        return uri.rsplit("/", 1)[0] + "/"
+    return uri
+
+
+def provider_for(folder_name: str, subject_scheme: str | None, source_file: Path | None = None) -> tuple[str | None, str]:
     config = VOCABULARIES[folder_name]
     override = CONCEPT_SCHEME_OVERRIDES.get(folder_name, {}).get(
-        subject_scheme or "", {}
+        subject_scheme or "",
+        {},
     )
-    provider = override.get("mapping_provider", config.get("mapping_provider"))
+
+    provider = override.get("mapping_provider")
+    if provider is None:
+        provider = config.get("mapping_provider")
+
+    file_overrides = MAPPING_PROVIDER_OVERRIDES.get(folder_name, {})
+    if source_file is not None:
+        try:
+            rel = str(source_file.relative_to(config["path"]))
+        except ValueError:
+            rel = str(source_file)
+        provider = file_overrides.get(rel, provider)
+    provider = file_overrides.get("__default__", provider)
+
     label = override.get("label", config.get("label", folder_name))
     return provider, label
 
@@ -382,7 +476,11 @@ def write_sssom(
                 r["object_id"],
             ),
         ):
-            writer.writerow(row)
+            # Internal extraction fields (subject_uri, object_uri, provider)
+            # are deliberately not part of the SSSOM mapping table. Select
+            # only the declared TSV columns so csv.DictWriter cannot leak
+            # implementation details into the output.
+            writer.writerow({field: row.get(field, "") for field in fields})
 
     return output
 
@@ -395,8 +493,23 @@ def process_folder(folder_name: str, config: dict) -> int:
     print(f"RDF/XML + Turtle files: {len(files)}")
 
     grouped: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
+    report = {
+        "files": 0,
+        "files_with_mappings": 0,
+        "mappings": 0,
+        "labels_missing_subject": 0,
+        "labels_missing_object": 0,
+        "subjects_without_inScheme": 0,
+        "subjects_with_explicit_inScheme": 0,
+        "file_default_scheme_used": 0,
+        "unknown_source_scheme": 0,
+        "unknown_target_scheme": 0,
+        "namespaces": defaultdict(int),
+        "providers_missing": 0,
+    }
 
     for source_file in files:
+        report["files"] += 1
         try:
             graph = parse_file(source_file)
         except Exception as exc:
@@ -407,33 +520,72 @@ def process_folder(folder_name: str, config: dict) -> int:
         if not results:
             continue
 
+        report["files_with_mappings"] += 1
         print(
             f"[LOAD] {source_file.relative_to(folder)}: "
             f"{len(graph)} triples, {len(results)} SKOS mappings"
         )
 
+        # Build mapping subject set first, because the single-ConceptScheme
+        # safety check has to inspect every mapping subject in the file.
+        subjects = {
+            r[0] for r in results
+            if isinstance(r[0], URIRef)
+        }
+        file_default_scheme, default_ok, declared_schemes = analyze_declared_schemes(
+            graph, subjects
+        )
+
         prefix_map = build_prefix_map(folder_name)
+        provider, _ = provider_for(folder_name, file_default_scheme, source_file)
 
-        for result in results:
-            subject = result.subject
-            predicate = result.predicate
-            obj = result.object
-
+        for subject, predicate, obj, _, _ in results:
             if not isinstance(subject, URIRef) or not isinstance(obj, URIRef):
                 continue
 
-            subject_scheme = (
-                str(result.subjectScheme)
-                if result.subjectScheme
-                else infer_scheme(graph, subject)
-            )
-            object_scheme = (
-                str(result.objectScheme)
-                if result.objectScheme
-                else infer_scheme(graph, obj)
+            explicit_subject_schemes = sorted(
+                str(o) for o in graph.objects(subject, SKOS.inScheme)
             )
 
-            provider, _ = provider_for(folder_name, subject_scheme)
+            if explicit_subject_schemes:
+                report["subjects_with_explicit_inScheme"] += 1
+                if file_default_scheme and any(s != file_default_scheme for s in explicit_subject_schemes):
+                    print(
+                        f"[ERROR][SCHEME COLLISION] {subject}: explicit inScheme "
+                        f"{explicit_subject_schemes} overrides file-level candidate "
+                        f"{file_default_scheme}"
+                    )
+                subject_scheme = explicit_subject_schemes[0]
+            elif default_ok:
+                report["file_default_scheme_used"] += 1
+                subject_scheme = file_default_scheme
+            else:
+                report["subjects_without_inScheme"] += 1
+                subject_scheme = None
+
+            explicit_object_schemes = sorted(
+                str(o) for o in graph.objects(obj, SKOS.inScheme)
+            )
+            object_scheme = explicit_object_schemes[0] if explicit_object_schemes else None
+
+            # IMPORTANT: no namespace inference is used for scheme assignment.
+            # We merely collect URI namespace candidates for the final report so
+            # that they can be harvested/curated later.
+            for uri in (str(subject), str(obj)):
+                namespace = namespace_candidate(uri)
+                report["namespaces"][namespace] += 1
+
+            subject_label = best_label(graph, subject)
+            object_label = best_label(graph, obj)
+            if not subject_label:
+                report["labels_missing_subject"] += 1
+            if not object_label:
+                report["labels_missing_object"] += 1
+
+            if not subject_scheme:
+                report["unknown_source_scheme"] += 1
+            if not object_scheme:
+                report["unknown_target_scheme"] += 1
 
             key = (
                 subject_scheme or "",
@@ -441,47 +593,29 @@ def process_folder(folder_name: str, config: dict) -> int:
                 str(source_file),
             )
 
-            grouped[key].append(
-                {
-                    "subject_id": to_curie(str(subject), prefix_map),
-                    "subject_label": best_label(graph, subject),
-                    "predicate_id": f"skos:{MAPPING_PREDICATES[predicate]}",
-                    "object_id": to_curie(str(obj), prefix_map),
-                    "object_label": best_label(graph, obj),
-                    "mapping_justification": "semapv:UnspecifiedMatching",
-                    "comment": "",
-                }
-            )
-
-            if not subject_scheme:
-                print(
-                    f"[WARN] No skos:inScheme for subject {subject} "
-                    f"in {source_file.name}"
-                )
-
-            if not object_scheme:
-                print(
-                    f"[WARN] No skos:inScheme for object {obj} "
-                    f"in {source_file.name}"
-                )
+            grouped[key].append({
+                "subject_uri": str(subject),
+                "object_uri": str(obj),
+                "subject_id": to_curie(str(subject), prefix_map),
+                "subject_label": subject_label,
+                "predicate_id": f"skos:{MAPPING_PREDICATES[predicate]}",
+                "object_id": to_curie(str(obj), prefix_map),
+                "object_label": object_label,
+                "mapping_justification": "semapv:UnspecifiedMatching",
+                "comment": "",
+                "provider": provider,
+            })
 
     total = 0
 
     for (subject_scheme, object_scheme, source_file_str), rows in grouped.items():
-        # Remove duplicate identical assertions.
         unique = {}
         for row in rows:
-            key = (
-                row["subject_id"],
-                row["predicate_id"],
-                row["object_id"],
-            )
+            key = (row["subject_uri"], row["predicate_id"], row["object_uri"])
             unique[key] = row
         rows = list(unique.values())
 
         source_file = Path(source_file_str)
-
-        # Recover one graph for scheme version metadata.
         try:
             source_graph = parse_file(source_file)
         except Exception:
@@ -496,16 +630,37 @@ def process_folder(folder_name: str, config: dict) -> int:
             source_graph,
         )
 
-        provider, _ = provider_for(folder_name, subject_scheme or None)
+        provider, _ = provider_for(
+            folder_name, subject_scheme or None, source_file
+        )
         if not provider:
+            report["providers_missing"] += 1
             print(
                 f"[WARN] {output.name}: no mapping_provider configured for "
-                f"subject scheme {subject_scheme or '[unknown]'}"
+                f"source scheme {subject_scheme or '[unknown]'}"
             )
 
         print(f"[SSSOM] {output.relative_to(BASE)}: {len(rows)} mappings")
         total += len(rows)
 
+    report["mappings"] = total
+    print(f"\n--- {folder_name} report ---")
+    print(f"Files scanned:                 {report['files']}")
+    print(f"Files containing mappings:     {report['files_with_mappings']}")
+    print(f"Mappings written:              {report['mappings']}")
+    print(f"Subjects with explicit inScheme: {report['subjects_with_explicit_inScheme']}")
+    print(f"Subjects using file-level scheme: {report['file_default_scheme_used']}")
+    print(f"Subjects without source scheme: {report['subjects_without_inScheme']}")
+    print(f"Mappings with unknown source scheme: {report['unknown_source_scheme']}")
+    print(f"Mappings with unknown target scheme: {report['unknown_target_scheme']}")
+    print(f"Missing subject labels:         {report['labels_missing_subject']}")
+    print(f"Missing object labels:          {report['labels_missing_object']}")
+    print(f"Output sets without provider:   {report['providers_missing']}")
+    print("Namespaces encountered (URI heuristic only; NOT used as schemes):")
+    for namespace, count in sorted(
+        report["namespaces"].items(), key=lambda x: (-x[1], x[0])
+    )[:50]:
+        print(f"  {count:6d}  {namespace}")
     return total
 
 
@@ -521,6 +676,8 @@ def main() -> None:
 
     print(f"\nDone. Total mapping assertions written: {grand_total}")
     print(f"SSSOM output directory: {OUTPUT_DIR}")
+    print("Scheme assignment policy: explicit skos:inScheme > safe single-scheme file default > unknown")
+    print("URI namespaces in reports are heuristic candidates only and are never used as schemes.")
 
 
 if __name__ == "__main__":

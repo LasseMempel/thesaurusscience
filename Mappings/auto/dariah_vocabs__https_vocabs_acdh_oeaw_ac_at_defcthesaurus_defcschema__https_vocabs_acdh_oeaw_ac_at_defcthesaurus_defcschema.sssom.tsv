@@ -1,0 +1,27 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dariah_vocabs__https_vocabs_acdh_oeaw_ac_at_defcthesaurus_defcschema__https_vocabs_acdh_oeaw_ac_at_defcthesaurus_defcschema.sssom.tsv
+#mapping_set_title: DARIAH-DE vocabularies SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of DARIAH-DE vocabularies (concept scheme: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/DefcSchema), targeting concept scheme https://vocabs.acdh.oeaw.ac.at/defcthesaurus/DefcSchema. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/DefcSchema
+#object_source: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/DefcSchema
+#comment: Extracted from local RDF file DEFC Thesaurus.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/area_dating/1.060	area dating	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating/2.060	dating	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating/2.060	dating	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/area_dating/1.060	area dating	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating_dendrochronology/3.7	dating: dendrochronology	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dendrochronology/4.2	dendrochronology	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating_radiocarbon_dating/3.12	dating: radiocarbon dating	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiocarbon_dating/4.1	radiocarbon dating	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dendrochronology/4.2	dendrochronology	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating_dendrochronology/3.7	dating: dendrochronology	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiocarbon_dating/4.1	radiocarbon dating	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/dating_radiocarbon_dating/3.12	dating: radiocarbon dating	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/scored/5.233	scored	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wiped/4.237	wiped	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wiped/4.237	wiped	skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/defcthesaurus/scored/5.233	scored	semapv:UnspecifiedMatching	

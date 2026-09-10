@@ -1,0 +1,260 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  aat: http://vocab.getty.edu/aat/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dariah_vocabs__https_vocabs_acdh_oeaw_ac_at_oeai_materials__https_vocabs_acdh_oeaw_ac_at_oeai_materials.sssom.tsv
+#mapping_set_title: DARIAH-DE vocabularies SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of DARIAH-DE vocabularies (concept scheme: https://vocabs.acdh.oeaw.ac.at/oeai-materials/), targeting concept scheme https://vocabs.acdh.oeaw.ac.at/oeai-materials/. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#subject_source_version: 1.0.2
+#object_source: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#object_source_version: 1.0.2
+#comment: Extracted from local RDF file OeAI Thesaurus - Materials.ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+http://nomisma.org/id/billon		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24437	billon	semapv:UnspecifiedMatching	
+http://nomisma.org/id/potin		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24436	potin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010439		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906	clay	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010445		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17054	kaolin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010451		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23881	marl	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010669		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23905	terracotta	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010737		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769	concrete	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010797		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23774	glass	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010900		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792	metal	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010902		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23785	alloy	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010946		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23786	brass	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010957		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23780	bronze	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010965		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23782	electrum	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300010998		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24438	white metal	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011002		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23781	iron	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011015		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23778	aluminium	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011020		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784	copper	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011021		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783	gold	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011022		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779	lead	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011024		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17062	magnesium	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011028		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23979	nickel	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011029		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787	silver	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011031		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23986	platinum	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011033		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23789	titanium	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011037		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23790	zinc	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011068		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23931	mineral	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011079		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038	chlorite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011084		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23849	diamond	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011087		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17081	feldspar	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011098		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23867	graphite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011099		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23860	gypsum	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011101		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23839	alabaster (gypsum)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011122		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23879	lapis lazuli	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011123		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037	malachite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011124		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17089	mica	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011131		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23943	silica	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011132		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890	quartz	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011133		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23842	amethyst	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011134		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848	chalcedony	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011135		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838	agate	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011136		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23884	onyx	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011137		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23894	sardonyx	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011141		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857	chert	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011143		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856	flint (rock)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011151		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870	jasper	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011164		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23904	turquoise (mineral)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011183		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863	granite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011210		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23850	granodiorite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011213		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843	andesite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011214		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23852	diorite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011219		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23851	quartz-diorite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011220		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23900	syenite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011222		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845	basalt	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011230		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23858	gabbro	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011232		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011	porphyry	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011254		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883	obsidian	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011264		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23903	tuff	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011265		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23885	peperino	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011286		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872	limestone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011329		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23902	travertine	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011348		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24288	dolomite (rock)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011374		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23886	poros	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011376		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891	sandstone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011386		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23847	bluestone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011391		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23868	greywacke	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011425		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23869	breccia	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011430		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23878	conglomerate	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011438		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23861	gneiss	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011443		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880	marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011490		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005	lucullan marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011505		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23995	celticum marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011557		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24007	numidian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011562		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24009	pavonazzetto marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011576		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23994	carrara marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011580		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24001	hymettian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011594		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24008	parian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011599		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24010	pentelic marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011607		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24014	thasian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011623		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893	quartzite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011626		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24039	schist	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011627		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898	serpentine	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011665		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23899	steatite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011692		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836	rock	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011790		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23835	slag	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011796		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809	antler	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011798		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933	bone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011800		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23819	coral	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011809		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23808	feather	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011811		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23828	fur	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011814		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23811	hair	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011820		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23934	hair (human)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011826		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815	horn	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011829		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820	shell	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011844		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23831	animal skin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011845		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23829	leather	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011851		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23830	parchment	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011855		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935	tooth	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011857		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23797	ivory	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011878		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23806	reed	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300011914		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814	wood	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300012862		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036	charcoal	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300012882		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23813	resin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300012934		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23812	amber	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300012949		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23939	pitch	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300013109		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23964	pigment	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300013280		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23968	Egyptian blue	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014024		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23807	fibre	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014041		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23800	flax	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014043		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23801	hemp	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014063		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23827	textile	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014067		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23823	cotton	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014069		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23824	linen	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014078		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23803	canvas	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014109		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23804	paper	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014127		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23805	papyrus	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014224		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23802	cardboard	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014335		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23777	loam	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014341		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17049	sand	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014585		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23973	wax	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014741		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23795	mortar	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014743		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23794	cement mortar	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014748		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23793	lime mortar	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014910		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23975	enamel	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014922		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23908	plaster	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300014966		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23772	stucco	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300048153		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23799	bast	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300133223		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23877	carnelian	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300133748		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23791	tin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300133751		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23788	steel	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300152583		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23771	ore	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300191632		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23817	organic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300191893		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23796	eggshell	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300193683		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24033	keratin	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300193786		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24012	proconnesian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300201964		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23853	gemstone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300209721		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17061	montmorillonite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300209942		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17038	dolomite (mineral)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300212174		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17088	calcium carbonate	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300235507		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23972	ceramic	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300243428		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23825	silk	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300243430		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23826	wool	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300263391		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23837	sinter	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300263800		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24031	vulcanic glass	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300264232		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17070	calcium	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300264869		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23944	crushed sherd	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300265183		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23974	faience	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300311452		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23969	cinnabar (mineral)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300379424		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23770	sediment	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300379483		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17058	silt	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300379536		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23946	soluble salt	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300379609		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23871	calcarenite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300379820		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23956	EDTA	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380041		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23983	zirconium	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380120		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23841	almandine	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380366		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23998	claudianum marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380422		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23866	rose granite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380470		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23959	Paraloid B72	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380471		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23954	Paraloid	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300380480		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17039	aluminosilicate	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300386525		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23938	opaque glass	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300386691		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24040	greenstone	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300400467		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23833	tooth (animal)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300400468		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23810	hair (animal)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300400620		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041	radiolarite	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300400883		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23967	cinnabar (pigment)	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300444909		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24006	naxian marble	semapv:UnspecifiedMatching	
+http://vocab.getty.edu/page/aat/300451454		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23816	bone (human)	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/agate/3.27		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23838	agate	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/andesit/3.29		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23843	andesite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/antler/3.7		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23809	antler	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/basalt/3.20		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23845	basalt	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/bone/3.5		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23933	bone	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/calcite/3.37		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075	calcite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chalcedony/3.13		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23848	chalcedony	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/charcoal/4.1		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24036	charcoal	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chert/3.12		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23857	chert	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/chlorite/3.21		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24038	chlorite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/clay/2.19		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23906	clay	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/concrete/6.16		skos:closeMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23769	concrete	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/copper/3.31		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23784	copper	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/flint/4.11		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23856	flint (rock)	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/gold/3.34		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23783	gold	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/granite/3.24		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23863	granite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/horn/3.8		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23815	horn	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/jasper/3.14		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23870	jasper	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/lead/5.10		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23779	lead	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/limestone/3.22		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23872	limestone	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/malachite/3.35		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24037	malachite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/marble/3.10		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23880	marble	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/metal/2.9		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23792	metal	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/obsidian/3.2		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23883	obsidian	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/porphyry/3.30		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24011	porphyry	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartz/3.15		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23890	quartz	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/quartzite/5.8		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23893	quartzite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/radiolarite/4.18		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24041	radiolarite	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/rock_crystal/3.16		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846	rock crystal	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/sandstone/3.25		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23891	sandstone	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/serpentine/3.23		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23898	serpentine	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/shell/3.6		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23820	shell	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/silver/5.9		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23787	silver	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/stone/2.1		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23836	rock	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/straw/6.8		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992	straw	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/tooth/3.28		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23935	tooth	semapv:UnspecifiedMatching	
+https://vocabs.acdh.oeaw.ac.at/defcthesaurus/wood/3.32		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23814	wood	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q103223		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17084	hematite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q105794		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17083	biotite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q106532		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23945	muscovite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q107099		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23951	volcanic ash	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1074		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24029	skin	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q111444518		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23834	bone (animal)	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1145804		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17045	illite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q11474		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23776	plastic (synthetic)	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q14552475		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23840	alabaster (calcite)	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1468713		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23882	norite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q160066		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23992	straw	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q171917		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17075	calcite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1789729		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24004	lacedaemonian marble	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q193054		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23949	potassium sulfate	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q1992479		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17064	Nile silt	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2003497		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23822	gastropod shell	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2050687		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23846	rock crystal	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q207079		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23897	clay schist	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q211737		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23948	sodium sulfate	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2314		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23947	sodium chloride	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2779570		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23962	Araldite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q2947189		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23889	wehrlite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q3287561		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24005	lucullan marble	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q335239		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24290	amphibolite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q3511295		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24032	bivalve shell	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q5259911		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept24030	human skin	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q561		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23832	tooth (human)	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q567788		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23844	anorthosite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q6066207		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17082	dung	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q618716		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23862	aplite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q648913		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23888	pyroxenite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q664311		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23887	harzburgite	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q7067844		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23892	Nubian sandstone	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q721849		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept17037	iron oxide	semapv:UnspecifiedMatching	
+https://www.wikidata.org/wiki/Q9394827		skos:exactMatch	https://vocabs.acdh.oeaw.ac.at/oeai-materials/concept23901	talc schist	semapv:UnspecifiedMatching	
