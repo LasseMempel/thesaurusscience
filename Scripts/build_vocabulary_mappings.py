@@ -46,7 +46,7 @@ from rdflib.namespace import RDF, SKOS
 
 
 BASE = Path("/home/lasse/repos/thesaurusscience")
-OUTPUT_DIR = BASE / "Mappings" / "auto"
+OUTPUT_DIR = BASE / "Mappings"
 
 CREATOR_ID = "orcid:0009-0001-5183-1635"
 CREATOR_LABEL = "Lasse Mempel"

@@ -1,0 +1,181 @@
+#curie_map:
+#  wd: http://www.wikidata.org/entity/
+#  wds: http://www.wikidata.org/entity/statement/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  fishtmt: http://purl.org/heritagedata/schemes/eh_tmt2/concepts/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wikidata_fish_monument_types.sssom.tsv
+#mapping_set_title: Wikidata to FISH Monument Types Thesaurus
+#mapping_set_description: Wikidata items carrying a P14369 identifier, harvested via SPARQL from https://query.wikidata.org/sparql.
+#license: TODO:choose_a_license
+#creator_id: TODO:orcid_or_custom_curie
+#creator_label: Lasse Mempel
+#mapping_provider: https://www.wikidata.org/
+#mapping_tool: build_wikidata_mappings.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_wikidata_mappings.py
+#subject_source: http://www.wikidata.org/entity/
+#object_source: http://purl.org/heritagedata/schemes/eh_tmt2/concepts/
+#comment: predicate_id defaults to skos:exactMatch (per project decision); overridden per-row only when the Wikidata statement carries a mapping relation type (P4390) qualifier. mapping_source is the specific Wikidata statement URI.
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	mapping_source	comment
+wd:Q1004435	skos:exactMatch	fishtmt:91093	semapv:UnspecifiedMatching	athletics track		http://www.wikidata.org/entity/statement/Q1004435-75D09261-A48F-44E6-BFB5-DD5B20804E08	
+wd:Q1007870	skos:exactMatch	fishtmt:68694	semapv:UnspecifiedMatching	art gallery		http://www.wikidata.org/entity/statement/Q1007870-0370C03B-0135-42DE-9728-54CF4AA03787	
+wd:Q101687	skos:exactMatch	fishtmt:69960	semapv:UnspecifiedMatching	altar		http://www.wikidata.org/entity/statement/Q101687-5190cd81-4aa6-4d91-8178-8d66c3bbfd5f	
+wd:Q1035294	skos:exactMatch	fishtmt:70096	semapv:UnspecifiedMatching	henge		http://www.wikidata.org/entity/statement/Q1035294-91135a84-dd95-4c02-947a-0452f981c697	
+wd:Q106963151	skos:exactMatch	fishtmt:170859	semapv:UnspecifiedMatching	animal trap		http://www.wikidata.org/entity/statement/Q106963151-9E1981A0-FAB4-407B-A704-0FF425070D2E	
+wd:Q108325	skos:exactMatch	fishtmt:69967	semapv:UnspecifiedMatching	chapel		http://www.wikidata.org/entity/statement/Q108325-E054E595-CC2F-45C0-8426-3C8192DA98EE	
+wd:Q113297328	skos:exactMatch	fishtmt:90956	semapv:UnspecifiedMatching	pottery manufactory		http://www.wikidata.org/entity/statement/Q113297328-c9a15086-4c7c-188a-af56-26e9ba62cc0e	
+wd:Q1149405	skos:exactMatch	fishtmt:68974	semapv:UnspecifiedMatching	rock shelter		http://www.wikidata.org/entity/statement/Q1149405-02CEE2F3-428A-454F-B320-58342ACB5023	
+wd:Q120312	skos:exactMatch	fishtmt:159202	semapv:UnspecifiedMatching	trilithon		http://www.wikidata.org/entity/statement/Q120312-6E9607AA-9112-48E4-9829-732EA7CEC8F3	
+wd:Q1211146	skos:exactMatch	fishtmt:142031	semapv:UnspecifiedMatching	rock art		http://www.wikidata.org/entity/statement/Q1211146-e42792ed-4b97-cec6-f50f-294fdb19205c	
+wd:Q1229765	skos:exactMatch	fishtmt:140082	semapv:UnspecifiedMatching	watercraft		http://www.wikidata.org/entity/statement/Q1229765-E46AA0A4-B226-47A9-A16A-B097591C5910	
+wd:Q124714	skos:exactMatch	fishtmt:70390	semapv:UnspecifiedMatching	spring		http://www.wikidata.org/entity/statement/Q124714-7D2476C5-796B-4987-8BE2-BE90C8DADAF1	
+wd:Q1248784	skos:exactMatch	fishtmt:70210	semapv:UnspecifiedMatching	airport		http://www.wikidata.org/entity/statement/Q1248784-4D6A590A-6D5A-4243-8742-2020169AA517	
+wd:Q126946189	skos:exactMatch	fishtmt:92749	semapv:UnspecifiedMatching	netball court		http://www.wikidata.org/entity/statement/Q126946189-82B1E4C7-6473-4BBB-8071-0F607711B9C9	
+wd:Q1285972	skos:exactMatch	fishtmt:103272	semapv:UnspecifiedMatching	isolation ward		http://www.wikidata.org/entity/statement/Q1285972-C594251F-C7FA-4E89-B595-585C0F2851B5	
+wd:Q1307347	skos:exactMatch	fishtmt:102972	semapv:UnspecifiedMatching	boundary		http://www.wikidata.org/entity/statement/Q1307347-CCAD38C8-02B4-4DE7-8CE7-40650963C061	
+wd:Q133215	skos:exactMatch	fishtmt:94125	semapv:UnspecifiedMatching	casino		http://www.wikidata.org/entity/statement/Q133215-592EB9FC-4E8F-42C3-8DF7-01153C88E6B5	
+wd:Q1341387	skos:exactMatch	fishtmt:68722	semapv:UnspecifiedMatching	spa		http://www.wikidata.org/entity/statement/Q1341387-AAA546CF-FE16-4538-B067-86E3326E3CFD	
+wd:Q1361400	skos:exactMatch	fishtmt:70935	semapv:UnspecifiedMatching	gully		http://www.wikidata.org/entity/statement/Q1361400-7CD481C0-4633-496B-895B-271E71E197FB	
+wd:Q1371047	skos:exactMatch	fishtmt:70203	semapv:UnspecifiedMatching	holy well		http://www.wikidata.org/entity/statement/Q1371047-0939CBC5-1AAB-440E-9DDE-D0F391535CFC	
+wd:Q139308886	skos:exactMatch	fishtmt:70179	semapv:UnspecifiedMatching	ritual shaft		http://www.wikidata.org/entity/statement/Q139308886-51D68E0E-F619-4DFB-A943-1C87B67723BF	
+wd:Q139586562	skos:exactMatch	fishtmt:86499	semapv:UnspecifiedMatching	artefact scatter		http://www.wikidata.org/entity/statement/Q139586562-cb27a9df-4b5b-ba4d-f27c-2a32fdb89bf2	
+wd:Q1399576	skos:exactMatch	fishtmt:70071	semapv:UnspecifiedMatching	cist		http://www.wikidata.org/entity/statement/Q1399576-DAF20401-EFE5-4C52-BF03-523A49F85204	
+wd:Q140136723	skos:exactMatch	fishtmt:69999	semapv:UnspecifiedMatching	funerary site		http://www.wikidata.org/entity/statement/Q140136723-eca69eee-4b63-be65-a1af-beec0fb49516	
+wd:Q1490797	skos:exactMatch	fishtmt:70407	semapv:UnspecifiedMatching	ring ditch		http://www.wikidata.org/entity/statement/Q1490797-D81323BD-6E93-400F-9A19-59EFFCE5A537	
+wd:Q1492515	skos:exactMatch	fishtmt:171421	semapv:UnspecifiedMatching	Romano-Celtic temple		http://www.wikidata.org/entity/statement/Q1492515-91edeac7-4ecb-bc39-505d-97ceacbe6ad8	
+wd:Q157570	skos:exactMatch	fishtmt:70078	semapv:UnspecifiedMatching	crematorium		http://www.wikidata.org/entity/statement/Q157570-70390A51-C843-4703-AC14-5EE00A6632EA	
+wd:Q160742	skos:exactMatch	fishtmt:70120	semapv:UnspecifiedMatching	abbey		http://www.wikidata.org/entity/statement/Q160742-F8EA06F1-9AAE-4943-936F-F0C0F84DC222	
+wd:Q1621967	skos:exactMatch	fishtmt:69092	semapv:UnspecifiedMatching	pottery kiln		http://www.wikidata.org/entity/statement/Q1621967-9730B5C9-F75E-47C1-91E1-3755E18CA065	
+wd:Q162875	skos:exactMatch	fishtmt:70087	semapv:UnspecifiedMatching	mausoleum		http://www.wikidata.org/entity/statement/Q162875-777856C5-F976-4E54-A31F-7255D4F41DFF	
+wd:Q163778	skos:exactMatch	fishtmt:87144	semapv:UnspecifiedMatching	animal cemetery		http://www.wikidata.org/entity/statement/Q163778-0C98EE9E-98A5-4E4A-BEC5-9C4BA39FD9D3	
+wd:Q1706476	skos:exactMatch	fishtmt:93716	semapv:UnspecifiedMatching	veterinary hospital		http://www.wikidata.org/entity/statement/Q1706476-31D1350C-4D71-4F0C-9DB4-78823B887B3D	
+wd:Q173387	skos:exactMatch	fishtmt:70080	semapv:UnspecifiedMatching	grave		http://www.wikidata.org/entity/statement/Q173387-F6A1552E-1010-47F7-B70A-BD601F82199B	
+wd:Q179700	skos:exactMatch	fishtmt:68775	semapv:UnspecifiedMatching	statue		http://www.wikidata.org/entity/statement/Q179700-BA59B8A9-33E0-4127-AFF2-5C1E34968270	
+wd:Q1813474	skos:exactMatch	fishtmt:93507	semapv:UnspecifiedMatching	teaching hospital		http://www.wikidata.org/entity/statement/Q1813474-12358DF4-D19E-492E-95E1-3BE2533799C6	
+wd:Q183398	skos:exactMatch	fishtmt:94182	semapv:UnspecifiedMatching	bulletin board		http://www.wikidata.org/entity/statement/Q183398-DD00927D-1F27-4A42-BBCD-2507BC9A0C68	
+wd:Q184418	skos:exactMatch	fishtmt:70074	semapv:UnspecifiedMatching	coffin		http://www.wikidata.org/entity/statement/Q184418-A45029E5-2C88-45B9-8750-2C7F1E31BEF2	
+wd:Q1852785	skos:exactMatch	fishtmt:68917	semapv:UnspecifiedMatching	trench		http://www.wikidata.org/entity/statement/Q1852785-139C4E78-4A77-4AD7-886D-D181AF81E974	
+wd:Q18587891	skos:exactMatch	fishtmt:69094	semapv:UnspecifiedMatching	pottery studio		http://www.wikidata.org/entity/statement/Q18587891-E73D0BED-4DE3-4DB5-9FBB-84C3B8F0C5ED	
+wd:Q188040	skos:exactMatch	fishtmt:69068	semapv:UnspecifiedMatching	quarry		http://www.wikidata.org/entity/statement/Q188040-E54BF281-5BDF-4DCA-83A4-E7DCC1CDBC01	
+wd:Q188869	skos:exactMatch	fishtmt:68623	semapv:UnspecifiedMatching	field		http://www.wikidata.org/entity/statement/Q188869-439F140D-BA83-4AC5-A729-8AADB1D8116F	
+wd:Q190752	skos:exactMatch	fishtmt:147549	semapv:UnspecifiedMatching	supreme court		http://www.wikidata.org/entity/statement/Q190752-16B041DA-B72E-44B7-A5E7-9E3EE5C641A0	
+wd:Q192619	skos:exactMatch	fishtmt:70079	semapv:UnspecifiedMatching	crypt		http://www.wikidata.org/entity/statement/Q192619-4D9C6A8D-1A32-4CAE-A444-35D33536D90D	
+wd:Q193010	skos:exactMatch	fishtmt:139022	semapv:UnspecifiedMatching	wind tunnel		http://www.wikidata.org/entity/statement/Q193010-C14DD821-EC5D-4D4B-8B37-17436792F732	
+wd:Q194195	skos:exactMatch	fishtmt:136910	semapv:UnspecifiedMatching	amusement park		http://www.wikidata.org/entity/statement/Q194195-9BC9FFA0-0B5B-42B8-855C-3F6BB85EE0D1	
+wd:Q19947271	skos:exactMatch	fishtmt:70000	semapv:UnspecifiedMatching	barrow		http://www.wikidata.org/entity/statement/Q19947271-3F56C610-2A57-4EB8-A6C3-264AF180A31C	
+wd:Q2016147	skos:exactMatch	fishtmt:70111	semapv:UnspecifiedMatching	ogham stone		http://www.wikidata.org/entity/statement/Q2016147-7e93a890-9d0f-49e5-8312-7e05eb9dad2c	
+wd:Q2046325	skos:exactMatch	fishtmt:70010	semapv:UnspecifiedMatching	round barrow		http://www.wikidata.org/entity/statement/Q2046325-DC6DB20B-DE07-4B49-A3F3-AC9419D921BF	
+wd:Q214252	skos:exactMatch	fishtmt:70413	semapv:UnspecifiedMatching	stable		http://www.wikidata.org/entity/statement/Q214252-E1259C5C-0420-4D04-82BE-D540AE2C074A	
+wd:Q21550515	skos:exactMatch	fishtmt:69987	semapv:UnspecifiedMatching	cross		http://www.wikidata.org/entity/statement/Q21550515-7DA3FAE7-A202-4D20-A7C2-1F5D400E0A4D	
+wd:Q2164694	skos:exactMatch	fishtmt:111593	semapv:UnspecifiedMatching	cattle grid		http://www.wikidata.org/entity/statement/Q2164694-6116D794-C2D1-4DD9-87FA-2559D9BCF6A3	
+wd:Q217164	skos:exactMatch	fishtmt:70313	semapv:UnspecifiedMatching	floor		http://www.wikidata.org/entity/statement/Q217164-0642CABC-34B1-46E0-BBA3-33A8EBEE3682	
+wd:Q2207370	skos:exactMatch	fishtmt:93264	semapv:UnspecifiedMatching	seat		http://www.wikidata.org/entity/statement/Q2207370-973BF5AD-819B-47D1-9EA3-E8C1DCA80F3D	
+wd:Q23090513	skos:exactMatch	fishtmt:70398	semapv:UnspecifiedMatching	pit		http://www.wikidata.org/entity/statement/Q23090513-7E8C6E88-FAB4-4B17-88B2-24E207C44444	
+wd:Q2388270	skos:exactMatch	fishtmt:141084	semapv:UnspecifiedMatching	tahara house		http://www.wikidata.org/entity/statement/Q2388270-B2F2F6B6-2B78-429F-B96D-656B16E25C75	
+wd:Q2404995	skos:exactMatch	fishtmt:149817	semapv:UnspecifiedMatching	Islamic cemetery		http://www.wikidata.org/entity/statement/Q2404995-7A9152F0-CEA6-4697-9383-8CB4169492EE	
+wd:Q241045	skos:exactMatch	fishtmt:91312	semapv:UnspecifiedMatching	bust		http://www.wikidata.org/entity/statement/Q241045-1528A204-84AB-4807-ABAB-5EA6B522F841	
+wd:Q255595	skos:exactMatch	fishtmt:70091	semapv:UnspecifiedMatching	ossuary		http://www.wikidata.org/entity/statement/Q255595-5413A99F-2B90-46F4-8CD9-9F2AF43BFCD7	
+wd:Q2562511	skos:exactMatch	fishtmt:151827	semapv:UnspecifiedMatching	footprint		http://www.wikidata.org/entity/statement/Q2562511-12F87D36-93FD-4FB1-9C2F-A509F0CB66ED	
+wd:Q2613100	skos:exactMatch	fishtmt:162752	semapv:UnspecifiedMatching	Jain temple		http://www.wikidata.org/entity/statement/Q2613100-789CB6F3-47AD-4C85-8E38-AF2B50ED537F	
+wd:Q2749813	skos:exactMatch	fishtmt:70061	semapv:UnspecifiedMatching	churchyard		http://www.wikidata.org/entity/statement/Q2749813-BE254AD1-9C10-4F4B-912F-5CFE172844E2	
+wd:Q283202	skos:exactMatch	fishtmt:69456	semapv:UnspecifiedMatching	harbor		http://www.wikidata.org/entity/statement/Q283202-AD28BF80-CF2B-4E8E-B188-F4C68C9CBAA6	
+wd:Q2887138	skos:exactMatch	fishtmt:68678	semapv:UnspecifiedMatching	civil basilica		http://www.wikidata.org/entity/statement/Q2887138-C2C023AE-8583-49F9-91DD-B0062E65729F	
+wd:Q3002495	skos:exactMatch	fishtmt:68655	semapv:UnspecifiedMatching	watercress bed		http://www.wikidata.org/entity/statement/Q3002495-B33276AB-9A9C-411F-AC2F-207303BB6B6B	
+wd:Q325017	skos:exactMatch	fishtmt:69978	semapv:UnspecifiedMatching	causewayed enclosure		http://www.wikidata.org/entity/statement/Q325017-B7EDA077-4DF7-4785-8C44-B1B278894FD0	
+wd:Q355304	skos:exactMatch	fishtmt:70395	semapv:UnspecifiedMatching	watercourse		http://www.wikidata.org/entity/statement/Q355304-9688FF9C-ABE6-4630-A474-7CBD29A25190	
+wd:Q381885	skos:exactMatch	fishtmt:70092	semapv:UnspecifiedMatching	tomb		http://www.wikidata.org/entity/statement/Q381885-66926220-52F2-4259-9CC8-961C27765B30	
+wd:Q452212	skos:exactMatch	fishtmt:69997	semapv:UnspecifiedMatching	cursus		http://www.wikidata.org/entity/statement/Q452212-E2A314ED-122D-44C4-91D9-18E935C654B8	
+wd:Q464780	skos:exactMatch	fishtmt:68741	semapv:UnspecifiedMatching	mint		http://www.wikidata.org/entity/statement/Q464780-C4E5AFB7-7979-4CC9-BF6B-D121FFA28AF7	
+wd:Q466544	skos:exactMatch	fishtmt:71402	semapv:UnspecifiedMatching	loggia		http://www.wikidata.org/entity/statement/Q466544-33BC892D-5175-4F25-A8A2-C2197ACC0045	
+wd:Q483453	skos:exactMatch	fishtmt:69014	semapv:UnspecifiedMatching	fountain		http://www.wikidata.org/entity/statement/Q483453-00FD676A-72BF-4D9A-AECA-959D9BA43B36	
+wd:Q4878954	skos:exactMatch	fishtmt:140258	semapv:UnspecifiedMatching	Bed burial		http://www.wikidata.org/entity/statement/Q4878954-CF5B22C4-F2D3-43A4-A350-08A32AA9C886	
+wd:Q489357	skos:exactMatch	fishtmt:68560	semapv:UnspecifiedMatching	farmhouse		http://www.wikidata.org/entity/statement/Q489357-90E0C5AD-E2D9-4291-904A-1F83F77805BB	
+wd:Q5054655	skos:exactMatch	fishtmt:69979	semapv:UnspecifiedMatching	Causewayed ring ditch		http://www.wikidata.org/entity/statement/Q5054655-44D68B1B-DE4E-46F0-908B-48519558124F	
+wd:Q513550	skos:exactMatch	fishtmt:70099	semapv:UnspecifiedMatching	hermitage		http://www.wikidata.org/entity/statement/Q513550-AF87FEC9-F6FE-4226-BA50-0975EE04C2A6	
+wd:Q5375483	skos:exactMatch	fishtmt:70354	semapv:UnspecifiedMatching	enclosure		http://www.wikidata.org/entity/statement/Q5375483-0946244A-EE48-408D-BCF6-9FC118F23F12	
+wd:Q5393308	skos:exactMatch	fishtmt:91298	semapv:UnspecifiedMatching	Buddhist temple		http://www.wikidata.org/entity/statement/Q5393308-BA019A63-3650-4692-867D-B18E0EB13AF5	
+wd:Q585473	skos:exactMatch	fishtmt:70374	semapv:UnspecifiedMatching	hearth		http://www.wikidata.org/entity/statement/Q585473-AF057191-2A3F-47D5-8508-B4DD2AE81939	
+wd:Q606777	skos:exactMatch	fishtmt:69024	semapv:UnspecifiedMatching	maze		http://www.wikidata.org/entity/statement/Q606777-2E892BB5-B30C-4178-9DE7-FCDF3F1EECBB	
+wd:Q623525	skos:exactMatch	fishtmt:69041	semapv:UnspecifiedMatching	rotunda		http://www.wikidata.org/entity/statement/Q623525-C6AB6FC8-A391-4897-A706-547755C8501F	
+wd:Q6852233	skos:exactMatch	fishtmt:95048	semapv:UnspecifiedMatching	military building		http://www.wikidata.org/entity/statement/Q6852233-0990B2BB-85D4-47CB-92AA-76D4C60A39CE	
+wd:Q697295	skos:exactMatch	fishtmt:70184	semapv:UnspecifiedMatching	shrine		http://www.wikidata.org/entity/statement/Q697295-05F3E7D9-F34E-4EC7-A17E-2F40A135724F	
+wd:Q7321974	skos:exactMatch	fishtmt:68612	semapv:UnspecifiedMatching	cairn		http://www.wikidata.org/entity/statement/Q7321974-26A4946B-8329-4CFC-AB69-E9D080712523	
+wd:Q745900	skos:exactMatch	fishtmt:144478	semapv:UnspecifiedMatching	Pelton wheel		http://www.wikidata.org/entity/statement/Q745900-99B34E16-3108-432C-A149-F66386C6ABCD	
+wd:Q756780	skos:exactMatch	fishtmt:68752	semapv:UnspecifiedMatching	Roman colony		http://www.wikidata.org/entity/statement/Q756780-BAAC2765-DF28-495D-86EE-FC9DAC999613	
+wd:Q7912460	skos:exactMatch	fishtmt:68884	semapv:UnspecifiedMatching	Vallum		http://www.wikidata.org/entity/statement/Q7912460-05531893-E242-494C-BDA3-CFEFD840F78D	
+wd:Q7981128	skos:exactMatch	fishtmt:70469	semapv:UnspecifiedMatching	well house		http://www.wikidata.org/entity/statement/Q7981128-AD7063FE-AF27-4443-8EC9-FE9F9F49EE1B	
+wd:Q81669	skos:exactMatch	fishtmt:68816	semapv:UnspecifiedMatching	arsenal		http://www.wikidata.org/entity/statement/Q81669-6DC03A54-6CB5-4870-B883-5590B4D8FE69	
+wd:Q838858	skos:exactMatch	fishtmt:70435	semapv:UnspecifiedMatching	cistern		http://www.wikidata.org/entity/statement/Q838858-C545D9FB-6F66-464A-9E7D-06EAEEA20DA1	
+wd:Q842402	skos:exactMatch	fishtmt:94405	semapv:UnspecifiedMatching	Hindu temple		http://www.wikidata.org/entity/statement/Q842402-17758274-3AE1-401F-9B6F-84A90DA09C12	
+wd:Q87825008	skos:exactMatch	fishtmt:70438	semapv:UnspecifiedMatching	conduit house		http://www.wikidata.org/entity/statement/Q87825008-52a66b63-4d19-7b41-6713-ad0a0792eda8	
+wd:Q892168	skos:exactMatch	fishtmt:70272	semapv:UnspecifiedMatching	causeway		http://www.wikidata.org/entity/statement/Q892168-3fe32ed9-42bc-b2e4-39d0-3e9f961e67ac	
+wd:Q91723	skos:exactMatch	fishtmt:143375	semapv:UnspecifiedMatching	blast shelter		http://www.wikidata.org/entity/statement/Q91723-08184507-1FB0-45A4-B6C8-C810B0DDEC93	
+wd:Q91939	skos:exactMatch	fishtmt:140358	semapv:UnspecifiedMatching	hardened aircraft shelter		http://www.wikidata.org/entity/statement/Q91939-7C8CB1AD-38DF-47C9-B792-CAC844889792	
+wd:Q989946	skos:exactMatch	fishtmt:70411	semapv:UnspecifiedMatching	shelter		http://www.wikidata.org/entity/statement/Q989946-4987D7E5-915A-466A-9375-A47578702926	
+wd:Q996370	skos:exactMatch	fishtmt:69968	semapv:UnspecifiedMatching	bridge chapel		http://www.wikidata.org/entity/statement/Q996370-9B4377B8-9F29-44AA-AA92-9BAFF6884E99	
+wd:Q10145	skos:exactMatch	fishtmt:70235	semapv:UnspecifiedMatching	milestone		http://www.wikidata.org/entity/statement/Q10145-E859A662-DE68-4B71-911E-D7005714ACE1	
+wd:Q10884	skos:exactMatch	fishtmt:170839	semapv:UnspecifiedMatching	tree		http://www.wikidata.org/entity/statement/Q10884-7E8E548C-096A-4AA5-89E6-5D3CEF0E7F27	
+wd:Q11315	skos:exactMatch	fishtmt:71813	semapv:UnspecifiedMatching	shopping center		http://www.wikidata.org/entity/statement/Q11315-54A6408A-1756-4486-80D2-B264457C4A84	
+wd:Q11436	skos:exactMatch	fishtmt:70208	semapv:UnspecifiedMatching	aircraft		http://www.wikidata.org/entity/statement/Q11436-179F4B9F-93E1-4EAC-9E02-50377F6E1AB4	
+wd:Q11691	skos:exactMatch	fishtmt:68788	semapv:UnspecifiedMatching	stock exchange		http://www.wikidata.org/entity/statement/Q11691-85A1AA3B-BED0-4BD8-8C9C-37922034DE08	
+wd:Q11707	skos:exactMatch	fishtmt:68801	semapv:UnspecifiedMatching	restaurant		http://www.wikidata.org/entity/statement/Q11707-17057B5B-1322-4686-BE25-D220944BE57C	
+wd:Q12277	skos:exactMatch	fishtmt:70309	semapv:UnspecifiedMatching	arch		http://www.wikidata.org/entity/statement/Q12277-89B94FAE-6E7C-4354-B2B0-89453570091F	
+wd:Q12280	skos:exactMatch	fishtmt:70214	semapv:UnspecifiedMatching	bridge		http://www.wikidata.org/entity/statement/Q12280-B9AC6F32-6847-4A21-982B-C0DB5C05F513	
+wd:Q12323	skos:exactMatch	fishtmt:70440	semapv:UnspecifiedMatching	dam		http://www.wikidata.org/entity/statement/Q12323-5AE3097A-CFBA-49FA-8598-C7DDE060656B	
+wd:Q12518	skos:exactMatch	fishtmt:70422	semapv:UnspecifiedMatching	tower		http://www.wikidata.org/entity/statement/Q12518-D4B8C8FA-85D8-44AF-A5BF-E7061A4262B2	
+wd:Q12570	skos:exactMatch	fishtmt:70223	semapv:UnspecifiedMatching	suspension bridge		http://www.wikidata.org/entity/statement/Q12570-491115D3-C4EE-43B3-935A-A186257EE017	
+wd:Q12743	skos:exactMatch	fishtmt:70262	semapv:UnspecifiedMatching	ford		http://www.wikidata.org/entity/statement/Q12743-0671D7B1-F1C2-4621-B9F7-FC46AB033891	
+wd:Q12760	skos:exactMatch	fishtmt:69359	semapv:UnspecifiedMatching	steam engine		http://www.wikidata.org/entity/statement/Q12760-B1D746EF-3E8A-4C13-86E0-1AB35831AE0F	
+wd:Q14659	skos:exactMatch	fishtmt:68762	semapv:UnspecifiedMatching	coat of arms		http://www.wikidata.org/entity/statement/Q14659-95BFFE5F-8700-4773-83F2-A9F5A7E412BE	
+wd:Q14908	skos:exactMatch	fishtmt:70287	semapv:UnspecifiedMatching	boat lift		http://www.wikidata.org/entity/statement/Q14908-CBFE82CA-9E9D-4294-A5F6-4F0D0D48BC8E	
+wd:Q1501	skos:exactMatch	fishtmt:69955	semapv:UnspecifiedMatching	swimming pool		http://www.wikidata.org/entity/statement/Q1501-156A912B-0830-4CAA-88DB-87B46D783930	
+wd:Q1525	skos:exactMatch	fishtmt:142048	semapv:UnspecifiedMatching	roundabout		http://www.wikidata.org/entity/statement/Q1525-059ED263-B869-489A-9144-998465D7A977	
+wd:Q16560	skos:exactMatch	fishtmt:68949	semapv:UnspecifiedMatching	palace		http://www.wikidata.org/entity/statement/Q16560-22083C8C-55AF-4612-9094-16BD49DA47D9	
+wd:Q16970	skos:exactMatch	fishtmt:69980	semapv:UnspecifiedMatching	church building		http://www.wikidata.org/entity/statement/Q16970-9863907B-BB44-4AD1-8822-81EE5782406E	
+wd:Q19783	skos:exactMatch	fishtmt:159218	semapv:UnspecifiedMatching	hoarding		http://www.wikidata.org/entity/statement/Q19783-6706EC8E-147C-4DFA-9DE5-823167962421	
+wd:Q22667	skos:exactMatch	fishtmt:70241	semapv:UnspecifiedMatching	railway		http://www.wikidata.org/entity/statement/Q22667-8EE4960C-3F1E-4234-BD04-EF771AA46202	
+wd:Q22687	skos:exactMatch	fishtmt:91127	semapv:UnspecifiedMatching	bank		http://www.wikidata.org/entity/statement/Q22687-B795E914-A24B-42BB-A4EB-FE076A5B2EB2	
+wd:Q22908	skos:exactMatch	fishtmt:141328	semapv:UnspecifiedMatching	retirement home		http://www.wikidata.org/entity/statement/Q22908-E290A03F-C812-4584-8142-551E7840CEA3	
+wd:Q23391	skos:exactMatch	fishtmt:107253	semapv:UnspecifiedMatching	portcullis		http://www.wikidata.org/entity/statement/Q23391-2F1F9080-FBAC-46B6-8F1F-F67D67BC407A	
+wd:Q23394	skos:exactMatch	fishtmt:68819	semapv:UnspecifiedMatching	barbican		http://www.wikidata.org/entity/statement/Q23394-9A0F806A-BA10-4AD9-8981-39F6A6BBBD33	
+wd:Q23413	skos:exactMatch	fishtmt:68833	semapv:UnspecifiedMatching	castle		http://www.wikidata.org/entity/statement/Q23413-E7CBB9D4-E006-44A9-8036-F1DF8B071AB0	
+wd:Q23442	skos:exactMatch	fishtmt:82821	semapv:UnspecifiedMatching	island		http://www.wikidata.org/entity/statement/Q23442-66ADBD6E-00CE-4A19-896E-746324C7C26C	
+wd:Q24354	skos:exactMatch	fishtmt:69957	semapv:UnspecifiedMatching	theatre building		http://www.wikidata.org/entity/statement/Q24354-305F1E58-012C-4E57-951C-2B23DEE870F8	
+wd:Q27686	skos:exactMatch	fishtmt:68792	semapv:UnspecifiedMatching	hotel		http://www.wikidata.org/entity/statement/Q27686-4EA2563F-8BF8-4B68-BB6B-7346326C37C1	
+wd:Q2977	skos:exactMatch	fishtmt:69975	semapv:UnspecifiedMatching	cathedral		http://www.wikidata.org/entity/statement/Q2977-0DD04B9B-EEAE-4BC3-8D0E-80CE41B7CD2D	
+wd:Q30121	skos:exactMatch	fishtmt:143494	semapv:UnspecifiedMatching	pasture		http://www.wikidata.org/entity/statement/Q30121-4497B60B-0E6C-4E38-A9A7-812E9E3972B6	
+wd:Q30198	skos:exactMatch	fishtmt:143493	semapv:UnspecifiedMatching	marsh		http://www.wikidata.org/entity/statement/Q30198-53C09287-4C2F-4AD5-914A-D698A60998E2	
+wd:Q32815	skos:exactMatch	fishtmt:70110	semapv:UnspecifiedMatching	mosque		http://www.wikidata.org/entity/statement/Q32815-2D67F06E-1EA4-4CE6-A44B-31273B1F5208	
+wd:Q33506	skos:exactMatch	fishtmt:68698	semapv:UnspecifiedMatching	museum		http://www.wikidata.org/entity/statement/Q33506-891B4051-0E9A-4433-A0C9-0F539C964044	
+wd:Q34442	skos:exactMatch	fishtmt:70264	semapv:UnspecifiedMatching	road		http://www.wikidata.org/entity/statement/Q34442-1BABDADD-047B-4E40-AD5A-8F82662BF4E9	
+wd:Q34627	skos:exactMatch	fishtmt:70195	semapv:UnspecifiedMatching	synagogue		http://www.wikidata.org/entity/statement/Q34627-E94C5052-41F4-4FEA-9188-B7C2BF824F36	
+wd:Q35509	skos:exactMatch	fishtmt:70384	semapv:UnspecifiedMatching	cave		http://www.wikidata.org/entity/statement/Q35509-A07C8C3C-F463-42DA-B768-90826D106FF7	
+wd:Q36539	skos:exactMatch	fishtmt:70396	semapv:UnspecifiedMatching	oven		http://www.wikidata.org/entity/statement/Q36539-28151CD8-624F-41DD-B54D-9E0EA1BC78B4	
+wd:Q3914	skos:exactMatch	fishtmt:68700	semapv:UnspecifiedMatching	school		http://www.wikidata.org/entity/statement/Q3914-7F9CB541-C3A1-4DDC-9DD8-EC3F96FDB2AE	
+wd:Q3947	skos:exactMatch	fishtmt:68928	semapv:UnspecifiedMatching	house		http://www.wikidata.org/entity/statement/Q3947-0E9A6F63-E6D2-4AA8-8789-335E1928B101	
+wd:Q3957	skos:exactMatch	fishtmt:68750	semapv:UnspecifiedMatching	town		http://www.wikidata.org/entity/statement/Q3957-DE3787DA-3270-47DE-9092-004042BFE23B	
+wd:Q39614	skos:exactMatch	fishtmt:70053	semapv:UnspecifiedMatching	cemetery		http://www.wikidata.org/entity/statement/Q39614-E3A320FE-1773-42C3-9619-3CCD53FD7E55	
+wd:Q41176	skos:exactMatch	fishtmt:70336	semapv:UnspecifiedMatching	building		http://www.wikidata.org/entity/statement/Q41176-3A90BB7B-3026-4F06-8C16-CA30F1C13569	
+wd:Q41253	skos:exactMatch	fishtmt:69938	semapv:UnspecifiedMatching	movie theater		http://www.wikidata.org/entity/statement/Q41253-9EAB8CE7-06E5-46C9-9875-1838D54CA55E	
+wd:Q42195	skos:exactMatch	fishtmt:70180	semapv:UnspecifiedMatching	petroglyph		http://www.wikidata.org/entity/statement/Q42195-94CA45B6-8C3A-4EF4-92A0-F81EC2CEFC3A	
+wd:Q42948	skos:exactMatch	fishtmt:70426	semapv:UnspecifiedMatching	wall		http://www.wikidata.org/entity/statement/Q42948-789044BE-B8C1-4DA5-BEF5-3A0669EFBDCA	
+wd:Q43164	skos:exactMatch	fishtmt:68969	semapv:UnspecifiedMatching	kitchen		http://www.wikidata.org/entity/statement/Q43164-EF199C07-F11A-4A2A-BEA8-3E1A0049F3FF	
+wd:Q43483	skos:exactMatch	fishtmt:70202	semapv:UnspecifiedMatching	water well		http://www.wikidata.org/entity/statement/Q43483-52FB1102-C931-4807-9CBD-A127FEB85338	
+wd:Q43501	skos:exactMatch	fishtmt:68704	semapv:UnspecifiedMatching	zoo		http://www.wikidata.org/entity/statement/Q43501-743136CA-C9E3-45CC-B31C-BBAA121AA33F	
+wd:Q44167	skos:exactMatch	fishtmt:69358	semapv:UnspecifiedMatching	engine		http://www.wikidata.org/entity/statement/Q44167-7092DF60-0F6B-4D6E-B696-68AB077CA0A6	
+wd:Q4421	skos:exactMatch	fishtmt:143482	semapv:UnspecifiedMatching	forest		http://www.wikidata.org/entity/statement/Q4421-EC61311F-B76A-4C4A-900D-74F5EA0121E0	
+wd:Q4421	skos:exactMatch	fishtmt:68656	semapv:UnspecifiedMatching	forest		http://www.wikidata.org/entity/statement/Q4421-743E3E7A-B44D-473C-AF80-4AE6270B45D1	
+wd:Q44539	skos:exactMatch	fishtmt:70196	semapv:UnspecifiedMatching	temple		http://www.wikidata.org/entity/statement/Q44539-7B28AA00-1576-4763-920E-837607EB7188	
+wd:Q46124	skos:exactMatch	fishtmt:68721	semapv:UnspecifiedMatching	sanatorium		http://www.wikidata.org/entity/statement/Q46124-768E783C-39E5-46E9-9AC7-0B647785D8A3	
+wd:Q474	skos:exactMatch	fishtmt:70432	semapv:UnspecifiedMatching	aqueduct		http://www.wikidata.org/entity/statement/Q474-D4303DAE-C58C-47B2-9527-2F5EA9A19E9F	
+wd:Q5084	skos:exactMatch	fishtmt:68985	semapv:UnspecifiedMatching	hamlet		http://www.wikidata.org/entity/statement/Q5084-ED826744-83E0-49E0-809D-257A70EB1D13	
+wd:Q5275	skos:exactMatch	fishtmt:143581	semapv:UnspecifiedMatching	astronomical clock		http://www.wikidata.org/entity/statement/Q5275-9626C301-21A6-473B-85C5-EBFFACFCE940	
+wd:Q532	skos:exactMatch	fishtmt:69001	semapv:UnspecifiedMatching	village		http://www.wikidata.org/entity/statement/Q532-213E3ED6-A967-43E8-B915-C43599760927	
+wd:Q54831	skos:exactMatch	fishtmt:68811	semapv:UnspecifiedMatching	amphitheatre		http://www.wikidata.org/entity/statement/Q54831-C8465881-6BEF-49EA-B00B-ECA9B271D4A8	
+wd:Q55488	skos:exactMatch	fishtmt:70247	semapv:UnspecifiedMatching	railway station		http://www.wikidata.org/entity/statement/Q55488-D11F7182-F161-4881-A38B-B18F53F4C120	
+wd:Q57036	skos:exactMatch	fishtmt:71824	semapv:UnspecifiedMatching	sauna		http://www.wikidata.org/entity/statement/Q57036-5CE15314-8DF5-428E-B191-07B0E883FF1A	
+wd:Q57821	skos:exactMatch	fishtmt:68874	semapv:UnspecifiedMatching	fortification		http://www.wikidata.org/entity/statement/Q57821-DB5A7257-706E-48E7-B6FE-7EE138AE6BDF	
+wd:Q57831	skos:exactMatch	fishtmt:68880	semapv:UnspecifiedMatching	fortress		http://www.wikidata.org/entity/statement/Q57831-D180B021-58A9-446C-BD4B-D7B2808065EC	
+wd:Q661	skos:exactMatch	fishtmt:69368	semapv:UnspecifiedMatching	hydraulic ram		http://www.wikidata.org/entity/statement/Q661-0A8C7644-998F-40BC-922E-1D235FF47B18	
+wd:Q7075	skos:exactMatch	fishtmt:68697	semapv:UnspecifiedMatching	library		http://www.wikidata.org/entity/statement/Q7075-26ED0B39-0946-41F6-B2BF-9131EF47E619	
+wd:Q8075	skos:exactMatch	fishtmt:163246	semapv:UnspecifiedMatching	television set		http://www.wikidata.org/entity/statement/Q8075-34757D99-CD02-447D-B863-E2909C6387E1	

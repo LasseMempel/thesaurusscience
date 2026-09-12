@@ -1,0 +1,30 @@
+#curie_map:
+#  wd: http://www.wikidata.org/entity/
+#  wds: http://www.wikidata.org/entity/statement/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  fishevd: http://purl.org/heritagedata/schemes/eh_evd/concepts/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wikidata_fish_evidence.sssom.tsv
+#mapping_set_title: Wikidata to FISH Evidence Thesaurus
+#mapping_set_description: Wikidata items carrying a P14370 identifier, harvested via SPARQL from https://query.wikidata.org/sparql.
+#license: TODO:choose_a_license
+#creator_id: TODO:orcid_or_custom_curie
+#creator_label: Lasse Mempel
+#mapping_provider: https://www.wikidata.org/
+#mapping_tool: build_wikidata_mappings.py
+#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_wikidata_mappings.py
+#subject_source: http://www.wikidata.org/entity/
+#object_source: http://purl.org/heritagedata/schemes/eh_evd/concepts/
+#comment: predicate_id defaults to skos:exactMatch (per project decision); overridden per-row only when the Wikidata statement carries a mapping relation type (P4390) qualifier. mapping_source is the specific Wikidata statement URI.
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	mapping_source	comment
+wd:Q1349587	skos:exactMatch	fishevd:78252	semapv:UnspecifiedMatching	earthworks		http://www.wikidata.org/entity/statement/Q1349587-3598C236-DD8B-4BC3-90A2-F970328D0439	
+wd:Q139586562	skos:exactMatch	fishevd:135585	semapv:UnspecifiedMatching	artefact scatter		http://www.wikidata.org/entity/statement/Q139586562-f232240e-443b-dd79-1c64-6867281e164d	
+wd:Q139586619	skos:exactMatch	fishevd:82792	semapv:UnspecifiedMatching	geophysical evidence		http://www.wikidata.org/entity/statement/Q139586619-3b410dcc-4ef9-7b5f-95c1-a106e32c8098	
+wd:Q21073029	skos:exactMatch	fishevd:139114	semapv:UnspecifiedMatching	disaster remains		http://www.wikidata.org/entity/statement/Q21073029-095435CE-5200-4E87-B072-FC6AA8706539	
+wd:Q331055	skos:exactMatch	fishevd:151454	semapv:UnspecifiedMatching	burial		http://www.wikidata.org/entity/statement/Q331055-cc0b5c2d-b8b6-4a32-a48a-7544f77e09c1	
+wd:Q391414	skos:exactMatch	fishevd:97296	semapv:UnspecifiedMatching	architectural element		http://www.wikidata.org/entity/statement/Q391414-5D425FD0-7D72-4EE1-ACFC-975633C1D145	
+wd:Q391414	skos:exactMatch	fishevd:169985	semapv:UnspecifiedMatching	architectural element		http://www.wikidata.org/entity/statement/Q391414-3C240856-C819-41CC-97AC-6E2B957251DF	
+wd:Q3964128	skos:exactMatch	fishevd:99982	semapv:UnspecifiedMatching	Soil mark		http://www.wikidata.org/entity/statement/Q3964128-D50F8902-D744-4560-8C57-F08B48D2C7FF	
+wd:Q811979	skos:exactMatch	fishevd:84570	semapv:UnspecifiedMatching	built structure		http://www.wikidata.org/entity/statement/Q811979-AD88BFED-C998-4D21-A1FC-9171FDFC8F02	
+wd:Q852811	skos:exactMatch	fishevd:78253	semapv:UnspecifiedMatching	cropmark		http://www.wikidata.org/entity/statement/Q852811-56d21e3a-5b56-4bfb-98d5-d169cd23e94a	
+wd:Q41176	skos:exactMatch	fishevd:84564	semapv:UnspecifiedMatching	building		http://www.wikidata.org/entity/statement/Q41176-c99eb703-9182-44b4-a843-7ae173a0b574	
