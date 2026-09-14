@@ -1,0 +1,80 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_hes_scapa_ads_eh_period.sssom.tsv
+#mapping_set_title: Scottish Archaeological Periods → Historic England Periods SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Scottish Archaeological Periods (concept scheme: http://purl.org/heritagedata/schemes/scapa), targeting Historic England Periods (concept scheme: http://purl.org/heritagedata/schemes/eh_period). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: fish:schemes/scapa
+#subject_source_version: 2018-03-29T14:00:00+00:00
+#object_source: fish:schemes/eh_period
+#comment: Extracted from local RDF file(s) FISH/hes_scapa_20180329.rdf; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+fish:schemes/scapa/concepts/AN	Anglian	skos:broadMatch	fish:schemes/eh_period/concepts/EM		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/BA	Bronze Age	skos:closeMatch	fish:schemes/eh_period/concepts/BA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C20	20th Century	skos:exactMatch	fish:schemes/eh_period/concepts/C20		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C21	21st Century	skos:exactMatch	fish:schemes/eh_period/concepts/C21		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/CH	Chalcolithic	skos:broadMatch	fish:schemes/eh_period/concepts/EBA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/CH	Chalcolithic	skos:broadMatch	fish:schemes/eh_period/concepts/LNE		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E20	Early 20th Century	skos:exactMatch	fish:schemes/eh_period/concepts/E20		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E21	Early 21st Century	skos:broadMatch	fish:schemes/eh_period/concepts/C21		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EBA	Early Bronze Age	skos:closeMatch	fish:schemes/eh_period/concepts/EBA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EIA	Early Iron Age	skos:closeMatch	fish:schemes/eh_period/concepts/EIA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EM	Early Medieval	skos:closeMatch	fish:schemes/eh_period/concepts/EM		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EME	Early Mesolithic	skos:closeMatch	fish:schemes/eh_period/concepts/EME		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ENE	Early Neolithic	skos:closeMatch	fish:schemes/eh_period/concepts/ENE		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EPR	Early Prehistoric	skos:closeMatch	fish:schemes/eh_period/concepts/EPR		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/IA	Iron Age	skos:closeMatch	fish:schemes/eh_period/concepts/IA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L20	Late 20th Century	skos:exactMatch	fish:schemes/eh_period/concepts/L20		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L21	Late 21st Century	skos:broadMatch	fish:schemes/eh_period/concepts/C21		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LAT	Late Prehistoric	skos:closeMatch	fish:schemes/eh_period/concepts/LPR		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LBA	Late Bronze Age	skos:closeMatch	fish:schemes/eh_period/concepts/LBA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LEM	Late Early Medieval	skos:broadMatch	fish:schemes/eh_period/concepts/EM		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LIA	Late Iron Age	skos:closeMatch	fish:schemes/eh_period/concepts/LIA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LME	Late Mesolithic	skos:closeMatch	fish:schemes/eh_period/concepts/LME		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LNE	Late Neolithic	skos:closeMatch	fish:schemes/eh_period/concepts/LNE		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LON	Long Iron Age	skos:broadMatch	fish:schemes/eh_period/concepts/EM		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LON	Long Iron Age	skos:broadMatch	fish:schemes/eh_period/concepts/IA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LON	Long Iron Age	skos:broadMatch	fish:schemes/eh_period/concepts/LBA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LPA	Lower Palaeolithic	skos:closeMatch	fish:schemes/eh_period/concepts/LPA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M20	Mid 20th Century	skos:exactMatch	fish:schemes/eh_period/concepts/M20		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M21	Mid 21st Century	skos:broadMatch	fish:schemes/eh_period/concepts/C21		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MBA	Middle Bronze Age	skos:closeMatch	fish:schemes/eh_period/concepts/MBA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MD	Medieval	skos:closeMatch	fish:schemes/eh_period/concepts/MD		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ME	Mesolithic	skos:closeMatch	fish:schemes/eh_period/concepts/ME		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MIA	Middle Iron Age	skos:closeMatch	fish:schemes/eh_period/concepts/MIA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MNE	Middle Neolithic	skos:closeMatch	fish:schemes/eh_period/concepts/MNE		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MPA	Middle Palaeolithic	skos:closeMatch	fish:schemes/eh_period/concepts/MPA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/NE	Neolithic	skos:closeMatch	fish:schemes/eh_period/concepts/NE		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PA	Palaeolithic	skos:closeMatch	fish:schemes/eh_period/concepts/PA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PM	Post Medieval	skos:closeMatch	fish:schemes/eh_period/concepts/PM		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PR	Prehistoric	skos:closeMatch	fish:schemes/eh_period/concepts/PR		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/RO	Roman	skos:closeMatch	fish:schemes/eh_period/concepts/RO		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROAN	Antonine	skos:broadMatch	fish:schemes/eh_period/concepts/RO		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROFL	Flavian	skos:broadMatch	fish:schemes/eh_period/concepts/RO		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROSE	Severan	skos:broadMatch	fish:schemes/eh_period/concepts/RO		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/UN	Period Unknown	skos:exactMatch	fish:schemes/eh_period/concepts/UN		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/UPA	Upper Palaeolithic	skos:closeMatch	fish:schemes/eh_period/concepts/UPA		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/WW1	First World War	skos:exactMatch	fish:schemes/eh_period/concepts/WW1		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/WW2	Second World War	skos:exactMatch	fish:schemes/eh_period/concepts/WW2		semapv:UnspecifiedMatching	

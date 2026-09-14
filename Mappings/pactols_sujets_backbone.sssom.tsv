@@ -1,0 +1,64 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/pactols_sujets_backbone.sssom.tsv
+#mapping_set_title: PACTOLS Sujets → Backbone Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of PACTOLS Sujets (concept scheme: https://ark.frantiq.fr/ark:/26678/TH_1), targeting Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04andmq85
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: pactols:TH_1
+#subject_source_version: 2022-09-21
+#object_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#comment: Extracted from local RDF file(s) Pactols/Pactols_Sujets_TH_1_20260722.rdf; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+pactols:pcrt1GPZLeLDoN	conceptual objects	skos:exactMatch	backbone:000006		semapv:UnspecifiedMatching	
+pactols:pcrt2hEEG95JIA	mobile objects	skos:exactMatch	backbone:000017		semapv:UnspecifiedMatching	
+pactols:pcrt4kW0qGXJud	structural parts of material objects	skos:exactMatch	backbone:000020		semapv:UnspecifiedMatching	
+pactols:pcrt62rcqt2bt8	3D volumes	skos:exactMatch	backbone:0000052		semapv:UnspecifiedMatching	
+pactols:pcrt73REVYeFXQ	roles	skos:exactMatch	backbone:000008		semapv:UnspecifiedMatching	
+pactols:pcrt7fA4ImMlSa	intentional destructions	skos:exactMatch	backbone:000012		semapv:UnspecifiedMatching	
+pactols:pcrtA40nPyUzoy	geneses	skos:exactMatch	backbone:000016		semapv:UnspecifiedMatching	
+pactols:pcrtB5HQdDuhI1	symbolic objects	skos:exactMatch	backbone:000021		semapv:UnspecifiedMatching	
+pactols:pcrtGrTrckrNHZ	geopolitical units	skos:exactMatch	backbone:000009		semapv:UnspecifiedMatching	
+pactols:pcrtIMsuG0RWTs	materials	skos:exactMatch	backbone:000003		semapv:UnspecifiedMatching	
+pactols:pcrtIWZ9OUGKZV	official role	skos:exactMatch	backbone:000025		semapv:UnspecifiedMatching	
+pactols:pcrtPKJBWe1VYe	human interactions	skos:exactMatch	backbone:000011		semapv:UnspecifiedMatching	
+pactols:pcrtQrTYfIysNO	disciplines	skos:exactMatch	backbone:000010		semapv:UnspecifiedMatching	
+pactols:pcrtR5S4x1eMSh	propositional objects	skos:exactMatch	backbone:000022		semapv:UnspecifiedMatching	
+pactols:pcrtSm0N4v8msW	natural disasters	skos:exactMatch	backbone:000015		semapv:UnspecifiedMatching	
+pactols:pcrtWEZPlX44av	interpersonal relationships	skos:exactMatch	backbone:000026		semapv:UnspecifiedMatching	
+pactols:pcrtYXEBytBn39	activities	skos:exactMatch	backbone:000001		semapv:UnspecifiedMatching	
+pactols:pcrtYhDNuZnkql	surface areas	skos:exactMatch	backbone:0000051		semapv:UnspecifiedMatching	
+pactols:pcrtalh7hthddu	points	skos:exactMatch	backbone:0000050		semapv:UnspecifiedMatching	
+pactols:pcrtb8pL8xI1LB	natural processes	skos:exactMatch	backbone:000002		semapv:UnspecifiedMatching	
+pactols:pcrtdUvEkSeyqH	methodology	skos:exactMatch	backbone:000023		semapv:UnspecifiedMatching	
+pactols:pcrtdwqtqwm39m	linear extents	skos:exactMatch	backbone:0000053		semapv:UnspecifiedMatching	
+pactols:pcrtgSbjUSVUr8	periodization	skos:exactMatch	backbone:000005		semapv:UnspecifiedMatching	
+pactols:pcrtmXn8DAR7ks	built environment	skos:exactMatch	backbone:000018		semapv:UnspecifiedMatching	
+pactols:pcrtmiBDKimOV6	physical features	skos:exactMatch	backbone:000019		semapv:UnspecifiedMatching	
+pactols:pcrtnQFBp7vRwb	shared social entity	skos:exactMatch	backbone:000007		semapv:UnspecifiedMatching	
+pactols:pcrtq4Zb6ED7SI	system functions	skos:exactMatch	backbone:000013		semapv:UnspecifiedMatching	
+pactols:pcrtqOnvbkSUvu	spatial entities	skos:exactMatch	backbone:0000049		semapv:UnspecifiedMatching	
+pactols:pcrtu1uuSJeF5V	material entity	skos:exactMatch	backbone:000004		semapv:UnspecifiedMatching	
+pactols:pcrtvQnKfTAEdH	concepts	skos:exactMatch	backbone:000024		semapv:UnspecifiedMatching	

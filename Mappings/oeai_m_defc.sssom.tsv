@@ -1,0 +1,70 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/oeai_m_defc.sssom.tsv
+#mapping_set_title: OeAI Thesaurus - Materials → DEFC Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of OeAI Thesaurus - Materials (concept scheme: https://vocabs.acdh.oeaw.ac.at/oeai-materials/), targeting DEFC Thesaurus (concept scheme: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/DefcSchema). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: OeAI_m:
+#subject_source_version: 1.0.2
+#object_source: defc:DefcSchema
+#comment: Extracted from local RDF file(s) Dariah Vocabs/OeAI Thesaurus - Materials.ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+OeAI_m:concept17075	calcite	skos:exactMatch	defc:calcite/3.37		semapv:UnspecifiedMatching	
+OeAI_m:concept23769	concrete	skos:closeMatch	defc:concrete/6.16		semapv:UnspecifiedMatching	
+OeAI_m:concept23779	lead	skos:exactMatch	defc:lead/5.10		semapv:UnspecifiedMatching	
+OeAI_m:concept23783	gold	skos:exactMatch	defc:gold/3.34		semapv:UnspecifiedMatching	
+OeAI_m:concept23784	copper	skos:exactMatch	defc:copper/3.31		semapv:UnspecifiedMatching	
+OeAI_m:concept23787	silver	skos:exactMatch	defc:silver/5.9		semapv:UnspecifiedMatching	
+OeAI_m:concept23792	metal	skos:exactMatch	defc:metal/2.9		semapv:UnspecifiedMatching	
+OeAI_m:concept23809	antler	skos:exactMatch	defc:antler/3.7		semapv:UnspecifiedMatching	
+OeAI_m:concept23814	wood	skos:exactMatch	defc:wood/3.32		semapv:UnspecifiedMatching	
+OeAI_m:concept23815	horn	skos:exactMatch	defc:horn/3.8		semapv:UnspecifiedMatching	
+OeAI_m:concept23820	shell	skos:exactMatch	defc:shell/3.6		semapv:UnspecifiedMatching	
+OeAI_m:concept23836	rock	skos:exactMatch	defc:stone/2.1		semapv:UnspecifiedMatching	
+OeAI_m:concept23838	agate	skos:exactMatch	defc:agate/3.27		semapv:UnspecifiedMatching	
+OeAI_m:concept23843	andesite	skos:exactMatch	defc:andesit/3.29		semapv:UnspecifiedMatching	
+OeAI_m:concept23845	basalt	skos:exactMatch	defc:basalt/3.20		semapv:UnspecifiedMatching	
+OeAI_m:concept23846	rock crystal	skos:exactMatch	defc:rock_crystal/3.16		semapv:UnspecifiedMatching	
+OeAI_m:concept23848	chalcedony	skos:exactMatch	defc:chalcedony/3.13		semapv:UnspecifiedMatching	
+OeAI_m:concept23856	flint (rock)	skos:exactMatch	defc:flint/4.11		semapv:UnspecifiedMatching	
+OeAI_m:concept23857	chert	skos:exactMatch	defc:chert/3.12		semapv:UnspecifiedMatching	
+OeAI_m:concept23863	granite	skos:exactMatch	defc:granite/3.24		semapv:UnspecifiedMatching	
+OeAI_m:concept23870	jasper	skos:exactMatch	defc:jasper/3.14		semapv:UnspecifiedMatching	
+OeAI_m:concept23872	limestone	skos:exactMatch	defc:limestone/3.22		semapv:UnspecifiedMatching	
+OeAI_m:concept23880	marble	skos:exactMatch	defc:marble/3.10		semapv:UnspecifiedMatching	
+OeAI_m:concept23883	obsidian	skos:exactMatch	defc:obsidian/3.2		semapv:UnspecifiedMatching	
+OeAI_m:concept23890	quartz	skos:exactMatch	defc:quartz/3.15		semapv:UnspecifiedMatching	
+OeAI_m:concept23891	sandstone	skos:exactMatch	defc:sandstone/3.25		semapv:UnspecifiedMatching	
+OeAI_m:concept23893	quartzite	skos:exactMatch	defc:quartzite/5.8		semapv:UnspecifiedMatching	
+OeAI_m:concept23898	serpentine	skos:exactMatch	defc:serpentine/3.23		semapv:UnspecifiedMatching	
+OeAI_m:concept23906	clay	skos:exactMatch	defc:clay/2.19		semapv:UnspecifiedMatching	
+OeAI_m:concept23933	bone	skos:exactMatch	defc:bone/3.5		semapv:UnspecifiedMatching	
+OeAI_m:concept23935	tooth	skos:exactMatch	defc:tooth/3.28		semapv:UnspecifiedMatching	
+OeAI_m:concept23992	straw	skos:exactMatch	defc:straw/6.8		semapv:UnspecifiedMatching	
+OeAI_m:concept24011	porphyry	skos:exactMatch	defc:porphyry/3.30		semapv:UnspecifiedMatching	
+OeAI_m:concept24036	charcoal	skos:exactMatch	defc:charcoal/4.1		semapv:UnspecifiedMatching	
+OeAI_m:concept24037	malachite	skos:exactMatch	defc:malachite/3.35		semapv:UnspecifiedMatching	
+OeAI_m:concept24038	chlorite	skos:exactMatch	defc:chlorite/3.21		semapv:UnspecifiedMatching	
+OeAI_m:concept24041	radiolarite	skos:exactMatch	defc:radiolarite/4.18		semapv:UnspecifiedMatching	

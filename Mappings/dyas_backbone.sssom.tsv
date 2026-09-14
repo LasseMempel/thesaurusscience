@@ -1,0 +1,54 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dyas_backbone.sssom.tsv
+#mapping_set_title: DYAS Humanities Thesaurus → Backbone Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of DYAS Humanities Thesaurus (concept scheme: https://humanitiesthesaurus.academyofathens.gr), targeting Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://humanitiesthesaurus.academyofathens.gr
+#subject_source_version: 2020-10-21
+#object_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#comment: Extracted from local RDF file(s) Dariah Vocabs/DYAS Humanities Thesaurus .ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+dyas:13	Geneses	skos:exactMatch	backbone:000016		semapv:UnspecifiedMatching	
+dyas:14	Natural disasters	skos:exactMatch	backbone:000015		semapv:UnspecifiedMatching	
+dyas:17	Structural parts of material objects	skos:exactMatch	backbone:000020		semapv:UnspecifiedMatching	
+dyas:18		skos:exactMatch	backbone:000003		semapv:UnspecifiedMatching	
+dyas:19	Intentional destructions	skos:exactMatch	backbone:000012		semapv:UnspecifiedMatching	
+dyas:20	Events	skos:exactMatch	backbone:000011		semapv:UnspecifiedMatching	
+dyas:21	Functions	skos:exactMatch	backbone:000013		semapv:UnspecifiedMatching	
+dyas:22	Symbolic objects	skos:exactMatch	backbone:000021		semapv:UnspecifiedMatching	
+dyas:2253	Organisations	skos:broadMatch	backbone:000007		semapv:UnspecifiedMatching	
+dyas:23	Built environment	skos:exactMatch	backbone:000018		semapv:UnspecifiedMatching	
+dyas:24	Mobile objects	skos:exactMatch	backbone:000017		semapv:UnspecifiedMatching	
+dyas:25	Propositional objects	skos:exactMatch	backbone:000022		semapv:UnspecifiedMatching	
+dyas:26	Collectivities and groups	skos:exactMatch	backbone:000007		semapv:UnspecifiedMatching	
+dyas:28	Concepts	skos:exactMatch	backbone:000024		semapv:UnspecifiedMatching	
+dyas:29	Physical features	skos:exactMatch	backbone:000019		semapv:UnspecifiedMatching	
+dyas:30	Epochs	skos:exactMatch	backbone:000005		semapv:UnspecifiedMatching	
+dyas:31	Methods	skos:exactMatch	backbone:000023		semapv:UnspecifiedMatching	
+dyas:32	Geopolitical units	skos:exactMatch	backbone:000009		semapv:UnspecifiedMatching	
+dyas:33	Disciplines	skos:exactMatch	backbone:000010		semapv:UnspecifiedMatching	
+dyas:34	Offices	skos:exactMatch	backbone:000025		semapv:UnspecifiedMatching	
+dyas:35	Roles of interpersonal relations	skos:exactMatch	backbone:000026		semapv:UnspecifiedMatching	

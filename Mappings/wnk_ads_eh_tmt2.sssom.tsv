@@ -1,0 +1,132 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wnk_ads_eh_tmt2.sssom.tsv
+#mapping_set_title: Wortnetz Kultur → ADS Monuments SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Wortnetz Kultur (concept scheme: http://lvr.vocnet.org/wnk), targeting ADS Monuments (concept scheme: http://purl.org/heritagedata/schemes/eh_tmt2). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://lvr.vocnet.org/wnk
+#object_source: fish:schemes/eh_tmt2
+#comment: Extracted from local RDF file(s) Wortnetz/Wortnetz Kultur.rdf; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+wnk:wk000003	paper  mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69156		semapv:UnspecifiedMatching	
+wnk:wk000019	powder mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69152		semapv:UnspecifiedMatching	
+wnk:wk000034	fulling mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69321		semapv:UnspecifiedMatching	
+wnk:wk000050	mill race	skos:closeMatch	fish:schemes/eh_tmt2/concepts/69340		semapv:UnspecifiedMatching	
+wnk:wk000071	watchtower	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68919		semapv:UnspecifiedMatching	
+wnk:wk000122	settlement	skos:closeMatch	fish:schemes/eh_tmt2/concepts/68977		semapv:UnspecifiedMatching	
+wnk:wk000132	bone mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69082		semapv:UnspecifiedMatching	
+wnk:wk000136	timber mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/103893		semapv:UnspecifiedMatching	
+wnk:wk000195	weir	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70467		semapv:UnspecifiedMatching	
+wnk:wk000210	inhumation	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70031		semapv:UnspecifiedMatching	
+wnk:wk000233	coffin	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70074		semapv:UnspecifiedMatching	
+wnk:wk000242	tree trunk coffin	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70076		semapv:UnspecifiedMatching	
+wnk:wk000245	sarcophagus	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70075		semapv:UnspecifiedMatching	
+wnk:wk000431	deserted settlement	skos:exactMatch	fish:schemes/eh_tmt2/concepts/97280		semapv:UnspecifiedMatching	
+wnk:wk000437	hamlet	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68985		semapv:UnspecifiedMatching	
+wnk:wk000442	sunken hut	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68927		semapv:UnspecifiedMatching	
+wnk:wk000448	crouched burial	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70033		semapv:UnspecifiedMatching	
+wnk:wk000456	weaving mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69328		semapv:UnspecifiedMatching	
+wnk:wk000483	posthole	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70403		semapv:UnspecifiedMatching	
+wnk:wk000507	Jewish cemetery	skos:exactMatch	fish:schemes/eh_tmt2/concepts/92389		semapv:UnspecifiedMatching	
+wnk:wk000573	mausoleum	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70087		semapv:UnspecifiedMatching	
+wnk:wk000575	bustum	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70040		semapv:UnspecifiedMatching	
+wnk:wk000586	cenotaph	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68759		semapv:UnspecifiedMatching	
+wnk:wk000592	long barrow	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70006		semapv:UnspecifiedMatching	
+wnk:wk000593	mass grave	skos:exactMatch	fish:schemes/eh_tmt2/concepts/144484		semapv:UnspecifiedMatching	
+wnk:wk000599	burial vault	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70042		semapv:UnspecifiedMatching	
+wnk:wk000605	burial pit	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70038		semapv:UnspecifiedMatching	
+wnk:wk000626	longhouse (multiple dwelling)	skos:closeMatch	fish:schemes/eh_tmt2/concepts/104173		semapv:UnspecifiedMatching	
+wnk:wk000631	retting pond	skos:exactMatch	fish:schemes/eh_tmt2/concepts/129043		semapv:UnspecifiedMatching	
+wnk:wk000632	tanning pit	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69402		semapv:UnspecifiedMatching	
+wnk:wk000634	cooking pit	skos:exactMatch	fish:schemes/eh_tmt2/concepts/91618		semapv:UnspecifiedMatching	
+wnk:wk000640	storage pit	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68668		semapv:UnspecifiedMatching	
+wnk:wk000691	mill (building)	skos:closeMatch	fish:schemes/eh_tmt2/concepts/69303		semapv:UnspecifiedMatching	
+wnk:wk000721	pen (fencing)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/71132		semapv:UnspecifiedMatching	
+wnk:wk000755	quarry (extracting complexes)	skos:closeMatch	fish:schemes/eh_tmt2/concepts/69068		semapv:UnspecifiedMatching	
+wnk:wk000823	chapel (building)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69967		semapv:UnspecifiedMatching	
+wnk:wk000872	Eisenbahnbrücke	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70221		semapv:UnspecifiedMatching	
+wnk:wk000877	synagogue (building)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70195		semapv:UnspecifiedMatching	
+wnk:wk000898	dye-work	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69148		semapv:UnspecifiedMatching	
+wnk:wk000958	spinning mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69326		semapv:UnspecifiedMatching	
+wnk:wk000960	tannery	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69401		semapv:UnspecifiedMatching	
+wnk:wk001158	smithy	skos:exactMatch	fish:schemes/eh_tmt2/concepts/71815		semapv:UnspecifiedMatching	
+wnk:wk001171	limekiln	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69063		semapv:UnspecifiedMatching	
+wnk:wk001295	movable bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/94202		semapv:UnspecifiedMatching	
+wnk:wk001296	drawbridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70217		semapv:UnspecifiedMatching	
+wnk:wk001297	swing bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70224		semapv:UnspecifiedMatching	
+wnk:wk001298	lift bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70219		semapv:UnspecifiedMatching	
+wnk:wk001370	vault (structural element)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70345		semapv:UnspecifiedMatching	
+wnk:wk001386	Calvary	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69966		semapv:UnspecifiedMatching	
+wnk:wk001484	fence	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70333		semapv:UnspecifiedMatching	
+wnk:wk001566	ridge and furrow	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68628		semapv:UnspecifiedMatching	
+wnk:wk001598	charcoal burning platform	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70687		semapv:UnspecifiedMatching	
+wnk:wk001862	floating bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/76352		semapv:UnspecifiedMatching	
+wnk:wk002216	agricultural building	skos:broadMatch	fish:schemes/eh_tmt2/concepts/68543		semapv:UnspecifiedMatching	
+wnk:wk002222	transportation structure	skos:narrowMatch	fish:schemes/eh_tmt2/concepts/70204		semapv:UnspecifiedMatching	
+wnk:wk002229	ceremonial structure	skos:broadMatch	fish:schemes/eh_tmt2/concepts/99962		semapv:UnspecifiedMatching	
+wnk:wk002395	village	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69001		semapv:UnspecifiedMatching	
+wnk:wk002571	windmill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69333		semapv:UnspecifiedMatching	
+wnk:wk002573	castle (residence)	skos:closeMatch	fish:schemes/eh_tmt2/concepts/68833		semapv:UnspecifiedMatching	
+wnk:wk002592	gallows mound	skos:closeMatch	fish:schemes/eh_tmt2/concepts/68730		semapv:UnspecifiedMatching	
+wnk:wk002617	hermitage (religious retreat)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70099		semapv:UnspecifiedMatching	
+wnk:wk002699	brewery	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69121		semapv:UnspecifiedMatching	
+wnk:wk002725	grave	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70080		semapv:UnspecifiedMatching	
+wnk:wk002731	bascule bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/97483		semapv:UnspecifiedMatching	
+wnk:wk002943	aqueduct	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70432		semapv:UnspecifiedMatching	
+wnk:wk002949	footbridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/71373		semapv:UnspecifiedMatching	
+wnk:wk002998	hammer mill	skos:exactMatch	fish:schemes/eh_tmt2/concepts/159233		semapv:UnspecifiedMatching	
+wnk:wk003137	drying kiln	skos:exactMatch	fish:schemes/eh_tmt2/concepts/71827		semapv:UnspecifiedMatching	
+wnk:wk003191	aisled house	skos:exactMatch	fish:schemes/eh_tmt2/concepts/94115		semapv:UnspecifiedMatching	
+wnk:wk003238	suspension bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70223		semapv:UnspecifiedMatching	
+wnk:wk003325	road bridge	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70222		semapv:UnspecifiedMatching	
+wnk:wk003335	viaduct	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70284		semapv:UnspecifiedMatching	
+wnk:wk003359	mikveh	skos:exactMatch	fish:schemes/eh_tmt2/concepts/103172		semapv:UnspecifiedMatching	
+wnk:wk003641	hermitage (garden)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/159185		semapv:UnspecifiedMatching	
+wnk:wk003696	flat grave cemetery	skos:broadMatch	fish:schemes/eh_tmt2/concepts/70053		semapv:UnspecifiedMatching	
+wnk:wk003704	columbarium	skos:closeMatch	fish:schemes/eh_tmt2/concepts/70077		semapv:UnspecifiedMatching	
+wnk:wk004101	colonia	skos:closeMatch	fish:schemes/eh_tmt2/concepts/68752		semapv:UnspecifiedMatching	
+wnk:wk004104	vicus	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68755		semapv:UnspecifiedMatching	
+wnk:wk004105	basilica	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68678		semapv:UnspecifiedMatching	
+wnk:wk004124	cart burial	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70026		semapv:UnspecifiedMatching	
+wnk:wk004130	hypocaust	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68967		semapv:UnspecifiedMatching	
+wnk:wk004152	lithic working site	skos:exactMatch	fish:schemes/eh_tmt2/concepts/94214		semapv:UnspecifiedMatching	
+wnk:wk004161	plough mark	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68619		semapv:UnspecifiedMatching	
+wnk:wk004178	grinding shop	skos:closeMatch	fish:schemes/eh_tmt2/concepts/140101		semapv:UnspecifiedMatching	
+wnk:wk004215	lime slaking pit	skos:closeMatch	fish:schemes/eh_tmt2/concepts/140186		semapv:UnspecifiedMatching	
+wnk:wk004249	canabae legionis	skos:exactMatch	fish:schemes/eh_tmt2/concepts/146437		semapv:UnspecifiedMatching	
+wnk:wk004250	oppidum	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68744		semapv:UnspecifiedMatching	
+wnk:wk004336	drying house	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69100		semapv:UnspecifiedMatching	
+wnk:wk004372	insula (settlement)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/139404		semapv:UnspecifiedMatching	
+wnk:wk004377	rock carving	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70180		semapv:UnspecifiedMatching	
+wnk:wk004857	planetarium (building)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/92938		semapv:UnspecifiedMatching	
+wnk:wk005088	temporary bridge	skos:closeMatch	fish:schemes/eh_tmt2/concepts/122499		semapv:UnspecifiedMatching	
+wnk:wk005114	arch bridge	skos:exactMatch	fish:schemes/eh_tmt2/concepts/94190		semapv:UnspecifiedMatching	
+wnk:wk005664	menhir	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70185		semapv:UnspecifiedMatching	
+wnk:wk006868	broiler	skos:exactMatch	fish:schemes/eh_tmt2/concepts/92156		semapv:UnspecifiedMatching	
+wnk:wk007119	mansio	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68740		semapv:UnspecifiedMatching	
+wnk:wk007146	forum (open space)	skos:exactMatch	fish:schemes/eh_tmt2/concepts/68705		semapv:UnspecifiedMatching	
+wnk:wk008593	stone setting	skos:exactMatch	fish:schemes/eh_tmt2/concepts/70194		semapv:UnspecifiedMatching	
+wnk:wk009974	steam engine	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69359		semapv:UnspecifiedMatching	
+wnk:wk011882	cup marked stone	skos:exactMatch	fish:schemes/eh_tmt2/concepts/69996		semapv:UnspecifiedMatching	

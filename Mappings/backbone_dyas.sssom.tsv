@@ -1,0 +1,53 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/backbone_dyas.sssom.tsv
+#mapping_set_title: Backbone Thesaurus → DYAS Humanities Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus), targeting DYAS Humanities Thesaurus (concept scheme: https://humanitiesthesaurus.academyofathens.gr). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#subject_source_version: 1.2.8
+#object_source: https://humanitiesthesaurus.academyofathens.gr
+#comment: Extracted from local RDF file(s) Dariah Vocabs/Backbone Thesaurus.ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+backbone:000005	types of epochs	skos:exactMatch	dyas:30		semapv:UnspecifiedMatching	
+backbone:000007	groups and collectivities	skos:exactMatch	dyas:26		semapv:UnspecifiedMatching	
+backbone:000007	groups and collectivities	skos:narrowMatch	dyas:2253		semapv:UnspecifiedMatching	
+backbone:000009	geopolitical units	skos:exactMatch	dyas:32		semapv:UnspecifiedMatching	
+backbone:000010	disciplines	skos:exactMatch	dyas:33		semapv:UnspecifiedMatching	
+backbone:000011	human interactions	skos:exactMatch	dyas:20		semapv:UnspecifiedMatching	
+backbone:000012	intentional destructions	skos:exactMatch	dyas:19		semapv:UnspecifiedMatching	
+backbone:000013	functions	skos:exactMatch	dyas:21		semapv:UnspecifiedMatching	
+backbone:000015	natural disasters	skos:exactMatch	dyas:14		semapv:UnspecifiedMatching	
+backbone:000016	geneses	skos:exactMatch	dyas:13		semapv:UnspecifiedMatching	
+backbone:000017	mobile objects	skos:exactMatch	dyas:24		semapv:UnspecifiedMatching	
+backbone:000018	built environment	skos:exactMatch	dyas:23		semapv:UnspecifiedMatching	
+backbone:000019	physical features	skos:exactMatch	dyas:29		semapv:UnspecifiedMatching	
+backbone:000020	structural parts of material objects	skos:exactMatch	dyas:17		semapv:UnspecifiedMatching	
+backbone:000021	symbolic objects	skos:exactMatch	dyas:22		semapv:UnspecifiedMatching	
+backbone:000022	propositional objects	skos:exactMatch	dyas:25		semapv:UnspecifiedMatching	
+backbone:000023	methods	skos:exactMatch	dyas:31		semapv:UnspecifiedMatching	
+backbone:000024	concepts	skos:exactMatch	dyas:28		semapv:UnspecifiedMatching	
+backbone:000025	offices	skos:exactMatch	dyas:34		semapv:UnspecifiedMatching	
+backbone:000026	roles of interpersonal relations	skos:exactMatch	dyas:35		semapv:UnspecifiedMatching	

@@ -1,0 +1,57 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/backbone_gemet.sssom.tsv
+#mapping_set_title: Backbone Thesaurus → GEMET, the GEneral Multilingual Environmental Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus), targeting GEMET, the GEneral Multilingual Environmental Thesaurus (concept scheme: http://www.eionet.europa.eu/gemet/gemetThesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#subject_source_version: 1.2.8
+#object_source: http://www.eionet.europa.eu/gemet/gemetThesaurus
+#comment: Extracted from local RDF file(s) Dariah Vocabs/Backbone Thesaurus.ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+backbone:000001	activities	skos:narrowMatch	gemet:1320		semapv:UnspecifiedMatching	
+backbone:000001	activities	skos:narrowMatch	gemet:1874		semapv:UnspecifiedMatching	
+backbone:000001	activities	skos:narrowMatch	gemet:1899		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:11791		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:11792		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:11793		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:14619		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:2643		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:4493		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:4519		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:4523		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:4839		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:5184		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:52		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:5756		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:5912		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:5978		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:6918		semapv:UnspecifiedMatching	
+backbone:000003	materials	skos:narrowMatch	gemet:7401		semapv:UnspecifiedMatching	
+backbone:000010	disciplines	skos:narrowMatch	gemet:429		semapv:UnspecifiedMatching	
+backbone:000016	geneses	skos:narrowMatch	gemet:812		semapv:UnspecifiedMatching	
+backbone:000018	built environment	skos:narrowMatch	gemet:13136		semapv:UnspecifiedMatching	
+backbone:000018	built environment	skos:narrowMatch	gemet:13193		semapv:UnspecifiedMatching	
+backbone:000023	methods	skos:narrowMatch	gemet:210		semapv:UnspecifiedMatching	

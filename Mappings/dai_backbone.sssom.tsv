@@ -1,0 +1,65 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dai_backbone.sssom.tsv
+#mapping_set_title: German Archaeological Institute (DAI) → Backbone Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of German Archaeological Institute (DAI) (concept scheme: http://thesauri.dainst.org/scheme), targeting Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: dai:scheme
+#subject_source_version: 1.2
+#object_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#comment: Extracted from local RDF file(s) DAI/export-2020-10-14_10-36.ttl, Dariah Vocabs/DAI_v1.2_Idaiworld.ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+dai:_06103ab8	Materials	skos:exactMatch	backbone:000003		semapv:UnspecifiedMatching	
+dai:_1c0fa2d2	Material things	skos:exactMatch	backbone:000004		semapv:UnspecifiedMatching	
+dai:_233a3677	Built environment	skos:exactMatch	backbone:000018		semapv:UnspecifiedMatching	
+dai:_2fe07279	Genese 	skos:exactMatch	backbone:000016		semapv:UnspecifiedMatching	
+dai:_39260fea	methods and theory	skos:exactMatch	backbone:000023		semapv:UnspecifiedMatching	
+dai:_46c2d50b	Physical features	skos:exactMatch	backbone:000019		semapv:UnspecifiedMatching	
+dai:_474fdc79	Geometric extents 	skos:exactMatch	backbone:0000049		semapv:UnspecifiedMatching	
+dai:_4dc296b2	Ereignisse	skos:exactMatch	backbone:000011		semapv:UnspecifiedMatching	
+dai:_530b1364	Lineare Ausdehnungen	skos:exactMatch	backbone:0000053		semapv:UnspecifiedMatching	
+dai:_588a9c73	Conceptual objects	skos:exactMatch	backbone:000006		semapv:UnspecifiedMatching	
+dai:_598f0dfd	Symbolische Objekte	skos:exactMatch	backbone:000021		semapv:UnspecifiedMatching	
+dai:_62a09577	Chronology	skos:closeMatch	backbone:000005		semapv:UnspecifiedMatching	
+dai:_67a3acdc	Ämter	skos:exactMatch	backbone:000025		semapv:UnspecifiedMatching	
+dai:_6a93899c	Structural parts of material objects 	skos:exactMatch	backbone:000020		semapv:UnspecifiedMatching	
+dai:_6e11e02c	Disziplinen und Fachrichtungen	skos:exactMatch	backbone:000010		semapv:UnspecifiedMatching	
+dai:_73fe7969	Physiogeographische Einheiten	skos:exactMatch	backbone:0000051		semapv:UnspecifiedMatching	
+dai:_7bb9ece9	3D-Volumina	skos:exactMatch	backbone:0000052		semapv:UnspecifiedMatching	
+dai:_8cb35559	Geopolitical units 	skos:exactMatch	backbone:000009		semapv:UnspecifiedMatching	
+dai:_9a41616f	Roles	skos:exactMatch	backbone:000008		semapv:UnspecifiedMatching	
+dai:_ad8ec5e3	Mobile objects	skos:exactMatch	backbone:000017		semapv:UnspecifiedMatching	
+dai:_d9a01ada	Aussageobjekte	skos:exactMatch	backbone:000022		semapv:UnspecifiedMatching	
+dai:_dfdb34ff	Konzepte	skos:exactMatch	backbone:000024		semapv:UnspecifiedMatching	
+dai:_e04cc3e7	Activities	skos:exactMatch	backbone:000001		semapv:UnspecifiedMatching	
+dai:_e12f4970	Social collective entities	skos:closeMatch	backbone:000007		semapv:UnspecifiedMatching	
+dai:_e140fe64	Natural processes	skos:exactMatch	backbone:000002		semapv:UnspecifiedMatching	
+dai:_e2eff393	Funktionen	skos:exactMatch	backbone:000013		semapv:UnspecifiedMatching	
+dai:de/concepts/_46c2d50b.html		skos:exactMatch	backbone:000019		semapv:UnspecifiedMatching	
+dai:de/concepts/_67a3acdc.html		skos:exactMatch	backbone:000025		semapv:UnspecifiedMatching	
+dai:de/concepts/_6e11e02c.html		skos:exactMatch	backbone:000010		semapv:UnspecifiedMatching	
+dai:de/concepts/_8cb35559.html		skos:exactMatch	backbone:000009		semapv:UnspecifiedMatching	
+dai:de/concepts/_9a41616f.html		skos:exactMatch	backbone:000008		semapv:UnspecifiedMatching	
+dai:de/concepts/_e2eff393.html		skos:exactMatch	backbone:000013		semapv:UnspecifiedMatching	

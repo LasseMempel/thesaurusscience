@@ -1,0 +1,136 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wnk_ads_mda_obj.sssom.tsv
+#mapping_set_title: Wortnetz Kultur → ADS FISH Objects SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Wortnetz Kultur (concept scheme: http://lvr.vocnet.org/wnk), targeting ADS FISH Objects (concept scheme: http://purl.org/heritagedata/schemes/mda_obj). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://lvr.vocnet.org/wnk
+#object_source: fish:schemes/mda_obj
+#comment: Extracted from local RDF file(s) Wortnetz/Wortnetz Kultur.rdf; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+wnk:wk000113	door	skos:exactMatch	fish:schemes/mda_obj/concepts/96054		semapv:UnspecifiedMatching	
+wnk:wk000114	window	skos:exactMatch	fish:schemes/mda_obj/concepts/96134		semapv:UnspecifiedMatching	
+wnk:wk000115	stairs	skos:exactMatch	fish:schemes/mda_obj/concepts/95999		semapv:UnspecifiedMatching	
+wnk:wk000620	high cross	skos:broadMatch	http://heritagedata.org/live/schemes/mda_obj/concepts/95912.html		semapv:UnspecifiedMatching	
+wnk:wk002867	weapon	skos:exactMatch	fish:schemes/mda_obj/concepts/100059		semapv:UnspecifiedMatching	
+wnk:wk004585	ammunition	skos:exactMatch	fish:schemes/mda_obj/concepts/97098		semapv:UnspecifiedMatching	
+wnk:wk004651	polearm	skos:exactMatch	http://heritagedata.org/live/schemes/mda_obj/concepts/97094.html		semapv:UnspecifiedMatching	
+wnk:wk004657	cover (closure)	skos:closeMatch	fish:schemes/mda_obj/concepts/96512		semapv:UnspecifiedMatching	
+wnk:wk004840	wallpaper	skos:exactMatch	fish:schemes/mda_obj/concepts/96564		semapv:UnspecifiedMatching	
+wnk:wk005410	Gabel (Besteck)	skos:exactMatch	fish:schemes/mda_obj/concepts/96779		semapv:UnspecifiedMatching	
+wnk:wk005475	bed	skos:exactMatch	fish:schemes/mda_obj/concepts/96524		semapv:UnspecifiedMatching	
+wnk:wk005709	amulet	skos:exactMatch	fish:schemes/mda_obj/concepts/95896		semapv:UnspecifiedMatching	
+wnk:wk006242	grave goods	skos:exactMatch	fish:schemes/mda_obj/concepts/141192		semapv:UnspecifiedMatching	
+wnk:wk006416	rake (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/95803		semapv:UnspecifiedMatching	
+wnk:wk006869	spits	skos:exactMatch	fish:schemes/mda_obj/concepts/96804		semapv:UnspecifiedMatching	
+wnk:wk006875	ingot	skos:closeMatch	fish:schemes/mda_obj/concepts/95424		semapv:UnspecifiedMatching	
+wnk:wk006957	handaxe	skos:exactMatch	fish:schemes/mda_obj/concepts/96374		semapv:UnspecifiedMatching	
+wnk:wk006958	stone implement	skos:exactMatch	fish:schemes/mda_obj/concepts/97566		semapv:UnspecifiedMatching	
+wnk:wk006993	francisca	skos:exactMatch	fish:schemes/mda_obj/concepts/95186		semapv:UnspecifiedMatching	
+wnk:wk007012	spear (weapon)	skos:exactMatch	fish:schemes/mda_obj/concepts/95145		semapv:UnspecifiedMatching	
+wnk:wk007013	angon	skos:exactMatch	fish:schemes/mda_obj/concepts/97102		semapv:UnspecifiedMatching	
+wnk:wk007014	file (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96930		semapv:UnspecifiedMatching	
+wnk:wk007016	awl	skos:exactMatch	fish:schemes/mda_obj/concepts/96914		semapv:UnspecifiedMatching	
+wnk:wk007017	slick stone	skos:exactMatch	fish:schemes/mda_obj/concepts/96943		semapv:UnspecifiedMatching	
+wnk:wk007018	anvil (tool)	skos:closeMatch	fish:schemes/mda_obj/concepts/96981		semapv:UnspecifiedMatching	
+wnk:wk007019	adze	skos:exactMatch	fish:schemes/mda_obj/concepts/96909		semapv:UnspecifiedMatching	
+wnk:wk007020	hatchet	skos:closeMatch	fish:schemes/mda_obj/concepts/97376		semapv:UnspecifiedMatching	
+wnk:wk007021	axe (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/141179		semapv:UnspecifiedMatching	
+wnk:wk007023	drill (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96926		semapv:UnspecifiedMatching	
+wnk:wk007025	Hohlbeitel	skos:exactMatch	fish:schemes/mda_obj/concepts/96934		semapv:UnspecifiedMatching	
+wnk:wk007027	bridle	skos:exactMatch	fish:schemes/mda_obj/concepts/95670		semapv:UnspecifiedMatching	
+wnk:wk007276	crucible	skos:exactMatch	fish:schemes/mda_obj/concepts/96851		semapv:UnspecifiedMatching	
+wnk:wk008344	rotary hand quern	skos:exactMatch	fish:schemes/mda_obj/concepts/96961		semapv:UnspecifiedMatching	
+wnk:wk008367	funnel	skos:closeMatch	fish:schemes/mda_obj/concepts/96409		semapv:UnspecifiedMatching	
+wnk:wk008600	tripod skillet	skos:closeMatch	fish:schemes/mda_obj/concepts/148341		semapv:UnspecifiedMatching	
+wnk:wk008602	belt fitting	skos:broadMatch	fish:schemes/mda_obj/concepts/97424		semapv:UnspecifiedMatching	
+wnk:wk008609	hoe (agricultural tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/95782		semapv:UnspecifiedMatching	
+wnk:wk008610	hooks (fasteners)	skos:exactMatch	fish:schemes/mda_obj/concepts/96274		semapv:UnspecifiedMatching	
+wnk:wk008614	hammers (tools)	skos:exactMatch	fish:schemes/mda_obj/concepts/96477		semapv:UnspecifiedMatching	
+wnk:wk008619	plane (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96955		semapv:UnspecifiedMatching	
+wnk:wk008626	lithic core	skos:exactMatch	fish:schemes/mda_obj/concepts/97552		semapv:UnspecifiedMatching	
+wnk:wk008628	ladle	skos:exactMatch	fish:schemes/mda_obj/concepts/96786		semapv:UnspecifiedMatching	
+wnk:wk008631	club (weapon)	skos:closeMatch	fish:schemes/mda_obj/concepts/95136		semapv:UnspecifiedMatching	
+wnk:wk008634	cannonball	skos:exactMatch	fish:schemes/mda_obj/concepts/95173		semapv:UnspecifiedMatching	
+wnk:wk008636	clamp	skos:exactMatch	fish:schemes/mda_obj/concepts/96247		semapv:UnspecifiedMatching	
+wnk:wk008642	lance (weapon)	skos:exactMatch	fish:schemes/mda_obj/concepts/95141		semapv:UnspecifiedMatching	
+wnk:wk008645	cremains	skos:closeMatch	fish:schemes/mda_obj/concepts/97661		semapv:UnspecifiedMatching	
+wnk:wk008651	chisel	skos:exactMatch	fish:schemes/mda_obj/concepts/96922		semapv:UnspecifiedMatching	
+wnk:wk008652	microlith (tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96373		semapv:UnspecifiedMatching	
+wnk:wk008657	tessera (mosaic components)	skos:exactMatch	fish:schemes/mda_obj/concepts/96126		semapv:UnspecifiedMatching	
+wnk:wk008658	marble (game piece)	skos:exactMatch	fish:schemes/mda_obj/concepts/95636		semapv:UnspecifiedMatching	
+wnk:wk008659	chamber pot	skos:closeMatch	fish:schemes/mda_obj/concepts/96533		semapv:UnspecifiedMatching	
+wnk:wk008662	needle holder	skos:broadMatch	fish:schemes/mda_obj/concepts/96871		semapv:UnspecifiedMatching	
+wnk:wk008663	nail (fastener)	skos:exactMatch	fish:schemes/mda_obj/concepts/96291		semapv:UnspecifiedMatching	
+wnk:wk008667	net sinker	skos:exactMatch	fish:schemes/mda_obj/concepts/95794		semapv:UnspecifiedMatching	
+wnk:wk008670	earspoon	skos:exactMatch	fish:schemes/mda_obj/concepts/95274		semapv:UnspecifiedMatching	
+wnk:wk008681	arrow	skos:exactMatch	fish:schemes/mda_obj/concepts/95131		semapv:UnspecifiedMatching	
+wnk:wk008682	arrow straightener	skos:exactMatch	fish:schemes/mda_obj/concepts/96911		semapv:UnspecifiedMatching	
+wnk:wk008683	arrowhead	skos:closeMatch	fish:schemes/mda_obj/concepts/95132		semapv:UnspecifiedMatching	
+wnk:wk008686	pilgrim bottle	skos:closeMatch	fish:schemes/mda_obj/concepts/96848		semapv:UnspecifiedMatching	
+wnk:wk008688	pilum	skos:exactMatch	fish:schemes/mda_obj/concepts/95140		semapv:UnspecifiedMatching	
+wnk:wk008691	touchstone	skos:exactMatch	fish:schemes/mda_obj/concepts/97649		semapv:UnspecifiedMatching	
+wnk:wk008692	punch (marking tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96960		semapv:UnspecifiedMatching	
+wnk:wk008694	wheel (object component)	skos:exactMatch	fish:schemes/mda_obj/concepts/95463		semapv:UnspecifiedMatching	
+wnk:wk008704	strap-end	skos:exactMatch	fish:schemes/mda_obj/concepts/140465		semapv:UnspecifiedMatching	
+wnk:wk008705	distaff	skos:exactMatch	fish:schemes/mda_obj/concepts/96925		semapv:UnspecifiedMatching	
+wnk:wk008709	saw	skos:closeMatch	fish:schemes/mda_obj/concepts/96469		semapv:UnspecifiedMatching	
+wnk:wk008711	seax	skos:exactMatch	fish:schemes/mda_obj/concepts/102220		semapv:UnspecifiedMatching	
+wnk:wk008713	scraper (stone tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/97183		semapv:UnspecifiedMatching	
+wnk:wk008718	umbo	skos:exactMatch	fish:schemes/mda_obj/concepts/95241		semapv:UnspecifiedMatching	
+wnk:wk008725	poker	skos:exactMatch	fish:schemes/mda_obj/concepts/96957		semapv:UnspecifiedMatching	
+wnk:wk008739	spade	skos:closeMatch	fish:schemes/mda_obj/concepts/95812		semapv:UnspecifiedMatching	
+wnk:wk008742	Speerschleuder	skos:exactMatch	fish:schemes/mda_obj/concepts/95147		semapv:UnspecifiedMatching	
+wnk:wk008743	spearhead	skos:exactMatch	fish:schemes/mda_obj/concepts/97404		semapv:UnspecifiedMatching	
+wnk:wk008746	pike (weapon)	skos:exactMatch	fish:schemes/mda_obj/concepts/95202		semapv:UnspecifiedMatching	
+wnk:wk008753	stamp (tools)	skos:exactMatch	fish:schemes/mda_obj/concepts/96972		semapv:UnspecifiedMatching	
+wnk:wk008754	burin (stone tool)	skos:broadMatch	fish:schemes/mda_obj/concepts/95758		semapv:UnspecifiedMatching	
+wnk:wk008757	stopper (container component)	skos:exactMatch	fish:schemes/mda_obj/concepts/96310		semapv:UnspecifiedMatching	
+wnk:wk008761	inkwell	skos:exactMatch	fish:schemes/mda_obj/concepts/95378		semapv:UnspecifiedMatching	
+wnk:wk008764	drinking horn	skos:exactMatch	fish:schemes/mda_obj/concepts/96771		semapv:UnspecifiedMatching	
+wnk:wk008772	water pipe (architecture)	skos:exactMatch	fish:schemes/mda_obj/concepts/100086		semapv:UnspecifiedMatching	
+wnk:wk008775	weaving batten	skos:exactMatch	fish:schemes/mda_obj/concepts/97075		semapv:UnspecifiedMatching	
+wnk:wk008776	whetstone	skos:exactMatch	fish:schemes/mda_obj/concepts/96475		semapv:UnspecifiedMatching	
+wnk:wk009595	tweezers	skos:exactMatch	fish:schemes/mda_obj/concepts/96152		semapv:UnspecifiedMatching	
+wnk:wk009756	comb (grooming tool)	skos:exactMatch	fish:schemes/mda_obj/concepts/96154		semapv:UnspecifiedMatching	
+wnk:wk009872	projectile	skos:exactMatch	fish:schemes/mda_obj/concepts/100011		semapv:UnspecifiedMatching	
+wnk:wk010221	drinking vessel	skos:exactMatch	fish:schemes/mda_obj/concepts/97225		semapv:UnspecifiedMatching	
+wnk:wk010344	pitchfork	skos:exactMatch	fish:schemes/mda_obj/concepts/95797		semapv:UnspecifiedMatching	
+wnk:wk010345	pincushion	skos:exactMatch	fish:schemes/mda_obj/concepts/97047		semapv:UnspecifiedMatching	
+wnk:wk010357	chest (case furniture)	skos:exactMatch	fish:schemes/mda_obj/concepts/96443		semapv:UnspecifiedMatching	
+wnk:wk010358	cradle (children´s bed)	skos:exactMatch	fish:schemes/mda_obj/concepts/96537		semapv:UnspecifiedMatching	
+wnk:wk010663	architectural fragment	skos:exactMatch	fish:schemes/mda_obj/concepts/96002		semapv:UnspecifiedMatching	
+wnk:wk010670	bolt (arrow)	skos:exactMatch	fish:schemes/mda_obj/concepts/95179		semapv:UnspecifiedMatching	
+wnk:wk010675	thimble	skos:exactMatch	fish:schemes/mda_obj/concepts/96975		semapv:UnspecifiedMatching	
+wnk:wk010678	handle	skos:closeMatch	fish:schemes/mda_obj/concepts/137067		semapv:UnspecifiedMatching	
+wnk:wk010683	hypocaust tile	skos:exactMatch	fish:schemes/mda_obj/concepts/141182		semapv:UnspecifiedMatching	
+wnk:wk010708	chessman	skos:exactMatch	fish:schemes/mda_obj/concepts/95621		semapv:UnspecifiedMatching	
+wnk:wk010709	slag	skos:exactMatch	fish:schemes/mda_obj/concepts/97418		semapv:UnspecifiedMatching	
+wnk:wk010718	body sherd	skos:exactMatch	fish:schemes/mda_obj/concepts/137054		semapv:UnspecifiedMatching	
+wnk:wk011435	ash (residue)	skos:exactMatch	fish:schemes/mda_obj/concepts/142924		semapv:UnspecifiedMatching	
+wnk:wk011710	stake (pointed object)	skos:closeMatch	fish:schemes/mda_obj/concepts/96307		semapv:UnspecifiedMatching	
+wnk:wk018575	animal bone	skos:broadMatch	fish:schemes/mda_obj/concepts/95074		semapv:UnspecifiedMatching	
+wnk:wk019113	plant remains	skos:exactMatch	fish:schemes/mda_obj/concepts/100093		semapv:UnspecifiedMatching	
+wnk:wk020872	strap fitting	skos:closeMatch	fish:schemes/mda_obj/concepts/97424		semapv:UnspecifiedMatching	

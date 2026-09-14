@@ -1,0 +1,60 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/unknown_target/ads_eh_period_unknown_target_scheme.sssom.tsv
+#mapping_set_title: Historic England Periods → unknown target SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Historic England Periods (concept scheme: http://purl.org/heritagedata/schemes/eh_period). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: fish:schemes/eh_period
+#subject_source_version: 2025-07-17
+#comment: Extracted from local RDF file(s) FISH/HE_Periods_20250717.rdf; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+fish:schemes/eh_period/concepts/BA	Bronze Age	skos:closeMatch	fish:schemes/11/concepts/505101		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EBA	Early Bronze Age	skos:closeMatch	fish:schemes/11/concepts/508450		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EIA	Early Iron Age	skos:closeMatch	fish:schemes/11/concepts/508453		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EM	Early Medieval	skos:closeMatch	fish:schemes/11/concepts/505127		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EME	Early Mesolithic	skos:closeMatch	fish:schemes/11/concepts/508446		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ENE	Early Neolithic	skos:closeMatch	fish:schemes/11/concepts/508447		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/IA	Iron Age	skos:closeMatch	fish:schemes/11/concepts/505125		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LBA	Late Bronze Age	skos:closeMatch	fish:schemes/11/concepts/508452		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LIA	Late Iron Age	skos:closeMatch	fish:schemes/11/concepts/508455		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LME	Late Mesolithic	skos:closeMatch	fish:schemes/11/concepts/508445		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LNE	Late Neolithic	skos:closeMatch	fish:schemes/11/concepts/508449		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LPA	Lower Palaeolithic	skos:closeMatch	fish:schemes/11/concepts/508442		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MBA	Middle Bronze Age	skos:closeMatch	fish:schemes/11/concepts/508451		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MD	Medieval	skos:closeMatch	fish:schemes/11/concepts/505128		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ME	Mesolithic	skos:closeMatch	fish:schemes/11/concepts/505123		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MIA	Middle Iron Age	skos:closeMatch	fish:schemes/11/concepts/508454		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MNE	Middle Neolithic	skos:closeMatch	fish:schemes/11/concepts/508448		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MPA	Middle Palaeolithic	skos:closeMatch	fish:schemes/11/concepts/508443		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/NE	Neolithic	skos:closeMatch	fish:schemes/11/concepts/505124		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/PA	Palaeolithic	skos:closeMatch	fish:schemes/11/concepts/505122		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/PM	Post Medieval	skos:closeMatch	fish:schemes/11/concepts/505129		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/PR	Prehistoric	skos:closeMatch	fish:schemes/11/concepts/505102		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/RO	Roman	skos:closeMatch	fish:schemes/11/concepts/505126		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROAN	Antonine	skos:broadMatch	fish:schemes/11/concepts/505126		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROFL	Flavian	skos:broadMatch	fish:schemes/11/concepts/505126		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROHA	Hadrianic	skos:broadMatch	fish:schemes/11/concepts/505126		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROSE	Severan	skos:broadMatch	fish:schemes/11/concepts/505126		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/UPA	Upper Palaeolithic	skos:closeMatch	fish:schemes/11/concepts/508444		semapv:UnspecifiedMatching	

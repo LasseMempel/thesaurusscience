@@ -1,0 +1,57 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  dai: http://thesauri.dainst.org/
+#  backbone: https://vocabs.dariah.eu/bbt/Concept/
+#  wnk: http://lvr.vocnet.org/wnk/
+#  defc: https://vocabs.acdh.oeaw.ac.at/defcthesaurus/
+#  OeAI_ctp: https://vocabs.acdh.oeaw.ac.at/oeai-cultural-periods/
+#  OeAI_m: https://vocabs.acdh.oeaw.ac.at/oeai-materials/
+#  gemet: http://www.eionet.europa.eu/gemet/concept/
+#  dyas: https://humanitiesthesaurus.academyofathens.gr/dyas-resource/Concept/
+#  fish: http://purl.org/heritagedata/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/gemet_backbone.sssom.tsv
+#mapping_set_title: GEMET, the GEneral Multilingual Environmental Thesaurus → Backbone Thesaurus SKOS mappings
+#mapping_set_description: SKOS mappings extracted from local RDF dump(s) of GEMET, the GEneral Multilingual Environmental Thesaurus (concept scheme: http://www.eionet.europa.eu/gemet/gemetThesaurus), targeting Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://www.eionet.europa.eu/gemet/gemetThesaurus
+#object_source: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus
+#comment: Extracted from local RDF file(s) Dariah Vocabs/GEMET - Concepts.ttl; source graph(s) contain SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+dai:de/concepts/_588a9c73.html		skos:exactMatch	backbone:000006		semapv:UnspecifiedMatching	
+gemet:11791	insoluble substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:11792	non-volatile substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:11793	weakly degradable substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:13136	agricultural structure	skos:broadMatch	backbone:000018		semapv:UnspecifiedMatching	
+gemet:13193	agricultural holding	skos:broadMatch	backbone:000018		semapv:UnspecifiedMatching	
+gemet:1320	chemical process	skos:broadMatch	backbone:000001		semapv:UnspecifiedMatching	
+gemet:14619	surface active compound	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:1874	crop protection	skos:broadMatch	backbone:000001		semapv:UnspecifiedMatching	
+gemet:1899	cultivation	skos:broadMatch	backbone:000001		semapv:UnspecifiedMatching	
+gemet:210	agricultural method	skos:broadMatch	backbone:000023		semapv:UnspecifiedMatching	
+gemet:2643	chemical element	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:429	animal husbandry	skos:broadMatch	backbone:000010		semapv:UnspecifiedMatching	
+gemet:4493	ion	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:4519	isomer	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:4523	isotope	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:4839	lipophilic substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:5184	metal	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:52	acid	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:5756	nutrient medium	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:5912	organic substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:5978	oxide	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:6918	radioactive substance	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:7401	salt	skos:broadMatch	backbone:000003		semapv:UnspecifiedMatching	
+gemet:812	biochemical process	skos:broadMatch	backbone:000016		semapv:UnspecifiedMatching	
