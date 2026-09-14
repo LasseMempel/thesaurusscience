@@ -48,7 +48,7 @@ except ImportError:
 # CONFIG — local paths on your machine
 # ---------------------------------------------------------------------------
 
-BASE = Path("/home/lasse/repos/thesaurusscience")  
+BASE = Path("/home/mempellaenger/repos/thesaurusscience/")  
 
 DAI_PDF = BASE / "Ariadne Mappings" / "ARIADNE_DAI_AAT_Mappings.pdf"
 ADS_PDF = BASE / "Ariadne Mappings" / "ARIADNE_ADS_AAT_Mappings.pdf"
@@ -58,7 +58,6 @@ FISH_DIR = BASE / "FISH"  # directory containing the FISH RDF/XML thesauri
 PACTOLS_DIR = BASE / "Pactols"  # directory containing the Pactols SKOS RDF/XML files
                                 # (Pactols_Lieux_th17_*.rdf, Pactols_Sujets_TH_1_*.rdf)
 
-OUTPUT_DIR = BASE / "Output"       # legacy CSV/JSON/TTL views — kept for now, not the source of truth
 SSSOM_DIR = BASE / "Mappings"       # new: SSSOM TSV+YAML files, one per (fromScheme, toScheme) source
 
 GITHUB_TOOL_URL = "https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py"
@@ -85,21 +84,90 @@ PUBLICATION_DATE = "2026-09-10"               # date you actually publish/commit
 # "orcid" is declared everywhere in case you fill in CREATOR_ID with one.
 PACTOLS_PREFIX_MAP = {
     "pactols": "https://ark.frantiq.fr/ark:/26678/",
+    # per-scheme prefixes: only used to compact subject_source (which equals
+    # the scheme URI itself, so this compacts to e.g. "pactols_lieux:"), not
+    # concept ids — those stay under "pactols" above, which to_curie() still
+    # picks via longest-prefix match since concept ARK ids don't share the
+    # th17/TH_1 path segment.
+    "pactols_lieux": "https://ark.frantiq.fr/ark:/26678/th17",
+    "pactols_sujets": "https://ark.frantiq.fr/ark:/26678/TH_1",
     "aat": "http://vocab.getty.edu/aat/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "orcid": "https://orcid.org/",
+    "github": "https://github.com/"
 }
 FISH_PREFIX_MAP = {
     "fish": "http://purl.org/heritagedata/",
+    # per-scheme prefixes: only used to compact subject_source (each equals
+    # one of the ADS scheme URIs below), concept ids stay under "fish" above.
+    "fish_tbm": "http://purl.org/heritagedata/schemes/eh_tbm",
+    "fish_com": "http://purl.org/heritagedata/schemes/eh_com",
+    "fish_obj": "http://purl.org/heritagedata/schemes/mda_obj",
+    "fish_tmc": "http://purl.org/heritagedata/schemes/eh_tmc",
+    "fish_tmt2": "http://purl.org/heritagedata/schemes/eh_tmt2",
     "aat": "http://vocab.getty.edu/aat/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "orcid": "https://orcid.org/",
+    "github": "https://github.com/"
 }
+
+# ---------------------------------------------------------------------------
+# ADS/FISH concept schemes. Cocoda only accepts mapping sets between one
+# specific conceptScheme and another, so ads_aat.sssom.tsv gets split into
+# one file per FISH scheme below. The scheme is detected from a substring in
+# the concept URI itself (per your note) — ASSUMPTION, not yet checked
+# against your real ADS records: adjust FISH_SCHEME_DEFS' `marker` values if
+# a run reports records in "fish_unknown".
+# ---------------------------------------------------------------------------
+FISH_SCHEME_DEFS = [
+    # (short_key,   marker string to find in source_uri,  scheme URI,                                    human label)
+    ("eh_tbm",  "eh_tbm",  "http://purl.org/heritagedata/schemes/eh_tbm",  "ADS Building Materials"),
+    ("eh_com",  "eh_com",  "http://purl.org/heritagedata/schemes/eh_com",  "ADS Components"),
+    ("mda_obj", "mda_obj", "http://purl.org/heritagedata/schemes/mda_obj", "ADS FISH Objects"),
+    ("eh_tmc",  "eh_tmc",  "http://purl.org/heritagedata/schemes/eh_tmc",  "ADS Maritime Craft"),
+    ("eh_tmt2", "eh_tmt2", "http://purl.org/heritagedata/schemes/eh_tmt2", "ADS Monuments"),
+]
+
+
+def detect_fish_scheme(source_uri):
+    """Return the FISH_SCHEME_DEFS short_key whose marker appears in
+    source_uri, or None if no marker matches (record goes to fish_unknown)."""
+    for short_key, marker, _scheme_uri, _label in FISH_SCHEME_DEFS:
+        if marker in source_uri:
+            return short_key
+    return None
+
+
+# ---------------------------------------------------------------------------
+# PACTOLS (INRAP) concept schemes — same Cocoda constraint as FISH above, but
+# Pactols concept URIs don't encode which scheme (Lieux vs Sujets) they
+# belong to, so membership is determined by which local RDF/XML dump the URI
+# was actually found in (see load_pactols_graph's per-subject scheme index).
+# ---------------------------------------------------------------------------
+PACTOLS_SCHEME_DEFS = {
+    "pactols_lieux":  ("https://ark.frantiq.fr/ark:/26678/th17", "PACTOLS Lieux"),
+    "pactols_sujets": ("https://ark.frantiq.fr/ark:/26678/TH_1", "PACTOLS Sujets"),
+}
+
+
+def detect_pactols_scheme_from_filename(filename):
+    """Classify a Pactols dump file by name (e.g. 'Pactols_Lieux_th17_*.rdf'
+    / 'Pactols_Sujets_TH_1_*.rdf'). Returns a PACTOLS_SCHEME_DEFS key, or
+    None if the filename doesn't clearly say which — ASSUMPTION based on the
+    naming convention in your CONFIG comment; adjust if your real filenames
+    differ."""
+    name = filename.lower()
+    if "lieux" in name or "th17" in name:
+        return "pactols_lieux"
+    if "sujets" in name or "th_1" in name or "th1" in name:
+        return "pactols_sujets"
+    return None
 DAI_PREFIX_MAP = {
-    "dai": "http://thesauri.dainst.org/",
+    "dai": "http://thesauri.dainst.org/scheme",
     "aat": "http://vocab.getty.edu/aat/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "orcid": "https://orcid.org/",
+    "github": "https://github.com/"
 }
 
 INRAP_SSSOM_META = {
@@ -111,7 +179,7 @@ INRAP_SSSOM_META = {
     "mapping_date": "2016-10-10",          # ARIADNE_INRAP_AAT_Mappings.pdf CreationDate (pdfinfo)
     "publication_date": PUBLICATION_DATE,
     "creator_id": CREATOR_ID,
-    "creator_label": "Lasse Mempel",
+    "creator_label": "Lasse Mempel-Länger",
     "mapping_provider": "https://ror.org/04andmq85",
     "mapping_tool": "build_aat_mappings.py (PDF table extraction)",
     "mapping_tool_id": GITHUB_TOOL_URL,
@@ -133,7 +201,7 @@ ADS_SSSOM_META = {
     "mapping_date": "2019-01-29",
     "publication_date": PUBLICATION_DATE,
     "creator_id": CREATOR_ID,
-    "creator_label": "Lasse Mempel",
+    "creator_label": "Lasse Mempel-Länger",
     "mapping_provider": "https://ror.org/04w1khd64",
     "mapping_tool": "build_aat_mappings.py (PDF table extraction)",
     "mapping_tool_id": GITHUB_TOOL_URL,
@@ -154,11 +222,11 @@ DAI_SSSOM_META = {
     "mapping_date": "2019-01-29",
     "publication_date": PUBLICATION_DATE,
     "creator_id": CREATOR_ID,
-    "creator_label": "Lasse Mempel",
+    "creator_label": "Lasse Mempel-Länger",
     "mapping_provider": "https://ror.org/041qv0h25",
     "mapping_tool": "build_aat_mappings.py (PDF table extraction + DAI ttl label resolution)",
     "mapping_tool_id": GITHUB_TOOL_URL,
-    "subject_source": "http://thesauri.dainst.org/",
+    "subject_source": "http://thesauri.dainst.org/scheme",  # matches DAI_PREFIX_MAP's "dai" ns exactly -> curie "dai:"
     "object_source": "http://vocab.getty.edu/aat/",
     "see_also": "http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_DAI_AAT_Mappings.pdf",
     "comment": "",
@@ -545,28 +613,43 @@ def _normalize_scheme(uri):
 
 
 def load_pactols_graph(pactols_dir):
+    """Returns (combined_graph, scheme_by_subject) where scheme_by_subject
+    maps every subject URI (str) seen while parsing to a PACTOLS_SCHEME_DEFS
+    key ("pactols_lieux" / "pactols_sujets"), based on which dump file it
+    came from — needed to split inrap_aat.sssom.tsv per scheme, since (per
+    your note) individual Pactols concept URIs don't reveal this themselves."""
     if rdflib is None:
         raise RuntimeError("rdflib is required — pip install rdflib")
 
     g = rdflib.Graph()
+    scheme_by_subject = {}
     files = sorted(pactols_dir.glob("*.rdf")) + sorted(pactols_dir.glob("*.xml"))
 
     if not files:
         print(f"[WARN][PACTOLS] no .rdf/.xml files found in {pactols_dir}")
-        return g
+        return g, scheme_by_subject
 
     for f in files:
+        scheme_key = detect_pactols_scheme_from_filename(f.name)
+        if scheme_key is None:
+            print(f"[WARN][PACTOLS] can't tell Lieux vs Sujets from filename '{f.name}' "
+                  f"— concepts from this file won't be assigned to a split output file "
+                  f"(adjust detect_pactols_scheme_from_filename if needed)")
         try:
-            g.parse(str(f), format="xml")
-            print(f"[PACTOLS] loaded {f.name}")
+            file_graph = rdflib.Graph()
+            file_graph.parse(str(f), format="xml")
+            for s in file_graph.subjects():
+                scheme_by_subject.setdefault(str(s), scheme_key)
+            g += file_graph
+            print(f"[PACTOLS] loaded {f.name} ({len(file_graph)} triples, scheme={scheme_key})")
         except Exception as e:  # noqa: BLE001 — surfacing parse errors as warnings, not fatal
             print(f"[WARN][PACTOLS] failed to parse {f.name}: {e}")
 
     print(f"[PACTOLS] combined graph: {len(g)} triples from {len(files)} file(s)")
-    return g
+    return g, scheme_by_subject
 
 
-def validate_inrap_against_pactols(records, pactols_graph, label_corrections=None):
+def validate_inrap_against_pactols(records, pactols_graph, scheme_by_subject, label_corrections=None):
     if len(pactols_graph) == 0:
         print("[WARN][PACTOLS] graph is empty — skipping PACTOLS validation entirely")
         return
@@ -595,6 +678,7 @@ def validate_inrap_against_pactols(records, pactols_graph, label_corrections=Non
             print(f"[WARN][PACTOLS URI not found] {uri} (label: '{r['source_label']}', "
                   f"section: {r['section']})")
             continue
+        r["_pactols_scheme"] = scheme_by_subject.get(real_uri)
         uri_ref = rdflib.URIRef(real_uri)
 
         label = r["source_label"]
@@ -671,19 +755,6 @@ def resolve_predicate(records):
 # Output writers
 # ---------------------------------------------------------------------------
 
-def write_csv_json(records, out_stub, fieldnames):
-    csv_path = out_stub.with_suffix(".csv")
-    json_path = out_stub.with_suffix(".json")
-    with csv_path.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
-        w.writeheader()
-        for r in records:
-            w.writerow({k: r.get(k, "") for k in fieldnames})
-    with json_path.open("w", encoding="utf-8") as f:
-        json.dump(records, f, ensure_ascii=False, indent=2)
-    return csv_path, json_path
-
-
 def _scheme_variants(uri):
     """Same http/https drift as the PACTOLS ark.frantiq.fr URIs elsewhere in this
     script (see _normalize_scheme) — the PDF says http://, the source RDF and
@@ -708,6 +779,12 @@ def to_curie(uri, prefix_map):
                 best_prefix, best_ns, best_variant = prefix, ns, variant
     return f"{best_prefix}:{best_variant[len(best_ns):]}" if best_prefix else uri
 
+
+# MappingSet-level slots that get CURIE-compacted (against the file's own
+# prefix_map) when the header is written. Everything else in
+# SSSOM_HEADER_SLOT_ORDER (mapping_set_id, license, creator_id, mapping_provider,
+# see_also, ...) is written as-is — those validated fine as bare absolute URIs.
+SSSOM_CURIE_SLOTS = {"mapping_tool_id", "subject_source", "object_source"}
 
 # Order matters for header readability only (curie_map, then the rest of the
 # recognised MappingSet-level slots, in roughly the order the SSSOM spec
@@ -782,6 +859,8 @@ def write_sssom_tsv(records, out_path, mapping_set_meta, prefix_map,
         for slot in SSSOM_HEADER_SLOT_ORDER:
             value = mapping_set_meta.get(slot)
             if value:
+                if slot in SSSOM_CURIE_SLOTS:
+                    value = to_curie(value, prefix_map)
                 f.write(f"#{slot}: {value}\n")
 
         tsv_fields = ["subject_id", "predicate_id", "object_id", "mapping_justification",
@@ -797,42 +876,11 @@ def write_sssom_tsv(records, out_path, mapping_set_meta, prefix_map,
     return out_path
 
 
-def write_skos_ttl(records, out_path):
-    if rdflib is None:
-        raise RuntimeError("rdflib is required — pip install rdflib")
-
-    g = rdflib.Graph()
-    g.bind("skos", SKOS)
-
-    written, skipped_no_uri, skipped_no_pred = 0, 0, 0
-    for r in records:
-        source_uri = r.get("source_uri", "")
-        pred = r.get("skos_predicate", "")
-        if not source_uri:
-            skipped_no_uri += 1
-            continue
-        if not pred:
-            skipped_no_pred += 1
-            continue
-        g.add((
-            rdflib.URIRef(source_uri),
-            rdflib.URIRef(SKOS_NS + pred),
-            rdflib.URIRef(r["target_uri"]),
-        ))
-        written += 1
-
-    g.serialize(destination=str(out_path), format="turtle")
-    print(f"[ttl] {out_path.name}: {written} triples written "
-          f"({skipped_no_uri} skipped: no source URI, {skipped_no_pred} skipped: unresolved match type)")
-    return out_path
-
-
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main():
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     SSSOM_DIR.mkdir(parents=True, exist_ok=True)
 
     # --- DAI ---
@@ -842,26 +890,40 @@ def main():
     resolve_predicate(dai_records)
 
     dai_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
-    write_csv_json(dai_records, OUTPUT_DIR / "dai_aat_mappings", dai_fields)
-    write_skos_ttl(dai_records, OUTPUT_DIR / "dai_aat_mappings.ttl")
     write_sssom_tsv(dai_records, SSSOM_DIR / "dai_aat.sssom.tsv", DAI_SSSOM_META, DAI_PREFIX_MAP)
 
     bad = validate_uri_shape(dai_records, has_source_uri=False)
     print(f"DAI: {len(dai_records)} rows, {len(bad)} target_uri shape failures")
 
-    # --- ADS ---
+    # --- ADS (FISH) ---
     ads_records = extract_pdf(ADS_PDF, "ADS", has_source_uri=True)
     resolve_predicate(ads_records)
     fish_graph = load_fish_graph(FISH_DIR)
     validate_ads_against_fish(ads_records, fish_graph)
 
-    ads_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
-    write_csv_json(ads_records, OUTPUT_DIR / "ads_aat_mappings", ads_fields)
-    write_skos_ttl(ads_records, OUTPUT_DIR / "ads_aat_mappings.ttl")
-    write_sssom_tsv(ads_records, SSSOM_DIR / "ads_aat.sssom.tsv", ADS_SSSOM_META, FISH_PREFIX_MAP)
-
     bad = validate_uri_shape(ads_records, has_source_uri=True, source_uri_prefix="http://purl.org/heritagedata/")
     print(f"ADS: {len(ads_records)} rows, {len(bad)} URI shape failures")
+
+    # Cocoda needs one mapping set per (fromScheme, toScheme) pair, so split
+    # into one SSSOM file per FISH concept scheme (detected from the concept
+    # URI itself — see FISH_SCHEME_DEFS / detect_fish_scheme).
+    for short_key, _marker, scheme_uri, label in FISH_SCHEME_DEFS:
+        subset = [r for r in ads_records if detect_fish_scheme(r["source_uri"]) == short_key]
+        if not subset:
+            continue
+        meta = dict(ADS_SSSOM_META)
+        meta["mapping_set_id"] = meta["mapping_set_id"].replace(
+            "ads_aat.sssom.tsv", f"ads_{short_key}_aat.sssom.tsv")
+        meta["mapping_set_title"] = f"{label} \u2192 Getty AAT crosswalk (ARIADNE)"
+        meta["subject_source"] = scheme_uri
+        write_sssom_tsv(subset, SSSOM_DIR / f"ads_{short_key}_aat.sssom.tsv", meta, FISH_PREFIX_MAP)
+
+    unmatched = [r for r in ads_records if detect_fish_scheme(r["source_uri"]) is None and r.get("source_uri")]
+    if unmatched:
+        print(f"[WARN][FISH scheme unresolved] {len(unmatched)} ADS record(s) didn't match any "
+              f"FISH_SCHEME_DEFS marker — not written to any split file. Check "
+              f"detect_fish_scheme()/FISH_SCHEME_DEFS against these source_uri values, e.g.: "
+              + ", ".join(sorted({r['source_uri'] for r in unmatched})[:5]))
 
     # --- INRAP (PACTOLS) ---
     inrap_records = extract_pdf(INRAP_PDF, "PACTOLS", has_source_uri=True)
@@ -880,32 +942,37 @@ def main():
             r["source_label"] = fix
 
     resolve_predicate(inrap_records)
-    pactols_graph = load_pactols_graph(PACTOLS_DIR)
-    validate_inrap_against_pactols(inrap_records, pactols_graph, INRAP_LABEL_SPELLING_CORRECTIONS)
+    pactols_graph, pactols_scheme_by_subject = load_pactols_graph(PACTOLS_DIR)
+    validate_inrap_against_pactols(inrap_records, pactols_graph, pactols_scheme_by_subject,
+                                    INRAP_LABEL_SPELLING_CORRECTIONS)
 
-    inrap_fields = ["section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
-    write_csv_json(inrap_records, OUTPUT_DIR / "inrap_aat_mappings", inrap_fields)
-    write_skos_ttl(inrap_records, OUTPUT_DIR / "inrap_aat_mappings.ttl")
-    write_sssom_tsv(inrap_records, SSSOM_DIR / "inrap_aat.sssom.tsv", INRAP_SSSOM_META, PACTOLS_PREFIX_MAP)
+    # Same Cocoda constraint as FISH above: split into inrap_pactols_lieux_aat.sssom.tsv
+    # / inrap_pactols_sujets_aat.sssom.tsv. Unlike FISH, scheme membership can't be
+    # read off the concept URI, so it comes from validate_inrap_against_pactols
+    # tagging r["_pactols_scheme"] via the local dump each concept was found in.
+    for short_key, (scheme_uri, label) in PACTOLS_SCHEME_DEFS.items():
+        subset = [r for r in inrap_records if r.get("_pactols_scheme") == short_key]
+        if not subset:
+            continue
+        meta = dict(INRAP_SSSOM_META)
+        meta["mapping_set_id"] = meta["mapping_set_id"].replace(
+            "inrap_aat.sssom.tsv", f"inrap_{short_key}_aat.sssom.tsv")
+        meta["mapping_set_title"] = f"INRAP {label} \u2192 Getty AAT crosswalk (ARIADNE)"
+        meta["subject_source"] = scheme_uri
+        write_sssom_tsv(subset, SSSOM_DIR / f"inrap_{short_key}_aat.sssom.tsv", meta, PACTOLS_PREFIX_MAP)
+
+    unresolved_scheme = [r for r in inrap_records
+                         if r.get("source_uri") and r.get("_pactols_scheme") is None]
+    if unresolved_scheme:
+        print(f"[WARN][PACTOLS scheme unresolved] {len(unresolved_scheme)} INRAP record(s) resolved "
+              f"to a Pactols URI but not to a known scheme (Lieux/Sujets) — not written to any split "
+              f"file. Check detect_pactols_scheme_from_filename() against your actual dump filenames.")
 
     bad = validate_uri_shape(inrap_records, has_source_uri=True, source_uri_prefix="http://ark.frantiq.fr/ark:/26678/")
     print(f"INRAP: {len(inrap_records)} rows, {len(bad)} URI shape failures")
     for _, r in bad:
         print(f"  [WARN][bad target_uri shape] '{r['source_label']}' -> target_uri={r['target_uri']!r} "
               f"(fix by hand, then re-run)")
-
-    # --- combined ---
-    combined_fields = ["source_file", "section", "source_uri", "source_label", "target_label", "target_uri", "match", "skos_predicate"]
-    combined = (
-        [{"source_file": DAI_PDF.name, **r} for r in dai_records]
-        + [{"source_file": ADS_PDF.name, **r} for r in ads_records]
-        + [{"source_file": INRAP_PDF.name, **r} for r in inrap_records]
-    )
-    write_csv_json(combined, OUTPUT_DIR / "combined_aat_mappings", combined_fields)
-    write_skos_ttl(combined, OUTPUT_DIR / "combined_aat_mappings.ttl")
-
-    print(f"\nDone. Outputs written to {OUTPUT_DIR}")
-
 
 if __name__ == "__main__":
     main()

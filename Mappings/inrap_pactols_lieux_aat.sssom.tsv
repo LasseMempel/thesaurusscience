@@ -1,0 +1,26 @@
+#curie_map:
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#  pactols_lieux: https://ark.frantiq.fr/ark:/26678/th17
+#  pactols_sujets: https://ark.frantiq.fr/ark:/26678/TH_1
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/inrap_pactols_lieux_aat.sssom.tsv
+#mapping_set_title: INRAP PACTOLS Lieux → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: PACTOLS-thesaurus-to-AAT concept crosswalk compiled by INRAP for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2016-10-10
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04andmq85
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: pactols_lieux:
+#object_source: aat:
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_INRAP_AAT_Mappings.pdf
+#comment: Original table compiled by Achille Felicetti (per PDF author metadata) for ARIADNE. 2 of 1634 rows needed hand correction for a PDF word-wrap extraction artifact (see INRAP_LABEL_SPELLING_CORRECTIONS) before this export was generated.
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+pactols:pcrtuzoS9dkkXV	skos:broadMatch	aat:300386595	semapv:UnspecifiedMatching	voie aurélienne	cultural routes	
+pactols:pcrtLkyNSuKk3k	skos:broadMatch	aat:300386595	semapv:UnspecifiedMatching	voie domitienne	cultural routes	

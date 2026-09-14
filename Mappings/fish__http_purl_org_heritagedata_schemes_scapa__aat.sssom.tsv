@@ -1,0 +1,146 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  fish: http://purl.org/heritagedata/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/fish__http_purl_org_heritagedata_schemes_scapa__aat.sssom.tsv
+#mapping_set_title: FISH SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of FISH (concept scheme: http://purl.org/heritagedata/schemes/scapa), targeting concept scheme http://vocab.getty.edu/aat/. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: fish:schemes/scapa
+#subject_source_version: 2018-03-29T14:00:00+00:00
+#object_source: aat:
+#comment: Extracted from local RDF file hes_scapa_20180329.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+fish:schemes/scapa/concepts/ASA	Anglo-Saxon	skos:closeMatch	aat:300021024		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/BA	Bronze Age	skos:closeMatch	aat:300019275		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C01	1st Century	skos:exactMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C02	2nd Century	skos:exactMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C03	3rd Century	skos:exactMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C04	4th Century	skos:exactMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C05	5th Century	skos:exactMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C06	6th Century	skos:exactMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C07	7th Century	skos:exactMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C08	8th Century	skos:exactMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C09	9th Century	skos:exactMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C10	10th Century	skos:exactMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C11	11th Century	skos:exactMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C12	12th Century	skos:exactMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C13	13th Century	skos:exactMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C14	14th Century	skos:exactMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C15	15th Century	skos:exactMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C16	16th Century	skos:exactMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C17	17th Century	skos:exactMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C18	18th Century	skos:exactMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C19	19th Century	skos:exactMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C20	20th Century	skos:exactMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/C21	21st Century	skos:exactMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/CH	Chalcolithic	skos:closeMatch	aat:300019273		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E01	Early 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E02	Early 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E03	Early 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E04	Early 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E05	Early 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E06	Early 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E07	Early 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E08	Early 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E09	Early 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E10	Early 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E11	Early 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E12	Early 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E13	Early 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E14	Early 14th Century	skos:broadMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E15	Early 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E16	Early 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E17	Early 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E18	Early 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E19	Early 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E20	Early 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/E21	Early 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EBA	Early Bronze Age	skos:closeMatch	aat:300019276		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EIA	Early Iron Age	skos:closeMatch	aat:300106738		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EM	Early Medieval	skos:closeMatch	aat:300020760		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EME	Early Mesolithic	skos:broadMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ENE	Early Neolithic	skos:closeMatch	aat:300019270		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/EPR	Early Prehistoric	skos:broadMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/GEO	Georgian	skos:closeMatch	aat:300021048		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/IA	Iron Age	skos:closeMatch	aat:300019279		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L01	Late 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L02	Late 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L03	Late 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L04	Late 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L05	Late 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L06	Late 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L07	Late 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L08	Late 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L09	Late 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L10	Late 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L11	Late 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L12	Late 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L13	Late 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L14	Late 14th Century	skos:broadMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L15	Late 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L16	Late 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L17	Late 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L18	Late 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L19	Late 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L20	Late 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/L21	Late 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LAT	Late Prehistoric	skos:broadMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LBA	Late Bronze Age	skos:closeMatch	aat:300019278		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LEM	Late Early Medieval	skos:broadMatch	aat:300020760		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LIA	Late Iron Age	skos:closeMatch	aat:300106745		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LME	Late Mesolithic	skos:broadMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LNE	Late Neolithic	skos:closeMatch	aat:300019272		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/LPA	Lower Palaeolithic	skos:closeMatch	aat:300019260		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M01	Mid 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M02	Mid 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M03	Mid 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M04	Mid 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M05	Mid 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M06	Mid 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M07	Mid 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M08	Mid 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M09	Mid 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M10	Mid 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M11	Mid 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M12	Mid 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M13	Mid 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M14	Mid 14th Century	skos:broadMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M15	Mid 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M16	Mid 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M17	Mid 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M18	Mid 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M19	Mid 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M20	Mid 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/M21	Mid 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MBA	Middle Bronze Age	skos:closeMatch	aat:300019277		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MD	Medieval	skos:closeMatch	aat:300020756		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ME	Mesolithic	skos:closeMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MIA	Middle Iron Age	skos:closeMatch	aat:300106739		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MNE	Middle Neolithic	skos:closeMatch	aat:300019271		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/MPA	Middle Palaeolithic	skos:closeMatch	aat:300019261		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/NE	Neolithic	skos:closeMatch	aat:300019267		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/NO	Norse	skos:closeMatch	aat:300262953		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PA	Palaeolithic	skos:closeMatch	aat:300019258		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PI	Pictish	skos:closeMatch	aat:300264663		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/PR	Prehistoric	skos:closeMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/RO	Roman	skos:closeMatch	aat:300020541		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROAN	Antonine	skos:closeMatch	aat:300020560		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROFL	Flavian	skos:closeMatch	aat:300020551		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/ROSE	Severan	skos:closeMatch	aat:300020566		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/SA	Saxon	skos:closeMatch	aat:300379686		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/UPA	Upper Palaeolithic	skos:closeMatch	aat:300019262		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/VIC	Victorian	skos:closeMatch	aat:300021232		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/VK	Viking	skos:closeMatch	aat:300019558		semapv:UnspecifiedMatching	
+fish:schemes/scapa/concepts/century	Centuries	skos:exactMatch	aat:300379247		semapv:UnspecifiedMatching	

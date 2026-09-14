@@ -19,7 +19,7 @@ The script:
   * records UnspecifiedMatching because the original mapping process is unknown
 
 Important provenance distinction:
-  * creator_id = Lasse Mempel, because you created this SSSOM representation
+  * creator_id = Lasse Mempel-Länger, because you created this SSSOM representation
   * mapping_provider = optional manual enrichment; omitted when the origin of
     the mapping assertion is unknown
   * publication_date = date this generated SSSOM artifact is created
@@ -45,11 +45,11 @@ from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDF, SKOS
 
 
-BASE = Path("/home/lasse/repos/thesaurusscience")
+BASE = Path("/home/mempellaenger/repos/thesaurusscience")
 OUTPUT_DIR = BASE / "Mappings"
 
 CREATOR_ID = "orcid:0009-0001-5183-1635"
-CREATOR_LABEL = "Lasse Mempel"
+CREATOR_LABEL = "Lasse Mempel-Länger"
 PUBLICATION_DATE = dt.date.today().isoformat()
 LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 
@@ -135,6 +135,91 @@ MAPPING_PREDICATES = {
 }
 
 RDF_EXTENSIONS = {".rdf", ".xml", ".owl", ".ttl"}
+
+# ---------------------------------------------------------------------------
+# Namespace-root -> conceptScheme lookup for well-known EXTERNAL targets
+# (AAT, Wikidata, GND today). Unlike our own vocab dumps, these concepts
+# never carry a local skos:inScheme triple, so subject_scheme/object_scheme
+# would otherwise always come out "unknown" for matches into them — even
+# though the concept scheme is perfectly well known from the URI alone.
+#
+# Extend this as you curate: key = the namespace root exactly as
+# namespace_candidate() would cut it (last "/" or "#" kept), value =
+#   "prefix":     CURIE prefix registered globally in every output file's
+#                 curie_map (so subject_id/object_id compact too, not just
+#                 subject_source/object_source)
+#   "scheme_uri": the conceptScheme identifier to write as subject_source/
+#                 object_source
+#   "label":      human-readable name, used in mapping_set_title/filenames
+#
+# AAT concepts declare skos:inScheme aat: themselves, so its own namespace
+# IS its conceptScheme. Wikidata items and GND authority records aren't
+# natively skos:Concept/skos:ConceptScheme at all, so scheme_uri below is
+# each vocabulary's BARTOC registration instead — the same identifier
+# coli-conc/Cocoda itself uses as fromScheme/toScheme for them. Double-check
+# these two against how your Cocoda instance actually has Wikidata/GND
+# registered before publishing; swap them for a different URI if it differs.
+NAMESPACE_SCHEME_MAP: dict[str, dict[str, str]] = {
+    "http://vocab.getty.edu/aat/": {
+        "prefix": "aat",
+        "scheme_uri": "http://vocab.getty.edu/aat/",
+        "label": "Getty Art & Architecture Thesaurus (AAT)",
+    },
+    "http://www.wikidata.org/entity/": {
+        "prefix": "wikidata",
+        "scheme_uri": "http://bartoc.org/en/node/1940",
+        "label": "Wikidata",
+    },
+    "https://d-nb.info/gnd/": {
+        "prefix": "gnd",
+        "scheme_uri": "http://bartoc.org/en/node/430",
+        "label": "Gemeinsame Normdatei (GND)",
+        # KNOWN GAP: some older/third-party dumps use "http://d-nb.info/gnd/"
+        # (no "s"). A single CURIE prefix can only carry one namespace, so an
+        # http:// GND URI won't match this entry or get CURIE-compacted —
+        # it'll just fall through as unknown/unresolved instead of silently
+        # mis-grouping. If that shows up a lot in your unknown_target namespace
+        # report, normalize those URIs to https:// during extraction instead
+        # of adding a second "gnd" entry here.
+    },
+}
+
+# Registered so subject_source/object_source values that are themselves
+# BARTOC scheme URIs (Wikidata/GND above) compact into readable CURIEs too,
+# e.g. "bartoc:en/node/1940" instead of the bare URI.
+BARTOC_PREFIX = {"bartoc": "http://bartoc.org/"}
+
+
+def resolve_scheme_via_namespace(uri: str) -> str | None:
+    """Longest-prefix match of `uri` against NAMESPACE_SCHEME_MAP's namespace
+    roots — same algorithm as to_curie(), just resolving to a conceptScheme
+    URI instead of a CURIE. Returns None if no registered root matches."""
+    best_root = ""
+    best_entry = None
+    for root, entry in NAMESPACE_SCHEME_MAP.items():
+        if uri.startswith(root) and len(root) > len(best_root):
+            best_root = root
+            best_entry = entry
+    return best_entry["scheme_uri"] if best_entry else None
+
+
+def scheme_uri_label(scheme_uri: str) -> str | None:
+    """Friendly label for a resolved scheme_uri, for nicer filenames/titles
+    than a raw slugified URI — looks up NAMESPACE_SCHEME_MAP by scheme_uri
+    (not namespace root, since callers only have the resolved scheme here)."""
+    for entry in NAMESPACE_SCHEME_MAP.values():
+        if entry["scheme_uri"] == scheme_uri:
+            return entry["prefix"]
+    return None
+
+
+# Cross-folder tally of namespace roots seen on a subject/object URI that
+# was STILL unresolved after the NAMESPACE_SCHEME_MAP fallback above — i.e.
+# candidates for you to curate into NAMESPACE_SCHEME_MAP next. Written out
+# by main() once all folders are processed (Mappings/unknown_target/
+# _namespace_roots_to_curate.tsv), not per-folder, so the frequencies reflect
+# the whole corpus.
+UNRESOLVED_NAMESPACE_COUNTS: dict[str, int] = defaultdict(int)
 
 
 def slugify(value: str, max_len: int = 90) -> str:
@@ -296,17 +381,20 @@ def query_mappings(graph: Graph):
 
 def mapping_set_filename(folder_name: str, subject_scheme: str | None,
                          object_scheme: str | None) -> str:
-    source_part = slugify(subject_scheme or "unknown_source_scheme")
-    target_part = slugify(object_scheme or "unknown_target_scheme")
+    source_part = slugify(scheme_uri_label(subject_scheme) or subject_scheme or "unknown_source_scheme")
+    target_part = slugify(scheme_uri_label(object_scheme) or object_scheme or "unknown_target_scheme")
     return f"{slugify(folder_name)}__{source_part}__{target_part}.sssom.tsv"
 
 
-def mapping_set_id(filename: str) -> str:
+def mapping_set_id(filename: str, rel_dir: str = "") -> str:
     # The canonical mapping-set identifier is the TSV URL, not the later RDF
-    # serialization. This follows the SSSOM model/examples.
+    # serialization. This follows the SSSOM model/examples. rel_dir must match
+    # write_sssom's actual output path (e.g. "unknown_target") so the published
+    # URL isn't a dead link.
+    sub = f"{rel_dir}/" if rel_dir else ""
     return (
         "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/"
-        f"main/Mappings/auto/{filename}"
+        f"main/Mappings/{sub}{filename}"
     )
 
 
@@ -357,8 +445,14 @@ def build_prefix_map(folder_name: str) -> dict[str, str]:
         "semapv": "https://w3id.org/semapv/vocab/",
         "orcid": "https://orcid.org/",
         "github": "https://github.com/",
-        "aat": "http://vocab.getty.edu/aat/",
+        **BARTOC_PREFIX,
     }
+    # Global, well-known target vocabularies (AAT/Wikidata/GND today, see
+    # NAMESPACE_SCHEME_MAP) get their CURIE prefix registered in every
+    # output file, not just the folder's own vocabulary — so subject_id/
+    # object_id compact regardless of which folder's dump the match came from.
+    for root, entry in NAMESPACE_SCHEME_MAP.items():
+        prefix_map[entry["prefix"]] = root
     namespace = config.get("source_namespace")
     if namespace:
         prefix_map[config["prefix"]] = namespace
@@ -373,11 +467,17 @@ def write_sssom(
     source_file: Path,
     graph: Graph,
 ) -> Path:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    # Cocoda-facing routing: a resolved object_scheme (explicit inScheme, or
+    # a NAMESPACE_SCHEME_MAP guess for AAT/Wikidata/GND-style external
+    # targets) keeps the file in OUTPUT_DIR as before. An unresolved one
+    # goes into unknown_target/ instead of cluttering the main folder.
+    rel_dir = "" if object_scheme else "unknown_target"
+    out_dir = OUTPUT_DIR / rel_dir if rel_dir else OUTPUT_DIR
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     filename = mapping_set_filename(folder_name, subject_scheme, object_scheme)
-    output = OUTPUT_DIR / filename
-    set_id = mapping_set_id(filename)
+    output = out_dir / filename
+    set_id = mapping_set_id(filename, rel_dir)
 
     provider, vocab_label = provider_for(folder_name, subject_scheme)
 
@@ -419,7 +519,7 @@ def write_sssom(
             fh.write(f"#mapping_provider: {provider}\n")
 
         fh.write("#mapping_tool: extract_skos_mappings_to_sssom.py\n")
-        fh.write(f"#mapping_tool_id: {GITHUB_TOOL_URL}\n")
+        fh.write(f"#mapping_tool_id: {to_curie(GITHUB_TOOL_URL, prefix_map)}\n")
 
         if subject_source:
             fh.write(
@@ -502,6 +602,8 @@ def process_folder(folder_name: str, config: dict) -> int:
         "subjects_without_inScheme": 0,
         "subjects_with_explicit_inScheme": 0,
         "file_default_scheme_used": 0,
+        "subject_scheme_from_namespace": 0,
+        "object_scheme_from_namespace": 0,
         "unknown_source_scheme": 0,
         "unknown_target_scheme": 0,
         "namespaces": defaultdict(int),
@@ -568,12 +670,35 @@ def process_folder(folder_name: str, config: dict) -> int:
             )
             object_scheme = explicit_object_schemes[0] if explicit_object_schemes else None
 
-            # IMPORTANT: no namespace inference is used for scheme assignment.
-            # We merely collect URI namespace candidates for the final report so
-            # that they can be harvested/curated later.
-            for uri in (str(subject), str(obj)):
+            # Fallback for well-known EXTERNAL targets (AAT/Wikidata/GND):
+            # these never carry a local skos:inScheme, so without this the
+            # scheme would always come out unknown. Explicit inScheme (above)
+            # always wins; this only fires when nothing else resolved it.
+            # Applied to both sides — e.g. useful if some dump matches into
+            # another external vocabulary you later add to NAMESPACE_SCHEME_MAP.
+            if not subject_scheme:
+                guessed = resolve_scheme_via_namespace(str(subject))
+                if guessed:
+                    subject_scheme = guessed
+                    report["subject_scheme_from_namespace"] += 1
+            if not object_scheme:
+                guessed = resolve_scheme_via_namespace(str(obj))
+                if guessed:
+                    object_scheme = guessed
+                    report["object_scheme_from_namespace"] += 1
+
+            # IMPORTANT: no namespace inference is used for scheme assignment
+            # beyond the curated NAMESPACE_SCHEME_MAP fallback above. We
+            # collect namespace candidates for URIs that are STILL unresolved
+            # after that fallback into a global, cross-folder tally that
+            # main() writes out as a curation list at the end — the roots
+            # that show up there are your next candidates to add to
+            # NAMESPACE_SCHEME_MAP.
+            for uri, scheme in ((str(subject), subject_scheme), (str(obj), object_scheme)):
                 namespace = namespace_candidate(uri)
                 report["namespaces"][namespace] += 1
+                if not scheme:
+                    UNRESOLVED_NAMESPACE_COUNTS[namespace] += 1
 
             subject_label = best_label(graph, subject)
             object_label = best_label(graph, obj)
@@ -651,6 +776,8 @@ def process_folder(folder_name: str, config: dict) -> int:
     print(f"Subjects with explicit inScheme: {report['subjects_with_explicit_inScheme']}")
     print(f"Subjects using file-level scheme: {report['file_default_scheme_used']}")
     print(f"Subjects without source scheme: {report['subjects_without_inScheme']}")
+    print(f"Subject scheme resolved via NAMESPACE_SCHEME_MAP guess: {report['subject_scheme_from_namespace']}")
+    print(f"Object scheme resolved via NAMESPACE_SCHEME_MAP guess: {report['object_scheme_from_namespace']}")
     print(f"Mappings with unknown source scheme: {report['unknown_source_scheme']}")
     print(f"Mappings with unknown target scheme: {report['unknown_target_scheme']}")
     print(f"Missing subject labels:         {report['labels_missing_subject']}")
@@ -664,6 +791,31 @@ def process_folder(folder_name: str, config: dict) -> int:
     return total
 
 
+def write_unresolved_namespace_report() -> Path | None:
+    """Writes the cross-folder curation list: namespace roots seen on a
+    subject/object URI whose concept scheme is still unknown after the
+    NAMESPACE_SCHEME_MAP fallback, sorted by frequency. Add the most
+    frequent ones to NAMESPACE_SCHEME_MAP, then re-run."""
+    if not UNRESOLVED_NAMESPACE_COUNTS:
+        return None
+
+    target_dir = OUTPUT_DIR / "unknown_target"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    out_path = target_dir / "_namespace_roots_to_curate.tsv"
+
+    with out_path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh, delimiter="\t", lineterminator="\n")
+        writer.writerow(["count", "namespace_root"])
+        for namespace, count in sorted(
+            UNRESOLVED_NAMESPACE_COUNTS.items(), key=lambda x: (-x[1], x[0])
+        ):
+            writer.writerow([count, namespace])
+
+    print(f"\n[curation] {len(UNRESOLVED_NAMESPACE_COUNTS)} unresolved namespace root(s) "
+          f"written to {out_path.relative_to(BASE)}")
+    return out_path
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -674,10 +826,15 @@ def main() -> None:
             continue
         grand_total += process_folder(folder_name, config)
 
+    write_unresolved_namespace_report()
+
     print(f"\nDone. Total mapping assertions written: {grand_total}")
     print(f"SSSOM output directory: {OUTPUT_DIR}")
-    print("Scheme assignment policy: explicit skos:inScheme > safe single-scheme file default > unknown")
-    print("URI namespaces in reports are heuristic candidates only and are never used as schemes.")
+    print(f"Files with an unresolved target scheme: {OUTPUT_DIR / 'unknown_target'}")
+    print("Scheme assignment policy: explicit skos:inScheme > safe single-scheme file default "
+          "> curated NAMESPACE_SCHEME_MAP guess (AAT/Wikidata/GND et al.) > unknown")
+    print("URI namespaces in reports are heuristic candidates only and are never used as schemes "
+          "unless curated into NAMESPACE_SCHEME_MAP.")
 
 
 if __name__ == "__main__":

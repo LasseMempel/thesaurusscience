@@ -1,0 +1,413 @@
+#curie_map:
+#  fish: http://purl.org/heritagedata/
+#  fish_tbm: http://purl.org/heritagedata/schemes/eh_tbm
+#  fish_com: http://purl.org/heritagedata/schemes/eh_com
+#  fish_obj: http://purl.org/heritagedata/schemes/mda_obj
+#  fish_tmc: http://purl.org/heritagedata/schemes/eh_tmc
+#  fish_tmt2: http://purl.org/heritagedata/schemes/eh_tmt2
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_eh_tmt2_aat.sssom.tsv
+#mapping_set_title: ADS Monuments → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data Service (ADS) for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04w1khd64
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: fish_tmt2:
+#object_source: aat:
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+fish_tmt2:/concepts/70120	skos:exactMatch	aat:300000642	semapv:UnspecifiedMatching	ABBEY	abbeys (monasteries)	
+fish_tmt2:/concepts/69980	skos:closeMatch	aat:300007495	semapv:UnspecifiedMatching	Abbey Church	abbey churches	
+fish_tmt2:/concepts/70116	skos:broadMatch	aat:300000786	semapv:UnspecifiedMatching	Abbey Wall	precincts	
+fish_tmt2:/concepts/68544	skos:exactMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL BUILDING	agricultural buildings	
+fish_tmt2:/concepts/103673	skos:broadMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL DWELLING	agricultural buildings	
+fish_tmt2:/concepts/91004	skos:broadMatch	aat:300004898	semapv:UnspecifiedMatching	AGRICULTURAL HALL	agricultural buildings	
+fish_tmt2:/concepts/68543	skos:broadMatch	aat:300054463	semapv:UnspecifiedMatching	AGRICULTURE AND SUBSISTENCE	agriculture	
+fish_tmt2:/concepts/68810	skos:exactMatch	aat:300007689	semapv:UnspecifiedMatching	AIR RAID SHELTER	air raid shelters	
+fish_tmt2:/concepts/70208	skos:closeMatch	aat:300212527	semapv:UnspecifiedMatching	AIRCRAFT	aircraft	
+fish_tmt2:/concepts/70209	skos:exactMatch	aat:300000679	semapv:UnspecifiedMatching	AIRFIELD	airfields	
+fish_tmt2:/concepts/140501	skos:broadMatch	aat:300000679	semapv:UnspecifiedMatching	AIRFIELD DEFENCE SITE	airfields	
+fish_tmt2:/concepts/71767	skos:broadMatch	aat:300004900	semapv:UnspecifiedMatching	AISLED BARN	barns	
+fish_tmt2:/concepts/100228	skos:broadMatch	aat:300247461	semapv:UnspecifiedMatching	AISLED BUILDING	hall houses	
+fish_tmt2:/concepts/94115	skos:closeMatch	aat:300247461	semapv:UnspecifiedMatching	AISLED HALL HOUSE	hall houses	
+fish_tmt2:/concepts/140533	skos:broadMatch	aat:300006951	semapv:UnspecifiedMatching	Alan Williams Turret	field fortifications	
+fish_tmt2:/concepts/68709	skos:exactMatch	aat:300006745	semapv:UnspecifiedMatching	ALMSHOUSE	almshouses (buildings)	
+fish_tmt2:/concepts/140084	skos:exactMatch	aat:300386968	semapv:UnspecifiedMatching	ANCHORAGE (MARITIME)	anchorages	
+fish_tmt2:/concepts/68812	skos:broadMatch	aat:300004862	semapv:UnspecifiedMatching	ANGLE TOWER	defensive towers	
+fish_tmt2:/concepts/91036	skos:closeMatch	aat:300007501	semapv:UnspecifiedMatching	ANGLICAN CATHEDRAL	cathedrals (buildings)	
+fish_tmt2:/concepts/70019	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	ANIMAL BURIAL	burials	
+fish_tmt2:/concepts/142867	skos:closeMatch	aat:300386994	semapv:UnspecifiedMatching	ANTI INVASION DEFENCE SITE	defense installations	
+fish_tmt2:/concepts/141942	skos:broadMatch	aat:300006951	semapv:UnspecifiedMatching	ANTI TANK DITCH	field fortifications	
+fish_tmt2:/concepts/140527	skos:broadMatch	aat:300036948	semapv:UnspecifiedMatching	ANTI TANK GUN EMPLACEMENT	antitank guns	
+fish_tmt2:/concepts/141949	skos:closeMatch	aat:300006914	semapv:UnspecifiedMatching	ANTI TANK OBSTACLE	stockades	
+fish_tmt2:/concepts/70432	skos:exactMatch	aat:300006165	semapv:UnspecifiedMatching	AQUEDUCT	aqueducts	
+fish_tmt2:/concepts/102912	skos:broadMatch	aat:300000810	semapv:UnspecifiedMatching	ARCHAEOLOGICAL FEATURE	archaeological sites	
+fish_tmt2:/concepts/69498	skos:broadMatch	aat:300000885	semapv:UnspecifiedMatching	ARCHITECTURAL FRAGMENT	architectural elements	
+fish_tmt2:/concepts/71798	skos:exactMatch	aat:300164117	semapv:UnspecifiedMatching	ARMY CAMP	army camps	
+fish_tmt2:/concepts/86499	skos:broadMatch	aat:300117127	semapv:UnspecifiedMatching	ARTEFACT SCATTER	artifacts (object genre)	
+fish_tmt2:/concepts/70153	skos:broadMatch	aat:300000641	semapv:UnspecifiedMatching	AUGUSTINIAN MONASTERY	monasteries (built complexes)	
+fish_tmt2:/concepts/68923	skos:exactMatch	aat:300266040	semapv:UnspecifiedMatching	BAKEHOUSE	bakehouses	
+fish_tmt2:/concepts/69009	skos:exactMatch	aat:300006791	semapv:UnspecifiedMatching	BANDSTAND	bandstands	
+fish_tmt2:/concepts/68979	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	BANJO ENCLOSURE	corrals	
+fish_tmt2:/concepts/91126	skos:closeMatch	aat:300008020	semapv:UnspecifiedMatching	BANK (EARTHWORK)	earthworks (engineering works)	
+fish_tmt2:/concepts/68916	skos:closeMatch	aat:300005080	semapv:UnspecifiedMatching	Bar	city gates	
+fish_tmt2:/concepts/145080	skos:exactMatch	aat:300005158	semapv:UnspecifiedMatching	BAR (LICENCED)	bars (commercial buildings)	
+fish_tmt2:/concepts/97262	skos:broadMatch	aat:300011064	semapv:UnspecifiedMatching	BARBED WIRE OBSTRUCTION	barbed wire	
+fish_tmt2:/concepts/68547	skos:exactMatch	aat:300004900	semapv:UnspecifiedMatching	BARN	barns	
+fish_tmt2:/concepts/68821	skos:exactMatch	aat:300005665	semapv:UnspecifiedMatching	BARRACKS	barracks	
+fish_tmt2:/concepts/70000	skos:exactMatch	aat:300391494	semapv:UnspecifiedMatching	BARROW	barrows	
+fish_tmt2:/concepts/70054	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BARROW CEMETERY	barrows	
+fish_tmt2:/concepts/68678	skos:broadMatch	aat:300008059	semapv:UnspecifiedMatching	BASILICA	public buildings	
+fish_tmt2:/concepts/70433	skos:closeMatch	aat:300007353	semapv:UnspecifiedMatching	BATH HOUSE	public baths	
+fish_tmt2:/concepts/68712	skos:exactMatch	aat:300007353	semapv:UnspecifiedMatching	BATHS	public baths	
+fish_tmt2:/concepts/68824	skos:exactMatch	aat:300002501	semapv:UnspecifiedMatching	BATTERY	batteries (platforms)	
+fish_tmt2:/concepts/68758	skos:exactMatch	aat:300000835	semapv:UnspecifiedMatching	BATTLEFIELD	battlefields	
+fish_tmt2:/concepts/91156	skos:broadMatch	aat:300005588	semapv:UnspecifiedMatching	BEACH HUT	beach houses	
+fish_tmt2:/concepts/68827	skos:closeMatch	aat:300007739	semapv:UnspecifiedMatching	BEACON	beacons	
+fish_tmt2:/concepts/70018	skos:closeMatch	aat:300263485	semapv:UnspecifiedMatching	Beaker Burial	burials	
+fish_tmt2:/concepts/70310	skos:broadMatch	aat:300001497	semapv:UnspecifiedMatching	BEAM SLOT	beams (structural elements)	
+fish_tmt2:/concepts/146404	skos:exactMatch	aat:300004760	semapv:UnspecifiedMatching	BEER CELLAR	beer cellars	
+fish_tmt2:/concepts/69965	skos:exactMatch	aat:300137347	semapv:UnspecifiedMatching	Belfry	belfries (equipment spaces)	
+fish_tmt2:/concepts/70011	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BELL BARROW	barrows	
+fish_tmt2:/concepts/69103	skos:broadMatch	aat:300266773	semapv:UnspecifiedMatching	BELL PIT	foundries	
+fish_tmt2:/concepts/69591	skos:exactMatch	aat:300038494	semapv:UnspecifiedMatching	BENCH	benches (furniture)	
+fish_tmt2:/concepts/69180	skos:exactMatch	aat:300379639	semapv:UnspecifiedMatching	BLOOMERY	bloomeries	
+fish_tmt2:/concepts/127133	skos:closeMatch	aat:300387501	semapv:UnspecifiedMatching	BOAT SHED	boatyards	
+fish_tmt2:/concepts/125633	skos:broadMatch	aat:300000385	semapv:UnspecifiedMatching	BONE WORKING SITE	industrial complexes	
+fish_tmt2:/concepts/118873	skos:broadMatch	aat:300048803	semapv:UnspecifiedMatching	Boom Defence	coastal fortifications	
+fish_tmt2:/concepts/68924	skos:closeMatch	aat:300005677	semapv:UnspecifiedMatching	BOTHY	bothies	
+fish_tmt2:/concepts/70323	skos:exactMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY	boundaries	
+fish_tmt2:/concepts/70324	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY BANK	boundaries	
+fish_tmt2:/concepts/70326	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	BOUNDARY DITCH	boundaries	
+fish_tmt2:/concepts/70332	skos:exactMatch	aat:300100558	semapv:UnspecifiedMatching	BOUNDARY WALL	boundary walls	
+fish_tmt2:/concepts/70012	skos:broadMatch	aat:300391494	semapv:UnspecifiedMatching	BOWL BARROW	barrows	
+fish_tmt2:/concepts/68829	skos:exactMatch	aat:300002487	semapv:UnspecifiedMatching	BREASTWORK	breastworks	
+fish_tmt2:/concepts/69053	skos:exactMatch	aat:300022989	semapv:UnspecifiedMatching	BRICK KILN	brick kilns	
+fish_tmt2:/concepts/69055	skos:exactMatch	aat:300006278	semapv:UnspecifiedMatching	BRICKWORKS	brickworks (factories)	
+fish_tmt2:/concepts/70214	skos:exactMatch	aat:300007836	semapv:UnspecifiedMatching	BRIDGE	bridges (built works)	
+fish_tmt2:/concepts/143003	skos:exactMatch	aat:300004863	semapv:UnspecifiedMatching	BROCH	brochs	
+fish_tmt2:/concepts/70336	skos:exactMatch	aat:300004792	semapv:UnspecifiedMatching	BUILDING	buildings (structures)	
+fish_tmt2:/concepts/70337	skos:broadMatch	aat:300132129	semapv:UnspecifiedMatching	BUILDING PLATFORM	platforms (floors)	
+fish_tmt2:/concepts/127993	skos:broadMatch	aat:300055399	semapv:UnspecifiedMatching	BURGAGE PLOT	land use	
+fish_tmt2:/concepts/68679	skos:broadMatch	aat:300387238	semapv:UnspecifiedMatching	BURH	fortified settlements	
+fish_tmt2:/concepts/70018	skos:exactMatch	aat:300263485	semapv:UnspecifiedMatching	BURIAL	burials	
+fish_tmt2:/concepts/70044	skos:exactMatch	aat:300006960	semapv:UnspecifiedMatching	BURIAL CAIRN	cairns	
+fish_tmt2:/concepts/70044	skos:exactMatch	aat:300005903	semapv:UnspecifiedMatching	Burial Mound	burial mounds	
+fish_tmt2:/concepts/70000	skos:exactMatch	aat:300005903	semapv:UnspecifiedMatching	Burial Mound	burial mounds	
+fish_tmt2:/concepts/70038	skos:closeMatch	aat:300387004	semapv:UnspecifiedMatching	BURIAL PIT	burial sites	
+fish_tmt2:/concepts/142968	skos:broadMatch	aat:300014330	semapv:UnspecifiedMatching	BURIED LAND SURFACE	soil	
+fish_tmt2:/concepts/140223	skos:broadMatch	aat:300014330	semapv:UnspecifiedMatching	BURIED SOIL HORIZON	soil	
+fish_tmt2:/concepts/68925	skos:exactMatch	aat:300375754	semapv:UnspecifiedMatching	BURNT MOUND	burnt mounds	
+fish_tmt2:/concepts/143179	skos:broadMatch	aat:300379670	semapv:UnspecifiedMatching	BUTCHERY SITE	butchering	
+fish_tmt2:/concepts/91656	skos:closeMatch	aat:300265627	semapv:UnspecifiedMatching	Byre	cow houses	
+fish_tmt2:/concepts/68781	skos:closeMatch	aat:300004342	semapv:UnspecifiedMatching	CAFE	cafeterias (eating and drinking spaces)	
+fish_tmt2:/concepts/68612	skos:exactMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRN	cairns	
+fish_tmt2:/concepts/70055	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRN CEMETERY	cairns	
+fish_tmt2:/concepts/68614	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CAIRNFIELD	cairns	
+fish_tmt2:/concepts/159207	skos:exactMatch	aat:300000819	semapv:UnspecifiedMatching	CAMPSITE	camp sites (recreation spaces)	
+fish_tmt2:/concepts/70288	skos:exactMatch	aat:300006075	semapv:UnspecifiedMatching	CANAL	canals (waterways)	
+fish_tmt2:/concepts/70290	skos:broadMatch	aat:300006075	semapv:UnspecifiedMatching	CANAL BASIN	canals (waterways)	
+fish_tmt2:/concepts/70215	skos:broadMatch	aat:300007836	semapv:UnspecifiedMatching	CANAL BRIDGE	bridges (built works)	
+fish_tmt2:/concepts/71379	skos:exactMatch	aat:300312219	semapv:UnspecifiedMatching	CANTEEN	canteens (eating and recreation spaces)	
+fish_tmt2:/concepts/143165	skos:closeMatch	aat:300000534	semapv:UnspecifiedMatching	CARAVAN PARK	trailer camps	
+fish_tmt2:/concepts/70347	skos:broadMatch	aat:300047203	semapv:UnspecifiedMatching	CARVED STONE	carvings (visual works)	
+fish_tmt2:/concepts/70347	skos:broadMatch	aat:300047203	semapv:UnspecifiedMatching	CARVED STONE	carvings (visual works)	
+fish_tmt2:/concepts/70348	skos:exactMatch	aat:300047203	semapv:UnspecifiedMatching	CARVING	carvings (visual works)	
+fish_tmt2:/concepts/68833	skos:exactMatch	aat:300006891	semapv:UnspecifiedMatching	CASTLE	castles (fortifications)	
+fish_tmt2:/concepts/69975	skos:exactMatch	aat:300007501	semapv:UnspecifiedMatching	CATHEDRAL	cathedrals (buildings)	
+fish_tmt2:/concepts/69977	skos:closeMatch	aat:300387001	semapv:UnspecifiedMatching	CATHEDRAL PRECINCT	holy precincts	
+fish_tmt2:/concepts/70272	skos:exactMatch	aat:300008231	semapv:UnspecifiedMatching	CAUSEWAY	causeways	
+fish_tmt2:/concepts/69978	skos:broadMatch	aat:300263489	semapv:UnspecifiedMatching	CAUSEWAYED ENCLOSURE	ceremonial structures	
+fish_tmt2:/concepts/70384	skos:exactMatch	aat:300008746	semapv:UnspecifiedMatching	CAVE	caves	
+fish_tmt2:/concepts/70384	skos:closeMatch	aat:300048808	semapv:UnspecifiedMatching	Cave Site	cave dwellings	
+fish_tmt2:/concepts/70341	skos:exactMatch	aat:300004759	semapv:UnspecifiedMatching	CELLAR	cellars (storerooms)	
+fish_tmt2:/concepts/70053	skos:exactMatch	aat:300266755	semapv:UnspecifiedMatching	CEMETERY	cemeteries	
+fish_tmt2:/concepts/68759	skos:exactMatch	aat:300007027	semapv:UnspecifiedMatching	CENOTAPH	cenotaphs	
+fish_tmt2:/concepts/68760	skos:broadMatch	aat:300006961	semapv:UnspecifiedMatching	CENTURIAL STONE	markers (monuments)	
+fish_tmt2:/concepts/70434	skos:closeMatch	aat:300052556	semapv:UnspecifiedMatching	CESS PIT	cesspools	
+fish_tmt2:/concepts/69058	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	CHALK PIT	quarries (extracting complexes)	
+fish_tmt2:/concepts/70045	skos:broadMatch	aat:300005935	semapv:UnspecifiedMatching	CHAMBERED CAIRN	chamber tombs	
+fish_tmt2:/concepts/70064	skos:closeMatch	aat:300005935	semapv:UnspecifiedMatching	CHAMBERED TOMB	chamber tombs	
+fish_tmt2:/concepts/69967	skos:exactMatch	aat:300004590	semapv:UnspecifiedMatching	CHAPEL	chapels (rooms or structures)	
+fish_tmt2:/concepts/69974	skos:exactMatch	aat:300007418	semapv:UnspecifiedMatching	CHAPTER HOUSE	chapter houses	
+fish_tmt2:/concepts/91432	skos:broadMatch	aat:300164121	semapv:UnspecifiedMatching	CHARCOAL PRODUCTION SITE	processing plants	
+fish_tmt2:/concepts/70026	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	Chariot Burial	burials	
+fish_tmt2:/concepts/69980	skos:relatedMatch	aat:300007466	semapv:UnspecifiedMatching	CHURCH	churches (buildings)	
+fish_tmt2:/concepts/70061	skos:exactMatch	aat:300008170	semapv:UnspecifiedMatching	CHURCHYARD	churchyards	
+fish_tmt2:/concepts/70029	skos:closeMatch	aat:300124808	semapv:UnspecifiedMatching	CINERARY URN	cremation urns	
+fish_tmt2:/concepts/70356	skos:broadMatch	aat:300004983	semapv:UnspecifiedMatching	CIRCULAR ENCLOSURE	corrals	
+fish_tmt2:/concepts/70071	skos:exactMatch	aat:300005941	semapv:UnspecifiedMatching	CIST	cist graves	
+fish_tmt2:/concepts/70062	skos:closeMatch	aat:300005941	semapv:UnspecifiedMatching	CIST GRAVE CEMETERY	cist graves	
+fish_tmt2:/concepts/70435	skos:exactMatch	aat:300052558	semapv:UnspecifiedMatching	CISTERN	cisterns (plumbing components)	
+fish_tmt2:/concepts/68915	skos:broadMatch	aat:300005072	semapv:UnspecifiedMatching	City Defences	city walls	
+fish_tmt2:/concepts/91489	skos:exactMatch	aat:300000701	semapv:UnspecifiedMatching	CIVIC CENTRE	civic centres	
+fish_tmt2:/concepts/68675	skos:closeMatch	aat:300008059	semapv:UnspecifiedMatching	CIVIL	public buildings	
+fish_tmt2:/concepts/91495	skos:broadMatch	aat:300000390	semapv:UnspecifiedMatching	CLAY EXTRACTION SITE	mines (extracting complexes)	
+fish_tmt2:/concepts/69086	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	CLAY PIPE KILN	kilns	
+fish_tmt2:/concepts/68613	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	CLEARANCE CAIRN	cairns	
+fish_tmt2:/concepts/70342	skos:exactMatch	aat:300007423	semapv:UnspecifiedMatching	CLOISTER	cloisters	
+fish_tmt2:/concepts/70129	skos:broadMatch	aat:300004026	semapv:UnspecifiedMatching	CLUNIAC CELL	cells (interior spaces)	
+fish_tmt2:/concepts/70158	skos:broadMatch	aat:300000641	semapv:UnspecifiedMatching	CLUNIAC MONASTERY	monasteries (built complexes)	
+fish_tmt2:/concepts/70177	skos:broadMatch	aat:300000645	semapv:UnspecifiedMatching	Cluniac Priory	priories	
+fish_tmt2:/concepts/91536	skos:closeMatch	aat:300000396	semapv:UnspecifiedMatching	COAL MINING SITE	coal mines	
+fish_tmt2:/concepts/69104	skos:closeMatch	aat:300380157	semapv:UnspecifiedMatching	COAL WORKINGS	colliers	
+fish_tmt2:/concepts/71817	skos:broadMatch	aat:300048803	semapv:UnspecifiedMatching	COASTAL BATTERY	coastal fortifications	
+fish_tmt2:/concepts/87145	skos:broadMatch	aat:300065054	semapv:UnspecifiedMatching	Coastal Battery Observation Post	observation decks	
+fish_tmt2:/concepts/94351	skos:closeMatch	aat:300048803	semapv:UnspecifiedMatching	COASTAL DEFENCE SITE	coastal fortifications	
+fish_tmt2:/concepts/68880	skos:closeMatch	aat:300006894	semapv:UnspecifiedMatching	Coastal Fort	fortresses	
+fish_tmt2:/concepts/91548	skos:closeMatch	aat:300007831	semapv:UnspecifiedMatching	COASTGUARD TOWER	coastguard stations	
+fish_tmt2:/concepts/78156	skos:broadMatch	aat:300053677	semapv:UnspecifiedMatching	Cobbled Surface	paving	
+fish_tmt2:/concepts/70074	skos:exactMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN	coffins	
+fish_tmt2:/concepts/69985	skos:broadMatch	aat:300197585	semapv:UnspecifiedMatching	COFFIN STONE	coffins	
+fish_tmt2:/concepts/68695	skos:exactMatch	aat:300312285	semapv:UnspecifiedMatching	COLLEGE	colleges (institutions)	
+fish_tmt2:/concepts/70720	skos:exactMatch	aat:300266759	semapv:UnspecifiedMatching	COLLIERY	collieries	
+fish_tmt2:/concepts/70311	skos:closeMatch	aat:300001571	semapv:UnspecifiedMatching	COLUMN	columns (architectural elements)	
+fish_tmt2:/concepts/68757	skos:closeMatch	aat:300006956	semapv:UnspecifiedMatching	COMMEMORATIVE	memorials (structures)	
+fish_tmt2:/concepts/68765	skos:exactMatch	aat:300006956	semapv:UnspecifiedMatching	COMMEMORATIVE MONUMENT	memorials (structures)	
+fish_tmt2:/concepts/68777	skos:closeMatch	aat:300132652	semapv:UnspecifiedMatching	COMMERCIAL	commercial complexes	
+fish_tmt2:/concepts/68615	skos:exactMatch	aat:300008666	semapv:UnspecifiedMatching	Common	common land (cultural landscape)	
+fish_tmt2:/concepts/71344	skos:closeMatch	aat:300122187	semapv:UnspecifiedMatching	COMMUNICATIONS	communications structures	
+fish_tmt2:/concepts/91593	skos:exactMatch	aat:300008144	semapv:UnspecifiedMatching	COMMUNITY GARDEN	community gardens	
+fish_tmt2:/concepts/91618	skos:closeMatch	aat:300375754	semapv:UnspecifiedMatching	COOKING PIT	burnt mounds	
+fish_tmt2:/concepts/69271	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Copper Smelting Works	smelters (metalworking plants)	
+fish_tmt2:/concepts/69219	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	COPPER WORKING SITE	smelters (metalworking plants)	
+fish_tmt2:/concepts/70741	skos:broadMatch	aat:300132451	semapv:UnspecifiedMatching	COPPICE	woods (plant communities)	
+fish_tmt2:/concepts/70741	skos:broadMatch	aat:300132451	semapv:UnspecifiedMatching	Copse	woods (plant communities)	
+fish_tmt2:/concepts/68580	skos:closeMatch	aat:300209521	semapv:UnspecifiedMatching	Corn Drier	corn dryers	
+fish_tmt2:/concepts/68579	skos:closeMatch	aat:300209521	semapv:UnspecifiedMatching	CORN DRYING KILN	corn dryers	
+fish_tmt2:/concepts/68580	skos:closeMatch	aat:300003650	semapv:UnspecifiedMatching	CORN DRYING OVEN	ovens (baking equipment)	
+fish_tmt2:/concepts/71509	skos:closeMatch	aat:300000323	semapv:UnspecifiedMatching	COUNCIL HOUSE	public housing	
+fish_tmt2:/concepts/70430	skos:exactMatch	aat:300004095	semapv:UnspecifiedMatching	COURTYARD	courtyards	
+fish_tmt2:/concepts/78149	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	COVE	megalithic monuments	
+fish_tmt2:/concepts/91656	skos:exactMatch	aat:300265627	semapv:UnspecifiedMatching	COW HOUSE	cow houses	
+fish_tmt2:/concepts/91658	skos:broadMatch	aat:300000816	semapv:UnspecifiedMatching	CRAFT INDUSTRY SITE	industrial sites	
+fish_tmt2:/concepts/70028	skos:closeMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION	cremations	
+fish_tmt2:/concepts/142070	skos:closeMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION BURIAL	cremations	
+fish_tmt2:/concepts/70056	skos:closeMatch	aat:300005871	semapv:UnspecifiedMatching	CREMATION CEMETERY	crematoria	
+fish_tmt2:/concepts/70040	skos:broadMatch	aat:300266356	semapv:UnspecifiedMatching	CREMATION PIT	cremations	
+fish_tmt2:/concepts/68617	skos:closeMatch	aat:300000211	semapv:UnspecifiedMatching	CROFT	small holdings	
+fish_tmt2:/concepts/70412	skos:closeMatch	aat:300248611	semapv:UnspecifiedMatching	Crop Mark	crop marks	
+fish_tmt2:/concepts/91673	skos:broadMatch	aat:300005433	semapv:UnspecifiedMatching	CROSS PASSAGE HOUSE	houses	
+fish_tmt2:/concepts/70082	skos:closeMatch	aat:300391173	semapv:UnspecifiedMatching	CROSS SLAB	grave crosses	
+fish_tmt2:/concepts/70033	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	CROUCHED INHUMATION	burials	
+fish_tmt2:/concepts/91680	skos:closeMatch	aat:300001846	semapv:UnspecifiedMatching	CRUCK HOUSE	crucks	
+fish_tmt2:/concepts/70079	skos:closeMatch	aat:300004618	semapv:UnspecifiedMatching	CRYPT	crypts	
+fish_tmt2:/concepts/68618	skos:broadMatch	aat:300132443	semapv:UnspecifiedMatching	CULTIVATION MARKS	cropland	
+fish_tmt2:/concepts/70439	skos:exactMatch	aat:300006116	semapv:UnspecifiedMatching	CULVERT	culverts	
+fish_tmt2:/concepts/69995	skos:broadMatch	aat:300080131	semapv:UnspecifiedMatching	CUP AND RING MARKED STONE	rock carvings	
+fish_tmt2:/concepts/69996	skos:broadMatch	aat:300080131	semapv:UnspecifiedMatching	CUP MARKED STONE	rock carvings	
+fish_tmt2:/concepts/69997	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	CURSUS	megalithic monuments	
+fish_tmt2:/concepts/71391	skos:exactMatch	aat:300002504	semapv:UnspecifiedMatching	CURTAIN WALL	curtain walls (fortification elements)	
+fish_tmt2:/concepts/70355	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	CURVILINEAR ENCLOSURE	agricultural settlements	
+fish_tmt2:/concepts/68557	skos:closeMatch	aat:300083012	semapv:UnspecifiedMatching	DAIRY	dairies (non- mechanized)	
+fish_tmt2:/concepts/70440	skos:exactMatch	aat:300006084	semapv:UnspecifiedMatching	DAM	dams (hydraulic structures)	
+fish_tmt2:/concepts/68589	skos:closeMatch	aat:300254248	semapv:UnspecifiedMatching	DEER PARK	parks (grounds)	
+fish_tmt2:/concepts/68808	skos:closeMatch	aat:300386994	semapv:UnspecifiedMatching	DEFENCE	defense installations	
+fish_tmt2:/concepts/97280	skos:closeMatch	aat:300167671	semapv:UnspecifiedMatching	DESERTED SETTLEMENT	deserted settlements	
+fish_tmt2:/concepts/70351	skos:exactMatch	aat:300006178	semapv:UnspecifiedMatching	DITCH	ditches	
+fish_tmt2:/concepts/70361	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	DITCHED ENCLOSURE	agricultural settlements	
+fish_tmt2:/concepts/91736	skos:broadMatch	aat:300120801	semapv:UnspecifiedMatching	DOCK AND HARBOUR INSTALLATION	docks	
+fish_tmt2:/concepts/68921	skos:broadMatch	aat:300257729	semapv:UnspecifiedMatching	DOMESTIC	residential structures	
+fish_tmt2:/concepts/143471	skos:broadMatch	aat:300005425	semapv:UnspecifiedMatching	DOMESTIC SITE	dwellings	
+fish_tmt2:/concepts/129049	skos:closeMatch	aat:300004531	semapv:UnspecifiedMatching	DOMESTIC WORKSHOP	workshops (work spaces)	
+fish_tmt2:/concepts/71617	skos:closeMatch	aat:300005668	semapv:UnspecifiedMatching	DORMITORY	dormitories (buildings)	
+fish_tmt2:/concepts/70362	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	DOUBLE DITCHED ENCLOSURE	agricultural settlements	
+fish_tmt2:/concepts/68558	skos:exactMatch	aat:300004975	semapv:UnspecifiedMatching	DOVECOTE	dovecotes	
+fish_tmt2:/concepts/70441	skos:exactMatch	aat:300052564	semapv:UnspecifiedMatching	DRAIN	drains	
+fish_tmt2:/concepts/70442	skos:closeMatch	aat:300008620	semapv:UnspecifiedMatching	DRAINAGE DITCH	drainage systems	
+fish_tmt2:/concepts/70443	skos:exactMatch	aat:300008620	semapv:UnspecifiedMatching	DRAINAGE SYSTEM	drainage systems	
+fish_tmt2:/concepts/71827	skos:broadMatch	aat:300003650	semapv:UnspecifiedMatching	Drying Oven	ovens (baking equipment)	
+fish_tmt2:/concepts/70815	skos:exactMatch	aat:300005425	semapv:UnspecifiedMatching	DWELLING	dwellings	
+fish_tmt2:/concepts/91817	skos:broadMatch	aat:300002485	semapv:UnspecifiedMatching	DYKE (DEFENCE)	defensive walls	
+fish_tmt2:/concepts/70352	skos:exactMatch	aat:300008020	semapv:UnspecifiedMatching	EARTHWORK	earthworks (engineering works)	
+fish_tmt2:/concepts/91825	skos:broadMatch	aat:300005147	semapv:UnspecifiedMatching	EATING AND DRINKING ESTABLISHMENT	commercial buildings	
+fish_tmt2:/concepts/68693	skos:broadMatch	aat:300264742	semapv:UnspecifiedMatching	EDUCATION	educational centres (buildings)	
+fish_tmt2:/concepts/68803	skos:closeMatch	aat:300005283	semapv:UnspecifiedMatching	Emporium	shops (stores)	
+fish_tmt2:/concepts/68981	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	ENCLOSED HUT CIRCLE SETTLEMENT	huts (houses)	
+fish_tmt2:/concepts/68745	skos:closeMatch	aat:300008396	semapv:UnspecifiedMatching	ENCLOSED OPPIDUM	oppida	
+fish_tmt2:/concepts/68854	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	ENCLOSED SETTLEMENT	agricultural settlements	
+fish_tmt2:/concepts/70354	skos:broadMatch	aat:300008420	semapv:UnspecifiedMatching	ENCLOSURE	agricultural settlements	
+fish_tmt2:/concepts/69362	skos:broadMatch	aat:300006366	semapv:UnspecifiedMatching	ENGINE HOUSE	powerhouses	
+fish_tmt2:/concepts/70237	skos:broadMatch	aat:300120696	semapv:UnspecifiedMatching	ENGINE SHED	railway buildings	
+fish_tmt2:/concepts/70065	skos:closeMatch	aat:300005935	semapv:UnspecifiedMatching	ENTRANCE GRAVE	chamber tombs	
+fish_tmt2:/concepts/91867	skos:closeMatch	aat:300005567	semapv:UnspecifiedMatching	ESTATE BUILDING	country houses	
+fish_tmt2:/concepts/69101	skos:broadMatch	aat:300000390	semapv:UnspecifiedMatching	EXTRACTIVE PIT	mines (extracting complexes)	
+fish_tmt2:/concepts/91904	skos:closeMatch	aat:300007733	semapv:UnspecifiedMatching	FACTORY UNIT	workshop buildings	
+fish_tmt2:/concepts/100198	skos:exactMatch	aat:300007313	semapv:UnspecifiedMatching	FAIRGROUND RIDE	amusement rides	
+fish_tmt2:/concepts/68621	skos:exactMatch	aat:300000206	semapv:UnspecifiedMatching	FARM	farms	
+fish_tmt2:/concepts/70851	skos:closeMatch	aat:300004898	semapv:UnspecifiedMatching	FARM BUILDING	agricultural buildings	
+fish_tmt2:/concepts/68560	skos:exactMatch	aat:300005574	semapv:UnspecifiedMatching	FARMHOUSE	farmhouses	
+fish_tmt2:/concepts/68622	skos:broadMatch	aat:300000206	semapv:UnspecifiedMatching	FARMSTEAD	farms	
+fish_tmt2:/concepts/68582	skos:exactMatch	aat:300000226	semapv:UnspecifiedMatching	FARMYARD	farmyards	
+fish_tmt2:/concepts/78156	skos:broadMatch	aat:300387105	semapv:UnspecifiedMatching	FEATURE	physical features	
+fish_tmt2:/concepts/70333	skos:exactMatch	aat:300005044	semapv:UnspecifiedMatching	FENCE	fences (site elements)	
+fish_tmt2:/concepts/91922	skos:exactMatch	aat:300259220	semapv:UnspecifiedMatching	FERNERY (GLASSHOUSE)	ferneries (greenhouses)	
+fish_tmt2:/concepts/68623	skos:closeMatch	aat:300343519	semapv:UnspecifiedMatching	FIELD	fields (land)	
+fish_tmt2:/concepts/68625	skos:broadMatch	aat:300055590	semapv:UnspecifiedMatching	FIELD BOUNDARY	boundaries	
+fish_tmt2:/concepts/91930	skos:closeMatch	aat:300052564	semapv:UnspecifiedMatching	FIELD DRAIN	drains	
+fish_tmt2:/concepts/91930	skos:closeMatch	aat:300052564	semapv:UnspecifiedMatching	FIELD DRAIN	drains	
+fish_tmt2:/concepts/68633	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	FIELD SYSTEM	agricultural land	
+fish_tmt2:/concepts/68633	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	FIELD SYSTEM	agricultural land	
+fish_tmt2:/concepts/68866	skos:closeMatch	aat:300006951	semapv:UnspecifiedMatching	FIELDWORK	field fortifications	
+fish_tmt2:/concepts/151890	skos:exactMatch	aat:300375112	semapv:UnspecifiedMatching	FIRE PIT	firepits	
+fish_tmt2:/concepts/71726	skos:closeMatch	aat:300000228	semapv:UnspecifiedMatching	FISH FARM	fish hatcheries	
+fish_tmt2:/concepts/69127	skos:closeMatch	aat:300006348	semapv:UnspecifiedMatching	FISH PROCESSING SITE	fisheries	
+fish_tmt2:/concepts/68595	skos:broadMatch	aat:300247420	semapv:UnspecifiedMatching	FISH TRAP	traps (trapping equipment)	
+fish_tmt2:/concepts/68596	skos:broadMatch	aat:300387251	semapv:UnspecifiedMatching	FISH WEIR	fishing spots (sites)	
+fish_tmt2:/concepts/91955	skos:broadMatch	aat:300387251	semapv:UnspecifiedMatching	FISHING SITE	fishing spots (sites)	
+fish_tmt2:/concepts/68600	skos:exactMatch	aat:300008689	semapv:UnspecifiedMatching	FISHPOND	fishponds	
+fish_tmt2:/concepts/70035	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	FLEXED INHUMATION	burials	
+fish_tmt2:/concepts/70369	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	FLINT SCATTER	lithics	
+fish_tmt2:/concepts/70313	skos:exactMatch	aat:300002060	semapv:UnspecifiedMatching	FLOOR	floors (surface elements)	
+fish_tmt2:/concepts/82817	skos:exactMatch	aat:300008135	semapv:UnspecifiedMatching	FLOWER GARDEN	flower gardens	
+fish_tmt2:/concepts/68996	skos:exactMatch	aat:300005660	semapv:UnspecifiedMatching	FOGOU	fogous	
+fish_tmt2:/concepts/69013	skos:exactMatch	aat:300006795	semapv:UnspecifiedMatching	FOLLY	follies (architectural)	
+fish_tmt2:/concepts/91991	skos:broadMatch	aat:300006335	semapv:UnspecifiedMatching	FOOD AND DRINK INDUSTRY SITE	food processing plants	
+fish_tmt2:/concepts/91995	skos:broadMatch	aat:300006335	semapv:UnspecifiedMatching	FOOD PRESERVING SITE	food processing plants	
+fish_tmt2:/concepts/143482	skos:closeMatch	aat:300008863	semapv:UnspecifiedMatching	FOREST	forests (cultural landscapes)	
+fish_tmt2:/concepts/69017	skos:exactMatch	aat:300008092	semapv:UnspecifiedMatching	FORMAL GARDEN	formal gardens	
+fish_tmt2:/concepts/68868	skos:exactMatch	aat:300006909	semapv:UnspecifiedMatching	FORT	forts	
+fish_tmt2:/concepts/68874	skos:exactMatch	aat:300006888	semapv:UnspecifiedMatching	FORTIFICATION	fortifications	
+fish_tmt2:/concepts/147241	skos:closeMatch	aat:300387238	semapv:UnspecifiedMatching	FORTIFIED BUILDING	fortified settlements	
+fish_tmt2:/concepts/68875	skos:closeMatch	aat:300005546	semapv:UnspecifiedMatching	FORTIFIED HOUSE	bastle houses	
+fish_tmt2:/concepts/68880	skos:exactMatch	aat:300006894	semapv:UnspecifiedMatching	FORTRESS	fortresses	
+fish_tmt2:/concepts/68705	skos:exactMatch	aat:300008085	semapv:UnspecifiedMatching	FORUM	forums (open spaces)	
+fish_tmt2:/concepts/70336	skos:closeMatch	aat:300000919	semapv:UnspecifiedMatching	Foundation	foundations (structural elements)	
+fish_tmt2:/concepts/69014	skos:exactMatch	aat:300006179	semapv:UnspecifiedMatching	FOUNTAIN	fountains	
+fish_tmt2:/concepts/68882	skos:broadMatch	aat:300387507	semapv:UnspecifiedMatching	FRONTIER DEFENCE	frontiers	
+fish_tmt2:/concepts/69999	skos:closeMatch	aat:300387004	semapv:UnspecifiedMatching	FUNERARY SITE	burial sites	
+fish_tmt2:/concepts/69175	skos:exactMatch	aat:300024650	semapv:UnspecifiedMatching	FURNACE	furnaces (heating components)	
+fish_tmt2:/concepts/92062	skos:broadMatch	aat:300007206	semapv:UnspecifiedMatching	GAMBLING SITE	entertainment buildings	
+fish_tmt2:/concepts/68641	skos:exactMatch	aat:300008090	semapv:UnspecifiedMatching	GARDEN	gardens (open spaces)	
+fish_tmt2:/concepts/99961	skos:broadMatch	aat:300008187	semapv:UnspecifiedMatching	GARDENS PARKS AND URBAN SPACES	parks (recreation areas)	
+fish_tmt2:/concepts/68971	skos:closeMatch	aat:300005621	semapv:UnspecifiedMatching	GATE LODGE	gatehouses	
+fish_tmt2:/concepts/70372	skos:exactMatch	aat:300005621	semapv:UnspecifiedMatching	GATEHOUSE	gatehouses	
+fish_tmt2:/concepts/70386	skos:broadMatch	aat:300387100	semapv:UnspecifiedMatching	GEOLOGICAL MARKS	geological formations	
+fish_tmt2:/concepts/69090	skos:broadMatch	aat:300053929	semapv:UnspecifiedMatching	GLASS WORKING SITE	glassworking	
+fish_tmt2:/concepts/70238	skos:broadMatch	aat:300006411	semapv:UnspecifiedMatching	GOODS SHED	sheds (storage structures)	
+fish_tmt2:/concepts/70373	skos:exactMatch	aat:300015613	semapv:UnspecifiedMatching	GRAFFITI	graffiti	
+fish_tmt2:/concepts/70080	skos:exactMatch	aat:300005907	semapv:UnspecifiedMatching	GRAVE	graves	
+fish_tmt2:/concepts/152525	skos:broadMatch	aat:300005907	semapv:UnspecifiedMatching	GRAVE LINING	graves	
+fish_tmt2:/concepts/103572	skos:exactMatch	aat:300005923	semapv:UnspecifiedMatching	GRAVE MARKER	tombstones (sepulchral monuments)	
+fish_tmt2:/concepts/70081	skos:closeMatch	aat:300005923	semapv:UnspecifiedMatching	GRAVE SLAB	tombstones (sepulchral monuments)	
+fish_tmt2:/concepts/69062	skos:exactMatch	aat:300000389	semapv:UnspecifiedMatching	GRAVEL PIT	gravel pits	
+fish_tmt2:/concepts/68946	skos:closeMatch	aat:300005567	semapv:UnspecifiedMatching	GREAT HOUSE	country houses	
+fish_tmt2:/concepts/68927	skos:exactMatch	aat:300137527	semapv:UnspecifiedMatching	GRUBENHAUS	sunken huts	
+fish_tmt2:/concepts/68885	skos:exactMatch	aat:300006941	semapv:UnspecifiedMatching	GUARDHOUSE	guardhouses	
+fish_tmt2:/concepts/71658	skos:broadMatch	aat:300004590	semapv:UnspecifiedMatching	GUILD CHAPEL	chapels (rooms or structures)	
+fish_tmt2:/concepts/70935	skos:exactMatch	aat:300008769	semapv:UnspecifiedMatching	GULLY	gullies	
+fish_tmt2:/concepts/68886	skos:closeMatch	aat:300002501	semapv:UnspecifiedMatching	GUN EMPLACEMENT	batteries (platforms)	
+fish_tmt2:/concepts/68977	skos:closeMatch	aat:300008347	semapv:UnspecifiedMatching	Habitation Site	inhabited places	
+fish_tmt2:/concepts/87136	skos:exactMatch	aat:300004420	semapv:UnspecifiedMatching	Hall	halls (interior spaces)	
+fish_tmt2:/concepts/68985	skos:exactMatch	aat:300008369	semapv:UnspecifiedMatching	HAMLET	hamlets	
+fish_tmt2:/concepts/69456	skos:exactMatch	aat:300008678	semapv:UnspecifiedMatching	HARBOUR	harbours	
+fish_tmt2:/concepts/92203	skos:broadMatch	aat:300001987	semapv:UnspecifiedMatching	HARD STANDING	surface elements (architectural)	
+fish_tmt2:/concepts/68707	skos:closeMatch	aat:300006653	semapv:UnspecifiedMatching	HEALTH AND WELFARE	health facilities	
+fish_tmt2:/concepts/68707	skos:closeMatch	aat:300006742	semapv:UnspecifiedMatching	HEALTH AND WELFARE	welfare buildings	
+fish_tmt2:/concepts/70374	skos:closeMatch	aat:300003990	semapv:UnspecifiedMatching	HEARTH	hearths	
+fish_tmt2:/concepts/70334	skos:exactMatch	aat:300266413	semapv:UnspecifiedMatching	HEDGE	hedges	
+fish_tmt2:/concepts/133453	skos:broadMatch	aat:300008023	semapv:UnspecifiedMatching	HEDGE BANK	embankments	
+fish_tmt2:/concepts/70096	skos:exactMatch	aat:300120486	semapv:UnspecifiedMatching	HENGE	henges	
+fish_tmt2:/concepts/70097	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	HENGE ENCLOSURE	megalithic monuments	
+fish_tmt2:/concepts/70098	skos:broadMatch	aat:300006983	semapv:UnspecifiedMatching	HENGIFORM MONUMENT	megalithic monuments	
+fish_tmt2:/concepts/70099	skos:exactMatch	aat:300000640	semapv:UnspecifiedMatching	HERMITAGE (RELIGIOUS)	hermitages	
+fish_tmt2:/concepts/68855	skos:exactMatch	aat:300006911	semapv:UnspecifiedMatching	HILLFORT	hillforts	
+fish_tmt2:/concepts/94405	skos:closeMatch	aat:300266136	semapv:UnspecifiedMatching	HINDU TEMPLE	Hindu temple spaces	
+fish_tmt2:/concepts/92250	skos:closeMatch	aat:300000517	semapv:UnspecifiedMatching	HOLIDAY CENTRE	camps (recreation areas)	
+fish_tmt2:/concepts/70376	skos:broadMatch	aat:300163023	semapv:UnspecifiedMatching	HOLLOW	hollow (form attribute)	
+fish_tmt2:/concepts/70267	skos:broadMatch	aat:300008321	semapv:UnspecifiedMatching	HOLLOW WAY	paths	
+fish_tmt2:/concepts/70203	skos:exactMatch	aat:300007638	semapv:UnspecifiedMatching	HOLY WELL	holy wells	
+fish_tmt2:/concepts/142092	skos:broadMatch	aat:300006887	semapv:UnspecifiedMatching	HOME GUARD HEADQUARTERS	military buildings	
+fish_tmt2:/concepts/141940	skos:broadMatch	aat:300006941	semapv:UnspecifiedMatching	HOME GUARD SHELTER	guardhouses	
+fish_tmt2:/concepts/141944	skos:broadMatch	aat:300006887	semapv:UnspecifiedMatching	HOME GUARD STORE	military buildings	
+fish_tmt2:/concepts/70833	skos:closeMatch	aat:300000291	semapv:UnspecifiedMatching	HOMESTEAD	homesteads	
+fish_tmt2:/concepts/68716	skos:exactMatch	aat:300006676	semapv:UnspecifiedMatching	HOSPITAL	hospitals (buildings for health facility)	
+fish_tmt2:/concepts/68928	skos:exactMatch	aat:300005433	semapv:UnspecifiedMatching	HOUSE	houses	
+fish_tmt2:/concepts/68951	skos:broadMatch	aat:300132129	semapv:UnspecifiedMatching	HOUSE PLATFORM	platforms (floors)	
+fish_tmt2:/concepts/69614	skos:exactMatch	aat:300379896	semapv:UnspecifiedMatching	HUMAN REMAINS	human remains	
+fish_tmt2:/concepts/68602	skos:closeMatch	aat:300007177	semapv:UnspecifiedMatching	HUNTING LODGE	hunting lodges	
+fish_tmt2:/concepts/68961	skos:exactMatch	aat:300004824	semapv:UnspecifiedMatching	HUT	huts (houses)	
+fish_tmt2:/concepts/68964	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	HUT CIRCLE	huts (houses)	
+fish_tmt2:/concepts/68986	skos:broadMatch	aat:300004824	semapv:UnspecifiedMatching	HUT CIRCLE SETTLEMENT	huts (houses)	
+fish_tmt2:/concepts/68967	skos:exactMatch	aat:300004277	semapv:UnspecifiedMatching	HYPOCAUST	hypocausts	
+fish_tmt2:/concepts/69047	skos:closeMatch	aat:300000385	semapv:UnspecifiedMatching	INDUSTRIAL	industrial complexes	
+fish_tmt2:/concepts/69199	skos:closeMatch	aat:300006231	semapv:UnspecifiedMatching	INDUSTRIAL BUILDING	industrial buildings	
+fish_tmt2:/concepts/92351	skos:closeMatch	aat:300000322	semapv:UnspecifiedMatching	INDUSTRIAL HOUSE	industrial housing	
+fish_tmt2:/concepts/69201	skos:closeMatch	aat:300000816	semapv:UnspecifiedMatching	INDUSTRIAL SITE	industrial sites	
+fish_tmt2:/concepts/70976	skos:exactMatch	aat:300006706	semapv:UnspecifiedMatching	INFIRMARY	infirmaries	
+fish_tmt2:/concepts/70031	skos:broadMatch	aat:300263485	semapv:UnspecifiedMatching	INHUMATION	burials	
+fish_tmt2:/concepts/70060	skos:broadMatch	aat:300266755	semapv:UnspecifiedMatching	INHUMATION CEMETERY	cemeteries	
+fish_tmt2:/concepts/68793	skos:exactMatch	aat:300007170	semapv:UnspecifiedMatching	INN	inns	
+fish_tmt2:/concepts/70100	skos:broadMatch	aat:300262491	semapv:UnspecifiedMatching	INSCRIBED STONE	commemorative sculpture	
+fish_tmt2:/concepts/139404	skos:closeMatch	aat:300000325	semapv:UnspecifiedMatching	INSULA	insulae	
+fish_tmt2:/concepts/69187	skos:broadMatch	aat:300054049	semapv:UnspecifiedMatching	IRON FURNACE	ironworking	
+fish_tmt2:/concepts/69236	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Iron Smelting Site	smelters (metalworking plants)	
+fish_tmt2:/concepts/69236	skos:broadMatch	aat:300054049	semapv:UnspecifiedMatching	IRON WORKING SITE	ironworking	
+fish_tmt2:/concepts/69237	skos:closeMatch	aat:300006296	semapv:UnspecifiedMatching	IRON WORKS	ironworks (factories)	
+fish_tmt2:/concepts/69263	skos:closeMatch	aat:300000399	semapv:UnspecifiedMatching	IRONSTONE MINE	iron mines	
+fish_tmt2:/concepts/69457	skos:exactMatch	aat:300006155	semapv:UnspecifiedMatching	JETTY	jetties (erosion protection works)	
+fish_tmt2:/concepts/68603	skos:exactMatch	aat:300004993	semapv:UnspecifiedMatching	KENNELS	kennels (animal housing)	
+fish_tmt2:/concepts/78353	skos:broadMatch	aat:300006960	semapv:UnspecifiedMatching	KERB CAIRN	cairns	
+fish_tmt2:/concepts/69203	skos:exactMatch	aat:300022798	semapv:UnspecifiedMatching	KILN	kilns	
+fish_tmt2:/concepts/68969	skos:exactMatch	aat:300004514	semapv:UnspecifiedMatching	KITCHEN	kitchens	
+fish_tmt2:/concepts/87924	skos:exactMatch	aat:300008680	semapv:UnspecifiedMatching	LAKE	lakes (bodies of water)	
+fish_tmt2:/concepts/70441	skos:closeMatch	aat:300055202	semapv:UnspecifiedMatching	Land Drain	land drainage	
+fish_tmt2:/concepts/92441	skos:closeMatch	aat:300055202	semapv:UnspecifiedMatching	LAND IMPROVEMENT DRAIN	land drainage	
+fish_tmt2:/concepts/92443	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	LAND USE SITE	agricultural land	
+fish_tmt2:/concepts/71511	skos:exactMatch	aat:300007951	semapv:UnspecifiedMatching	Latrine	latrines	
+fish_tmt2:/concepts/78869	skos:exactMatch	aat:300008889	semapv:UnspecifiedMatching	LAWN	lawns (landscaped grass)	
+fish_tmt2:/concepts/69271	skos:broadMatch	aat:300103997	semapv:UnspecifiedMatching	Lead Mill	smelters (metalworking plants)	
+fish_tmt2:/concepts/69265	skos:exactMatch	aat:300343378	semapv:UnspecifiedMatching	LEAD MINE	lead mines	
+fish_tmt2:/concepts/71500	skos:closeMatch	aat:300000322	semapv:UnspecifiedMatching	Lead Miners Cottage	industrial housing	
+fish_tmt2:/concepts/142000	skos:closeMatch	aat:300103997	semapv:UnspecifiedMatching	LEAD SMELTER	smelters (metalworking plants)	
+fish_tmt2:/concepts/69238	skos:broadMatch	aat:300122139	semapv:UnspecifiedMatching	LEAD WORKING SITE	metal works structures	
+fish_tmt2:/concepts/69239	skos:broadMatch	aat:300122139	semapv:UnspecifiedMatching	LEAD WORKS	metal works structures	
+fish_tmt2:/concepts/70448	skos:closeMatch	aat:300133792	semapv:UnspecifiedMatching	LEAT	artificial water channels	
+fish_tmt2:/concepts/71660	skos:exactMatch	aat:300004409	semapv:UnspecifiedMatching	LECTURE THEATRE	lecture theatres	
+fish_tmt2:/concepts/68881	skos:closeMatch	aat:300006894	semapv:UnspecifiedMatching	LEGIONARY FORTRESS	fortresses	
+fish_tmt2:/concepts/70240	skos:closeMatch	aat:300003864	semapv:UnspecifiedMatching	LEVEL CROSSING	level crossings	
+fish_tmt2:/concepts/93993	skos:closeMatch	aat:300007376	semapv:UnspecifiedMatching	LIDO	swimming pools	
+fish_tmt2:/concepts/69063	skos:exactMatch	aat:300006404	semapv:UnspecifiedMatching	LIME KILN	lime kilns	
+fish_tmt2:/concepts/69070	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	LIMESTONE QUARRY	quarries (extracting complexes)	
+fish_tmt2:/concepts/68890	skos:broadMatch	aat:300006178	semapv:UnspecifiedMatching	Linear Ditch	ditches	
+fish_tmt2:/concepts/68890	skos:broadMatch	aat:300008020	semapv:UnspecifiedMatching	LINEAR EARTHWORK	earthworks (engineering works)	
+fish_tmt2:/concepts/70378	skos:broadMatch	aat:300008020	semapv:UnspecifiedMatching	LINEAR FEATURE	earthworks (engineering works)	
+fish_tmt2:/concepts/94213	skos:closeMatch	aat:300379567	semapv:UnspecifiedMatching	LITHIC SCATTER	lithics	
+fish_tmt2:/concepts/94214	skos:broadMatch	aat:300379567	semapv:UnspecifiedMatching	LITHIC WORKING SITE	lithics	
+fish_tmt2:/concepts/70006	skos:exactMatch	aat:300391498	semapv:UnspecifiedMatching	LONG BARROW	long barrows	
+fish_tmt2:/concepts/70086	skos:closeMatch	aat:300391498	semapv:UnspecifiedMatching	LONG MOUND	long barrows	
+fish_tmt2:/concepts/104173	skos:closeMatch	aat:300005672	semapv:UnspecifiedMatching	LONGHOUSE	longhouses (multiple dwellings)	
+fish_tmt2:/concepts/68626	skos:broadMatch	aat:300008631	semapv:UnspecifiedMatching	LYNCHET	agricultural land	
+fish_tmt2:/concepts/141875	skos:exactMatch	aat:300005241	semapv:UnspecifiedMatching	MACELLUM	macella	
+fish_tmt2:/concepts/141948	skos:closeMatch	aat:300221835	semapv:UnspecifiedMatching	MACHINE GUN POST	gun mounts	
+fish_tmt2:/concepts/68567	skos:broadMatch	aat:300022798	semapv:UnspecifiedMatching	MALT KILN	kilns	
+fish_tmt2:/concepts/69130	skos:closeMatch	aat:300004950	semapv:UnspecifiedMatching	MALTINGS	malthouses	
+fish_tmt2:/concepts/97254	skos:closeMatch	aat:300008863	semapv:UnspecifiedMatching	MANAGED WOODLAND	forests (cultural landscapes)	
+fish_tmt2:/concepts/68648	skos:exactMatch	aat:300000238	semapv:UnspecifiedMatching	MANOR	manors (agricultural complexes)	
+fish_tmt2:/concepts/68948	skos:exactMatch	aat:300005579	semapv:UnspecifiedMatching	MANOR HOUSE	manor houses	
+fish_tmt2:/concepts/69438	skos:closeMatch	aat:300008038	semapv:UnspecifiedMatching	MARITIME	marine structures	
+fish_tmt2:/concepts/68796	skos:exactMatch	aat:300005238	semapv:UnspecifiedMatching	MARKET	markets (structures)	
+fish_tmt2:/concepts/71722	skos:exactMatch	aat:300312182	semapv:UnspecifiedMatching	MARKET HOUSE	market houses	
+fish_tmt2:/concepts/69113	skos:broadMatch	aat:300000402	semapv:UnspecifiedMatching	MARL PIT	quarries (extracting complexes)	
+fish_tmt2:/concepts/87826	skos:exactMatch	aat:300000691	semapv:UnspecifiedMatching	MARSHALLING YARD	marshalling yards	
+fish_tmt2:/concepts/68893	skos:exactMatch	aat:300006946	semapv:UnspecifiedMatching	MARTELLO TOWER	martello towers	
+fish_tmt2:/concepts/144484	skos:closeMatch	aat:300005907	semapv:UnspecifiedMatching	MASS GRAVE	graves	
+fish_tmt2:/concepts/70109	skos:closeMatch	aat:300386964	semapv:UnspecifiedMatching	MONUMENTAL MOUND	ceremonial mounds	
+fish_tmt2:/concepts/70382	skos:exactMatch	aat:300008024	semapv:UnspecifiedMatching	MOUND	mounds	
+fish_tmt2:/concepts/68897	skos:exactMatch	aat:300003717	semapv:UnspecifiedMatching	PALISADE	palisades (outworks)	
+fish_tmt2:/concepts/70398	skos:closeMatch	aat:300008027	semapv:UnspecifiedMatching	PIT	pits (earthworks)	
+fish_tmt2:/concepts/70407	skos:exactMatch	aat:300312201	semapv:UnspecifiedMatching	RING DITCH	ring ditches	
+fish_tmt2:/concepts/70182	skos:exactMatch	aat:300004575	semapv:UnspecifiedMatching	SANCTUARY	sanctuaries (religious building spaces)	
+fish_tmt2:/concepts/70411	skos:exactMatch	aat:300007688	semapv:UnspecifiedMatching	SHELTER	shelters (single built works)	
+fish_tmt2:/concepts/70184	skos:exactMatch	aat:300007558	semapv:UnspecifiedMatching	SHRINE	shrines (structures)	
+fish_tmt2:/concepts/69333	skos:exactMatch	aat:300006273	semapv:UnspecifiedMatching	WINDMILL	windmills	
+fish_tmt2:/concepts/68972	skos:exactMatch	aat:300120507	semapv:UnspecifiedMatching	MIDDEN	middens	
+fish_tmt2:/concepts/70152	skos:exactMatch	aat:300000641	semapv:UnspecifiedMatching	MONASTERY	monasteries (built complexes)	

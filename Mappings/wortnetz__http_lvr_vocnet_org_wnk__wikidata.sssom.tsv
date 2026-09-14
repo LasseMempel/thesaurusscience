@@ -1,0 +1,613 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wortnetz__http_lvr_vocnet_org_wnk__wikidata.sssom.tsv
+#mapping_set_title: Wortnetz SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of Wortnetz (concept scheme: http://lvr.vocnet.org/wnk), targeting concept scheme http://bartoc.org/en/node/1940. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://lvr.vocnet.org/wnk
+#object_source: bartoc:en/node/1940
+#comment: Extracted from local RDF file Wortnetz Kultur.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+http://lvr.vocnet.org/wnk/wk000044	waterworks (arch.)	skos:exactMatch	wikidata:Q2551228		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000071	watchtower	skos:exactMatch	wikidata:Q947103		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000112	architectural element	skos:exactMatch	wikidata:Q391414		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000126	building (structure)	skos:exactMatch	wikidata:Q41176		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000133	hydraulic structure	skos:closeMatch	wikidata:Q2466889		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000149	commercial buildings	skos:closeMatch	wikidata:Q655686		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000278	relief (sculpture technique)	skos:exactMatch	wikidata:Q126003010		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000291	barbican	skos:exactMatch	wikidata:Q23394		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000316	building division	skos:exactMatch	wikidata:Q3305339		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000398	steam hammer	skos:exactMatch	wikidata:Q19767		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000483	posthole	skos:exactMatch	wikidata:Q1742751		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000515	architect	skos:exactMatch	wikidata:Q42973		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000560	commissioner	skos:exactMatch	wikidata:Q760086		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000700	residential building	skos:exactMatch	wikidata:Q11755880		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000721	pen (fencing)	skos:exactMatch	wikidata:Q858177		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000723	chamber tomb	skos:exactMatch	wikidata:Q358316		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000826	fortified house	skos:exactMatch	wikidata:Q1408475		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000874	defensive tower	skos:closeMatch	wikidata:Q81917		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000886	social and civic building	skos:closeMatch	wikidata:Q56148050		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000901	concert hall	skos:exactMatch	wikidata:Q1060829		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000910	water tower	skos:exactMatch	wikidata:Q274153		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000961	gasworks	skos:closeMatch	wikidata:Q1495738		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000967	swimming center	skos:exactMatch	wikidata:Q200023		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000970	open air pool	skos:exactMatch	wikidata:Q13586493		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000970	open air pool	skos:exactMatch	wikidata:Q1757063		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001038	research building	skos:exactMatch	wikidata:Q76130167		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001089	hiking trail	skos:exactMatch	wikidata:Q2143825		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001093	workshop (work space)	skos:exactMatch	wikidata:Q656720		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001185	rampart (fortification)	skos:exactMatch	wikidata:Q1416685		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001194	dump (refuse area)	skos:closeMatch	wikidata:Q2710737		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001205	plaggen soil	skos:exactMatch	wikidata:Q2736463		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001237	sod (soil)	skos:closeMatch	wikidata:Q13359535		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001280	powerhouse	skos:closeMatch	wikidata:Q159719		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001294	tower house (defensive structures)	skos:exactMatch	wikidata:Q91312		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001402	band shell (performing arts structures)	skos:exactMatch	wikidata:Q780777		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001523	ballot box	skos:exactMatch	wikidata:Q577947		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001543	Sozialstation (Gebäude)	skos:relatedMatch	wikidata:Q2305952		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001664	firing range	skos:exactMatch	wikidata:Q521839		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001696	thermal bath	skos:exactMatch	wikidata:Q1004887		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001750	Early Devonian Epoch	skos:exactMatch	wikidata:Q731293		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001753	Lochkovian Age	skos:exactMatch	wikidata:Q1089613		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001755	Emsian Age	skos:exactMatch	wikidata:Q576789		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001769	animal	skos:exactMatch	wikidata:Q729		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001777	Pleistocene Epoch	skos:exactMatch	wikidata:Q25546		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001778	Holocene Epoch	skos:exactMatch	wikidata:Q25445		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001811	fossil	skos:closeMatch	wikidata:Q40614		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001927	crucifix	skos:exactMatch	wikidata:Q20460		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002107	performing arts structure	skos:narrowMatch	wikidata:Q57660343		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002193	casting (process)	skos:closeMatch	wikidata:Q496098		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002216	agricultural building	skos:closeMatch	wikidata:Q10480682		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002321	sacred building	skos:exactMatch	wikidata:Q24398318		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002345	big business	skos:closeMatch	wikidata:Q4906718		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002345	big business	skos:exactMatch	wikidata:Q1434636		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002400	school building	skos:exactMatch	wikidata:Q1244442		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002407	bath (built work)	skos:closeMatch	wikidata:Q12004466		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002407	bath (built work)	skos:narrowMatch	wikidata:Q200023		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002506	building material	skos:exactMatch	wikidata:Q206615		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002544	trackbed	skos:exactMatch	wikidata:Q599697		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002930	military training area	skos:exactMatch	wikidata:Q1778846		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002939	anti-tank obstacle	skos:exactMatch	wikidata:Q2801289		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002989	synthetic fibers	skos:exactMatch	wikidata:Q5856		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003095	elevated water tank	skos:exactMatch	wikidata:Q1621678		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003148	suspension railway	skos:broadMatch	wikidata:Q339401		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003149	overhead monorail	skos:exactMatch	wikidata:Q1308921		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003351	picture of a saint	skos:exactMatch	wikidata:Q2212912		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003386	Konviktgebäude	skos:exactMatch	wikidata:Q113954029		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003444	land vehicle	skos:exactMatch	wikidata:Q1301433		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003474	bowed string instrument	skos:exactMatch	wikidata:Q192096		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003561	machine	skos:exactMatch	wikidata:Q11019		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003599	muffle furnace	skos:exactMatch	wikidata:Q1064870		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003601	kiln	skos:exactMatch	wikidata:Q1724341		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003855	basalt (basic igneous rock)	skos:exactMatch	wikidata:Q43338		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003881	kaoline	skos:exactMatch	wikidata:Q908663		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk003936	topaz	skos:exactMatch	wikidata:Q134985		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004027	pottery kiln	skos:exactMatch	wikidata:Q1621967		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004089	bedding	skos:exactMatch	wikidata:Q110192892		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004104	vicus	skos:exactMatch	wikidata:Q763590		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004234	surface find	skos:exactMatch	wikidata:Q3538273		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004260	clay	skos:exactMatch	wikidata:Q42302		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004307	Römisches Militärlager	skos:exactMatch	wikidata:Q88205		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004318	trench	skos:closeMatch	wikidata:Q91764		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004340	Höckerlinie	skos:exactMatch	wikidata:Q91487		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004480	foxhole (military pit)	skos:exactMatch	wikidata:Q20183967		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004501	lock (securing device)	skos:exactMatch	wikidata:Q228039		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004582	lighting device	skos:exactMatch	wikidata:Q111324721		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004604	Landwirtschaft	skos:exactMatch	wikidata:Q11451		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004617	decorative box	skos:closeMatch	wikidata:Q15706035		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004654	finish builders' hardware	skos:closeMatch	wikidata:Q829554		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004658	drawbar (land vehicle component)	skos:exactMatch	wikidata:Q353648		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004810	sleeve	skos:exactMatch	wikidata:Q659925		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004924	information handling facilities	skos:relatedMatch	wikidata:Q6031029		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004925	multi-purpose hall	skos:exactMatch	wikidata:Q1763828		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004966	kitchen utensil	skos:broadMatch	wikidata:Q1521410		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005004	chalice (liturgical vessel)	skos:exactMatch	wikidata:Q210723		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005017	reliquary	skos:exactMatch	wikidata:Q722604		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005043	keyboard (sound device component)	skos:exactMatch	wikidata:Q901207		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005174	figure (representation)	skos:exactMatch	wikidata:Q29527347		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005189	screen printing	skos:exactMatch	wikidata:Q187791		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005321	violin	skos:exactMatch	wikidata:Q8355		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005339	viola	skos:exactMatch	wikidata:Q80284		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005391	wig	skos:exactMatch	wikidata:Q105507		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005400	big top	skos:exactMatch	wikidata:Q31244		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005414	coffee machine	skos:closeMatch	wikidata:Q211841		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005428	umbrella (rainshade)	skos:exactMatch	wikidata:Q115380349		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005454	bag (generic containers)	skos:closeMatch	wikidata:Q1549395		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005499	student housing	skos:exactMatch	wikidata:Q3661265		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005517	sign language	skos:exactMatch	wikidata:Q34228		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005525	sunbathing	skos:closeMatch	wikidata:Q321458		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005530	Schwimmbecken	skos:exactMatch	wikidata:Q1501		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005540	play equipment	skos:narrowMatch	wikidata:Q7111945		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005560	x-ray machine	skos:exactMatch	wikidata:Q30715253		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005566	sexuality	skos:closeMatch	wikidata:Q3043188		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005665	moon	skos:closeMatch	wikidata:Q405		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005728	Torah scroll	skos:closeMatch	wikidata:Q28136455		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005870	textile process and technique	skos:exactMatch	wikidata:Q7708485		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005923	filial church	skos:closeMatch	wikidata:Q1129743		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005925	Liegemöbel	skos:exactMatch	wikidata:Q115300686		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005967	extraterrestrial body	skos:closeMatch	wikidata:Q6999		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005969	cultural landscape	skos:exactMatch	wikidata:Q1129474		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006114	fastener	skos:closeMatch	wikidata:Q2002016		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006179	Christ child	skos:exactMatch	wikidata:Q209422		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006184	Dreigestirn	skos:exactMatch	wikidata:Q1257818		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006208	first communion	skos:exactMatch	wikidata:Q1362402		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006238	present	skos:exactMatch	wikidata:Q184303		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006258	veneration of saints	skos:exactMatch	wikidata:Q1579384		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006349	the adoration of the Virgin Mary	skos:exactMatch	wikidata:Q1898047		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006404	postcard	skos:exactMatch	wikidata:Q192425		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006412	smoking (activity)	skos:exactMatch	wikidata:Q662860		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006510	Weihnachtsgeschenk	skos:exactMatch	wikidata:Q1656136		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006864	fire-making and controlling equipment	skos:closeMatch	wikidata:Q56147060		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006875	ingot	skos:exactMatch	wikidata:Q83893		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006888	pin (jewelry)	skos:exactMatch	wikidata:Q29405120		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006897	dog tag (military)	skos:exactMatch	wikidata:Q590167		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk006968	cork (bark)	skos:exactMatch	wikidata:Q49444		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007027	bridle	skos:exactMatch	wikidata:Q148558		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007028	snaffle bit	skos:closeMatch	wikidata:Q7546894		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007029	curb bit	skos:exactMatch	wikidata:Q356740		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007099	thermoplastic	skos:exactMatch	wikidata:Q380677		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007100	polystyrene	skos:exactMatch	wikidata:Q146243		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007109	medicine	skos:exactMatch	wikidata:Q11190		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007139	Radkasten	skos:exactMatch	wikidata:Q2126528		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007152	electrode oven	skos:exactMatch	wikidata:Q85303747		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007191	steam boiler	skos:exactMatch	wikidata:Q6609574		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007247	cauldron	skos:closeMatch	wikidata:Q1317634		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007249	coal hod	skos:closeMatch	wikidata:Q842395		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007276	crucible	skos:exactMatch	wikidata:Q390417		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007446	money box	skos:exactMatch	wikidata:Q18415478		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007477	Koffer (Transportbehälter)	skos:narrowMatch	wikidata:Q200814		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007487	foundry ladle	skos:closeMatch	wikidata:Q1969588		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007493	medicine bottle	skos:exactMatch	wikidata:Q111490452		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007498	canteen	skos:exactMatch	wikidata:Q1127296		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007588	tin can (sealed container)	skos:closeMatch	wikidata:Q2846150		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007641	suitcase	skos:closeMatch	wikidata:Q200814		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007642	film container	skos:narrowMatch	wikidata:Q17013539		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007659	sandal	skos:exactMatch	wikidata:Q131704		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007677	Pumps	skos:exactMatch	wikidata:Q390032		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007713	alice band	skos:exactMatch	wikidata:Q16827235		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007772	jogging pants	skos:exactMatch	wikidata:Q2426768		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007777	legging	skos:exactMatch	wikidata:Q660782		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007793	bell-bottoms	skos:exactMatch	wikidata:Q1568360		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007886	sheath dress	skos:exactMatch	wikidata:Q15008044		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007932	one-piece swimsuit	skos:exactMatch	wikidata:Q2736850		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007959	overcoat (outerwear)	skos:exactMatch	wikidata:Q337481		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007988	sweat shirt	skos:exactMatch	wikidata:Q19968163		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008054	bustier	skos:closeMatch	wikidata:Q740996		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008152	ensemble (costume)	skos:exactMatch	wikidata:Q29353484		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008170	coverall	skos:exactMatch	wikidata:Q1077396		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008201	gouache (technique)	skos:closeMatch	wikidata:Q1469362		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008216	relief (sculpture)	skos:exactMatch	wikidata:Q245117		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008222	color print (print)	skos:exactMatch	wikidata:Q1396295		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008224	collotype (process)	skos:exactMatch	wikidata:Q1572315		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008228	sketch (visual work)	skos:closeMatch	wikidata:Q5078274		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008249	photographic print	skos:exactMatch	wikidata:Q56055236		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008264	cyanotype (photographic print)	skos:exactMatch	wikidata:Q64029200		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008274	vintage print	skos:exactMatch	wikidata:Q222952		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008289	photographic transparency	skos:closeMatch	wikidata:Q56146880		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008323	view (visual work)	skos:exactMatch	wikidata:Q116884415		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008480	thermoset	skos:exactMatch	wikidata:Q868477		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008606	Gussform	skos:exactMatch	wikidata:Q56296546		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008608	hairpin	skos:exactMatch	wikidata:Q1566584		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008662	needle holder	skos:narrowMatch	wikidata:Q28769384		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008686	pilgrim bottle	skos:closeMatch	wikidata:Q1396224		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008702	latch (hardware)	skos:exactMatch	wikidata:Q2477852		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008717	enarmes	skos:exactMatch	wikidata:Q5375243		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008718	umbo	skos:exactMatch	wikidata:Q721086		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008723	writing instrument	skos:exactMatch	wikidata:Q121916		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008726	key (hardware)	skos:exactMatch	wikidata:Q132041		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008761	inkwell	skos:exactMatch	wikidata:Q1160546		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008879	cabaret (building)	skos:exactMatch	wikidata:Q131183		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008896	photographic plate	skos:closeMatch	wikidata:Q1138868		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008942	album (book)	skos:exactMatch	wikidata:Q1173065		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008946	photographic process	skos:narrowMatch	wikidata:Q172839		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008982	infant	skos:exactMatch	wikidata:Q998		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009053	youth (life stage)	skos:exactMatch	wikidata:Q190007		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009226	fern	skos:exactMatch	wikidata:Q80005		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009286	fish (animal)	skos:exactMatch	wikidata:Q152		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009337	extruded polystyrene	skos:exactMatch	wikidata:Q3501372		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009340	bathhouse	skos:closeMatch	wikidata:Q785952		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009451	holding and gripping tool	skos:exactMatch	wikidata:Q56148199		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009593	find	skos:exactMatch	wikidata:Q10855061		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009601	amphibian	skos:exactMatch	wikidata:Q10908		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009636	polycarbonate	skos:exactMatch	wikidata:Q62246		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009655	breeding (technique)	skos:exactMatch	wikidata:Q65360845		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009662	joint (seam)	skos:closeMatch	wikidata:Q2676054		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009711	artificial silk	skos:exactMatch	wikidata:Q15124338		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009751	engraving (print)	skos:exactMatch	wikidata:Q11835431		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009765	Bandweberei (Betrieb)	skos:relatedMatch	wikidata:Q2624453		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009770	barrel organ (organ)	skos:exactMatch	wikidata:Q752638		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009771	installation (visuel work)	skos:closeMatch	wikidata:Q20437094		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009772	plastic foam	skos:exactMatch	wikidata:Q3362098		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009811	comb (hair ornament)	skos:exactMatch	wikidata:Q50316288		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009818	marking tool and equipment	skos:closeMatch	wikidata:Q56147152		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009850	sportswear	skos:exactMatch	wikidata:Q645292		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009889	synthetic resin	skos:closeMatch	wikidata:Q1418040		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009937	bivalve	skos:exactMatch	wikidata:Q25368		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010097	letter (correspondence)	skos:exactMatch	wikidata:Q133492		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010098	brochure (booklet)	skos:exactMatch	wikidata:Q5173771		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010100	document (object genre )	skos:closeMatch	wikidata:Q49848		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010206	helmet component	skos:exactMatch	wikidata:Q50704441		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010347	ice skate	skos:exactMatch	wikidata:Q108640		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010356	embroidering	skos:exactMatch	wikidata:Q18281		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010432	pipeclay	skos:exactMatch	wikidata:Q3132942		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010448	tinplate	skos:exactMatch	wikidata:Q2556927		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010452	lime (material)	skos:closeMatch	wikidata:Q250423		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010479	elastomer	skos:exactMatch	wikidata:Q252266		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010487	pine (tree)	skos:exactMatch	wikidata:Q12024		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010656	storage space	skos:broadMatch	wikidata:Q181623		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010663	architectural fragment	skos:exactMatch	wikidata:Q111280335		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010666	base sherd	skos:exactMatch	wikidata:Q106990489		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010678	handle	skos:exactMatch	wikidata:Q200266		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010682	Henkel	skos:closeMatch	wikidata:Q1242123		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010697	pilgrim souvenir	skos:narrowMatch	wikidata:Q488638		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010702	rim sherd	skos:exactMatch	wikidata:Q106990428		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010711	wheel spoke	skos:exactMatch	wikidata:Q845671		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010718	body sherd	skos:exactMatch	wikidata:Q106990472		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010739	surgical instrument	skos:exactMatch	wikidata:Q1074814		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010771	mining	skos:narrowMatch	wikidata:Q44497		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010920	Großhandel	skos:exactMatch	wikidata:Q220695		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011195	crossbow	skos:exactMatch	wikidata:Q181947		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011242	tricycle	skos:exactMatch	wikidata:Q536135		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011250	invitation (document)	skos:closeMatch	wikidata:Q116812529		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011280	fountain pen	skos:exactMatch	wikidata:Q192401		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011298	Glückwunschkarte	skos:exactMatch	wikidata:Q915196		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011307	hairwork picture	skos:exactMatch	wikidata:Q1566445		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011380	Frankfurt sausage	skos:exactMatch	wikidata:Q681770		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011700	Ofensau	skos:exactMatch	wikidata:Q2015415		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012164	sunshade (furniture)	skos:closeMatch	wikidata:Q26766731		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012167	base (object component)	skos:exactMatch	wikidata:Q82383		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012206	gastropod shell	skos:exactMatch	wikidata:Q2003497		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012232	wheel rim	skos:exactMatch	wikidata:Q786732		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012264	perfume (scent)	skos:exactMatch	wikidata:Q131746		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012290	ballpoint pen	skos:exactMatch	wikidata:Q160137		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012309	midden	skos:exactMatch	wikidata:Q921955		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012399	decoration (ornamental work)	skos:broadMatch	wikidata:Q161439		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012407	food	skos:exactMatch	wikidata:Q2095		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012468	rice (food)	skos:exactMatch	wikidata:Q5090		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk012834	Pfannenwender	skos:exactMatch	wikidata:Q18131125		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013059	preserved food	skos:exactMatch	wikidata:Q12372738		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013080	culinary mill	skos:exactMatch	wikidata:Q96966339		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013169	politics	skos:exactMatch	wikidata:Q7163		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013274	Schläger (Sportgerät)	skos:exactMatch	wikidata:Q23669139		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013284	tent (portable building)	skos:exactMatch	wikidata:Q170544		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013343	lemonade	skos:exactMatch	wikidata:Q893		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013383	food culture	skos:exactMatch	wikidata:Q1368912		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013501	mollusk	skos:exactMatch	wikidata:Q25326		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013877	banner	skos:narrowMatch	wikidata:Q2449538		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013960	tailor	skos:exactMatch	wikidata:Q242468		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013964	shoemaker	skos:exactMatch	wikidata:Q152355		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk013965	shoemaker's workshop	skos:closeMatch	wikidata:Q110548596		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014033	umbrella	skos:exactMatch	wikidata:Q41607		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014038	snowman	skos:exactMatch	wikidata:Q483985		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014046	typewriter	skos:exactMatch	wikidata:Q46335		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014051	schoolbag	skos:exactMatch	wikidata:Q126727672		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014075	ski	skos:exactMatch	wikidata:Q172226		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014165	rolling pin	skos:exactMatch	wikidata:Q207763		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014197	vegetarianism	skos:exactMatch	wikidata:Q83364		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014241	piece of paper	skos:exactMatch	wikidata:Q196878		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014540	roller (agricultural tool)	skos:exactMatch	wikidata:Q1334343		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014590	winter	skos:exactMatch	wikidata:Q1311		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015002	alcohol consumption	skos:exactMatch	wikidata:Q2647488		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015217	roaster (cookware)	skos:closeMatch	wikidata:Q20820315		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015240	damask (textile)	skos:closeMatch	wikidata:Q901382		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015282	label	skos:exactMatch	wikidata:Q722218		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015311	food wrap	skos:exactMatch	wikidata:Q356700		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015316	fruitcake	skos:exactMatch	wikidata:Q267554		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015358	Hosenträger	skos:exactMatch	wikidata:Q109742		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015423	knife sharpener	skos:exactMatch	wikidata:Q87478722		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015434	clove (spice)	skos:relatedMatch	wikidata:Q26736		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015439	Orthopädie	skos:exactMatch	wikidata:Q216685		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015445	pâté	skos:exactMatch	wikidata:Q816704		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015465	raisin	skos:exactMatch	wikidata:Q13186		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015513	silicone	skos:exactMatch	wikidata:Q146439		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015676	Dübel	skos:exactMatch	wikidata:Q1098256		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015801	general	skos:closeMatch	wikidata:Q83460		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015805	military officer	skos:exactMatch	wikidata:Q189290		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk015896	equestrianism	skos:narrowMatch	wikidata:Q179226		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk016419	stacker	skos:exactMatch	wikidata:Q332280		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk016712	salt shaker	skos:exactMatch	wikidata:Q47486870		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk016888	textile machine	skos:exactMatch	wikidata:Q1573728		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk016890	packaging machine	skos:exactMatch	wikidata:Q18385922		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017143	fish farming	skos:closeMatch	wikidata:Q209894		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017435	bobbin	skos:exactMatch	wikidata:Q1520790		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017591	plexiglas (TM)	skos:exactMatch	wikidata:Q23007069		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017651	herbarium	skos:exactMatch	wikidata:Q181916		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017879	toy car	skos:exactMatch	wikidata:Q2310084		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017930	polyamid fiber	skos:exactMatch	wikidata:Q177941		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017932	polyamide	skos:exactMatch	wikidata:Q145273		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017936	viscose (fiber)	skos:exactMatch	wikidata:Q910194		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018011	hardware (components)	skos:closeMatch	wikidata:Q106697391		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018011	hardware (components)	skos:closeMatch	wikidata:Q1746570		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018056	kippah	skos:exactMatch	wikidata:Q215459		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018209	chaise longue	skos:exactMatch	wikidata:Q1059232		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018226	evaporated milk	skos:exactMatch	wikidata:Q13417087		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018233	paper streamer	skos:exactMatch	wikidata:Q152859		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018255	jump rope	skos:exactMatch	wikidata:Q18891560		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018371	pepper shaker	skos:closeMatch	wikidata:Q96912557		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018371	pepper shaker	skos:closeMatch	wikidata:Q96959144		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018377	slot machine	skos:closeMatch	wikidata:Q33972		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018378	video game console	skos:closeMatch	wikidata:Q8076		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018439	reading equipment	skos:exactMatch	wikidata:Q56822459		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018441	projector (image projectors)	skos:exactMatch	wikidata:Q311666		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018442	image-making equipment	skos:closeMatch	wikidata:Q67611939		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018447	microbat	skos:exactMatch	wikidata:Q971343		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018475	maintenance	skos:exactMatch	wikidata:Q16878355		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018564	rhinestone (Material)	skos:exactMatch	wikidata:Q615476		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018567	last (shoemaking tool)	skos:exactMatch	wikidata:Q1069931		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018589	straight pin	skos:exactMatch	wikidata:Q111591519		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018591	aglet	skos:closeMatch	wikidata:Q1048585		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018663	Heugebläse	skos:exactMatch	wikidata:Q1616441		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018711	fly bottle	skos:exactMatch	wikidata:Q32049173		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018721	collar (horse collar)	skos:narrowMatch	wikidata:Q152523		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018726	manuscript for publication	skos:exactMatch	wikidata:Q2376293		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018742	typescript	skos:exactMatch	wikidata:Q28924364		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018782	fishing spear	skos:exactMatch	wikidata:Q111398790		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018801	head-vase	skos:exactMatch	wikidata:Q1240174		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018815	pugio	skos:exactMatch	wikidata:Q221410		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018816	ashlar	skos:exactMatch	wikidata:Q1122603		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018821	billhook	skos:exactMatch	wikidata:Q708852		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018831	boar spear	skos:exactMatch	wikidata:Q1362614		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018838	nib (pen point)	skos:exactMatch	wikidata:Q14524064		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018841	scale armour	skos:exactMatch	wikidata:Q574602		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018851	Splint (Sicherungselement)	skos:closeMatch	wikidata:Q1412569		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018858	torque (jewelry)	skos:closeMatch	wikidata:Q397447		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018861	door hinge	skos:exactMatch	wikidata:Q2464427		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018963	industrial parks	skos:exactMatch	wikidata:Q329683		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019046	apothecary container	skos:exactMatch	wikidata:Q63373578		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019084	lamellar armour	skos:exactMatch	wikidata:Q574574		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019086	gun barrel	skos:exactMatch	wikidata:Q487192		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019098	coin scale	skos:exactMatch	wikidata:Q123663464		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019099	netting needle	skos:exactMatch	wikidata:Q1978931		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019108	paten (liturgical vessel)	skos:exactMatch	wikidata:Q1044124		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019117	proof (prints by function)	skos:exactMatch	wikidata:Q97489614		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019136	trammel (fireplace equipment)	skos:exactMatch	wikidata:Q493504		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019179	antefix	skos:exactMatch	wikidata:Q571723		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019202	woodstave	skos:exactMatch	wikidata:Q1172769		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019203	diadem	skos:exactMatch	wikidata:Q746591		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019217	meat hook	skos:exactMatch	wikidata:Q733053		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019218	curse tablet	skos:exactMatch	wikidata:Q1430557		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019223	prie-dieu (bench)	skos:exactMatch	wikidata:Q2491608		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019237	tang (tool and edged weapon components)	skos:exactMatch	wikidata:Q1355195		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019238	pommel (weapon component)	skos:exactMatch	wikidata:Q3087145		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019248	Schröpfkopf	skos:exactMatch	wikidata:Q111259703		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019262	pounce pot	skos:exactMatch	wikidata:Q107616501		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019269	door hardware	skos:exactMatch	wikidata:Q5297202		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019333	bell scraper	skos:exactMatch	wikidata:Q2229191		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019562	flywheel	skos:exactMatch	wikidata:Q183576		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019952	machine tool	skos:exactMatch	wikidata:Q19768		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019953	electric power tool	skos:exactMatch	wikidata:Q117710711		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019970	ornamental disk	skos:exactMatch	wikidata:Q199180		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019992	birch bark (plant material)	skos:exactMatch	wikidata:Q253671		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020351	grattage	skos:exactMatch	wikidata:Q1543649		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020360	waste management	skos:closeMatch	wikidata:Q180388		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020378	recreation area	skos:exactMatch	wikidata:Q338112		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020387	Eisenbahn	skos:closeMatch	wikidata:Q22667		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020406	reservoir (water distribution structure)	skos:closeMatch	wikidata:Q2551525		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020445	commemorative coin	skos:exactMatch	wikidata:Q855973		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020467	animal cage	skos:exactMatch	wikidata:Q129211		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020482	beak (animal components)	skos:exactMatch	wikidata:Q31528		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020489	yellowing	skos:exactMatch	wikidata:Q117267697		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020498	discoloration	skos:exactMatch	wikidata:Q117267738		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020509	Schusterkugel	skos:exactMatch	wikidata:Q2252104		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020511	ship in a bottle	skos:exactMatch	wikidata:Q23499		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020525	billon	skos:exactMatch	wikidata:Q911380		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020543	as (coin)	skos:exactMatch	wikidata:Q376895		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020544	antoninianus	skos:exactMatch	wikidata:Q599170		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020548	Tornesel	skos:exactMatch	wikidata:Q118288355		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020549	heller	skos:exactMatch	wikidata:Q558904		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020550	groschen	skos:broadMatch	wikidata:Q159505		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020551	Albus	skos:exactMatch	wikidata:Q836242		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020552	Stüber (Münze)	skos:broadMatch	wikidata:Q705080		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020554	pencil sharpener	skos:exactMatch	wikidata:Q193811		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020560	reproduction photography	skos:exactMatch	wikidata:Q2145185		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020565	daguerreotype (photographic process)	skos:exactMatch	wikidata:Q179744		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020568	close-up photography	skos:exactMatch	wikidata:Q1195026		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020583	patterned roller	skos:exactMatch	wikidata:Q25378999		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020594	sewing pattern	skos:exactMatch	wikidata:Q738168		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020595	business letter	skos:exactMatch	wikidata:Q1225625		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020606	hair clip	skos:exactMatch	wikidata:Q2885586		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020620	Filiale	skos:exactMatch	wikidata:Q1880737		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020636	passport	skos:exactMatch	wikidata:Q43812		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020647	needle holder (surgical instrument)	skos:exactMatch	wikidata:Q1329613		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020656	curler	skos:exactMatch	wikidata:Q2902462		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020657	Programmheft	skos:closeMatch	wikidata:Q1508646		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020661	hole punch	skos:exactMatch	wikidata:Q183413		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020670	address book	skos:closeMatch	wikidata:Q367035		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020677	fan heater	skos:exactMatch	wikidata:Q1419050		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020679	hand truck	skos:exactMatch	wikidata:Q384580		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020705	field marshal	skos:exactMatch	wikidata:Q7821620		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020731	rings for headcarrying	skos:closeMatch	wikidata:Q60982989		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020754	pressboard	skos:exactMatch	wikidata:Q2108973		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020774	harness pendant	skos:exactMatch	wikidata:Q111436955		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020775	card (information artifact)	skos:exactMatch	wikidata:Q29024343		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020794	amphoriskos	skos:closeMatch	wikidata:Q477146		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020797	wholesale business	skos:exactMatch	wikidata:Q106580690		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020806	plume (costume accessory)	skos:broadMatch	wikidata:Q2864716		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020806	plume (costume accessory)	skos:exactMatch	wikidata:Q1400678		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020810	appliqué (metalwork ornament)	skos:exactMatch	wikidata:Q64376595		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020811	pyxis (container for personal grooming)	skos:closeMatch	wikidata:Q1350279		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020814	pedestal beaker	skos:exactMatch	wikidata:Q111908728		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020815	natural object	skos:closeMatch	wikidata:Q1970309		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020816	excavations expert	skos:exactMatch	wikidata:Q1541010		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020818	project manager	skos:exactMatch	wikidata:Q816432		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020819	historic preservationist	skos:exactMatch	wikidata:Q54862879		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020820	construction manager	skos:exactMatch	wikidata:Q811459		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020821	inhabitant	skos:exactMatch	wikidata:Q22947		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020823	donor	skos:exactMatch	wikidata:Q1968442		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020825	polyolefin	skos:closeMatch	wikidata:Q424370		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020826	polyoxymethylene	skos:closeMatch	wikidata:Q146139		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020827	polypropylene	skos:exactMatch	wikidata:Q146174		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020828	polysulfone	skos:exactMatch	wikidata:Q15840758		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020830	silicone rubber	skos:exactMatch	wikidata:Q4115245		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020833	synthetic rubber	skos:exactMatch	wikidata:Q6714735		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020835	Ungesättigtes Polyesterharz	skos:closeMatch	wikidata:Q60982200		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020838	acrylonitrile styrene acrylate	skos:exactMatch	wikidata:Q143629		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020839	aminoplast	skos:closeMatch	wikidata:Q6665766		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020840	casein formaldehyde	skos:closeMatch	wikidata:Q899368		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020841	cellulose acetate	skos:exactMatch	wikidata:Q124686		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020843	nitrocellulose	skos:exactMatch	wikidata:Q143874		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020845	epoxide	skos:closeMatch	wikidata:Q408028		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020846	urea formaldehyde	skos:closeMatch	wikidata:Q146537		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020847	hard rubber	skos:closeMatch	wikidata:Q461714		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020848	high impact polystyrene	skos:exactMatch	wikidata:Q1617766		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020850	natural rubber	skos:exactMatch	wikidata:Q131877		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020851	phenol formaldehyde resin	skos:closeMatch	wikidata:Q145897		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020852	nylon 6 (Markenname)	skos:exactMatch	wikidata:Q109454		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020854	nylon 66 (Markenname)	skos:exactMatch	wikidata:Q7071155		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020855	polybutylene terephthalate	skos:exactMatch	wikidata:Q145445		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020857	polyethylene	skos:exactMatch	wikidata:Q143429		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020858	high-density polyethylene	skos:exactMatch	wikidata:Q2641430		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020860	polyethylene terephthalate	skos:exactMatch	wikidata:Q145863		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020861	polylactic acid	skos:exactMatch	wikidata:Q413769		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020866	hilt	skos:exactMatch	wikidata:Q1593696		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020868	press (general)	skos:exactMatch	wikidata:Q674484		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020870	finding aid	skos:exactMatch	wikidata:Q178376		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020871	flask (founding tool)	skos:exactMatch	wikidata:Q1437726		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020872	strap fitting	skos:exactMatch	wikidata:Q111269249		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020878	mining machine	skos:narrowMatch	wikidata:Q12099206		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020880	Besucherzentrum	skos:exactMatch	wikidata:Q18411786		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020908	Schneepflug	skos:exactMatch	wikidata:Q14976		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020912	landscape after mining	skos:exactMatch	wikidata:Q65227605		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020927	war toy	skos:exactMatch	wikidata:Q116168199		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020930	mask (sculpture)	skos:narrowMatch	wikidata:Q1365301		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020931	tire	skos:exactMatch	wikidata:Q169545		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020938	drinking culture	skos:exactMatch	wikidata:Q2068248		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020941	Faserplatte	skos:exactMatch	wikidata:Q1397443		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020946	Tagebaugerät	skos:exactMatch	wikidata:Q12108465		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020948	spoil dump	skos:broadMatch	wikidata:Q331211		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020948	spoil dump	skos:broadMatch	wikidata:Q819511		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020957	Abschrift	skos:exactMatch	wikidata:Q332148		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020958	genealogical table	skos:closeMatch	wikidata:Q267388		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020961	letter sheet	skos:exactMatch	wikidata:Q1394947		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020962	telegram	skos:exactMatch	wikidata:Q1522225		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020964	xerographic copy	skos:exactMatch	wikidata:Q8011558		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020965	program sheet	skos:broadMatch	wikidata:Q1508646		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020966	note (document)	skos:closeMatch	wikidata:Q5668585		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020967	correspondence	skos:exactMatch	wikidata:Q1277575		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020971	album leaf	skos:exactMatch	wikidata:Q1545707		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020972	program (document)	skos:closeMatch	wikidata:Q66545460		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020975	libretto (document for musik)	skos:exactMatch	wikidata:Q131084		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020977	spice mill	skos:exactMatch	wikidata:Q356838		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020979	polyurethane foam	skos:exactMatch	wikidata:Q116763692		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020979	polyurethane foam	skos:exactMatch	wikidata:Q90733311		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020981	thermoplastic polyester	skos:broadMatch	wikidata:Q188245		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020982	headphones	skos:exactMatch	wikidata:Q186819		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020984	health and welfare buildings	skos:exactMatch	wikidata:Q56148242		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020985	welfare building	skos:exactMatch	wikidata:Q115958827		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020991	health facility	skos:closeMatch	wikidata:Q4260475		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020994	educational building	skos:relatedMatch	wikidata:Q2385804		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021003	platinum process	skos:relatedMatch	wikidata:Q2098669		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021004	carbro process	skos:closeMatch	wikidata:Q1035568		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021005	tintype (process)	skos:exactMatch	wikidata:Q913381		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021008	bail handle	skos:exactMatch	wikidata:Q4843278		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021010	knapsack	skos:exactMatch	wikidata:Q5843		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021011	luggage	skos:exactMatch	wikidata:Q865054		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021012	baby rattle	skos:exactMatch	wikidata:Q15155966		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021018	cosmetic	skos:exactMatch	wikidata:Q131207		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021019	employment record book	skos:exactMatch	wikidata:Q627374		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021020	electrical enclosure	skos:closeMatch	wikidata:Q442709		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021021	dummy	skos:exactMatch	wikidata:Q65088916		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021021	dummy	skos:relatedMatch	wikidata:Q3545649		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021022	account book	skos:closeMatch	wikidata:Q3831821		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021026	tanning lamp	skos:closeMatch	wikidata:Q955862		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021027	Briefbogen	skos:exactMatch	wikidata:Q3180817		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021028	sawhorse	skos:exactMatch	wikidata:Q1421844		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021030	bicycle component	skos:exactMatch	wikidata:Q30246160		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021031	inkpad	skos:exactMatch	wikidata:Q2426305		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021032	petrified wood	skos:exactMatch	wikidata:Q837117		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021033	trident	skos:exactMatch	wikidata:Q271628		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021034	type cabinet	skos:exactMatch	wikidata:Q1532285		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021034	type cabinet	skos:exactMatch	wikidata:Q2008083		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021035	hand tamper	skos:exactMatch	wikidata:Q110985438		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021037	drawing instrument	skos:exactMatch	wikidata:Q26972858		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021040	album (sound recording)	skos:exactMatch	wikidata:Q482994		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021041	Particell	skos:exactMatch	wikidata:Q2054514		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021042	sketchbook	skos:exactMatch	wikidata:Q60520		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021044	galley proof	skos:exactMatch	wikidata:Q452861		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021045	Musiknotendruck	skos:relatedMatch	wikidata:Q64416036		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021046	heater (equipment)	skos:narrowMatch	wikidata:Q12069731		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021058	freezer block	skos:exactMatch	wikidata:Q493034		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021061	selfactor	skos:exactMatch	wikidata:Q522732		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021062	pin-back button	skos:exactMatch	wikidata:Q7132937		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021066	bit (animal work equipment)	skos:exactMatch	wikidata:Q830004		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021068	stemware	skos:closeMatch	wikidata:Q14920412		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021070	horse harness	skos:closeMatch	wikidata:Q60848216		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021073	Jumpsuit	skos:closeMatch	wikidata:Q16472452		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021074	curling tongs	skos:closeMatch	wikidata:Q1424150		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021078	hairdressing tool	skos:closeMatch	wikidata:Q5639584		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021080	Taschenlampe	skos:exactMatch	wikidata:Q235783		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021087	electric lamp (lighting device form)	skos:closeMatch	wikidata:Q107197071		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021096	gelatin silver process	skos:exactMatch	wikidata:Q172984		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021098	printing process	skos:exactMatch	wikidata:Q4361974		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021099	bromoil process	skos:exactMatch	wikidata:Q850482		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021100	gum bichromate process	skos:exactMatch	wikidata:Q519042		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021104	christmas tree stand	skos:exactMatch	wikidata:Q3438587		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021107	eye	skos:exactMatch	wikidata:Q7364		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021115	desert	skos:exactMatch	wikidata:Q8514		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021117	laundry tong	skos:exactMatch	wikidata:Q19472843		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021118	bookend	skos:exactMatch	wikidata:Q998891		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021119	metronome	skos:exactMatch	wikidata:Q156424		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021120	fan (equipment)	skos:exactMatch	wikidata:Q6498398		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021121	slide viewer (hand held device)	skos:exactMatch	wikidata:Q438441		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021122	siphon bottle	skos:exactMatch	wikidata:Q2061094		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021123	opaque projector	skos:exactMatch	wikidata:Q520676		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021133	drag (performing arts)	skos:exactMatch	wikidata:Q3410369		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021136	shoehorn	skos:exactMatch	wikidata:Q14983		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021138	top hat	skos:exactMatch	wikidata:Q110304		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021139	strop (sharpening device)	skos:exactMatch	wikidata:Q2142266		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021140	drag artist	skos:exactMatch	wikidata:Q126912755		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021141	condom	skos:exactMatch	wikidata:Q14076		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021204	Famennian Age	skos:exactMatch	wikidata:Q253839		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021232	hand puppet	skos:exactMatch	wikidata:Q14875		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021233	paperweight	skos:exactMatch	wikidata:Q914149		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021235	bobby pin	skos:exactMatch	wikidata:Q3251519		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021237	horn coral (Rugosa)	skos:exactMatch	wikidata:Q133091		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021239	curling iron	skos:exactMatch	wikidata:Q10568696		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021240	whale	skos:exactMatch	wikidata:Q1865281		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021241	apothecary bottle	skos:closeMatch	wikidata:Q63813700		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021246	hat block	skos:exactMatch	wikidata:Q5680833		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021250	pigeon clock	skos:exactMatch	wikidata:Q1782910		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021251	dictating machine	skos:exactMatch	wikidata:Q956263		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021255	trace fossil	skos:exactMatch	wikidata:Q853800		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021256	microfossil	skos:exactMatch	wikidata:Q1761786		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021261	radiolarian	skos:exactMatch	wikidata:Q107920		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021262	Foraminifere	skos:exactMatch	wikidata:Q107027		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021266	Bärlapppflanze	skos:exactMatch	wikidata:Q1149748		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021270	Fern	skos:closeMatch	wikidata:Q373615		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021277	sponge (animal)	skos:exactMatch	wikidata:Q18960		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021286	cephalopod	skos:exactMatch	wikidata:Q128257		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021287	Altkopffüßer	skos:exactMatch	wikidata:Q442152		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021289	goniatite	skos:exactMatch	wikidata:Q2116552		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021290	Ceratit	skos:exactMatch	wikidata:Q1054661		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021302	arthropod	skos:exactMatch	wikidata:Q1360		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021304	chelicerate	skos:exactMatch	wikidata:Q1359		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021305	crustacean	skos:exactMatch	wikidata:Q25364		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021313	lobe-finned fish	skos:exactMatch	wikidata:Q160830		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021337	blowtorch	skos:exactMatch	wikidata:Q1445068		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021339	burner (heating equipment)	skos:closeMatch	wikidata:Q901410		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021340	first aid kit	skos:exactMatch	wikidata:Q815867		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021342	bivalve shell	skos:exactMatch	wikidata:Q3511295		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021345	sex toy	skos:exactMatch	wikidata:Q10816		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021347	muffle (container)	skos:exactMatch	wikidata:Q12130885		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021349	sex (personal activity)	skos:closeMatch	wikidata:Q608		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021350	hairbrush	skos:exactMatch	wikidata:Q1642980		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021351	trading stamp	skos:exactMatch	wikidata:Q2124881		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021361	hand card	skos:exactMatch	wikidata:Q2402796		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021362	hand foundry ladle	skos:broadMatch	wikidata:Q1969588		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021372	carding	skos:exactMatch	wikidata:Q1411858		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021378	summer (season)	skos:exactMatch	wikidata:Q1313		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021379	spring (season)	skos:exactMatch	wikidata:Q1312		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021380	autumn (season)	skos:exactMatch	wikidata:Q1314		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021381	cruet set	skos:exactMatch	wikidata:Q612474		semapv:UnspecifiedMatching	

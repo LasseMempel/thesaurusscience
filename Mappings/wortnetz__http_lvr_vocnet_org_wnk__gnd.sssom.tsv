@@ -1,0 +1,81 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wortnetz__http_lvr_vocnet_org_wnk__gnd.sssom.tsv
+#mapping_set_title: Wortnetz SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of Wortnetz (concept scheme: http://lvr.vocnet.org/wnk), targeting concept scheme http://bartoc.org/en/node/430. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: http://lvr.vocnet.org/wnk
+#object_source: bartoc:en/node/430
+#comment: Extracted from local RDF file Wortnetz Kultur.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+http://lvr.vocnet.org/wnk/wk000515	architect	skos:closeMatch	gnd:4131695-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk000886	social and civic building	skos:relatedMatch	gnd:4077579-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk001816	mine railway	skos:exactMatch	gnd:4242499-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk002464	minecart	skos:exactMatch	gnd:4218769-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk004699	Säulenbasis	skos:exactMatch	gnd:4178903-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005517	sign language	skos:exactMatch	gnd:4129609-6		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005648	electric cable	skos:closeMatch	gnd:4029107-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005945	tabletop game (game set)	skos:broadMatch	gnd:4056218-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005960	natural landscape	skos:exactMatch	gnd:4041389-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk005961	vegetation	skos:exactMatch	gnd:4187458-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk007598	tobacco box	skos:closeMatch	gnd:4125414-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk008911	Jahrmarkt	skos:exactMatch	gnd:4028423-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk009732	slop sink	skos:exactMatch	gnd:1187264474		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010697	pilgrim souvenir	skos:narrowMatch	gnd:4174690-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010920	Großhandel	skos:exactMatch	gnd:4022201-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk010976	retail trade	skos:exactMatch	gnd:4127747-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011195	crossbow	skos:exactMatch	gnd:4401812-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk011380	Frankfurt sausage	skos:exactMatch	gnd:4322565-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014075	ski	skos:exactMatch	gnd:4128767-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk014241	piece of paper	skos:exactMatch	gnd:1202529690		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk017782	instructional material	skos:closeMatch	gnd:4074111-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018575	animal bone	skos:exactMatch	gnd:4185479-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk018963	industrial parks	skos:exactMatch	gnd:4026826-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019069	cosmetic palette	skos:closeMatch	gnd:4453322-6		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk019956	toy instrument	skos:narrowMatch	gnd:7565607-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020481	feather (animal component)	skos:exactMatch	gnd:4188489-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020566	night photography (photographic technique)	skos:broadMatch	gnd:4128668-6		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020567	enlarging (photographic process)	skos:broadMatch	gnd:4062854-1		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020571	aerial photography	skos:relatedMatch	gnd:4036546-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020620	Filiale	skos:closeMatch	gnd:4154341-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020620	Filiale	skos:closeMatch	gnd:4322919-0		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020781	casting pattern	skos:exactMatch	gnd:4374023-6		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020782	schoolbook	skos:exactMatch	gnd:4053458-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020788	electric drill	skos:closeMatch	gnd:4007582-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020797	wholesale business	skos:exactMatch	gnd:4022203-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020814	pedestal beaker	skos:exactMatch	gnd:4684943-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020826	polyoxymethylene	skos:closeMatch	gnd:4175275-2		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020827	polypropylene	skos:exactMatch	gnd:4046724-7		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020828	polysulfone	skos:exactMatch	gnd:4175314-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020833	synthetic rubber	skos:closeMatch	gnd:4133407-3		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020835	Ungesättigtes Polyesterharz	skos:closeMatch	gnd:4718788-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020836	polyvinyl chloride with plasticizer	skos:exactMatch	gnd:4199705-0		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020839	aminoplast	skos:exactMatch	gnd:4142202-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020840	casein formaldehyde	skos:closeMatch	gnd:4813770-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020841	cellulose acetate	skos:exactMatch	gnd:4147456-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020845	epoxide	skos:exactMatch	gnd:4152561-9		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020846	urea formaldehyde	skos:closeMatch	gnd:4328387-1		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020850	natural rubber	skos:exactMatch	gnd:4133404-8		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020857	polyethylene	skos:exactMatch	gnd:4076241-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020858	high-density polyethylene	skos:exactMatch	gnd:4199101-1		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020859	low-density polyethylene	skos:exactMatch	gnd:4326450-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020865	ointment vessel	skos:closeMatch	gnd:4694916-1		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020923	doll furniture	skos:exactMatch	gnd:7632599-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020930	mask (sculpture)	skos:closeMatch	gnd:4037845-7		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020947	overhead power line	skos:exactMatch	gnd:4127931-1		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk020966	note (document)	skos:closeMatch	gnd:4206777-7		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021022	account book	skos:closeMatch	gnd:4158986-5		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021136	shoehorn	skos:exactMatch	gnd:4701969-4		semapv:UnspecifiedMatching	
+http://lvr.vocnet.org/wnk/wk021138	top hat	skos:exactMatch	gnd:4373143-0		semapv:UnspecifiedMatching	

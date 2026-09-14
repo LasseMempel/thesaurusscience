@@ -3,17 +3,20 @@
 #  semapv: https://w3id.org/semapv/vocab/
 #  orcid: https://orcid.org/
 #  github: https://github.com/
+#  bartoc: http://bartoc.org/
 #  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
 #  dai: http://thesauri.dainst.org/
-#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/auto/dai__http_thesauri_dainst_org_scheme__http_thesauri_dainst_org_scheme.sssom.tsv
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/dai__http_thesauri_dainst_org_scheme__http_thesauri_dainst_org_scheme.sssom.tsv
 #mapping_set_title: German Archaeological Institute (DAI) SKOS mappings extracted from local dump
 #mapping_set_description: SKOS mappings extracted from a local RDF dump of German Archaeological Institute (DAI) (concept scheme: http://thesauri.dainst.org/scheme), targeting concept scheme http://thesauri.dainst.org/scheme. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
 #license: https://creativecommons.org/licenses/by/4.0/
-#publication_date: 2026-09-10
+#publication_date: 2026-09-14
 #creator_id: orcid:0009-0001-5183-1635
-#creator_label: Lasse Mempel
+#creator_label: Lasse Mempel-Länger
 #mapping_tool: extract_skos_mappings_to_sssom.py
-#mapping_tool_id: https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
 #subject_source: dai:scheme
 #object_source: dai:scheme
 #comment: Extracted from local RDF file export-2020-10-14_10-36.ttl; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.

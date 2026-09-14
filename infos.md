@@ -39,8 +39,6 @@ Ariadne Mappings:
 - aus CSV extrahiert
 - DAI mappings invertiert :-D 
 
-
-
 Finto.fi Weitere englische Konzepte mit Mappings...
 Pactols?!
 
@@ -59,5 +57,3 @@ Vorgehen:
 
 - Download Ariadne Mappings via http://legacy.ariadne-infrastructure.eu/resources-2/aat/mappings-to-aat/
 - Gevibecodetes Script übersetzt Tabellen PDF in ttl Mappings, dabei Validierung ob Concept vorhanden ist und Label übereinstimmt. Altlabel Fallback weil häufig nicht das PrefLabel verwendet wurde...
-
-

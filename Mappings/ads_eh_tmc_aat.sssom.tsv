@@ -1,0 +1,50 @@
+#curie_map:
+#  fish: http://purl.org/heritagedata/
+#  fish_tbm: http://purl.org/heritagedata/schemes/eh_tbm
+#  fish_com: http://purl.org/heritagedata/schemes/eh_com
+#  fish_obj: http://purl.org/heritagedata/schemes/mda_obj
+#  fish_tmc: http://purl.org/heritagedata/schemes/eh_tmc
+#  fish_tmt2: http://purl.org/heritagedata/schemes/eh_tmt2
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_eh_tmc_aat.sssom.tsv
+#mapping_set_title: ADS Maritime Craft → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data Service (ADS) for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04w1khd64
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: fish_tmc:
+#object_source: aat:
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+fish_tmc:/concepts/100272	skos:exactMatch	aat:300232674	semapv:UnspecifiedMatching	BARGE	barges (flat-bottomed watercraft)	
+fish_tmc:/concepts/100273	skos:closeMatch	aat:300233050	semapv:UnspecifiedMatching	BARQUE	jackass barques	
+fish_tmc:/concepts/100295	skos:exactMatch	aat:300212694	semapv:UnspecifiedMatching	CARGO VESSEL	cargo vessels	
+fish_tmc:/concepts/100307	skos:closeMatch	aat:300042940	semapv:UnspecifiedMatching	CRAFT	watercraft	
+fish_tmc:/concepts/100322	skos:exactMatch	aat:300232872	semapv:UnspecifiedMatching	DREDGER	dredgers (watercraft)	
+fish_tmc:/concepts/100350	skos:closeMatch	aat:300212611	semapv:UnspecifiedMatching	FRIGATE (SAIL)	frigates	
+fish_tmc:/concepts/100355	skos:exactMatch	aat:300125456	semapv:UnspecifiedMatching	GALLEY	galleys (watercraft)	
+fish_tmc:/concepts/100359	skos:exactMatch	aat:300232845	semapv:UnspecifiedMatching	GUNBOAT	gunboats	
+fish_tmc:/concepts/100369	skos:closeMatch	aat:300233414	semapv:UnspecifiedMatching	HULK	hulks (utility and service vessels)	
+fish_tmc:/concepts/100383	skos:exactMatch	aat:300233434	semapv:UnspecifiedMatching	LIBERTY SHIP	Liberty ships	
+fish_tmc:/concepts/100391	skos:closeMatch	aat:300232932	semapv:UnspecifiedMatching	LOGBOAT	dugout-based watercraft	
+fish_tmc:/concepts/100394	skos:broadMatch	aat:300042940	semapv:UnspecifiedMatching	MARITIME CRAFT	watercraft	
+fish_tmc:/concepts/100419	skos:exactMatch	aat:300232798	semapv:UnspecifiedMatching	PASSENGER VESSEL	passenger vessels	
+fish_tmc:/concepts/100443	skos:closeMatch	aat:300233013	semapv:UnspecifiedMatching	SAILING VESSEL	sailing-vessels	
+fish_tmc:/concepts/100447	skos:exactMatch	aat:300212871	semapv:UnspecifiedMatching	SCHOONER	schooners	
+fish_tmc:/concepts/100450	skos:broadMatch	aat:300042940	semapv:UnspecifiedMatching	SERVICE VESSEL	watercraft	
+fish_tmc:/concepts/145087	skos:exactMatch	aat:300264028	semapv:UnspecifiedMatching	SEWN BOAT	sewn boats	
+fish_tmc:/concepts/100307	skos:closeMatch	aat:300082981	semapv:UnspecifiedMatching	Ship	ships	
+fish_tmc:/concepts/100455	skos:exactMatch	aat:300233561	semapv:UnspecifiedMatching	SHIP OF THE LINE	ships of the line	
+fish_tmc:/concepts/100465	skos:exactMatch	aat:300212607	semapv:UnspecifiedMatching	SUBMARINE	submarines	
+fish_tmc:/concepts/100472	skos:exactMatch	aat:300216586	semapv:UnspecifiedMatching	TANKER	tankers (cargo vessels)	
+fish_tmc:/concepts/100502	skos:broadMatch	aat:300233561	semapv:UnspecifiedMatching	THIRD RATE SHIP OF THE LINE	ships of the line	
+fish_tmc:/concepts/100480	skos:closeMatch	aat:300232815	semapv:UnspecifiedMatching	TRANSPORT VESSEL	transport vessels	
+fish_tmc:/concepts/100490	skos:exactMatch	aat:300212606	semapv:UnspecifiedMatching	WARSHIP	warships	

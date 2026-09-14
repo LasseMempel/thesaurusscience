@@ -1,0 +1,38 @@
+#curie_map:
+#  fish: http://purl.org/heritagedata/
+#  fish_tbm: http://purl.org/heritagedata/schemes/eh_tbm
+#  fish_com: http://purl.org/heritagedata/schemes/eh_com
+#  fish_obj: http://purl.org/heritagedata/schemes/mda_obj
+#  fish_tmc: http://purl.org/heritagedata/schemes/eh_tmc
+#  fish_tmt2: http://purl.org/heritagedata/schemes/eh_tmt2
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_eh_tbm_aat.sssom.tsv
+#mapping_set_title: ADS Building Materials → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data Service (ADS) for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04w1khd64
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: fish_tbm:
+#object_source: aat:
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+fish_tbm:/concepts/97722	skos:closeMatch	aat:300011701	semapv:UnspecifiedMatching	ASHLAR	ashlar	
+fish_tbm:/concepts/97777	skos:closeMatch	aat:300010463	semapv:UnspecifiedMatching	BRICK	brick (clay product)	
+fish_tbm:/concepts/97813	skos:exactMatch	aat:300235507	semapv:UnspecifiedMatching	CERAMIC	ceramic (material)	
+fish_tbm:/concepts/97840	skos:exactMatch	aat:300010737	semapv:UnspecifiedMatching	CONCRETE	concrete	
+fish_tbm:/concepts/97873	skos:exactMatch	aat:300163933	semapv:UnspecifiedMatching	DAUB	daub	
+fish_tbm:/concepts/97939	skos:exactMatch	aat:300010797	semapv:UnspecifiedMatching	GLASS	glass (material)	
+fish_tbm:/concepts/98028	skos:exactMatch	aat:300011286	semapv:UnspecifiedMatching	LIMESTONE	limestone	
+fish_tbm:/concepts/98193	skos:exactMatch	aat:300011790	semapv:UnspecifiedMatching	SLAG	slag	
+fish_tbm:/concepts/98194	skos:closeMatch	aat:300389711	semapv:UnspecifiedMatching	SLATE	slate (roofing)	
+fish_tbm:/concepts/98216	skos:exactMatch	aat:300011176	semapv:UnspecifiedMatching	STONE	stone (worked rock)	
+fish_tbm:/concepts/98241	skos:exactMatch	aat:300010676	semapv:UnspecifiedMatching	TILE	tile (materials)	
+fish_tbm:/concepts/98243	skos:closeMatch	aat:300133748	semapv:UnspecifiedMatching	TIN	tin (metal)	

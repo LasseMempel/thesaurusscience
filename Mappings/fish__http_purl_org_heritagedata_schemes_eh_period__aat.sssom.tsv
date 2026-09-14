@@ -1,0 +1,139 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  aat: http://vocab.getty.edu/aat/
+#  wikidata: http://www.wikidata.org/entity/
+#  gnd: https://d-nb.info/gnd/
+#  fish: http://purl.org/heritagedata/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/fish__http_purl_org_heritagedata_schemes_eh_period__aat.sssom.tsv
+#mapping_set_title: FISH SKOS mappings extracted from local dump
+#mapping_set_description: SKOS mappings extracted from a local RDF dump of FISH (concept scheme: http://purl.org/heritagedata/schemes/eh_period), targeting concept scheme http://vocab.getty.edu/aat/. The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
+#license: https://creativecommons.org/licenses/by/4.0/
+#publication_date: 2026-09-14
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_tool: extract_skos_mappings_to_sssom.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_vocabulary_mappings.py
+#subject_source: fish:schemes/eh_period
+#subject_source_version: 2025-07-17
+#object_source: aat:
+#comment: Extracted from local RDF file HE_Periods_20250717.rdf; source graph contains SKOS mapping assertions without information about the original mapping process or a mapping-specific source label.
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	comment
+fish:schemes/eh_period/concepts/AS	Anglo-Saxon	skos:closeMatch	aat:300021024		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/BA	Bronze Age	skos:closeMatch	aat:300019275		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C01	1st Century	skos:exactMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C02	2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C03	3rd Century	skos:exactMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C04	4th Century	skos:exactMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C05	5th Century	skos:exactMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C06	6th Century	skos:exactMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C07	7th Century	skos:exactMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C08	8th Century	skos:exactMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C09	9th Century	skos:exactMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C10	10th Century	skos:exactMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C11	11th Century	skos:exactMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C12	12th Century	skos:exactMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C13	13th Century	skos:exactMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C14	14th Century	skos:exactMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C15	15th Century	skos:exactMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C16	16th Century	skos:exactMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C17	17th Century	skos:exactMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C18	18th Century	skos:exactMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C19	19th Century	skos:exactMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C20	20th Century	skos:exactMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/C21	21st Century	skos:exactMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/CH	Chalcolithic	skos:closeMatch	aat:300019273		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/E20	Early 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/E21	Early 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EBA	Early Bronze Age	skos:closeMatch	aat:300019276		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC01	Early 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC02	Early 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC03	Early 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC04	Early 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC05	Early 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC06	Early 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC07	Early 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC08	Early 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC09	Early 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC10	Early 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC11	Early 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC12	Early 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC13	Early 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC14	Early 14th Century	skos:broadMatch	aat:300404506		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC15	Early 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC16	Early 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC17	Early 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC18	Early 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EC19	Early 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EIA	Early Iron Age	skos:closeMatch	aat:300106738		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EM	Early Medieval	skos:closeMatch	aat:300020760		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EME	Early Mesolithic	skos:broadMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ENE	Early Neolithic	skos:closeMatch	aat:300019270		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/EPR	Early Prehistoric	skos:broadMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/GEO	Georgian	skos:closeMatch	aat:300021048		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/IA	Iron Age	skos:closeMatch	aat:300019279		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/L20	Late 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/L21	Late 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LBA	Late Bronze Age	skos:closeMatch	aat:300019278		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC01	Late 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC02	Late 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC03	Late 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC04	Late 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC05	Late 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC06	Late 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC07	Late 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC08	Late 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC09	Late 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC10	Late 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC11	Late 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC12	Late 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC13	Late 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC15	Late 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC16	Late 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC17	Late 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC18	Late 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LC19	Late 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LIA	Late Iron Age	skos:closeMatch	aat:300106745		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LME	Late Mesolithic	skos:broadMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LNE	Late Neolithic	skos:closeMatch	aat:300019272		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LPA	Lower Palaeolithic	skos:closeMatch	aat:300019260		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/LPR	Later Prehistoric	skos:broadMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/M20	Mid 20th Century	skos:broadMatch	aat:300404514		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/M21	Mid 21st Century	skos:broadMatch	aat:300404515		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MBA	Middle Bronze Age	skos:closeMatch	aat:300019277		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC01	Mid 1st Century	skos:broadMatch	aat:300404493		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC02	Mid 2nd Century	skos:broadMatch	aat:300404494		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC03	Mid 3rd Century	skos:broadMatch	aat:300404495		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC04	Mid 4th Century	skos:broadMatch	aat:300404496		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC05	Mid 5th Century	skos:broadMatch	aat:300404497		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC06	Mid 6th Century	skos:broadMatch	aat:300404498		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC07	Mid 7th Century	skos:broadMatch	aat:300404499		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC08	Mid 8th Century	skos:broadMatch	aat:300404500		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC09	Mid 9th Century	skos:broadMatch	aat:300404501		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC10	Mid 10th Century	skos:broadMatch	aat:300404502		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC11	Mid 11th Century	skos:broadMatch	aat:300404503		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC12	Mid 12th Century	skos:broadMatch	aat:300404504		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC13	Mid 13th Century	skos:broadMatch	aat:300404505		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC15	Mid 15th Century	skos:broadMatch	aat:300404465		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC16	Mid 16th Century	skos:broadMatch	aat:300404510		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC17	Mid 17th Century	skos:broadMatch	aat:300404511		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC18	Mid 18th Century	skos:broadMatch	aat:300404512		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MC19	Mid 19th Century	skos:broadMatch	aat:300404513		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MD	Medieval	skos:closeMatch	aat:300020756		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ME	Mesolithic	skos:closeMatch	aat:300019264		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MIA	Middle Iron Age	skos:closeMatch	aat:300106739		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MNE	Middle Neolithic	skos:closeMatch	aat:300019271		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/MPA	Middle Palaeolithic	skos:closeMatch	aat:300019261		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/NE	Neolithic	skos:closeMatch	aat:300019267		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/PA	Palaeolithic	skos:closeMatch	aat:300019258		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/PR	Prehistoric	skos:closeMatch	aat:300019257		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/RO	Roman	skos:closeMatch	aat:300020541		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROAN	Antonine	skos:closeMatch	aat:300020560		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROFL	Flavian	skos:closeMatch	aat:300020551		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROHA	Hadrianic	skos:closeMatch	aat:300107350		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/ROSE	Severan	skos:closeMatch	aat:300020566		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/UPA	Upper Palaeolithic	skos:closeMatch	aat:300019262		semapv:UnspecifiedMatching	
+fish:schemes/eh_period/concepts/VIC	Victorian	skos:closeMatch	aat:300021232		semapv:UnspecifiedMatching	

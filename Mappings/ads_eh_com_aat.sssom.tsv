@@ -1,0 +1,35 @@
+#curie_map:
+#  fish: http://purl.org/heritagedata/
+#  fish_tbm: http://purl.org/heritagedata/schemes/eh_tbm
+#  fish_com: http://purl.org/heritagedata/schemes/eh_com
+#  fish_obj: http://purl.org/heritagedata/schemes/mda_obj
+#  fish_tmc: http://purl.org/heritagedata/schemes/eh_tmc
+#  fish_tmt2: http://purl.org/heritagedata/schemes/eh_tmt2
+#  aat: http://vocab.getty.edu/aat/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  orcid: https://orcid.org/
+#  github: https://github.com/
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/ads_eh_com_aat.sssom.tsv
+#mapping_set_title: ADS Components → Getty AAT crosswalk (ARIADNE)
+#mapping_set_description: FISH-thesaurus-to-AAT concept crosswalk compiled by the Archaeology Data Service (ADS) for the ARIADNE project, extracted from the project's published PDF table.
+#license: https://creativecommons.org/licenses/by/4.0/
+#mapping_date: 2019-01-29
+#publication_date: 2026-09-10
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://ror.org/04w1khd64
+#mapping_tool: build_aat_mappings.py (PDF table extraction)
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_aat_mappings.py
+#subject_source: fish_com:
+#object_source: aat:
+#see_also: http://legacy.ariadne-infrastructure.eu/wp-content/uploads/2019/01/ARIADNE_ADS_AAT_Mappings.pdf
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	comment
+fish_com:/concepts/137632	skos:exactMatch	aat:300022331	semapv:UnspecifiedMatching	CRANE	cranes (equipment)	
+fish_com:/concepts/137654	skos:exactMatch	aat:300001846	semapv:UnspecifiedMatching	CRUCK	crucks	
+fish_com:/concepts/137700	skos:closeMatch	aat:300002232	semapv:UnspecifiedMatching	DORMER WINDOW	dormers	
+fish_com:/concepts/137771	skos:exactMatch	aat:300052267	semapv:UnspecifiedMatching	FIREPLACE	fireplaces	
+fish_com:/concepts/137950	skos:exactMatch	aat:300003161	semapv:UnspecifiedMatching	LINTEL	lintels (spanning elements)	
+fish_com:/concepts/138038	skos:exactMatch	aat:300002954	semapv:UnspecifiedMatching	ORIEL WINDOW	oriel windows	
+fish_com:/concepts/138059	skos:exactMatch	aat:300002717	semapv:UnspecifiedMatching	PARAPET	parapets	
+fish_com:/concepts/138109	skos:broadMatch	aat:300001609	semapv:UnspecifiedMatching	POST HOLE	posts (structural elements)	
+fish_com:/concepts/138191	skos:exactMatch	aat:300185694	semapv:UnspecifiedMatching	SAIL	sails (equipment)	
