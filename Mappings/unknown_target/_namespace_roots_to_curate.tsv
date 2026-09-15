@@ -1,5 +1,4 @@
 count	namespace_root
-4172	http://d-nb.info/gnd/
 3485	http://data.uba.de/umt/
 3006	http://dbpedia.org/resource/
 1942	http://eurovoc.europa.eu/
@@ -171,10 +170,6 @@ count	namespace_root
 1	file:///home/mempellaenger/repos/thesaurusscience/DAI/
 1	file:///home/mempellaenger/repos/thesaurusscience/Wortnetz/wikidata.org/wiki/
 1	http://
-1	http://d-nb.info/gnd/4010384-5/about/
-1	http://d-nb.info/gnd/4011510-0/about/
-1	http://d-nb.info/gnd/4329581-2/about/
-1	http://d-nb.info/gnd/4480980-3/about/
 1	http://data.bnf.fr/11930926/peinture_a_l_aquarelle/
 1	http://data.bnf.fr/11931695/chateaux_forts/
 1	http://data.bnf.fr/11931803/couture/

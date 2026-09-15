@@ -21,7 +21,7 @@
 #mapping_set_title: Backbone Thesaurus → GEMET, the GEneral Multilingual Environmental Thesaurus SKOS mappings
 #mapping_set_description: SKOS mappings extracted from local RDF dump(s) of Backbone Thesaurus (concept scheme: https://vocabs.dariah.eu/bbt/ConceptScheme/Backbone_Thesaurus), targeting GEMET, the GEneral Multilingual Environmental Thesaurus (concept scheme: http://www.eionet.europa.eu/gemet/gemetThesaurus). The original procedure by which the mappings were established is unknown; mapping_justification is therefore semapv:UnspecifiedMatching.
 #license: https://creativecommons.org/licenses/by/4.0/
-#publication_date: 2026-09-14
+#publication_date: 2026-09-15
 #creator_id: orcid:0009-0001-5183-1635
 #creator_label: Lasse Mempel-Länger
 #mapping_tool: extract_skos_mappings_to_sssom.py

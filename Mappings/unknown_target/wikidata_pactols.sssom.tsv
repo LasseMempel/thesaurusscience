@@ -1,0 +1,233 @@
+#curie_map:
+#  wd: http://www.wikidata.org/entity/
+#  wds: http://www.wikidata.org/entity/statement/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  semapv: https://w3id.org/semapv/vocab/
+#  github: https://github.com/
+#  bartoc: http://bartoc.org/
+#  pactols: https://ark.frantiq.fr/ark:/26678/
+#  pactols_lieux: https://ark.frantiq.fr/ark:/26678/th17
+#  pactols_sujets: https://ark.frantiq.fr/ark:/26678/TH_1
+#mapping_set_id: https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/unknown_target/wikidata_pactols.sssom.tsv
+#mapping_set_title: Wikidata to PACTOLS (scheme unresolved)
+#mapping_set_description: Wikidata items carrying a P4212 identifier, harvested via SPARQL from https://query.wikidata.org/sparql, for ids not found in either local Pactols dump (Lieux/Sujets) — scheme could not be determined from PACTOLS_DIR.
+#license: https://creativecommons.org/licenses/by/4.0/
+#creator_id: orcid:0009-0001-5183-1635
+#creator_label: Lasse Mempel-Länger
+#mapping_provider: https://www.wikidata.org/
+#mapping_tool: build_wikidata_mappings.py
+#mapping_tool_id: github:LasseMempel/thesaurusscience/blob/main/Scripts/build_wikidata_mappings.py
+#subject_source: bartoc:en/node/1940
+#comment: predicate_id defaults to skos:exactMatch (per project decision); overridden per-row only when the Wikidata statement carries a mapping relation type (P4390) qualifier. mapping_source is the specific Wikidata statement URI. Lieux/Sujets scheme determined by looking up each id against local Pactols RDF dumps (load_pactols_scheme_index(), PACTOLS_DIR) — not from Wikidata itself, since P4212 doesn't distinguish the two schemes.
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	mapping_source	comment
+wd:Q142	skos:exactMatch	pactols:pcrtSXwPXnEUgp	semapv:UnspecifiedMatching	France		http://www.wikidata.org/entity/statement/Q142-D58CC274-27AF-44B3-A2DC-27EDA30C9EDC	
+wd:Q155	skos:exactMatch	pactols:pcrt8MX4DfGUpg	semapv:UnspecifiedMatching	Brazil		http://www.wikidata.org/entity/statement/Q155-85EE40B3-DF80-42B7-897A-1453AD85F3DD	
+wd:Q176	skos:exactMatch	pactols:pcrt2b4vHOgFhF	semapv:UnspecifiedMatching	Quebec		http://www.wikidata.org/entity/statement/Q176-90D4B41E-0709-4C2C-AC05-8FA29E276BDC	
+wd:Q49	skos:exactMatch	pactols:pcrt0NhSIs62Uc	semapv:UnspecifiedMatching	North America		http://www.wikidata.org/entity/statement/Q49-BEB2D6F6-DBEC-4C74-BC13-A6D7FE336F60	
+wd:Q77	skos:exactMatch	pactols:pcrtRWx4oOa2R9	semapv:UnspecifiedMatching	Uruguay		http://www.wikidata.org/entity/statement/Q77-5CD3C470-AA86-4298-8E9C-ED1927196FE4	
+wd:Q79	skos:exactMatch	pactols:pcrt0OidHW9S2y	semapv:UnspecifiedMatching	Egypt		http://www.wikidata.org/entity/statement/Q79-F6228BD8-5CAB-4AC3-8671-746E9786A197	
+wd:Q1000327	skos:exactMatch	pactols:pcrtTrYIclY8Qe	semapv:UnspecifiedMatching	Yengema		http://www.wikidata.org/entity/statement/Q1000327-4AE9D301-DAB6-4366-AC6C-3381AA01A015	
+wd:Q101625	skos:exactMatch	pactols:pcrtT5Zka8Fnri	semapv:UnspecifiedMatching	Marrakech		http://www.wikidata.org/entity/statement/Q101625-DACD7240-1536-4DB3-86B2-16DDB8A5B061	
+wd:Q1065579	skos:exactMatch	pactols:pcrtMniWWmwgMH	semapv:UnspecifiedMatching	fashion accessory		http://www.wikidata.org/entity/statement/Q1065579-46A67B2D-536B-4421-BBD5-E9AFE9003AD2	
+wd:Q107293358	skos:exactMatch	pactols:crtfflVX7ZrpK	semapv:UnspecifiedMatching	archaeological report		http://www.wikidata.org/entity/statement/Q107293358-865F01BB-C7DD-4981-BEF7-86BF7EC31A44	
+wd:Q1093065	skos:exactMatch	pactols:pcrtLibJ42keWN	semapv:UnspecifiedMatching	Piégut		http://www.wikidata.org/entity/statement/Q1093065-F9007B18-B072-4F0B-AB0D-FCF5688473D6	
+wd:Q1127723	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrt4g0vfvpwbvv9jbhkwrtf	semapv:UnspecifiedMatching	Paracas culture		http://www.wikidata.org/entity/statement/Q1127723-c3151e74-476c-025b-9e41-10691971bbb4	
+wd:Q112940062	skos:exactMatch	pactols:crtjJAXc7Zznt	semapv:UnspecifiedMatching	Nahal Hemar Cave		http://www.wikidata.org/entity/statement/Q112940062-c043144f-4bd3-3026-be3f-af7597df3719	
+wd:Q1139666	skos:exactMatch	pactols:pcrt0b2bxKsdpB	semapv:UnspecifiedMatching	Borkou		http://www.wikidata.org/entity/statement/Q1139666-37987236-CEFE-464A-AC90-E79DE77700FE	
+wd:Q1145180	skos:exactMatch	pactols:pcrt0FPtlhvYbM	semapv:UnspecifiedMatching	Canopus		http://www.wikidata.org/entity/statement/Q1145180-27159051-8CA4-44D3-A687-3577F4B5C126	
+wd:Q11936307	skos:exactMatch	pactols:pcrttUJk3MIJwb	semapv:UnspecifiedMatching	Madauros		http://www.wikidata.org/entity/statement/Q11936307-CE3E90EF-7905-4ACA-B071-BF75A693853B	
+wd:Q11944146	skos:exactMatch	pactols:pcrtzqbfEpV4KV	semapv:UnspecifiedMatching	Qasr Qarun		http://www.wikidata.org/entity/statement/Q11944146-DB55A94D-E350-4AC5-8B54-36A6A5A98209	
+wd:Q1204373	skos:exactMatch	pactols:pcrt9PNT5Oxhc2	semapv:UnspecifiedMatching	Maktar		http://www.wikidata.org/entity/statement/Q1204373-1264A7D7-92D1-4012-93CB-C8E4A8C75CF8	
+wd:Q1206419	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtkfpt2pj1mn1dg3p2fzr6	semapv:UnspecifiedMatching	beams		http://www.wikidata.org/entity/statement/Q1206419-09f06d68-4c20-a925-d3e6-ff2400bc5b6a	
+wd:Q12203518	skos:exactMatch	pactols:pcrtPfFhAPf1R1	semapv:UnspecifiedMatching	Tuna el-Gebel		http://www.wikidata.org/entity/statement/Q12203518-C9C81E45-6BF5-4370-AC0B-0E4AB4B2213D	
+wd:Q12243940	skos:exactMatch	pactols:pcrtY5DfSywofx	semapv:UnspecifiedMatching	delegation of Sbiba		http://www.wikidata.org/entity/statement/Q12243940-33F5DFD0-A4AE-4C56-8B38-331F8E36218F	
+wd:Q125309	skos:exactMatch	pactols:pcrttgHrE2OFmg	semapv:UnspecifiedMatching	Lake Chad		http://www.wikidata.org/entity/statement/Q125309-AEAE0BF6-B450-4E06-826E-8BF3FD53E70E	
+wd:Q1257443	skos:exactMatch	pactols:pcrtm3f86tVgE0	semapv:UnspecifiedMatching	Tétouan Province		http://www.wikidata.org/entity/statement/Q1257443-D079113F-E99B-4AB5-8626-FDC7AEFD7C38	
+wd:Q126148	skos:exactMatch	pactols:pcrtzwDcvIX1bf	semapv:UnspecifiedMatching	Tangier		http://www.wikidata.org/entity/statement/Q126148-079DD078-E239-449A-BA94-61A5C1201FE9	
+wd:Q128011	skos:exactMatch	pactols:pcrtofifH8uo8K	semapv:UnspecifiedMatching	Greater Antilles		http://www.wikidata.org/entity/statement/Q128011-3348A613-E27A-4272-A43B-1100E093A8FD	
+wd:Q133423	skos:exactMatch	pactols:pcrtOtIDZnzFy6	semapv:UnspecifiedMatching	Valley of the Kings		http://www.wikidata.org/entity/statement/Q133423-0604B625-769A-418B-9C74-CC35BB77BCD8	
+wd:Q1366914	skos:exactMatch	pactols:pcrtUS1qRhxwbc	semapv:UnspecifiedMatching	Rabbinic Judaism		http://www.wikidata.org/entity/statement/Q1366914-47AE9BC0-38FB-453B-97C6-309D9B78127E	
+wd:Q137721	skos:exactMatch	pactols:pcrt0iSEEtOMxN	semapv:UnspecifiedMatching	Naucratis		http://www.wikidata.org/entity/statement/Q137721-B1598779-C54F-4090-8761-EB73F74141CA	
+wd:Q138531	skos:exactMatch	pactols:pcrx6xlp0j3fr7s7s80jd8r-s	semapv:UnspecifiedMatching	Phlegon of Tralles		http://www.wikidata.org/entity/statement/Q138531-5c78db76-4597-c4b2-1d54-b0018dc4cd02	
+wd:Q1392801	skos:exactMatch	pactols:pcrm72md8t45175qtb1ml6w-1	semapv:UnspecifiedMatching	Posidippus		http://www.wikidata.org/entity/statement/Q1392801-cbab1f21-4f7f-132e-c99d-7866320dbe6e	
+wd:Q140131	skos:exactMatch	pactols:pcrtnhGwhKcerA	semapv:UnspecifiedMatching	Zafar		http://www.wikidata.org/entity/statement/Q140131-37839F95-71D4-4639-8488-A1D9D4DE60A6	
+wd:Q14218430	skos:exactMatch	pactols:pcrtEOhmXTYwPr	semapv:UnspecifiedMatching	Qasr el-Ghueita		http://www.wikidata.org/entity/statement/Q14218430-C4361A4F-9E16-46ED-A784-5EDC00311A0D	
+wd:Q14218523	skos:exactMatch	pactols:pcrt78WGGU8xVz	semapv:UnspecifiedMatching	Qarat el-Muzawwaqa		http://www.wikidata.org/entity/statement/Q14218523-6D6FF137-9D1F-4971-952A-4645792E37C1	
+wd:Q1462523	skos:exactMatch	pactols:pcrtSXrgwjhfL1	semapv:UnspecifiedMatching	Serabit el-Khadim		http://www.wikidata.org/entity/statement/Q1462523-6786E8D3-4FFA-49F0-BCF2-498FED5BBAC9	
+wd:Q1476222	skos:exactMatch	pactols:pcrtdS4LeVVxlw	semapv:UnspecifiedMatching	Sehel Island		http://www.wikidata.org/entity/statement/Q1476222-6979AD3A-40B9-4949-B287-87070DECA7AB	
+wd:Q1485667	skos:exactMatch	pactols:pcrtiVsmcLVeEL	semapv:UnspecifiedMatching	Semna		http://www.wikidata.org/entity/statement/Q1485667-EFFD6708-5404-4798-98F9-8C25EFD6534F	
+wd:Q1500580	skos:exactMatch	pactols:pcrtzQHtei5Qra	semapv:UnspecifiedMatching	Tebtunis		http://www.wikidata.org/entity/statement/Q1500580-8F3A5204-C5EC-4580-9098-B5CEE4BA4059	
+wd:Q1518812	skos:exactMatch	pactols:pcrtwDYuIPGwln	semapv:UnspecifiedMatching	Le Haut-Saint-Laurent		http://www.wikidata.org/entity/statement/Q1518812-BFE78FF8-4892-4D6B-9855-933ACA66AB7F	
+wd:Q1521492	skos:exactMatch	pactols:pcrtmmKrx3JilV	semapv:UnspecifiedMatching	Ghazaouet		http://www.wikidata.org/entity/statement/Q1521492-1A719EFE-F55F-4B7F-87BB-AACB25C98111	
+wd:Q15991187	skos:exactMatch	pactols:26678/pcrtLBd1stuzem	semapv:UnspecifiedMatching	grammarian		http://www.wikidata.org/entity/statement/Q15991187-012675B6-3AF5-4C59-86F2-77DB89B1A900	
+wd:Q1650254	skos:exactMatch	pactols:pcrtN3p4yhY2U3	semapv:UnspecifiedMatching	Tagdemt		http://www.wikidata.org/entity/statement/Q1650254-D05DCFDA-9F3C-470D-8355-E9F7C634C794	
+wd:Q166523	skos:exactMatch	pactols:pcrtYeKFHfsRSS	semapv:UnspecifiedMatching	Utica		http://www.wikidata.org/entity/statement/Q166523-BF3C9B89-7FF9-41EC-A86C-EB93D1C28EEF	
+wd:Q170552	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtfg36trqrfw2tkdt3h683	semapv:UnspecifiedMatching	balcony		http://www.wikidata.org/entity/statement/Q170552-50af978e-4725-94f7-96f4-324e3a7b3b83	
+wd:Q1728322	skos:exactMatch	pactols:pcrtX7ino7D7Qi	semapv:UnspecifiedMatching	Wadi es-Sebua		http://www.wikidata.org/entity/statement/Q1728322-CDAD6515-8AA8-43B0-BF7B-EE05D907713F	
+wd:Q179570	skos:exactMatch	pactols:pcrt01QWrQjuUx	semapv:UnspecifiedMatching	Kairouan		http://www.wikidata.org/entity/statement/Q179570-0C025283-CB77-4F7B-B412-5B58FF2D7862	
+wd:Q179643	skos:exactMatch	pactols:https://www.wikidata.org/wiki/Q179643	semapv:UnspecifiedMatching	underwater diving		http://www.wikidata.org/entity/statement/Q179643-c1d99bf8-4804-f0be-e433-7cbbc471a275	
+wd:Q180717	skos:exactMatch	pactols:pcrtzMxOwsfTkb	semapv:UnspecifiedMatching	Sousse		http://www.wikidata.org/entity/statement/Q180717-5F7E1E47-2E98-466A-A167-226FDF70CE39	
+wd:Q1819589	skos:exactMatch	pactols:pcrtgLSs4INlV2	semapv:UnspecifiedMatching	Taza Province		http://www.wikidata.org/entity/statement/Q1819589-60BD9455-702F-40C2-8599-24351C1E9758	
+wd:Q182719	skos:exactMatch	pactols:pcrts40JZOyOqZ	semapv:UnspecifiedMatching	Lake Turkana		http://www.wikidata.org/entity/statement/Q182719-A902328A-006D-4190-B3F1-075B7BAF78F3	
+wd:Q18398351	skos:exactMatch	pactols:pcrtGQGEMwpBVE	semapv:UnspecifiedMatching	Meseta Marocaine		http://www.wikidata.org/entity/statement/Q18398351-79207CB7-678A-4269-990F-F6EFFE3226BA	
+wd:Q184654	skos:exactMatch	pactols:pcrtNmTQSh6kFS	semapv:UnspecifiedMatching	decathlon		http://www.wikidata.org/entity/statement/Q184654-7F1F3D6D-3182-46EB-811C-C5C399229007	
+wd:Q18478786	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtg1dcbbjw03rtkw5sffjn	semapv:UnspecifiedMatching	Campestrin		http://www.wikidata.org/entity/statement/Q18478786-b0e064e3-4c8a-08a7-3c7b-29b8e38b77f0	
+wd:Q191504	skos:exactMatch	pactols:pcrteevDPSRAOc	semapv:UnspecifiedMatching	Leptis Magna		http://www.wikidata.org/entity/statement/Q191504-788E6C26-E678-4347-8AA4-6468F5E2F635	
+wd:Q1918358	skos:exactMatch	pactols:pcrt0pY396iTvu	semapv:UnspecifiedMatching	Bu Njem (Gholaia)		http://www.wikidata.org/entity/statement/Q1918358-3BCE5BAF-8EEA-4DE5-9A21-5F5E72B89F22	
+wd:Q192134	skos:exactMatch	pactols:pcrtl7muE00zy8	semapv:UnspecifiedMatching	Saqqara		http://www.wikidata.org/entity/statement/Q192134-B66BB64E-033C-4707-8923-9AD16E45851F	
+wd:Q192268	skos:exactMatch	pactols:pcrtDwJ05z0S4F	semapv:UnspecifiedMatching	Abydos		http://www.wikidata.org/entity/statement/Q192268-E8D06B10-C09C-445B-958B-3D9A140C8981	
+wd:Q192435	skos:exactMatch	pactols:pcrtPWU6GJFuvS	semapv:UnspecifiedMatching	Tripolitania		http://www.wikidata.org/entity/statement/Q192435-5F5324F9-A4D1-4B13-B6DE-E4DD2ACC162D	
+wd:Q193486	skos:exactMatch	pactols:pcrtOzImkq9042	semapv:UnspecifiedMatching	Dire Dawa		http://www.wikidata.org/entity/statement/Q193486-B48B5E1E-7508-46F6-9DFE-F11A13B0A4D9	
+wd:Q1967945	skos:exactMatch	pactols:pcrtFAERzwLjbc	semapv:UnspecifiedMatching	Thuburbo Majus		http://www.wikidata.org/entity/statement/Q1967945-11BE3D66-23A8-41B7-96F2-30BCA7935A71	
+wd:Q200127	skos:exactMatch	pactols:pcrtrJrNTFIOg5	semapv:UnspecifiedMatching	Tigray Region		http://www.wikidata.org/entity/statement/Q200127-A2B772A1-5AF3-4C45-8441-26756F2E68DC	
+wd:Q205792	skos:exactMatch	pactols:pcrtOGW5uTdwV9	semapv:UnspecifiedMatching	Tamanrasset		http://www.wikidata.org/entity/statement/Q205792-BF36C066-7425-43C5-BB84-53CC331321C2	
+wd:Q2089594	skos:exactMatch	pactols:pcrt0N78e3sZxa	semapv:UnspecifiedMatching	Sidi Kacem		http://www.wikidata.org/entity/statement/Q2089594-4688F0CE-802D-4607-A35D-65578495DCB2	
+wd:Q2097405	skos:exactMatch	pactols:pcrty20pTe9PGf	semapv:UnspecifiedMatching	Qantir		http://www.wikidata.org/entity/statement/Q2097405-EAE2F710-95E2-40D6-8CDE-FAF53212B69F	
+wd:Q210598	skos:exactMatch	pactols:pcrtk2bRPLhSSn	semapv:UnspecifiedMatching	Tanis		http://www.wikidata.org/entity/statement/Q210598-08AABE1A-0DBA-451B-9200-526C90ACF978	
+wd:Q212414	skos:exactMatch	pactols:pcrtBuu54XH9VK	semapv:UnspecifiedMatching	Cupisnique culture		http://www.wikidata.org/entity/statement/Q212414-0B87B829-60BD-44A8-B7CA-AD21F7B36415	
+wd:Q213232	skos:exactMatch	pactols:pcrtTSb621PHDi	semapv:UnspecifiedMatching	Uxmal		http://www.wikidata.org/entity/statement/Q213232-2ACADB8B-D00E-4011-B797-C4D84AF1891B	
+wd:Q215194	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtbf4b7d5grk1zg54fptvr	semapv:UnspecifiedMatching	gargoyle		http://www.wikidata.org/entity/statement/Q215194-43b55995-495b-7c52-50b9-f7e69ebbffa7	
+wd:Q215661	skos:exactMatch	pactols:pcrtfQDav4Mv7p	semapv:UnspecifiedMatching	Gabès		http://www.wikidata.org/entity/statement/Q215661-8DC13188-DC3F-4E4C-9608-937478CDB048	
+wd:Q217043	skos:exactMatch	pactols:pcrtVrtbLRKIMX	semapv:UnspecifiedMatching	Olduvai Gorge		http://www.wikidata.org/entity/statement/Q217043-E0AF5E62-5033-495C-81F4-FE423AD3B2D2	
+wd:Q217762	skos:exactMatch	pactols:5 re con lo stesso nome	semapv:UnspecifiedMatching	list of kings of Assyria		http://www.wikidata.org/entity/statement/Q217762-9B7304AE-6794-4334-80E3-AB093CF79A75	
+wd:Q2223705	skos:exactMatch	pactols:pcrt3YGNBdJsAK	semapv:UnspecifiedMatching	Ba‘alat Gebal		http://www.wikidata.org/entity/statement/Q2223705-0454E596-8E64-42CD-996D-97D5C02175B1	
+wd:Q233458	skos:exactMatch	pactols:26678/pcrtbb8xz4mmd6pwdrh28xmw	semapv:UnspecifiedMatching	Ennead		http://www.wikidata.org/entity/statement/Q233458-d5d94544-44c4-20e0-34ec-61ffce3a1ff1	
+wd:Q2349908	skos:exactMatch	pactols:crty26A3RkXQlol	semapv:UnspecifiedMatching	French Renaissance		http://www.wikidata.org/entity/statement/Q2349908-A41293A0-589C-4ACA-A19A-7A5BF025358A	
+wd:Q2372919	skos:exactMatch	pactols:pcrtIv2syD3an8	semapv:UnspecifiedMatching	Leontopolis		http://www.wikidata.org/entity/statement/Q2372919-83A58132-5DC7-40C5-BD34-B85C6F4DA70B	
+wd:Q23951699	skos:exactMatch	pactols:pcrtfRofiKFX6E	semapv:UnspecifiedMatching	El Tarif		http://www.wikidata.org/entity/statement/Q23951699-E78862ED-7215-43DB-BBA1-F591EFBD1134	
+wd:Q241145	skos:exactMatch	pactols:pcrtL332Ka9nLm	semapv:UnspecifiedMatching	Sfax Governorate		http://www.wikidata.org/entity/statement/Q241145-B65B7174-F847-4447-B11A-8EF029295EFC	
+wd:Q244004	skos:exactMatch	pactols:pcrtF8NoyIt4yB	semapv:UnspecifiedMatching	Sétif		http://www.wikidata.org/entity/statement/Q244004-5FBA1E40-C84B-4AD5-9A91-3BEA3175EC45	
+wd:Q245062	skos:exactMatch	pactols:pcrtY5DozxK7lr	semapv:UnspecifiedMatching	Philae		http://www.wikidata.org/entity/statement/Q245062-8E85BE21-CE87-4163-9AE5-1910D62BA872	
+wd:Q2461793	skos:exactMatch	pactols:pcrtkL5tPV5Ek4	semapv:UnspecifiedMatching	Tusuros		http://www.wikidata.org/entity/statement/Q2461793-41147D7E-7DB4-4726-A923-F65DFE04A17A	
+wd:Q260386	skos:exactMatch	pactols:pcrt2Rglu39tHI	semapv:UnspecifiedMatching	Valley of the Queens		http://www.wikidata.org/entity/statement/Q260386-D51C8BC4-6F3D-4918-A72D-1EE381C0F36B	
+wd:Q265177	skos:exactMatch	pactols:26678/pcrt4sk325ttmp51w4089fh4	semapv:UnspecifiedMatching	Ogdoad		http://www.wikidata.org/entity/statement/Q265177-6108ac3d-487d-79ad-9fd4-1d78a9eed702	
+wd:Q2656389	skos:exactMatch	pactols:pcrtSJtfAOWVZN	semapv:UnspecifiedMatching	Mauritius Island		http://www.wikidata.org/entity/statement/Q2656389-9CEAE1D6-FCD4-46DA-9BFC-19A81C853A75	
+wd:Q271771	skos:exactMatch	pactols:pcrtkaGkWqa0Sj	semapv:UnspecifiedMatching	Tanta		http://www.wikidata.org/entity/statement/Q271771-B4BA39A3-EFE5-4777-8894-FC78FE60EBD6	
+wd:Q272521	skos:exactMatch	pactols:pcrt1gOGU2FNSx	semapv:UnspecifiedMatching	Ténéré desert		http://www.wikidata.org/entity/statement/Q272521-8EA12BE2-9D81-4F99-B8ED-DFA8BE8048BD	
+wd:Q273779	skos:exactMatch	pactols:pcrttehdrgsUnA	semapv:UnspecifiedMatching	Saint-Louis		http://www.wikidata.org/entity/statement/Q273779-0AFC6E0A-F40E-4A61-A7CE-997BA0060876	
+wd:Q276565	skos:exactMatch	pactols:pcrt1olejNLJOS	semapv:UnspecifiedMatching	Sousse Governorate		http://www.wikidata.org/entity/statement/Q276565-5464484B-49A8-4E79-B482-076E5D54BE67	
+wd:Q2841453	skos:exactMatch	pactols:pcrtcjgkTWsWnm	semapv:UnspecifiedMatching	Amazonia		http://www.wikidata.org/entity/statement/Q2841453-71753DBA-7BB1-47F5-A812-4F4CE6DA8482	
+wd:Q2914427	skos:exactMatch	pactols:26678/pcrtz2p61n7r6ht68r2jxdx1	semapv:UnspecifiedMatching	guardhouse		http://www.wikidata.org/entity/statement/Q2914427-9e7137f7-4b1c-124e-2afb-6c7c7e5be560	
+wd:Q29477178	skos:exactMatch	pactols:pcrt8WJQ9WYnAG	semapv:UnspecifiedMatching	spearhead		http://www.wikidata.org/entity/statement/Q29477178-5D00CF50-32AE-4FFA-93D4-9AC45AC76FFA	
+wd:Q30180689	skos:exactMatch	pactols:pcrt6EadRMSk7z	semapv:UnspecifiedMatching	phylactery		http://www.wikidata.org/entity/statement/Q30180689-B29C8505-108F-4506-B4BF-CAB3AB3DD169	
+wd:Q3019442	skos:exactMatch	pactols:pcrt0gJi1aufql	semapv:UnspecifiedMatching	Arzew District		http://www.wikidata.org/entity/statement/Q3019442-446465AC-EB77-4BBB-9C19-144ED70409DC	
+wd:Q3068813	skos:exactMatch	pactols:pcrtW0YvHx5dSg	semapv:UnspecifiedMatching	Ferkane		http://www.wikidata.org/entity/statement/Q3068813-04F6A43B-746F-4598-B257-EF6F50B7D450	
+wd:Q312000	skos:exactMatch	pactols:pcrtcdvdXtdcyd	semapv:UnspecifiedMatching	Sour El-Ghozlane		http://www.wikidata.org/entity/statement/Q312000-9D90BDAA-3BC6-42E4-93D1-023893A1DFC3	
+wd:Q3136256	skos:exactMatch	pactols:pcrtZw3HvSovXE	semapv:UnspecifiedMatching	uMhlanga		http://www.wikidata.org/entity/statement/Q3136256-4B5F98E9-E6D3-47B6-BFC6-F817FABCB1EB	
+wd:Q3179033	skos:exactMatch	pactols:pcrtRbAWGaNMx5	semapv:UnspecifiedMatching	Sidi El Hani		http://www.wikidata.org/entity/statement/Q3179033-8A854DB3-A6E3-4FA2-9CD1-2FDD84C008A9	
+wd:Q324457	skos:exactMatch	pactols:pcrtdFajhVBDWt	semapv:UnspecifiedMatching	Oceanic		http://www.wikidata.org/entity/statement/Q324457-62C61057-2DAE-4826-B442-D49B0E235F5E	
+wd:Q328109	skos:exactMatch	pactols:pcrtM5c88AmM7o	semapv:UnspecifiedMatching	Tunis Governorate		http://www.wikidata.org/entity/statement/Q328109-B2C837E6-A508-4C63-9AFB-79A1F873678B	
+wd:Q3324813	skos:exactMatch	pactols:pcrtSR3VXNeeY8	semapv:UnspecifiedMatching	Oued Athmania		http://www.wikidata.org/entity/statement/Q3324813-E1D81C11-16F9-4938-93CD-6C20C61E7ABE	
+wd:Q336098	skos:exactMatch	pactols:pcrtu8o4sS6r04	semapv:UnspecifiedMatching	Abusir		http://www.wikidata.org/entity/statement/Q336098-3A7677BE-EE10-4760-A1F1-F984D8F09CC5	
+wd:Q3374965	skos:exactMatch	pactols:pcr6tc5l6l8b58wf2snlft9-7	semapv:UnspecifiedMatching	decorative hinges		http://www.wikidata.org/entity/statement/Q3374965-9997143f-4e2f-d7df-59b1-b593e7678cf1	
+wd:Q340572	skos:exactMatch	pactols:pcrtO8ytzleaBZ	semapv:UnspecifiedMatching	Akhmim		http://www.wikidata.org/entity/statement/Q340572-D31AD0E0-323E-4714-89CF-8A09F5517666	
+wd:Q3478631	skos:exactMatch	pactols:crtzsvtrv7r46	semapv:UnspecifiedMatching	Sensible		http://www.wikidata.org/entity/statement/Q3478631-e894962c-4c01-1f7d-a6f5-5a90fbfafd2a	
+wd:Q3511003	skos:exactMatch	pactols:pcrtMQ8S3VPy8Q	semapv:UnspecifiedMatching	Senegambia		http://www.wikidata.org/entity/statement/Q3511003-335CDF35-3E2B-4F53-BBFA-FA83F2211BE1	
+wd:Q3514786	skos:exactMatch	pactols:pcrtByTOgSwHHH	semapv:UnspecifiedMatching	Tamentfoust		http://www.wikidata.org/entity/statement/Q3514786-12B857E9-F21B-4639-9F40-38ECE3377B56	
+wd:Q3519548	skos:exactMatch	pactols:pcrtYeQc9yn9z0	semapv:UnspecifiedMatching	Thamusida		http://www.wikidata.org/entity/statement/Q3519548-EAF5E600-D6CF-4564-B781-38C77B6F45E2	
+wd:Q3551781	skos:exactMatch	pactols:pcrteivlbjhpks	semapv:UnspecifiedMatching	District of Columbia		http://www.wikidata.org/entity/statement/Q3551781-c6ee4a89-4c4e-fe42-7ff4-643466fc8e83	
+wd:Q3589113	skos:exactMatch	pactols:pcr1lk4lj8lwbb23k011bwf-b	semapv:UnspecifiedMatching	Ephesian Tale		http://www.wikidata.org/entity/statement/Q3589113-d4e49c81-4af7-c293-917a-0e55f7accd29	
+wd:Q381038	skos:exactMatch	pactols:pcrtqYyLKVDpSv	semapv:UnspecifiedMatching	Sais		http://www.wikidata.org/entity/statement/Q381038-E458280F-E81F-493F-B193-6E185B3E4BC9	
+wd:Q3844591	skos:exactMatch	pactols:pcrt38fL4iXiYf	semapv:UnspecifiedMatching	Teotihuacan Municipality		http://www.wikidata.org/entity/statement/Q3844591-A888234D-D1CB-40B3-83BA-0181490C13AB	
+wd:Q388059	skos:exactMatch	pactols:pcrtWwM8SQYyfS	semapv:UnspecifiedMatching	Tozeur Governorate		http://www.wikidata.org/entity/statement/Q388059-6AB86DB7-9FAC-4417-9445-57AA06941201	
+wd:Q3881916	skos:exactMatch	pactols:pcrt58630sc835	semapv:UnspecifiedMatching	Olorgesailie		http://www.wikidata.org/entity/statement/Q3881916-42B3BD89-E06C-4BDA-BE36-2888EE15B613	
+wd:Q391215	skos:exactMatch	pactols:pcrt9Sb0KDtlJL	semapv:UnspecifiedMatching	Volubilis		http://www.wikidata.org/entity/statement/Q391215-75E8C6AE-FFA8-4A18-B6ED-B35009D00287	
+wd:Q393829	skos:exactMatch	pactols:pcrtGcfvaczK1V	semapv:UnspecifiedMatching	Marsa Matruh		http://www.wikidata.org/entity/statement/Q393829-C7375B31-00C2-497A-9539-24C9F4646E5C	
+wd:Q4536480	skos:exactMatch	pactols:pcrthXDZJUxhJG	semapv:UnspecifiedMatching	languages of the Americas		http://www.wikidata.org/entity/statement/Q4536480-0D2B876E-83D3-46B3-B7D2-6BB3ECBD4C76	
+wd:Q463871	skos:exactMatch	pactols:pcrtdfnNLaLx0y	semapv:UnspecifiedMatching	Lower Egypt		http://www.wikidata.org/entity/statement/Q463871-6AD12B12-03D4-4960-8337-88EFCA0B22BF	
+wd:Q466061	skos:exactMatch	pactols:pcrttoqrxazDSS	semapv:UnspecifiedMatching	Petén Department		http://www.wikidata.org/entity/statement/Q466061-2741D03D-3316-4CDF-8D4E-096199F78604	
+wd:Q466551	skos:exactMatch	pactols:pcrt1igiRH4JSB	semapv:UnspecifiedMatching	Transkei		http://www.wikidata.org/entity/statement/Q466551-68FBDE46-4722-4DE9-93AC-DE58F2052B28	
+wd:Q477968	skos:exactMatch	pactols:pcrtoLggIwzfk0	semapv:UnspecifiedMatching	Gharb-Chrarda-Béni Hssen		http://www.wikidata.org/entity/statement/Q477968-C4618D2C-A6CA-4790-912A-25A68C8570EF	
+wd:Q504661	skos:exactMatch	pactols:pcrtkdx1bEeaMj	semapv:UnspecifiedMatching	Tozeur		http://www.wikidata.org/entity/statement/Q504661-2E3AFFFD-6990-4B1E-B91C-41C0A33316DE	
+wd:Q510579	skos:exactMatch	pactols:26678/pcr9f0dfh40fq1r2c5dv9fx-0	semapv:UnspecifiedMatching	Ilergetes		http://www.wikidata.org/entity/statement/Q510579-93affec9-4b40-43ef-7c3d-6a83b8c1f971	
+wd:Q521174	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtn7p79d9p8nxrs5ck8b91	semapv:UnspecifiedMatching	Weilbach		http://www.wikidata.org/entity/statement/Q521174-07fd5090-49ac-a424-17e9-067de341672c	
+wd:Q535107	skos:exactMatch	pactols:pcrtHNLaSyv0uL	semapv:UnspecifiedMatching	Camilla		http://www.wikidata.org/entity/statement/Q535107-3c103d1e-4bda-0814-15ef-907bbf92c256	
+wd:Q550374	skos:exactMatch	pactols:pcrtWJcJ4S6dS7	semapv:UnspecifiedMatching	South African Republic		http://www.wikidata.org/entity/statement/Q550374-25AAA8EC-C7A5-4394-A6BF-03E8DEAC6EDD	
+wd:Q574469	skos:exactMatch	pactols:pcrtKTrgrPdJa6	semapv:UnspecifiedMatching	Taza		http://www.wikidata.org/entity/statement/Q574469-2C0EF74D-B7D5-47E0-87F2-F22225C371DD	
+wd:Q574853	skos:exactMatch	pactols:pcrtJZmk4G4x3X	semapv:UnspecifiedMatching	Anti-Atlas		http://www.wikidata.org/entity/statement/Q574853-B9EB6083-DBA9-4021-989D-BDBDDF9C5B00	
+wd:Q575245	skos:exactMatch	pactols:pcrtLI3L2MpxLh	semapv:UnspecifiedMatching	Chad Basin		http://www.wikidata.org/entity/statement/Q575245-791AD226-16D0-4DEB-9412-BC53103C317E	
+wd:Q581494	skos:exactMatch	pactols:pcrt3jpfnesw8b	semapv:UnspecifiedMatching	Troezen		http://www.wikidata.org/entity/statement/Q581494-342E7A70-01FB-4A8C-A7B5-1FA2C0D6B20B	
+wd:Q616309	skos:exactMatch	pactols:pcrtsmRTTU7kNp	semapv:UnspecifiedMatching	Aoudaghost		http://www.wikidata.org/entity/statement/Q616309-99E02884-10B4-4245-994A-A23CA9026BB3	
+wd:Q632014	skos:exactMatch	pactols:pcrtzn58RFqg4q	semapv:UnspecifiedMatching	Mid-Atlantic		http://www.wikidata.org/entity/statement/Q632014-f0cf85b1-45f8-477c-3d78-30379c8f163a	
+wd:Q6471038	skos:exactMatch	pactols:pcrtU5DzzzQm0z	semapv:UnspecifiedMatching	Sbeitla		http://www.wikidata.org/entity/statement/Q6471038-F8718414-C16B-46F9-BAD9-C5FFDBF9FDEF	
+wd:Q66065	skos:exactMatch	pactols:pcrt24KDx2TAW2	semapv:UnspecifiedMatching	Sahel		http://www.wikidata.org/entity/statement/Q66065-AC171C6D-D8D7-4B63-A72B-BEEDCA1B8F64	
+wd:Q661343	skos:exactMatch	pactols:26678/pcrt68tnd20n8616rq78r9m4	semapv:UnspecifiedMatching	ramp		http://www.wikidata.org/entity/statement/Q661343-c5a2ceaf-40c3-1512-b68c-4fde6c8d918a	
+wd:Q662263	skos:exactMatch	pactols:pcrt9wqHSbKcJN	semapv:UnspecifiedMatching	Yaxchilan		http://www.wikidata.org/entity/statement/Q662263-D13F1E9D-B8E0-474B-9E3F-8C4E514351D0	
+wd:Q6655437	skos:exactMatch	pactols:pcrtwUWYFpII1m	semapv:UnspecifiedMatching	Abu Simbel		http://www.wikidata.org/entity/statement/Q6655437-40E4EEBA-26FF-4B7B-831D-3C6BBCEE85FB	
+wd:Q72499	skos:exactMatch	pactols:pcrt9fjfoUIPUe	semapv:UnspecifiedMatching	Mediterranean Basin		http://www.wikidata.org/entity/statement/Q72499-A1A09BE4-F3C8-422B-8CC3-BF0A43BA3372	
+wd:Q7265828	skos:exactMatch	pactols:pcrtnuz0hDlRGx	semapv:UnspecifiedMatching	Qaha		http://www.wikidata.org/entity/statement/Q7265828-CF1086CB-B200-46F3-8024-481228EEF615	
+wd:Q734370	skos:exactMatch	pactols:pcrtPfFhAPf1R1	semapv:UnspecifiedMatching	Tuna el-Gebel		http://www.wikidata.org/entity/statement/Q734370-B003AF90-68C3-40BD-8712-5B963189DF00	
+wd:Q739278	skos:exactMatch	pactols:pcrthwYVD5XK9t	semapv:UnspecifiedMatching	Buto		http://www.wikidata.org/entity/statement/Q739278-746A2A89-9FC4-4FD1-B354-4C94DA5C0BC8	
+wd:Q740865	skos:exactMatch	pactols:pcrthMDS6ZtJHl	semapv:UnspecifiedMatching	Wadi Halfa		http://www.wikidata.org/entity/statement/Q740865-420E9633-8786-4F96-99D5-145B88541635	
+wd:Q744424	skos:exactMatch	pactols:26678/pcrtn89jtrhw1002z5mwm8tz	semapv:UnspecifiedMatching	TT8		http://www.wikidata.org/entity/statement/Q744424-7669a540-42e3-3943-de29-864643f24c55	
+wd:Q753895	skos:exactMatch	pactols:pcrtIW8eoyfrtn	semapv:UnspecifiedMatching	Tajín Veracruz		http://www.wikidata.org/entity/statement/Q753895-E9FFB2ED-64B2-4007-B584-9B7965388D25	
+wd:Q755734	skos:exactMatch	pactols:pcrteSNPmKFBkf	semapv:UnspecifiedMatching	Athribis		http://www.wikidata.org/entity/statement/Q755734-DF103173-3C1A-4218-8152-499C0DD48DF5	
+wd:Q755738	skos:exactMatch	pactols:pcrt1IRTWUR7pv	semapv:UnspecifiedMatching	Athribis		http://www.wikidata.org/entity/statement/Q755738-873902E6-BFC1-45A2-BBB5-83D7A6C4DD82	
+wd:Q7623560	skos:exactMatch	pactols:pcrtgMKiRQWSWa	semapv:UnspecifiedMatching	striation		http://www.wikidata.org/entity/statement/Q7623560-48A09934-1EA5-42A9-90DB-BD4065A91D84	
+wd:Q7681888	skos:exactMatch	pactols:pcrtXXtrjlVSNY	semapv:UnspecifiedMatching	Tamuda		http://www.wikidata.org/entity/statement/Q7681888-2F72F9C3-A864-419A-B723-DF70ACAA102A	
+wd:Q794492	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrt4gOIxVwG4V	semapv:UnspecifiedMatching	Adamuz		http://www.wikidata.org/entity/statement/Q794492-83449208-440f-22b3-51a0-3b4f348a2103	
+wd:Q814450	skos:exactMatch	pactols:pcrtyWOupLgAFf	semapv:UnspecifiedMatching	Behbeit el-Hagara		http://www.wikidata.org/entity/statement/Q814450-DF4EC452-EDEB-45E0-9F17-328D5B6678F2	
+wd:Q814982	skos:exactMatch	pactols:pcrtQSGf9P7dc9	semapv:UnspecifiedMatching	Béja		http://www.wikidata.org/entity/statement/Q814982-988AE713-F866-4CDB-B387-76185A24D3B4	
+wd:Q817032	skos:exactMatch	pactols:pcrtxTbmwhPKfx	semapv:UnspecifiedMatching	Roussas		http://www.wikidata.org/entity/statement/Q817032-35AE6A74-02BD-4036-93B0-6F1B0A0A8BF2	
+wd:Q81788	skos:exactMatch	pactols:pcrt0A8mSTtXa4	semapv:UnspecifiedMatching	Giza		http://www.wikidata.org/entity/statement/Q81788-45A59A72-793E-4029-B7A4-67C7A2C7274A	
+wd:Q82601	skos:exactMatch	pactols:pcrt1ftHspVPsy	semapv:UnspecifiedMatching	Tierra del Fuego		http://www.wikidata.org/entity/statement/Q82601-4BEF989D-3FBC-46F4-88CF-74B566945B61	
+wd:Q93259	skos:exactMatch	pactols:pcrtDXx5dUaVvg	semapv:UnspecifiedMatching	Lesser Antilles		http://www.wikidata.org/entity/statement/Q93259-1C1EE231-E245-4ADC-90BD-47563FA7EE7C	
+wd:Q951160	skos:exactMatch	pactols:Stèle de Sargon	semapv:UnspecifiedMatching	Sargon Stele		http://www.wikidata.org/entity/statement/Q951160-17833729-4b1f-03f3-8036-7f2288111b4c	
+wd:Q957052	skos:exactMatch	pactols:pcrtlGfmOXqqmB	semapv:UnspecifiedMatching	Sahel		http://www.wikidata.org/entity/statement/Q957052-584EB62E-179F-4CD9-A1C5-0ECD35C01EF8	
+wd:Q983673	skos:exactMatch	pactols:pcrtpLZH8tRID2	semapv:UnspecifiedMatching	Metlaoui		http://www.wikidata.org/entity/statement/Q983673-F3E87905-2495-4F63-A77A-7AA08AFCFC4D	
+wd:Q1007	skos:exactMatch	pactols:pcrt6mgbRTeK4E	semapv:UnspecifiedMatching	Guinea-Bissau		http://www.wikidata.org/entity/statement/Q1007-3BC66490-0ED3-4071-BBF4-1357598B8389	
+wd:Q1028	skos:exactMatch	pactols:pcrtrOpclKLTBe	semapv:UnspecifiedMatching	Morocco		http://www.wikidata.org/entity/statement/Q1028-770D90F4-A2D7-461B-959B-64A975D2E0D0	
+wd:Q1029	skos:exactMatch	pactols:pcrtQqPijqTGWI	semapv:UnspecifiedMatching	Mozambique		http://www.wikidata.org/entity/statement/Q1029-C04C0690-E19F-45F4-AADD-749700A392BF	
+wd:Q1037	skos:exactMatch	pactols:pcrtHXnebXPiQw	semapv:UnspecifiedMatching	Rwanda		http://www.wikidata.org/entity/statement/Q1037-61A2880A-8E8E-4D9E-9A45-0B293FC08825	
+wd:Q1041	skos:exactMatch	pactols:pcrtInJ8KF9TOH	semapv:UnspecifiedMatching	Senegal		http://www.wikidata.org/entity/statement/Q1041-4512BACF-A8B1-4B39-BA75-6E2F5D8E8843	
+wd:Q1044	skos:exactMatch	pactols:pcrt0z7cVUff6a	semapv:UnspecifiedMatching	Sierra Leone		http://www.wikidata.org/entity/statement/Q1044-A0CA8553-1E84-4AA1-8633-7BFD2D4A98D8	
+wd:Q1049	skos:exactMatch	pactols:pcrt5sVK4yrwZz	semapv:UnspecifiedMatching	Sudan		http://www.wikidata.org/entity/statement/Q1049-EF4B3425-3980-4F58-B803-856F06B3EED2	
+wd:Q1050	skos:exactMatch	pactols:pcrtpGq8HyU2lF	semapv:UnspecifiedMatching	Eswatini		http://www.wikidata.org/entity/statement/Q1050-751A4779-4C67-46F9-AA9E-97F00365CFE6	
+wd:Q11460	skos:exactMatch	pactols:pcrt38MzYdpFr4	semapv:UnspecifiedMatching	clothing		http://www.wikidata.org/entity/statement/Q11460-5EDA97AE-5793-49B6-86AA-98EC616449FB	
+wd:Q12585	skos:exactMatch	pactols:pcrton7VltX5jb	semapv:UnspecifiedMatching	Latin America		http://www.wikidata.org/entity/statement/Q12585-7B8D08C2-512B-47F8-BACA-9BC795D9240E	
+wd:Q1371	skos:exactMatch	pactols:pcrtefD0YrAwc3	semapv:UnspecifiedMatching	West Virginia		http://www.wikidata.org/entity/statement/Q1371-750C3F81-BA46-462E-840A-48E0393C3872	
+wd:Q1384	skos:exactMatch	pactols:pcrt0Ez5Vv3Vm3	semapv:UnspecifiedMatching	New York		http://www.wikidata.org/entity/statement/Q1384-B20A593E-BA9D-4C5B-9E09-59649F424355	
+wd:Q1400	skos:exactMatch	pactols:pcrtGFLAWgSypG	semapv:UnspecifiedMatching	Pennsylvania		http://www.wikidata.org/entity/statement/Q1400-EB7C4112-CCD1-43C3-8C57-D13DF6AB9279	
+wd:Q1428	skos:exactMatch	pactols:pcrtLKhZgS4vKB	semapv:UnspecifiedMatching	Georgia		http://www.wikidata.org/entity/statement/Q1428-A3B89383-E319-4EF4-AEE1-79DAC0695CC3	
+wd:Q1439	skos:exactMatch	pactols:pcrtI2tESKbaXd	semapv:UnspecifiedMatching	Texas		http://www.wikidata.org/entity/statement/Q1439-85AEBD2C-6E06-4CDB-AAAC-18AA25B6725B	
+wd:Q1454	skos:exactMatch	pactols:pcrtwn8oNj6xcD	semapv:UnspecifiedMatching	North Carolina		http://www.wikidata.org/entity/statement/Q1454-C13DF7CE-8AEC-46A2-9FCF-EC59CB0A54D7	
+wd:Q1522	skos:exactMatch	pactols:pcrt5PbzXNgL8H	semapv:UnspecifiedMatching	New Mexico		http://www.wikidata.org/entity/statement/Q1522-3EECBBE7-36C4-4962-ACDE-904295230FF6	
+wd:Q1563	skos:exactMatch	pactols:pcrtl8lzUywv6j	semapv:UnspecifiedMatching	Havana		http://www.wikidata.org/entity/statement/Q1563-8171B030-6BAC-46E7-BAE3-33BCB946387D	
+wd:Q1603	skos:exactMatch	pactols:pcrto2JFoO2VU1	semapv:UnspecifiedMatching	Kentucky		http://www.wikidata.org/entity/statement/Q1603-D64120F6-442B-4057-8E63-A46B38DEE4B2	
+wd:Q16559	skos:exactMatch	pactols:pcrtULsiQipL97	semapv:UnspecifiedMatching	Austin		http://www.wikidata.org/entity/statement/Q16559-E3CAD7E7-C242-432A-A477-C356425AB830	
+wd:Q1904	skos:exactMatch	pactols:pcrt0JYpxo44F5	semapv:UnspecifiedMatching	Ontario		http://www.wikidata.org/entity/statement/Q1904-428618DF-BBD5-4D32-9D0F-A1185E2BEE28	
+wd:Q23788	skos:exactMatch	pactols:pcrtO7GpbkoNtg	semapv:UnspecifiedMatching	botijo		http://www.wikidata.org/entity/statement/Q23788-0F70C71E-C888-48EC-B504-59D3F6B1DB8F	
+wd:Q262	skos:exactMatch	pactols:pcrtrKM89SlfLJ	semapv:UnspecifiedMatching	Algeria		http://www.wikidata.org/entity/statement/Q262-4E4744C7-DEC8-47F2-B418-5965C01364EB	
+wd:Q26237	skos:exactMatch	pactols:pcrtTW8hXKtWbH	semapv:UnspecifiedMatching	Hawara		http://www.wikidata.org/entity/statement/Q26237-514BC9C3-FEB8-4BE4-80FE-BB633A18E52F	
+wd:Q26399	skos:exactMatch	pactols:pcrttB2qx8dmLV	semapv:UnspecifiedMatching	Hoggar Mountains		http://www.wikidata.org/entity/statement/Q26399-5E0BE030-727F-4297-ACEB-3CA727A91FD7	
+wd:Q27241	skos:exactMatch	pactols:pcrtXD98oy01hO	semapv:UnspecifiedMatching	Kelibia		http://www.wikidata.org/entity/statement/Q27241-C8C77A74-A923-45B3-9998-6588D4B32A04	
+wd:Q27381	skos:exactMatch	pactols:26678/pcrtpze3dTRtBg	semapv:UnspecifiedMatching	North Africa		http://www.wikidata.org/entity/statement/Q27381-2415302A-F61F-4619-996F-113CE207F70C	
+wd:Q27394	skos:exactMatch	pactols:pcrtJKBBcLYrn8	semapv:UnspecifiedMatching	Southern Africa		http://www.wikidata.org/entity/statement/Q27394-59ABD7B2-231B-44D1-B5F1-CD393049C009	
+wd:Q27611	skos:exactMatch	pactols:26678/pcrt0uXOJ3WcfU	semapv:UnspecifiedMatching	Central America		http://www.wikidata.org/entity/statement/Q27611-B1063583-B313-4DED-A908-A9D9ED07CA54	
+wd:Q30669	skos:exactMatch	pactols:pcrtmB0SL6BgTv	semapv:UnspecifiedMatching	Sohag Governorate		http://www.wikidata.org/entity/statement/Q30669-5CFE214B-3F95-4626-A3A4-DC9236F74286	
+wd:Q31070	skos:exactMatch	pactols:pcrtcSp7M1oAOE	semapv:UnspecifiedMatching	Suez Governorate		http://www.wikidata.org/entity/statement/Q31070-FEEBFCF7-4D9D-4BD7-B5C3-32A920407DAA	
+wd:Q37017	skos:exactMatch	pactols:pcrtH7YvgPV7d4	semapv:UnspecifiedMatching	face		http://www.wikidata.org/entity/statement/Q37017-AC37C3C4-9765-4FCA-B15B-0ABA16446126	
+wd:Q38664	skos:exactMatch	pactols:pcrtcaWlgGcrus	semapv:UnspecifiedMatching	Mazghuna		http://www.wikidata.org/entity/statement/Q38664-F73FFB7E-E318-413B-AE0C-F7C0C6D695D3	
+wd:Q419	skos:exactMatch	pactols:pcrtSMmiyBS6Wx	semapv:UnspecifiedMatching	Peru		http://www.wikidata.org/entity/statement/Q419-03DFE038-B34B-43E3-AC48-80955C9E05ED	
+wd:Q43255	skos:exactMatch	pactols:pcrtnlBKWH7Pks	semapv:UnspecifiedMatching	Rio Grande do Norte		http://www.wikidata.org/entity/statement/Q43255-BDADE0CB-D55F-4ACE-9C34-E2D3026130FF	
+wd:Q43533	skos:exactMatch	pactols:pcrtWVvY71zoYP	semapv:UnspecifiedMatching	crystal		http://www.wikidata.org/entity/statement/Q43533-73975EEE-8E04-4B86-A499-FA78A7B4D40C	
+wd:Q44012	skos:exactMatch	pactols:pcrtXqkxNSxx0Q	semapv:UnspecifiedMatching	Trois-Rivières		http://www.wikidata.org/entity/statement/Q44012-60CA43B3-D414-412C-BD36-6C887236F73D	
+wd:Q46325	skos:exactMatch	pactols:pcrt1J9KsmXkhL	semapv:UnspecifiedMatching	Sfax		http://www.wikidata.org/entity/statement/Q46325-D92E5FE8-C982-4D33-B75A-70C8FB779C68	
+wd:Q46733	skos:exactMatch	pactols:pcrtG5e0f9EPZX	semapv:UnspecifiedMatching	Darfur		http://www.wikidata.org/entity/statement/Q46733-A6AF12EB-8629-4BC7-A7E8-DFE3437CC5A6	
+wd:Q5736	skos:exactMatch	pactols:pcrtgPM8fahk5T	semapv:UnspecifiedMatching	Amarna		http://www.wikidata.org/entity/statement/Q5736-2BE0FC99-757D-449C-B877-91F180A41258	
+wd:Q5832	skos:exactMatch	pactols:pcrtWoP4ssjB1Z	semapv:UnspecifiedMatching	Axum		http://www.wikidata.org/entity/statement/Q5832-2EB43EB7-BC3A-40CE-B4BD-42233352B5D5	
+wd:Q6250	skos:exactMatch	pactols:pcrtwuYtjfSBTS	semapv:UnspecifiedMatching	Western Sahara		http://www.wikidata.org/entity/statement/Q6250-4919193A-AEFC-4D8E-84D9-A19422F42581	
+wd:Q657	skos:exactMatch	pactols:pcrtejapIjEb80	semapv:UnspecifiedMatching	Chad		http://www.wikidata.org/entity/statement/Q657-F2D8AE30-7E7F-480C-A8E1-3C8D894BC580	
+wd:Q6583	skos:exactMatch	pactols:pcrt3TmSQhfBSN	semapv:UnspecifiedMatching	Sahara		http://www.wikidata.org/entity/statement/Q6583-EEC57391-D17E-48CD-BD87-AE5B5EB6AEAA	
+wd:Q730	skos:exactMatch	pactols:pcrtZWuSSRxcgy	semapv:UnspecifiedMatching	Suriname		http://www.wikidata.org/entity/statement/Q730-72BAD9BC-8C36-4ABC-984C-DA3C6EAF2C48	
+wd:Q790	skos:exactMatch	pactols:pcrtX8Wmcv957j	semapv:UnspecifiedMatching	Haiti		http://www.wikidata.org/entity/statement/Q790-B32EC30D-F96C-4AA2-BAB4-CA9AE8BB8235	
+wd:Q792	skos:exactMatch	pactols:pcrtje1Od1KB51	semapv:UnspecifiedMatching	El Salvador		http://www.wikidata.org/entity/statement/Q792-53C92B98-20A4-448F-82A5-B06CBA185DAD	
+wd:Q800	skos:exactMatch	pactols:pcrtB8dqd283LX	semapv:UnspecifiedMatching	Costa Rica		http://www.wikidata.org/entity/statement/Q800-C9206905-A636-4F74-AA96-181A77CF71E9	
+wd:Q924	skos:exactMatch	pactols:pcrtDuPtmX5smL	semapv:UnspecifiedMatching	Tanzania		http://www.wikidata.org/entity/statement/Q924-3777E72D-65DB-4EC0-8E99-1840DA96434D	
+wd:Q929	skos:exactMatch	pactols:pcrt9wie6NTdWK	semapv:UnspecifiedMatching	Central African Republic		http://www.wikidata.org/entity/statement/Q929-D6B3416B-13D9-458F-A8B8-063DDDD8BC52	
+wd:Q948	skos:exactMatch	pactols:pcrtH7IE58jBBJ	semapv:UnspecifiedMatching	Tunisia		http://www.wikidata.org/entity/statement/Q948-56A1A503-14A0-4EC6-A5DA-95A9850A1929	
+wd:Q953	skos:exactMatch	pactols:pcrtNZrERQpfMZ	semapv:UnspecifiedMatching	Zambia		http://www.wikidata.org/entity/statement/Q953-0B97ED31-28C4-4CCE-B3B6-6AC2AB6710CC	
+wd:Q962	skos:exactMatch	pactols:pcrt01tcHKprM6	semapv:UnspecifiedMatching	Benin		http://www.wikidata.org/entity/statement/Q962-0F696E6D-3345-468F-93CC-63655B788385	
+wd:Q9683	skos:exactMatch	pactols:https://ark.frantiq.fr/ark:/26678/pcrtrt1bnkknf5x0t33z2tpt	semapv:UnspecifiedMatching	Tang dynasty		http://www.wikidata.org/entity/statement/Q9683-c97de154-4b3c-503e-fc02-69958b4c20c5	
+wd:Q983	skos:exactMatch	pactols:pcrtEp0OPq5jKk	semapv:UnspecifiedMatching	Equatorial Guinea		http://www.wikidata.org/entity/statement/Q983-A9D6FC72-1AF6-432A-BCE9-A985C6D52D14	
+wd:Q986	skos:exactMatch	pactols:pcrtR378EIPOmc	semapv:UnspecifiedMatching	Eritrea		http://www.wikidata.org/entity/statement/Q986-D86324CF-A0EE-44D0-933A-6E39F7776468	

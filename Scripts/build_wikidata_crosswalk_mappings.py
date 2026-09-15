@@ -4,7 +4,7 @@ Harvest Wikidata <-> {AAT, FISH x3, PACTOLS, GND} identifier crosswalks via
 SPARQL against the public Wikidata Query Service, and write them out as
 SSSOM TSV+YAML files, one per target vocabulary.
 
-    pip install requests
+    pip install requests rdflib
 
 Run:
     python3 build_wikidata_mappings.py             # AAT/FISHx3/PACTOLS, then GND
@@ -44,12 +44,26 @@ archaeology-relevant):
 from __future__ import annotations
 
 import csv
+import logging
 import re
 import sys
 import time
+import warnings
+from collections import defaultdict
 from pathlib import Path
 
 import requests
+import rdflib
+
+# The local Pactols dumps (load_pactols_scheme_index) contain malformed
+# xsd:date literals (e.g. "2023-10" with no day) and at least one bogus
+# wikitext-style "URI" (a stray [[File:...]] image link). rdflib logs a full
+# traceback for the former and warnings.warn()s for the latter — neither is
+# fatal, both are just noise from the source data, not from this script.
+# Same suppression as build_vocabulary_mappings.py's DAI/FISH/Pactols parsing.
+logging.getLogger("rdflib.term").setLevel(logging.ERROR)
+logging.getLogger("rdflib").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore", message=".*does not look like a valid URI.*")
 
 
 # ---------------------------------------------------------------------------
@@ -57,6 +71,13 @@ import requests
 # ---------------------------------------------------------------------------
 
 MAPPINGS_DIR = Path("/home/mempellaenger/repos/thesaurusscience/Mappings")
+
+# Local Pactols RDF/XML dumps — same folder build_vocabulary_mappings.py
+# scans (its VOCABULARIES["Pactols"]["path"]), used here to resolve each
+# harvested ARK id to Lieux vs Sujets (see load_pactols_scheme_index()).
+# ASSUMPTION: adjust if your actual layout differs — it's the one constant
+# doing that work.
+PACTOLS_DIR = MAPPINGS_DIR.parent / "Pactols"
 
 WDQS_ENDPOINT = "https://query.wikidata.org/sparql"
 # Wikidata expects a descriptive User-Agent identifying the tool + a contact —
@@ -79,10 +100,12 @@ REQUEST_TIMEOUT = 90            # seconds
 POLITE_DELAY = 2.0              # seconds between requests — raised from 1.0, given the real
                                  # request counts turned out much higher than expected
 
-# CREATOR_ID must be a CURIE (e.g. "orcid:0000-..."), not a bare URL — same
-# constraint we hit and confirmed with `sssom validate` on the ARIADNE files.
-CREATOR_ID = "TODO:orcid_or_custom_curie"
-LICENSE = "TODO:choose_a_license"
+# Filled in with the same values already established in build_aat_mappings.py
+# / build_vocabulary_mappings.py (was "TODO:..." here before — this script
+# hadn't been run for real yet).
+CREATOR_ID = "orcid:0009-0001-5183-1635"
+CREATOR_LABEL = "Lasse Mempel-Länger"
+LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 MAPPING_PROVIDER = "https://www.wikidata.org/"
 
 GITHUB_TOOL_URL = "https://github.com/LasseMempel/thesaurusscience/blob/main/Scripts/build_wikidata_mappings.py"
@@ -90,12 +113,33 @@ GITHUB_TOOL_URL = "https://github.com/LasseMempel/thesaurusscience/blob/main/Scr
 WD_ENTITY_NS = "http://www.wikidata.org/entity/"
 WD_STATEMENT_NS = "http://www.wikidata.org/entity/statement/"
 
+# ---------------------------------------------------------------------------
+# Scheme identifiers + filename slugs — kept IDENTICAL to SCHEME_REGISTRY in
+# build_vocabulary_mappings.py (and to build_aat_mappings.py's slugs) so all
+# three scripts' output reads the same way. Wikidata/GND aren't natively
+# skos:Concept/skos:ConceptScheme, so their "scheme" here is each
+# vocabulary's BARTOC registration (same choice made in the other two
+# scripts) — deliberately distinct from their CONCEPT namespace (WD_ENTITY_NS
+# / GND_NAMESPACE below), which is what actually compacts subject_id/
+# object_id CURIEs. Double-check these two against how your Cocoda instance
+# actually has Wikidata/GND registered before publishing.
+WIKIDATA_SCHEME_URI = "http://bartoc.org/en/node/1940"
+GND_SCHEME_URI = "http://bartoc.org/en/node/430"
+
+# Pactols scheme URIs — identical to SCHEME_REGISTRY's pactols_lieux/
+# pactols_sujets entries in build_vocabulary_mappings.py.
+PACTOLS_SCHEME_URIS = {
+    "pactols_lieux": "https://ark.frantiq.fr/ark:/26678/th17",
+    "pactols_sujets": "https://ark.frantiq.fr/ark:/26678/TH_1",
+}
+
 # One SSSOM mapping set per external vocabulary. All treated as skos:exactMatch
 # by default per your call — overridden per-row only when a P4390 qualifier
 # says otherwise (see P4390_TO_SKOS below).
 PROPERTY_CONFIG = {
     "aat": {
         "pid": "P1014",
+        "slug": "aat",
         "prefix": "aat",
         "namespace": "http://vocab.getty.edu/aat/",
         "title": "Wikidata to Getty AAT",
@@ -103,42 +147,62 @@ PROPERTY_CONFIG = {
     },
     "fish_objects": {
         "pid": "P10674",
+        "slug": "ads_mda_obj",
         "prefix": "fishobj",
         "namespace": "http://purl.org/heritagedata/schemes/mda_obj/concepts/",
         "title": "Wikidata to FISH Archaeological Objects Thesaurus",
-        "object_source": "http://purl.org/heritagedata/schemes/mda_obj/concepts/",
+        # FIX: this was pointing at the concept-container path
+        # (".../concepts/"), not the scheme itself — object_source should be
+        # the same scheme URI used everywhere else for this scheme (matches
+        # SCHEME_REGISTRY's "ads_mda_obj" in build_vocabulary_mappings.py).
+        # The concept-container path stays in "namespace" below, which is
+        # what actually compacts object_id CURIEs.
+        "object_source": "http://purl.org/heritagedata/schemes/mda_obj",
     },
     "fish_evidence": {
         "pid": "P14370",
+        # UNCONFIRMED: "eh_evd" was never in the list of 5 FISH schemes you
+        # originally gave me (eh_tbm, eh_com, mda_obj, eh_tmc, eh_tmt2) — this
+        # entry predates that list. I'm assuming it follows the same
+        # "schemes/<code>" URL pattern as the other five, but haven't
+        # verified this scheme URI actually resolves/exists. Check it (and
+        # add it to build_vocabulary_mappings.py's SCHEME_REGISTRY too if
+        # confirmed) before relying on this file.
+        "slug": "ads_eh_evd",
         "prefix": "fishevd",
         "namespace": "http://purl.org/heritagedata/schemes/eh_evd/concepts/",
         "title": "Wikidata to FISH Evidence Thesaurus",
-        "object_source": "http://purl.org/heritagedata/schemes/eh_evd/concepts/",
+        "object_source": "http://purl.org/heritagedata/schemes/eh_evd",
     },
     "fish_monument_types": {
         "pid": "P14369",
+        "slug": "ads_eh_tmt2",
         "prefix": "fishtmt",
         "namespace": "http://purl.org/heritagedata/schemes/eh_tmt2/concepts/",
         "title": "Wikidata to FISH Monument Types Thesaurus",
-        "object_source": "http://purl.org/heritagedata/schemes/eh_tmt2/concepts/",
+        # Same FIX as fish_objects above.
+        "object_source": "http://purl.org/heritagedata/schemes/eh_tmt2",
     },
     "pactols": {
         "pid": "P4212",
         "prefix": "pactols",
         "namespace": "https://ark.frantiq.fr/ark:/26678/",
         "title": "Wikidata to PACTOLS",
-        # TODO: PACTOLS covers >1 scheme (Sujets/TH_1, Lieux/th17, ...) merged
-        # under one ARK namespace — P4212 doesn't distinguish which. If you
-        # need per-scheme separation later, that has to come from resolving
-        # each id against your local Pactols RDF (skos:inScheme), not from
-        # Wikidata alone.
-        "object_source": "https://ark.frantiq.fr/ark:/26678/",
+        # No "slug"/"object_source" here on purpose: PACTOLS covers >1 scheme
+        # (Sujets/TH_1, Lieux/th17, ...) merged under one ARK namespace —
+        # P4212 doesn't distinguish which. Handled specially by
+        # build_and_write_pactols_mapping(), which resolves each harvested id
+        # against the local Pactols RDF dumps (PACTOLS_DIR) instead — see
+        # load_pactols_scheme_index().
     },
 }
 
 GND_PID = "P227"
 GND_PREFIX = "gnd"
-GND_NAMESPACE = "https://d-nb.info/gnd/"
+GND_NAMESPACES = (
+    "https://d-nb.info/gnd/",
+    "http://d-nb.info/gnd/",
+)
 
 # P4390 (mapping relation type) qualifier values -> SKOS predicate local name.
 # Verified against the property's actual one-of constraint on Wikidata.
@@ -155,7 +219,17 @@ BASE_PREFIX_MAP = {
     "wds": WD_STATEMENT_NS,
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "semapv": "https://w3id.org/semapv/vocab/",
+    "github": "https://github.com/",
+    # Compacts subject_source/object_source values that are themselves
+    # BARTOC scheme URIs (WIKIDATA_SCHEME_URI/GND_SCHEME_URI above), e.g.
+    # "bartoc:en/node/1940" instead of the bare URI.
+    "bartoc": "http://bartoc.org/",
 }
+
+# MappingSet-level slots CURIE-compacted at write time — same fix already
+# applied in build_aat_mappings.py/build_vocabulary_mappings.py after we hit
+# this with `sssom validate` on the ARIADNE files.
+SSSOM_CURIE_SLOTS = {"mapping_tool_id", "subject_source", "object_source"}
 
 SSSOM_HEADER_SLOT_ORDER = [
     "mapping_set_id", "mapping_set_title", "mapping_set_description",
@@ -270,6 +344,14 @@ def fetch_labels(qids, langs=None):
 # versions into one shared module)
 # ---------------------------------------------------------------------------
 
+def mapping_set_id(filename, rel_dir=""):
+    sub = f"{rel_dir}/" if rel_dir else ""
+    return (
+        "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/"
+        f"main/Mappings/{sub}{filename}"
+    )
+
+
 def to_curie(uri, prefix_map):
     best_prefix, best_ns = None, ""
     for prefix, ns in prefix_map.items():
@@ -287,6 +369,8 @@ def write_sssom_tsv(rows, out_path, meta, prefix_map):
         for slot in SSSOM_HEADER_SLOT_ORDER:
             value = meta.get(slot)
             if value:
+                if slot in SSSOM_CURIE_SLOTS:
+                    value = to_curie(value, prefix_map)
                 f.write(f"#{slot}: {value}\n")
 
         fields = ["subject_id", "predicate_id", "object_id", "mapping_justification",
@@ -339,8 +423,13 @@ def build_and_write_property_mapping(name, cfg):
             "comment": "",
         })
 
+    # Every remaining PROPERTY_CONFIG entry (not "pactols", which is handled
+    # separately by build_and_write_pactols_mapping) has a confirmed slug.
+    slug = cfg["slug"]
+    filename = f"wikidata_{slug}.sssom.tsv"
+
     meta = {
-        "mapping_set_id": f"https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wikidata_{name}.sssom.tsv",
+        "mapping_set_id": mapping_set_id(filename),
         "mapping_set_title": cfg["title"],
         "mapping_set_description": (
             f"Wikidata items carrying a {cfg['pid']} identifier, harvested via SPARQL "
@@ -348,11 +437,11 @@ def build_and_write_property_mapping(name, cfg):
         ),
         "license": LICENSE,
         "creator_id": CREATOR_ID,
-        "creator_label": "Lasse Mempel-Länger",
+        "creator_label": CREATOR_LABEL,
         "mapping_provider": MAPPING_PROVIDER,
         "mapping_tool": "build_wikidata_mappings.py",
         "mapping_tool_id": GITHUB_TOOL_URL,
-        "subject_source": WD_ENTITY_NS,
+        "subject_source": WIKIDATA_SCHEME_URI,
         "object_source": cfg["object_source"],
         "comment": (
             "predicate_id defaults to skos:exactMatch (per project decision); overridden "
@@ -361,9 +450,155 @@ def build_and_write_property_mapping(name, cfg):
         ),
     }
 
-    out_path = MAPPINGS_DIR / f"wikidata_{name}.sssom.tsv"
+    out_path = MAPPINGS_DIR / filename
     write_sssom_tsv(out_rows, out_path, meta, prefix_map)
     return out_rows
+
+
+# ---------------------------------------------------------------------------
+# Track: PACTOLS (split Lieux/Sujets via local RDF dumps)
+# ---------------------------------------------------------------------------
+
+def detect_pactols_scheme_from_filename(filename: str) -> str | None:
+    """Classifies a local Pactols dump file by name (e.g.
+    'Pactols_Lieux_th17_*.rdf' / 'Pactols_Sujets_TH_1_*.rdf') — identical
+    convention to build_aat_mappings.py/build_vocabulary_mappings.py.
+    ASSUMPTION based on that naming convention; adjust the patterns below if
+    your real filenames differ."""
+    name = filename.lower()
+    if "lieux" in name or "th17" in name:
+        return "pactols_lieux"
+    if "sujets" in name or "th_1" in name or "th1" in name:
+        return "pactols_sujets"
+    return None
+
+
+def load_pactols_scheme_index(pactols_dir: Path) -> dict[str, str]:
+    """Mirrors build_aat_mappings.py's load_pactols_graph(): parses every
+    local Pactols dump file and remembers, for every concept URI (subject)
+    found in it, which scheme that FILE represents (Pactols concept URIs
+    don't reveal scheme themselves — see PACTOLS_SCHEME_URIS). Returns
+    {concept_uri: scheme_uri}."""
+    index: dict[str, str] = {}
+    files = sorted(pactols_dir.glob("*.rdf")) + sorted(pactols_dir.glob("*.xml"))
+
+    if not files:
+        print(f"[WARN][PACTOLS] no .rdf/.xml files found in {pactols_dir} — "
+              "every id will end up unresolved (unknown_target/wikidata_pactols.sssom.tsv)")
+        return index
+
+    for f in files:
+        scheme_key = detect_pactols_scheme_from_filename(f.name)
+        if scheme_key is None:
+            print(f"[WARN][PACTOLS] can't tell Lieux vs Sujets from filename '{f.name}' "
+                  "— concepts from this file won't be indexed")
+            continue
+        scheme_uri = PACTOLS_SCHEME_URIS[scheme_key]
+        try:
+            g = rdflib.Graph()
+            g.parse(str(f), format="xml")
+            for s in g.subjects():
+                index.setdefault(str(s), scheme_uri)
+            print(f"[PACTOLS] indexed {f.name}: {len(g)} triples, scheme={scheme_key}")
+        except Exception as e:  # noqa: BLE001 — surfacing parse errors as warnings, not fatal
+            print(f"[WARN][PACTOLS] failed to parse {f.name}: {e}")
+
+    print(f"[PACTOLS] scheme index: {len(index)} concept URI(s) from {len(files)} file(s)")
+    return index
+
+
+def build_and_write_pactols_mapping(cfg: dict) -> list[dict]:
+    print(f"\n=== {cfg['title']} ({cfg['pid']}) ===")
+    raw_rows = harvest_property(cfg["pid"])
+    print(f"  {len(raw_rows)} statements harvested")
+    if not raw_rows:
+        return []
+
+    qids = {row["item"]["value"].rsplit("/", 1)[-1] for row in raw_rows}
+    labels = fetch_labels(qids)
+
+    prefix_map = dict(BASE_PREFIX_MAP)
+    prefix_map[cfg["prefix"]] = cfg["namespace"]
+    prefix_map.update(PACTOLS_SCHEME_URIS)  # pactols_lieux:/pactols_sujets: for subject/object_source
+
+    scheme_index = load_pactols_scheme_index(PACTOLS_DIR)
+
+    # Group by resolved scheme_uri; None = not found in either local dump.
+    groups: dict[str | None, list[dict]] = defaultdict(list)
+    unresolved_ids: set[str] = set()
+
+    for row in raw_rows:
+        item_uri = row["item"]["value"]
+        qid = item_uri.rsplit("/", 1)[-1]
+        ext_id = row["id"]["value"]
+        object_uri = cfg["namespace"] + ext_id
+        statement_uri = row["statement"]["value"]
+        mapping_relation_qid = (row.get("mappingRelation", {}).get("value", "") or "").rsplit("/", 1)[-1] or None
+        predicate = P4390_TO_SKOS.get(mapping_relation_qid, "exactMatch")
+
+        scheme_uri = scheme_index.get(object_uri)
+        if scheme_uri is None:
+            unresolved_ids.add(ext_id)
+
+        groups[scheme_uri].append({
+            "subject_id": to_curie(item_uri, prefix_map),
+            "predicate_id": f"skos:{predicate}",
+            "object_id": to_curie(object_uri, prefix_map),
+            "mapping_justification": "semapv:UnspecifiedMatching",
+            "subject_label": labels.get(qid, ""),
+            "object_label": "",
+            "mapping_source": statement_uri,
+            "comment": "",
+        })
+
+    if unresolved_ids:
+        print(f"[WARN][PACTOLS] {len(unresolved_ids)} ARK id(s) not found in the local dump "
+              "index (folder missing, id genuinely absent from both dumps, or from a file that "
+              "didn't classify) — written to unknown_target/wikidata_pactols.sssom.tsv. "
+              "Example id(s): " + ", ".join(sorted(unresolved_ids)[:5]))
+
+    scheme_uri_to_slug = {v: k for k, v in PACTOLS_SCHEME_URIS.items()}
+    all_rows: list[dict] = []
+
+    for scheme_uri, rows in groups.items():
+        slug = scheme_uri_to_slug.get(scheme_uri)
+        rel_dir = "" if slug else "unknown_target"
+        out_dir = MAPPINGS_DIR / rel_dir if rel_dir else MAPPINGS_DIR
+        filename = f"wikidata_{slug or 'pactols'}.sssom.tsv"
+
+        meta = {
+            "mapping_set_id": mapping_set_id(filename, rel_dir),
+            "mapping_set_title": cfg["title"] + (f" ({slug})" if slug else " (scheme unresolved)"),
+            "mapping_set_description": (
+                f"Wikidata items carrying a {cfg['pid']} identifier, harvested via SPARQL "
+                f"from {WDQS_ENDPOINT}"
+                + (f", restricted to ids found in the local Pactols {slug} dump."
+                   if slug else
+                   ", for ids not found in either local Pactols dump (Lieux/Sujets) — "
+                   "scheme could not be determined from PACTOLS_DIR.")
+            ),
+            "license": LICENSE,
+            "creator_id": CREATOR_ID,
+            "creator_label": CREATOR_LABEL,
+            "mapping_provider": MAPPING_PROVIDER,
+            "mapping_tool": "build_wikidata_mappings.py",
+            "mapping_tool_id": GITHUB_TOOL_URL,
+            "subject_source": WIKIDATA_SCHEME_URI,
+            "object_source": scheme_uri,
+            "comment": (
+                "predicate_id defaults to skos:exactMatch (per project decision); overridden "
+                "per-row only when the Wikidata statement carries a mapping relation type "
+                "(P4390) qualifier. mapping_source is the specific Wikidata statement URI. "
+                "Lieux/Sujets scheme determined by looking up each id against local Pactols "
+                "RDF dumps (load_pactols_scheme_index(), PACTOLS_DIR) — not from Wikidata "
+                "itself, since P4212 doesn't distinguish the two schemes."
+            ),
+        }
+        out_path = out_dir / filename
+        write_sssom_tsv(rows, out_path, meta, prefix_map)
+        all_rows.extend(rows)
+
+    return all_rows
 
 
 # ---------------------------------------------------------------------------
@@ -426,8 +661,11 @@ def scan_existing_mappings_for_qids_and_gnd(mappings_dir):
                 uri = _expand_curie(val, prefix_map)
                 if uri.startswith(WD_ENTITY_NS):
                     qids.add(uri[len(WD_ENTITY_NS):])
-                elif uri.startswith(GND_NAMESPACE):
-                    gnd_ids.add(uri[len(GND_NAMESPACE):])
+                elif any(uri.startswith(ns) for ns in GND_NAMESPACES):
+                    for ns in GND_NAMESPACES:
+                        if uri.startswith(ns):
+                            gnd_ids.add(uri[len(ns):])
+                            break
     print(f"  found {len(qids)} distinct Wikidata QIDs, {len(gnd_ids)} distinct GND ids")
     return qids, gnd_ids
 
@@ -517,8 +755,9 @@ def build_and_write_gnd_mapping():
             "comment": "",
         })
 
+    filename = "wikidata_gnd.sssom.tsv"
     meta = {
-        "mapping_set_id": "https://raw.githubusercontent.com/LasseMempel/thesaurusscience/main/Mappings/wikidata_gnd.sssom.tsv",
+        "mapping_set_id": mapping_set_id(filename),
         "mapping_set_title": "Wikidata to GND (archaeology-relevant subset)",
         "mapping_set_description": (
             "Wikidata<->GND (P227) crosswalk, restricted to Wikidata items and GND "
@@ -529,18 +768,18 @@ def build_and_write_gnd_mapping():
         ),
         "license": LICENSE,
         "creator_id": CREATOR_ID,
-        "creator_label": "Lasse Mempel-Länger",
+        "creator_label": CREATOR_LABEL,
         "mapping_provider": MAPPING_PROVIDER,
         "mapping_tool": "build_wikidata_mappings.py",
         "mapping_tool_id": GITHUB_TOOL_URL,
-        "subject_source": WD_ENTITY_NS,
-        "object_source": GND_NAMESPACE,
+        "subject_source": WIKIDATA_SCHEME_URI,
+        "object_source": GND_SCHEME_URI,
         "comment": (
             "predicate_id defaults to skos:exactMatch; overridden per-row when the "
             "Wikidata statement carries a mapping relation type (P4390) qualifier."
         ),
     }
-    write_sssom_tsv(out_rows, MAPPINGS_DIR / "wikidata_gnd.sssom.tsv", meta, prefix_map)
+    write_sssom_tsv(out_rows, MAPPINGS_DIR / filename, meta, prefix_map)
     return out_rows
 
 
@@ -553,7 +792,10 @@ def main():
 
     total = 0
     for name, cfg in PROPERTY_CONFIG.items():
-        rows = build_and_write_property_mapping(name, cfg)
+        if name == "pactols":
+            rows = build_and_write_pactols_mapping(cfg)
+        else:
+            rows = build_and_write_property_mapping(name, cfg)
         total += len(rows)
         time.sleep(POLITE_DELAY)
 

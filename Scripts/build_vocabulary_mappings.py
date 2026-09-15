@@ -184,16 +184,20 @@ RDF_EXTENSIONS = {".rdf", ".xml", ".owl", ".ttl"}
 # scheme on each side is looked up on its own merits.
 #
 # Fields per entry:
-#   scheme_uri:     the conceptScheme identifier for subject_source/
+#   scheme_uri:     the canonical conceptScheme identifier for subject_source/
 #                   object_source
 #   label:          human-readable name (mapping_set_title, description)
 #   provider:       mapping_provider URI (ROR etc.), or None if unknown
-#   concept_root:   namespace root — if a concept URI startswith this, it
-#                   belongs to this scheme. Omit when concept URIs don't
-#                   reveal scheme membership at all (Pactols).
+#   concept_root:   canonical namespace root used for CURIE compaction. If a
+#                   concept URI startswith this, it belongs to this scheme.
+#                   Omit when concept URIs don't reveal scheme membership at
+#                   all (Pactols).
+#   concept_roots:  optional list of alternate/legacy namespace roots that
+#                   identify the same scheme. These are used for scheme
+#                   resolution but do not replace the canonical concept_root.
 #   concept_marker: substring anywhere in a concept URI implying this scheme
 #                   (used for FISH, whose scheme lives in the path but isn't
-#                   a clean startswith prefix); tried after concept_root.
+#                   a clean startswith prefix); tried after concept_root(s).
 #
 # Extend this directly as you curate Mappings/unknown_target/
 # _namespace_roots_to_curate.tsv, or add entries for Dariah/Wortnetz
@@ -206,7 +210,7 @@ RDF_EXTENSIONS = {".rdf", ".xml", ".owl", ".ttl"}
 # the identifier coli-conc/Cocoda itself uses as fromScheme/toScheme for
 # them. Double-check these two against how your Cocoda instance actually
 # has them registered before publishing.
-SCHEME_REGISTRY: dict[str, dict[str, str | None]] = {
+SCHEME_REGISTRY: dict[str, dict[str, object]] = {
     "aat": {
         "scheme_uri": "http://vocab.getty.edu/aat/",
         "label": "Getty Art & Architecture Thesaurus (AAT)",
@@ -223,14 +227,14 @@ SCHEME_REGISTRY: dict[str, dict[str, str | None]] = {
         "scheme_uri": "http://bartoc.org/en/node/430",
         "label": "Gemeinsame Normdatei (GND)",
         "provider": None,
-        # KNOWN GAP: some older/third-party dumps use "http://d-nb.info/gnd/"
-        # (no "s"). A single registry entry -> single concept_root, so an
-        # http:// GND URI won't match this and will fall through to unknown/
-        # unresolved (logged in _namespace_roots_to_curate.tsv) rather than
-        # silently mis-grouping. Normalize those URIs to https:// during
-        # extraction if that shows up a lot, rather than adding a second
-        # "gnd" entry (one CURIE prefix can only carry one namespace).
+        # concept_root is the canonical namespace used for CURIE compaction.
+        # concept_roots contains additional legacy/alternate namespace forms
+        # that identify the same vocabulary and should resolve to this entry.
         "concept_root": "https://d-nb.info/gnd/",
+        "concept_roots": [
+            "https://d-nb.info/gnd/",
+            "http://d-nb.info/gnd/",
+        ],
     },
     "dai": {
         "scheme_uri": "http://thesauri.dainst.org/scheme",
@@ -356,18 +360,29 @@ UNRESOLVED_NAMESPACE_COUNTS: dict[str, int] = defaultdict(int)
 
 
 def resolve_scheme_via_namespace(uri: str) -> str | None:
-    """Resolve `uri`'s concept scheme from SCHEME_REGISTRY: longest-prefix
-    match against concept_root entries first (same algorithm as to_curie()),
-    then substring match against concept_marker entries (for FISH-style
-    URIs where the scheme isn't a clean prefix). Returns None if nothing
-    registered matches."""
+    """Resolve `uri`'s concept scheme from SCHEME_REGISTRY.
+
+    Matches the longest registered concept namespace. A registry entry may
+    provide multiple equivalent namespace forms via ``concept_roots`` while
+    ``concept_root`` remains the canonical namespace used for CURIE compaction.
+    Falls back to substring matching via ``concept_marker`` for vocabularies
+    whose scheme is not expressed as a clean URI prefix.
+    """
     best_root = ""
     best_scheme = None
+
     for entry in SCHEME_REGISTRY.values():
-        root = entry.get("concept_root")
-        if root and uri.startswith(root) and len(root) > len(best_root):
-            best_root = root
-            best_scheme = entry["scheme_uri"]
+        roots = []
+        canonical_root = entry.get("concept_root")
+        if canonical_root:
+            roots.append(canonical_root)
+        roots.extend(entry.get("concept_roots", []) or [])
+
+        for root in roots:
+            if root and uri.startswith(root) and len(root) > len(best_root):
+                best_root = root
+                best_scheme = entry["scheme_uri"]
+
     if best_scheme:
         return best_scheme
 
@@ -377,6 +392,35 @@ def resolve_scheme_via_namespace(uri: str) -> str | None:
             return entry["scheme_uri"]
 
     return None
+
+
+def canonicalize_scheme_uri(scheme_uri: str | None) -> str | None:
+    """Map an explicit skos:inScheme URI to the canonical registered scheme URI.
+
+    This is important for legacy namespace forms: an explicit
+    ``skos:inScheme`` should not bypass namespace alias resolution merely
+    because the value uses an alternate URI form.
+    """
+    if not scheme_uri:
+        return None
+
+    for entry in SCHEME_REGISTRY.values():
+        canonical = entry["scheme_uri"]
+
+        # A registry scheme URI is already canonical.
+        if scheme_uri == canonical:
+            return canonical
+
+        roots = []
+        canonical_root = entry.get("concept_root")
+        if canonical_root:
+            roots.append(canonical_root)
+        roots.extend(entry.get("concept_roots", []) or [])
+
+        if any(scheme_uri.startswith(root) for root in roots if root):
+            return canonical
+
+    return scheme_uri
 
 
 def resolve_pactols_scheme_from_file(source_file_name: str) -> str | None:
@@ -881,13 +925,22 @@ def process_folder(
 
             if explicit_subject_schemes:
                 report["subjects_with_explicit_inScheme"] += 1
-                if file_default_scheme and any(s != file_default_scheme for s in explicit_subject_schemes):
+
+                canonical_subject_schemes = sorted({
+                    canonicalize_scheme_uri(s) for s in explicit_subject_schemes
+                })
+
+                if file_default_scheme and any(
+                    s != canonicalize_scheme_uri(file_default_scheme)
+                    for s in canonical_subject_schemes
+                ):
                     print(
                         f"[ERROR][SCHEME COLLISION] {subject}: explicit inScheme "
                         f"{explicit_subject_schemes} overrides file-level candidate "
                         f"{file_default_scheme}"
                     )
-                subject_scheme = explicit_subject_schemes[0]
+
+                subject_scheme = canonical_subject_schemes[0]
                 SCHEME_ORIGIN_FOLDER.setdefault(subject_scheme, folder_name)
             elif default_ok:
                 report["file_default_scheme_used"] += 1
@@ -901,7 +954,12 @@ def process_folder(
             explicit_object_schemes = sorted(
                 str(o) for o in graph.objects(obj, SKOS.inScheme)
             )
-            object_scheme = explicit_object_schemes[0] if explicit_object_schemes else None
+            canonical_object_schemes = sorted({
+                canonicalize_scheme_uri(s) for s in explicit_object_schemes
+            })
+            object_scheme = (
+                canonical_object_schemes[0] if canonical_object_schemes else None
+            )
             if object_scheme:
                 SCHEME_ORIGIN_FOLDER.setdefault(object_scheme, folder_name)
 
