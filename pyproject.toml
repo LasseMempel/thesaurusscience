@@ -5,10 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.11.2",
     "pdfplumber>=0.11.10",
     "prettytable>=3.18.0",
     "pyoxigraph>=0.5.9",
+    "rapidfuzz>=3.14.6",
     "rdflib>=7.6.0",
+    "seaborn>=0.13.2",
+    "sentence-transformers>=6.0.1",
     "sparqlwrapper>=2.0.0",
     "sssom>=0.4.21",
 ]
