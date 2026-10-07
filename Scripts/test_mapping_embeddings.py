@@ -490,6 +490,48 @@ def sensitivity_table(results: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def sensitivity_close_vs_exact(results: dict) -> pd.DataFrame:
+    """Sensitivity to MATCH STRENGTH itself, not just relatedness: AUC/d of
+    separating closeMatch from exactMatch directly (exactMatch = positive
+    class), instead of true-mapping vs. random pair. A technique can score
+    well in sensitivity_table() (good at 'related vs. not') while doing
+    poorly here (bad at telling close from exact) — that gap is exactly
+    what matters for recommending a graded SKOS predicate rather than a
+    binary match/no-match call.
+    """
+    model_names = list(results.keys())
+    rows = []
+
+    base_used = results[model_names[0]]["df_used"]
+    close = base_used[base_used["predicate"] == "closeMatch"]
+    exact = base_used[base_used["predicate"] == "exactMatch"]
+    str_cols = [c for c in base_used.columns if c.startswith("similarity_str_")]
+    for col in str_cols:
+        c_vals = close[col].dropna().to_numpy()
+        e_vals = exact[col].dropna().to_numpy()
+        if len(c_vals) == 0 or len(e_vals) == 0:
+            continue
+        auc, d = _auc_and_d(e_vals, c_vals)  # positive class = exactMatch
+        rows.append({"technique": col.replace("similarity_str_", ""),
+                     "predicate": "closeVsExact", "auc": auc, "cohens_d": d})
+
+    for name in model_names:
+        used = results[name]["df_used"]
+        close = used[used["predicate"] == "closeMatch"]
+        exact = used[used["predicate"] == "exactMatch"]
+        for ltype in ("full", "norm"):
+            col = f"similarity_emb_{ltype}"
+            c_vals = close[col].dropna().to_numpy()
+            e_vals = exact[col].dropna().to_numpy()
+            if len(c_vals) == 0 or len(e_vals) == 0:
+                continue
+            auc, d = _auc_and_d(e_vals, c_vals)
+            rows.append({"technique": f"emb_{name}_{ltype}",
+                         "predicate": "closeVsExact", "auc": auc, "cohens_d": d})
+
+    return pd.DataFrame(rows)
+
+
 def plot_sensitivity_bars(sens_df: pd.DataFrame, out_path: Path) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(15, 6))
     for ax, metric, title in zip(
@@ -582,6 +624,15 @@ def main() -> None:
     print("\n=== sensitivity (AUC / Cohen's d) vs. random-pair null ===")
     print(sens_df.pivot(index="technique", columns="predicate", values="auc").round(3))
     plot_sensitivity_bars(sens_df, out_dir / "sensitivity_bars.png")
+
+    # Separate comparison: can each technique tell closeMatch from
+    # exactMatch directly, rather than just "related vs. random"?
+    sens_close_vs_exact = sensitivity_close_vs_exact(results)
+    sens_close_vs_exact.to_csv(out_dir / "sensitivity_close_vs_exact.csv", index=False)
+    print("\n=== sensitivity (AUC / Cohen's d): closeMatch vs. exactMatch directly ===")
+    print(sens_close_vs_exact.set_index("technique")[["auc", "cohens_d"]].round(3)
+          .sort_values("auc", ascending=False))
+    plot_sensitivity_bars(sens_close_vs_exact, out_dir / "sensitivity_bars_close_vs_exact.png")
 
 
 if __name__ == "__main__":
